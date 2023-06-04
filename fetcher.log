@@ -291,3 +291,36 @@
 [2023-06-05 00:43:31] INFO root fetch - main [MainThread]: End processing [pigeonsai]: success
 [2023-06-05 00:43:32] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy]: success
 [2023-06-05 00:43:32] INFO root fetch - main [MainThread]: Store serial: [18369154]
+[2023-06-05 00:48:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369154]
+[2023-06-05 00:48:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 00:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cspot
+[2023-06-05 00:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2023-06-05 00:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: classwork
+[2023-06-05 00:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-selve-new
+[2023-06-05 00:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helloPypi-topic
+[2023-06-05 00:48:40] INFO root fetch - processPackages [helloPypi-topic]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 00:48:40] INFO root fetch - processPackages [python-selve-new]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-06-05 00:48:40] INFO root fetch - processPackages [cspot]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-05 00:48:40] INFO root fetch - processPackages [classwork]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 00:48:40] INFO root fetch - processPackages [openllm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 00:48:40] INFO root fetch - processPackages [cspot]: Downloading https://files.pythonhosted.org/packages/8c/e2/e2276c59b92cdf7440911a9ffa09a87501c598a8d618fb28e52fd2c3a713/cspot-1.0.6.tar.gz
+[2023-06-05 00:48:40] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/36/cd/20848bcb4c9b68c31a099ce94b6edef3d995143454f89cbb9db8e7b7c99f/openllm-0.0.8.tar.gz
+[2023-06-05 00:48:40] INFO root fetch - processPackages [classwork]: Downloading https://files.pythonhosted.org/packages/77/e4/c52111c1dacffcb1c22decbb639703b3cfcf146747306047e9318b150548/classwork-0.0.4.tar.gz
+[2023-06-05 00:48:40] INFO root fetch - processPackages [python-selve-new]: Downloading https://files.pythonhosted.org/packages/08/d4/aeab4af122df404a36af2bc9a40eb2cdbe8a7145cb71cd4fcb68a1a55452/python-selve-new-2.2.5.tar.gz
+[2023-06-05 00:48:40] WARNING root fetch - processPackages [openllm]: Skipping package: exceeds size limit 11989091>=10485760
+[2023-06-05 00:48:40] INFO root fetch - main [MainThread]: End processing [openllm] error
+[2023-06-05 00:48:40] INFO root fetch - processPackages [helloPypi-topic]: Downloading https://files.pythonhosted.org/packages/a4/6a/0ffe4f33b87c57e30f07c4aafcff06f975a5fd18ea4fb5a1410b7f96d073/helloPypi-topic-0.0.6.tar.gz
+[2023-06-05 00:48:41] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-05 00:48:41] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.2.4.tar.gz tmp/python-selve-new-2.2.5.tar.gz --markdown 20230605/p/python-selve-new/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-06-05 00:48:41] INFO root fetch - processPackages [helloPypi-topic]: executing diffoscope
+[2023-06-05 00:48:41] INFO root fetch - processPackages [helloPypi-topic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helloPypi-topic-0.0.5.tar.gz tmp/helloPypi-topic-0.0.6.tar.gz --markdown 20230605/h/helloPypi-topic/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 00:48:41] INFO root fetch - processPackages [classwork]: executing diffoscope
+[2023-06-05 00:48:41] INFO root fetch - processPackages [classwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classwork-0.0.3.tar.gz tmp/classwork-0.0.4.tar.gz --markdown 20230605/c/classwork/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 00:48:41] INFO root fetch - processPackages [cspot]: Downloading https://files.pythonhosted.org/packages/e3/80/965dccf96d140cce3ef584d0b28a7b0f6a97dce3c15a82b9cac40f490aac/cspot-1.0.7.tar.gz
+[2023-06-05 00:48:41] INFO root fetch - processPackages [cspot]: executing diffoscope
+[2023-06-05 00:48:41] INFO root fetch - processPackages [cspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cspot-1.0.6.tar.gz tmp/cspot-1.0.7.tar.gz --markdown 20230605/c/cspot/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-05 00:48:42] INFO root fetch - main [MainThread]: End processing [helloPypi-topic]: success
+[2023-06-05 00:48:42] INFO root fetch - main [MainThread]: End processing [classwork]: success
+[2023-06-05 00:48:42] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-05 00:48:42] INFO root fetch - main [MainThread]: End processing [cspot]: success
+[2023-06-05 00:48:42] INFO root fetch - main [MainThread]: Store serial: [18369169]
