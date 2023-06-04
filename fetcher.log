@@ -683,3 +683,65 @@
 [2023-06-05 01:47:49] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
 [2023-06-05 01:47:50] INFO root fetch - main [MainThread]: End processing [plato-learn]: success
 [2023-06-05 01:47:50] INFO root fetch - main [MainThread]: Store serial: [18369352]
+[2023-06-05 01:52:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369352]
+[2023-06-05 01:52:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cursesplus
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: playgroundrl-envs
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: west
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notebook-copilot
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: west
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lung-analysis-pipeline
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reasoner-pydantic
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astartes
+[2023-06-05 01:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: playgroundrl-envs
+[2023-06-05 01:52:59] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 01:52:59] INFO root fetch - processPackages [cursesplus]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-05 01:52:59] INFO root fetch - processPackages [west]: New version: [1.1.0a1] Old Version: [1.1.0]
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 01:52:59] INFO root fetch - processPackages [reasoner-pydantic]: New version: [4.0.8] Old Version: [4.0.7]
+[2023-06-05 01:52:59] INFO root fetch - processPackages [lung-analysis-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 01:52:59] INFO root fetch - processPackages [astartes]: New version: [1.0.1] Old Version: [1.0.0rc1]
+[2023-06-05 01:52:59] INFO root fetch - processPackages [west]: New version: [1.1.0a1] Old Version: [1.1.0]
+[2023-06-05 01:52:59] WARNING root fetch - processPackages [notebook-copilot]: Skipping, unable to determine old version
+[2023-06-05 01:52:59] INFO root fetch - main [MainThread]: End processing [notebook-copilot] error
+[2023-06-05 01:52:59] INFO root fetch - processPackages [lung-analysis-pipeline]: executing diffoscope
+[2023-06-05 01:52:59] INFO root fetch - processPackages [lung-analysis-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lung_analysis_pipeline-0.0.8.tar.gz tmp/lung_analysis_pipeline-0.0.9.tar.gz --markdown 20230605/l/lung-analysis-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/f4/ea/e366c8dbe29b01e0acf15b14fe2dfdf9bc88e50f92e3501fd5bceb8f17ac/playgroundrl_envs-0.0.4.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [west]: Downloading https://files.pythonhosted.org/packages/f5/5f/703817873bacfa4b1f796b1b6da5df7a26033d57a2e307b1d6f9c94344a9/west-1.1.0.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/f4/ea/e366c8dbe29b01e0acf15b14fe2dfdf9bc88e50f92e3501fd5bceb8f17ac/playgroundrl_envs-0.0.4.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [west]: Downloading https://files.pythonhosted.org/packages/f5/5f/703817873bacfa4b1f796b1b6da5df7a26033d57a2e307b1d6f9c94344a9/west-1.1.0.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [astartes]: Downloading https://files.pythonhosted.org/packages/49/93/b4cba5be71d7a88ae2bd7d5f1c99c4de2d1d6439c62d2e0c6dcf51294e55/astartes-1.0.0rc1.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/d7/07/3bde73f2606b92c23352e583b65746e32dd3d7220a2b4bd7571988e5f30e/omnata_plugin_runtime-0.1.4.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-05 01:52:59] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.3.tar.gz tmp/omnata_plugin_runtime-0.1.4.tar.gz --markdown 20230605/o/omnata-plugin-runtime/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 01:52:59] INFO root fetch - processPackages [west]: executing diffoscope
+[2023-06-05 01:52:59] INFO root fetch - processPackages [west]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/west-1.1.0.tar.gz tmp/west-1.1.0a1.tar.gz --markdown 20230605/w/west/1.1.0-1.1.0a1/diff.md --exclude *.pyd
+[2023-06-05 01:52:59] INFO root fetch - processPackages [west]: executing diffoscope
+[2023-06-05 01:52:59] INFO root fetch - processPackages [west]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/west-1.1.0.tar.gz tmp/west-1.1.0a1.tar.gz --markdown 20230605/w/west/1.1.0-1.1.0a1/diff.md --exclude *.pyd
+[2023-06-05 01:52:59] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/ac/bf/661b22b8e16501536dc9e82e3d44b657064fb26426656cd39b91f5ef9c8b/cursesplus-2.3.2.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [reasoner-pydantic]: Downloading https://files.pythonhosted.org/packages/3e/83/8d58810c9bf70cdad25635f49b74f8156b177aff292be280eee2be9e53f8/reasoner-pydantic-4.0.8.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/bd/7a/24318baf474c10679136df5ad4cfe8ef79c9ea18e67b075f4bb43b48987f/playgroundrl_envs-0.0.5.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/bd/7a/24318baf474c10679136df5ad4cfe8ef79c9ea18e67b075f4bb43b48987f/playgroundrl_envs-0.0.5.tar.gz
+[2023-06-05 01:52:59] INFO root fetch - processPackages [cursesplus]: executing diffoscope
+[2023-06-05 01:52:59] INFO root fetch - processPackages [cursesplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesplus-2.3.1.tar.gz tmp/cursesplus-2.3.2.tar.gz --markdown 20230605/c/cursesplus/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-05 01:52:59] INFO root fetch - processPackages [reasoner-pydantic]: executing diffoscope
+[2023-06-05 01:52:59] INFO root fetch - processPackages [reasoner-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner-pydantic-4.0.7.tar.gz tmp/reasoner-pydantic-4.0.8.tar.gz --markdown 20230605/r/reasoner-pydantic/4.0.7-4.0.8/diff.md --exclude *.pyd
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: executing diffoscope
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl_envs-0.0.4.tar.gz tmp/playgroundrl_envs-0.0.5.tar.gz --markdown 20230605/p/playgroundrl-envs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: executing diffoscope
+[2023-06-05 01:52:59] INFO root fetch - processPackages [playgroundrl-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl_envs-0.0.4.tar.gz tmp/playgroundrl_envs-0.0.5.tar.gz --markdown 20230605/p/playgroundrl-envs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 01:53:00] INFO root fetch - processPackages [astartes]: Downloading https://files.pythonhosted.org/packages/75/4c/d3ff2ca3936f8ca6b6d5faf680082ca29cdd1577df3d8ba5a6a87f55fc74/astartes-1.0.1.tar.gz
+[2023-06-05 01:53:00] INFO root fetch - processPackages [astartes]: executing diffoscope
+[2023-06-05 01:53:00] INFO root fetch - processPackages [astartes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astartes-1.0.0rc1.tar.gz tmp/astartes-1.0.1.tar.gz --markdown 20230605/a/astartes/1.0.0rc1-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 01:53:01] INFO root fetch - main [MainThread]: End processing [west]: success
+[2023-06-05 01:53:01] INFO root fetch - main [MainThread]: End processing [reasoner-pydantic]: success
+[2023-06-05 01:53:01] INFO root fetch - main [MainThread]: End processing [cursesplus]: success
+[2023-06-05 01:53:01] INFO root fetch - main [MainThread]: End processing [playgroundrl-envs]: success
+[2023-06-05 01:53:01] INFO root fetch - main [MainThread]: End processing [playgroundrl-envs]: success
+[2023-06-05 01:53:01] INFO root fetch - main [MainThread]: End processing [astartes]: success
+[2023-06-05 01:53:01] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-05 01:53:02] INFO root fetch - main [MainThread]: End processing [lung-analysis-pipeline]: success
+[2023-06-05 01:53:02] INFO root fetch - main [MainThread]: End processing [west]: success
+[2023-06-05 01:53:02] INFO root fetch - main [MainThread]: Store serial: [18369381]
