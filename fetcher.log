@@ -86,3 +86,35 @@
 [2023-06-05 00:11:35] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy]: success
 [2023-06-05 00:11:36] INFO root fetch - main [MainThread]: End processing [ptpapi]: success
 [2023-06-05 00:11:36] INFO root fetch - main [MainThread]: Store serial: [18369027]
+[2023-06-05 00:16:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369027]
+[2023-06-05 00:16:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-05 00:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autobahn
+[2023-06-05 00:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlenvironments
+[2023-06-05 00:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datascope-experiments
+[2023-06-05 00:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notionlib
+[2023-06-05 00:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threads4image
+[2023-06-05 00:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elonmusk
+[2023-06-05 00:16:44] WARNING root fetch - processPackages [threads4image]: Skipping, unable to determine old version
+[2023-06-05 00:16:44] INFO root fetch - main [MainThread]: End processing [threads4image] error
+[2023-06-05 00:16:44] INFO root fetch - processPackages [datascope-experiments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 00:16:44] ERROR root fetch - processPackages [rlenvironments]: Unable to get metadata: No such project 'rlenvironments'
+[2023-06-05 00:16:44] INFO root fetch - main [MainThread]: End processing [rlenvironments] error
+[2023-06-05 00:16:44] INFO root fetch - processPackages [notionlib]: New version: [0.3.dev0] Old Version: [0.2.dev0]
+[2023-06-05 00:16:44] INFO root fetch - processPackages [autobahn]: New version: [23.6.1] Old Version: [23.1.2]
+[2023-06-05 00:16:44] WARNING root fetch - processPackages [elonmusk]: Skipping, unable to determine old version
+[2023-06-05 00:16:44] INFO root fetch - main [MainThread]: End processing [elonmusk] error
+[2023-06-05 00:16:44] INFO root fetch - processPackages [datascope-experiments]: executing diffoscope
+[2023-06-05 00:16:44] INFO root fetch - processPackages [datascope-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-experiments-0.0.8.tar.gz tmp/datascope-experiments-0.0.9.tar.gz --markdown 20230605/d/datascope-experiments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 00:16:44] INFO root fetch - processPackages [autobahn]: Downloading https://files.pythonhosted.org/packages/53/99/b6e0ffa0e8bafe9dfae1c9ab46d44d07317cbf297fbf8f07aff8a80e5bd8/autobahn-23.1.2.tar.gz
+[2023-06-05 00:16:45] INFO root fetch - processPackages [notionlib]: Downloading https://files.pythonhosted.org/packages/83/e7/1fc8c4961f47b511f2cc23803f73f65cd5ab065e8a913871bc9237c415dd/notionlib-0.3.dev0.tar.gz
+[2023-06-05 00:16:45] INFO root fetch - processPackages [notionlib]: executing diffoscope
+[2023-06-05 00:16:45] INFO root fetch - processPackages [notionlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notionlib-0.2.dev0.tar.gz tmp/notionlib-0.3.dev0.tar.gz --markdown 20230605/n/notionlib/0.2.dev0-0.3.dev0/diff.md --exclude *.pyd
+[2023-06-05 00:16:45] INFO root fetch - processPackages [autobahn]: Downloading https://files.pythonhosted.org/packages/dd/49/239715f7c1a59e2cf6c85418f74d5aefb5db1f4fc4e66dff153f25c01125/autobahn-23.6.1.tar.gz
+[2023-06-05 00:16:45] INFO root fetch - processPackages [autobahn]: executing diffoscope
+[2023-06-05 00:16:45] INFO root fetch - processPackages [autobahn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autobahn-23.1.2.tar.gz tmp/autobahn-23.6.1.tar.gz --markdown 20230605/a/autobahn/23.1.2-23.6.1/diff.md --exclude *.pyd
+[2023-06-05 00:16:45] ERROR root fetch - processPackages [autobahn]: Diffoscope failed: Error: error creating container storage: the container name "peaceful_wu" is already in use by "c13960dfccea54c1e6e1e237f5948e659cf4aa03eded5e644d6062e6a4954021". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-05 00:16:45] INFO root fetch - main [MainThread]: End processing [autobahn] error
+[2023-06-05 00:16:46] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
+[2023-06-05 00:16:46] INFO root fetch - main [MainThread]: End processing [notionlib]: success
+[2023-06-05 00:16:46] INFO root fetch - main [MainThread]: Store serial: [18369047]
