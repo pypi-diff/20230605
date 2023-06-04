@@ -264,3 +264,30 @@
 [2023-06-05 00:38:20] INFO root fetch - main [MainThread]: End processing [siegeapi]: success
 [2023-06-05 00:38:21] INFO root fetch - main [MainThread]: End processing [siat]: success
 [2023-06-05 00:38:21] INFO root fetch - main [MainThread]: Store serial: [18369137]
+[2023-06-05 00:43:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369137]
+[2023-06-05 00:43:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 00:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pigeonsai
+[2023-06-05 00:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metabolabpy
+[2023-06-05 00:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtmetabolabpy
+[2023-06-05 00:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Serialization504
+[2023-06-05 00:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kelpie-personal-trainer
+[2023-06-05 00:43:30] INFO root fetch - processPackages [qtmetabolabpy]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-06-05 00:43:30] INFO root fetch - processPackages [metabolabpy]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-06-05 00:43:30] WARNING root fetch - processPackages [Serialization504]: Skipping, unable to determine old version
+[2023-06-05 00:43:30] INFO root fetch - main [MainThread]: End processing [Serialization504] error
+[2023-06-05 00:43:30] INFO root fetch - processPackages [pigeonsai]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 00:43:30] INFO root fetch - processPackages [kelpie-personal-trainer]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-05 00:43:30] INFO root fetch - processPackages [metabolabpy]: Downloading https://files.pythonhosted.org/packages/ab/32/e1a86aa724aabef3e01f3e432abe2c8ea8a3b1805c71f8bf8e801262ed92/metabolabpy-0.8.7.tar.gz
+[2023-06-05 00:43:30] WARNING root fetch - processPackages [metabolabpy]: Skipping package: exceeds size limit 12237881>=10485760
+[2023-06-05 00:43:30] INFO root fetch - main [MainThread]: End processing [metabolabpy] error
+[2023-06-05 00:43:30] INFO root fetch - processPackages [kelpie-personal-trainer]: Downloading https://files.pythonhosted.org/packages/58/c0/6da90393be91a9c3c8678df38ecceb428fe1c7f6728dab4059a508f85151/kelpie_personal_trainer-0.2.4.tar.gz
+[2023-06-05 00:43:30] INFO root fetch - processPackages [pigeonsai]: Downloading https://files.pythonhosted.org/packages/a8/7e/2539c8d266d8c8af6477a13272755855205bb99c7626b7bb99218f3bfca2/pigeonsai-0.0.5.tar.gz
+[2023-06-05 00:43:30] WARNING root fetch - processPackages [kelpie-personal-trainer]: Skipping package: exceeds size limit 18724014>=10485760
+[2023-06-05 00:43:30] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
+[2023-06-05 00:43:30] INFO root fetch - processPackages [pigeonsai]: executing diffoscope
+[2023-06-05 00:43:30] INFO root fetch - processPackages [pigeonsai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonsai-0.0.4.tar.gz tmp/pigeonsai-0.0.5.tar.gz --markdown 20230605/p/pigeonsai/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 00:43:30] INFO root fetch - processPackages [qtmetabolabpy]: executing diffoscope
+[2023-06-05 00:43:30] INFO root fetch - processPackages [qtmetabolabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmetabolabpy-0.8.7.tar.gz tmp/qtmetabolabpy-0.8.9.tar.gz --markdown 20230605/q/qtmetabolabpy/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-06-05 00:43:31] INFO root fetch - main [MainThread]: End processing [pigeonsai]: success
+[2023-06-05 00:43:32] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy]: success
+[2023-06-05 00:43:32] INFO root fetch - main [MainThread]: Store serial: [18369154]
