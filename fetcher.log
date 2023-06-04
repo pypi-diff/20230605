@@ -525,3 +525,27 @@
 [2023-06-05 01:21:54] INFO root fetch - main [MainThread]: End processing [api-console-solver]: success
 [2023-06-05 01:21:55] INFO root fetch - main [MainThread]: End processing [pbt]: success
 [2023-06-05 01:21:55] INFO root fetch - main [MainThread]: Store serial: [18369266]
+[2023-06-05 01:26:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369266]
+[2023-06-05 01:27:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 01:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fxn
+[2023-06-05 01:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-oasis4
+[2023-06-05 01:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: altimate-dataminion
+[2023-06-05 01:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hosgdSims
+[2023-06-05 01:27:03] INFO root fetch - processPackages [altimate-dataminion]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-05 01:27:03] INFO root fetch - processPackages [django-oasis4]: New version: [1.1.2a1] Old Version: [1.1.2a0]
+[2023-06-05 01:27:03] WARNING root fetch - processPackages [hosgdSims]: Skipping, unable to determine old version
+[2023-06-05 01:27:03] INFO root fetch - processPackages [fxn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 01:27:03] INFO root fetch - main [MainThread]: End processing [hosgdSims] error
+[2023-06-05 01:27:04] INFO root fetch - processPackages [altimate-dataminion]: Downloading https://files.pythonhosted.org/packages/a8/83/8746ef7519955d9f7699d63ae26a6d8ab514890ef131c427287fb3663110/altimate_dataminion-0.0.7.tar.gz
+[2023-06-05 01:27:04] INFO root fetch - processPackages [django-oasis4]: Downloading https://files.pythonhosted.org/packages/63/34/f5c4e57af29037f7c40e282e0c03a7701fe2f1bb39814f6cc001b70ef5ba/django-oasis4-1.1.2a1.tar.gz
+[2023-06-05 01:27:04] INFO root fetch - processPackages [fxn]: Downloading https://files.pythonhosted.org/packages/83/0a/476760db9cac6b1baac6f1d0b7736e79d64d8a18e9dea83ec6b9eb32d820/fxn-0.0.9.tar.gz
+[2023-06-05 01:27:04] INFO root fetch - processPackages [altimate-dataminion]: executing diffoscope
+[2023-06-05 01:27:04] INFO root fetch - processPackages [altimate-dataminion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altimate_dataminion-0.0.6.tar.gz tmp/altimate_dataminion-0.0.7.tar.gz --markdown 20230605/a/altimate-dataminion/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-05 01:27:04] INFO root fetch - processPackages [fxn]: executing diffoscope
+[2023-06-05 01:27:04] INFO root fetch - processPackages [fxn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fxn-0.0.8.tar.gz tmp/fxn-0.0.9.tar.gz --markdown 20230605/f/fxn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 01:27:04] INFO root fetch - processPackages [django-oasis4]: executing diffoscope
+[2023-06-05 01:27:04] INFO root fetch - processPackages [django-oasis4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-1.1.2a0.tar.gz tmp/django-oasis4-1.1.2a1.tar.gz --markdown 20230605/d/django-oasis4/1.1.2a0-1.1.2a1/diff.md --exclude *.pyd
+[2023-06-05 01:27:05] INFO root fetch - main [MainThread]: End processing [fxn]: success
+[2023-06-05 01:27:05] INFO root fetch - main [MainThread]: End processing [altimate-dataminion]: success
+[2023-06-05 01:27:05] INFO root fetch - main [MainThread]: End processing [django-oasis4]: success
+[2023-06-05 01:27:05] INFO root fetch - main [MainThread]: Store serial: [18369280]
