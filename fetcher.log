@@ -149,3 +149,55 @@
 [2023-06-05 00:21:56] INFO root fetch - main [MainThread]: End processing [roughsets-base]: success
 [2023-06-05 00:21:57] INFO root fetch - main [MainThread]: End processing [lung-analysis-pipeline]: success
 [2023-06-05 00:21:57] INFO root fetch - main [MainThread]: Store serial: [18369062]
+[2023-06-05 00:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369062]
+[2023-06-05 00:27:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-05 00:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-selve-new
+[2023-06-05 00:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supy
+[2023-06-05 00:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qiskit
+[2023-06-05 00:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystog
+[2023-06-05 00:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idem-aws
+[2023-06-05 00:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pystog
+[2023-06-05 00:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: billgates
+[2023-06-05 00:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rlenvironments
+[2023-06-05 00:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linustorvalds
+[2023-06-05 00:27:05] INFO root fetch - processPackages [python-selve-new]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-05 00:27:05] INFO root fetch - processPackages [idem-aws]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-05 00:27:05] INFO root fetch - processPackages [qiskit]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-05 00:27:05] WARNING root fetch - processPackages [rlenvironments]: Skipping, unable to determine old version
+[2023-06-05 00:27:05] INFO root fetch - main [MainThread]: End processing [rlenvironments] error
+[2023-06-05 00:27:05] INFO root fetch - processPackages [pystog]: New version: [1.0.0] Old Version: [0.3.8rc2]
+[2023-06-05 00:27:05] INFO root fetch - processPackages [pystog]: New version: [1.0.0] Old Version: [0.3.8rc2]
+[2023-06-05 00:27:05] INFO root fetch - processPackages [supy]: New version: [2023.6.3.dev0] Old Version: [2023.5.26.dev0]
+[2023-06-05 00:27:05] WARNING root fetch - processPackages [billgates]: Skipping, unable to determine old version
+[2023-06-05 00:27:05] INFO root fetch - main [MainThread]: End processing [billgates] error
+[2023-06-05 00:27:05] WARNING root fetch - processPackages [linustorvalds]: Skipping, unable to determine old version
+[2023-06-05 00:27:05] INFO root fetch - main [MainThread]: End processing [linustorvalds] error
+[2023-06-05 00:27:05] INFO root fetch - processPackages [pystog]: Downloading https://files.pythonhosted.org/packages/8d/88/74acf7c4f800aa608b4e8e5e5bd5ce2f507f6606af8cf60eb3f50be3844f/pystog-0.3.8rc2.tar.gz
+[2023-06-05 00:27:05] INFO root fetch - processPackages [pystog]: Downloading https://files.pythonhosted.org/packages/8d/88/74acf7c4f800aa608b4e8e5e5bd5ce2f507f6606af8cf60eb3f50be3844f/pystog-0.3.8rc2.tar.gz
+[2023-06-05 00:27:05] INFO root fetch - processPackages [idem-aws]: Downloading https://files.pythonhosted.org/packages/83/a4/1de76b8b4155b84dcf0ecbda9357ba8671abd95f8eaa61a9ed3b5d23026c/idem-aws-2.0.0.tar.gz
+[2023-06-05 00:27:05] INFO root fetch - processPackages [qiskit]: Downloading https://files.pythonhosted.org/packages/10/40/649695b08abcd5174e41d960ce7937a51743a731d8b2f4c527cded0e259b/qiskit-0.8.1.tar.gz
+[2023-06-05 00:27:05] INFO root fetch - processPackages [python-selve-new]: Downloading https://files.pythonhosted.org/packages/89/7a/e0666066a525f5a80ce08c7a3e14fd1b2ce727877c39cf34229b9196e349/python-selve-new-2.2.4.tar.gz
+[2023-06-05 00:27:05] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-05 00:27:05] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.2.3.tar.gz tmp/python-selve-new-2.2.4.tar.gz --markdown 20230605/p/python-selve-new/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-05 00:27:05] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/dc/d9/e7016c5d432eb9634780aa201c5ccde9c44d9a2e3838a4ad3dcf796b9c6e/supy-2023.6.3.dev0-cp39-cp39-win_amd64.whl
+[2023-06-05 00:27:05] INFO root fetch - processPackages [idem-aws]: Downloading https://files.pythonhosted.org/packages/67/0f/9ff1b29d08c83c1308cba66d2157abb2f0fb3be81f2bebbee7201c3b3a07/idem-aws-2.1.0.tar.gz
+[2023-06-05 00:27:05] INFO root fetch - processPackages [pystog]: Downloading https://files.pythonhosted.org/packages/72/be/a781af88c423366896e94afa3aa94503bb04e0def5ed37ecad9a274bad45/pystog-1.0.0.tar.gz
+[2023-06-05 00:27:05] INFO root fetch - processPackages [pystog]: Downloading https://files.pythonhosted.org/packages/72/be/a781af88c423366896e94afa3aa94503bb04e0def5ed37ecad9a274bad45/pystog-1.0.0.tar.gz
+[2023-06-05 00:27:05] INFO root fetch - processPackages [qiskit]: Downloading https://files.pythonhosted.org/packages/4e/67/2d9be26e9ffa93928a96c31fd089f5b4aaf71c7b70e638ad1299283d0513/qiskit-0.9.0.tar.gz
+[2023-06-05 00:27:05] INFO root fetch - processPackages [idem-aws]: executing diffoscope
+[2023-06-05 00:27:05] INFO root fetch - processPackages [idem-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-aws-2.0.0.tar.gz tmp/idem-aws-2.1.0.tar.gz --markdown 20230605/i/idem-aws/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-05 00:27:05] INFO root fetch - processPackages [pystog]: executing diffoscope
+[2023-06-05 00:27:06] INFO root fetch - processPackages [pystog]: executing diffoscope
+[2023-06-05 00:27:06] INFO root fetch - processPackages [pystog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystog-0.3.8rc2.tar.gz tmp/pystog-1.0.0.tar.gz --markdown 20230605/p/pystog/0.3.8rc2-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 00:27:06] INFO root fetch - processPackages [pystog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystog-0.3.8rc2.tar.gz tmp/pystog-1.0.0.tar.gz --markdown 20230605/p/pystog/0.3.8rc2-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 00:27:06] INFO root fetch - processPackages [qiskit]: executing diffoscope
+[2023-06-05 00:27:06] INFO root fetch - processPackages [qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-0.8.1.tar.gz tmp/qiskit-0.9.0.tar.gz --markdown 20230605/q/qiskit/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 00:27:06] INFO root fetch - processPackages [supy]: executing diffoscope
+[2023-06-05 00:27:06] INFO root fetch - processPackages [supy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supy-2023.5.26.dev0-cp39-cp39-win_amd64.whl.zip tmp/supy-2023.6.3.dev0-cp39-cp39-win_amd64.whl.zip --markdown 20230605/s/supy/2023.5.26.dev0-2023.6.3.dev0/diff.md --exclude *.pyd
+[2023-06-05 00:27:06] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-05 00:27:07] INFO root fetch - main [MainThread]: End processing [qiskit]: success
+[2023-06-05 00:27:07] INFO root fetch - main [MainThread]: End processing [pystog]: success
+[2023-06-05 00:27:07] INFO root fetch - main [MainThread]: End processing [supy]: success
+[2023-06-05 00:27:11] INFO root fetch - main [MainThread]: End processing [idem-aws]: success
+[2023-06-05 00:27:59] INFO root fetch - main [MainThread]: End processing [pystog]: success
+[2023-06-05 00:27:59] INFO root fetch - main [MainThread]: Store serial: [18369100]
