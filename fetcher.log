@@ -451,3 +451,30 @@
 [2023-06-05 01:09:28] INFO root fetch - main [MainThread]: End processing [pystog]: success
 [2023-06-05 01:09:59] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-05 01:09:59] INFO root fetch - main [MainThread]: Store serial: [18369228]
+[2023-06-05 01:15:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369228]
+[2023-06-05 01:15:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 01:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambda-zip
+[2023-06-05 01:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anki
+[2023-06-05 01:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aqt
+[2023-06-05 01:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector-vault
+[2023-06-05 01:15:08] INFO root fetch - processPackages [aqt]: New version: [2.1.65] Old Version: [2.1.64]
+[2023-06-05 01:15:08] INFO root fetch - processPackages [lambda-zip]: New version: [1.23060401] Old Version: [1.23011102]
+[2023-06-05 01:15:08] INFO root fetch - processPackages [vector-vault]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-06-05 01:15:08] INFO root fetch - processPackages [anki]: New version: [2.1.65] Old Version: [2.1.64]
+[2023-06-05 01:15:08] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-05 01:15:08] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.8.4.tar.gz tmp/vector_vault-1.8.5.tar.gz --markdown 20230605/v/vector-vault/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-06-05 01:15:08] INFO root fetch - processPackages [lambda-zip]: Downloading https://files.pythonhosted.org/packages/29/6c/a54d764782103c7e45a50d753b406d8f08c33b5d93f14dc274a2c13345a9/lambda_zip-1.23011102.tar.gz
+[2023-06-05 01:15:09] INFO root fetch - processPackages [aqt]: Downloading https://files.pythonhosted.org/packages/82/9e/f07a219db472d395645653aa85ddadb05e4e115aed6cb8687b07ab502d44/aqt-2.1.65-py3-none-any.whl
+[2023-06-05 01:15:09] INFO root fetch - processPackages [anki]: Downloading https://files.pythonhosted.org/packages/6b/e1/db089315ba72fd1123167749c2d92f9b6a7c8aad51d4ffe06eca577c87c3/anki-2.1.65-cp39-abi3-win_amd64.whl
+[2023-06-05 01:15:09] INFO root fetch - processPackages [anki]: executing diffoscope
+[2023-06-05 01:15:09] INFO root fetch - processPackages [anki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anki-2.1.64-cp39-abi3-win_amd64.whl.zip tmp/anki-2.1.65-cp39-abi3-win_amd64.whl.zip --markdown 20230605/a/anki/2.1.64-2.1.65/diff.md --exclude *.pyd
+[2023-06-05 01:15:09] INFO root fetch - processPackages [lambda-zip]: Downloading https://files.pythonhosted.org/packages/a7/7f/290b7bca7f88d88637762109de1d0cc0bc2b576b307d313f5c0fcd433c83/lambda_zip-1.23060401.tar.gz
+[2023-06-05 01:15:09] INFO root fetch - processPackages [aqt]: executing diffoscope
+[2023-06-05 01:15:09] INFO root fetch - processPackages [aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqt-2.1.64-py3-none-any.whl.zip tmp/aqt-2.1.65-py3-none-any.whl.zip --markdown 20230605/a/aqt/2.1.64-2.1.65/diff.md --exclude *.pyd
+[2023-06-05 01:15:09] INFO root fetch - processPackages [lambda-zip]: executing diffoscope
+[2023-06-05 01:15:09] INFO root fetch - processPackages [lambda-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda_zip-1.23011102.tar.gz tmp/lambda_zip-1.23060401.tar.gz --markdown 20230605/l/lambda-zip/1.23011102-1.23060401/diff.md --exclude *.pyd
+[2023-06-05 01:15:10] INFO root fetch - main [MainThread]: End processing [lambda-zip]: success
+[2023-06-05 01:15:10] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-05 01:15:11] INFO root fetch - main [MainThread]: End processing [anki]: success
+[2023-06-05 01:16:43] INFO root fetch - main [MainThread]: End processing [aqt]: success
+[2023-06-05 01:16:43] INFO root fetch - main [MainThread]: Store serial: [18369243]
