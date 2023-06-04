@@ -549,3 +549,40 @@
 [2023-06-05 01:27:05] INFO root fetch - main [MainThread]: End processing [altimate-dataminion]: success
 [2023-06-05 01:27:05] INFO root fetch - main [MainThread]: End processing [django-oasis4]: success
 [2023-06-05 01:27:05] INFO root fetch - main [MainThread]: Store serial: [18369280]
+[2023-06-05 01:32:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369280]
+[2023-06-05 01:32:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-05 01:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-workos
+[2023-06-05 01:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-oasis4
+[2023-06-05 01:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pystog
+[2023-06-05 01:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notebook-copilot
+[2023-06-05 01:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shell-gpt
+[2023-06-05 01:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pcpfm
+[2023-06-05 01:32:14] INFO root fetch - processPackages [django-oasis4]: New version: [1.1.2a2] Old Version: [1.1.2a1]
+[2023-06-05 01:32:14] INFO root fetch - processPackages [django-workos]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-05 01:32:14] WARNING root fetch - processPackages [pcpfm]: Skipping, unable to determine old version
+[2023-06-05 01:32:14] INFO root fetch - main [MainThread]: End processing [pcpfm] error
+[2023-06-05 01:32:14] INFO root fetch - processPackages [pystog]: New version: [1.0.0] Old Version: [0.4.3rc0]
+[2023-06-05 01:32:14] INFO root fetch - processPackages [notebook-copilot]: New version: [0.1.2] Old Version: [0.1]
+[2023-06-05 01:32:14] INFO root fetch - processPackages [shell-gpt]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 01:32:14] INFO root fetch - processPackages [pystog]: Downloading https://files.pythonhosted.org/packages/23/4c/708f2963147a94698830f3885ffc1cd622f596d6f100cf468f06c08b0bef/pystog-0.4.3rc0.tar.gz
+[2023-06-05 01:32:14] INFO root fetch - processPackages [notebook-copilot]: Downloading https://files.pythonhosted.org/packages/51/f9/3e8f0c4ea63ae885ed255f4dae7590651aa10ca17ca17682aa779a084c16/notebook_copilot-0.1.tar.gz
+[2023-06-05 01:32:14] INFO root fetch - processPackages [django-oasis4]: Downloading https://files.pythonhosted.org/packages/e7/79/cf37c304ee91c28224b5e370b4fb682a4cbb3ebafdab7965f514dfea1625/django-oasis4-1.1.2a2.tar.gz
+[2023-06-05 01:32:15] INFO root fetch - processPackages [django-workos]: Downloading https://files.pythonhosted.org/packages/9e/67/105fb9564cca920a618692fb0aba8168dad87601e4dde5f0efc67dec5e6e/django-workos-0.5.3.tar.gz
+[2023-06-05 01:32:15] INFO root fetch - processPackages [django-oasis4]: executing diffoscope
+[2023-06-05 01:32:15] INFO root fetch - processPackages [django-oasis4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-1.1.2a1.tar.gz tmp/django-oasis4-1.1.2a2.tar.gz --markdown 20230605/d/django-oasis4/1.1.2a1-1.1.2a2/diff.md --exclude *.pyd
+[2023-06-05 01:32:15] INFO root fetch - processPackages [shell-gpt]: Downloading https://files.pythonhosted.org/packages/fb/59/cb818fb1637d6b07f7f1714672ac93123edbd8e6437ce0eaa4a8a9b401e1/shell_gpt-0.9.2.tar.gz
+[2023-06-05 01:32:15] INFO root fetch - processPackages [pystog]: executing diffoscope
+[2023-06-05 01:32:15] INFO root fetch - processPackages [pystog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystog-0.4.3rc0.tar.gz tmp/pystog-1.0.0.tar.gz --markdown 20230605/p/pystog/0.4.3rc0-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 01:32:15] INFO root fetch - processPackages [notebook-copilot]: Downloading https://files.pythonhosted.org/packages/4e/62/afc5d52b4ba6b0f918be7599ac6063efacece793063a784eb7cc375a0f51/notebook_copilot-0.1.2.tar.gz
+[2023-06-05 01:32:15] INFO root fetch - processPackages [django-workos]: executing diffoscope
+[2023-06-05 01:32:15] INFO root fetch - processPackages [django-workos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-workos-0.5.2.tar.gz tmp/django-workos-0.5.3.tar.gz --markdown 20230605/d/django-workos/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-05 01:32:15] INFO root fetch - processPackages [notebook-copilot]: executing diffoscope
+[2023-06-05 01:32:15] INFO root fetch - processPackages [notebook-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook_copilot-0.1.tar.gz tmp/notebook_copilot-0.1.2.tar.gz --markdown 20230605/n/notebook-copilot/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 01:32:15] INFO root fetch - processPackages [shell-gpt]: executing diffoscope
+[2023-06-05 01:32:15] INFO root fetch - processPackages [shell-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_gpt-0.9.1.tar.gz tmp/shell_gpt-0.9.2.tar.gz --markdown 20230605/s/shell-gpt/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 01:32:16] INFO root fetch - main [MainThread]: End processing [notebook-copilot]: success
+[2023-06-05 01:32:16] INFO root fetch - main [MainThread]: End processing [shell-gpt]: success
+[2023-06-05 01:32:16] INFO root fetch - main [MainThread]: End processing [pystog]: success
+[2023-06-05 01:32:16] INFO root fetch - main [MainThread]: End processing [django-workos]: success
+[2023-06-05 01:32:17] INFO root fetch - main [MainThread]: End processing [django-oasis4]: success
+[2023-06-05 01:32:17] INFO root fetch - main [MainThread]: Store serial: [18369300]
