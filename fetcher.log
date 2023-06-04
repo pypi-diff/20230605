@@ -215,3 +215,52 @@
 [2023-06-05 00:33:08] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
 [2023-06-05 00:33:09] INFO root fetch - main [MainThread]: End processing [pyRealEstate]: success
 [2023-06-05 00:33:09] INFO root fetch - main [MainThread]: Store serial: [18369109]
+[2023-06-05 00:38:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369109]
+[2023-06-05 00:38:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-05 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlplatformutils
+[2023-06-05 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: siat
+[2023-06-05 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: siegeapi
+[2023-06-05 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bionty
+[2023-06-05 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rlenvironments
+[2023-06-05 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pigeonsai
+[2023-06-05 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pytomatas
+[2023-06-05 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oooenv
+[2023-06-05 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kelpie-personal-trainer
+[2023-06-05 00:38:18] WARNING root fetch - processPackages [rlenvironments]: Skipping, unable to determine old version
+[2023-06-05 00:38:18] INFO root fetch - main [MainThread]: End processing [rlenvironments] error
+[2023-06-05 00:38:18] INFO root fetch - processPackages [pigeonsai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 00:38:18] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-05 00:38:18] INFO root fetch - processPackages [mlplatformutils]: New version: [0.7] Old Version: [0.6]
+[2023-06-05 00:38:18] INFO root fetch - processPackages [siegeapi]: New version: [6.1.0] Old Version: [6.0.1]
+[2023-06-05 00:38:18] INFO root fetch - processPackages [kelpie-personal-trainer]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-05 00:38:18] WARNING root fetch - processPackages [Pytomatas]: Skipping, unable to determine old version
+[2023-06-05 00:38:18] INFO root fetch - processPackages [oooenv]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-05 00:38:18] INFO root fetch - main [MainThread]: End processing [Pytomatas] error
+[2023-06-05 00:38:18] INFO root fetch - processPackages [siat]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 00:38:18] INFO root fetch - processPackages [kelpie-personal-trainer]: Downloading https://files.pythonhosted.org/packages/5a/4b/4ee67ed8126726a58f4feea82f593b520080918beba090e4afa575a9ba91/kelpie_personal_trainer-0.2.2.tar.gz
+[2023-06-05 00:38:18] WARNING root fetch - processPackages [kelpie-personal-trainer]: Skipping package: exceeds size limit 18721402>=10485760
+[2023-06-05 00:38:18] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
+[2023-06-05 00:38:18] INFO root fetch - processPackages [oooenv]: Downloading https://files.pythonhosted.org/packages/17/a0/b57e75126629029f2bbf9f37358c11e0f90547a662b07f15b058a62a47e9/oooenv-0.1.1.tar.gz
+[2023-06-05 00:38:18] INFO root fetch - processPackages [pigeonsai]: Downloading https://files.pythonhosted.org/packages/fa/ac/d6f470dca4a1471955ebde41eee6e46ef4bda2dfb334a73c64c9df9b0108/pigeonsai-0.0.4.tar.gz
+[2023-06-05 00:38:18] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/81/17/8c12fa8fb08b7e191f916c4d77c1930a8796eef7706de1887f3929a1aa5d/mlplatformutils-0.7.tar.gz
+[2023-06-05 00:38:18] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-06-05 00:38:18] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230605/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-05 00:38:18] INFO root fetch - processPackages [siegeapi]: Downloading https://files.pythonhosted.org/packages/03/cc/40119573c8cca8725aa79905243fc1ae1d9fdb142bc38cac6f6beb8e4a1d/siegeapi-6.1.0.tar.gz
+[2023-06-05 00:38:18] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-06-05 00:38:18] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.0.8-py3-none-any.whl.zip tmp/siat-2.0.9-py3-none-any.whl.zip --markdown 20230605/s/siat/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 00:38:18] INFO root fetch - processPackages [pigeonsai]: executing diffoscope
+[2023-06-05 00:38:18] INFO root fetch - processPackages [pigeonsai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonsai-0.0.3.tar.gz tmp/pigeonsai-0.0.4.tar.gz --markdown 20230605/p/pigeonsai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 00:38:18] INFO root fetch - processPackages [siegeapi]: executing diffoscope
+[2023-06-05 00:38:18] INFO root fetch - processPackages [siegeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siegeapi-6.0.1.tar.gz tmp/siegeapi-6.1.0.tar.gz --markdown 20230605/s/siegeapi/6.0.1-6.1.0/diff.md --exclude *.pyd
+[2023-06-05 00:38:18] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-05 00:38:18] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.6.tar.gz tmp/mlplatformutils-0.7.tar.gz --markdown 20230605/m/mlplatformutils/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-05 00:38:18] INFO root fetch - processPackages [oooenv]: Downloading https://files.pythonhosted.org/packages/2d/a9/eb10edbf7016f9198b2433a0e1ec8385d15e2455062744d810e91f677877/oooenv-0.2.0.tar.gz
+[2023-06-05 00:38:18] INFO root fetch - processPackages [oooenv]: executing diffoscope
+[2023-06-05 00:38:18] INFO root fetch - processPackages [oooenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oooenv-0.1.1.tar.gz tmp/oooenv-0.2.0.tar.gz --markdown 20230605/o/oooenv/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 00:38:19] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-05 00:38:19] INFO root fetch - main [MainThread]: End processing [pigeonsai]: success
+[2023-06-05 00:38:20] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-06-05 00:38:20] INFO root fetch - main [MainThread]: End processing [oooenv]: success
+[2023-06-05 00:38:20] INFO root fetch - main [MainThread]: End processing [siegeapi]: success
+[2023-06-05 00:38:21] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-06-05 00:38:21] INFO root fetch - main [MainThread]: Store serial: [18369137]
