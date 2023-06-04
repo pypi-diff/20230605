@@ -1,0 +1,40 @@
+[2023-06-05 00:01:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18368978]
+[2023-06-05 00:01:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-05 00:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-segmentation-evaluation
+[2023-06-05 00:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xklb
+[2023-06-05 00:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kelpie-personal-trainer
+[2023-06-05 00:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-06-05 00:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kelpie-personal-trainer
+[2023-06-05 00:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rlenvironments
+[2023-06-05 00:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-06-05 00:01:09] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 00:01:09] INFO root fetch - processPackages [kelpie-personal-trainer]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-05 00:01:09] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-05 00:01:09] INFO root fetch - processPackages [rlenvironments]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 00:01:09] INFO root fetch - processPackages [kelpie-personal-trainer]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-05 00:01:09] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-05 00:01:09] INFO root fetch - processPackages [xklb]: New version: [1.29.8] Old Version: [1.29.7]
+[2023-06-05 00:01:09] INFO root fetch - processPackages [kelpie-personal-trainer]: Downloading https://files.pythonhosted.org/packages/cf/20/09922714435bf12fa117105f21262b939891ecd922ea8cd7d7ea33e93cf7/kelpie_personal_trainer-0.2.0.tar.gz
+[2023-06-05 00:01:09] INFO root fetch - processPackages [rlenvironments]: Downloading https://files.pythonhosted.org/packages/af/71/e4d2bb439825ee2e3a8babd1587d962268b82d04ada9dc2323a572331214/rlenvironments-0.1.3.tar.gz
+[2023-06-05 00:01:09] INFO root fetch - processPackages [kelpie-personal-trainer]: Downloading https://files.pythonhosted.org/packages/cf/20/09922714435bf12fa117105f21262b939891ecd922ea8cd7d7ea33e93cf7/kelpie_personal_trainer-0.2.0.tar.gz
+[2023-06-05 00:01:09] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-05 00:01:09] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230605/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-05 00:01:09] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-05 00:01:09] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230605/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-05 00:01:10] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-05 00:01:10] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.29.7.tar.gz tmp/xklb-1.29.8.tar.gz --markdown 20230605/x/xklb/1.29.7-1.29.8/diff.md --exclude *.pyd
+[2023-06-05 00:01:10] WARNING root fetch - processPackages [kelpie-personal-trainer]: Skipping package: exceeds size limit 18721400>=10485760
+[2023-06-05 00:01:10] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
+[2023-06-05 00:01:10] WARNING root fetch - processPackages [kelpie-personal-trainer]: Skipping package: exceeds size limit 18721400>=10485760
+[2023-06-05 00:01:10] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
+[2023-06-05 00:01:10] INFO root fetch - processPackages [rlenvironments]: Downloading https://files.pythonhosted.org/packages/99/ee/b11ffea213ff593be9cbf9f5a0b9f59a55e8b1e00c2f8b20030fc2229344/rlenvironments-0.1.4.tar.gz
+[2023-06-05 00:01:10] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-06-05 00:01:10] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230605/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 00:01:10] INFO root fetch - processPackages [rlenvironments]: executing diffoscope
+[2023-06-05 00:01:10] INFO root fetch - processPackages [rlenvironments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlenvironments-0.1.3.tar.gz tmp/rlenvironments-0.1.4.tar.gz --markdown 20230605/r/rlenvironments/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 00:01:11] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-05 00:01:11] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-05 00:01:11] INFO root fetch - main [MainThread]: End processing [rlenvironments]: success
+[2023-06-05 00:01:11] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-05 00:01:14] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-06-05 00:01:14] INFO root fetch - main [MainThread]: Store serial: [18369000]
