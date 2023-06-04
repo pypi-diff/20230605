@@ -324,3 +324,31 @@
 [2023-06-05 00:48:42] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
 [2023-06-05 00:48:42] INFO root fetch - main [MainThread]: End processing [cspot]: success
 [2023-06-05 00:48:42] INFO root fetch - main [MainThread]: Store serial: [18369169]
+[2023-06-05 00:53:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369169]
+[2023-06-05 00:53:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 00:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rlenvironments
+[2023-06-05 00:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kelpie-personal-trainer
+[2023-06-05 00:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pystog
+[2023-06-05 00:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystog
+[2023-06-05 00:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helloPypi-topic
+[2023-06-05 00:53:51] INFO root fetch - processPackages [pystog]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-06-05 00:53:51] INFO root fetch - processPackages [pystog]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-06-05 00:53:51] INFO root fetch - processPackages [kelpie-personal-trainer]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-05 00:53:51] WARNING root fetch - processPackages [rlenvironments]: Skipping, unable to determine old version
+[2023-06-05 00:53:51] INFO root fetch - main [MainThread]: End processing [rlenvironments] error
+[2023-06-05 00:53:51] INFO root fetch - processPackages [helloPypi-topic]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 00:53:51] INFO root fetch - processPackages [helloPypi-topic]: executing diffoscope
+[2023-06-05 00:53:51] INFO root fetch - processPackages [helloPypi-topic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helloPypi-topic-0.0.5.tar.gz tmp/helloPypi-topic-0.0.6.tar.gz --markdown 20230605/h/helloPypi-topic/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 00:53:51] INFO root fetch - processPackages [pystog]: Downloading https://files.pythonhosted.org/packages/b6/60/4c932567733d310550693396eae48a4db5aa87f7d301dd1d6c46a8ad9933/pystog-0.4.0.tar.gz
+[2023-06-05 00:53:51] INFO root fetch - processPackages [pystog]: Downloading https://files.pythonhosted.org/packages/b6/60/4c932567733d310550693396eae48a4db5aa87f7d301dd1d6c46a8ad9933/pystog-0.4.0.tar.gz
+[2023-06-05 00:53:51] INFO root fetch - processPackages [kelpie-personal-trainer]: Downloading https://files.pythonhosted.org/packages/91/2f/d0bdab87a899575e4a02233598b60802ef0001d75ab8a6178679e6e75527/kelpie_personal_trainer-0.2.5.tar.gz
+[2023-06-05 00:53:51] WARNING root fetch - processPackages [kelpie-personal-trainer]: Skipping package: exceeds size limit 18724006>=10485760
+[2023-06-05 00:53:51] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
+[2023-06-05 00:53:51] INFO root fetch - processPackages [pystog]: executing diffoscope
+[2023-06-05 00:53:51] INFO root fetch - processPackages [pystog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystog-0.4.0.tar.gz tmp/pystog-1.0.0.tar.gz --markdown 20230605/p/pystog/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 00:53:51] INFO root fetch - processPackages [pystog]: executing diffoscope
+[2023-06-05 00:53:51] INFO root fetch - processPackages [pystog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystog-0.4.0.tar.gz tmp/pystog-1.0.0.tar.gz --markdown 20230605/p/pystog/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 00:53:52] INFO root fetch - main [MainThread]: End processing [helloPypi-topic]: success
+[2023-06-05 00:53:53] INFO root fetch - main [MainThread]: End processing [pystog]: success
+[2023-06-05 00:53:53] INFO root fetch - main [MainThread]: End processing [pystog]: success
+[2023-06-05 00:53:53] INFO root fetch - main [MainThread]: Store serial: [18369185]
