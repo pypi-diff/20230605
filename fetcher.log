@@ -118,3 +118,34 @@
 [2023-06-05 00:16:46] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
 [2023-06-05 00:16:46] INFO root fetch - main [MainThread]: End processing [notionlib]: success
 [2023-06-05 00:16:46] INFO root fetch - main [MainThread]: Store serial: [18369047]
+[2023-06-05 00:21:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369047]
+[2023-06-05 00:21:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 00:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slidescore-sdk
+[2023-06-05 00:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roughsets-base
+[2023-06-05 00:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rlenvironments
+[2023-06-05 00:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lung-analysis-pipeline
+[2023-06-05 00:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vosk-autosrt
+[2023-06-05 00:21:54] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 00:21:54] WARNING root fetch - processPackages [rlenvironments]: Skipping, unable to determine old version
+[2023-06-05 00:21:54] INFO root fetch - processPackages [roughsets-base]: New version: [1.0.1.2] Old Version: [1.0.1.1]
+[2023-06-05 00:21:54] INFO root fetch - main [MainThread]: End processing [rlenvironments] error
+[2023-06-05 00:21:54] INFO root fetch - processPackages [lung-analysis-pipeline]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 00:21:54] INFO root fetch - processPackages [slidescore-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-05 00:21:55] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/43/d3/e81ceb71480369a8d0c65656254a83f83a3163c8a7e45ed423d403e1d72c/vosk_autosrt-0.0.4.tar.gz
+[2023-06-05 00:21:55] INFO root fetch - processPackages [roughsets-base]: Downloading https://files.pythonhosted.org/packages/8c/cf/8ced802419fd55fafeed58aeddb9bfbd7f8072fc04b878d9410eb1ab66c9/roughsets-base-1.0.1.1.tar.gz
+[2023-06-05 00:21:55] INFO root fetch - processPackages [lung-analysis-pipeline]: Downloading https://files.pythonhosted.org/packages/69/b5/a41d140ce8b9822f4f5eadde3f219b951f61e1ebfe0056ba58a612f1479a/lung_analysis_pipeline-0.0.8.tar.gz
+[2023-06-05 00:21:55] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21457583>=10485760
+[2023-06-05 00:21:55] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-06-05 00:21:55] INFO root fetch - processPackages [slidescore-sdk]: Downloading https://files.pythonhosted.org/packages/c3/8c/7bcc16062a06e91a0ad17cbd6dea9bf5fe38cc0b68978cface45b050953d/slidescore-sdk-1.2.8.tar.gz
+[2023-06-05 00:21:55] INFO root fetch - processPackages [roughsets-base]: Downloading https://files.pythonhosted.org/packages/40/f5/1b7deb18947f0bb90aa3d57713414f9f3bfcaf8a700869a41d8d816a6019/roughsets-base-1.0.1.2.tar.gz
+[2023-06-05 00:21:55] INFO root fetch - processPackages [lung-analysis-pipeline]: executing diffoscope
+[2023-06-05 00:21:55] INFO root fetch - processPackages [lung-analysis-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lung_analysis_pipeline-0.0.7.tar.gz tmp/lung_analysis_pipeline-0.0.8.tar.gz --markdown 20230605/l/lung-analysis-pipeline/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 00:21:55] INFO root fetch - processPackages [roughsets-base]: executing diffoscope
+[2023-06-05 00:21:55] INFO root fetch - processPackages [roughsets-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roughsets-base-1.0.1.1.tar.gz tmp/roughsets-base-1.0.1.2.tar.gz --markdown 20230605/r/roughsets-base/1.0.1.1-1.0.1.2/diff.md --exclude *.pyd
+[2023-06-05 00:21:55] INFO root fetch - processPackages [slidescore-sdk]: Downloading https://files.pythonhosted.org/packages/ee/ee/86759a3eb2858cde1304f6063043d70e459d6a1390b5911983f68575a62f/slidescore-sdk-1.2.9.tar.gz
+[2023-06-05 00:21:55] INFO root fetch - processPackages [slidescore-sdk]: executing diffoscope
+[2023-06-05 00:21:55] INFO root fetch - processPackages [slidescore-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slidescore-sdk-1.2.8.tar.gz tmp/slidescore-sdk-1.2.9.tar.gz --markdown 20230605/s/slidescore-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-05 00:21:56] INFO root fetch - main [MainThread]: End processing [slidescore-sdk]: success
+[2023-06-05 00:21:56] INFO root fetch - main [MainThread]: End processing [roughsets-base]: success
+[2023-06-05 00:21:57] INFO root fetch - main [MainThread]: End processing [lung-analysis-pipeline]: success
+[2023-06-05 00:21:57] INFO root fetch - main [MainThread]: Store serial: [18369062]
