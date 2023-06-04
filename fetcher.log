@@ -425,3 +425,29 @@
 [2023-06-05 01:04:14] INFO root fetch - main [MainThread]: End processing [pystog]: success
 [2023-06-05 01:04:17] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-06-05 01:04:17] INFO root fetch - main [MainThread]: Store serial: [18369217]
+[2023-06-05 01:09:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369217]
+[2023-06-05 01:09:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 01:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-06-05 01:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystog
+[2023-06-05 01:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-selve-new
+[2023-06-05 01:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tree-of-thoughts
+[2023-06-05 01:09:26] INFO root fetch - processPackages [python-selve-new]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-06-05 01:09:26] INFO root fetch - processPackages [pystog]: New version: [1.0.0] Old Version: [0.4.2]
+[2023-06-05 01:09:26] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-05 01:09:26] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-05 01:09:26] INFO root fetch - processPackages [pystog]: Downloading https://files.pythonhosted.org/packages/1c/5f/8249e87a8d915e273264a6f190f0cb54f2bca534efd4af2dc6ade6a57c18/pystog-0.4.2.tar.gz
+[2023-06-05 01:09:26] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-05 01:09:26] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230605/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-05 01:09:26] INFO root fetch - processPackages [python-selve-new]: Downloading https://files.pythonhosted.org/packages/e9/af/d632c7b1cb2e30333725f97995efe1d39e009b98dc6f42a953bdd174883f/python-selve-new-2.2.6.tar.gz
+[2023-06-05 01:09:27] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-05 01:09:27] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.2.5.tar.gz tmp/python-selve-new-2.2.6.tar.gz --markdown 20230605/p/python-selve-new/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-06-05 01:09:27] INFO root fetch - processPackages [pystog]: executing diffoscope
+[2023-06-05 01:09:27] INFO root fetch - processPackages [pystog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystog-0.4.2.tar.gz tmp/pystog-1.0.0.tar.gz --markdown 20230605/p/pystog/0.4.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 01:09:27] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/37/52/7d8983eb42543337f2d4b3124ed89acfa1f57d88632eb8b8cd805e1c99bb/tree-of-thoughts-0.3.3.tar.gz
+[2023-06-05 01:09:27] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2023-06-05 01:09:27] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-of-thoughts-0.3.2.tar.gz tmp/tree-of-thoughts-0.3.3.tar.gz --markdown 20230605/t/tree-of-thoughts/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-05 01:09:28] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-05 01:09:28] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2023-06-05 01:09:28] INFO root fetch - main [MainThread]: End processing [pystog]: success
+[2023-06-05 01:09:59] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-05 01:09:59] INFO root fetch - main [MainThread]: Store serial: [18369228]
