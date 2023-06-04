@@ -352,3 +352,38 @@
 [2023-06-05 00:53:53] INFO root fetch - main [MainThread]: End processing [pystog]: success
 [2023-06-05 00:53:53] INFO root fetch - main [MainThread]: End processing [pystog]: success
 [2023-06-05 00:53:53] INFO root fetch - main [MainThread]: Store serial: [18369185]
+[2023-06-05 00:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369185]
+[2023-06-05 00:59:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 00:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: all-fives-domino
+[2023-06-05 00:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sans
+[2023-06-05 00:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abusentry
+[2023-06-05 00:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abusentry
+[2023-06-05 00:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abusentry
+[2023-06-05 00:59:01] INFO root fetch - processPackages [sans]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-06-05 00:59:01] INFO root fetch - processPackages [all-fives-domino]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 00:59:01] INFO root fetch - processPackages [abusentry]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-05 00:59:01] INFO root fetch - processPackages [abusentry]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-05 00:59:01] INFO root fetch - processPackages [abusentry]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-05 00:59:02] INFO root fetch - processPackages [all-fives-domino]: executing diffoscope
+[2023-06-05 00:59:02] INFO root fetch - processPackages [all-fives-domino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/all-fives-domino-1.0.8.tar.gz tmp/all-fives-domino-1.0.9.tar.gz --markdown 20230605/a/all-fives-domino/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: Downloading https://files.pythonhosted.org/packages/4c/3e/0ad994edac98089b9e7beb48fc631a8bee872ec707b4794f5831760ee1bf/abusentry-0.2.1.tar.gz
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: Downloading https://files.pythonhosted.org/packages/4c/3e/0ad994edac98089b9e7beb48fc631a8bee872ec707b4794f5831760ee1bf/abusentry-0.2.1.tar.gz
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: Downloading https://files.pythonhosted.org/packages/4c/3e/0ad994edac98089b9e7beb48fc631a8bee872ec707b4794f5831760ee1bf/abusentry-0.2.1.tar.gz
+[2023-06-05 00:59:02] INFO root fetch - processPackages [sans]: Downloading https://files.pythonhosted.org/packages/97/6d/5bbaf530a393b7c5a9a72b4e6ad834721b3c79d471ecaa323ddcdc9d9d36/sans-1.2.0.tar.gz
+[2023-06-05 00:59:02] INFO root fetch - processPackages [sans]: executing diffoscope
+[2023-06-05 00:59:02] INFO root fetch - processPackages [sans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sans-1.1.4.tar.gz tmp/sans-1.2.0.tar.gz --markdown 20230605/s/sans/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: Downloading https://files.pythonhosted.org/packages/57/f0/4d30e92f45033cc685393687bc3b91d21532173c5f3e55cc3f9ff854645e/abusentry-0.2.3.tar.gz
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: Downloading https://files.pythonhosted.org/packages/57/f0/4d30e92f45033cc685393687bc3b91d21532173c5f3e55cc3f9ff854645e/abusentry-0.2.3.tar.gz
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: Downloading https://files.pythonhosted.org/packages/57/f0/4d30e92f45033cc685393687bc3b91d21532173c5f3e55cc3f9ff854645e/abusentry-0.2.3.tar.gz
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: executing diffoscope
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: executing diffoscope
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abusentry-0.2.1.tar.gz tmp/abusentry-0.2.3.tar.gz --markdown 20230605/a/abusentry/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abusentry-0.2.1.tar.gz tmp/abusentry-0.2.3.tar.gz --markdown 20230605/a/abusentry/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: executing diffoscope
+[2023-06-05 00:59:02] INFO root fetch - processPackages [abusentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abusentry-0.2.1.tar.gz tmp/abusentry-0.2.3.tar.gz --markdown 20230605/a/abusentry/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-05 00:59:03] INFO root fetch - main [MainThread]: End processing [all-fives-domino]: success
+[2023-06-05 00:59:03] INFO root fetch - main [MainThread]: End processing [abusentry]: success
+[2023-06-05 00:59:03] INFO root fetch - main [MainThread]: End processing [abusentry]: success
+[2023-06-05 00:59:03] INFO root fetch - main [MainThread]: End processing [abusentry]: success
+[2023-06-05 00:59:04] INFO root fetch - main [MainThread]: End processing [sans]: success
+[2023-06-05 00:59:04] INFO root fetch - main [MainThread]: Store serial: [18369200]
