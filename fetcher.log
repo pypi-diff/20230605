@@ -648,3 +648,38 @@
 [2023-06-05 01:42:38] INFO root fetch - main [MainThread]: End processing [circuitpython-ps2controller]: success
 [2023-06-05 01:42:38] INFO root fetch - main [MainThread]: End processing [FunPayAPI]: success
 [2023-06-05 01:42:38] INFO root fetch - main [MainThread]: Store serial: [18369336]
+[2023-06-05 01:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369336]
+[2023-06-05 01:47:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NEMO-billing
+[2023-06-05 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: term-image
+[2023-06-05 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plato-learn
+[2023-06-05 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: west
+[2023-06-05 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lung-analysis-pipeline
+[2023-06-05 01:47:47] INFO root fetch - processPackages [NEMO-billing]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-06-05 01:47:47] INFO root fetch - processPackages [lung-analysis-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 01:47:47] INFO root fetch - processPackages [term-image]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-05 01:47:47] INFO root fetch - processPackages [plato-learn]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-05 01:47:47] INFO root fetch - processPackages [west]: New version: [1.1.0a1] Old Version: [1.0.0a1]
+[2023-06-05 01:47:47] INFO root fetch - processPackages [lung-analysis-pipeline]: executing diffoscope
+[2023-06-05 01:47:47] INFO root fetch - processPackages [lung-analysis-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lung_analysis_pipeline-0.0.8.tar.gz tmp/lung_analysis_pipeline-0.0.9.tar.gz --markdown 20230605/l/lung-analysis-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 01:47:47] INFO root fetch - processPackages [term-image]: Downloading https://files.pythonhosted.org/packages/b4/90/251164a52a666e33182be11c0333215750879f10995a18e5957838bfc253/term-image-0.6.1.tar.gz
+[2023-06-05 01:47:47] INFO root fetch - processPackages [west]: Downloading https://files.pythonhosted.org/packages/24/01/113638787c2a40b01347a879bbc7b7a32fd0ae66c905fef52f7071748c6c/west-1.0.0a1.tar.gz
+[2023-06-05 01:47:47] INFO root fetch - processPackages [plato-learn]: Downloading https://files.pythonhosted.org/packages/da/57/ccbd940afa85323a1b5c5d0497c6e504598d2fae3210151186a2c019a436/plato_learn-0.4.9-py36.py37.py38.py39-none-any.whl
+[2023-06-05 01:47:47] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/b5/7c/d9393c0a0e7742ec334c6099e4e9aee49aea0657a3199b1750d7c21fde3f/NEMO_billing-2.4.0-py3-none-any.whl
+[2023-06-05 01:47:47] INFO root fetch - processPackages [term-image]: Downloading https://files.pythonhosted.org/packages/f2/59/019a0ca982be3e6d686b9c58a72ae26333b69f8a312ea6edcbefef57279b/term-image-0.7.0.tar.gz
+[2023-06-05 01:47:47] INFO root fetch - processPackages [west]: Downloading https://files.pythonhosted.org/packages/c5/09/675869d7d5f9d5c31603d2119ef764c9b2ecacf0c065a7af87e5d9e5bd94/west-1.1.0a1.tar.gz
+[2023-06-05 01:47:47] INFO root fetch - processPackages [NEMO-billing]: executing diffoscope
+[2023-06-05 01:47:47] INFO root fetch - processPackages [NEMO-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_billing-2.3.1-py3-none-any.whl.zip tmp/NEMO_billing-2.4.0-py3-none-any.whl.zip --markdown 20230605/N/NEMO-billing/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-06-05 01:47:47] INFO root fetch - processPackages [plato-learn]: Downloading https://files.pythonhosted.org/packages/4d/1b/2a0cce4504b8ca3ec637ef65096ef2d3a08fd6d7238c23ea17bf5faf068b/plato_learn-0.5.0-py36.py37.py38.py39-none-any.whl
+[2023-06-05 01:47:48] INFO root fetch - processPackages [term-image]: executing diffoscope
+[2023-06-05 01:47:48] INFO root fetch - processPackages [term-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/term-image-0.6.1.tar.gz tmp/term-image-0.7.0.tar.gz --markdown 20230605/t/term-image/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-05 01:47:48] INFO root fetch - processPackages [west]: executing diffoscope
+[2023-06-05 01:47:48] INFO root fetch - processPackages [west]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/west-1.0.0a1.tar.gz tmp/west-1.1.0a1.tar.gz --markdown 20230605/w/west/1.0.0a1-1.1.0a1/diff.md --exclude *.pyd
+[2023-06-05 01:47:48] INFO root fetch - processPackages [plato-learn]: executing diffoscope
+[2023-06-05 01:47:48] INFO root fetch - processPackages [plato-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plato_learn-0.4.9-py36.py37.py38.py39-none-any.whl.zip tmp/plato_learn-0.5.0-py36.py37.py38.py39-none-any.whl.zip --markdown 20230605/p/plato-learn/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 01:47:48] INFO root fetch - main [MainThread]: End processing [lung-analysis-pipeline]: success
+[2023-06-05 01:47:49] INFO root fetch - main [MainThread]: End processing [west]: success
+[2023-06-05 01:47:49] INFO root fetch - main [MainThread]: End processing [term-image]: success
+[2023-06-05 01:47:49] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
+[2023-06-05 01:47:50] INFO root fetch - main [MainThread]: End processing [plato-learn]: success
+[2023-06-05 01:47:50] INFO root fetch - main [MainThread]: Store serial: [18369352]
