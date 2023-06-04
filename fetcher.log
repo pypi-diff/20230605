@@ -613,3 +613,38 @@
 [2023-06-05 01:37:28] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
 [2023-06-05 01:37:28] INFO root fetch - main [MainThread]: End processing [lung-analysis-pipeline]: success
 [2023-06-05 01:37:28] INFO root fetch - main [MainThread]: Store serial: [18369315]
+[2023-06-05 01:42:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369315]
+[2023-06-05 01:42:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-05 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: action-graph
+[2023-06-05 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notebook-copilot
+[2023-06-05 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FunPayAPI
+[2023-06-05 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: playgroundrl-envs
+[2023-06-05 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: circuitpython-ps2controller
+[2023-06-05 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scdef
+[2023-06-05 01:42:36] INFO root fetch - processPackages [action-graph]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-05 01:42:36] INFO root fetch - processPackages [playgroundrl-envs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 01:42:36] INFO root fetch - processPackages [FunPayAPI]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-05 01:42:36] WARNING root fetch - processPackages [notebook-copilot]: Skipping, unable to determine old version
+[2023-06-05 01:42:36] INFO root fetch - processPackages [circuitpython-ps2controller]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-05 01:42:36] INFO root fetch - main [MainThread]: End processing [notebook-copilot] error
+[2023-06-05 01:42:36] WARNING root fetch - processPackages [scdef]: Skipping, unable to determine old version
+[2023-06-05 01:42:36] INFO root fetch - main [MainThread]: End processing [scdef] error
+[2023-06-05 01:42:37] INFO root fetch - processPackages [circuitpython-ps2controller]: Downloading https://files.pythonhosted.org/packages/bb/a1/33f495ebc713d24ff3afadd4f1535fa63ff8f3a7f809a7dbedd12b8986bf/circuitpython-ps2controller-1.0.0.tar.gz
+[2023-06-05 01:42:37] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/63/00/b9072789f7475a579a0c8aad1137fd445a7c33372deaa0c1b3d46db842dc/playgroundrl_envs-0.0.3.tar.gz
+[2023-06-05 01:42:37] INFO root fetch - processPackages [action-graph]: Downloading https://files.pythonhosted.org/packages/97/64/5d3cd9ba9070032f91731b4cf75d34b3bd84ac538bc39fca1cd50f4514f1/action-graph-1.2.5.tar.gz
+[2023-06-05 01:42:37] INFO root fetch - processPackages [playgroundrl-envs]: executing diffoscope
+[2023-06-05 01:42:37] INFO root fetch - processPackages [playgroundrl-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl_envs-0.0.2.tar.gz tmp/playgroundrl_envs-0.0.3.tar.gz --markdown 20230605/p/playgroundrl-envs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 01:42:37] INFO root fetch - processPackages [circuitpython-ps2controller]: Downloading https://files.pythonhosted.org/packages/67/51/d9c8b0c9d21de8bfb2c0f3e1db9bcaf15aab5887ea567a8816d04f77609c/circuitpython-ps2controller-1.1.0.tar.gz
+[2023-06-05 01:42:37] INFO root fetch - processPackages [action-graph]: Downloading https://files.pythonhosted.org/packages/6e/bf/7596e64f8a349fd31c912f7e9459f1f41d6baa991d37dada30e7eb07c6c9/action-graph-1.2.6.tar.gz
+[2023-06-05 01:42:37] INFO root fetch - processPackages [circuitpython-ps2controller]: executing diffoscope
+[2023-06-05 01:42:37] INFO root fetch - processPackages [circuitpython-ps2controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-ps2controller-1.0.0.tar.gz tmp/circuitpython-ps2controller-1.1.0.tar.gz --markdown 20230605/c/circuitpython-ps2controller/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 01:42:37] INFO root fetch - processPackages [action-graph]: executing diffoscope
+[2023-06-05 01:42:37] INFO root fetch - processPackages [action-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/action-graph-1.2.5.tar.gz tmp/action-graph-1.2.6.tar.gz --markdown 20230605/a/action-graph/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-05 01:42:37] INFO root fetch - processPackages [FunPayAPI]: Downloading https://files.pythonhosted.org/packages/fd/c5/880876330bcf636e3dc06c34738b1411a502a12d1e5344e128d9f7ca80f5/FunPayAPI-1.1.0.tar.gz
+[2023-06-05 01:42:37] INFO root fetch - processPackages [FunPayAPI]: executing diffoscope
+[2023-06-05 01:42:37] INFO root fetch - processPackages [FunPayAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FunPayAPI-1.0.9.tar.gz tmp/FunPayAPI-1.1.0.tar.gz --markdown 20230605/F/FunPayAPI/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 01:42:38] INFO root fetch - main [MainThread]: End processing [playgroundrl-envs]: success
+[2023-06-05 01:42:38] INFO root fetch - main [MainThread]: End processing [action-graph]: success
+[2023-06-05 01:42:38] INFO root fetch - main [MainThread]: End processing [circuitpython-ps2controller]: success
+[2023-06-05 01:42:38] INFO root fetch - main [MainThread]: End processing [FunPayAPI]: success
+[2023-06-05 01:42:38] INFO root fetch - main [MainThread]: Store serial: [18369336]
