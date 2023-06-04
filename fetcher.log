@@ -201,3 +201,17 @@
 [2023-06-05 00:27:11] INFO root fetch - main [MainThread]: End processing [idem-aws]: success
 [2023-06-05 00:27:59] INFO root fetch - main [MainThread]: End processing [pystog]: success
 [2023-06-05 00:27:59] INFO root fetch - main [MainThread]: Store serial: [18369100]
+[2023-06-05 00:33:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369100]
+[2023-06-05 00:33:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-05 00:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyRealEstate
+[2023-06-05 00:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kelpie-personal-trainer
+[2023-06-05 00:33:08] INFO root fetch - processPackages [pyRealEstate]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 00:33:08] INFO root fetch - processPackages [kelpie-personal-trainer]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-05 00:33:08] INFO root fetch - processPackages [pyRealEstate]: Downloading https://files.pythonhosted.org/packages/4b/e0/9efcc90e44dba4128432c337c0668c1d62400519013d3c105503a8ee2306/pyRealEstate-0.0.4.tar.gz
+[2023-06-05 00:33:08] INFO root fetch - processPackages [kelpie-personal-trainer]: Downloading https://files.pythonhosted.org/packages/5a/4b/4ee67ed8126726a58f4feea82f593b520080918beba090e4afa575a9ba91/kelpie_personal_trainer-0.2.2.tar.gz
+[2023-06-05 00:33:08] INFO root fetch - processPackages [pyRealEstate]: executing diffoscope
+[2023-06-05 00:33:08] INFO root fetch - processPackages [pyRealEstate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRealEstate-0.0.3.tar.gz tmp/pyRealEstate-0.0.4.tar.gz --markdown 20230605/p/pyRealEstate/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 00:33:08] WARNING root fetch - processPackages [kelpie-personal-trainer]: Skipping package: exceeds size limit 18721402>=10485760
+[2023-06-05 00:33:08] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
+[2023-06-05 00:33:09] INFO root fetch - main [MainThread]: End processing [pyRealEstate]: success
+[2023-06-05 00:33:09] INFO root fetch - main [MainThread]: Store serial: [18369109]
