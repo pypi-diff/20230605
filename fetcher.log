@@ -10028,3 +10028,117 @@
 [2023-06-05 12:37:27] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-05 12:37:38] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
 [2023-06-05 12:37:38] INFO root fetch - main [MainThread]: Store serial: [18374635]
+[2023-06-05 12:42:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374635]
+[2023-06-05 12:42:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gemseo-pymoo
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-keycloak-api-client
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: check-type-hints
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitmart-python-sdk-api
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openvino-model-api
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-dragonfly
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysui-gadgets
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypackagelicenseprototype
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypackagelicenseprototype
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ogc-na
+[2023-06-05 12:42:53] INFO root fetch - processPackages [bitmart-python-sdk-api]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [gemseo-pymoo]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [python-keycloak-api-client]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [check-type-hints]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [openvino-model-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [pysui-gadgets]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-05 12:42:53] INFO root fetch - processPackages [bitmart-python-sdk-api]: Downloading https://files.pythonhosted.org/packages/55/7e/6332404325a7dd3ab5f2ebf2a3afc641530b35c8d34a814d11d4ac1c5966/bitmart-python-sdk-api-1.0.0.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [openvino-model-api]: Downloading https://files.pythonhosted.org/packages/f1/6e/8cacd5d15352ffd42e46371514e0edc30a0596f95068e1b945faf8713f58/openvino_model_api-0.1.0.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [python-keycloak-api-client]: Downloading https://files.pythonhosted.org/packages/39/9b/afd0ea0fee0dee3e786dd8d0793a5a3c40918a292af579cffb6ec23cea12/python-keycloak-api-client-0.6.0.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/fd/a4/bce371e0b46c9b5242e51325e91f74ec9e4a99463dd425634a0e69f26793/mypackagelicenseprototype-1.8.2-py3-none-any.whl
+[2023-06-05 12:42:54] INFO root fetch - processPackages [check-type-hints]: Downloading https://files.pythonhosted.org/packages/1f/9d/d49c908f1dead791fc12f3838857e873706c1a4b78acc6cb322eec42c46f/check-type-hints-0.0.3.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/fd/a4/bce371e0b46c9b5242e51325e91f74ec9e4a99463dd425634a0e69f26793/mypackagelicenseprototype-1.8.2-py3-none-any.whl
+[2023-06-05 12:42:54] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [pysui-gadgets]: Downloading https://files.pythonhosted.org/packages/53/39/3b6e7023f6f0d43b5fac6d392bbe993addd25eb094a61106a206a117aa85/pysui_gadgets-0.0.9-py3-none-any.whl
+[2023-06-05 12:42:54] INFO root fetch - processPackages [gemseo-pymoo]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [gemseo-pymoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemseo-pymoo-1.1.1.tar.gz tmp/gemseo-pymoo-1.1.2.tar.gz --markdown 20230605/g/gemseo-pymoo/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-05 12:42:54] INFO root fetch - processPackages [bitmart-python-sdk-api]: Downloading https://files.pythonhosted.org/packages/04/fd/ac6611ee091f395559e3139ed6e538996048a476d9155b5c0ca2719a374e/bitmart-python-sdk-api-1.0.0rc1.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [openvino-model-api]: Downloading https://files.pythonhosted.org/packages/20/94/4ff38ed3297c56425f10b492010c92e2a9ccb4986127e7dc8e656a9dc6de/openvino_model_api-0.1.1.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [check-type-hints]: Downloading https://files.pythonhosted.org/packages/e4/bd/f9d1b60005f9b0c341687de1e7d9a560998faa3fb4c19dec54da0dd29e5a/check-type-hints-0.0.4.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [openvino-model-api]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [openvino-model-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino_model_api-0.1.0.tar.gz tmp/openvino_model_api-0.1.1.tar.gz --markdown 20230605/o/openvino-model-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 12:42:54] INFO root fetch - processPackages [python-keycloak-api-client]: Downloading https://files.pythonhosted.org/packages/87/07/8194046f116cd856424d30fadcecc798572ffc36d466d22ac1735d42800c/python-keycloak-api-client-0.7.0.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [check-type-hints]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [check-type-hints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check-type-hints-0.0.3.tar.gz tmp/check-type-hints-0.0.4.tar.gz --markdown 20230605/c/check-type-hints/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 12:42:54] INFO root fetch - processPackages [bitmart-python-sdk-api]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [bitmart-python-sdk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmart-python-sdk-api-1.0.0.tar.gz tmp/bitmart-python-sdk-api-1.0.0rc1.tar.gz --markdown 20230605/b/bitmart-python-sdk-api/1.0.0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-06-05 12:42:54] INFO root fetch - processPackages [pysui-gadgets]: Downloading https://files.pythonhosted.org/packages/ad/db/583b8717506f3fa9c6fb600f58d00ead5c0700b3842436f38476da31f3ed/pysui_gadgets-0.1.0-py3-none-any.whl
+[2023-06-05 12:42:54] INFO root fetch - processPackages [python-keycloak-api-client]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [python-keycloak-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-keycloak-api-client-0.6.0.tar.gz tmp/python-keycloak-api-client-0.7.0.tar.gz --markdown 20230605/p/python-keycloak-api-client/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-05 12:42:54] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/28/b1/4500b0135a768edecdb703c6fca227a342ae868c8a8e3a8a0d2aa7e3d7ef/mypackagelicenseprototype-1.8.3-py3-none-any.whl
+[2023-06-05 12:42:54] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/28/b1/4500b0135a768edecdb703c6fca227a342ae868c8a8e3a8a0d2aa7e3d7ef/mypackagelicenseprototype-1.8.3-py3-none-any.whl
+[2023-06-05 12:42:54] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [pysui-gadgets]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [pysui-gadgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui_gadgets-0.0.9-py3-none-any.whl.zip tmp/pysui_gadgets-0.1.0-py3-none-any.whl.zip --markdown 20230605/p/pysui-gadgets/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-05 12:42:54] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.8.2-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.8.3-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-05 12:42:54] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-06-05 12:42:54] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.8.2-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.8.3-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-05 12:42:54] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230605/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-05 12:42:54] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-06-05 12:42:54] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230605/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 12:42:55] INFO root fetch - processPackages [check-type-hints]: Start processing: findex
+[2023-06-05 12:42:55] INFO root fetch - main [MainThread]: End processing [check-type-hints]: success
+[2023-06-05 12:42:55] INFO root fetch - processPackages [openvino-model-api]: Start processing: chellow
+[2023-06-05 12:42:55] INFO root fetch - main [MainThread]: End processing [openvino-model-api]: success
+[2023-06-05 12:42:55] INFO root fetch - processPackages [findex]: New version: [4.0.1] Old Version: [3.0.0]
+[2023-06-05 12:42:55] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-06-05 12:42:55] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-06-05 12:42:55] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230605/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-06-05 12:42:55] INFO root fetch - processPackages [findex]: Downloading https://files.pythonhosted.org/packages/34/52/39cdf23a752974977c9213f550e49b67e3dc0866d917e4a66b12ab2f36ec/findex-3.0.0-cp37-abi3-win_amd64.whl
+[2023-06-05 12:42:55] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: yente
+[2023-06-05 12:42:55] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 12:42:56] INFO root fetch - processPackages [yente]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-06-05 12:42:56] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: sdkit
+[2023-06-05 12:42:56] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 12:42:56] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-05 12:42:56] INFO root fetch - processPackages [bitmart-python-sdk-api]: Start processing: spark-etl
+[2023-06-05 12:42:56] INFO root fetch - main [MainThread]: End processing [bitmart-python-sdk-api]: success
+[2023-06-05 12:42:56] INFO root fetch - processPackages [spark-etl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 12:42:56] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: aquarium-python-api
+[2023-06-05 12:42:56] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-06-05 12:42:56] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-06-05 12:42:56] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230605/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-05 12:42:56] INFO root fetch - processPackages [aquarium-python-api]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-05 12:42:56] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/a1/51/8c9fc74a3163ac4ae25830debe909e1b03d96d8b01c1d3e8f6d6227f1a44/yente-3.4.0.tar.gz
+[2023-06-05 12:42:56] INFO root fetch - processPackages [pysui-gadgets]: Start processing: mypackagelicenseprototype
+[2023-06-05 12:42:56] INFO root fetch - main [MainThread]: End processing [pysui-gadgets]: success
+[2023-06-05 12:42:56] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-06-05 12:42:56] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-06-05 12:42:56] INFO root fetch - processPackages [spark-etl]: Downloading https://files.pythonhosted.org/packages/f6/be/7e08c267f5123631b2088717c2f3e8d79bc4f043484419afb99c3bd25456/spark-etl-0.0.98.tar.gz
+[2023-06-05 12:42:56] INFO root fetch - processPackages [findex]: Downloading https://files.pythonhosted.org/packages/7c/31/245b1a1af21a1b7d4d61984af80128919293a25e8f1d8573828b370e9b89/findex-4.0.1-cp37-abi3-win_amd64.whl
+[2023-06-05 12:42:56] INFO root fetch - processPackages [aquarium-python-api]: Downloading https://files.pythonhosted.org/packages/c0/53/798ae37e5ff86bb15bec70324f39ff97fbe205d564cee45f48211b169f37/aquarium-python-api-2.0.4.tar.gz
+[2023-06-05 12:42:56] INFO root fetch - processPackages [findex]: executing diffoscope
+[2023-06-05 12:42:56] INFO root fetch - processPackages [findex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findex-3.0.0-cp37-abi3-win_amd64.whl.zip tmp/findex-4.0.1-cp37-abi3-win_amd64.whl.zip --markdown 20230605/f/findex/3.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-05 12:42:56] INFO root fetch - processPackages [aquarium-python-api]: executing diffoscope
+[2023-06-05 12:42:56] INFO root fetch - processPackages [aquarium-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aquarium-python-api-2.0.3.tar.gz tmp/aquarium-python-api-2.0.4.tar.gz --markdown 20230605/a/aquarium-python-api/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-05 12:42:56] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/3f/98/a6c790e65eeb8b0388d460324992e0c91447ff0d898e96566b8892fecee8/yente-3.4.1.tar.gz
+[2023-06-05 12:42:56] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/1e/29/cc92a8a320387b36c588fd3964d93f4b191753da0e296a7c100f7a767f64/mypackagelicenseprototype-1.8.4-py3-none-any.whl
+[2023-06-05 12:42:56] INFO root fetch - processPackages [yente]: executing diffoscope
+[2023-06-05 12:42:56] INFO root fetch - processPackages [yente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yente-3.4.0.tar.gz tmp/yente-3.4.1.tar.gz --markdown 20230605/y/yente/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-06-05 12:42:56] INFO root fetch - main [MainThread]: End processing [python-keycloak-api-client]: success
+[2023-06-05 12:42:56] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 12:42:56] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.8.3-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.8.4-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-06-05 12:42:56] INFO root fetch - processPackages [spark-etl]: Downloading https://files.pythonhosted.org/packages/7e/c5/872f0d9faab27544d5ecd31bfa811ab5f0d250333f8f1e6b04bf662c59a0/spark-etl-0.0.99.tar.gz
+[2023-06-05 12:42:56] INFO root fetch - processPackages [spark-etl]: executing diffoscope
+[2023-06-05 12:42:56] INFO root fetch - processPackages [spark-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-etl-0.0.98.tar.gz tmp/spark-etl-0.0.99.tar.gz --markdown 20230605/s/spark-etl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 12:42:57] INFO root fetch - main [MainThread]: End processing [findex]: success
+[2023-06-05 12:42:57] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 12:42:57] INFO root fetch - main [MainThread]: End processing [yente]: success
+[2023-06-05 12:42:57] INFO root fetch - main [MainThread]: End processing [gemseo-pymoo]: success
+[2023-06-05 12:42:58] INFO root fetch - main [MainThread]: End processing [spark-etl]: success
+[2023-06-05 12:42:58] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-06-05 12:43:04] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-06-05 12:43:52] INFO root fetch - main [MainThread]: End processing [aquarium-python-api]: success
+[2023-06-05 12:43:52] INFO root fetch - main [MainThread]: Store serial: [18374683]
