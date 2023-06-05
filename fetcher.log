@@ -4932,3 +4932,27 @@
 [2023-06-05 06:42:45] INFO root fetch - main [MainThread]: End processing [edman-web]: success
 [2023-06-05 06:42:45] INFO root fetch - main [MainThread]: End processing [ecape]: success
 [2023-06-05 06:42:45] INFO root fetch - main [MainThread]: Store serial: [18371735]
+[2023-06-05 06:47:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371735]
+[2023-06-05 06:47:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dotscanner
+[2023-06-05 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2023-06-05 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dartrig
+[2023-06-05 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bambooai
+[2023-06-05 06:47:54] INFO root fetch - processPackages [dotscanner]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-05 06:47:54] INFO root fetch - processPackages [bambooai]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-05 06:47:54] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 06:47:54] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-05 06:47:54] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-06-05 06:47:54] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.2.7.tar.gz tmp/bambooai-0.2.8.tar.gz --markdown 20230605/b/bambooai/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-05 06:47:54] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-05 06:47:54] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230605/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 06:47:54] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/43/ec/c4e298be6aa078db74032e3c10e39c534d1337827b0a5f9420046aefa8e2/dotscanner-1.3.2.tar.gz
+[2023-06-05 06:47:54] INFO root fetch - processPackages [dotscanner]: executing diffoscope
+[2023-06-05 06:47:54] INFO root fetch - processPackages [dotscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotscanner-1.3.1.tar.gz tmp/dotscanner-1.3.2.tar.gz --markdown 20230605/d/dotscanner/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-05 06:47:55] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-05 06:47:55] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230605/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-05 06:47:55] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-06-05 06:47:55] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-05 06:47:56] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
+[2023-06-05 06:48:02] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-05 06:48:02] INFO root fetch - main [MainThread]: Store serial: [18371747]
