@@ -22271,3 +22271,125 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 20:28:52] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.4.0a1685987925.tar.gz]
 [2023-06-05 20:28:52] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2023-06-05 20:28:52] INFO root fetch - main [MainThread]: Store serial: [18379868]
+[2023-06-05 20:33:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18379868]
+[2023-06-05 20:34:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: croydon
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sharkpyro
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: am4utils
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mazemastery
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bibtex2cff
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: propan
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dipex
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cve-py
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ohnlp-backbone-xlang-python
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hdbo-b
+[2023-06-05 20:34:01] WARNING root fetch - processPackages [am4utils]: Skipping, unable to determine old version
+[2023-06-05 20:34:01] INFO root fetch - processPackages [am4utils]: Start processing: ANBUtils
+[2023-06-05 20:34:01] INFO root fetch - main [MainThread]: End processing [am4utils] error
+[2023-06-05 20:34:01] INFO root fetch - processPackages [sharkpyro]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [mazemastery]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [croydon]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [bibtex2cff]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [hdbo-b]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [cve-py]: New version: [1.2.4] Old Version: [1.2.2]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ANBUtils]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [propan]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/ba/e9/5c0df2841914b52e07455cf2c7c66902375c38d90810a1ca5502ba0df813/ohnlp-backbone-xlang-python-1.0.4.tar.gz
+[2023-06-05 20:34:01] WARNING root fetch - processPackages [sharkpyro]: fallback to get urls: [1.4.3]
+[2023-06-05 20:34:01] WARNING root fetch - processPackages [sharkpyro]: None
+[2023-06-05 20:34:01] INFO root fetch - processPackages [bibtex2cff]: Downloading https://files.pythonhosted.org/packages/2c/28/27cdb72363aeebc400668a474b7478e4b6cedb5eec90aa9581fccaabc146/bibtex2cff-0.2.0.tar.gz
+[2023-06-05 20:34:01] WARNING root fetch - processPackages [sharkpyro]: None
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/8c/d7/658bc82cfa1c2530917ff7223bc58140560d1c6ed0c432171ec0a5073fac/ANBUtils-1.5.1.tar.gz
+[2023-06-05 20:34:01] WARNING root fetch - processPackages [sharkpyro]: unable to get url for both version [1.4.3]
+[2023-06-05 20:34:01] INFO root fetch - processPackages [cve-py]: Downloading https://files.pythonhosted.org/packages/9a/a5/c0b486de9d716695c37267333d24dc913466f432dca4e42d70a86b99ceaa/cve-py-1.2.2.tar.gz
+[2023-06-05 20:34:01] INFO root fetch - processPackages [hdbo-b]: Downloading https://files.pythonhosted.org/packages/2f/f5/6500ec8a8db4eeacaa61b739e2b7c80aaa8a93600700ac54796741e88a2d/hdbo_b-0.1.0.tar.gz
+[2023-06-05 20:34:01] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/20/97/4ac3834c4ccd9bf2fa45bec45d6b3f150b192393e4806f0f5b2f78e57937/propan-0.1.2.8.tar.gz
+[2023-06-05 20:34:01] WARNING root fetch - processPackages [sharkpyro]: None
+[2023-06-05 20:34:01] INFO root fetch - processPackages [sharkpyro]: Start processing: findmyorder
+[2023-06-05 20:34:01] INFO root fetch - main [MainThread]: End processing [sharkpyro] error
+[2023-06-05 20:34:01] INFO root fetch - processPackages [mazemastery]: Downloading https://files.pythonhosted.org/packages/47/d3/d43b92f822fc643a1386f02b20ac823bc43c23dad5bc37ed35f41ec4b498/mazemastery-0.0.3.tar.gz
+[2023-06-05 20:34:01] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-05 20:34:01] INFO root fetch - processPackages [croydon]: Downloading https://files.pythonhosted.org/packages/8f/23/59276ea8901c9d7e6d675111626865c10bbda893cddb6cf2144637c0d607/croydon-0.9.0.tar.gz
+[2023-06-05 20:34:01] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/77/8a/861d0c379e0fdf5f9a954b7516a2b1cc6dd53aed2f4f6d251a4132949fd7/ohnlp-backbone-xlang-python-1.0.5.tar.gz
+[2023-06-05 20:34:01] INFO root fetch - processPackages [findmyorder]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-05 20:34:02] INFO root fetch - processPackages [bibtex2cff]: Downloading https://files.pythonhosted.org/packages/1b/be/6bda77bd3e76bc897b1c3b6681d16d1ea0a737d76640f507538afe656601/bibtex2cff-0.2.1.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.4.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.5.tar.gz --markdown 20230605/o/ohnlp-backbone-xlang-python/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-05 20:34:02] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/ca/f3/9f08c36adfb0cbbf52c339c94b39f7a01b27a2cba31b5d639b00e125eef9/findmyorder-1.3.8.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/1d/23/b8f98b86be5c027c048af879f474e3c89d7c94d9e7e348f8a3d6c702c555/ANBUtils-1.5.2.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [bibtex2cff]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [bibtex2cff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibtex2cff-0.2.0.tar.gz tmp/bibtex2cff-0.2.1.tar.gz --markdown 20230605/b/bibtex2cff/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-05 20:34:02] INFO root fetch - processPackages [cve-py]: Downloading https://files.pythonhosted.org/packages/08/3c/be6ce1f17a74904ce9bedc010acfc3c6dc8d6ff1aa937b5ea7b900e4b117/cve_py-1.2.4.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.5.1.tar.gz tmp/ANBUtils-1.5.2.tar.gz --markdown 20230605/A/ANBUtils/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-05 20:34:02] INFO root fetch - processPackages [hdbo-b]: Downloading https://files.pythonhosted.org/packages/17/3e/c01bbcb6983882f9d9fa84910f48ccf636fcf92a6359325630d3ca539e5f/hdbo_b-0.1.1.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [mazemastery]: Downloading https://files.pythonhosted.org/packages/cd/c9/e540aa2139507fa140b39eee7a183f68e8064ee30f3dc36d3804112bd673/mazemastery-0.0.4.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/67/09/b314612d19f8335ff944a14169a7626076b1696df41ecb837405d460f3ed/propan-0.1.2.9.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [cve-py]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [cve-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cve-py-1.2.2.tar.gz tmp/cve_py-1.2.4.tar.gz --markdown 20230605/c/cve-py/1.2.2-1.2.4/diff.md --exclude *.pyd
+[2023-06-05 20:34:02] INFO root fetch - processPackages [croydon]: Downloading https://files.pythonhosted.org/packages/0f/a7/2941c78a03d5afe7b6cd8bb571d61a9caa4a3c07479b0bd17ea6c4f2aba6/croydon-0.9.1.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/52/b2/27542c768cd467bba099bd3795a116a0f5925f906d812f5ba7335c21a9d3/findmyorder-1.3.9.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [hdbo-b]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [hdbo-b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdbo_b-0.1.0.tar.gz tmp/hdbo_b-0.1.1.tar.gz --markdown 20230605/h/hdbo-b/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 20:34:02] INFO root fetch - processPackages [mazemastery]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [mazemastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazemastery-0.0.3.tar.gz tmp/mazemastery-0.0.4.tar.gz --markdown 20230605/m/mazemastery/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 20:34:02] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.2.8.tar.gz tmp/propan-0.1.2.9.tar.gz --markdown 20230605/p/propan/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2023-06-05 20:34:02] INFO root fetch - processPackages [croydon]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [croydon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croydon-0.9.0.tar.gz tmp/croydon-0.9.1.tar.gz --markdown 20230605/c/croydon/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-05 20:34:02] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-05 20:34:02] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.8.tar.gz tmp/findmyorder-1.3.9.tar.gz --markdown 20230605/f/findmyorder/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-05 20:34:02] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-05 20:34:02] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230605/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-05 20:34:03] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.1.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.2.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - processPackages [ANBUtils]: Start processing: scientific-tools
+[2023-06-05 20:34:03] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2023-06-05 20:34:03] INFO root fetch - processPackages [scientific-tools]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-06-05 20:34:03] INFO root fetch - processPackages [bibtex2cff]: Remove: archive file [/home/abi/fetcher/tmp/bibtex2cff-0.2.0.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - processPackages [bibtex2cff]: Remove: archive file [/home/abi/fetcher/tmp/bibtex2cff-0.2.1.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - processPackages [bibtex2cff]: Start processing: anchorconnector
+[2023-06-05 20:34:03] INFO root fetch - main [MainThread]: End processing [bibtex2cff]: success
+[2023-06-05 20:34:03] INFO root fetch - processPackages [scientific-tools]: Downloading https://files.pythonhosted.org/packages/9d/34/d943e2487c479f76624b7c44f5158f79503fcc59754611e56f761c8924c6/scientific_tools-0.0.0a8-py3-none-any.whl
+[2023-06-05 20:34:03] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.4.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.5.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-06-05 20:34:03] INFO root fetch - processPackages [cve-py]: Remove: archive file [/home/abi/fetcher/tmp/cve-py-1.2.2.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - processPackages [cve-py]: Remove: archive file [/home/abi/fetcher/tmp/cve_py-1.2.4.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - main [MainThread]: End processing [cve-py]: success
+[2023-06-05 20:34:03] INFO root fetch - processPackages [anchorconnector]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-05 20:34:03] INFO root fetch - processPackages [scientific-tools]: Downloading https://files.pythonhosted.org/packages/8a/23/eaf234bc1a84aaff96228877a699367f8ff7104c622f810217f0441dc269/scientific_tools-0.0.0a9-py3-none-any.whl
+[2023-06-05 20:34:03] INFO root fetch - processPackages [hdbo-b]: Remove: archive file [/home/abi/fetcher/tmp/hdbo_b-0.1.0.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - processPackages [hdbo-b]: Remove: archive file [/home/abi/fetcher/tmp/hdbo_b-0.1.1.tar.gz]
+[2023-06-05 20:34:03] INFO root fetch - main [MainThread]: End processing [hdbo-b]: success
+[2023-06-05 20:34:03] INFO root fetch - processPackages [scientific-tools]: executing diffoscope
+[2023-06-05 20:34:03] INFO root fetch - processPackages [scientific-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scientific_tools-0.0.0a8-py3-none-any.whl.zip tmp/scientific_tools-0.0.0a9-py3-none-any.whl.zip --markdown 20230605/s/scientific-tools/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-06-05 20:34:04] INFO root fetch - processPackages [anchorconnector]: Downloading https://files.pythonhosted.org/packages/7b/b0/0de7ec1c0cfe4499daf585e354716bb85775ce554ec7bb1ac12237dfa21c/anchorconnector-0.2.0.tar.gz
+[2023-06-05 20:34:04] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.8.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.9.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-06-05 20:34:04] INFO root fetch - processPackages [mazemastery]: Remove: archive file [/home/abi/fetcher/tmp/mazemastery-0.0.3.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - processPackages [mazemastery]: Remove: archive file [/home/abi/fetcher/tmp/mazemastery-0.0.4.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - main [MainThread]: End processing [mazemastery]: success
+[2023-06-05 20:34:04] INFO root fetch - processPackages [anchorconnector]: Downloading https://files.pythonhosted.org/packages/55/ca/0fbecba0e55a2ac1b0eb7945ef4b766f00e643dc875d1849a83ba1e0b0a6/anchorconnector-0.3.0.tar.gz
+[2023-06-05 20:34:04] INFO root fetch - processPackages [anchorconnector]: executing diffoscope
+[2023-06-05 20:34:04] INFO root fetch - processPackages [anchorconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anchorconnector-0.2.0.tar.gz tmp/anchorconnector-0.3.0.tar.gz --markdown 20230605/a/anchorconnector/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 20:34:04] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.2.8.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.2.9.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-06-05 20:34:04] INFO root fetch - processPackages [croydon]: Remove: archive file [/home/abi/fetcher/tmp/croydon-0.9.0.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - processPackages [croydon]: Remove: archive file [/home/abi/fetcher/tmp/croydon-0.9.1.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - main [MainThread]: End processing [croydon]: success
+[2023-06-05 20:34:04] INFO root fetch - processPackages [scientific-tools]: Remove: archive file [/home/abi/fetcher/tmp/scientific_tools-0.0.0a8-py3-none-any.whl.zip]
+[2023-06-05 20:34:04] INFO root fetch - processPackages [scientific-tools]: Remove: archive file [/home/abi/fetcher/tmp/scientific_tools-0.0.0a9-py3-none-any.whl.zip]
+[2023-06-05 20:34:04] INFO root fetch - main [MainThread]: End processing [scientific-tools]: success
+[2023-06-05 20:34:04] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-05 20:34:04] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-05 20:34:05] INFO root fetch - processPackages [anchorconnector]: Remove: archive file [/home/abi/fetcher/tmp/anchorconnector-0.2.0.tar.gz]
+[2023-06-05 20:34:05] INFO root fetch - processPackages [anchorconnector]: Remove: archive file [/home/abi/fetcher/tmp/anchorconnector-0.3.0.tar.gz]
+[2023-06-05 20:34:05] INFO root fetch - main [MainThread]: End processing [anchorconnector]: success
+[2023-06-05 20:34:05] INFO root fetch - main [MainThread]: Store serial: [18379924]
