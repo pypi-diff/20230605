@@ -11086,3 +11086,124 @@
 [2023-06-05 13:37:04] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-06-05 13:37:40] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-05 13:37:40] INFO root fetch - main [MainThread]: Store serial: [18375281]
+[2023-06-05 13:42:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375281]
+[2023-06-05 13:42:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: combadge
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: attrbox
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycsw-rpi
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splathash
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyre-check-nightly
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-cortex
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: test-graphql-sdk
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-d3-network-component
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-clickzetta
+[2023-06-05 13:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easylsb
+[2023-06-05 13:42:20] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-05 13:42:20] INFO root fetch - processPackages [streamlit-d3-network-component]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 13:42:20] INFO root fetch - processPackages [attrbox]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-06-05 13:42:20] INFO root fetch - processPackages [combadge]: New version: [0.1.0rc7] Old Version: [0.1.0rc6]
+[2023-06-05 13:42:20] INFO root fetch - processPackages [pycsw-rpi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 13:42:20] INFO root fetch - processPackages [easylsb]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 13:42:20] INFO root fetch - processPackages [keras-cortex]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 13:42:20] WARNING root fetch - processPackages [splathash]: Skipping, unable to determine old version
+[2023-06-05 13:42:20] INFO root fetch - processPackages [splathash]: Start processing: mercury
+[2023-06-05 13:42:20] INFO root fetch - main [MainThread]: End processing [splathash] error
+[2023-06-05 13:42:20] INFO root fetch - processPackages [mercury]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-05 13:42:20] WARNING root fetch - processPackages [test-graphql-sdk]: Skipping, unable to determine old version
+[2023-06-05 13:42:20] INFO root fetch - processPackages [test-graphql-sdk]: Start processing: sastadev
+[2023-06-05 13:42:20] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk] error
+[2023-06-05 13:42:20] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101685963534] Old Version: [0.0.101685877121]
+[2023-06-05 13:42:20] INFO root fetch - processPackages [sastadev]: New version: [0.0.4a1] Old Version: [0.0.3]
+[2023-06-05 13:42:20] INFO root fetch - processPackages [pycsw-rpi]: Downloading https://files.pythonhosted.org/packages/98/4e/db6e449b841dbec6d3cd8b00df42fa6bf1f1e013d2e29f99d606593b4ad1/pycsw-rpi-0.1.1.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [streamlit-d3-network-component]: Downloading https://files.pythonhosted.org/packages/35/ca/aedba1bc2dfe5401ff27ddaa421b500cc40088e3e4c421968e45fe84f4c2/streamlit-d3-network-component-0.0.9.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/bb/22/66a1a4f655a3abdc8744c53333bd7b0afe15a5789297ca5e12d3de13629b/easylsb-1.0.3.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [attrbox]: Downloading https://files.pythonhosted.org/packages/b7/62/b6f82a0883c2cca546e2b66c5c8d7686a125d26518ea2126e1082df4585f/attrbox-0.1.2.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [keras-cortex]: Downloading https://files.pythonhosted.org/packages/0f/69/a67db0c7e53c85e1be1b1caf5dfe5cf171f71f5890c7e3580443b57f0220/keras-cortex-0.0.7.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [combadge]: Downloading https://files.pythonhosted.org/packages/d8/ec/30b8556f01f760b66da8dc8408641d00fc4d2ff365ae7b39aa71a6598296/combadge-0.1.0rc6.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/d5/fc/8ef0e5be74d3d60c4484a30e7e7697c568d20b0ecb7128412e0a78cfe97c/mercury-2.3.0.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/ad/40/c226f860ecc40b3977b0afd752eab27015aa044f6bc77f980ed543686360/pyre-check-nightly-0.0.101685877121.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/e1/d6/8ebc5f96e599c9e73f1add6befb8a49ba751b5c5fe465283c67640506f1e/dbt-clickzetta-0.2.7.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/fa/97/be0b0ebe24ef1dc08bc026bf9d757ff814b6f364a2dbff46119d965ef0af/sastadev-0.0.3.tar.gz
+[2023-06-05 13:42:20] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23496961>=10485760
+[2023-06-05 13:42:20] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: euporie
+[2023-06-05 13:42:20] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-05 13:42:20] INFO root fetch - processPackages [euporie]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-06-05 13:42:20] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/3f/d2/3afc48fe3c5172a9a5dadac51fb0e7f1663f2359afb4272fc935770bb86f/easylsb-1.0.4.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [attrbox]: Downloading https://files.pythonhosted.org/packages/87/f6/fe8d5f804a5fef520fa9e2f2e018827dcc0b267aa8449ca3322e4d27bbaa/attrbox-0.1.5.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [pycsw-rpi]: Downloading https://files.pythonhosted.org/packages/93/b2/03276ae89ceda6826243691717e93ccfeabdc0a76d2ccf0783fdebf0e39d/pycsw-rpi-0.1.2.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-05 13:42:20] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.6.tar.gz tmp/dbt-clickzetta-0.2.7.tar.gz --markdown 20230605/d/dbt-clickzetta/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-05 13:42:20] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/53/18/b07d94989ee90131d3613e7d23c875ec5ec84a29c347f6d385cc6537aa25/mercury-2.3.1.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [combadge]: Downloading https://files.pythonhosted.org/packages/95/ef/8a8059d1db8ee684e2faa3d20ccdada428a503c6b135b5ebb2cd81b6725e/combadge-0.1.0rc7.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [euporie]: Downloading https://files.pythonhosted.org/packages/d0/30/272182d5e3353d8b36ec4ae79ef3d0c40ff6e221f97b8749da497bf07b21/euporie-2.4.1.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [easylsb]: executing diffoscope
+[2023-06-05 13:42:20] INFO root fetch - processPackages [easylsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easylsb-1.0.3.tar.gz tmp/easylsb-1.0.4.tar.gz --markdown 20230605/e/easylsb/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 13:42:20] INFO root fetch - processPackages [attrbox]: executing diffoscope
+[2023-06-05 13:42:20] INFO root fetch - processPackages [attrbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attrbox-0.1.2.tar.gz tmp/attrbox-0.1.5.tar.gz --markdown 20230605/a/attrbox/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 13:42:20] INFO root fetch - processPackages [keras-cortex]: Downloading https://files.pythonhosted.org/packages/1e/62/348fca2272073a007006ad37123af1c9de43c9d913b9c3f97adf657101d4/keras-cortex-0.0.8.tar.gz
+[2023-06-05 13:42:20] INFO root fetch - processPackages [pycsw-rpi]: executing diffoscope
+[2023-06-05 13:42:20] INFO root fetch - processPackages [pycsw-rpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycsw-rpi-0.1.1.tar.gz tmp/pycsw-rpi-0.1.2.tar.gz --markdown 20230605/p/pycsw-rpi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 13:42:20] INFO root fetch - processPackages [combadge]: executing diffoscope
+[2023-06-05 13:42:20] INFO root fetch - processPackages [combadge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combadge-0.1.0rc6.tar.gz tmp/combadge-0.1.0rc7.tar.gz --markdown 20230605/c/combadge/0.1.0rc6-0.1.0rc7/diff.md --exclude *.pyd
+[2023-06-05 13:42:20] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2023-06-05 13:42:20] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.3.0.tar.gz tmp/mercury-2.3.1.tar.gz --markdown 20230605/m/mercury/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-05 13:42:20] INFO root fetch - processPackages [keras-cortex]: executing diffoscope
+[2023-06-05 13:42:20] INFO root fetch - processPackages [keras-cortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-cortex-0.0.7.tar.gz tmp/keras-cortex-0.0.8.tar.gz --markdown 20230605/k/keras-cortex/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 13:42:21] INFO root fetch - processPackages [euporie]: Downloading https://files.pythonhosted.org/packages/29/d4/9cb5942040385c0e648b43505470425b5e7493c53c9b5ef6d8e40df08021/euporie-2.4.2.tar.gz
+[2023-06-05 13:42:21] INFO root fetch - processPackages [streamlit-d3-network-component]: executing diffoscope
+[2023-06-05 13:42:21] INFO root fetch - processPackages [streamlit-d3-network-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-d3-network-component-0.0.8.tar.gz tmp/streamlit-d3-network-component-0.0.9.tar.gz --markdown 20230605/s/streamlit-d3-network-component/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 13:42:21] INFO root fetch - processPackages [euporie]: executing diffoscope
+[2023-06-05 13:42:21] INFO root fetch - processPackages [euporie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euporie-2.4.1.tar.gz tmp/euporie-2.4.2.tar.gz --markdown 20230605/e/euporie/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-06-05 13:42:21] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/5b/a1/9e31428a9b1a0150c4977994ff60a89b73183590f4305cc34567ac6e7c71/sastadev-0.0.4a1.tar.gz
+[2023-06-05 13:42:21] INFO root fetch - processPackages [sastadev]: executing diffoscope
+[2023-06-05 13:42:21] INFO root fetch - processPackages [sastadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sastadev-0.0.3.tar.gz tmp/sastadev-0.0.4a1.tar.gz --markdown 20230605/s/sastadev/0.0.3-0.0.4a1/diff.md --exclude *.pyd
+[2023-06-05 13:42:22] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/tmp/dbt-clickzetta-0.2.6.tar.gz]
+[2023-06-05 13:42:22] INFO root fetch - processPackages [dbt-clickzetta]: Start processing: python-aresti
+[2023-06-05 13:42:22] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-05 13:42:22] INFO root fetch - processPackages [python-aresti]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-05 13:42:22] INFO root fetch - processPackages [easylsb]: Remove: archive file [/home/abi/fetcher/tmp/tmp/easylsb-1.0.3.tar.gz]
+[2023-06-05 13:42:22] INFO root fetch - processPackages [easylsb]: Start processing: gitlab-arc-fs
+[2023-06-05 13:42:22] INFO root fetch - main [MainThread]: End processing [easylsb]: success
+[2023-06-05 13:42:22] INFO root fetch - processPackages [gitlab-arc-fs]: New version: [0.0.8.dev1] Old Version: [0.0.6.dev1]
+[2023-06-05 13:42:22] INFO root fetch - processPackages [pycsw-rpi]: Remove: archive file [/home/abi/fetcher/tmp/tmp/pycsw-rpi-0.1.1.tar.gz]
+[2023-06-05 13:42:22] INFO root fetch - processPackages [pycsw-rpi]: Start processing: django-pgpubsub
+[2023-06-05 13:42:22] INFO root fetch - main [MainThread]: End processing [pycsw-rpi]: success
+[2023-06-05 13:42:22] INFO root fetch - processPackages [gitlab-arc-fs]: executing diffoscope
+[2023-06-05 13:42:22] INFO root fetch - processPackages [gitlab-arc-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_arc_fs-0.0.6.dev1.tar.gz tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz --markdown 20230605/g/gitlab-arc-fs/0.0.6.dev1-0.0.8.dev1/diff.md --exclude *.pyd
+[2023-06-05 13:42:22] INFO root fetch - processPackages [python-aresti]: Downloading https://files.pythonhosted.org/packages/b8/05/d903f50a1484d8d54cad6ea4a8819ed99d946e505cbc3e8b69e07cf47410/python-aresti-0.4.4.tar.gz
+[2023-06-05 13:42:22] INFO root fetch - processPackages [attrbox]: Remove: archive file [/home/abi/fetcher/tmp/tmp/attrbox-0.1.2.tar.gz]
+[2023-06-05 13:42:22] INFO root fetch - processPackages [attrbox]: Start processing: meilisearch-tui
+[2023-06-05 13:42:22] INFO root fetch - main [MainThread]: End processing [attrbox]: success
+[2023-06-05 13:42:22] INFO root fetch - processPackages [django-pgpubsub]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-06-05 13:42:22] INFO root fetch - processPackages [keras-cortex]: Remove: archive file [/home/abi/fetcher/tmp/tmp/keras-cortex-0.0.7.tar.gz]
+[2023-06-05 13:42:22] INFO root fetch - main [MainThread]: End processing [keras-cortex]: success
+[2023-06-05 13:42:22] INFO root fetch - processPackages [meilisearch-tui]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-05 13:42:22] INFO root fetch - processPackages [python-aresti]: executing diffoscope
+[2023-06-05 13:42:22] INFO root fetch - processPackages [python-aresti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-aresti-0.4.3.tar.gz tmp/python-aresti-0.4.4.tar.gz --markdown 20230605/p/python-aresti/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-05 13:42:22] INFO root fetch - processPackages [django-pgpubsub]: Downloading https://files.pythonhosted.org/packages/aa/5d/93fad351aac5e15251c2e59c41393d52e915cc8f439224d31571e77f3d10/django_pgpubsub-1.0.6.tar.gz
+[2023-06-05 13:42:22] INFO root fetch - processPackages [meilisearch-tui]: Downloading https://files.pythonhosted.org/packages/67/05/d83cca278ad68244d9d30b96ebc11aa26cef13eb558cb8fa4dd94bf95520/meilisearch_tui-0.7.2.tar.gz
+[2023-06-05 13:42:23] INFO root fetch - processPackages [django-pgpubsub]: Downloading https://files.pythonhosted.org/packages/1c/44/eba339101e903d78eeef626ab3ad7aa124c3ccb3b2cee934785a1ae81d3d/django_pgpubsub-1.1.0.tar.gz
+[2023-06-05 13:42:23] INFO root fetch - processPackages [combadge]: Remove: archive file [/home/abi/fetcher/tmp/tmp/combadge-0.1.0rc6.tar.gz]
+[2023-06-05 13:42:23] INFO root fetch - main [MainThread]: End processing [combadge]: success
+[2023-06-05 13:42:23] INFO root fetch - processPackages [meilisearch-tui]: Downloading https://files.pythonhosted.org/packages/1e/65/59163e368d3d57590ab14751cc1ef760b38a0cbc34aa74059bf11b1c47c7/meilisearch_tui-0.7.3.tar.gz
+[2023-06-05 13:42:23] INFO root fetch - processPackages [django-pgpubsub]: executing diffoscope
+[2023-06-05 13:42:23] INFO root fetch - processPackages [django-pgpubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pgpubsub-1.0.6.tar.gz tmp/django_pgpubsub-1.1.0.tar.gz --markdown 20230605/d/django-pgpubsub/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 13:42:23] INFO root fetch - processPackages [meilisearch-tui]: executing diffoscope
+[2023-06-05 13:42:23] INFO root fetch - processPackages [meilisearch-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_tui-0.7.2.tar.gz tmp/meilisearch_tui-0.7.3.tar.gz --markdown 20230605/m/meilisearch-tui/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-05 13:42:23] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/tmp/gitlab_arc_fs-0.0.6.dev1.tar.gz]
+[2023-06-05 13:42:23] INFO root fetch - main [MainThread]: End processing [gitlab-arc-fs]: success
+[2023-06-05 13:42:23] INFO root fetch - processPackages [python-aresti]: Remove: archive file [/home/abi/fetcher/tmp/tmp/python-aresti-0.4.3.tar.gz]
+[2023-06-05 13:42:23] INFO root fetch - main [MainThread]: End processing [python-aresti]: success
+[2023-06-05 13:42:23] INFO root fetch - processPackages [euporie]: Remove: archive file [/home/abi/fetcher/tmp/tmp/euporie-2.4.1.tar.gz]
+[2023-06-05 13:42:23] INFO root fetch - main [MainThread]: End processing [euporie]: success
+[2023-06-05 13:42:24] INFO root fetch - processPackages [django-pgpubsub]: Remove: archive file [/home/abi/fetcher/tmp/tmp/django_pgpubsub-1.0.6.tar.gz]
+[2023-06-05 13:42:24] INFO root fetch - main [MainThread]: End processing [django-pgpubsub]: success
+[2023-06-05 13:42:24] INFO root fetch - processPackages [meilisearch-tui]: Remove: archive file [/home/abi/fetcher/tmp/tmp/meilisearch_tui-0.7.2.tar.gz]
+[2023-06-05 13:42:24] INFO root fetch - main [MainThread]: End processing [meilisearch-tui]: success
+[2023-06-05 13:42:25] INFO root fetch - processPackages [mercury]: Remove: archive file [/home/abi/fetcher/tmp/tmp/mercury-2.3.0.tar.gz]
+[2023-06-05 13:42:25] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2023-06-05 13:42:26] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/tmp/sastadev-0.0.3.tar.gz]
+[2023-06-05 13:42:26] INFO root fetch - main [MainThread]: End processing [sastadev]: success
+[2023-06-05 13:43:22] INFO root fetch - processPackages [streamlit-d3-network-component]: Remove: archive file [/home/abi/fetcher/tmp/tmp/streamlit-d3-network-component-0.0.8.tar.gz]
+[2023-06-05 13:43:22] INFO root fetch - main [MainThread]: End processing [streamlit-d3-network-component]: success
+[2023-06-05 13:43:22] INFO root fetch - main [MainThread]: Store serial: [18375341]
