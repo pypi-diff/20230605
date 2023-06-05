@@ -17211,3 +17211,177 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 17:21:47] INFO root fetch - processPackages [kclvm]: Remove: archive file [/home/abi/fetcher/tmp/kclvm-0.5.0.3.tar.gz]
 [2023-06-05 17:21:47] INFO root fetch - main [MainThread]: End processing [kclvm]: success
 [2023-06-05 17:21:47] INFO root fetch - main [MainThread]: Store serial: [18377782]
+[2023-06-05 17:26:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377782]
+[2023-06-05 17:26:59] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-kubernetes
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autora-experiment-runner-experimentation-manager-firebase
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngscrape
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PVNet
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycup
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TypeDal
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: saenopy
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyqrack
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miskibin
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: regisoup
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ngscrape]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [PVNet]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [miskibin]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [pycup]: New version: [0.1.7] Old Version: [0.1.6.1]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [TypeDal]: New version: [1.0.0b1] Old Version: [0.6.2]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [saenopy]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [regisoup]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-06-05 17:26:59] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-05 17:26:59] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Downloading https://files.pythonhosted.org/packages/a6/d6/ac3f024284c26ddd215afb52a54aba43e376e9f86f1142f7a68a0ee16bea/autora-experiment-runner-experimentation-manager-firebase-1.0.1.tar.gz
+[2023-06-05 17:26:59] INFO root fetch - processPackages [miskibin]: Downloading https://files.pythonhosted.org/packages/24/94/a8b130fe42940b807eb89bbb2d2c092ec8dd016cbd9a4c407cc02b9a8e0d/miskibin-1.2.1.tar.gz
+[2023-06-05 17:26:59] INFO root fetch - processPackages [pycup]: Downloading https://files.pythonhosted.org/packages/92/2d/e28a713edaa8a9f5d42aac3eba5e16e0d190a2ec83601bf23562c6797b04/pycup-0.1.6.1.tar.gz
+[2023-06-05 17:26:59] INFO root fetch - processPackages [saenopy]: Downloading https://files.pythonhosted.org/packages/cb/c2/9a8b2b7de63bdd8ab824ce0f359a1b16b3b993dd4fb9c767da5a44335271/saenopy-0.9.0.tar.gz
+[2023-06-05 17:26:59] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/3e/ed/8b07c83352985bb9e606ab6230aa58e67b5d5bf990c928d2eacb3ab5d044/ngscrape-2.0.0.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Downloading https://files.pythonhosted.org/packages/0d/a4/8b64ac387fe493732cda6d0d3fd2388a854105bcebb347f9d508708db45f/cdktf-cdktf-provider-kubernetes-6.0.3.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [TypeDal]: Downloading https://files.pythonhosted.org/packages/6c/25/7a77622e67f3e95eae7fd4bcff0e59c22d2ee5c11e5774b0ee74474ca927/TypeDal-0.6.2.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/ed/6c/ae306ef51fc937145d77865d3c9d3cec6a9c232d5791eaac8a33861472f6/PVNet-0.0.9.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [regisoup]: Downloading https://files.pythonhosted.org/packages/19/f1/9e9a77ed3bf65a80b14f4f64ca0a111efce79deeff74ab27e9567c999eb0/regisoup-0.1.8.tar.gz
+[2023-06-05 17:27:00] WARNING root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Skipping package: exceeds size limit 14686779>=10485760
+[2023-06-05 17:27:00] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Start processing: custodian
+[2023-06-05 17:27:00] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-kubernetes] error
+[2023-06-05 17:27:00] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [custodian]: New version: [2023.6.5] Old Version: [2023.5.7]
+[2023-06-05 17:27:00] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Downloading https://files.pythonhosted.org/packages/63/19/9056c66a9ea130d2dca9b4287d6bf982cf447bb345fdb1cad4e54688ea5a/autora-experiment-runner-experimentation-manager-firebase-1.0.2.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [miskibin]: Downloading https://files.pythonhosted.org/packages/b8/3f/9e8e8020dd99d7f1b013af2bc3944d9ee38b0e08409a6dbf24d2aea142f8/miskibin-1.2.2.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-05 17:27:00] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230605/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-05 17:27:00] INFO root fetch - processPackages [pycup]: Downloading https://files.pythonhosted.org/packages/3f/2b/107f975e408357ee961d30c304eadc9a5cde0c12af0ab03c17153cf7f0da/pycup-0.1.7.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [TypeDal]: Downloading https://files.pythonhosted.org/packages/6c/a0/d35540c04bb58ac71f08b3e2e58f24016b152ac6ccf294623a065a8fc2e8/typedal-1.0.0b1.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: executing diffoscope
+[2023-06-05 17:27:00] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.1.tar.gz tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.2.tar.gz --markdown 20230605/a/autora-experiment-runner-experimentation-manager-firebase/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 17:27:00] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/8a/5a/e8ffdfef7a179278a2229a70614299b6d271982a1a09eb91a95d595f8b3f/PVNet-0.1.0.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [custodian]: Downloading https://files.pythonhosted.org/packages/69/27/1e80e57041c11e6d72e3ea133036dded5bff2afe77732a0dcb270b245d8d/custodian-2023.5.7.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/c9/86/22f2a3fefb1ccf40f08c6422186310e9348d9635023419cdf589c869213e/ngscrape-3.0.0.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [miskibin]: executing diffoscope
+[2023-06-05 17:27:00] INFO root fetch - processPackages [miskibin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miskibin-1.2.1.tar.gz tmp/miskibin-1.2.2.tar.gz --markdown 20230605/m/miskibin/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-05 17:27:00] INFO root fetch - processPackages [pycup]: executing diffoscope
+[2023-06-05 17:27:00] INFO root fetch - processPackages [pycup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycup-0.1.6.1.tar.gz tmp/pycup-0.1.7.tar.gz --markdown 20230605/p/pycup/0.1.6.1-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 17:27:00] INFO root fetch - processPackages [TypeDal]: executing diffoscope
+[2023-06-05 17:27:00] INFO root fetch - processPackages [TypeDal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TypeDal-0.6.2.tar.gz tmp/typedal-1.0.0b1.tar.gz --markdown 20230605/T/TypeDal/0.6.2-1.0.0b1/diff.md --exclude *.pyd
+[2023-06-05 17:27:00] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-05 17:27:00] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.9.tar.gz tmp/PVNet-0.1.0.tar.gz --markdown 20230605/P/PVNet/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-05 17:27:00] INFO root fetch - processPackages [saenopy]: Downloading https://files.pythonhosted.org/packages/f5/7d/ad425749d995fbe89c6309f81c72e2b8306de4137922d2c26d82deda70c3/saenopy-1.0.0.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [regisoup]: Downloading https://files.pythonhosted.org/packages/36/80/b5ce65a1adaecbba3e326f79c58e776bba6a266a86be5d02b2e44497f167/regisoup-0.1.9.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [ngscrape]: executing diffoscope
+[2023-06-05 17:27:00] INFO root fetch - processPackages [ngscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngscrape-2.0.0.tar.gz tmp/ngscrape-3.0.0.tar.gz --markdown 20230605/n/ngscrape/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-05 17:27:00] INFO root fetch - processPackages [custodian]: Downloading https://files.pythonhosted.org/packages/bd/a3/2ad70dad58d70c82d7f30a872a3b2d0a4cbde4f2602e3848afe27f679f43/custodian-2023.6.5.tar.gz
+[2023-06-05 17:27:00] INFO root fetch - processPackages [custodian]: executing diffoscope
+[2023-06-05 17:27:00] INFO root fetch - processPackages [custodian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodian-2023.5.7.tar.gz tmp/custodian-2023.6.5.tar.gz --markdown 20230605/c/custodian/2023.5.7-2023.6.5/diff.md --exclude *.pyd
+[2023-06-05 17:27:01] INFO root fetch - processPackages [saenopy]: executing diffoscope
+[2023-06-05 17:27:01] INFO root fetch - processPackages [saenopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saenopy-0.9.0.tar.gz tmp/saenopy-1.0.0.tar.gz --markdown 20230605/s/saenopy/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 17:27:01] INFO root fetch - processPackages [regisoup]: executing diffoscope
+[2023-06-05 17:27:01] INFO root fetch - processPackages [regisoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regisoup-0.1.8.tar.gz tmp/regisoup-0.1.9.tar.gz --markdown 20230605/r/regisoup/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 17:27:01] INFO root fetch - processPackages [miskibin]: Remove: archive file [/home/abi/fetcher/tmp/miskibin-1.2.1.tar.gz]
+[2023-06-05 17:27:01] INFO root fetch - processPackages [miskibin]: Remove: archive file [/home/abi/fetcher/tmp/miskibin-1.2.2.tar.gz]
+[2023-06-05 17:27:01] INFO root fetch - processPackages [miskibin]: Start processing: anywidget
+[2023-06-05 17:27:01] INFO root fetch - main [MainThread]: End processing [miskibin]: success
+[2023-06-05 17:27:01] INFO root fetch - processPackages [anywidget]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-05 17:27:01] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-05 17:27:01] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-05 17:27:01] INFO root fetch - processPackages [pyqrack]: Start processing: miskibin
+[2023-06-05 17:27:01] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-05 17:27:01] INFO root fetch - processPackages [miskibin]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-05 17:27:01] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/2a/9a/a9e465f73532ac44dfe3097bf662c418ef13ed3ca458bfd853e1f7278fde/anywidget-0.4.0.tar.gz
+[2023-06-05 17:27:01] INFO root fetch - processPackages [miskibin]: Downloading https://files.pythonhosted.org/packages/24/94/a8b130fe42940b807eb89bbb2d2c092ec8dd016cbd9a4c407cc02b9a8e0d/miskibin-1.2.1.tar.gz
+[2023-06-05 17:27:01] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Remove: archive file [/home/abi/fetcher/tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.1.tar.gz]
+[2023-06-05 17:27:01] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Remove: archive file [/home/abi/fetcher/tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.2.tar.gz]
+[2023-06-05 17:27:01] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Start processing: pyevtk
+[2023-06-05 17:27:01] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-experimentation-manager-firebase]: success
+[2023-06-05 17:27:02] INFO root fetch - processPackages [pyevtk]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [miskibin]: Downloading https://files.pythonhosted.org/packages/b8/3f/9e8e8020dd99d7f1b013af2bc3944d9ee38b0e08409a6dbf24d2aea142f8/miskibin-1.2.2.tar.gz
+[2023-06-05 17:27:02] INFO root fetch - processPackages [ngscrape]: Remove: archive file [/home/abi/fetcher/tmp/ngscrape-2.0.0.tar.gz]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [ngscrape]: Remove: archive file [/home/abi/fetcher/tmp/ngscrape-3.0.0.tar.gz]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [ngscrape]: Start processing: ovos-skill-weather
+[2023-06-05 17:27:02] INFO root fetch - main [MainThread]: End processing [ngscrape]: success
+[2023-06-05 17:27:02] INFO root fetch - processPackages [pyevtk]: Downloading https://files.pythonhosted.org/packages/e5/b7/c2973de953393f5e9a6462388a3a4e6fe1248e72a59b8b878585a572ecc5/pyevtk-1.5.0.tar.gz
+[2023-06-05 17:27:02] INFO root fetch - processPackages [ovos-skill-weather]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/2a/bf/64545096b46c0a31c91ffb034ddee58659c16184baa9766c064227948045/anywidget-0.4.1.tar.gz
+[2023-06-05 17:27:02] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.0.9.tar.gz]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.0.tar.gz]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [PVNet]: Start processing: wscraping-helper
+[2023-06-05 17:27:02] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-05 17:27:02] INFO root fetch - processPackages [miskibin]: executing diffoscope
+[2023-06-05 17:27:02] INFO root fetch - processPackages [miskibin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miskibin-1.2.1.tar.gz tmp/miskibin-1.2.2.tar.gz --markdown 20230605/m/miskibin/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-05 17:27:02] WARNING root fetch - processPackages [wscraping-helper]: Skipping, unable to determine old version
+[2023-06-05 17:27:02] INFO root fetch - processPackages [wscraping-helper]: Start processing: localstack-core
+[2023-06-05 17:27:02] INFO root fetch - main [MainThread]: End processing [wscraping-helper] error
+[2023-06-05 17:27:02] INFO root fetch - processPackages [regisoup]: Remove: archive file [/home/abi/fetcher/tmp/regisoup-0.1.8.tar.gz]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [regisoup]: Remove: archive file [/home/abi/fetcher/tmp/regisoup-0.1.9.tar.gz]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [regisoup]: Start processing: c2cciutils
+[2023-06-05 17:27:02] INFO root fetch - main [MainThread]: End processing [regisoup]: success
+[2023-06-05 17:27:02] INFO root fetch - processPackages [custodian]: Remove: archive file [/home/abi/fetcher/tmp/custodian-2023.5.7.tar.gz]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [custodian]: Remove: archive file [/home/abi/fetcher/tmp/custodian-2023.6.5.tar.gz]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230605152542] Old Version: [2.1.1.dev20230605102948]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [custodian]: Start processing: sharkpyro
+[2023-06-05 17:27:02] INFO root fetch - main [MainThread]: End processing [custodian]: success
+[2023-06-05 17:27:02] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-05 17:27:02] ERROR root fetch - processPackages [sharkpyro]: Unable to get metadata: No such project 'sharkpyro'
+[2023-06-05 17:27:02] INFO root fetch - processPackages [sharkpyro]: Start processing: c2cciutils
+[2023-06-05 17:27:02] INFO root fetch - main [MainThread]: End processing [sharkpyro] error
+[2023-06-05 17:27:02] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/34/02/83c8e42540cee18c12af8ffd29d906d498998e8088dce0e117dffa101c45/localstack-core-2.1.1.dev20230605102948.tar.gz
+[2023-06-05 17:27:02] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-05 17:27:02] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-06-05 17:27:02] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.4.0.tar.gz tmp/anywidget-0.4.1.tar.gz --markdown 20230605/a/anywidget/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-05 17:27:02] INFO root fetch - processPackages [ovos-skill-weather]: Downloading https://files.pythonhosted.org/packages/73/39/23253a951872b1d3ba576e0ae7017d7a24af904a92abb4c181b445ee47ff/ovos_skill_weather-0.0.1a8-py3-none-any.whl
+[2023-06-05 17:27:02] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-05 17:27:02] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-05 17:27:02] INFO root fetch - processPackages [pyevtk]: Downloading https://files.pythonhosted.org/packages/44/dd/d20c1a0c0105611b831536d2c6d9132bb83d70ed80f4b6d328c04acfeb0d/pyevtk-1.6.0.tar.gz
+[2023-06-05 17:27:02] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ae/49/f11433901aa117985306aeabdbdf70a4a28b5a304e505272fba0773b31a9/localstack-core-2.1.1.dev20230605152542.tar.gz
+[2023-06-05 17:27:02] INFO root fetch - processPackages [pyevtk]: executing diffoscope
+[2023-06-05 17:27:02] INFO root fetch - processPackages [pyevtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyevtk-1.5.0.tar.gz tmp/pyevtk-1.6.0.tar.gz --markdown 20230605/p/pyevtk/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-06-05 17:27:02] INFO root fetch - processPackages [ovos-skill-weather]: Downloading https://files.pythonhosted.org/packages/22/e4/88491cb9d3a9e70f89cb2124c53ec753a2405b62657bb5872d14d7124921/ovos_skill_weather-0.0.1a9-py3-none-any.whl
+[2023-06-05 17:27:02] INFO root fetch - processPackages [ovos-skill-weather]: executing diffoscope
+[2023-06-05 17:27:02] INFO root fetch - processPackages [ovos-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_weather-0.0.1a8-py3-none-any.whl.zip tmp/ovos_skill_weather-0.0.1a9-py3-none-any.whl.zip --markdown 20230605/o/ovos-skill-weather/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-05 17:27:02] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-05 17:27:02] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-05 17:27:03] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-05 17:27:03] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230605102948.tar.gz tmp/localstack-core-2.1.1.dev20230605152542.tar.gz --markdown 20230605/l/localstack-core/2.1.1.dev20230605102948-2.1.1.dev20230605152542/diff.md --exclude *.pyd
+[2023-06-05 17:27:03] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-05 17:27:03] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230605/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-05 17:27:03] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-05 17:27:03] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230605/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-05 17:27:03] INFO root fetch - processPackages [miskibin]: Remove: archive file [/home/abi/fetcher/tmp/miskibin-1.2.1.tar.gz]
+[2023-06-05 17:27:03] INFO root fetch - processPackages [miskibin]: Remove: archive file [/home/abi/fetcher/tmp/miskibin-1.2.2.tar.gz]
+[2023-06-05 17:27:03] INFO root fetch - processPackages [miskibin]: Start processing: ngscrape
+[2023-06-05 17:27:03] INFO root fetch - main [MainThread]: End processing [miskibin]: success
+[2023-06-05 17:27:03] INFO root fetch - processPackages [ngscrape]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-05 17:27:03] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/c9/86/22f2a3fefb1ccf40f08c6422186310e9348d9635023419cdf589c869213e/ngscrape-3.0.0.tar.gz
+[2023-06-05 17:27:03] INFO root fetch - processPackages [saenopy]: Remove: archive file [/home/abi/fetcher/tmp/saenopy-0.9.0.tar.gz]
+[2023-06-05 17:27:03] INFO root fetch - processPackages [saenopy]: Remove: archive file [/home/abi/fetcher/tmp/saenopy-1.0.0.tar.gz]
+[2023-06-05 17:27:03] INFO root fetch - main [MainThread]: End processing [saenopy]: success
+[2023-06-05 17:27:03] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/68/4b/84203f7bdb8b562d6bf064747143858f78d421104cd23dfc1b5df54d731c/ngscrape-3.0.1.tar.gz
+[2023-06-05 17:27:03] INFO root fetch - processPackages [ngscrape]: executing diffoscope
+[2023-06-05 17:27:03] INFO root fetch - processPackages [ngscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngscrape-3.0.0.tar.gz tmp/ngscrape-3.0.1.tar.gz --markdown 20230605/n/ngscrape/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-05 17:27:04] INFO root fetch - processPackages [pyevtk]: Remove: archive file [/home/abi/fetcher/tmp/pyevtk-1.5.0.tar.gz]
+[2023-06-05 17:27:04] INFO root fetch - processPackages [pyevtk]: Remove: archive file [/home/abi/fetcher/tmp/pyevtk-1.6.0.tar.gz]
+[2023-06-05 17:27:04] INFO root fetch - main [MainThread]: End processing [pyevtk]: success
+[2023-06-05 17:27:04] INFO root fetch - processPackages [TypeDal]: Remove: archive file [/home/abi/fetcher/tmp/TypeDal-0.6.2.tar.gz]
+[2023-06-05 17:27:04] INFO root fetch - processPackages [TypeDal]: Remove: archive file [/home/abi/fetcher/tmp/typedal-1.0.0b1.tar.gz]
+[2023-06-05 17:27:04] INFO root fetch - main [MainThread]: End processing [TypeDal]: success
+[2023-06-05 17:27:05] INFO root fetch - processPackages [ngscrape]: Remove: archive file [/home/abi/fetcher/tmp/ngscrape-3.0.0.tar.gz]
+[2023-06-05 17:27:05] INFO root fetch - processPackages [ngscrape]: Remove: archive file [/home/abi/fetcher/tmp/ngscrape-3.0.1.tar.gz]
+[2023-06-05 17:27:05] INFO root fetch - main [MainThread]: End processing [ngscrape]: success
+[2023-06-05 17:27:05] INFO root fetch - processPackages [pycup]: Remove: archive file [/home/abi/fetcher/tmp/pycup-0.1.6.1.tar.gz]
+[2023-06-05 17:27:05] INFO root fetch - processPackages [pycup]: Remove: archive file [/home/abi/fetcher/tmp/pycup-0.1.7.tar.gz]
+[2023-06-05 17:27:05] INFO root fetch - main [MainThread]: End processing [pycup]: success
+[2023-06-05 17:27:05] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.4.0.tar.gz]
+[2023-06-05 17:27:05] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.4.1.tar.gz]
+[2023-06-05 17:27:05] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-06-05 17:27:09] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-06-05 17:27:09] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-06-05 17:27:09] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-05 17:27:09] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-05 17:27:09] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230605102948.tar.gz]
+[2023-06-05 17:27:09] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230605152542.tar.gz]
+[2023-06-05 17:27:09] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-05 17:27:39] INFO root fetch - processPackages [ovos-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_weather-0.0.1a8-py3-none-any.whl.zip]
+[2023-06-05 17:27:39] INFO root fetch - processPackages [ovos-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_weather-0.0.1a9-py3-none-any.whl.zip]
+[2023-06-05 17:27:39] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
+[2023-06-05 17:27:39] INFO root fetch - main [MainThread]: Store serial: [18377871]
