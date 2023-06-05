@@ -7009,3 +7009,40 @@
 [2023-06-05 09:44:17] INFO root fetch - main [MainThread]: End processing [dbsamizdapper]: success
 [2023-06-05 09:44:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-05 09:44:21] INFO root fetch - main [MainThread]: Store serial: [18372973]
+[2023-06-05 09:49:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372973]
+[2023-06-05 09:49:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 09:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mona-openai
+[2023-06-05 09:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fafbseg
+[2023-06-05 09:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: koschei-messages
+[2023-06-05 09:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tokflow
+[2023-06-05 09:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usearch
+[2023-06-05 09:49:30] INFO root fetch - processPackages [fafbseg]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-05 09:49:30] INFO root fetch - processPackages [mona-openai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 09:49:30] INFO root fetch - processPackages [koschei-messages]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 09:49:30] INFO root fetch - processPackages [tokflow]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-05 09:49:30] INFO root fetch - processPackages [fafbseg]: Downloading https://files.pythonhosted.org/packages/93/ed/61858c1073f077b6120b8dc576861b318f9482b48bfeba4eb4c5d2e8cec9/fafbseg-1.8.0.tar.gz
+[2023-06-05 09:49:30] INFO root fetch - processPackages [usearch]: New version: [0.9.7] Old Version: [0.5.1]
+[2023-06-05 09:49:30] INFO root fetch - processPackages [koschei-messages]: Downloading https://files.pythonhosted.org/packages/8d/96/2021c092a6e1a584f74c9636ce1e1bf904110a4420db3853b11198984295/koschei-messages-1.0.0.tar.gz
+[2023-06-05 09:49:30] INFO root fetch - processPackages [tokflow]: Downloading https://files.pythonhosted.org/packages/b0/e9/5d2da1c1ed3eb300753e84661ff7393b8252b4c2ce491f327010b4bfd5a5/tokflow-1.2.0.tar.gz
+[2023-06-05 09:49:30] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/e7/c4/3193840eb7f7a6c9884cf7f7da12f920238b24010146947e71c939abe2d4/mona-openai-0.0.5.tar.gz
+[2023-06-05 09:49:30] INFO root fetch - processPackages [tokflow]: executing diffoscope
+[2023-06-05 09:49:30] INFO root fetch - processPackages [tokflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokflow-1.1.0.tar.gz tmp/tokflow-1.2.0.tar.gz --markdown 20230605/t/tokflow/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-05 09:49:31] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/2a/c9/b25987d4526f4f83d81623c1986139f98f49d284351df0f377a33e5a1cd7/usearch-0.5.1-cp39-cp39-win_amd64.whl
+[2023-06-05 09:49:31] INFO root fetch - processPackages [koschei-messages]: Downloading https://files.pythonhosted.org/packages/ce/66/4f5937a82aed5c37a52fe0ffd4e64d64c72db4a7633b5f1fbfa8ed291c5d/koschei-messages-1.0.1.tar.gz
+[2023-06-05 09:49:31] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/3f/d0/af10cabbeb23bea3b9f8eb3622572e0d0c4470182de3de88970dec828146/mona-openai-0.0.6.tar.gz
+[2023-06-05 09:49:31] INFO root fetch - processPackages [koschei-messages]: executing diffoscope
+[2023-06-05 09:49:31] INFO root fetch - processPackages [koschei-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koschei-messages-1.0.0.tar.gz tmp/koschei-messages-1.0.1.tar.gz --markdown 20230605/k/koschei-messages/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 09:49:31] INFO root fetch - processPackages [fafbseg]: Downloading https://files.pythonhosted.org/packages/b8/25/8bd10d09feaf29dbc0a158fb966b2d162675d3764afa5fb88d8f8c37c6fc/fafbseg-1.9.0.tar.gz
+[2023-06-05 09:49:31] INFO root fetch - processPackages [mona-openai]: executing diffoscope
+[2023-06-05 09:49:31] INFO root fetch - processPackages [mona-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mona-openai-0.0.5.tar.gz tmp/mona-openai-0.0.6.tar.gz --markdown 20230605/m/mona-openai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 09:49:31] INFO root fetch - processPackages [fafbseg]: executing diffoscope
+[2023-06-05 09:49:31] INFO root fetch - processPackages [fafbseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fafbseg-1.8.0.tar.gz tmp/fafbseg-1.9.0.tar.gz --markdown 20230605/f/fafbseg/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 09:49:31] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/a2/8f/a3252b30a16eab11240405b70ca175d22e9e65286f0453a51404db91b23e/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-05 09:49:31] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-06-05 09:49:31] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.5.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230605/u/usearch/0.5.1-0.9.7/diff.md --exclude *.pyd
+[2023-06-05 09:49:32] INFO root fetch - main [MainThread]: End processing [tokflow]: success
+[2023-06-05 09:49:32] INFO root fetch - main [MainThread]: End processing [koschei-messages]: success
+[2023-06-05 09:49:32] INFO root fetch - main [MainThread]: End processing [mona-openai]: success
+[2023-06-05 09:49:32] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-06-05 09:49:33] INFO root fetch - main [MainThread]: End processing [fafbseg]: success
+[2023-06-05 09:49:33] INFO root fetch - main [MainThread]: Store serial: [18372999]
