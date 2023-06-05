@@ -3174,3 +3174,42 @@
 [2023-06-05 03:23:31] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-06-05 03:23:31] INFO root fetch - main [MainThread]: End processing [qbwc]: success
 [2023-06-05 03:23:31] INFO root fetch - main [MainThread]: Store serial: [18370765]
+[2023-06-05 03:28:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18370765]
+[2023-06-05 03:28:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-05 03:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: defog
+[2023-06-05 03:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AaronBlaser-SDK
+[2023-06-05 03:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyagrum-nightly
+[2023-06-05 03:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypipr
+[2023-06-05 03:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getmodelspec
+[2023-06-05 03:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-subminute
+[2023-06-05 03:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ez-cqrs
+[2023-06-05 03:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aioipinfo
+[2023-06-05 03:28:40] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-05 03:28:40] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-05 03:28:40] INFO root fetch - processPackages [AaronBlaser-SDK]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-05 03:28:40] WARNING root fetch - processPackages [ez-cqrs]: Skipping, unable to determine old version
+[2023-06-05 03:28:40] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 03:28:40] INFO root fetch - main [MainThread]: End processing [ez-cqrs] error
+[2023-06-05 03:28:40] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-05 03:28:40] INFO root fetch - processPackages [pypipr]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-06-05 03:28:40] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.2.dev202306031685623169] Old Version: [1.8.2.dev202306021685623169]
+[2023-06-05 03:28:40] WARNING root fetch - processPackages [aioipinfo]: Skipping, unable to determine old version
+[2023-06-05 03:28:40] INFO root fetch - main [MainThread]: End processing [aioipinfo] error
+[2023-06-05 03:28:40] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-05 03:28:40] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.94.tar.gz tmp/pypipr-0.1.95.tar.gz --markdown 20230605/p/pypipr/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-06-05 03:28:40] INFO root fetch - processPackages [AaronBlaser-SDK]: Downloading https://files.pythonhosted.org/packages/7c/4d/7818581693d60b22b3eb4f2e24e0f0879c20a97a96c963b61f3e00a70d5a/AaronBlaser-SDK-1.0.tar.gz
+[2023-06-05 03:28:40] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-05 03:28:40] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230605/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-05 03:28:40] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-05 03:28:40] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.2.dev202306021685623169-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.2.dev202306031685623169-cp39-cp39-win_amd64.whl.zip --markdown 20230605/p/pyagrum-nightly/1.8.2.dev202306021685623169-1.8.2.dev202306031685623169/diff.md --exclude *.pyd
+[2023-06-05 03:28:40] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-06-05 03:28:40] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230605/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 03:28:40] INFO root fetch - processPackages [AaronBlaser-SDK]: Downloading https://files.pythonhosted.org/packages/3e/c4/c246abeb7acda982f69ebd1755a6c9c33c80ee23242860e334159c1005e6/AaronBlaser-SDK-1.0.1.tar.gz
+[2023-06-05 03:28:40] INFO root fetch - processPackages [AaronBlaser-SDK]: executing diffoscope
+[2023-06-05 03:28:40] INFO root fetch - processPackages [AaronBlaser-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AaronBlaser-SDK-1.0.tar.gz tmp/AaronBlaser-SDK-1.0.1.tar.gz --markdown 20230605/A/AaronBlaser-SDK/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 03:28:41] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-05 03:28:41] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-05 03:28:41] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-05 03:28:41] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-06-05 03:28:42] INFO root fetch - main [MainThread]: End processing [AaronBlaser-SDK]: success
+[2023-06-05 03:28:42] INFO root fetch - main [MainThread]: Store serial: [18370810]
