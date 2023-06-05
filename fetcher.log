@@ -5975,3 +5975,79 @@
 [2023-06-05 08:45:15] INFO root fetch - main [MainThread]: End processing [deepod]: success
 [2023-06-05 08:45:15] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
 [2023-06-05 08:45:15] INFO root fetch - main [MainThread]: Store serial: [18372345]
+[2023-06-05 08:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372345]
+[2023-06-05 08:50:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: java-access-bridge-wrapper
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdn-research-environment
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytyper-weather-forecast
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flageval-serving
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnbits-extension
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-clickzetta
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Bigsansar
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-core-interface
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: boston
+[2023-06-05 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: joltedmod
+[2023-06-05 08:50:24] INFO root fetch - processPackages [java-access-bridge-wrapper]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [pytyper-weather-forecast]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [lnbits-extension]: New version: [0.10.8.1] Old Version: [0.10.8]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [Bigsansar]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [dbt-core-interface]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [flageval-serving]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [boston]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [joltedmod]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-05 08:50:24] INFO root fetch - processPackages [lnbits-extension]: Downloading https://files.pythonhosted.org/packages/fa/97/6ac577f959d693d4f50b93a597a1d4ab4535d7005fb00e4bdeb27cc4849c/lnbits_extension-0.10.8.tar.gz
+[2023-06-05 08:50:24] INFO root fetch - processPackages [pytyper-weather-forecast]: Downloading https://files.pythonhosted.org/packages/6a/62/844a4222bae282e37fd8c92997dbe5b25960e17df875be10f7ac50a78e46/pytyper_weather_forecast-0.1.0.tar.gz
+[2023-06-05 08:50:24] INFO root fetch - processPackages [java-access-bridge-wrapper]: Downloading https://files.pythonhosted.org/packages/8f/33/2cdd3b65e0794aec317459cc1b84b29be7a3900a375f5e7fadfadece9f3e/java-access-bridge-wrapper-0.9.6.tar.gz
+[2023-06-05 08:50:24] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/e1/eb/2402942b21b59a7ea220eeec5dc610cb9c9117d919b41e6b9911215db79a/Bigsansar-1.6.6.tar.gz
+[2023-06-05 08:50:24] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/76/63/0c5f986c5e0ed51cf8961288c317693eb6615394f1a753b9e645a3ec9a56/dbt-clickzetta-0.1.8.tar.gz
+[2023-06-05 08:50:24] INFO root fetch - processPackages [flageval-serving]: Downloading https://files.pythonhosted.org/packages/04/3d/8c844570a5e536d313a4bf644b8d2946de26ea17c281e677b94451e41752/flageval_serving-0.1.3.tar.gz
+[2023-06-05 08:50:24] INFO root fetch - processPackages [dbt-core-interface]: Downloading https://files.pythonhosted.org/packages/2d/74/da09b8ad9aba094dd7fab0246294f2203c7066a79bdbfcfac1c88a510162/dbt_core_interface-0.2.3.tar.gz
+[2023-06-05 08:50:24] INFO root fetch - processPackages [joltedmod]: Downloading https://files.pythonhosted.org/packages/a4/33/180e7db67aa96a7e2193fe98ce8f5d6180f9202c79c6c2cefb4f16624eac/joltedmod-0.1.2.tar.gz
+[2023-06-05 08:50:24] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/f8/e8/621dfa0853e363a4094ec22d88815dc0064dadb127bd3f1a985acb2f85a1/hdn-research-environment-2.0.6.tar.gz
+[2023-06-05 08:50:24] INFO root fetch - processPackages [boston]: Downloading https://files.pythonhosted.org/packages/a8/ee/438f9ad2c72a8db505586dffa1bbc6b19349b3db20f21d295044157d5e3d/boston-1.0.8.tar.gz
+[2023-06-05 08:50:25] INFO root fetch - processPackages [joltedmod]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [joltedmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joltedmod-0.1.1.tar.gz tmp/joltedmod-0.1.2.tar.gz --markdown 20230605/j/joltedmod/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 08:50:25] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.6.5.tar.gz tmp/Bigsansar-1.6.6.tar.gz --markdown 20230605/B/Bigsansar/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-05 08:50:25] INFO root fetch - processPackages [flageval-serving]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [flageval-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flageval_serving-0.1.2.tar.gz tmp/flageval_serving-0.1.3.tar.gz --markdown 20230605/f/flageval-serving/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-05 08:50:25] INFO root fetch - processPackages [lnbits-extension]: Downloading https://files.pythonhosted.org/packages/0b/18/7c80f25dbb6f072563d1b80130aec82fc951e41491d64e187a34f387e7b1/lnbits_extension-0.10.8.1.tar.gz
+[2023-06-05 08:50:25] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.1.7.tar.gz tmp/dbt-clickzetta-0.1.8.tar.gz --markdown 20230605/d/dbt-clickzetta/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-05 08:50:25] INFO root fetch - processPackages [pytyper-weather-forecast]: Downloading https://files.pythonhosted.org/packages/8c/ec/b6eda89ae82912caa483bcd0d3f9ed7eecddafb2f6c68d9d02db62a5df74/pytyper_weather_forecast-0.2.0.tar.gz
+[2023-06-05 08:50:25] INFO root fetch - processPackages [dbt-core-interface]: Downloading https://files.pythonhosted.org/packages/b8/c9/a35e5c64106c2ccd554653e69240a1f0cc93c8ec95796397f03718c25a8e/dbt_core_interface-0.2.4.tar.gz
+[2023-06-05 08:50:25] INFO root fetch - processPackages [java-access-bridge-wrapper]: Downloading https://files.pythonhosted.org/packages/a6/12/d261da43befaa85b16efd2921f32d9e770dfa2ef16a5ea159757ddee0741/java-access-bridge-wrapper-0.9.7.tar.gz
+[2023-06-05 08:50:25] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/7e/12/30dcbb7ef7c16c13e8be24a00cc5e1e6e8a1b2703ce1646025daf900bf9c/hdn-research-environment-2.0.7.tar.gz
+[2023-06-05 08:50:25] INFO root fetch - processPackages [boston]: Downloading https://files.pythonhosted.org/packages/4e/08/10f03b7507bdc900cd469a5a30d06b23e527f6e2619d52c4e41688028100/boston-1.0.9.tar.gz
+[2023-06-05 08:50:25] INFO root fetch - processPackages [lnbits-extension]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [lnbits-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnbits_extension-0.10.8.tar.gz tmp/lnbits_extension-0.10.8.1.tar.gz --markdown 20230605/l/lnbits-extension/0.10.8-0.10.8.1/diff.md --exclude *.pyd
+[2023-06-05 08:50:25] INFO root fetch - processPackages [pytyper-weather-forecast]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [pytyper-weather-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytyper_weather_forecast-0.1.0.tar.gz tmp/pytyper_weather_forecast-0.2.0.tar.gz --markdown 20230605/p/pytyper-weather-forecast/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 08:50:25] INFO root fetch - processPackages [dbt-core-interface]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [dbt-core-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_core_interface-0.2.3.tar.gz tmp/dbt_core_interface-0.2.4.tar.gz --markdown 20230605/d/dbt-core-interface/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-05 08:50:25] INFO root fetch - processPackages [java-access-bridge-wrapper]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [java-access-bridge-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/java-access-bridge-wrapper-0.9.6.tar.gz tmp/java-access-bridge-wrapper-0.9.7.tar.gz --markdown 20230605/j/java-access-bridge-wrapper/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-05 08:50:25] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.0.6.tar.gz tmp/hdn-research-environment-2.0.7.tar.gz --markdown 20230605/h/hdn-research-environment/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-05 08:50:25] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-06-05 08:50:25] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.8.tar.gz tmp/boston-1.0.9.tar.gz --markdown 20230605/b/boston/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 08:50:26] INFO root fetch - processPackages [joltedmod]: Start processing: ocf-datapipes
+[2023-06-05 08:50:26] INFO root fetch - main [MainThread]: End processing [joltedmod]: success
+[2023-06-05 08:50:26] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-05 08:50:26] INFO root fetch - main [MainThread]: End processing [lnbits-extension]: success
+[2023-06-05 08:50:26] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-06-05 08:50:26] INFO root fetch - main [MainThread]: End processing [pytyper-weather-forecast]: success
+[2023-06-05 08:50:27] INFO root fetch - main [MainThread]: End processing [dbt-core-interface]: success
+[2023-06-05 08:50:27] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-06-05 08:50:27] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-06-05 08:50:27] INFO root fetch - main [MainThread]: End processing [flageval-serving]: success
+[2023-06-05 08:50:27] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-06-05 08:50:27] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230605/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-05 08:50:27] INFO root fetch - main [MainThread]: End processing [java-access-bridge-wrapper]: success
+[2023-06-05 08:50:27] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-06-05 08:50:27] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-05 08:50:27] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-05 08:50:29] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-06-05 08:50:29] INFO root fetch - main [MainThread]: Store serial: [18372383]
