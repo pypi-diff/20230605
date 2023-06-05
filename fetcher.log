@@ -5496,3 +5496,51 @@
 [2023-06-05 08:07:44] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
 [2023-06-05 08:07:47] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-05 08:07:47] INFO root fetch - main [MainThread]: Store serial: [18372063]
+[2023-06-05 08:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372063]
+[2023-06-05 08:12:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-05 08:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-clickzetta
+[2023-06-05 08:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-netdut
+[2023-06-05 08:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dallinger
+[2023-06-05 08:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-test-common
+[2023-06-05 08:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lib-dzne-filedata
+[2023-06-05 08:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-clickzetta
+[2023-06-05 08:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gensp
+[2023-06-05 08:12:56] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-05 08:12:56] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-05 08:12:56] INFO root fetch - processPackages [gensp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 08:12:56] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-05 08:12:56] INFO root fetch - processPackages [pytest-netdut]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-05 08:12:56] INFO root fetch - processPackages [lib-dzne-filedata]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-05 08:12:56] INFO root fetch - processPackages [dallinger]: New version: [9.8.0] Old Version: [9.7.0]
+[2023-06-05 08:12:56] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 08:12:56] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.8.tar.gz tmp/gensp-1.0.9.tar.gz --markdown 20230605/g/gensp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 08:12:56] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/04/f1/f9d1d01b483d56d9b783db9ee49b4ef186016b333485eb4df7634e2936e1/dbt-clickzetta-0.1.6.tar.gz
+[2023-06-05 08:12:56] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/04/f1/f9d1d01b483d56d9b783db9ee49b4ef186016b333485eb4df7634e2936e1/dbt-clickzetta-0.1.6.tar.gz
+[2023-06-05 08:12:56] INFO root fetch - processPackages [lib-dzne-filedata]: Downloading https://files.pythonhosted.org/packages/e2/ec/eb78df404415df3b60bb0191dc8882ac9323005ac1be774e40b3a9c45b48/lib-dzne-filedata-0.4.3.tar.gz
+[2023-06-05 08:12:56] INFO root fetch - processPackages [pytest-netdut]: Downloading https://files.pythonhosted.org/packages/1d/3d/ff8c3c0ffbb91a66f0285d77fe2071354ca37b10206f0e7c7f46b0043f16/pytest_netdut-0.5.0.tar.gz
+[2023-06-05 08:12:56] INFO root fetch - processPackages [dallinger]: Downloading https://files.pythonhosted.org/packages/a4/84/384dbb12f70971319887b4112d248dfa04ce3c5d44f37ab473d3cd229855/dallinger-9.7.0.tar.gz
+[2023-06-05 08:12:56] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/b9/58/468e71057698d2795ed0f90d11ba258bd1b898d5ad192489a3816a378f4e/auto-test-common-1.0.7.tar.gz
+[2023-06-05 08:12:56] INFO root fetch - processPackages [lib-dzne-filedata]: executing diffoscope
+[2023-06-05 08:12:56] INFO root fetch - processPackages [lib-dzne-filedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-dzne-filedata-0.4.2.tar.gz tmp/lib-dzne-filedata-0.4.3.tar.gz --markdown 20230605/l/lib-dzne-filedata/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-05 08:12:56] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/6e/1a/232ba4989e7d53cf73e8ea3989f3f5b28e1af1fff01937fbeb6fc0fcda5e/dbt-clickzetta-0.1.7.tar.gz
+[2023-06-05 08:12:56] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/6e/1a/232ba4989e7d53cf73e8ea3989f3f5b28e1af1fff01937fbeb6fc0fcda5e/dbt-clickzetta-0.1.7.tar.gz
+[2023-06-05 08:12:56] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-06-05 08:12:56] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.5.tar.gz tmp/auto-test-common-1.0.7.tar.gz --markdown 20230605/a/auto-test-common/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-05 08:12:56] INFO root fetch - processPackages [pytest-netdut]: Downloading https://files.pythonhosted.org/packages/fd/26/18428e410afe40e53534ac1286bf3536672f4487a7148c96b22cc5a96f20/pytest_netdut-0.6.0.tar.gz
+[2023-06-05 08:12:57] INFO root fetch - processPackages [dallinger]: Downloading https://files.pythonhosted.org/packages/9e/82/074c5e40b98dbb13686acf971160b06b194f501d9ef702cc70da0f22c1c6/dallinger-9.8.0.tar.gz
+[2023-06-05 08:12:57] INFO root fetch - processPackages [pytest-netdut]: executing diffoscope
+[2023-06-05 08:12:57] INFO root fetch - processPackages [pytest-netdut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_netdut-0.5.0.tar.gz tmp/pytest_netdut-0.6.0.tar.gz --markdown 20230605/p/pytest-netdut/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-05 08:12:57] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-05 08:12:57] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.1.6.tar.gz tmp/dbt-clickzetta-0.1.7.tar.gz --markdown 20230605/d/dbt-clickzetta/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 08:12:57] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-05 08:12:57] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.1.6.tar.gz tmp/dbt-clickzetta-0.1.7.tar.gz --markdown 20230605/d/dbt-clickzetta/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 08:12:57] INFO root fetch - processPackages [dallinger]: executing diffoscope
+[2023-06-05 08:12:57] INFO root fetch - processPackages [dallinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dallinger-9.7.0.tar.gz tmp/dallinger-9.8.0.tar.gz --markdown 20230605/d/dallinger/9.7.0-9.8.0/diff.md --exclude *.pyd
+[2023-06-05 08:12:57] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 08:12:58] INFO root fetch - main [MainThread]: End processing [lib-dzne-filedata]: success
+[2023-06-05 08:12:58] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-06-05 08:12:58] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-05 08:12:58] INFO root fetch - main [MainThread]: End processing [pytest-netdut]: success
+[2023-06-05 08:12:58] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-05 08:13:01] INFO root fetch - main [MainThread]: End processing [dallinger]: success
+[2023-06-05 08:13:01] INFO root fetch - main [MainThread]: Store serial: [18372082]
