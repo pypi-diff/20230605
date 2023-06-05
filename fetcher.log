@@ -4956,3 +4956,28 @@
 [2023-06-05 06:47:56] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
 [2023-06-05 06:48:02] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-05 06:48:02] INFO root fetch - main [MainThread]: Store serial: [18371747]
+[2023-06-05 06:53:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371747]
+[2023-06-05 06:53:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dartrig
+[2023-06-05 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: andebox
+[2023-06-05 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molecule-qemu
+[2023-06-05 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remindmail
+[2023-06-05 06:53:11] INFO root fetch - processPackages [remindmail]: New version: [2023.6.4.1] Old Version: [2023.5.8.1]
+[2023-06-05 06:53:11] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 06:53:11] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-05 06:53:11] INFO root fetch - processPackages [andebox]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 06:53:11] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-05 06:53:11] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230605/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 06:53:12] INFO root fetch - processPackages [andebox]: executing diffoscope
+[2023-06-05 06:53:12] INFO root fetch - processPackages [andebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andebox-0.8.0.tar.gz tmp/andebox-0.9.0.tar.gz --markdown 20230605/a/andebox/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 06:53:12] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/78/e6/df65e1612b9a7c6be4a8a4f6bd6264495eafda797083af2b427407705b61/remindmail-2023.6.4.1.tar.gz
+[2023-06-05 06:53:12] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/f0/a4/625e7e355b4e663651bcceadb6ce38fa842046909f85e3df7dbc4c73366c/molecule-qemu-0.4.2.tar.gz
+[2023-06-05 06:53:12] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-05 06:53:12] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.1.tar.gz tmp/molecule-qemu-0.4.2.tar.gz --markdown 20230605/m/molecule-qemu/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-05 06:53:12] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-06-05 06:53:12] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.5.8.1.tar.gz tmp/remindmail-2023.6.4.1.tar.gz --markdown 20230605/r/remindmail/2023.5.8.1-2023.6.4.1/diff.md --exclude *.pyd
+[2023-06-05 06:53:12] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-05 06:53:13] INFO root fetch - main [MainThread]: End processing [andebox]: success
+[2023-06-05 06:53:13] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-06-05 06:53:13] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-06-05 06:53:13] INFO root fetch - main [MainThread]: Store serial: [18371760]
