@@ -3801,3 +3801,28 @@
 [2023-06-05 04:06:18] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
 [2023-06-05 04:07:11] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-05 04:07:11] INFO root fetch - main [MainThread]: Store serial: [18371139]
+[2023-06-05 04:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371139]
+[2023-06-05 04:12:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: u0-stitcher
+[2023-06-05 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chappie-rl
+[2023-06-05 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vector-vault
+[2023-06-05 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seamm-util
+[2023-06-05 04:12:20] INFO root fetch - processPackages [u0-stitcher]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 04:12:20] WARNING root fetch - processPackages [chappie-rl]: Skipping, unable to determine old version
+[2023-06-05 04:12:20] INFO root fetch - main [MainThread]: End processing [chappie-rl] error
+[2023-06-05 04:12:20] INFO root fetch - processPackages [vector-vault]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-06-05 04:12:21] INFO root fetch - processPackages [seamm-util]: New version: [2023.6.4] Old Version: [2023.4.6]
+[2023-06-05 04:12:21] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/a7/64/664cc71d2e7ecf88229a7089d9d05333ee4c5165a008afe22ba8a690dc81/vector_vault-1.8.8.tar.gz
+[2023-06-05 04:12:21] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-05 04:12:21] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.8.7.tar.gz tmp/vector_vault-1.8.8.tar.gz --markdown 20230605/v/vector-vault/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-06-05 04:12:21] INFO root fetch - processPackages [u0-stitcher]: Downloading https://files.pythonhosted.org/packages/6c/f3/3094b7b4bb12528d0cca370f07460a02f3c4ebc345a76d3301836f710fa4/u0_stitcher-0.1.6.tar.gz
+[2023-06-05 04:12:21] INFO root fetch - processPackages [seamm-util]: Downloading https://files.pythonhosted.org/packages/69/ae/3eedd55e53c54a36eb9d9b93212249a4396fed4a70fe894e0f75c3ae4cad/seamm_util-2023.4.6.tar.gz
+[2023-06-05 04:12:21] INFO root fetch - processPackages [u0-stitcher]: executing diffoscope
+[2023-06-05 04:12:21] INFO root fetch - processPackages [u0-stitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/u0_stitcher-0.1.5.tar.gz tmp/u0_stitcher-0.1.6.tar.gz --markdown 20230605/u/u0-stitcher/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 04:12:21] INFO root fetch - processPackages [seamm-util]: Downloading https://files.pythonhosted.org/packages/60/35/ba09fe108578c72d2563b3a86b60c986972f1555d3d779daf51a5e4f65da/seamm_util-2023.6.4.tar.gz
+[2023-06-05 04:12:21] INFO root fetch - processPackages [seamm-util]: executing diffoscope
+[2023-06-05 04:12:21] INFO root fetch - processPackages [seamm-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamm_util-2023.4.6.tar.gz tmp/seamm_util-2023.6.4.tar.gz --markdown 20230605/s/seamm-util/2023.4.6-2023.6.4/diff.md --exclude *.pyd
+[2023-06-05 04:12:22] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-05 04:12:22] INFO root fetch - main [MainThread]: End processing [u0-stitcher]: success
+[2023-06-05 04:12:23] INFO root fetch - main [MainThread]: End processing [seamm-util]: success
+[2023-06-05 04:12:23] INFO root fetch - main [MainThread]: Store serial: [18371155]
