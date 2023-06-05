@@ -7655,3 +7655,75 @@
 [2023-06-05 10:29:06] INFO root fetch - main [MainThread]: End processing [kobo]: success
 [2023-06-05 10:29:07] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
 [2023-06-05 10:29:07] INFO root fetch - main [MainThread]: Store serial: [18373330]
+[2023-06-05 10:34:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18373330]
+[2023-06-05 10:34:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lupin-grognard
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-ravworks-exporter
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m2w
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enrichsdk
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plaquette-ibm-backend
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neo4cdisc
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-clickzetta
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remlalib
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localstack
+[2023-06-05 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-ext
+[2023-06-05 10:34:16] WARNING root fetch - processPackages [aa-ravworks-exporter]: Skipping, unable to determine old version
+[2023-06-05 10:34:16] INFO root fetch - processPackages [aa-ravworks-exporter]: Start processing: sspqdd
+[2023-06-05 10:34:16] INFO root fetch - main [MainThread]: End processing [aa-ravworks-exporter] error
+[2023-06-05 10:34:16] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 10:34:16] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-05 10:34:16] INFO root fetch - processPackages [m2w]: New version: [2.5.3] Old Version: [2.2.11]
+[2023-06-05 10:34:16] INFO root fetch - processPackages [enrichsdk]: New version: [4.8.0] Old Version: [4.7.9]
+[2023-06-05 10:34:16] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-05 10:34:16] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.1.8.tar.gz tmp/dbt-clickzetta-0.1.9.tar.gz --markdown 20230605/d/dbt-clickzetta/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 10:34:16] WARNING root fetch - processPackages [plaquette-ibm-backend]: Skipping, unable to determine old version
+[2023-06-05 10:34:16] INFO root fetch - processPackages [plaquette-ibm-backend]: Start processing: napari-svetlana
+[2023-06-05 10:34:16] INFO root fetch - main [MainThread]: End processing [plaquette-ibm-backend] error
+[2023-06-05 10:34:16] INFO root fetch - processPackages [neo4cdisc]: New version: [1.0.5.1] Old Version: [1.0.5.0]
+[2023-06-05 10:34:16] WARNING root fetch - processPackages [remlalib]: Skipping, unable to determine old version
+[2023-06-05 10:34:16] INFO root fetch - main [MainThread]: End processing [remlalib] error
+[2023-06-05 10:34:16] INFO root fetch - processPackages [localstack]: New version: [2.1.1.dev20230605083031] Old Version: [2.1.0]
+[2023-06-05 10:34:16] INFO root fetch - processPackages [localstack-ext]: New version: [2.1.1.dev20230605083031] Old Version: [2.1.0]
+[2023-06-05 10:34:16] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 10:34:16] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/2c/e3/f4422b5dfbe778544ab8d295ce9eff5ce7a10cd01d1f935c207a7bb8bfc0/enrichsdk-4.7.9.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [napari-svetlana]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-05 10:34:16] INFO root fetch - processPackages [neo4cdisc]: Downloading https://files.pythonhosted.org/packages/60/0a/9fd33299a064450dc6069c796d366dbc7655ea2669a99272a82ec6f7bc57/neo4cdisc-1.0.5.0.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/f0/54/7266381dd6404021a73cb4d3b80f75116622ef01a9ee8f970524ff7039f0/localstack-2.1.0.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [m2w]: Downloading https://files.pythonhosted.org/packages/7a/0e/25b6d97e5f34ad5621fb6cd4607d3121bef37d81cd171a96c519e19915bc/m2w-2.5.3.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/f9/40/6b9d2dd94fc1c33ddeebcd5d4efc9d8b46a826219ac28e2d269a11b1e4f9/localstack-ext-2.1.0.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/74/84/dee7a352a0f6e5428c36d6e5f30f857096ad4ed6e606753f5691e46fbbbf/sspqdd-1.0.8.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/85/16/f0894835192aaa7d98c3a802ab10906e20c63a510d4b76bf051adb951769/enrichsdk-4.8.0.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [napari-svetlana]: Downloading https://files.pythonhosted.org/packages/d0/78/99fe7269335da1f5cf2a3683c23d66a899a7a9219845e2d48e578cb08c02/napari_svetlana-0.2.7.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/d0/cb/7f6cf5809bab2257f6ceeefe06f80e33cf433b805f8260e9bb9944284054/localstack-2.1.1.dev20230605083031.tar.gz
+[2023-06-05 10:34:16] INFO root fetch - processPackages [m2w]: executing diffoscope
+[2023-06-05 10:34:16] INFO root fetch - processPackages [m2w]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m2w-2.2.11.tar.gz tmp/m2w-2.5.3.tar.gz --markdown 20230605/m/m2w/2.2.11-2.5.3/diff.md --exclude *.pyd
+[2023-06-05 10:34:17] INFO root fetch - processPackages [neo4cdisc]: Downloading https://files.pythonhosted.org/packages/75/dd/2e8aea2df650eea1c97430c7532093ba1fffe654e850d90214d01cc5e7a2/neo4cdisc-1.0.5.1.tar.gz
+[2023-06-05 10:34:17] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-05 10:34:17] INFO root fetch - processPackages [enrichsdk]: executing diffoscope
+[2023-06-05 10:34:17] INFO root fetch - processPackages [enrichsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enrichsdk-4.7.9.tar.gz tmp/enrichsdk-4.8.0.tar.gz --markdown 20230605/e/enrichsdk/4.7.9-4.8.0/diff.md --exclude *.pyd
+[2023-06-05 10:34:17] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/52/47/60970c27a513eef6bfed1882c69a49b67b12b17d2a3c678b13f561d10027/localstack-ext-2.1.1.dev20230605083031.tar.gz
+[2023-06-05 10:34:17] INFO root fetch - processPackages [neo4cdisc]: executing diffoscope
+[2023-06-05 10:34:17] INFO root fetch - processPackages [neo4cdisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4cdisc-1.0.5.0.tar.gz tmp/neo4cdisc-1.0.5.1.tar.gz --markdown 20230605/n/neo4cdisc/1.0.5.0-1.0.5.1/diff.md --exclude *.pyd
+[2023-06-05 10:34:17] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-05 10:34:17] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230605/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 10:34:17] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2023-06-05 10:34:17] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-2.1.0.tar.gz tmp/localstack-2.1.1.dev20230605083031.tar.gz --markdown 20230605/l/localstack/2.1.0-2.1.1.dev20230605083031/diff.md --exclude *.pyd
+[2023-06-05 10:34:17] INFO root fetch - processPackages [napari-svetlana]: Downloading https://files.pythonhosted.org/packages/56/79/59f21a6226ac7769ba9aafb60866984435fd77ee8637257a68e4ec29425d/napari_svetlana-0.2.8-py3-none-any.whl
+[2023-06-05 10:34:17] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/a2/74/5eb7c50051e82829030ce9db964560aa321c7989562ef5343379c44c67b0/sspqdd-1.0.9.tar.gz
+[2023-06-05 10:34:17] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-06-05 10:34:17] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230605/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 10:34:17] INFO root fetch - processPackages [napari-svetlana]: executing diffoscope
+[2023-06-05 10:34:17] INFO root fetch - processPackages [napari-svetlana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_svetlana-0.2.7.tar.gz tmp/napari_svetlana-0.2.8-py3-none-any.whl.zip --markdown 20230605/n/napari-svetlana/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-05 10:34:17] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2023-06-05 10:34:17] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-2.1.0.tar.gz tmp/localstack-ext-2.1.1.dev20230605083031.tar.gz --markdown 20230605/l/localstack-ext/2.1.0-2.1.1.dev20230605083031/diff.md --exclude *.pyd
+[2023-06-05 10:34:18] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-05 10:34:18] INFO root fetch - main [MainThread]: End processing [m2w]: success
+[2023-06-05 10:34:18] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2023-06-05 10:34:18] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-06-05 10:34:18] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-05 10:34:19] INFO root fetch - main [MainThread]: End processing [neo4cdisc]: success
+[2023-06-05 10:34:19] INFO root fetch - main [MainThread]: End processing [enrichsdk]: success
+[2023-06-05 10:34:20] INFO root fetch - main [MainThread]: End processing [napari-svetlana]: success
+[2023-06-05 10:34:29] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2023-06-05 10:34:29] INFO root fetch - main [MainThread]: Store serial: [18373384]
