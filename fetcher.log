@@ -6461,3 +6461,117 @@
 [2023-06-05 09:16:44] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-05 09:16:45] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-06-05 09:16:45] INFO root fetch - main [MainThread]: Store serial: [18372662]
+[2023-06-05 09:21:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372662]
+[2023-06-05 09:21:54] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scSTEM
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getmodelspec
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eodc-faas-sen2like
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wolk-connect
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prismstudio-stg
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cads-sdk
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor.cli.core.android
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyShortsByAbdus
+[2023-06-05 09:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: draggan
+[2023-06-05 09:21:54] INFO root fetch - processPackages [PyShortsByAbdus]: New version: [0.5] Old Version: [0.4]
+[2023-06-05 09:21:54] INFO root fetch - processPackages [draggan]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2023-06-05 09:21:54] WARNING root fetch - processPackages [prismstudio-stg]: Skipping, unable to determine old version
+[2023-06-05 09:21:54] INFO root fetch - processPackages [cads-sdk]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-06-05 09:21:54] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc9] Old Version: [2023.5.0rc8]
+[2023-06-05 09:21:54] WARNING root fetch - processPackages [pyarmor.cli.core.android]: Skipping, unable to determine old version
+[2023-06-05 09:21:54] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-05 09:21:54] INFO root fetch - processPackages [prismstudio-stg]: Start processing: pyarmor.cli.core.freebsd
+[2023-06-05 09:21:54] INFO root fetch - main [MainThread]: End processing [prismstudio-stg] error
+[2023-06-05 09:21:54] INFO root fetch - processPackages [pyarmor.cli.core.android]: Start processing: visualdl
+[2023-06-05 09:21:54] INFO root fetch - processPackages [getmodelspec]: Start processing: alltime-athletics-python
+[2023-06-05 09:21:54] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android] error
+[2023-06-05 09:21:54] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-05 09:21:54] INFO root fetch - processPackages [scSTEM]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 09:21:54] INFO root fetch - processPackages [wolk-connect]: New version: [5.1.0] Old Version: [5.0.1]
+[2023-06-05 09:21:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-05 09:21:54] INFO root fetch - processPackages [visualdl]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-06-05 09:21:54] WARNING root fetch - processPackages [pyarmor.cli.core.freebsd]: Skipping, unable to determine old version
+[2023-06-05 09:21:54] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Start processing: pyarmor.cli.runtime
+[2023-06-05 09:21:54] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd] error
+[2023-06-05 09:21:54] INFO root fetch - processPackages [alltime-athletics-python]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-05 09:21:54] INFO root fetch - processPackages [scSTEM]: Downloading https://files.pythonhosted.org/packages/ad/a6/851240c337b9a03b9a8d6bf394ece681d5179df3bdcd6a1e6a350cfb4e29/scSTEM-0.0.1.tar.gz
+[2023-06-05 09:21:54] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/21/32/65edb230935f3c75e78a368e2566e6b87dd6726cf6bb6224befb916b3094/cads_sdk-0.0.23-py3-none-any.whl
+[2023-06-05 09:21:54] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/6f/79/bae87beb530e78e07f51b8276ba5b8f6ac56ab41a37cceb885e96a64b264/eodc_faas_sen2like-2023.5.0rc8.tar.gz
+[2023-06-05 09:21:54] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/43/3c/1ba0b6e2b19bbc8a0f8d620dc6ee5e107afabfbb98a37ed01a1b066cdbf9/draggan-1.1.0b1.tar.gz
+[2023-06-05 09:21:54] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/e5/35/534c9273f13196e4f8b644400f3cac78a5613e50dc4579210a89eb9226bc/alltime_athletics_python-0.6.0.tar.gz
+[2023-06-05 09:21:54] INFO root fetch - processPackages [pyarmor.cli.runtime]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-06-05 09:21:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-05 09:21:54] INFO root fetch - processPackages [wolk-connect]: Downloading https://files.pythonhosted.org/packages/5a/11/f18df5311a33102b3ef711aa8ff6cd81db2f890df8a6568e9c6eb8854ed3/wolk-connect-5.0.1.tar.gz
+[2023-06-05 09:21:54] INFO root fetch - processPackages [visualdl]: Downloading https://files.pythonhosted.org/packages/9b/5c/4de395a2962c23a5909561f360e27bc0ca191fb81fb87c4199ce990fbcb9/visualdl-2.5.2-py3-none-any.whl
+[2023-06-05 09:21:54] INFO root fetch - processPackages [PyShortsByAbdus]: Downloading https://files.pythonhosted.org/packages/b7/98/8dc125502ba0ab7c9f638421f49b2ce4dec04e0bb79d7f8f02405a4396a3/PyShortsByAbdus-0.5.tar.gz
+[2023-06-05 09:21:54] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-05 09:21:54] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-0.5.0.tar.gz tmp/alltime_athletics_python-0.6.0.tar.gz --markdown 20230605/a/alltime-athletics-python/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-05 09:21:55] INFO root fetch - processPackages [PyShortsByAbdus]: executing diffoscope
+[2023-06-05 09:21:55] INFO root fetch - processPackages [PyShortsByAbdus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyShortsByAbdus-0.4.tar.gz tmp/PyShortsByAbdus-0.5.tar.gz --markdown 20230605/P/PyShortsByAbdus/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-05 09:21:55] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/d0/9e/9bcfd437e921196f6d12017284db5ca1999e6c5902b08cff86bb1cc8e67a/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl
+[2023-06-05 09:21:55] INFO root fetch - processPackages [scSTEM]: Downloading https://files.pythonhosted.org/packages/77/b4/3c00122bb3bc506b73ebc6fb9e5d60bb7500a8f08506e35c5ba096541f35/scSTEM-0.0.2.tar.gz
+[2023-06-05 09:21:55] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/03/a0/b1aea713ee644d53ca473cf5b6b0b5d5c1176f15801299164fb1fcb8c620/cads_sdk-0.0.24-py3-none-any.whl
+[2023-06-05 09:21:55] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/c8/b6/6c4840a096d42c0bb6a21eeb711f7f34d7a41ed6a998032a17efe3e0570a/eodc_faas_sen2like-2023.5.0rc9.tar.gz
+[2023-06-05 09:21:55] INFO root fetch - processPackages [wolk-connect]: Downloading https://files.pythonhosted.org/packages/0c/3a/e171a9385cb75e98a67863b9112a46b9f812db7876c23ef1dc0b355b757b/wolk-connect-5.1.0.tar.gz
+[2023-06-05 09:21:55] INFO root fetch - processPackages [scSTEM]: executing diffoscope
+[2023-06-05 09:21:55] INFO root fetch - processPackages [scSTEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scSTEM-0.0.1.tar.gz tmp/scSTEM-0.0.2.tar.gz --markdown 20230605/s/scSTEM/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 09:21:55] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/1f/96/e761bf136401e808d96734731474757f3e53f72133b041e00a36a4c7a56c/draggan-1.1.0b2.tar.gz
+[2023-06-05 09:21:55] INFO root fetch - processPackages [cads-sdk]: executing diffoscope
+[2023-06-05 09:21:55] INFO root fetch - processPackages [cads-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_sdk-0.0.23-py3-none-any.whl.zip tmp/cads_sdk-0.0.24-py3-none-any.whl.zip --markdown 20230605/c/cads-sdk/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-06-05 09:21:55] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-05 09:21:55] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz --markdown 20230605/e/eodc-faas-sen2like/2023.5.0rc8-2023.5.0rc9/diff.md --exclude *.pyd
+[2023-06-05 09:21:55] INFO root fetch - processPackages [wolk-connect]: executing diffoscope
+[2023-06-05 09:21:55] INFO root fetch - processPackages [wolk-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolk-connect-5.0.1.tar.gz tmp/wolk-connect-5.1.0.tar.gz --markdown 20230605/w/wolk-connect/5.0.1-5.1.0/diff.md --exclude *.pyd
+[2023-06-05 09:21:55] INFO root fetch - processPackages [visualdl]: Downloading https://files.pythonhosted.org/packages/ea/b5/37726c750a4f4598660998327c3566b2d2ed5a1a5f44e9f0dde875602447/visualdl-2.5.3-py3-none-any.whl
+[2023-06-05 09:21:55] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-06-05 09:21:55] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.1.0b1.tar.gz tmp/draggan-1.1.0b2.tar.gz --markdown 20230605/d/draggan/1.1.0b1-1.1.0b2/diff.md --exclude *.pyd
+[2023-06-05 09:21:55] INFO root fetch - processPackages [visualdl]: executing diffoscope
+[2023-06-05 09:21:55] INFO root fetch - processPackages [visualdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualdl-2.5.2-py3-none-any.whl.zip tmp/visualdl-2.5.3-py3-none-any.whl.zip --markdown 20230605/v/visualdl/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-06-05 09:21:56] INFO root fetch - processPackages [alltime-athletics-python]: Start processing: PyShortsByAbdus
+[2023-06-05 09:21:56] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-05 09:21:56] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/64/6b/2faea895b456da4f408b1ef4672beb2434ef0d96f377ead169004b1f76bd/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl
+[2023-06-05 09:21:56] INFO root fetch - processPackages [PyShortsByAbdus]: New version: [0.5] Old Version: [0.4]
+[2023-06-05 09:21:56] INFO root fetch - processPackages [PyShortsByAbdus]: Start processing: datasette-dashboards
+[2023-06-05 09:21:56] INFO root fetch - main [MainThread]: End processing [PyShortsByAbdus]: success
+[2023-06-05 09:21:56] INFO root fetch - processPackages [PyShortsByAbdus]: executing diffoscope
+[2023-06-05 09:21:56] INFO root fetch - processPackages [PyShortsByAbdus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyShortsByAbdus-0.4.tar.gz tmp/PyShortsByAbdus-0.5.tar.gz --markdown 20230605/P/PyShortsByAbdus/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-05 09:21:56] INFO root fetch - processPackages [datasette-dashboards]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-05 09:21:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-05 09:21:56] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: getmodelspec
+[2023-06-05 09:21:56] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-05 09:21:56] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-05 09:21:56] INFO root fetch - processPackages [getmodelspec]: Start processing: pysaucenao
+[2023-06-05 09:21:56] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-05 09:21:56] INFO root fetch - processPackages [pysaucenao]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-05 09:21:56] INFO root fetch - processPackages [datasette-dashboards]: Downloading https://files.pythonhosted.org/packages/5c/d5/c16838c77d0040060d495772ef3be17f0928884f284e1e13d403739fd08a/datasette_dashboards-0.5.2.tar.gz
+[2023-06-05 09:21:56] INFO root fetch - processPackages [cads-sdk]: Start processing: nonebot-plugin-twitter
+[2023-06-05 09:21:56] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
+[2023-06-05 09:21:56] WARNING root fetch - processPackages [nonebot-plugin-twitter]: Skipping, unable to determine old version
+[2023-06-05 09:21:56] INFO root fetch - processPackages [nonebot-plugin-twitter]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-05 09:21:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter] error
+[2023-06-05 09:21:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-05 09:21:56] INFO root fetch - main [MainThread]: End processing [scSTEM]: success
+[2023-06-05 09:21:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-05 09:21:56] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-06-05 09:21:56] INFO root fetch - processPackages [pysaucenao]: Downloading https://files.pythonhosted.org/packages/4b/13/9b08301d3deed16283adf05907b6003cf27506eb8d0c31cbdca0b276c9f5/pysaucenao-1.6.1.tar.gz
+[2023-06-05 09:21:56] INFO root fetch - processPackages [datasette-dashboards]: Downloading https://files.pythonhosted.org/packages/41/d6/e68209b81cc50c94d69c200fbaac810f94cd3db1610a49636ded00158a76/datasette_dashboards-0.5.3.tar.gz
+[2023-06-05 09:21:57] INFO root fetch - main [MainThread]: End processing [wolk-connect]: success
+[2023-06-05 09:21:57] INFO root fetch - processPackages [datasette-dashboards]: executing diffoscope
+[2023-06-05 09:21:57] INFO root fetch - processPackages [datasette-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_dashboards-0.5.2.tar.gz tmp/datasette_dashboards-0.5.3.tar.gz --markdown 20230605/d/datasette-dashboards/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-05 09:21:57] INFO root fetch - processPackages [pysaucenao]: Downloading https://files.pythonhosted.org/packages/b5/13/b2fed5fd9290d06763a52fd178fa008007160b9d38fb6f08f67e106f8ff7/pysaucenao-1.6.2.tar.gz
+[2023-06-05 09:21:57] INFO root fetch - processPackages [pyarmor.cli.runtime]: executing diffoscope
+[2023-06-05 09:21:57] INFO root fetch - processPackages [pyarmor.cli.runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl.zip tmp/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl.zip --markdown 20230605/p/pyarmor.cli.runtime/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-06-05 09:21:57] INFO root fetch - processPackages [pysaucenao]: executing diffoscope
+[2023-06-05 09:21:57] INFO root fetch - processPackages [pysaucenao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysaucenao-1.6.1.tar.gz tmp/pysaucenao-1.6.2.tar.gz --markdown 20230605/p/pysaucenao/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-05 09:21:57] INFO root fetch - main [MainThread]: End processing [PyShortsByAbdus]: success
+[2023-06-05 09:21:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-05 09:21:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230605/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 09:21:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-05 09:21:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230605/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 09:21:58] INFO root fetch - main [MainThread]: End processing [datasette-dashboards]: success
+[2023-06-05 09:21:58] INFO root fetch - main [MainThread]: End processing [pysaucenao]: success
+[2023-06-05 09:21:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-05 09:21:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-05 09:22:07] INFO root fetch - main [MainThread]: End processing [visualdl]: success
+[2023-06-05 09:22:21] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
+[2023-06-05 09:22:21] INFO root fetch - main [MainThread]: Store serial: [18372748]
