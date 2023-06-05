@@ -11810,3 +11810,64 @@
 [2023-06-05 14:08:50] INFO root fetch - processPackages [gemseo-calibration]: Remove: archive file [/home/abi/fetcher/tmp/gemseo-calibration-2.0.0.tar.gz]
 [2023-06-05 14:08:50] INFO root fetch - main [MainThread]: End processing [gemseo-calibration]: success
 [2023-06-05 14:08:50] INFO root fetch - main [MainThread]: Store serial: [18375554]
+[2023-06-05 14:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375554]
+[2023-06-05 14:13:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-05 14:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-06-05 14:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyAllInOne
+[2023-06-05 14:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monotonic-nn
+[2023-06-05 14:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: corsort
+[2023-06-05 14:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mouritech-mail-notification
+[2023-06-05 14:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypipr
+[2023-06-05 14:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-pdfbox-v2
+[2023-06-05 14:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qtgql
+[2023-06-05 14:13:58] INFO root fetch - processPackages [pypipr]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-06-05 14:13:58] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230605.8.1.375473] Old Version: [20230605.12.9.725805]
+[2023-06-05 14:13:58] INFO root fetch - processPackages [python-pdfbox-v2]: New version: [2.0.28] Old Version: [2.0.27.2]
+[2023-06-05 14:13:58] INFO root fetch - processPackages [PyAllInOne]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-05 14:13:58] INFO root fetch - processPackages [monotonic-nn]: New version: [0.2.0rc0] Old Version: [0.1.0]
+[2023-06-05 14:13:58] WARNING root fetch - processPackages [mouritech-mail-notification]: Skipping, unable to determine old version
+[2023-06-05 14:13:58] INFO root fetch - main [MainThread]: End processing [mouritech-mail-notification] error
+[2023-06-05 14:13:58] INFO root fetch - processPackages [qtgql]: New version: [0.119.7] Old Version: [0.119.6]
+[2023-06-05 14:13:58] INFO root fetch - processPackages [corsort]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 14:13:59] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/01/e6/5c3cfb4f655e7c051b97bb5c84f6a38bedcd9c62be52740f35ae2d3353af/pypipr-0.1.94.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/a6/94/88ce03ece1059f7b39c6790ec2d709910d55c0d2c15a2527745265ce26e6/qtgql-0.119.6.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/48/ae/15f10f1b3c78909eece90aadfe5157068b96641a7299c1d88d6d388c9e29/certora-cli-alpha-master-20230605.12.9.725805.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/57/0a/fd86e9da03f5d985dff8c0bf0dc0de1d2b7616ea3efbfd923fec4224c0e5/monotonic-nn-0.1.0.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [python-pdfbox-v2]: Downloading https://files.pythonhosted.org/packages/4b/c7/b437fb02fb8e291ee2014d08cf535666b62bd4d6b7ff05aca315325c0117/python-pdfbox-v2-2.0.27.2.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [corsort]: Downloading https://files.pythonhosted.org/packages/e8/a0/7bc0a25b645439af018ad7e7512d8ab91e1819d410015b30cc0974ea4e2e/corsort-0.1.1.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [PyAllInOne]: Downloading https://files.pythonhosted.org/packages/19/69/b51c4e0ef7eea27d3d7266d4b7e7cd331aa24bf7da845bb8f5ce1b56d659/PyAllInOne-1.0.6.tar.gz
+[2023-06-05 14:13:59] WARNING root fetch - processPackages [PyAllInOne]: Skipping package: exceeds size limit 38815744>=10485760
+[2023-06-05 14:13:59] INFO root fetch - main [MainThread]: End processing [PyAllInOne] error
+[2023-06-05 14:13:59] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39177636>=10485760
+[2023-06-05 14:13:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-05 14:13:59] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/cd/92/2627aa7d9dfcdc2306a9d83e96d64504b80001fbb2c403722f7688b3352e/pypipr-0.1.95.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/87/95/c7526df18a73e72274ccbcfdb03a1d9b05a3c362277d36dc2586eb4ffe82/qtgql-0.119.7.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [corsort]: Downloading https://files.pythonhosted.org/packages/51/84/26d53fd19ed0117985483f2d82a4798b012fd4befa757810d6a95dce470d/corsort-0.1.2.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/54/5a/27830162f55f7872a69e48c7a144f35fff07942cc3cd8695c3063cd40d4c/monotonic-nn-0.2.0rc0.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [python-pdfbox-v2]: Downloading https://files.pythonhosted.org/packages/24/fe/4510a2455e26bc8d1683eafa610173c4ff1fa8bdae2128995b5ca8ba312f/python-pdfbox-v2-2.0.28.tar.gz
+[2023-06-05 14:13:59] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-05 14:13:59] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.94.tar.gz tmp/pypipr-0.1.95.tar.gz --markdown 20230605/p/pypipr/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-06-05 14:13:59] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-06-05 14:13:59] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.119.6.tar.gz tmp/qtgql-0.119.7.tar.gz --markdown 20230605/q/qtgql/0.119.6-0.119.7/diff.md --exclude *.pyd
+[2023-06-05 14:13:59] INFO root fetch - processPackages [corsort]: executing diffoscope
+[2023-06-05 14:13:59] INFO root fetch - processPackages [corsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corsort-0.1.1.tar.gz tmp/corsort-0.1.2.tar.gz --markdown 20230605/c/corsort/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 14:13:59] INFO root fetch - processPackages [monotonic-nn]: executing diffoscope
+[2023-06-05 14:13:59] INFO root fetch - processPackages [monotonic-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic-nn-0.1.0.tar.gz tmp/monotonic-nn-0.2.0rc0.tar.gz --markdown 20230605/m/monotonic-nn/0.1.0-0.2.0rc0/diff.md --exclude *.pyd
+[2023-06-05 14:13:59] INFO root fetch - processPackages [python-pdfbox-v2]: executing diffoscope
+[2023-06-05 14:13:59] INFO root fetch - processPackages [python-pdfbox-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-pdfbox-v2-2.0.27.2.tar.gz tmp/python-pdfbox-v2-2.0.28.tar.gz --markdown 20230605/p/python-pdfbox-v2/2.0.27.2-2.0.28/diff.md --exclude *.pyd
+[2023-06-05 14:14:00] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-0.1.94.tar.gz]
+[2023-06-05 14:14:00] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-0.1.95.tar.gz]
+[2023-06-05 14:14:00] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-05 14:14:00] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.1.0.tar.gz]
+[2023-06-05 14:14:00] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.2.0rc0.tar.gz]
+[2023-06-05 14:14:00] INFO root fetch - main [MainThread]: End processing [monotonic-nn]: success
+[2023-06-05 14:14:00] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.119.6.tar.gz]
+[2023-06-05 14:14:00] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.119.7.tar.gz]
+[2023-06-05 14:14:00] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-06-05 14:14:00] INFO root fetch - processPackages [corsort]: Remove: archive file [/home/abi/fetcher/tmp/corsort-0.1.1.tar.gz]
+[2023-06-05 14:14:00] INFO root fetch - processPackages [corsort]: Remove: archive file [/home/abi/fetcher/tmp/corsort-0.1.2.tar.gz]
+[2023-06-05 14:14:00] INFO root fetch - main [MainThread]: End processing [corsort]: success
+[2023-06-05 14:14:01] INFO root fetch - processPackages [python-pdfbox-v2]: Remove: archive file [/home/abi/fetcher/tmp/python-pdfbox-v2-2.0.27.2.tar.gz]
+[2023-06-05 14:14:01] INFO root fetch - processPackages [python-pdfbox-v2]: Remove: archive file [/home/abi/fetcher/tmp/python-pdfbox-v2-2.0.28.tar.gz]
+[2023-06-05 14:14:01] INFO root fetch - main [MainThread]: End processing [python-pdfbox-v2]: success
+[2023-06-05 14:14:01] INFO root fetch - main [MainThread]: Store serial: [18375582]
