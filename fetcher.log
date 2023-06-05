@@ -6227,3 +6227,63 @@
 [2023-06-05 09:00:56] INFO root fetch - main [MainThread]: End processing [hip-data-ml-utils]: success
 [2023-06-05 09:00:56] INFO root fetch - main [MainThread]: End processing [configzen]: success
 [2023-06-05 09:00:56] INFO root fetch - main [MainThread]: Store serial: [18372467]
+[2023-06-05 09:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372467]
+[2023-06-05 09:06:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-05 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pht-station
+[2023-06-05 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2023-06-05 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mwxlib
+[2023-06-05 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-i18n-address
+[2023-06-05 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asgi-tools
+[2023-06-05 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alltime-athletics-python
+[2023-06-05 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mock-data-generator
+[2023-06-05 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bsc-utils
+[2023-06-05 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RL-OM
+[2023-06-05 09:06:04] INFO root fetch - processPackages [RL-OM]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 09:06:04] INFO root fetch - processPackages [pht-station]: New version: [0.2.0] Old Version: [0.1]
+[2023-06-05 09:06:04] INFO root fetch - processPackages [mock-data-generator]: New version: [1.0.1] Old Version: [0.1.0]
+[2023-06-05 09:06:04] INFO root fetch - processPackages [google-i18n-address]: New version: [3.0.0] Old Version: [2.5.2]
+[2023-06-05 09:06:04] INFO root fetch - processPackages [mwxlib]: New version: [0.84.9] Old Version: [0.84.8]
+[2023-06-05 09:06:04] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-05 09:06:04] INFO root fetch - processPackages [asgi-tools]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-06-05 09:06:04] WARNING root fetch - processPackages [alltime-athletics-python]: Skipping, unable to determine old version
+[2023-06-05 09:06:04] INFO root fetch - processPackages [bsc-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 09:06:04] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python] error
+[2023-06-05 09:06:04] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/7d/de/39f382d9f3a2ec80da7870b523a23e0daa54f08fec9aace68fffe3fbfb39/mock_data_generator-0.1.0.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [pht-station]: Downloading https://files.pythonhosted.org/packages/e7/97/039d641fd8e816acfedbf72cd1abf375c89d7dc51ee7f469f854583e0da6/pht-station-0.1.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [google-i18n-address]: Downloading https://files.pythonhosted.org/packages/8d/ed/d66b80421c9f25c15768f1fbb1f65258c62ca6b487d8eb6fb615527dd4ec/google-i18n-address-2.5.2.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/51/d6/25282d99ee29bd662485fad40dd2d1cd8da7071595cc0fbbf852441db3f2/mwxlib-0.84.9-py3-none-any.whl
+[2023-06-05 09:06:05] INFO root fetch - processPackages [bsc-utils]: Downloading https://files.pythonhosted.org/packages/c7/90/9b036fb20bef8d0c5074e522d9506c124e58a4e384e22df2163bcf7dd615/bsc_utils-1.0.0.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [asgi-tools]: Downloading https://files.pythonhosted.org/packages/f9/6f/aa4faca5a404ad7584754b449e41411559c0425585b535bd62f86b0f367c/asgi_tools-0.8.5-py3-none-any.whl
+[2023-06-05 09:06:05] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/00/6e/046da98e48de582e6ddd979d4e22fc28a62b77bbccf496b29a676ca09744/RL_OM-0.1.2.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-06-05 09:06:05] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.84.8-py3-none-any.whl.zip tmp/mwxlib-0.84.9-py3-none-any.whl.zip --markdown 20230605/m/mwxlib/0.84.8-0.84.9/diff.md --exclude *.pyd
+[2023-06-05 09:06:05] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/44/00/f3692845718eb12037f716c5f7dfc4413bb72e2eff174c7e5e0e51df3a6a/mock_data_generator-1.0.1.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2023-06-05 09:06:05] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.1.1.tar.gz tmp/RL_OM-0.1.2.tar.gz --markdown 20230605/R/RL-OM/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 09:06:05] INFO root fetch - processPackages [bsc-utils]: Downloading https://files.pythonhosted.org/packages/13/63/22b7e5a22d8cbd6f7e62de2d64b06f31da07b0134c5a3afb43c8ccba55d1/bsc_utils-1.0.1.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [google-i18n-address]: Downloading https://files.pythonhosted.org/packages/52/b7/bbae82fb53e07fa0577a761bb417eda0136a03318977d0a759ae9013e52b/google_i18n_address-3.0.0.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [pht-station]: Downloading https://files.pythonhosted.org/packages/d3/97/355ed715a9592e468b42f44ece7e6acf692662b311fbfa641f5d0b73f1b3/pht_station-0.2.0.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [asgi-tools]: Downloading https://files.pythonhosted.org/packages/a8/c2/11f9fab3151f4ea351292fb0a74c02cc4134d381eee67a4030fb886a0245/asgi_tools-0.9.0-py3-none-any.whl
+[2023-06-05 09:06:05] INFO root fetch - processPackages [bsc-utils]: executing diffoscope
+[2023-06-05 09:06:05] INFO root fetch - processPackages [bsc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsc_utils-1.0.0.tar.gz tmp/bsc_utils-1.0.1.tar.gz --markdown 20230605/b/bsc-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 09:06:05] INFO root fetch - processPackages [pht-station]: executing diffoscope
+[2023-06-05 09:06:05] INFO root fetch - processPackages [pht-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pht-station-0.1.tar.gz tmp/pht_station-0.2.0.tar.gz --markdown 20230605/p/pht-station/0.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 09:06:05] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-05 09:06:05] INFO root fetch - processPackages [asgi-tools]: executing diffoscope
+[2023-06-05 09:06:05] INFO root fetch - processPackages [asgi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgi_tools-0.8.5-py3-none-any.whl.zip tmp/asgi_tools-0.9.0-py3-none-any.whl.zip --markdown 20230605/a/asgi-tools/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 09:06:05] INFO root fetch - processPackages [google-i18n-address]: executing diffoscope
+[2023-06-05 09:06:05] INFO root fetch - processPackages [google-i18n-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-i18n-address-2.5.2.tar.gz tmp/google_i18n_address-3.0.0.tar.gz --markdown 20230605/g/google-i18n-address/2.5.2-3.0.0/diff.md --exclude *.pyd
+[2023-06-05 09:06:05] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-05 09:06:05] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-0.1.0.tar.gz tmp/mock_data_generator-1.0.1.tar.gz --markdown 20230605/m/mock-data-generator/0.1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 09:06:05] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-05 09:06:05] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230605/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-05 09:06:06] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-05 09:06:06] INFO root fetch - main [MainThread]: End processing [bsc-utils]: success
+[2023-06-05 09:06:06] INFO root fetch - main [MainThread]: End processing [asgi-tools]: success
+[2023-06-05 09:06:07] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-06-05 09:06:07] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-05 09:06:07] INFO root fetch - main [MainThread]: End processing [pht-station]: success
+[2023-06-05 09:06:07] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2023-06-05 09:06:08] INFO root fetch - main [MainThread]: End processing [google-i18n-address]: success
+[2023-06-05 09:06:08] INFO root fetch - main [MainThread]: Store serial: [18372522]
