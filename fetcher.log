@@ -10232,3 +10232,88 @@
 [2023-06-05 12:49:05] INFO root fetch - main [MainThread]: End processing [devopstestor]: success
 [2023-06-05 12:49:06] INFO root fetch - main [MainThread]: End processing [mapchete]: success
 [2023-06-05 12:49:06] INFO root fetch - main [MainThread]: Store serial: [18374736]
+[2023-06-05 12:54:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374736]
+[2023-06-05 12:54:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camminapy
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypcapkit
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-product-definition-tooling
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valmi-connector-lib
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmodule-test
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openmodule-commands
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openmodule
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eis1600
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jekyll-to-hugo
+[2023-06-05 12:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: singer-sdk
+[2023-06-05 12:54:15] INFO root fetch - processPackages [data-product-definition-tooling]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [openmodule-commands]: New version: [11.1.0rc0] Old Version: [11.0.3]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [jekyll-to-hugo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.2] Old Version: [1.0.1.post3]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [camminapy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [eis1600]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [singer-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 12:54:15] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/e3/bb/f041c5d77c5d10fd7137b23ff92757f6931cf24143d6794c63caaa775755/openmodule-9.0.0rc9.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [jekyll-to-hugo]: Downloading https://files.pythonhosted.org/packages/46/f0/39255b8b03e8809fb544c71863308bf3bd03be843bedf069807574b28466/jekyll_to_hugo-0.0.9.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/98/2f/98fb439a0bb34c0be8268557d0c25ccf1102d6a23607c74e2376f8471efd/openmodule_test-9.0.0rc9.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/23/9c/2ca6ba549d305e9ef392061ae18123912c7e260be9d1ee3f128c92f876aa/eis1600-0.9.2.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/f6/8a/5d772a2b9a4eacddd4ccc0057968ae63e661725f085a3e69d5b665efc764/openmodule_commands-11.0.3.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/d2/07/4c63c1f4b7524f2e72d204561800782179bd6afcdcc8eb4f227525984711/camminapy-1.0.0.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/6c/3e/d4275c80e696994002c76ed3675cf9d05ead8792d67ae4d2c1fc5482382e/valmi_connector_lib-0.1.8.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/7e/4d/880b93d585057bfa49eb721efd7f9e56d282bd5b4be0aeadb2ebc1e93776/pypcapkit-1.0.1.post3.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [singer-sdk]: Downloading https://files.pythonhosted.org/packages/16/fc/2fcefbd35f8e35880f2cf18e530bf587569a718eed5e5a605905901383d9/singer-sdk-0.8.0.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [data-product-definition-tooling]: Downloading https://files.pythonhosted.org/packages/92/47/41fe46cdc510f47cdb647f7edfb89457610db478b1dbac2bae5f2abe97cc/data_product_definition_tooling-0.0.8.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [jekyll-to-hugo]: executing diffoscope
+[2023-06-05 12:54:15] INFO root fetch - processPackages [jekyll-to-hugo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jekyll_to_hugo-0.0.8.tar.gz tmp/jekyll_to_hugo-0.0.9.tar.gz --markdown 20230605/j/jekyll-to-hugo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 12:54:15] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/4c/de/1c332c3708ee01c66d4e21f4bfd7d72d4f25eebd942417c5ed2340c4bd9f/camminapy-1.1.0.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/b2/48/3a3c9dceec013eda7ad1f87413a5188a1336ac3dd620ed747f533e458b44/eis1600-0.9.3.tar.gz
+[2023-06-05 12:54:15] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/e6/9b/69d4c7845a63e70b4f425be815baf435c4e63f21be152b899195e136e345/openmodule_commands-11.1.0rc0.tar.gz
+[2023-06-05 12:54:16] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/17/20/1f9694e424136f9498c51215d3dcde48a47b09125cef034bbe839e963156/pypcapkit-1.0.2.tar.gz
+[2023-06-05 12:54:16] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/70/81/122eb1c23072069f6b5b24b7171ebc54114a9104028620fcede5eaa89952/valmi_connector_lib-0.1.9.tar.gz
+[2023-06-05 12:54:16] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-06-05 12:54:16] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-1.0.0.tar.gz tmp/camminapy-1.1.0.tar.gz --markdown 20230605/c/camminapy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 12:54:16] INFO root fetch - processPackages [data-product-definition-tooling]: Downloading https://files.pythonhosted.org/packages/4d/f6/196421c707f9983b6c86e9c9142904a0764a5ebf6b7ab4ee01794e940b67/data_product_definition_tooling-0.0.9.tar.gz
+[2023-06-05 12:54:16] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/39/cc/7362aa9f98216bb93757efcda7a44a06d4f86bc1d828b0f6775240dae0d3/openmodule_test-9.1.0.tar.gz
+[2023-06-05 12:54:16] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-06-05 12:54:16] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.9.2.tar.gz tmp/eis1600-0.9.3.tar.gz --markdown 20230605/e/eis1600/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-05 12:54:16] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/a6/3c/48ccf044ba1edc8806c136901666ecc29542b5bf8b40ee6194dbc2abd0fe/openmodule-9.1.0.tar.gz
+[2023-06-05 12:54:16] INFO root fetch - processPackages [data-product-definition-tooling]: executing diffoscope
+[2023-06-05 12:54:16] INFO root fetch - processPackages [data-product-definition-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_product_definition_tooling-0.0.8.tar.gz tmp/data_product_definition_tooling-0.0.9.tar.gz --markdown 20230605/d/data-product-definition-tooling/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 12:54:16] INFO root fetch - processPackages [singer-sdk]: Downloading https://files.pythonhosted.org/packages/05/79/7e708f089c810918cd509b974785a1488530d0bb96a38f44d8aafb5e5e8e/singer-sdk-0.9.0.tar.gz
+[2023-06-05 12:54:16] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-06-05 12:54:16] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-11.0.3.tar.gz tmp/openmodule_commands-11.1.0rc0.tar.gz --markdown 20230605/o/openmodule-commands/11.0.3-11.1.0rc0/diff.md --exclude *.pyd
+[2023-06-05 12:54:16] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-06-05 12:54:16] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.1.post3.tar.gz tmp/pypcapkit-1.0.2.tar.gz --markdown 20230605/p/pypcapkit/1.0.1.post3-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 12:54:16] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-06-05 12:54:16] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230605/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 12:54:16] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-06-05 12:54:16] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230605/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-05 12:54:16] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-06-05 12:54:16] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230605/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-05 12:54:17] INFO root fetch - processPackages [singer-sdk]: executing diffoscope
+[2023-06-05 12:54:17] INFO root fetch - processPackages [singer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singer-sdk-0.8.0.tar.gz tmp/singer-sdk-0.9.0.tar.gz --markdown 20230605/s/singer-sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 12:54:17] INFO root fetch - processPackages [camminapy]: Start processing: simcardems
+[2023-06-05 12:54:17] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-06-05 12:54:17] INFO root fetch - processPackages [simcardems]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-06-05 12:54:17] INFO root fetch - processPackages [openmodule-commands]: Start processing: dbt-clickzetta
+[2023-06-05 12:54:17] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-06-05 12:54:17] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-05 12:54:17] INFO root fetch - processPackages [simcardems]: Downloading https://files.pythonhosted.org/packages/f4/d9/251b510d84e9396881bacd499697833c305c18268f3182274ef020f91118/simcardems-2023.5.4.tar.gz
+[2023-06-05 12:54:17] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-06-05 12:54:17] INFO root fetch - main [MainThread]: End processing [data-product-definition-tooling]: success
+[2023-06-05 12:54:17] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/6a/a1/32687998a94fac3e10de0f33bf8ef4dd19e4f7c7c24c0e20c2660c13e7e3/dbt-clickzetta-0.2.5.tar.gz
+[2023-06-05 12:54:17] INFO root fetch - main [MainThread]: End processing [jekyll-to-hugo]: success
+[2023-06-05 12:54:17] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-05 12:54:17] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.4.tar.gz tmp/dbt-clickzetta-0.2.5.tar.gz --markdown 20230605/d/dbt-clickzetta/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-05 12:54:17] INFO root fetch - processPackages [simcardems]: Downloading https://files.pythonhosted.org/packages/01/34/70f4801fb9ab8f9b60aa6b5e05cd74116b61fa95ca48e881656034ec7e34/simcardems-2023.5.5.tar.gz
+[2023-06-05 12:54:18] INFO root fetch - processPackages [simcardems]: executing diffoscope
+[2023-06-05 12:54:18] INFO root fetch - processPackages [simcardems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simcardems-2023.5.4.tar.gz tmp/simcardems-2023.5.5.tar.gz --markdown 20230605/s/simcardems/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-06-05 12:54:18] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-06-05 12:54:19] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-05 12:54:19] INFO root fetch - main [MainThread]: End processing [simcardems]: success
+[2023-06-05 12:54:19] INFO root fetch - main [MainThread]: End processing [singer-sdk]: success
+[2023-06-05 12:54:19] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-06-05 12:54:19] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-06-05 12:54:21] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-06-05 12:54:21] INFO root fetch - main [MainThread]: Store serial: [18374777]
