@@ -9940,3 +9940,91 @@
 [2023-06-05 12:30:51] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-05 12:31:44] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
 [2023-06-05 12:31:44] INFO root fetch - main [MainThread]: Store serial: [18374600]
+[2023-06-05 12:37:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374600]
+[2023-06-05 12:37:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ar-ex-sys-worker
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-service-catalog-puppet
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DIRAC
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypackagelicenseprototype
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cciutils
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paramga
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-protoni
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-d3-network-component
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbt-honeybee
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dm-pix
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.6.33] Old Version: [1.6.32]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [DIRAC]: New version: [8.1.0a9] Old Version: [8.1.0a8]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [paramga]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [django-protoni]: New version: [0.3.6] Old Version: [0.3.4]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.8.1] Old Version: [1.7.8]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [streamlit-d3-network-component]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [dm-pix]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [aws-service-catalog-puppet]: New version: [0.99.2] Old Version: [0.99.1]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-05 12:37:18] INFO root fetch - processPackages [django-protoni]: Downloading https://files.pythonhosted.org/packages/05/14/92754e4f3e98bf6432f32c70024fd12279f1e5d102499501275eb7225b73/django-protoni-0.3.4.tar.gz
+[2023-06-05 12:37:18] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/cb/c9/d251fe6a5efbc1a7f8ff05110f71ccb08ba4d483e8eb25a7f1687be71d59/mypackagelicenseprototype-1.8.1-py3-none-any.whl
+[2023-06-05 12:37:18] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/3a/0a/dc7cf04c0ea832cf150d3f55f108dd565dd0d54088947fc29ea34dc03c99/aws-service-catalog-puppet-0.99.1.tar.gz
+[2023-06-05 12:37:18] INFO root fetch - processPackages [paramga]: Downloading https://files.pythonhosted.org/packages/0b/21/115169dd75eb1fef844c21f7ef289fa3f18260dd6d4a0d8c508ca2044dc3/paramga-0.5.5.tar.gz
+[2023-06-05 12:37:18] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/35/19/2c6f883597e847d7ba7e96999b7f94ac5b16d8485a5e04f508ab7ba93aa0/DIRAC-8.1.0a8.tar.gz
+[2023-06-05 12:37:18] INFO root fetch - processPackages [streamlit-d3-network-component]: Downloading https://files.pythonhosted.org/packages/d0/b6/7b4f10f128ec99e673c927b3e97e7eb713bd76c57a5638ec9cf902655115/streamlit-d3-network-component-0.0.8.tar.gz
+[2023-06-05 12:37:18] INFO root fetch - processPackages [dm-pix]: Downloading https://files.pythonhosted.org/packages/81/10/90bf11359fb97792cf995c01edf54bd47ce6a1d2fa0df26976eca84059b1/dm_pix-0.4.0.tar.gz
+[2023-06-05 12:37:18] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-06-05 12:37:18] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-05 12:37:18] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 12:37:18] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.7.8-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.8.1-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.7.8-1.8.1/diff.md --exclude *.pyd
+[2023-06-05 12:37:18] INFO root fetch - processPackages [paramga]: executing diffoscope
+[2023-06-05 12:37:18] INFO root fetch - processPackages [paramga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paramga-0.5.4.tar.gz tmp/paramga-0.5.5.tar.gz --markdown 20230605/p/paramga/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-05 12:37:18] INFO root fetch - processPackages [streamlit-d3-network-component]: executing diffoscope
+[2023-06-05 12:37:18] INFO root fetch - processPackages [streamlit-d3-network-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-d3-network-component-0.0.6.tar.gz tmp/streamlit-d3-network-component-0.0.8.tar.gz --markdown 20230605/s/streamlit-d3-network-component/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 12:37:18] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/73/be/e273fa966496bf99553a7ddd8dcdee9d78886e34dd1c75399f5069924dfc/ar_ex_sys_worker-1.6.33-py3-none-any.whl
+[2023-06-05 12:37:19] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2023-06-05 12:37:19] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.6.32-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.6.33-py3-none-any.whl.zip --markdown 20230605/a/ar-ex-sys-worker/1.6.32-1.6.33/diff.md --exclude *.pyd
+[2023-06-05 12:37:19] INFO root fetch - processPackages [django-protoni]: Downloading https://files.pythonhosted.org/packages/d6/20/9af6a66d0a8ab3d16cec0ed745a3a02740d8435fcb124b25b73968b2d432/django-protoni-0.3.6.tar.gz
+[2023-06-05 12:37:19] INFO root fetch - processPackages [django-protoni]: executing diffoscope
+[2023-06-05 12:37:19] INFO root fetch - processPackages [django-protoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-protoni-0.3.4.tar.gz tmp/django-protoni-0.3.6.tar.gz --markdown 20230605/d/django-protoni/0.3.4-0.3.6/diff.md --exclude *.pyd
+[2023-06-05 12:37:19] INFO root fetch - processPackages [dm-pix]: Downloading https://files.pythonhosted.org/packages/35/e6/35dda8b7dae0272c72ed4cf9413099efe97aab25c092c17e91f51bbb8de3/dm_pix-0.4.1.tar.gz
+[2023-06-05 12:37:19] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/6e/80/879da5426c375016f7a97e287a9c8f48b1c49989432086cc0896a9d58374/aws-service-catalog-puppet-0.99.2.tar.gz
+[2023-06-05 12:37:19] INFO root fetch - processPackages [aws-service-catalog-puppet]: executing diffoscope
+[2023-06-05 12:37:19] INFO root fetch - processPackages [aws-service-catalog-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-service-catalog-puppet-0.99.1.tar.gz tmp/aws-service-catalog-puppet-0.99.2.tar.gz --markdown 20230605/a/aws-service-catalog-puppet/0.99.1-0.99.2/diff.md --exclude *.pyd
+[2023-06-05 12:37:19] INFO root fetch - processPackages [dm-pix]: executing diffoscope
+[2023-06-05 12:37:19] INFO root fetch - processPackages [dm-pix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_pix-0.4.0.tar.gz tmp/dm_pix-0.4.1.tar.gz --markdown 20230605/d/dm-pix/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-05 12:37:19] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-06-05 12:37:19] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-06-05 12:37:19] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230605/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-05 12:37:19] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/dc/e4/3d433b449dc9be87754c2eb6eea8594f46aafce3f0d92348f727d4bbdc04/DIRAC-8.1.0a9.tar.gz
+[2023-06-05 12:37:20] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: sspqdd
+[2023-06-05 12:37:20] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 12:37:20] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 12:37:20] INFO root fetch - processPackages [ar-ex-sys-worker]: Start processing: racetrack-client
+[2023-06-05 12:37:20] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2023-06-05 12:37:20] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-05 12:37:20] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-05 12:37:20] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2023-06-05 12:37:20] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-8.1.0a8.tar.gz tmp/DIRAC-8.1.0a9.tar.gz --markdown 20230605/D/DIRAC/8.1.0a8-8.1.0a9/diff.md --exclude *.pyd
+[2023-06-05 12:37:20] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2023-06-05 12:37:20] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-06-05 12:37:20] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230605/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 12:37:20] INFO root fetch - processPackages [paramga]: Start processing: gemseo-pymoo
+[2023-06-05 12:37:20] INFO root fetch - main [MainThread]: End processing [paramga]: success
+[2023-06-05 12:37:20] INFO root fetch - main [MainThread]: End processing [dm-pix]: success
+[2023-06-05 12:37:20] INFO root fetch - processPackages [gemseo-pymoo]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-05 12:37:20] INFO root fetch - main [MainThread]: End processing [django-protoni]: success
+[2023-06-05 12:37:20] INFO root fetch - processPackages [gemseo-pymoo]: Downloading https://files.pythonhosted.org/packages/e6/5a/dcca05066f19a1d670b3003edec5a2178f5d71b4ff463a0c7682c055e915/gemseo-pymoo-1.1.1.tar.gz
+[2023-06-05 12:37:21] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-06-05 12:37:21] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2023-06-05 12:37:21] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-05 12:37:21] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230605/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-05 12:37:21] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-06-05 12:37:21] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2023-06-05 12:37:21] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20230605/r/racetrack-client/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-05 12:37:21] INFO root fetch - processPackages [gemseo-pymoo]: Downloading https://files.pythonhosted.org/packages/ab/3a/82ccf92b7c9fb21fe0f42b8fb9fbed3e6589187ec54cd53cd0e11effff75/gemseo-pymoo-1.1.2.tar.gz
+[2023-06-05 12:37:22] INFO root fetch - processPackages [gemseo-pymoo]: executing diffoscope
+[2023-06-05 12:37:22] INFO root fetch - processPackages [gemseo-pymoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemseo-pymoo-1.1.1.tar.gz tmp/gemseo-pymoo-1.1.2.tar.gz --markdown 20230605/g/gemseo-pymoo/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-05 12:37:22] INFO root fetch - main [MainThread]: End processing [aws-service-catalog-puppet]: success
+[2023-06-05 12:37:23] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2023-06-05 12:37:24] INFO root fetch - main [MainThread]: End processing [gemseo-pymoo]: success
+[2023-06-05 12:37:24] INFO root fetch - main [MainThread]: End processing [streamlit-d3-network-component]: success
+[2023-06-05 12:37:27] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-05 12:37:38] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2023-06-05 12:37:38] INFO root fetch - main [MainThread]: Store serial: [18374635]
