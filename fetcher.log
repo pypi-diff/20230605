@@ -13144,3 +13144,156 @@ AssertionError: tmp/ms_salesforce_api-0.0.38.tar.gz does not exist
 [2023-06-05 15:02:02] INFO root fetch - processPackages [petljadoc]: Remove: archive file [/home/abi/fetcher/tmp/petljadoc-1.3.3.tar.gz]
 [2023-06-05 15:02:02] INFO root fetch - main [MainThread]: End processing [petljadoc]: success
 [2023-06-05 15:02:02] INFO root fetch - main [MainThread]: Store serial: [18376086]
+[2023-06-05 15:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376086]
+[2023-06-05 15:07:11] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sampacks
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataverse-api
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-shopfloor
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: textbsr
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gemseo-mma
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudAgnosticPySqsListener
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lamindb
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: configparsersimplifier
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysmart365
+[2023-06-05 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudAgnosticPySqsListener
+[2023-06-05 15:07:11] INFO root fetch - processPackages [dataverse-api]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.2.9.3.dev1] Old Version: [14.0.2.9.2]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [configparsersimplifier]: New version: [1.1] Old Version: [1.0]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [textbsr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [sampacks]: New version: [0.5] Old Version: [0.4]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [gemseo-mma]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [pysmart365]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-06-05 15:07:11] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/fb/16/abfa540abd570a9383b1c69a1bfe645577c6545466729386f92a9e2cc0cc/sampacks-0.4.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: Downloading https://files.pythonhosted.org/packages/1a/0a/38e92080bd46d02fb1bfcf993e370b5e0c9b82f43a55afb1ba3af8c44f27/cloudAgnosticPySqsListener-0.9.1.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: Downloading https://files.pythonhosted.org/packages/1a/0a/38e92080bd46d02fb1bfcf993e370b5e0c9b82f43a55afb1ba3af8c44f27/cloudAgnosticPySqsListener-0.9.1.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/fb/fb/7bdeae7240da9df88ed9a6de627b343c29f9ccbcffc1b9df5fc3d768faf8/textbsr-0.1.8.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [configparsersimplifier]: Downloading https://files.pythonhosted.org/packages/77/0f/41e54404a7975d112456c5f488f860753e01e833cef7a7fd8176d73f5ce6/configparsersimplifier-1.0.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [dataverse-api]: Downloading https://files.pythonhosted.org/packages/20/d2/53518183b28c89e40fc859cc52625a8155387b2af2c162ea674ac5fe622b/dataverse_api-0.2.3.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/36/9e/f385eb12e904ee5747453d03077fc0eb59112ba7f9218ed56bd0942118aa/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl
+[2023-06-05 15:07:11] INFO root fetch - processPackages [gemseo-mma]: Downloading https://files.pythonhosted.org/packages/0f/cf/9fbdbdf4d0a2000403673e7699748c4e2d9ff5a72af68037bfc287ff8a0f/gemseo-mma-1.0.0.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [pysmart365]: Downloading https://files.pythonhosted.org/packages/c2/4c/9829015d1b16492df9392ed5a87f535c71e0075761009ab5d0eb1ee68f48/pysmart365-0.0.5.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/ae/14/6b605aba563f66e1962bde704ca49ad5fd1bea18cb1241cac653b260c7c4/sampacks-0.5.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230605/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: Downloading https://files.pythonhosted.org/packages/3e/cc/f807da3ae032b62878ff18cd3a42e9e8c3cdd9a305603977b76aaf94c83a/cloudAgnosticPySqsListener-0.9.2.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [configparsersimplifier]: Downloading https://files.pythonhosted.org/packages/44/f2/863afc5777c9f88f403fd71b648fbfd60968ce1f046bd7d0b0aa313de171/configparsersimplifier-1.1.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: Downloading https://files.pythonhosted.org/packages/3e/cc/f807da3ae032b62878ff18cd3a42e9e8c3cdd9a305603977b76aaf94c83a/cloudAgnosticPySqsListener-0.9.2.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/7e/28/342ca1d6dec0213639a4ae8db02df71a3c3dbf659f8c855fac6d188cc392/textbsr-0.1.9.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [gemseo-mma]: Downloading https://files.pythonhosted.org/packages/c8/24/13b785ba2d3fcc59879920bf051608b6acf2b25e16310f1dd321a725c149/gemseo-mma-2.0.0.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [dataverse-api]: Downloading https://files.pythonhosted.org/packages/6d/36/8fa8ca8797e5a167d0265302bb55cfdb6474828e1d2b7fce7806987d4daf/dataverse_api-0.2.4.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [pysmart365]: Downloading https://files.pythonhosted.org/packages/75/b9/9b6d2a11e2b25a53377d51c37243b8d2802c506682829a0d07ce90f08777/pysmart365-0.0.6.tar.gz
+[2023-06-05 15:07:11] INFO root fetch - processPackages [sampacks]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [sampacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampacks-0.4.tar.gz tmp/sampacks-0.5.tar.gz --markdown 20230605/s/sampacks/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-05 15:07:11] INFO root fetch - processPackages [configparsersimplifier]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [configparsersimplifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configparsersimplifier-1.0.tar.gz tmp/configparsersimplifier-1.1.tar.gz --markdown 20230605/c/configparsersimplifier/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-05 15:07:11] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/40/e8/4b7f6115bba0ea96ebfecb1bb6d71600dd4ce22684bab44f67536bec77c9/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-06-05 15:07:11] INFO root fetch - processPackages [dataverse-api]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [dataverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse_api-0.2.3.tar.gz tmp/dataverse_api-0.2.4.tar.gz --markdown 20230605/d/dataverse-api/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-05 15:07:11] INFO root fetch - processPackages [pysmart365]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [pysmart365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmart365-0.0.5.tar.gz tmp/pysmart365-0.0.6.tar.gz --markdown 20230605/p/pysmart365/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 15:07:11] INFO root fetch - processPackages [gemseo-mma]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [gemseo-mma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemseo-mma-1.0.0.tar.gz tmp/gemseo-mma-2.0.0.tar.gz --markdown 20230605/g/gemseo-mma/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudAgnosticPySqsListener-0.9.1.tar.gz tmp/cloudAgnosticPySqsListener-0.9.2.tar.gz --markdown 20230605/c/cloudAgnosticPySqsListener/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudAgnosticPySqsListener-0.9.1.tar.gz tmp/cloudAgnosticPySqsListener-0.9.2.tar.gz --markdown 20230605/c/cloudAgnosticPySqsListener/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 15:07:11] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.1.8.tar.gz tmp/textbsr-0.1.9.tar.gz --markdown 20230605/t/textbsr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:07:11] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-06-05 15:07:11] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip --markdown 20230605/o/odoo14-addon-shopfloor/14.0.2.9.2-14.0.2.9.3.dev1/diff.md --exclude *.pyd
+[2023-06-05 15:07:13] INFO root fetch - processPackages [configparsersimplifier]: Remove: archive file [/home/abi/fetcher/tmp/configparsersimplifier-1.0.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [configparsersimplifier]: Remove: archive file [/home/abi/fetcher/tmp/configparsersimplifier-1.1.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [configparsersimplifier]: Start processing: test-graphql-sdk
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [configparsersimplifier]: success
+[2023-06-05 15:07:13] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [dataverse-api]: Remove: archive file [/home/abi/fetcher/tmp/dataverse_api-0.2.3.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [dataverse-api]: Remove: archive file [/home/abi/fetcher/tmp/dataverse_api-0.2.4.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [dataverse-api]: Start processing: cognite-neat
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [dataverse-api]: success
+[2023-06-05 15:07:13] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.4.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.5.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [sampacks]: Start processing: mock-data-generator
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [sampacks]: success
+[2023-06-05 15:07:13] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/2b/47/6417a7e32e5e86e3400ea1298e1a44395fbffa3a18982f399ebfd88a471e/test_graphql_sdk-0.0.8.tar.gz
+[2023-06-05 15:07:13] INFO root fetch - processPackages [cognite-neat]: New version: [0.12.5] Old Version: [0.12.4]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [mock-data-generator]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: Remove: archive file [/home/abi/fetcher/tmp/cloudAgnosticPySqsListener-0.9.1.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: Remove: archive file [/home/abi/fetcher/tmp/cloudAgnosticPySqsListener-0.9.2.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: Start processing: textbsr
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [cloudAgnosticPySqsListener]: success
+[2023-06-05 15:07:13] INFO root fetch - processPackages [pysmart365]: Remove: archive file [/home/abi/fetcher/tmp/pysmart365-0.0.5.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [pysmart365]: Remove: archive file [/home/abi/fetcher/tmp/pysmart365-0.0.6.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [pysmart365]: Start processing: pytrf
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [pysmart365]: success
+[2023-06-05 15:07:13] INFO root fetch - processPackages [textbsr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/90/a7/ea0090e3b282902e546d89242a3b5b88429130f301748df8d93cb7e62cc8/mock_data_generator-1.1.3.tar.gz
+[2023-06-05 15:07:13] WARNING root fetch - processPackages [pytrf]: Skipping, unable to determine old version
+[2023-06-05 15:07:13] INFO root fetch - processPackages [pytrf]: Start processing: swh.lister
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [pytrf] error
+[2023-06-05 15:07:13] INFO root fetch - processPackages [swh.lister]: New version: [5.6.1] Old Version: [5.6.0]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-06-05 15:07:13] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.1.8.tar.gz tmp/textbsr-0.1.9.tar.gz --markdown 20230605/t/textbsr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:07:13] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/2e/df/61699b4c0d07c1febd2d3273e8367c47f94ce96f8389b65a0974301428a5/test_graphql_sdk-0.0.9.tar.gz
+[2023-06-05 15:07:13] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/e7/06/afee2ea3781e4b06e9ef78420096d429329c9a0fc19624f74f11fb314fbd/cognite_neat-0.12.4.tar.gz
+[2023-06-05 15:07:13] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-05 15:07:13] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.0.8.tar.gz tmp/test_graphql_sdk-0.0.9.tar.gz --markdown 20230605/t/test-graphql-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:07:13] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/85/48/8987ad8c80d4c38597eae853041024a9b0e9b64b822472826d06e10ca9b4/mock_data_generator-1.2.0.tar.gz
+[2023-06-05 15:07:13] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/03/93/a4bc15e028f0671ff775195670f4f258f4ef5b763ae5b1085293a362552a/swh.lister-5.6.0.tar.gz
+[2023-06-05 15:07:13] INFO root fetch - processPackages [cloudAgnosticPySqsListener]: Start processing: num-tini4
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [cloudAgnosticPySqsListener]: success
+[2023-06-05 15:07:13] INFO root fetch - processPackages [num-tini4]: New version: [0.1.2a1] Old Version: [0.1.1a2]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [lamindb]: Start processing: pylint-nautobot
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-06-05 15:07:13] WARNING root fetch - processPackages [pylint-nautobot]: Skipping, unable to determine old version
+[2023-06-05 15:07:13] INFO root fetch - processPackages [pylint-nautobot]: Start processing: get-tense
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [pylint-nautobot] error
+[2023-06-05 15:07:13] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.8.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.9.tar.gz]
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-06-05 15:07:13] INFO root fetch - processPackages [num-tini4]: Downloading https://files.pythonhosted.org/packages/a0/d3/e3557d3a1e52d992142b32d26fded4b3e83edd827aee9b16549888b9f8a9/num_tini4-0.1.1a2.tar.gz
+[2023-06-05 15:07:13] WARNING root fetch - processPackages [get-tense]: Skipping, unable to determine old version
+[2023-06-05 15:07:13] INFO root fetch - main [MainThread]: End processing [get-tense] error
+[2023-06-05 15:07:13] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/c2/f0/fa7767282c5c901986054b33814e8cdcd401aae117e0e99e9daa2e26c877/cognite_neat-0.12.5.tar.gz
+[2023-06-05 15:07:14] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-05 15:07:14] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.1.3.tar.gz tmp/mock_data_generator-1.2.0.tar.gz --markdown 20230605/m/mock-data-generator/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-06-05 15:07:14] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/6c/b7/16ae52ff797fbba1222006fcb86dc3bc349ab8c3a5fdc6771e46e3acc900/swh.lister-5.6.1.tar.gz
+[2023-06-05 15:07:14] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-06-05 15:07:14] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.12.4.tar.gz tmp/cognite_neat-0.12.5.tar.gz --markdown 20230605/c/cognite-neat/0.12.4-0.12.5/diff.md --exclude *.pyd
+[2023-06-05 15:07:14] INFO root fetch - processPackages [num-tini4]: Downloading https://files.pythonhosted.org/packages/30/b4/5856fe803b34efce2a8761a64ff9c7b6d728193b954b9c781644ab99f787/num_tini4-0.1.2a1.tar.gz
+[2023-06-05 15:07:14] INFO root fetch - processPackages [swh.lister]: executing diffoscope
+[2023-06-05 15:07:14] INFO root fetch - processPackages [swh.lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.lister-5.6.0.tar.gz tmp/swh.lister-5.6.1.tar.gz --markdown 20230605/s/swh.lister/5.6.0-5.6.1/diff.md --exclude *.pyd
+[2023-06-05 15:07:14] INFO root fetch - processPackages [gemseo-mma]: Remove: archive file [/home/abi/fetcher/tmp/gemseo-mma-1.0.0.tar.gz]
+[2023-06-05 15:07:14] INFO root fetch - processPackages [gemseo-mma]: Remove: archive file [/home/abi/fetcher/tmp/gemseo-mma-2.0.0.tar.gz]
+[2023-06-05 15:07:14] INFO root fetch - main [MainThread]: End processing [gemseo-mma]: success
+[2023-06-05 15:07:14] INFO root fetch - processPackages [num-tini4]: executing diffoscope
+[2023-06-05 15:07:14] INFO root fetch - processPackages [num-tini4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/num_tini4-0.1.1a2.tar.gz tmp/num_tini4-0.1.2a1.tar.gz --markdown 20230605/n/num-tini4/0.1.1a2-0.1.2a1/diff.md --exclude *.pyd
+[2023-06-05 15:07:14] ERROR root fetch - processPackages [textbsr]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/textbsr-0.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/textbsr-0.1.9.tar.gz: No such file or directory
+
+[2023-06-05 15:07:14] INFO root fetch - main [MainThread]: End processing [textbsr] error
+[2023-06-05 15:07:15] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.1.3.tar.gz]
+[2023-06-05 15:07:15] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.0.tar.gz]
+[2023-06-05 15:07:15] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-05 15:07:15] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.8.tar.gz]
+[2023-06-05 15:07:15] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.9.tar.gz]
+[2023-06-05 15:07:15] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-05 15:07:15] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip]
+[2023-06-05 15:07:15] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip]
+[2023-06-05 15:07:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-06-05 15:07:16] INFO root fetch - processPackages [num-tini4]: Remove: archive file [/home/abi/fetcher/tmp/num_tini4-0.1.1a2.tar.gz]
+[2023-06-05 15:07:16] INFO root fetch - processPackages [num-tini4]: Remove: archive file [/home/abi/fetcher/tmp/num_tini4-0.1.2a1.tar.gz]
+[2023-06-05 15:07:16] INFO root fetch - main [MainThread]: End processing [num-tini4]: success
+[2023-06-05 15:07:19] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.6.0.tar.gz]
+[2023-06-05 15:07:19] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.6.1.tar.gz]
+[2023-06-05 15:07:20] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
+[2023-06-05 15:09:22] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.4.tar.gz]
+[2023-06-05 15:09:22] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.5.tar.gz]
+[2023-06-05 15:09:22] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-06-05 15:09:22] INFO root fetch - main [MainThread]: Store serial: [18376191]
