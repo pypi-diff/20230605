@@ -12017,3 +12017,135 @@
 [2023-06-05 14:19:25] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.2.5.tar.gz]
 [2023-06-05 14:19:25] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2023-06-05 14:19:25] INFO root fetch - main [MainThread]: Store serial: [18375642]
+[2023-06-05 14:24:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375642]
+[2023-06-05 14:24:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypackagelicenseprototype
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: get-tense
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamindb
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExtendClass
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: timeitpoj
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: StrangeSerializerLab3
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smper
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: startnet
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cheb3
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reflect-client
+[2023-06-05 14:24:34] WARNING root fetch - processPackages [timeitpoj]: Skipping, unable to determine old version
+[2023-06-05 14:24:34] INFO root fetch - processPackages [timeitpoj]: Start processing: mypackagelicenseprototype
+[2023-06-05 14:24:34] INFO root fetch - main [MainThread]: End processing [timeitpoj] error
+[2023-06-05 14:24:34] WARNING root fetch - processPackages [startnet]: Skipping, unable to determine old version
+[2023-06-05 14:24:34] INFO root fetch - processPackages [startnet]: Start processing: certbot-dns-constellix
+[2023-06-05 14:24:34] INFO root fetch - main [MainThread]: End processing [startnet] error
+[2023-06-05 14:24:34] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 14:24:34] INFO root fetch - processPackages [StrangeSerializerLab3]: New version: [9.0] Old Version: [8.0]
+[2023-06-05 14:24:34] INFO root fetch - processPackages [reflect-client]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-06-05 14:24:34] INFO root fetch - processPackages [ExtendClass]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-06-05 14:24:34] INFO root fetch - processPackages [smper]: New version: [5.1] Old Version: [2.3]
+[2023-06-05 14:24:34] WARNING root fetch - processPackages [get-tense]: Skipping, unable to determine old version
+[2023-06-05 14:24:34] INFO root fetch - processPackages [get-tense]: Start processing: test-graphql-sdk
+[2023-06-05 14:24:34] INFO root fetch - processPackages [cheb3]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-05 14:24:34] INFO root fetch - main [MainThread]: End processing [get-tense] error
+[2023-06-05 14:24:34] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-06-05 14:24:34] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 14:24:34] INFO root fetch - processPackages [certbot-dns-constellix]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-05 14:24:34] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 14:24:34] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/33/1e/d954a9c3ce2b63e53ab846f22afe51e80d04eeee2058855e0374db4c6d4b/smper-2.3.tar.gz
+[2023-06-05 14:24:34] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-06-05 14:24:34] INFO root fetch - processPackages [StrangeSerializerLab3]: Downloading https://files.pythonhosted.org/packages/ec/84/32378533d407de96c2e6a6551850b3087ee69fbbcede00233c6dd6e76e6c/StrangeSerializerLab3-8.0.tar.gz
+[2023-06-05 14:24:35] WARNING root fetch - processPackages [smper]: Skipping package: exceeds size limit 20759979>=10485760
+[2023-06-05 14:24:35] INFO root fetch - processPackages [smper]: Start processing: robocorp-browser
+[2023-06-05 14:24:35] INFO root fetch - main [MainThread]: End processing [smper] error
+[2023-06-05 14:24:35] INFO root fetch - processPackages [ExtendClass]: Downloading https://files.pythonhosted.org/packages/6d/a0/c7f68af25c8bf2b01e08d5fc3a083b563f6aee925f426b6cb02928b5dc94/ExtendClass-1.0.1.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [robocorp-browser]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-05 14:24:35] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [reflect-client]: Downloading https://files.pythonhosted.org/packages/6e/91/e0b5e1337dabc8efa2a8750a7f8f7eb1cdbefba53d17f042e412bdafe7bd/reflect-client-1.0.1.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [certbot-dns-constellix]: Downloading https://files.pythonhosted.org/packages/8e/f2/6e8270fe663779cace3f3f03d1511d8b5e6137618bcf6eb183b47a36ea15/certbot-dns-constellix-0.2.1.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/eb/27/ab2bb6876c79ecdea8e3bf16d237b6b607427d63f1a6a617a75dcca65cf8/cheb3-0.7.0.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/ee/c2/ad893e3fd826f4e515b778941bde72ed6b7867be457793b9845653110e72/test_graphql_sdk-0.0.2.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [StrangeSerializerLab3]: Downloading https://files.pythonhosted.org/packages/63/04/40df70dedbe499223940ce5b0bad8cba041a64e630b87b0877549972e289/StrangeSerializerLab3-9.0.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [StrangeSerializerLab3]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [StrangeSerializerLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StrangeSerializerLab3-8.0.tar.gz tmp/StrangeSerializerLab3-9.0.tar.gz --markdown 20230605/S/StrangeSerializerLab3/8.0-9.0/diff.md --exclude *.pyd
+[2023-06-05 14:24:35] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/7b/03/3cad77d4afd3353c736f3eae99f14d6d7600b7beab99c10ff7575ab9029f/robocorp_browser-0.4.2.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230605/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-06-05 14:24:35] INFO root fetch - processPackages [ExtendClass]: Downloading https://files.pythonhosted.org/packages/9a/09/39f0477fcd8f3073a4984a2d9708c7c16781cd18b2ee353e914df7572b6a/ExtendClass-1.0.3.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 14:24:35] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 14:24:35] INFO root fetch - processPackages [reflect-client]: Downloading https://files.pythonhosted.org/packages/ac/39/71b50b8d231cf97fc751b8174db7bf9a1661ad04f8b25d3a6da2eba4c460/reflect-client-1.1.1.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/d6/21/67ef219fd2d2de50d27415232b40085440c5cd7e6465744b90c69f9783e6/cheb3-0.7.1.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [certbot-dns-constellix]: Downloading https://files.pythonhosted.org/packages/84/e2/284cd110a68d8c40884271c89ec6cc8bb222202b62632523878fc586a13e/certbot-dns-constellix-0.2.2.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/ac/c8/66fef350999eaf22322e1356a82aa7c7d90aec80789ef09d63946b434bc7/test_graphql_sdk-0.0.3.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [ExtendClass]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [ExtendClass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExtendClass-1.0.1.tar.gz tmp/ExtendClass-1.0.3.tar.gz --markdown 20230605/E/ExtendClass/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-06-05 14:24:35] INFO root fetch - processPackages [reflect-client]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [reflect-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflect-client-1.0.1.tar.gz tmp/reflect-client-1.1.1.tar.gz --markdown 20230605/r/reflect-client/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-05 14:24:35] INFO root fetch - processPackages [cheb3]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [cheb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheb3-0.7.0.tar.gz tmp/cheb3-0.7.1.tar.gz --markdown 20230605/c/cheb3/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-05 14:24:35] INFO root fetch - processPackages [certbot-dns-constellix]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [certbot-dns-constellix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-constellix-0.2.1.tar.gz tmp/certbot-dns-constellix-0.2.2.tar.gz --markdown 20230605/c/certbot-dns-constellix/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-05 14:24:35] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 14:24:35] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 14:24:35] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/7c/6d/eab93ce07d0e427122a680b4bb3d4aa71fa5934af885ff6b53275a16154e/robocorp_browser-0.4.3.tar.gz
+[2023-06-05 14:24:35] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.0.2.tar.gz tmp/test_graphql_sdk-0.0.3.tar.gz --markdown 20230605/t/test-graphql-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 14:24:35] INFO root fetch - processPackages [robocorp-browser]: executing diffoscope
+[2023-06-05 14:24:35] INFO root fetch - processPackages [robocorp-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_browser-0.4.2.tar.gz tmp/robocorp_browser-0.4.3.tar.gz --markdown 20230605/r/robocorp-browser/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-05 14:24:36] INFO root fetch - processPackages [StrangeSerializerLab3]: Remove: archive file [/home/abi/fetcher/tmp/StrangeSerializerLab3-8.0.tar.gz]
+[2023-06-05 14:24:36] INFO root fetch - processPackages [StrangeSerializerLab3]: Remove: archive file [/home/abi/fetcher/tmp/StrangeSerializerLab3-9.0.tar.gz]
+[2023-06-05 14:24:36] INFO root fetch - processPackages [StrangeSerializerLab3]: Start processing: get-tense
+[2023-06-05 14:24:36] INFO root fetch - main [MainThread]: End processing [StrangeSerializerLab3]: success
+[2023-06-05 14:24:36] INFO root fetch - processPackages [get-tense]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 14:24:36] INFO root fetch - processPackages [ExtendClass]: Remove: archive file [/home/abi/fetcher/tmp/ExtendClass-1.0.1.tar.gz]
+[2023-06-05 14:24:36] INFO root fetch - processPackages [ExtendClass]: Remove: archive file [/home/abi/fetcher/tmp/ExtendClass-1.0.3.tar.gz]
+[2023-06-05 14:24:36] INFO root fetch - processPackages [ExtendClass]: Start processing: monotonic-nn
+[2023-06-05 14:24:36] INFO root fetch - main [MainThread]: End processing [ExtendClass]: success
+[2023-06-05 14:24:36] INFO root fetch - processPackages [monotonic-nn]: New version: [0.2.0rc1] Old Version: [0.2.0rc0]
+[2023-06-05 14:24:36] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/54/5a/27830162f55f7872a69e48c7a144f35fff07942cc3cd8695c3063cd40d4c/monotonic-nn-0.2.0rc0.tar.gz
+[2023-06-05 14:24:37] INFO root fetch - processPackages [reflect-client]: Remove: archive file [/home/abi/fetcher/tmp/reflect-client-1.0.1.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - processPackages [reflect-client]: Remove: archive file [/home/abi/fetcher/tmp/reflect-client-1.1.1.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - processPackages [reflect-client]: Start processing: newrelic-sb-sdk
+[2023-06-05 14:24:37] INFO root fetch - main [MainThread]: End processing [reflect-client]: success
+[2023-06-05 14:24:37] INFO root fetch - processPackages [get-tense]: Downloading https://files.pythonhosted.org/packages/be/15/d578258e499fd717df9006a31ec78a432f25879b6764731f09c1c89294f5/get_tense-0.0.1.tar.gz
+[2023-06-05 14:24:37] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 14:24:37] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 14:24:37] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/7d/ce/0db5c9f4ce9f9393e2b46f2d13c3eaece323788d81f6a730ff6762033029/monotonic-nn-0.2.0rc1.tar.gz
+[2023-06-05 14:24:37] INFO root fetch - processPackages [newrelic-sb-sdk]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-05 14:24:37] INFO root fetch - processPackages [certbot-dns-constellix]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-constellix-0.2.1.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - processPackages [certbot-dns-constellix]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-constellix-0.2.2.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - main [MainThread]: End processing [certbot-dns-constellix]: success
+[2023-06-05 14:24:37] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 14:24:37] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.0.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.1.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - main [MainThread]: End processing [cheb3]: success
+[2023-06-05 14:24:37] INFO root fetch - processPackages [monotonic-nn]: executing diffoscope
+[2023-06-05 14:24:37] INFO root fetch - processPackages [monotonic-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic-nn-0.2.0rc0.tar.gz tmp/monotonic-nn-0.2.0rc1.tar.gz --markdown 20230605/m/monotonic-nn/0.2.0rc0-0.2.0rc1/diff.md --exclude *.pyd
+[2023-06-05 14:24:37] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.2.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.3.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-05 14:24:37] INFO root fetch - processPackages [robocorp-browser]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_browser-0.4.2.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - processPackages [robocorp-browser]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_browser-0.4.3.tar.gz]
+[2023-06-05 14:24:37] INFO root fetch - main [MainThread]: End processing [robocorp-browser]: success
+[2023-06-05 14:24:37] INFO root fetch - processPackages [get-tense]: Downloading https://files.pythonhosted.org/packages/17/2c/1e4ae22823ecbb9ebc602cf6bd5f1dab25feb24a4d394953c06f1083d2c5/get_tense-0.0.2.tar.gz
+[2023-06-05 14:24:37] INFO root fetch - processPackages [newrelic-sb-sdk]: Downloading https://files.pythonhosted.org/packages/6d/4d/664c7a54889eb67b7c41d37b119d2621ac1fec8632b8e375662f75304d5f/newrelic_sb_sdk-0.3.0.tar.gz
+[2023-06-05 14:24:37] INFO root fetch - processPackages [get-tense]: executing diffoscope
+[2023-06-05 14:24:37] INFO root fetch - processPackages [get-tense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_tense-0.0.1.tar.gz tmp/get_tense-0.0.2.tar.gz --markdown 20230605/g/get-tense/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 14:24:37] INFO root fetch - processPackages [newrelic-sb-sdk]: Downloading https://files.pythonhosted.org/packages/b4/42/0f178992271719b6d6f32f399ffa7e0dcf51d058975d53c1493526c1d68f/newrelic_sb_sdk-0.4.0.tar.gz
+[2023-06-05 14:24:37] INFO root fetch - processPackages [newrelic-sb-sdk]: executing diffoscope
+[2023-06-05 14:24:37] INFO root fetch - processPackages [newrelic-sb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newrelic_sb_sdk-0.3.0.tar.gz tmp/newrelic_sb_sdk-0.4.0.tar.gz --markdown 20230605/n/newrelic-sb-sdk/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-05 14:24:38] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-06-05 14:24:38] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-06-05 14:24:38] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-06-05 14:24:38] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.2.0rc0.tar.gz]
+[2023-06-05 14:24:38] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.2.0rc1.tar.gz]
+[2023-06-05 14:24:38] INFO root fetch - main [MainThread]: End processing [monotonic-nn]: success
+[2023-06-05 14:24:38] INFO root fetch - processPackages [get-tense]: Remove: archive file [/home/abi/fetcher/tmp/get_tense-0.0.1.tar.gz]
+[2023-06-05 14:24:38] INFO root fetch - processPackages [get-tense]: Remove: archive file [/home/abi/fetcher/tmp/get_tense-0.0.2.tar.gz]
+[2023-06-05 14:24:38] INFO root fetch - main [MainThread]: End processing [get-tense]: success
+[2023-06-05 14:24:39] INFO root fetch - processPackages [newrelic-sb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_sb_sdk-0.3.0.tar.gz]
+[2023-06-05 14:24:39] INFO root fetch - processPackages [newrelic-sb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_sb_sdk-0.4.0.tar.gz]
+[2023-06-05 14:24:39] INFO root fetch - main [MainThread]: End processing [newrelic-sb-sdk]: success
+[2023-06-05 14:24:39] INFO root fetch - main [MainThread]: Store serial: [18375701]
