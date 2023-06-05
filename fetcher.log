@@ -4258,3 +4258,44 @@
 [2023-06-05 05:06:47] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-05 05:06:48] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-06-05 05:06:48] INFO root fetch - main [MainThread]: Store serial: [18371379]
+[2023-06-05 05:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371379]
+[2023-06-05 05:11:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chappie-rl
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultrasync
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ols-py
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hak
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-dataworks-public
+[2023-06-05 05:11:57] INFO root fetch - processPackages [chappie-rl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 05:11:57] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ultrasync]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ols-py]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-06-05 05:11:57] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: New version: [4.2.8] Old Version: [4.2.7]
+[2023-06-05 05:11:57] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-05 05:11:57] INFO root fetch - processPackages [chappie-rl]: Downloading https://files.pythonhosted.org/packages/a7/10/2aae504678b2ab10d0637633484bfaa1889a86a9bf5f431023bb25c64d1b/chappie_rl-0.0.3.tar.gz
+[2023-06-05 05:11:57] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ultrasync]: Downloading https://files.pythonhosted.org/packages/5f/7e/efe5fdf3582ad016689a6b40a4fc86916fe954b92d7543a19d40d3c6324b/ultrasync-0.9.7.tar.gz
+[2023-06-05 05:11:57] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Downloading https://files.pythonhosted.org/packages/96/49/e76efcaa20369f76904f8af3a66c1ea97bc4e02faa5b11ce86611fe55043/aliyun-python-sdk-dataworks-public-4.2.7.tar.gz
+[2023-06-05 05:11:57] INFO root fetch - processPackages [chappie-rl]: executing diffoscope
+[2023-06-05 05:11:57] INFO root fetch - processPackages [chappie-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chappie_rl-0.0.2.tar.gz tmp/chappie_rl-0.0.3.tar.gz --markdown 20230605/c/chappie-rl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ols-py]: Downloading https://files.pythonhosted.org/packages/b7/90/cd75990a75cfd0c3f8f7e09b664c0e40509eb7002b66cde115214ac30b22/ols_py-0.3.0.tar.gz
+[2023-06-05 05:11:57] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Downloading https://files.pythonhosted.org/packages/66/7b/40e839eef2e07cdd5d4feac12d689f8e31edb282dab80793f438c618762d/aliyun-python-sdk-dataworks-public-4.2.8.tar.gz
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ols-py]: executing diffoscope
+[2023-06-05 05:11:57] INFO root fetch - processPackages [ols-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ols_py-0.2.7.tar.gz tmp/ols_py-0.3.0.tar.gz --markdown 20230605/o/ols-py/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 05:11:58] INFO root fetch - processPackages [ultrasync]: Downloading https://files.pythonhosted.org/packages/55/29/2cec485d9124b301a1830ecebcb80b219e3d90e35f2658b4474d472d8930/ultrasync-0.9.8.tar.gz
+[2023-06-05 05:11:58] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: executing diffoscope
+[2023-06-05 05:11:58] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dataworks-public-4.2.7.tar.gz tmp/aliyun-python-sdk-dataworks-public-4.2.8.tar.gz --markdown 20230605/a/aliyun-python-sdk-dataworks-public/4.2.7-4.2.8/diff.md --exclude *.pyd
+[2023-06-05 05:11:58] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-06-05 05:11:58] INFO root fetch - processPackages [ultrasync]: executing diffoscope
+[2023-06-05 05:11:58] INFO root fetch - processPackages [ultrasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultrasync-0.9.7.tar.gz tmp/ultrasync-0.9.8.tar.gz --markdown 20230605/u/ultrasync/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-05 05:11:58] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-06-05 05:11:58] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230605/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 05:11:58] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-05 05:11:58] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230605/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-05 05:11:58] INFO root fetch - main [MainThread]: End processing [chappie-rl]: success
+[2023-06-05 05:11:59] INFO root fetch - main [MainThread]: End processing [ols-py]: success
+[2023-06-05 05:11:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-05 05:11:59] INFO root fetch - main [MainThread]: End processing [ultrasync]: success
+[2023-06-05 05:12:00] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-06-05 05:12:00] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dataworks-public]: success
+[2023-06-05 05:12:00] INFO root fetch - main [MainThread]: Store serial: [18371396]
