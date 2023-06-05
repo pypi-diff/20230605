@@ -6389,3 +6389,75 @@
 [2023-06-05 09:11:21] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
 [2023-06-05 09:11:21] INFO root fetch - main [MainThread]: End processing [cohere]: success
 [2023-06-05 09:11:21] INFO root fetch - main [MainThread]: Store serial: [18372578]
+[2023-06-05 09:16:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372578]
+[2023-06-05 09:16:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mon2pcap
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nightly
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webscapy
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alltime-athletics-python
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: demisto-sdk
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: getmodelspec
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: poetry-plugin-tweak-dependencies-version
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai-transform
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: commandsgpt
+[2023-06-05 09:16:30] INFO root fetch - processPackages [mon2pcap]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 09:16:30] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-06-05 09:16:30] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-05 09:16:30] INFO root fetch - processPackages [getmodelspec]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-05 09:16:30] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-05 09:16:30] INFO root fetch - processPackages [commandsgpt]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-05 09:16:30] INFO root fetch - processPackages [alltime-athletics-python]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 09:16:30] INFO root fetch - processPackages [webscapy]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-05 09:16:30] INFO root fetch - processPackages [poetry-plugin-tweak-dependencies-version]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-05 09:16:30] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-05 09:16:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ai-transform]: New version: [0.32.0] Old Version: [0.31.3]
+[2023-06-05 09:16:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-05 09:16:30] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-05 09:16:30] INFO root fetch - processPackages [commandsgpt]: executing diffoscope
+[2023-06-05 09:16:30] INFO root fetch - processPackages [commandsgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandsgpt-1.4.0.tar.gz tmp/commandsgpt-1.4.1.tar.gz --markdown 20230605/c/commandsgpt/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-05 09:16:30] INFO root fetch - processPackages [mon2pcap]: Downloading https://files.pythonhosted.org/packages/ec/f6/3b7c40783e10f6b2c90a89866a964e79a716e34294df2463227a7c1faea6/mon2pcap-1.0.4.tar.gz
+[2023-06-05 09:16:30] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/09/d8/b40156edfeb2c658f2e1fbd96230c4ad73caeb31f2c65c8c3c79aadd10ae/demisto_sdk-1.8.3.tar.gz
+[2023-06-05 09:16:30] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/39/a5/d3d3ac7da3aeb8252d936fb03138bc3d97a149473bd3d0c86a766d7aede0/alltime_athletics_python-0.5.0.tar.gz
+[2023-06-05 09:16:30] INFO root fetch - processPackages [webscapy]: Downloading https://files.pythonhosted.org/packages/41/34/130cc4d563706e0a1619eed20f38364bfd1eda50900f74c5f66c9fffad9a/webscapy-1.4.4.tar.gz
+[2023-06-05 09:16:30] INFO root fetch - processPackages [poetry-plugin-tweak-dependencies-version]: Downloading https://files.pythonhosted.org/packages/5f/66/acb7f8c69cfde706ca7979ad7e7bde8dfd8670e3940e70850f3c2144858a/poetry_plugin_tweak_dependencies_version-1.3.0.tar.gz
+[2023-06-05 09:16:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-05 09:16:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-05 09:16:30] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/bf/f6/fba8163be290b73a2687c61a850ea1c5586436ce6ca779a7cba2d0a1bb1b/ai_transform-0.31.3.tar.gz
+[2023-06-05 09:16:30] INFO root fetch - processPackages [mon2pcap]: executing diffoscope
+[2023-06-05 09:16:30] INFO root fetch - processPackages [mon2pcap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mon2pcap-1.0.3.tar.gz tmp/mon2pcap-1.0.4.tar.gz --markdown 20230605/m/mon2pcap/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 09:16:30] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-05 09:16:30] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-0.4.0.tar.gz tmp/alltime_athletics_python-0.5.0.tar.gz --markdown 20230605/a/alltime-athletics-python/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 09:16:31] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/64/f1/eb1afa74c8cd36ec00a08aa9c524502235aca66e33f399269e7f2b852df2/demisto_sdk-1.9.0.tar.gz
+[2023-06-05 09:16:31] INFO root fetch - processPackages [webscapy]: Downloading https://files.pythonhosted.org/packages/90/b6/77d56a7a3769190cb133cf7f419088b02dd3dc3586c7ddc11209bec5289b/webscapy-1.4.5.tar.gz
+[2023-06-05 09:16:31] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/86/64/7c80be28411b76b8981cc9351c704f384ac8ef32bda855165aae52bb0fc3/ai_transform-0.32.0.tar.gz
+[2023-06-05 09:16:31] INFO root fetch - processPackages [poetry-plugin-tweak-dependencies-version]: Downloading https://files.pythonhosted.org/packages/5f/e9/7c705ddda0d9f1cd2220c13c7a55ed9cb4cd01123d3a33566e151d4bd7d8/poetry_plugin_tweak_dependencies_version-1.4.0.tar.gz
+[2023-06-05 09:16:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-05 09:16:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-05 09:16:31] INFO root fetch - processPackages [webscapy]: executing diffoscope
+[2023-06-05 09:16:31] INFO root fetch - processPackages [webscapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscapy-1.4.4.tar.gz tmp/webscapy-1.4.5.tar.gz --markdown 20230605/w/webscapy/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-05 09:16:31] INFO root fetch - processPackages [ai-transform]: executing diffoscope
+[2023-06-05 09:16:31] INFO root fetch - processPackages [ai-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_transform-0.31.3.tar.gz tmp/ai_transform-0.32.0.tar.gz --markdown 20230605/a/ai-transform/0.31.3-0.32.0/diff.md --exclude *.pyd
+[2023-06-05 09:16:31] INFO root fetch - processPackages [poetry-plugin-tweak-dependencies-version]: executing diffoscope
+[2023-06-05 09:16:31] INFO root fetch - processPackages [poetry-plugin-tweak-dependencies-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_tweak_dependencies_version-1.3.0.tar.gz tmp/poetry_plugin_tweak_dependencies_version-1.4.0.tar.gz --markdown 20230605/p/poetry-plugin-tweak-dependencies-version/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-05 09:16:31] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2023-06-05 09:16:31] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20230605/d/demisto-sdk/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 09:16:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-05 09:16:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230605/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-05 09:16:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-05 09:16:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230605/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-05 09:16:32] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-05 09:16:32] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-05 09:16:32] INFO root fetch - main [MainThread]: End processing [mon2pcap]: success
+[2023-06-05 09:16:32] INFO root fetch - main [MainThread]: End processing [commandsgpt]: success
+[2023-06-05 09:16:32] INFO root fetch - main [MainThread]: End processing [webscapy]: success
+[2023-06-05 09:16:32] INFO root fetch - main [MainThread]: End processing [poetry-plugin-tweak-dependencies-version]: success
+[2023-06-05 09:16:32] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
+[2023-06-05 09:16:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-05 09:16:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-05 09:16:33] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-05 09:16:33] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230605/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-05 09:16:44] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-05 09:16:45] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2023-06-05 09:16:45] INFO root fetch - main [MainThread]: Store serial: [18372662]
