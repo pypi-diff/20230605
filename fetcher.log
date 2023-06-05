@@ -14738,3 +14738,174 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 15:53:06] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.1.3.tar.gz]
 [2023-06-05 15:53:06] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
 [2023-06-05 15:53:06] INFO root fetch - main [MainThread]: Store serial: [18376738]
+[2023-06-05 15:58:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376738]
+[2023-06-05 15:58:15] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: basicpkg-tini4
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamindb
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turbx
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyuart
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trainml
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-lottie
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dustgoggles
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weasel
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bipl
+[2023-06-05 15:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypackagelicenseprototype
+[2023-06-05 15:58:15] WARNING root fetch - processPackages [basicpkg-tini4]: Skipping, unable to determine old version
+[2023-06-05 15:58:15] INFO root fetch - processPackages [basicpkg-tini4]: Start processing: hrm-interpreter
+[2023-06-05 15:58:15] INFO root fetch - main [MainThread]: End processing [basicpkg-tini4] error
+[2023-06-05 15:58:15] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-06-05 15:58:15] INFO root fetch - processPackages [streamlit-lottie]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 15:58:15] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 15:58:16] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [streamlit-lottie]: Downloading https://files.pythonhosted.org/packages/ba/30/d00e8f45c57fbb59e51cff59fc82e948fa75bd40103262220e64e78c6f3d/streamlit-lottie-0.0.3.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 15:58:16] WARNING root fetch - processPackages [pyuart]: Skipping, unable to determine old version
+[2023-06-05 15:58:16] INFO root fetch - processPackages [pyuart]: Start processing: scdeepinsight
+[2023-06-05 15:58:16] INFO root fetch - main [MainThread]: End processing [pyuart] error
+[2023-06-05 15:58:16] INFO root fetch - processPackages [trainml]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-05 15:58:16] WARNING root fetch - processPackages [scdeepinsight]: Skipping, unable to determine old version
+[2023-06-05 15:58:16] INFO root fetch - processPackages [scdeepinsight]: Start processing: qontract-reconcile
+[2023-06-05 15:58:16] INFO root fetch - main [MainThread]: End processing [scdeepinsight] error
+[2023-06-05 15:58:16] INFO root fetch - processPackages [dustgoggles]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-05 15:58:16] INFO root fetch - processPackages [turbx]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-05 15:58:16] INFO root fetch - processPackages [hrm-interpreter]: New version: [1.2] Old Version: [1.1]
+[2023-06-05 15:58:16] INFO root fetch - processPackages [weasel]: New version: [0.1.0rc0] Old Version: [0.0.0]
+[2023-06-05 15:58:16] INFO root fetch - processPackages [bipl]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-05 15:58:16] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-05 15:58:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 15:58:16] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-05 15:58:16] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 15:58:16] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:58:16] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-06-05 15:58:16] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230605/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-06-05 15:58:16] INFO root fetch - processPackages [turbx]: Downloading https://files.pythonhosted.org/packages/b4/73/c5fb8da94a0fa115ce3e1f534c696b1127ccfa8f69a46bab2df228d20a4b/turbx-0.2.3.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [trainml]: Downloading https://files.pythonhosted.org/packages/20/24/ea220dcc8659ead1b29cf006c7bc802195039cdd8acd135148d01e9d3513/trainml-0.4.8.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [hrm-interpreter]: Downloading https://files.pythonhosted.org/packages/6d/8e/4c108a6e3bfca0c1720878673edd674ff9176f6ff52877492a3993d703c2/hrm-interpreter-1.1.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [bipl]: Downloading https://files.pythonhosted.org/packages/27/1f/90664de444034baf579464ed061264a77d1eacbbf5289152325f9d1a61c0/bipl-0.2.1.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [dustgoggles]: Downloading https://files.pythonhosted.org/packages/4d/f1/18eb3ba39cee02a04c18a258084a33271fe49533f915b22e3137f60dec8e/dustgoggles-0.7.1.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/9b/a5/160b395b6b8a3166077ea77f7f276e0b9e5dd83bfe83e86301e6b5ddb283/weasel-0.0.0.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-05 15:58:16] INFO root fetch - processPackages [streamlit-lottie]: Downloading https://files.pythonhosted.org/packages/f2/0c/c9d1db59057a66161a9a5ed391f3e55865eb91a92601199794424d93b79c/streamlit-lottie-0.0.4.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [streamlit-lottie]: executing diffoscope
+[2023-06-05 15:58:16] INFO root fetch - processPackages [streamlit-lottie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-lottie-0.0.3.tar.gz tmp/streamlit-lottie-0.0.4.tar.gz --markdown 20230605/s/streamlit-lottie/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 15:58:16] INFO root fetch - processPackages [bipl]: Downloading https://files.pythonhosted.org/packages/93/9d/ed57a0f0f0eaca95ecdd2b56d85f4cd6f0795e18552a40af643934a90316/bipl-0.2.2.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [dustgoggles]: Downloading https://files.pythonhosted.org/packages/af/26/d518bb56f1b5c2a2a678cacd9d45d9494bd91f13623f2ab83d1452a63b3b/dustgoggles-0.7.2.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-05 15:58:16] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230605/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-05 15:58:16] INFO root fetch - processPackages [turbx]: Downloading https://files.pythonhosted.org/packages/71/24/a93fb13d3ec9d5a017dea71796ccc488fbc29169d3b2fb45c30d326f0d9e/turbx-0.3.0.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [hrm-interpreter]: Downloading https://files.pythonhosted.org/packages/79/c4/b6d720b3f411b31c24a94b7b58ee3f0d68d05eb2a426653ddab84862078e/hrm-interpreter-1.2.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/3c/00/b34214b37cfb0a4c0038a23e48300554389824d36a37f339965164796c99/weasel-0.1.0rc0.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [bipl]: executing diffoscope
+[2023-06-05 15:58:16] INFO root fetch - processPackages [bipl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bipl-0.2.1.tar.gz tmp/bipl-0.2.2.tar.gz --markdown 20230605/b/bipl/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-05 15:58:16] INFO root fetch - processPackages [dustgoggles]: executing diffoscope
+[2023-06-05 15:58:16] INFO root fetch - processPackages [dustgoggles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dustgoggles-0.7.1.tar.gz tmp/dustgoggles-0.7.2.tar.gz --markdown 20230605/d/dustgoggles/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-05 15:58:16] INFO root fetch - processPackages [trainml]: Downloading https://files.pythonhosted.org/packages/e0/09/b1a8ca09d1357635498b83078517fae91e9500812c5b77ddbd320c62e743/trainml-0.4.9.tar.gz
+[2023-06-05 15:58:16] INFO root fetch - processPackages [hrm-interpreter]: executing diffoscope
+[2023-06-05 15:58:16] INFO root fetch - processPackages [hrm-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrm-interpreter-1.1.tar.gz tmp/hrm-interpreter-1.2.tar.gz --markdown 20230605/h/hrm-interpreter/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-05 15:58:16] INFO root fetch - processPackages [weasel]: executing diffoscope
+[2023-06-05 15:58:16] INFO root fetch - processPackages [weasel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weasel-0.0.0.tar.gz tmp/weasel-0.1.0rc0.tar.gz --markdown 20230605/w/weasel/0.0.0-0.1.0rc0/diff.md --exclude *.pyd
+[2023-06-05 15:58:16] INFO root fetch - processPackages [turbx]: executing diffoscope
+[2023-06-05 15:58:16] INFO root fetch - processPackages [turbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbx-0.2.3.tar.gz tmp/turbx-0.3.0.tar.gz --markdown 20230605/t/turbx/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 15:58:17] INFO root fetch - processPackages [trainml]: executing diffoscope
+[2023-06-05 15:58:17] INFO root fetch - processPackages [trainml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainml-0.4.8.tar.gz tmp/trainml-0.4.9.tar.gz --markdown 20230605/t/trainml/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-05 15:58:17] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 15:58:17] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 15:58:17] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: wagtail-cjkcms
+[2023-06-05 15:58:17] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 15:58:17] INFO root fetch - processPackages [wagtail-cjkcms]: New version: [23.6.2] Old Version: [23.6.1]
+[2023-06-05 15:58:17] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/b7/c7/9117304f295951dfeb671b1cd701da2b3defba8f746efd4109f9114fb8ae/wagtail-cjkcms-23.6.1.tar.gz
+[2023-06-05 15:58:18] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/b6/6e/1024ebbcaa3124fb36a2479057323fdf14509511ca7ad758ec7aef51dffc/wagtail-cjkcms-23.6.2.tar.gz
+[2023-06-05 15:58:18] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [lamindb]: Start processing: spacetraders
+[2023-06-05 15:58:18] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-06-05 15:58:18] INFO root fetch - processPackages [wagtail-cjkcms]: executing diffoscope
+[2023-06-05 15:58:18] INFO root fetch - processPackages [wagtail-cjkcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cjkcms-23.6.1.tar.gz tmp/wagtail-cjkcms-23.6.2.tar.gz --markdown 20230605/w/wagtail-cjkcms/23.6.1-23.6.2/diff.md --exclude *.pyd
+[2023-06-05 15:58:18] INFO root fetch - processPackages [bipl]: Remove: archive file [/home/abi/fetcher/tmp/bipl-0.2.1.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [bipl]: Remove: archive file [/home/abi/fetcher/tmp/bipl-0.2.2.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [bipl]: Start processing: vstools
+[2023-06-05 15:58:18] INFO root fetch - main [MainThread]: End processing [bipl]: success
+[2023-06-05 15:58:18] INFO root fetch - processPackages [spacetraders]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [hrm-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/hrm-interpreter-1.1.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [hrm-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/hrm-interpreter-1.2.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [hrm-interpreter]: Start processing: stewchef
+[2023-06-05 15:58:18] INFO root fetch - main [MainThread]: End processing [hrm-interpreter]: success
+[2023-06-05 15:58:18] INFO root fetch - processPackages [vstools]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [stewchef]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/75/a3/872cdaed04a8a9f7549be05941afa518d3f0d55d1a954e400965cadf0d78/spacetraders-0.5.0.tar.gz
+[2023-06-05 15:58:18] INFO root fetch - processPackages [vstools]: Downloading https://files.pythonhosted.org/packages/cf/3b/8034fbd9ace1bf35181267d1504867a2676f2c51f3afca4473c1730d323f/vstools-2.1.0.tar.gz
+[2023-06-05 15:58:18] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.0.0.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.1.0rc0.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [weasel]: Start processing: exampleproject-crida
+[2023-06-05 15:58:18] INFO root fetch - main [MainThread]: End processing [weasel]: success
+[2023-06-05 15:58:18] INFO root fetch - processPackages [stewchef]: Downloading https://files.pythonhosted.org/packages/9a/7c/cf89966778bb011853eede6a21791422e85f281772c44303bfd7487c6e2b/stewchef-0.1.4.tar.gz
+[2023-06-05 15:58:18] INFO root fetch - processPackages [turbx]: Remove: archive file [/home/abi/fetcher/tmp/turbx-0.2.3.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [turbx]: Remove: archive file [/home/abi/fetcher/tmp/turbx-0.3.0.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [turbx]: Start processing: python-fontbro
+[2023-06-05 15:58:18] INFO root fetch - main [MainThread]: End processing [turbx]: success
+[2023-06-05 15:58:18] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/1c/91/40e21707175d8304038a8cc6ff63c78173eed0857ea9b1f4740872342fc6/spacetraders-0.6.0.tar.gz
+[2023-06-05 15:58:18] WARNING root fetch - processPackages [exampleproject-crida]: Skipping, unable to determine old version
+[2023-06-05 15:58:18] INFO root fetch - processPackages [exampleproject-crida]: Start processing: guitk
+[2023-06-05 15:58:18] INFO root fetch - main [MainThread]: End processing [exampleproject-crida] error
+[2023-06-05 15:58:18] INFO root fetch - processPackages [python-fontbro]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [dustgoggles]: Remove: archive file [/home/abi/fetcher/tmp/dustgoggles-0.7.1.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [dustgoggles]: Remove: archive file [/home/abi/fetcher/tmp/dustgoggles-0.7.2.tar.gz]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [dustgoggles]: Start processing: turn-by-turn
+[2023-06-05 15:58:18] INFO root fetch - main [MainThread]: End processing [dustgoggles]: success
+[2023-06-05 15:58:18] INFO root fetch - processPackages [guitk]: New version: [0.4.1] Old Version: [0.3.0]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [turn-by-turn]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-05 15:58:18] INFO root fetch - processPackages [vstools]: Downloading https://files.pythonhosted.org/packages/cf/af/0d533dd558285abf75bea12dfa3fd4af73afb3358b6a3dfa5463350e3f3e/vstools-2.2.0.tar.gz
+[2023-06-05 15:58:18] INFO root fetch - processPackages [stewchef]: Downloading https://files.pythonhosted.org/packages/e8/1f/26f45b757dd8e9bd9218cc151819b67ea000341bebedb2802d614faea777/stewchef-0.1.5.tar.gz
+[2023-06-05 15:58:18] INFO root fetch - processPackages [python-fontbro]: Downloading https://files.pythonhosted.org/packages/2b/5f/cbb80676bd50a8070a08a6ef3c5f25a3f57343c1b80c5a338bc3c47ea29c/python-fontbro-0.9.0.tar.gz
+[2023-06-05 15:58:19] INFO root fetch - processPackages [vstools]: executing diffoscope
+[2023-06-05 15:58:19] INFO root fetch - processPackages [vstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstools-2.1.0.tar.gz tmp/vstools-2.2.0.tar.gz --markdown 20230605/v/vstools/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-05 15:58:19] INFO root fetch - processPackages [stewchef]: executing diffoscope
+[2023-06-05 15:58:19] INFO root fetch - processPackages [stewchef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stewchef-0.1.4.tar.gz tmp/stewchef-0.1.5.tar.gz --markdown 20230605/s/stewchef/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 15:58:19] INFO root fetch - processPackages [spacetraders]: executing diffoscope
+[2023-06-05 15:58:19] INFO root fetch - processPackages [spacetraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetraders-0.5.0.tar.gz tmp/spacetraders-0.6.0.tar.gz --markdown 20230605/s/spacetraders/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-05 15:58:19] INFO root fetch - processPackages [guitk]: Downloading https://files.pythonhosted.org/packages/d0/1d/a2cb55aeffe861e1170ef1ecf89988b89668d719be7537b64bd88b76ff5f/guitk-0.3.0.tar.gz
+[2023-06-05 15:58:19] INFO root fetch - processPackages [turn-by-turn]: Downloading https://files.pythonhosted.org/packages/c1/91/1a3775eec4da474ccf6eb6b0b8761007a85f372ad43fcde696d44bca9832/turn_by_turn-0.4.2.tar.gz
+[2023-06-05 15:58:19] INFO root fetch - processPackages [trainml]: Remove: archive file [/home/abi/fetcher/tmp/trainml-0.4.8.tar.gz]
+[2023-06-05 15:58:19] INFO root fetch - processPackages [trainml]: Remove: archive file [/home/abi/fetcher/tmp/trainml-0.4.9.tar.gz]
+[2023-06-05 15:58:19] INFO root fetch - processPackages [trainml]: Start processing: try-pyspark1
+[2023-06-05 15:58:19] INFO root fetch - main [MainThread]: End processing [trainml]: success
+[2023-06-05 15:58:19] INFO root fetch - processPackages [python-fontbro]: Downloading https://files.pythonhosted.org/packages/8e/21/8dbefdc64354ecb053f9e78b5bf4d14bb5fa3fb079ad935211d7875a22f3/python-fontbro-0.9.1.tar.gz
+[2023-06-05 15:58:19] WARNING root fetch - processPackages [try-pyspark1]: Skipping, unable to determine old version
+[2023-06-05 15:58:19] INFO root fetch - main [MainThread]: End processing [try-pyspark1] error
+[2023-06-05 15:58:19] INFO root fetch - processPackages [turn-by-turn]: Downloading https://files.pythonhosted.org/packages/40/97/9482aeb15989b9852d9b75417de9d76fa6a88bbac419994d3176a26a0e37/turn_by_turn-0.5.0.tar.gz
+[2023-06-05 15:58:19] INFO root fetch - processPackages [python-fontbro]: executing diffoscope
+[2023-06-05 15:58:19] INFO root fetch - processPackages [python-fontbro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-fontbro-0.9.0.tar.gz tmp/python-fontbro-0.9.1.tar.gz --markdown 20230605/p/python-fontbro/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-05 15:58:19] INFO root fetch - processPackages [turn-by-turn]: executing diffoscope
+[2023-06-05 15:58:19] INFO root fetch - processPackages [turn-by-turn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turn_by_turn-0.4.2.tar.gz tmp/turn_by_turn-0.5.0.tar.gz --markdown 20230605/t/turn-by-turn/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 15:58:19] INFO root fetch - processPackages [guitk]: Downloading https://files.pythonhosted.org/packages/a6/0f/d675fee47d08e8edc6ca1ff7daea8078441c714a32aff36af1eead33e588/guitk-0.4.1.tar.gz
+[2023-06-05 15:58:19] INFO root fetch - processPackages [guitk]: executing diffoscope
+[2023-06-05 15:58:19] INFO root fetch - processPackages [guitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guitk-0.3.0.tar.gz tmp/guitk-0.4.1.tar.gz --markdown 20230605/g/guitk/0.3.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-05 15:58:20] INFO root fetch - processPackages [stewchef]: Remove: archive file [/home/abi/fetcher/tmp/stewchef-0.1.4.tar.gz]
+[2023-06-05 15:58:20] INFO root fetch - processPackages [stewchef]: Remove: archive file [/home/abi/fetcher/tmp/stewchef-0.1.5.tar.gz]
+[2023-06-05 15:58:20] INFO root fetch - main [MainThread]: End processing [stewchef]: success
+[2023-06-05 15:58:20] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.6.1.tar.gz]
+[2023-06-05 15:58:20] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.6.2.tar.gz]
+[2023-06-05 15:58:20] INFO root fetch - main [MainThread]: End processing [wagtail-cjkcms]: success
+[2023-06-05 15:58:20] INFO root fetch - processPackages [python-fontbro]: Remove: archive file [/home/abi/fetcher/tmp/python-fontbro-0.9.0.tar.gz]
+[2023-06-05 15:58:20] INFO root fetch - processPackages [python-fontbro]: Remove: archive file [/home/abi/fetcher/tmp/python-fontbro-0.9.1.tar.gz]
+[2023-06-05 15:58:20] INFO root fetch - main [MainThread]: End processing [python-fontbro]: success
+[2023-06-05 15:58:21] INFO root fetch - processPackages [turn-by-turn]: Remove: archive file [/home/abi/fetcher/tmp/turn_by_turn-0.4.2.tar.gz]
+[2023-06-05 15:58:21] INFO root fetch - processPackages [turn-by-turn]: Remove: archive file [/home/abi/fetcher/tmp/turn_by_turn-0.5.0.tar.gz]
+[2023-06-05 15:58:21] INFO root fetch - main [MainThread]: End processing [turn-by-turn]: success
+[2023-06-05 15:58:21] INFO root fetch - processPackages [guitk]: Remove: archive file [/home/abi/fetcher/tmp/guitk-0.3.0.tar.gz]
+[2023-06-05 15:58:21] INFO root fetch - processPackages [guitk]: Remove: archive file [/home/abi/fetcher/tmp/guitk-0.4.1.tar.gz]
+[2023-06-05 15:58:21] INFO root fetch - main [MainThread]: End processing [guitk]: success
+[2023-06-05 15:58:21] INFO root fetch - processPackages [streamlit-lottie]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-lottie-0.0.3.tar.gz]
+[2023-06-05 15:58:21] INFO root fetch - processPackages [streamlit-lottie]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-lottie-0.0.4.tar.gz]
+[2023-06-05 15:58:21] INFO root fetch - main [MainThread]: End processing [streamlit-lottie]: success
+[2023-06-05 15:58:21] INFO root fetch - processPackages [spacetraders]: Remove: archive file [/home/abi/fetcher/tmp/spacetraders-0.5.0.tar.gz]
+[2023-06-05 15:58:21] INFO root fetch - processPackages [spacetraders]: Remove: archive file [/home/abi/fetcher/tmp/spacetraders-0.6.0.tar.gz]
+[2023-06-05 15:58:21] INFO root fetch - main [MainThread]: End processing [spacetraders]: success
+[2023-06-05 15:58:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-05 15:58:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-05 15:58:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-05 15:58:23] INFO root fetch - processPackages [vstools]: Remove: archive file [/home/abi/fetcher/tmp/vstools-2.1.0.tar.gz]
+[2023-06-05 15:58:23] INFO root fetch - processPackages [vstools]: Remove: archive file [/home/abi/fetcher/tmp/vstools-2.2.0.tar.gz]
+[2023-06-05 15:58:23] INFO root fetch - main [MainThread]: End processing [vstools]: success
+[2023-06-05 15:58:23] INFO root fetch - main [MainThread]: Store serial: [18376807]
