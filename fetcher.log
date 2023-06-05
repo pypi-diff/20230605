@@ -10463,3 +10463,123 @@
 [2023-06-05 13:04:48] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-06-05 13:05:13] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-06-05 13:05:13] INFO root fetch - main [MainThread]: Store serial: [18374849]
+[2023-06-05 13:10:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374849]
+[2023-06-05 13:10:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jws2txt
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-grpc-data-provider
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tno.mpc.protocols.distributed-keygen
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-gpt-torch
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recognize
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypackagelicenseprototype
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jws2txt
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypcapkit
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-05 13:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nuclio-sdk
+[2023-06-05 13:10:22] INFO root fetch - processPackages [jws2txt]: New version: [1.0.0] Old Version: [0.0.7a0]
+[2023-06-05 13:10:22] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 13:10:22] INFO root fetch - processPackages [tno.mpc.protocols.distributed-keygen]: New version: [4.0.0] Old Version: [3.1.4]
+[2023-06-05 13:10:22] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.0] Old Version: [1.8.4]
+[2023-06-05 13:10:22] WARNING root fetch - processPackages [recognize]: Skipping, unable to determine old version
+[2023-06-05 13:10:22] INFO root fetch - processPackages [recognize]: Start processing: eko
+[2023-06-05 13:10:22] INFO root fetch - main [MainThread]: End processing [recognize] error
+[2023-06-05 13:10:22] INFO root fetch - processPackages [jws2txt]: New version: [1.0.0] Old Version: [0.0.7a0]
+[2023-06-05 13:10:22] INFO root fetch - processPackages [nuclio-sdk]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-05 13:10:22] INFO root fetch - processPackages [th2-grpc-data-provider]: New version: [2.0.0.dev3800999250] Old Version: [2.0.0.dev3800923993]
+[2023-06-05 13:10:22] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 13:10:22] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.2.post1] Old Version: [1.0.2]
+[2023-06-05 13:10:22] INFO root fetch - processPackages [eko]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-05 13:10:22] INFO root fetch - processPackages [jws2txt]: Downloading https://files.pythonhosted.org/packages/a7/c0/23e0cf624fd1b2056de0a65333b4d10746e6df5e1360ab17c4e18ffcd9fd/jws2txt-0.0.7a0.tar.gz
+[2023-06-05 13:10:22] INFO root fetch - processPackages [jws2txt]: Downloading https://files.pythonhosted.org/packages/a7/c0/23e0cf624fd1b2056de0a65333b4d10746e6df5e1360ab17c4e18ffcd9fd/jws2txt-0.0.7a0.tar.gz
+[2023-06-05 13:10:22] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/1a/27/38e8ba6312192aae6a426cd859b1c681991d7c7a15654e06a561d2d573da/open_gpt_torch-0.0.3.tar.gz
+[2023-06-05 13:10:22] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/b0/9b/e6b268f43026179faa10877c370f1f60a7628d52ccc721d727eb4b9aeb32/mypackagelicenseprototype-2.0.0-py3-none-any.whl
+[2023-06-05 13:10:22] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/04/d7/430f42739e21677a2e07f138ba8b734840044be7943fd9ab041e36c1fab6/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz
+[2023-06-05 13:10:22] INFO root fetch - processPackages [nuclio-sdk]: Downloading https://files.pythonhosted.org/packages/d7/b1/e36a67c284517c7b460bcce42edc0f964d8c0659be11a2ac8263ec114f23/nuclio_sdk-0.5.3.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [tno.mpc.protocols.distributed-keygen]: Downloading https://files.pythonhosted.org/packages/dd/f2/0a27f6889fa6816664021b986e83af7aebf7c229d754f9b69401a9040ad8/tno.mpc.protocols.distributed_keygen-3.1.4-py3-none-any.whl
+[2023-06-05 13:10:23] INFO root fetch - processPackages [eko]: Downloading https://files.pythonhosted.org/packages/45/cf/9cce4d711592064a5d04a413c894450d2d8ca46b2d0f610c9956647e11e2/eko-0.9.3.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/32/79/ecee13f12ccd3086a53e34ab4e831745864e76c81a65b4d4a8af88bd0889/pypcapkit-1.0.2.post1.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.8.4-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.0.0-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.8.4-2.0.0/diff.md --exclude *.pyd
+[2023-06-05 13:10:23] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.2.tar.gz tmp/pypcapkit-1.0.2.post1.tar.gz --markdown 20230605/p/pypcapkit/1.0.2-1.0.2.post1/diff.md --exclude *.pyd
+[2023-06-05 13:10:23] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/a6/10/3698410fcfadef50a4e4f219c771485d9e4216306a18cec8d0fe9a201560/open_gpt_torch-0.0.4.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [jws2txt]: Downloading https://files.pythonhosted.org/packages/3e/05/d3528158b125c6f07af2da8fb91a441a0c942554cd96dec8b4249a0329eb/jws2txt-1.0.0.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [jws2txt]: Downloading https://files.pythonhosted.org/packages/3e/05/d3528158b125c6f07af2da8fb91a441a0c942554cd96dec8b4249a0329eb/jws2txt-1.0.0.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.3.tar.gz tmp/open_gpt_torch-0.0.4.tar.gz --markdown 20230605/o/open-gpt-torch/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 13:10:23] INFO root fetch - processPackages [jws2txt]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [jws2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jws2txt-0.0.7a0.tar.gz tmp/jws2txt-1.0.0.tar.gz --markdown 20230605/j/jws2txt/0.0.7a0-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 13:10:23] INFO root fetch - processPackages [jws2txt]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [jws2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jws2txt-0.0.7a0.tar.gz tmp/jws2txt-1.0.0.tar.gz --markdown 20230605/j/jws2txt/0.0.7a0-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 13:10:23] INFO root fetch - processPackages [nuclio-sdk]: Downloading https://files.pythonhosted.org/packages/7f/48/e478746e877a3cea0b6067515eca188ea464bba3c9a8c42ca6e53610a4f2/nuclio_sdk-0.5.4.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [tno.mpc.protocols.distributed-keygen]: Downloading https://files.pythonhosted.org/packages/c7/fd/7ed7f9e1213c9e1bb234fda68fb90aad79f95947e569bd7ad32985849daf/tno.mpc.protocols.distributed_keygen-4.0.0.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [nuclio-sdk]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [nuclio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclio_sdk-0.5.3.tar.gz tmp/nuclio_sdk-0.5.4.tar.gz --markdown 20230605/n/nuclio-sdk/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-05 13:10:23] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/2a/a3/045f6fb25a9114a9febeb0a29222e49f4e0de65cfc6d87a1ba52585fec8d/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [tno.mpc.protocols.distributed-keygen]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [tno.mpc.protocols.distributed-keygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tno.mpc.protocols.distributed_keygen-3.1.4-py3-none-any.whl.zip tmp/tno.mpc.protocols.distributed_keygen-4.0.0.tar.gz --markdown 20230605/t/tno.mpc.protocols.distributed-keygen/3.1.4-4.0.0/diff.md --exclude *.pyd
+[2023-06-05 13:10:23] INFO root fetch - processPackages [eko]: Downloading https://files.pythonhosted.org/packages/e3/9f/0abbb737b774c3716179774a3483b946c16b765cf9529b408cf58da1734c/eko-0.9.4.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-05 13:10:23] INFO root fetch - processPackages [eko]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [eko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eko-0.9.3.tar.gz tmp/eko-0.9.4.tar.gz --markdown 20230605/e/eko/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-05 13:10:23] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230605/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 13:10:23] INFO root fetch - processPackages [th2-grpc-data-provider]: executing diffoscope
+[2023-06-05 13:10:23] INFO root fetch - processPackages [th2-grpc-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz --markdown 20230605/t/th2-grpc-data-provider/2.0.0.dev3800923993-2.0.0.dev3800999250/diff.md --exclude *.pyd
+[2023-06-05 13:10:24] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: read-rapidpe
+[2023-06-05 13:10:24] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 13:10:24] INFO root fetch - processPackages [read-rapidpe]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-05 13:10:24] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-06-05 13:10:24] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.5.8.tar.gz tmp/read_rapidpe-0.5.9.tar.gz --markdown 20230605/r/read-rapidpe/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-05 13:10:24] INFO root fetch - processPackages [jws2txt]: Start processing: tno.mpc.protocols.risk-propagation
+[2023-06-05 13:10:24] INFO root fetch - main [MainThread]: End processing [jws2txt]: success
+[2023-06-05 13:10:24] INFO root fetch - processPackages [tno.mpc.protocols.risk-propagation]: New version: [2.1.0] Old Version: [1.0.7]
+[2023-06-05 13:10:24] INFO root fetch - processPackages [tno.mpc.protocols.distributed-keygen]: Start processing: steamship
+[2023-06-05 13:10:24] INFO root fetch - main [MainThread]: End processing [tno.mpc.protocols.distributed-keygen]: success
+[2023-06-05 13:10:24] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-05 13:10:24] INFO root fetch - processPackages [tno.mpc.protocols.risk-propagation]: Downloading https://files.pythonhosted.org/packages/26/16/02761abba31671dec5f186d312d7032612e82fb5d9e66e39b6a39d7fa65f/tno.mpc.protocols.risk_propagation-1.0.7-py3-none-any.whl
+[2023-06-05 13:10:24] INFO root fetch - processPackages [nuclio-sdk]: Start processing: farm-haystack
+[2023-06-05 13:10:24] INFO root fetch - main [MainThread]: End processing [nuclio-sdk]: success
+[2023-06-05 13:10:24] INFO root fetch - processPackages [farm-haystack]: New version: [1.9.1rc1] Old Version: [1.9.1]
+[2023-06-05 13:10:24] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-06-05 13:10:25] INFO root fetch - processPackages [tno.mpc.protocols.risk-propagation]: Downloading https://files.pythonhosted.org/packages/ae/e3/19c2ef63f2871a3d104ba1c1ed2647824dc9e5c06bb390362e7e3bb4762b/tno.mpc.protocols.risk_propagation-2.1.0.tar.gz
+[2023-06-05 13:10:25] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/94/11/cf9836569f3576a61cd8186a2e448a3c7cd443ac2711bcebab600878af41/farm_haystack-1.9.1.tar.gz
+[2023-06-05 13:10:25] INFO root fetch - processPackages [tno.mpc.protocols.risk-propagation]: executing diffoscope
+[2023-06-05 13:10:25] INFO root fetch - processPackages [tno.mpc.protocols.risk-propagation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tno.mpc.protocols.risk_propagation-1.0.7-py3-none-any.whl.zip tmp/tno.mpc.protocols.risk_propagation-2.1.0.tar.gz --markdown 20230605/t/tno.mpc.protocols.risk-propagation/1.0.7-2.1.0/diff.md --exclude *.pyd
+[2023-06-05 13:10:25] INFO root fetch - processPackages [jws2txt]: Start processing: oc-cdtapi
+[2023-06-05 13:10:25] INFO root fetch - main [MainThread]: End processing [jws2txt]: success
+[2023-06-05 13:10:25] INFO root fetch - processPackages [open-gpt-torch]: Start processing: django-protoni
+[2023-06-05 13:10:25] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-06-05 13:10:25] INFO root fetch - processPackages [django-protoni]: New version: [0.3.8] Old Version: [0.3.6]
+[2023-06-05 13:10:25] INFO root fetch - processPackages [oc-cdtapi]: New version: [3.9.4] Old Version: [3.9.2]
+[2023-06-05 13:10:25] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-06-05 13:10:25] INFO root fetch - processPackages [th2-grpc-data-provider]: Start processing: cdflib
+[2023-06-05 13:10:25] INFO root fetch - main [MainThread]: End processing [th2-grpc-data-provider]: success
+[2023-06-05 13:10:25] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-05 13:10:25] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230605/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-05 13:10:25] INFO root fetch - processPackages [cdflib]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-05 13:10:25] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-05 13:10:25] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/23/d2/cfea23611bb748f558b8d355ef4cba3ae94123bd0259a8822949707262b7/oc_cdtapi-3.9.2-py3-none-any.whl
+[2023-06-05 13:10:25] INFO root fetch - processPackages [django-protoni]: Downloading https://files.pythonhosted.org/packages/49/50/b4ec9220fc7f196f36e1a308f4eb6b5fdeb40bc9450ee87507242db9972c/django-protoni-0.3.8.tar.gz
+[2023-06-05 13:10:25] INFO root fetch - processPackages [django-protoni]: executing diffoscope
+[2023-06-05 13:10:25] INFO root fetch - processPackages [django-protoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-protoni-0.3.6.tar.gz tmp/django-protoni-0.3.8.tar.gz --markdown 20230605/d/django-protoni/0.3.6-0.3.8/diff.md --exclude *.pyd
+[2023-06-05 13:10:25] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/25/8b/e5381a7ecd8fa8e72c2cfdfe68539c09350180493bee16fb3b800a487c96/farm_haystack-1.9.1rc1.tar.gz
+[2023-06-05 13:10:25] INFO root fetch - processPackages [cdflib]: Downloading https://files.pythonhosted.org/packages/5d/4b/2a7c8e52888aaaf7045d705921e85c3ddd4a6883e3f2453a8944c631de01/cdflib-1.0.2.tar.gz
+[2023-06-05 13:10:25] INFO root fetch - processPackages [farm-haystack]: executing diffoscope
+[2023-06-05 13:10:25] INFO root fetch - processPackages [farm-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farm_haystack-1.9.1.tar.gz tmp/farm_haystack-1.9.1rc1.tar.gz --markdown 20230605/f/farm-haystack/1.9.1-1.9.1rc1/diff.md --exclude *.pyd
+[2023-06-05 13:10:25] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/1e/98/0bcc299b30418e62a037836854cf01235330d0120fe95c91c8f4f1d11957/oc_cdtapi-3.9.4-py3-none-any.whl
+[2023-06-05 13:10:25] INFO root fetch - processPackages [cdflib]: Downloading https://files.pythonhosted.org/packages/6e/1f/1ea4210ffbdde0f0d38c2371ac3db1627952f8ca104ebc9dc20d02cd987e/cdflib-1.0.3.tar.gz
+[2023-06-05 13:10:25] INFO root fetch - processPackages [oc-cdtapi]: executing diffoscope
+[2023-06-05 13:10:25] INFO root fetch - processPackages [oc-cdtapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdtapi-3.9.2-py3-none-any.whl.zip tmp/oc_cdtapi-3.9.4-py3-none-any.whl.zip --markdown 20230605/o/oc-cdtapi/3.9.2-3.9.4/diff.md --exclude *.pyd
+[2023-06-05 13:10:25] INFO root fetch - processPackages [cdflib]: executing diffoscope
+[2023-06-05 13:10:25] INFO root fetch - processPackages [cdflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdflib-1.0.2.tar.gz tmp/cdflib-1.0.3.tar.gz --markdown 20230605/c/cdflib/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-05 13:10:26] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-06-05 13:10:26] INFO root fetch - main [MainThread]: End processing [tno.mpc.protocols.risk-propagation]: success
+[2023-06-05 13:10:26] INFO root fetch - main [MainThread]: End processing [django-protoni]: success
+[2023-06-05 13:10:27] INFO root fetch - main [MainThread]: End processing [oc-cdtapi]: success
+[2023-06-05 13:10:27] INFO root fetch - main [MainThread]: End processing [cdflib]: success
+[2023-06-05 13:10:28] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
+[2023-06-05 13:10:28] INFO root fetch - main [MainThread]: End processing [eko]: success
+[2023-06-05 13:10:29] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-06-05 13:10:30] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-05 13:10:30] INFO root fetch - main [MainThread]: Store serial: [18374913]
