@@ -17763,3 +17763,190 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 17:39:04] INFO root fetch - processPackages [TypeDal]: Remove: archive file [/home/abi/fetcher/tmp/typedal-1.0.0b1.tar.gz]
 [2023-06-05 17:39:04] INFO root fetch - main [MainThread]: End processing [TypeDal]: success
 [2023-06-05 17:39:04] INFO root fetch - main [MainThread]: Store serial: [18378013]
+[2023-06-05 17:44:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378013]
+[2023-06-05 17:44:17] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scdeepinsight
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: servicefoundry
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ask-sdk-model
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autosar-e2e
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: musicpy
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: e4ting
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlx2md
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-stock-product-pack
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qworker
+[2023-06-05 17:44:17] INFO root fetch - processPackages [scdeepinsight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 17:44:17] INFO root fetch - processPackages [mlx2md]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 17:44:17] INFO root fetch - processPackages [qworker]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-05 17:44:17] WARNING root fetch - processPackages [musicpy]: Skipping, unable to determine old version
+[2023-06-05 17:44:17] INFO root fetch - processPackages [musicpy]: Start processing: c2cciutils
+[2023-06-05 17:44:17] INFO root fetch - processPackages [e4ting]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 17:44:17] INFO root fetch - main [MainThread]: End processing [musicpy] error
+[2023-06-05 17:44:17] INFO root fetch - processPackages [autosar-e2e]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-05 17:44:17] INFO root fetch - processPackages [mlx2md]: Downloading https://files.pythonhosted.org/packages/d0/f2/ed7ebe11e58eb78a5e052811ca75c325cd46171853ea4c37fe19e0bf121f/mlx2md-0.1.3.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-05 17:44:17] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/73/4f/5dea690ab83d7fe7f85aec5e50dfa02f7b6c7d5c78cf2893f00cfad0414a/qworker-1.8.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 17:44:17] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-05 17:44:17] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ask-sdk-model]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-05 17:44:17] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.3rc1] Old Version: [0.9.3]
+[2023-06-05 17:44:17] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/7a/94/639488ee8ea5f1ea3afca991fbd9824ae325f796f4d75155e328af4e97f9/scdeepinsight-0.1.8.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [autosar-e2e]: Downloading https://files.pythonhosted.org/packages/9d/dd/3c6a765b0a91db1102f9580d0c34d7279fc784e9b20cd60b96c1605d06de/autosar-e2e-0.2.1.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/29/48/af4124743b9d18ef8b8a61d676b95bbffedc6bf231b15b9d35d5c0fb8993/e4ting-1.0.1.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: Downloading https://files.pythonhosted.org/packages/ca/1e/646b9d4788e7d6cdc8e1054c1127ca117741d25bed920ddbd1c133cf8b5f/odoo_addon_stock_product_pack-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-05 17:44:17] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/8f/60/01b7f52824b21fe577d81460b3b0758b1d6dd0207fedbcb4689e3cc7d1be/servicefoundry-0.9.3.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/0e/2d/3d567d4f148eb87e204409c700b9d3c5339bbbd1c2370fdb46979cfe0ce7/ask-sdk-model-1.8.0.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/95/53/fc07a7585b9adfdc987910b01e4abbdb50cc2a09d70bc28fd6bed12998b7/qworker-1.8.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 17:44:17] INFO root fetch - processPackages [mlx2md]: Downloading https://files.pythonhosted.org/packages/33/eb/6e67e3088271a689060d375aaf4319ebcc3d7ccf93de7a1977d0a962822d/mlx2md-0.1.4.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [mlx2md]: executing diffoscope
+[2023-06-05 17:44:17] INFO root fetch - processPackages [mlx2md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx2md-0.1.3.tar.gz tmp/mlx2md-0.1.4.tar.gz --markdown 20230605/m/mlx2md/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 17:44:17] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-06-05 17:44:17] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.8.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.8.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230605/q/qworker/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-05 17:44:17] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/2f/2f/fae6bd1d0603ad1ad76300900e502d5909ff55a2e6ffc66be1d57e90b926/scdeepinsight-0.1.9.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [autosar-e2e]: Downloading https://files.pythonhosted.org/packages/dc/ba/834d3188d6bcec21a7641977e201bcb1ff56baa20496de450e3f4aa506df/autosar-e2e-0.3.0.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/78/5c/3016e670582b7fa78105e9cde6de67bf196949c7a19d9019ce413f3a6156/e4ting-1.0.2.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: Downloading https://files.pythonhosted.org/packages/1f/94/97316b4d9cb634ad0ec3c8582f20e660ebec9842a36d22722d9e2ca85322/odoo_addon_stock_product_pack-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-05 17:44:17] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/2f/20/15196c61c99fd59fa6f5f903bea9e113a2af80777c1f7f38f90a5102afde/ask-sdk-model-1.9.0.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/fe/df/35d9aa53a53fc7cdaf51676119e002422df45d07c0ee77a675eb6e90d808/servicefoundry-0.9.3rc1.tar.gz
+[2023-06-05 17:44:17] INFO root fetch - processPackages [scdeepinsight]: executing diffoscope
+[2023-06-05 17:44:17] INFO root fetch - processPackages [scdeepinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdeepinsight-0.1.8.tar.gz tmp/scdeepinsight-0.1.9.tar.gz --markdown 20230605/s/scdeepinsight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 17:44:17] INFO root fetch - processPackages [autosar-e2e]: executing diffoscope
+[2023-06-05 17:44:17] INFO root fetch - processPackages [autosar-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosar-e2e-0.2.1.tar.gz tmp/autosar-e2e-0.3.0.tar.gz --markdown 20230605/a/autosar-e2e/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 17:44:17] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: executing diffoscope
+[2023-06-05 17:44:17] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_product_pack-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_product_pack-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-stock-product-pack/15.0.1.0.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-05 17:44:17] INFO root fetch - processPackages [e4ting]: executing diffoscope
+[2023-06-05 17:44:17] INFO root fetch - processPackages [e4ting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e4ting-1.0.1.tar.gz tmp/e4ting-1.0.2.tar.gz --markdown 20230605/e/e4ting/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 17:44:17] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-05 17:44:17] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230605/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-05 17:44:17] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-06-05 17:44:17] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.3.tar.gz tmp/servicefoundry-0.9.3rc1.tar.gz --markdown 20230605/s/servicefoundry/0.9.3-0.9.3rc1/diff.md --exclude *.pyd
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ask-sdk-model]: executing diffoscope
+[2023-06-05 17:44:17] INFO root fetch - processPackages [ask-sdk-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ask-sdk-model-1.8.0.tar.gz tmp/ask-sdk-model-1.9.0.tar.gz --markdown 20230605/a/ask-sdk-model/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 17:44:18] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-05 17:44:18] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230605/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-05 17:44:19] INFO root fetch - processPackages [mlx2md]: Remove: archive file [/home/abi/fetcher/tmp/mlx2md-0.1.3.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [mlx2md]: Remove: archive file [/home/abi/fetcher/tmp/mlx2md-0.1.4.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [mlx2md]: Start processing: mypackagelicenseprototype
+[2023-06-05 17:44:19] INFO root fetch - main [MainThread]: End processing [mlx2md]: success
+[2023-06-05 17:44:19] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/23/eb/1ba8a7852c6a25feed3ce5b79307b7594528c47544e0931a94b47d56fd3c/mypackagelicenseprototype-2.1.1.tar.gz
+[2023-06-05 17:44:19] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.8.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.9.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [scdeepinsight]: Start processing: django-tbase-post-product
+[2023-06-05 17:44:19] INFO root fetch - main [MainThread]: End processing [scdeepinsight]: success
+[2023-06-05 17:44:19] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.6.516859753] Old Version: [2023.6.216856966]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/2e/92/06c21134adb001b94be7cda3e80facd886305c14ead6aafa0a6d20804a3b/django_tbase_post_product-2023.6.216856966.tar.gz
+[2023-06-05 17:44:19] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9f/c2/89fedb8c7229f277c79cf552442c82234092c69a0e7e97bf1cdc534781be/mypackagelicenseprototype-2.1.2.tar.gz
+[2023-06-05 17:44:19] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_product_pack-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_product_pack-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: Start processing: google-csv-helper
+[2023-06-05 17:44:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-product-pack]: success
+[2023-06-05 17:44:19] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/e0/64/a5c7d3815be3dcb10a2ff7bb19c3eef2a5d3c65bb62fe1ffa62ed9525ad9/django_tbase_post_product-2023.6.516859753.tar.gz
+[2023-06-05 17:44:19] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 17:44:19] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.1.1.tar.gz tmp/mypackagelicenseprototype-2.1.2.tar.gz --markdown 20230605/m/mypackagelicenseprototype/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-05 17:44:19] INFO root fetch - processPackages [google-csv-helper]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-06-05 17:44:19] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.6.216856966.tar.gz tmp/django_tbase_post_product-2023.6.516859753.tar.gz --markdown 20230605/d/django-tbase-post-product/2023.6.216856966-2023.6.516859753/diff.md --exclude *.pyd
+[2023-06-05 17:44:19] INFO root fetch - processPackages [autosar-e2e]: Remove: archive file [/home/abi/fetcher/tmp/autosar-e2e-0.2.1.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [autosar-e2e]: Remove: archive file [/home/abi/fetcher/tmp/autosar-e2e-0.3.0.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [autosar-e2e]: Start processing: py-assimilator
+[2023-06-05 17:44:19] INFO root fetch - main [MainThread]: End processing [autosar-e2e]: success
+[2023-06-05 17:44:19] INFO root fetch - processPackages [py-assimilator]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [google-csv-helper]: Downloading https://files.pythonhosted.org/packages/56/cc/7c8cebe73936297163337f25a01a37b72671bfc53d7b1161895a3f5a4eb2/google-csv-helper-1.0.2.tar.gz
+[2023-06-05 17:44:19] INFO root fetch - processPackages [e4ting]: Remove: archive file [/home/abi/fetcher/tmp/e4ting-1.0.1.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [e4ting]: Remove: archive file [/home/abi/fetcher/tmp/e4ting-1.0.2.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [e4ting]: Start processing: docleaf
+[2023-06-05 17:44:19] INFO root fetch - main [MainThread]: End processing [e4ting]: success
+[2023-06-05 17:44:19] WARNING root fetch - processPackages [docleaf]: Skipping, unable to determine old version
+[2023-06-05 17:44:19] INFO root fetch - processPackages [docleaf]: Start processing: igneous-pipeline
+[2023-06-05 17:44:19] INFO root fetch - main [MainThread]: End processing [docleaf] error
+[2023-06-05 17:44:19] INFO root fetch - processPackages [py-assimilator]: Downloading https://files.pythonhosted.org/packages/2d/12/1c14173c6d7e44e7f15b97a635ee909a172220d54aa93fc3d3b876c08145/py_assimilator-1.2.3.tar.gz
+[2023-06-05 17:44:19] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.3.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.3rc1.tar.gz]
+[2023-06-05 17:44:19] INFO root fetch - processPackages [servicefoundry]: Start processing: odoo-addon-product-sold-by-delivery-week
+[2023-06-05 17:44:19] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-06-05 17:44:20] INFO root fetch - processPackages [odoo-addon-product-sold-by-delivery-week]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-06-05 17:44:20] INFO root fetch - processPackages [google-csv-helper]: Downloading https://files.pythonhosted.org/packages/b5/5f/04e0c5b0d3ebdf0b808004fd4005d10e9bc12c6c29451e39f72dae77be8c/google-csv-helper-1.0.3.tar.gz
+[2023-06-05 17:44:20] INFO root fetch - processPackages [igneous-pipeline]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-06-05 17:44:20] INFO root fetch - processPackages [google-csv-helper]: executing diffoscope
+[2023-06-05 17:44:20] INFO root fetch - processPackages [google-csv-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-csv-helper-1.0.2.tar.gz tmp/google-csv-helper-1.0.3.tar.gz --markdown 20230605/g/google-csv-helper/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-05 17:44:20] INFO root fetch - processPackages [py-assimilator]: Downloading https://files.pythonhosted.org/packages/87/b8/86e9d5b7967c0274daa3afb68035345d0ea64d7bb73a9e2f88a095148fd9/py_assimilator-1.2.4.tar.gz
+[2023-06-05 17:44:20] INFO root fetch - processPackages [odoo-addon-product-sold-by-delivery-week]: Downloading https://files.pythonhosted.org/packages/29/c3/a3851402dbc6f992f4cadb2a68d1296673a84c497521d69fc4e72c1396c2/odoo_addon_product_sold_by_delivery_week-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-05 17:44:20] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/44/05/223f9d80d8186c5262b494d43d08c25a5a57a20ec768157db3caa282edce/igneous-pipeline-4.8.0.tar.gz
+[2023-06-05 17:44:20] INFO root fetch - processPackages [py-assimilator]: executing diffoscope
+[2023-06-05 17:44:20] INFO root fetch - processPackages [py-assimilator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_assimilator-1.2.3.tar.gz tmp/py_assimilator-1.2.4.tar.gz --markdown 20230605/p/py-assimilator/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-05 17:44:20] INFO root fetch - processPackages [odoo-addon-product-sold-by-delivery-week]: Downloading https://files.pythonhosted.org/packages/17/77/faa1461135c9be521368e9bc9696eee4009892cd905c1bef9a326d600501/odoo_addon_product_sold_by_delivery_week-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-05 17:44:20] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.8.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 17:44:20] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.8.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 17:44:20] INFO root fetch - processPackages [qworker]: Start processing: ovos-skill-weather
+[2023-06-05 17:44:20] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-06-05 17:44:20] INFO root fetch - processPackages [ovos-skill-weather]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-05 17:44:20] INFO root fetch - processPackages [ovos-skill-weather]: Downloading https://files.pythonhosted.org/packages/73/39/23253a951872b1d3ba576e0ae7017d7a24af904a92abb4c181b445ee47ff/ovos_skill_weather-0.0.1a8-py3-none-any.whl
+[2023-06-05 17:44:20] INFO root fetch - processPackages [odoo-addon-product-sold-by-delivery-week]: executing diffoscope
+[2023-06-05 17:44:20] INFO root fetch - processPackages [odoo-addon-product-sold-by-delivery-week]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_sold_by_delivery_week-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_sold_by_delivery_week-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-product-sold-by-delivery-week/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-05 17:44:20] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/73/89/99a97070bf7edb5db3d588a78566a88207c6a26324df583d79cf41561a44/igneous-pipeline-4.9.0.tar.gz
+[2023-06-05 17:44:20] INFO root fetch - processPackages [igneous-pipeline]: executing diffoscope
+[2023-06-05 17:44:20] INFO root fetch - processPackages [igneous-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igneous-pipeline-4.8.0.tar.gz tmp/igneous-pipeline-4.9.0.tar.gz --markdown 20230605/i/igneous-pipeline/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-06-05 17:44:20] INFO root fetch - processPackages [ovos-skill-weather]: Downloading https://files.pythonhosted.org/packages/22/e4/88491cb9d3a9e70f89cb2124c53ec753a2405b62657bb5872d14d7124921/ovos_skill_weather-0.0.1a9-py3-none-any.whl
+[2023-06-05 17:44:20] INFO root fetch - processPackages [ovos-skill-weather]: executing diffoscope
+[2023-06-05 17:44:20] INFO root fetch - processPackages [ovos-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_weather-0.0.1a8-py3-none-any.whl.zip tmp/ovos_skill_weather-0.0.1a9-py3-none-any.whl.zip --markdown 20230605/o/ovos-skill-weather/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-05 17:44:20] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.6.216856966.tar.gz]
+[2023-06-05 17:44:20] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.6.516859753.tar.gz]
+[2023-06-05 17:44:20] INFO root fetch - processPackages [django-tbase-post-product]: Start processing: planetarypy
+[2023-06-05 17:44:20] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-06-05 17:44:20] INFO root fetch - processPackages [planetarypy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 17:44:21] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/1a/24/3f5674778363caaeee10fa16c761a224fed410ae5c0d02a3c17ca4e37144/planetarypy-0.8.0.tar.gz
+[2023-06-05 17:44:21] INFO root fetch - processPackages [google-csv-helper]: Remove: archive file [/home/abi/fetcher/tmp/google-csv-helper-1.0.2.tar.gz]
+[2023-06-05 17:44:21] INFO root fetch - processPackages [google-csv-helper]: Remove: archive file [/home/abi/fetcher/tmp/google-csv-helper-1.0.3.tar.gz]
+[2023-06-05 17:44:21] INFO root fetch - processPackages [google-csv-helper]: Start processing: c2cwsgiutils
+[2023-06-05 17:44:21] INFO root fetch - main [MainThread]: End processing [google-csv-helper]: success
+[2023-06-05 17:44:21] INFO root fetch - processPackages [c2cwsgiutils]: New version: [5.2.2] Old Version: [5.2.1]
+[2023-06-05 17:44:21] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/00/0c/5aed31bbbef2c017b7316cffb0dada856962d2356c49fc8948209f5adb84/c2cwsgiutils-5.2.1.tar.gz
+[2023-06-05 17:44:21] INFO root fetch - processPackages [odoo-addon-product-sold-by-delivery-week]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_sold_by_delivery_week-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-05 17:44:21] INFO root fetch - processPackages [odoo-addon-product-sold-by-delivery-week]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_sold_by_delivery_week-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-05 17:44:21] INFO root fetch - processPackages [odoo-addon-product-sold-by-delivery-week]: Start processing: taipy-config
+[2023-06-05 17:44:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-sold-by-delivery-week]: success
+[2023-06-05 17:44:21] INFO root fetch - processPackages [taipy-config]: New version: [2.3.0.dev1] Old Version: [2.3.0.dev0]
+[2023-06-05 17:44:21] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/b9/8a/0501c85429a67c118dfd5a60ff6bca1fc0e04d41d7163d284fa9184d27c6/planetarypy-0.9.0.tar.gz
+[2023-06-05 17:44:21] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/55/93/2e4f992a13695d7fbb2850755523ce47803febe908b690ecebf49fe4ab9c/c2cwsgiutils-5.2.2.tar.gz
+[2023-06-05 17:44:22] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-06-05 17:44:22] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-5.2.1.tar.gz tmp/c2cwsgiutils-5.2.2.tar.gz --markdown 20230605/c/c2cwsgiutils/5.2.1-5.2.2/diff.md --exclude *.pyd
+[2023-06-05 17:44:22] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/8a/3b/bb39e2d0c457920b1fcff0c51a0b02711691e1a041680f40b9bc8e8864fa/taipy-config-2.3.0.dev0.tar.gz
+[2023-06-05 17:44:22] INFO root fetch - processPackages [igneous-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/igneous-pipeline-4.8.0.tar.gz]
+[2023-06-05 17:44:22] INFO root fetch - processPackages [igneous-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/igneous-pipeline-4.9.0.tar.gz]
+[2023-06-05 17:44:22] INFO root fetch - main [MainThread]: End processing [igneous-pipeline]: success
+[2023-06-05 17:44:22] INFO root fetch - processPackages [py-assimilator]: Remove: archive file [/home/abi/fetcher/tmp/py_assimilator-1.2.3.tar.gz]
+[2023-06-05 17:44:22] INFO root fetch - processPackages [py-assimilator]: Remove: archive file [/home/abi/fetcher/tmp/py_assimilator-1.2.4.tar.gz]
+[2023-06-05 17:44:22] INFO root fetch - main [MainThread]: End processing [py-assimilator]: success
+[2023-06-05 17:44:22] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.1.tar.gz]
+[2023-06-05 17:44:22] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.2.tar.gz]
+[2023-06-05 17:44:22] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 17:44:22] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/22/de/28513a31972e9cfc9befed0aa6ce4f20c7c8531496fa996b0f31d85ec95f/taipy-config-2.3.0.dev1.tar.gz
+[2023-06-05 17:44:22] INFO root fetch - processPackages [taipy-config]: executing diffoscope
+[2023-06-05 17:44:22] INFO root fetch - processPackages [taipy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-config-2.3.0.dev0.tar.gz tmp/taipy-config-2.3.0.dev1.tar.gz --markdown 20230605/t/taipy-config/2.3.0.dev0-2.3.0.dev1/diff.md --exclude *.pyd
+[2023-06-05 17:44:22] INFO root fetch - processPackages [planetarypy]: executing diffoscope
+[2023-06-05 17:44:22] INFO root fetch - processPackages [planetarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetarypy-0.8.0.tar.gz tmp/planetarypy-0.9.0.tar.gz --markdown 20230605/p/planetarypy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 17:44:22] INFO root fetch - processPackages [ask-sdk-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-sdk-model-1.8.0.tar.gz]
+[2023-06-05 17:44:22] INFO root fetch - processPackages [ask-sdk-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-sdk-model-1.9.0.tar.gz]
+[2023-06-05 17:44:22] INFO root fetch - main [MainThread]: End processing [ask-sdk-model]: success
+[2023-06-05 17:44:23] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-5.2.1.tar.gz]
+[2023-06-05 17:44:23] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-5.2.2.tar.gz]
+[2023-06-05 17:44:23] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-06-05 17:44:23] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.8.0.tar.gz]
+[2023-06-05 17:44:23] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.9.0.tar.gz]
+[2023-06-05 17:44:23] INFO root fetch - main [MainThread]: End processing [planetarypy]: success
+[2023-06-05 17:44:23] INFO root fetch - processPackages [taipy-config]: Remove: archive file [/home/abi/fetcher/tmp/taipy-config-2.3.0.dev0.tar.gz]
+[2023-06-05 17:44:23] INFO root fetch - processPackages [taipy-config]: Remove: archive file [/home/abi/fetcher/tmp/taipy-config-2.3.0.dev1.tar.gz]
+[2023-06-05 17:44:23] INFO root fetch - main [MainThread]: End processing [taipy-config]: success
+[2023-06-05 17:44:25] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-06-05 17:44:25] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-06-05 17:44:25] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-05 17:44:27] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-05 17:44:58] INFO root fetch - processPackages [ovos-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_weather-0.0.1a8-py3-none-any.whl.zip]
+[2023-06-05 17:44:58] INFO root fetch - processPackages [ovos-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_weather-0.0.1a9-py3-none-any.whl.zip]
+[2023-06-05 17:44:58] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
+[2023-06-05 17:44:58] INFO root fetch - main [MainThread]: Store serial: [18378115]
