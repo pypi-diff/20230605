@@ -18593,3 +18593,185 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 18:06:54] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-2.3.0.dev2.tar.gz]
 [2023-06-05 18:06:54] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
 [2023-06-05 18:06:54] INFO root fetch - main [MainThread]: Store serial: [18378378]
+[2023-06-05 18:11:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378378]
+[2023-06-05 18:12:03] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pySSRSapi
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: depcheck
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notification-service-nightly
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-flow-nightly
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proptables
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PVNet
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-quantum
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qdk
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qsharp
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qsharp-chemistry
+[2023-06-05 18:12:03] INFO root fetch - processPackages [depcheck]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [PVNet]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [proptables]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [pySSRSapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.6.4] Old Version: [2023.6.3]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [qsharp-chemistry]: New version: [0.28.276174] Old Version: [0.28.276173b1]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.6.4] Old Version: [2023.6.3]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [qdk]: New version: [0.9.1908.2906] Old Version: [0.28.276174]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [qsharp]: New version: [0.9.1909.3002] Old Version: [0.9.1908.2906]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [azure-quantum]: New version: [0.28.276174] Old Version: [0.28.276173b1]
+[2023-06-05 18:12:03] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/b8/78/e7753ba712c9a3601a50703c136ab676df1ce93769aa6aed37ab114a4e76/ai_flow_nightly-2023.6.3.tar.gz
+[2023-06-05 18:12:03] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/8a/7e/a8bfd0e9d5f0ed11936fee098fc870243ccb5583b6a9181d60a499cffc88/notification_service_nightly-2023.6.3.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [depcheck]: Downloading https://files.pythonhosted.org/packages/8b/3a/13a7c8e0d2ddb2b23a999609546c5d21768b562356ec7d6efb370307e2ff/depcheck-0.3.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qdk]: Downloading https://files.pythonhosted.org/packages/77/80/8576ad8c3e9554ab50819b9a25683913cc7cb406e8f00e8d3934b0217b11/qdk-0.28.276174.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/c1/1f/3cdcbe16d3596d5f4c8b2bd2a676c177f21741fde5a400918310da0cf6ef/pySSRSapi-0.0.8.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [proptables]: Downloading https://files.pythonhosted.org/packages/95/d3/df5f81d504d47690ac88eb3a6360e63edb0412c1d0ce5ab828644bc9fde1/proptables-0.0.1.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qsharp-chemistry]: Downloading https://files.pythonhosted.org/packages/d4/33/8791e452980a338960944ab56f610f890d2cb63d7f81049c40e1e2158341/qsharp-chemistry-0.28.276173b1.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/eb/29/e262f62e6c19565fae09bf7d7c5d86c806e9d9aedbaa9c0a9da1678e4379/PVNet-0.1.1.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [azure-quantum]: Downloading https://files.pythonhosted.org/packages/9e/72/c9f55d93163e75fa14f486ee1b31e3a49500490c80617ef9d99f01abf106/azure-quantum-0.28.276173b1.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/07/90/8806a28c828de3ad6db292bab7cd9025427f3eaa1b0ed8b130acd83cd2dc/qsharp-0.9.1908.2906-py3-none-any.whl
+[2023-06-05 18:12:04] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/b9/5b/0d93e902518899277be82de52da3271ddc7cf714bf2fc5265391a13964cf/notification_service_nightly-2023.6.4.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/40/92/b34059f11f68a378d8eb68f76564165af99a8a0bcb67bad7329d35b89479/ai_flow_nightly-2023.6.4.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.6.3.tar.gz tmp/notification_service_nightly-2023.6.4.tar.gz --markdown 20230605/n/notification-service-nightly/2023.6.3-2023.6.4/diff.md --exclude *.pyd
+[2023-06-05 18:12:04] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.6.3.tar.gz tmp/ai_flow_nightly-2023.6.4.tar.gz --markdown 20230605/a/ai-flow-nightly/2023.6.3-2023.6.4/diff.md --exclude *.pyd
+[2023-06-05 18:12:04] INFO root fetch - processPackages [depcheck]: Downloading https://files.pythonhosted.org/packages/21/19/948971b5b7fd0d274fbac2fa97e81e238f92a2567cf87c47d4f029df3a17/depcheck-0.3.1.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/28/33/55f9f8da569cf0d93252ba2a1cdba374c9c59c45ca96b8374e8925475457/pySSRSapi-0.0.9.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/1c/84/d4927a5f06bde465a2f241c2bb893a5bfa19ec84ac1b4c2a692a92430910/PVNet-0.1.2.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qsharp-chemistry]: Downloading https://files.pythonhosted.org/packages/8b/47/598fd1e4b3d6b18388d72dcb8676edbe6aba1f5aa9c69b72fcfaa6b352a4/qsharp-chemistry-0.28.276174.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [proptables]: Downloading https://files.pythonhosted.org/packages/cf/56/2d7a3141f15b7633c0f5143040927877ed5e5425e81ff62719565caa1aee/proptables-0.0.2.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qdk]: Downloading https://files.pythonhosted.org/packages/8b/2f/8919a169c6c3580b9161f7ec12aa0ffa01e1794f5586ac583197a987f173/qdk-0.9.1908.2906.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [azure-quantum]: Downloading https://files.pythonhosted.org/packages/df/e3/02c183180b3f9bade4e5cbb0fae8f06975b82f01e5efa9398f45240057d9/azure-quantum-0.28.276174.tar.gz
+[2023-06-05 18:12:04] INFO root fetch - processPackages [depcheck]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [depcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depcheck-0.3.tar.gz tmp/depcheck-0.3.1.tar.gz --markdown 20230605/d/depcheck/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-06-05 18:12:04] INFO root fetch - processPackages [pySSRSapi]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [pySSRSapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySSRSapi-0.0.8.tar.gz tmp/pySSRSapi-0.0.9.tar.gz --markdown 20230605/p/pySSRSapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/ee/bb/87eaf70ec56e8f8b962477b4b758c7d384cff01f414c1136fe7d3c703fc7/qsharp-0.9.1909.3002-py3-none-any.whl
+[2023-06-05 18:12:04] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.1.1.tar.gz tmp/PVNet-0.1.2.tar.gz --markdown 20230605/P/PVNet/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qsharp-chemistry]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qsharp-chemistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-chemistry-0.28.276173b1.tar.gz tmp/qsharp-chemistry-0.28.276174.tar.gz --markdown 20230605/q/qsharp-chemistry/0.28.276173b1-0.28.276174/diff.md --exclude *.pyd
+[2023-06-05 18:12:04] INFO root fetch - processPackages [proptables]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [proptables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proptables-0.0.1.tar.gz tmp/proptables-0.0.2.tar.gz --markdown 20230605/p/proptables/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qdk]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdk-0.28.276174.tar.gz tmp/qdk-0.9.1908.2906.tar.gz --markdown 20230605/q/qdk/0.28.276174-0.9.1908.2906/diff.md --exclude *.pyd
+[2023-06-05 18:12:04] INFO root fetch - processPackages [azure-quantum]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [azure-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-quantum-0.28.276173b1.tar.gz tmp/azure-quantum-0.28.276174.tar.gz --markdown 20230605/a/azure-quantum/0.28.276173b1-0.28.276174/diff.md --exclude *.pyd
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qsharp]: executing diffoscope
+[2023-06-05 18:12:04] INFO root fetch - processPackages [qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-0.9.1908.2906-py3-none-any.whl.zip tmp/qsharp-0.9.1909.3002-py3-none-any.whl.zip --markdown 20230605/q/qsharp/0.9.1908.2906-0.9.1909.3002/diff.md --exclude *.pyd
+[2023-06-05 18:12:05] INFO root fetch - processPackages [depcheck]: Remove: archive file [/home/abi/fetcher/tmp/depcheck-0.3.tar.gz]
+[2023-06-05 18:12:05] INFO root fetch - processPackages [depcheck]: Remove: archive file [/home/abi/fetcher/tmp/depcheck-0.3.1.tar.gz]
+[2023-06-05 18:12:05] INFO root fetch - processPackages [depcheck]: Start processing: qsharp-core
+[2023-06-05 18:12:05] INFO root fetch - main [MainThread]: End processing [depcheck]: success
+[2023-06-05 18:12:05] INFO root fetch - processPackages [qsharp-core]: New version: [0.28.276174] Old Version: [0.28.276173b1]
+[2023-06-05 18:12:05] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.8.tar.gz]
+[2023-06-05 18:12:05] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.9.tar.gz]
+[2023-06-05 18:12:05] INFO root fetch - processPackages [pySSRSapi]: Start processing: pymc-experimental
+[2023-06-05 18:12:05] INFO root fetch - main [MainThread]: End processing [pySSRSapi]: success
+[2023-06-05 18:12:05] INFO root fetch - processPackages [pymc-experimental]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-05 18:12:05] INFO root fetch - processPackages [qsharp-core]: Downloading https://files.pythonhosted.org/packages/e2/7b/29c99e7d5601c20d074eedf94b65fe0d8adcf99acb8a9fef7328ae571607/qsharp-core-0.28.276173b1.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.1.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.2.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [PVNet]: Start processing: cdk-pipelines-github
+[2023-06-05 18:12:06] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qsharp-chemistry]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-chemistry-0.28.276173b1.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qsharp-chemistry]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-chemistry-0.28.276174.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qsharp-chemistry]: Start processing: ask-smapi-model
+[2023-06-05 18:12:06] INFO root fetch - main [MainThread]: End processing [qsharp-chemistry]: success
+[2023-06-05 18:12:06] INFO root fetch - processPackages [proptables]: Remove: archive file [/home/abi/fetcher/tmp/proptables-0.0.1.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [proptables]: Remove: archive file [/home/abi/fetcher/tmp/proptables-0.0.2.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [proptables]: Start processing: Scrapset
+[2023-06-05 18:12:06] INFO root fetch - main [MainThread]: End processing [proptables]: success
+[2023-06-05 18:12:06] INFO root fetch - processPackages [cdk-pipelines-github]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [ask-smapi-model]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Scrapset]: New version: [1.1.0] Old Version: [0.1.0]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-0.9.1908.2906-py3-none-any.whl.zip]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-0.9.1909.3002-py3-none-any.whl.zip]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qsharp]: Start processing: ohnlp-backbone-xlang-python
+[2023-06-05 18:12:06] INFO root fetch - main [MainThread]: End processing [qsharp]: success
+[2023-06-05 18:12:06] INFO root fetch - processPackages [pymc-experimental]: Downloading https://files.pythonhosted.org/packages/40/fa/94ce899c8f7ea2b0e6c2cd02583ceb2d3657c237125aa91b84a87da5ecc8/pymc-experimental-0.0.3.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/2b/47/ac0e3a201812bf54c5a470cbf41ec5b5601b3acb9087391fb8f5bb70e87f/cdk-pipelines-github-0.4.8.tar.gz
+[2023-06-05 18:12:06] WARNING root fetch - processPackages [ohnlp-backbone-xlang-python]: Skipping, unable to determine old version
+[2023-06-05 18:12:06] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Start processing: Signal8
+[2023-06-05 18:12:06] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python] error
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Signal8]: New version: [2.4] Old Version: [2.3]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/e1/0c/675e13e621514264fcb5b003700f32c8dd463eec7bb78fd84d76e420ac97/Scrapset-0.1.0-py3-none-any.whl
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qsharp-core]: Downloading https://files.pythonhosted.org/packages/22/e5/71ba2e92d12f5dd550904218d723a85e4d0e355c96784bef2b98814ddb1c/qsharp-core-0.28.276174.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [ask-smapi-model]: Downloading https://files.pythonhosted.org/packages/cc/58/68fbbfca4c91086e37e2240e384dedd5ead58a736380d1bb7dbdcbeea679/ask-smapi-model-1.9.1.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/88/a7/cf7d8bb4ea84150b1b05dca2ef8a82fdf7aa4be753a00f77c09bc57e8f51/cdk-pipelines-github-0.4.9.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/1b/58/061c5a8c0d2f6b82d1267ed812ab10777ef35050a09435a201f5c488f02d/Signal8-2.3.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qsharp-core]: executing diffoscope
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qsharp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-core-0.28.276173b1.tar.gz tmp/qsharp-core-0.28.276174.tar.gz --markdown 20230605/q/qsharp-core/0.28.276173b1-0.28.276174/diff.md --exclude *.pyd
+[2023-06-05 18:12:06] INFO root fetch - processPackages [cdk-pipelines-github]: executing diffoscope
+[2023-06-05 18:12:06] INFO root fetch - processPackages [cdk-pipelines-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pipelines-github-0.4.8.tar.gz tmp/cdk-pipelines-github-0.4.9.tar.gz --markdown 20230605/c/cdk-pipelines-github/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-05 18:12:06] INFO root fetch - processPackages [pymc-experimental]: Downloading https://files.pythonhosted.org/packages/04/a7/f6bcda3977c828939b78f1c0bc129fa13e7c17de803cff593b8523be6fde/pymc-experimental-0.0.5.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/18/60/5dd7c7e5391fac52bd90eb437ce551dfe97fb15dd0e2d6037189cef514fa/Scrapset-1.1.0-py3-none-any.whl
+[2023-06-05 18:12:06] INFO root fetch - processPackages [pymc-experimental]: executing diffoscope
+[2023-06-05 18:12:06] INFO root fetch - processPackages [pymc-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-experimental-0.0.3.tar.gz tmp/pymc-experimental-0.0.5.tar.gz --markdown 20230605/p/pymc-experimental/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-0.1.0-py3-none-any.whl.zip tmp/Scrapset-1.1.0-py3-none-any.whl.zip --markdown 20230605/S/Scrapset/0.1.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/29/da/36d2b79abe8dd9a0a82fd9f14376afeb82a690e5d31ebfa23e80f1f789b1/Signal8-2.4.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qdk]: Remove: archive file [/home/abi/fetcher/tmp/qdk-0.28.276174.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qdk]: Remove: archive file [/home/abi/fetcher/tmp/qdk-0.9.1908.2906.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [qdk]: Start processing: panel
+[2023-06-05 18:12:06] INFO root fetch - main [MainThread]: End processing [qdk]: success
+[2023-06-05 18:12:06] INFO root fetch - processPackages [ask-smapi-model]: Downloading https://files.pythonhosted.org/packages/72/41/574a9f2ae259decea878ee76ade7e89abdef7e9af5966e4a92ef6ed9ebbf/ask-smapi-model-1.9.2.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [panel]: New version: [1.1.0rc1] Old Version: [1.0.4rc3]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-06-05 18:12:06] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-2.3.tar.gz tmp/Signal8-2.4.tar.gz --markdown 20230605/S/Signal8/2.3-2.4/diff.md --exclude *.pyd
+[2023-06-05 18:12:06] INFO root fetch - processPackages [azure-quantum]: Remove: archive file [/home/abi/fetcher/tmp/azure-quantum-0.28.276173b1.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [azure-quantum]: Remove: archive file [/home/abi/fetcher/tmp/azure-quantum-0.28.276174.tar.gz]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [azure-quantum]: Start processing: pepperize.cdk-vpc
+[2023-06-05 18:12:06] INFO root fetch - main [MainThread]: End processing [azure-quantum]: success
+[2023-06-05 18:12:06] INFO root fetch - processPackages [ask-smapi-model]: executing diffoscope
+[2023-06-05 18:12:06] INFO root fetch - processPackages [ask-smapi-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ask-smapi-model-1.9.1.tar.gz tmp/ask-smapi-model-1.9.2.tar.gz --markdown 20230605/a/ask-smapi-model/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-05 18:12:06] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 18:12:06] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/4c/3b/a707bb9f4fffb060fc9fac694850199c64177e3c69945932a475e04c580f/panel-1.0.4rc3.tar.gz
+[2023-06-05 18:12:06] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/25/98/839bb964d107b60f6cc3bb06dbdb864b04f9c38cafbf4725617501c0ad49/pepperize.cdk-vpc-0.0.98.tar.gz
+[2023-06-05 18:12:06] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25688918>=10485760
+[2023-06-05 18:12:06] INFO root fetch - processPackages [panel]: Start processing: browser-cookie3
+[2023-06-05 18:12:06] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-06-05 18:12:06] INFO root fetch - processPackages [browser-cookie3]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-05 18:12:07] INFO root fetch - processPackages [browser-cookie3]: Downloading https://files.pythonhosted.org/packages/9c/a1/285fec171792b56db527381e4def7715d7eb664e206faf7b5c880c9d0ec4/browser-cookie3-0.9.0.tar.gz
+[2023-06-05 18:12:07] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/e8/f1/d3bacab49ff19cf30ba787ffcbc7ad05fd05f663b5194429568885059996/pepperize.cdk-vpc-0.0.99.tar.gz
+[2023-06-05 18:12:07] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.3.tar.gz]
+[2023-06-05 18:12:07] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.4.tar.gz]
+[2023-06-05 18:12:07] INFO root fetch - processPackages [notification-service-nightly]: Start processing: pythttp
+[2023-06-05 18:12:07] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-06-05 18:12:07] INFO root fetch - processPackages [browser-cookie3]: Downloading https://files.pythonhosted.org/packages/ac/15/b48d9960d5a08d57bd5948b4ab5a72c2c261fdd79d1157e5621a0bf8b089/browser-cookie3-0.9.1.tar.gz
+[2023-06-05 18:12:07] INFO root fetch - processPackages [pythttp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 18:12:07] INFO root fetch - processPackages [browser-cookie3]: executing diffoscope
+[2023-06-05 18:12:07] INFO root fetch - processPackages [browser-cookie3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browser-cookie3-0.9.0.tar.gz tmp/browser-cookie3-0.9.1.tar.gz --markdown 20230605/b/browser-cookie3/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-05 18:12:07] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-06-05 18:12:07] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230605/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 18:12:07] INFO root fetch - processPackages [qsharp-core]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-core-0.28.276173b1.tar.gz]
+[2023-06-05 18:12:07] INFO root fetch - processPackages [qsharp-core]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-core-0.28.276174.tar.gz]
+[2023-06-05 18:12:07] INFO root fetch - main [MainThread]: End processing [qsharp-core]: success
+[2023-06-05 18:12:07] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.8.tar.gz]
+[2023-06-05 18:12:07] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.9.tar.gz]
+[2023-06-05 18:12:07] INFO root fetch - main [MainThread]: End processing [cdk-pipelines-github]: success
+[2023-06-05 18:12:07] INFO root fetch - processPackages [pythttp]: Downloading https://files.pythonhosted.org/packages/ef/dd/1d1313eb2e76d8fb9aaa4cd732f7353cbb3499d4859b36b8cc86a7da89a1/pythttp-0.1.1.tar.gz
+[2023-06-05 18:12:07] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-0.1.0-py3-none-any.whl.zip]
+[2023-06-05 18:12:07] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-1.1.0-py3-none-any.whl.zip]
+[2023-06-05 18:12:07] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-06-05 18:12:07] INFO root fetch - processPackages [pythttp]: Downloading https://files.pythonhosted.org/packages/08/b6/2660df1076a5eec2f100c4ec566aacdb8fddd639021d6ea19e33f5ada36e/pythttp-0.1.2.tar.gz
+[2023-06-05 18:12:08] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.3.tar.gz]
+[2023-06-05 18:12:08] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.4.tar.gz]
+[2023-06-05 18:12:08] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-06-05 18:12:08] INFO root fetch - processPackages [pymc-experimental]: Remove: archive file [/home/abi/fetcher/tmp/pymc-experimental-0.0.3.tar.gz]
+[2023-06-05 18:12:08] INFO root fetch - processPackages [pymc-experimental]: Remove: archive file [/home/abi/fetcher/tmp/pymc-experimental-0.0.5.tar.gz]
+[2023-06-05 18:12:08] INFO root fetch - main [MainThread]: End processing [pymc-experimental]: success
+[2023-06-05 18:12:08] INFO root fetch - processPackages [pythttp]: executing diffoscope
+[2023-06-05 18:12:08] INFO root fetch - processPackages [pythttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythttp-0.1.1.tar.gz tmp/pythttp-0.1.2.tar.gz --markdown 20230605/p/pythttp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 18:12:08] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-06-05 18:12:08] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-06-05 18:12:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-06-05 18:12:08] INFO root fetch - processPackages [browser-cookie3]: Remove: archive file [/home/abi/fetcher/tmp/browser-cookie3-0.9.0.tar.gz]
+[2023-06-05 18:12:08] INFO root fetch - processPackages [browser-cookie3]: Remove: archive file [/home/abi/fetcher/tmp/browser-cookie3-0.9.1.tar.gz]
+[2023-06-05 18:12:08] INFO root fetch - main [MainThread]: End processing [browser-cookie3]: success
+[2023-06-05 18:12:09] INFO root fetch - processPackages [pythttp]: Remove: archive file [/home/abi/fetcher/tmp/pythttp-0.1.1.tar.gz]
+[2023-06-05 18:12:09] INFO root fetch - processPackages [pythttp]: Remove: archive file [/home/abi/fetcher/tmp/pythttp-0.1.2.tar.gz]
+[2023-06-05 18:12:09] INFO root fetch - main [MainThread]: End processing [pythttp]: success
+[2023-06-05 18:12:09] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.3.tar.gz]
+[2023-06-05 18:12:09] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.4.tar.gz]
+[2023-06-05 18:12:09] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-06-05 18:12:14] INFO root fetch - processPackages [ask-smapi-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-smapi-model-1.9.1.tar.gz]
+[2023-06-05 18:12:14] INFO root fetch - processPackages [ask-smapi-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-smapi-model-1.9.2.tar.gz]
+[2023-06-05 18:12:14] INFO root fetch - main [MainThread]: End processing [ask-smapi-model]: success
+[2023-06-05 18:12:14] INFO root fetch - main [MainThread]: Store serial: [18378441]
