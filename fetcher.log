@@ -4356,3 +4356,55 @@
 [2023-06-05 05:27:31] INFO root fetch - processPackages [jykj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jykj-0.0.2.tar.gz tmp/jykj-0.0.3.tar.gz --markdown 20230605/j/jykj/0.0.2-0.0.3/diff.md --exclude *.pyd
 [2023-06-05 05:27:32] INFO root fetch - main [MainThread]: End processing [jykj]: success
 [2023-06-05 05:27:32] INFO root fetch - main [MainThread]: Store serial: [18371427]
+[2023-06-05 05:32:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371427]
+[2023-06-05 05:32:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-05 05:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SALTISE-course-flow
+[2023-06-05 05:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rs-distances
+[2023-06-05 05:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lop-codeingame-cli
+[2023-06-05 05:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygeoweaver
+[2023-06-05 05:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: noise-filter.py
+[2023-06-05 05:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asv-runner
+[2023-06-05 05:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meerschaum
+[2023-06-05 05:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lop-codeingame-cli
+[2023-06-05 05:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rafaelmicro-matter-tool
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 05:32:41] INFO root fetch - processPackages [SALTISE-course-flow]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-05 05:32:41] INFO root fetch - processPackages [rs-distances]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 05:32:41] WARNING root fetch - processPackages [noise-filter.py]: Skipping, unable to determine old version
+[2023-06-05 05:32:41] INFO root fetch - main [MainThread]: End processing [noise-filter.py] error
+[2023-06-05 05:32:41] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 05:32:41] INFO root fetch - processPackages [asv-runner]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 05:32:41] INFO root fetch - processPackages [meerschaum]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: Downloading https://files.pythonhosted.org/packages/e2/17/ae6ea3cbb58f83b1fcbe81f86e382901869dba6b1159dc147a69a0c314ff/lop_codeingame_cli-0.1.4.tar.gz
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: Downloading https://files.pythonhosted.org/packages/e2/17/ae6ea3cbb58f83b1fcbe81f86e382901869dba6b1159dc147a69a0c314ff/lop_codeingame_cli-0.1.4.tar.gz
+[2023-06-05 05:32:41] INFO root fetch - processPackages [asv-runner]: Downloading https://files.pythonhosted.org/packages/b3/83/44f76a461c07bf3ca43e18b1279cbb2b40514b05851048edb80c7f1fdb89/asv_runner-0.0.2.tar.gz
+[2023-06-05 05:32:41] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-05 05:32:41] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.8.tar.gz tmp/pygeoweaver-0.6.9.tar.gz --markdown 20230605/p/pygeoweaver/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 05:32:41] WARNING root fetch - processPackages [rafaelmicro-matter-tool]: Skipping, unable to determine old version
+[2023-06-05 05:32:41] INFO root fetch - main [MainThread]: End processing [rafaelmicro-matter-tool] error
+[2023-06-05 05:32:41] INFO root fetch - processPackages [rs-distances]: Downloading https://files.pythonhosted.org/packages/fe/54/a437ab8acdd71b9e2bd0baedda11c797428b32f7f18318fe4f34d1aa6c02/rs_distances-0.5.0.tar.gz
+[2023-06-05 05:32:41] INFO root fetch - processPackages [asv-runner]: Downloading https://files.pythonhosted.org/packages/7e/fe/f45c078adeea4bfa0053f2384d8b53dd457aa12785d6cfe530b945f3a79d/asv_runner-0.0.3.tar.gz
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: Downloading https://files.pythonhosted.org/packages/b9/0b/240ce01ececd64258f1066049898495625b7542b4758966efe585838c31f/lop_codeingame_cli-0.1.5.tar.gz
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: Downloading https://files.pythonhosted.org/packages/b9/0b/240ce01ececd64258f1066049898495625b7542b4758966efe585838c31f/lop_codeingame_cli-0.1.5.tar.gz
+[2023-06-05 05:32:41] INFO root fetch - processPackages [SALTISE-course-flow]: Downloading https://files.pythonhosted.org/packages/c4/f1/7735c98796b39c08153b6b3377b22352d7b37c4caacc8116ff45116f98b2/SALTISE_course_flow-0.8.5.tar.gz
+[2023-06-05 05:32:41] INFO root fetch - processPackages [asv-runner]: executing diffoscope
+[2023-06-05 05:32:41] INFO root fetch - processPackages [asv-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asv_runner-0.0.2.tar.gz tmp/asv_runner-0.0.3.tar.gz --markdown 20230605/a/asv-runner/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 05:32:41] INFO root fetch - processPackages [rs-distances]: executing diffoscope
+[2023-06-05 05:32:41] INFO root fetch - processPackages [rs-distances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rs_distances-0.4.0.tar.gz tmp/rs_distances-0.5.0.tar.gz --markdown 20230605/r/rs-distances/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 05:32:41] INFO root fetch - processPackages [SALTISE-course-flow]: executing diffoscope
+[2023-06-05 05:32:41] INFO root fetch - processPackages [SALTISE-course-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SALTISE_course_flow-0.8.4.tar.gz tmp/SALTISE_course_flow-0.8.5.tar.gz --markdown 20230605/S/SALTISE-course-flow/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: executing diffoscope
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lop_codeingame_cli-0.1.4.tar.gz tmp/lop_codeingame_cli-0.1.5.tar.gz --markdown 20230605/l/lop-codeingame-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: executing diffoscope
+[2023-06-05 05:32:41] INFO root fetch - processPackages [lop-codeingame-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lop_codeingame_cli-0.1.4.tar.gz tmp/lop_codeingame_cli-0.1.5.tar.gz --markdown 20230605/l/lop-codeingame-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 05:32:42] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-06-05 05:32:42] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.8.tar.gz tmp/meerschaum-1.6.9.tar.gz --markdown 20230605/m/meerschaum/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-05 05:32:42] INFO root fetch - main [MainThread]: End processing [asv-runner]: success
+[2023-06-05 05:32:42] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-05 05:32:42] INFO root fetch - main [MainThread]: End processing [rs-distances]: success
+[2023-06-05 05:32:43] INFO root fetch - main [MainThread]: End processing [lop-codeingame-cli]: success
+[2023-06-05 05:32:43] INFO root fetch - main [MainThread]: End processing [lop-codeingame-cli]: success
+[2023-06-05 05:32:44] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-06-05 05:32:45] INFO root fetch - main [MainThread]: End processing [SALTISE-course-flow]: success
+[2023-06-05 05:32:45] INFO root fetch - main [MainThread]: Store serial: [18371456]
