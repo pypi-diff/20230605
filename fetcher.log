@@ -15673,3 +15673,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 16:18:27] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2023-06-05 16:18:27] INFO root fetch - main [MainThread]: End processing [awadb]: success
 [2023-06-05 16:18:27] INFO root fetch - main [MainThread]: Store serial: [18377086]
+[2023-06-05 16:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377086]
+[2023-06-05 16:23:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awadb
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-data-services-lwdp
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: num-tini4
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-streamfield
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-proxmoxve
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spacy-llm
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openassist
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robocrys
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-06-05 16:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: webscrapbook
+[2023-06-05 16:23:45] INFO root fetch - processPackages [awadb]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-05 16:23:45] INFO root fetch - processPackages [openassist]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-06-05 16:23:45] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-06-05 16:23:45] INFO root fetch - processPackages [num-tini4]: New version: [0.2.0a1] Old Version: [0.1.2a1]
+[2023-06-05 16:23:45] INFO root fetch - processPackages [spacy-llm]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-05 16:23:45] INFO root fetch - processPackages [robocrys]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-05 16:23:45] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5178216018] Old Version: [2.1.0.0.dev5178040819]
+[2023-06-05 16:23:45] INFO root fetch - processPackages [django-streamfield]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-05 16:23:45] INFO root fetch - processPackages [webscrapbook]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-05 16:23:45] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/3a/c7/774aa03d3ddfd23d97ff9397798fae6ee398b820291fcfb5715d7fe0dde2/pulumi_proxmoxve-5.3.0.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-05 16:23:46] INFO root fetch - processPackages [django-streamfield]: Downloading https://files.pythonhosted.org/packages/46/34/8708b27f50cf23cf513210b4bd1153e508f0e195f899d2f3a08c199b1a99/django-streamfield-2.1.0.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [openassist]: Downloading https://files.pythonhosted.org/packages/c3/28/be7ea9ab722ca1a72f537ed0eb5ed50bf5580afc53d54d34914f119e9f3f/openassist-2.2.6.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [num-tini4]: Downloading https://files.pythonhosted.org/packages/30/b4/5856fe803b34efce2a8761a64ff9c7b6d728193b954b9c781644ab99f787/num_tini4-0.1.2a1.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/ad/e8/734fd99aa1627572514bd649eab063873786472eb8eb0153018991887c8f/th2_data_services_lwdp-2.1.0.0.dev5178040819.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/3f/a7/5b38b78b9a8b3b58936cda84c53419f91d47acbdd2c299fa41831e02274e/awadb-0.3.1-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-05 16:23:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/19/9f/de16ac9b50dde2a04a90cb439458ed8c0d5dbd5da75292726b33e35d0603/spacy-llm-0.2.0.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/60/d3/46ada77c0eb29c5f93246a840bfd851e6869e379cde2bdcbb9b4f5302dca/webscrapbook-2.0.0b8.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [robocrys]: Downloading https://files.pythonhosted.org/packages/ac/d4/f2492741fc2e2a514997c5d8d59cf58ac225334c3f2670971931453327ae/robocrys-0.2.7.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [openassist]: Downloading https://files.pythonhosted.org/packages/09/6b/8a6b03c073fc678e4671ff700bd5a3069a691747e843477da013203b0b41/openassist-2.2.7.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/9a/92/706ee402b514d5ef845d4d929e96bc1db9b283a992fae3a646de091296d9/pulumi_proxmoxve-5.4.0.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [django-streamfield]: Downloading https://files.pythonhosted.org/packages/d8/33/2c85263f5e613e29f4d0c27699fdcba22d4ea7b484de2ceb3218c155d37a/django-streamfield-2.1.1.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/c4/bd/a68bd70c532aed237937a865269503ad222cb9dba02590baf3af1d01b90a/th2_data_services_lwdp-2.1.0.0.dev5178216018.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [num-tini4]: Downloading https://files.pythonhosted.org/packages/dc/67/671c9146a733de62afc8a70ab10fca14d95d2499f595f696683a171f7e3e/num_tini4-0.2.0a1.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/90/76/c4929c64ca6252aa117fc96e7e7860faedc7f94943fa8ddebbd22f4f9e7e/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-05 16:23:46] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230605/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-05 16:23:46] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/74/9d/590527d3e82972c35ac9926dfd48569d832e233487cda7982bf870ce85f1/spacy-llm-0.2.1.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-5.3.0.tar.gz tmp/pulumi_proxmoxve-5.4.0.tar.gz --markdown 20230605/p/pulumi-proxmoxve/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-06-05 16:23:46] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/07/60/e9bb349d39a87e850941abc4819da696b3af22e111db87dd8af605c93ce5/webscrapbook-2.0.0b9.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5178040819.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5178216018.tar.gz --markdown 20230605/t/th2-data-services-lwdp/2.1.0.0.dev5178040819-2.1.0.0.dev5178216018/diff.md --exclude *.pyd
+[2023-06-05 16:23:46] INFO root fetch - processPackages [openassist]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [openassist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openassist-2.2.6.tar.gz tmp/openassist-2.2.7.tar.gz --markdown 20230605/o/openassist/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-06-05 16:23:46] INFO root fetch - processPackages [spacy-llm]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [spacy-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-llm-0.2.0.tar.gz tmp/spacy-llm-0.2.1.tar.gz --markdown 20230605/s/spacy-llm/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-05 16:23:46] INFO root fetch - processPackages [django-streamfield]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [django-streamfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-streamfield-2.1.0.tar.gz tmp/django-streamfield-2.1.1.tar.gz --markdown 20230605/d/django-streamfield/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-05 16:23:46] INFO root fetch - processPackages [awadb]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [awadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awadb-0.3.1-cp39-cp39-manylinux1_x86_64.whl.zip tmp/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230605/a/awadb/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 16:23:46] INFO root fetch - processPackages [robocrys]: Downloading https://files.pythonhosted.org/packages/0a/18/222bc3b5d31a95a35a4338bb5c20f8fd7f676b00befe83d7e67569277d07/robocrys-0.2.8.tar.gz
+[2023-06-05 16:23:46] INFO root fetch - processPackages [num-tini4]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [num-tini4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/num_tini4-0.1.2a1.tar.gz tmp/num_tini4-0.2.0a1.tar.gz --markdown 20230605/n/num-tini4/0.1.2a1-0.2.0a1/diff.md --exclude *.pyd
+[2023-06-05 16:23:46] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-2.0.0b8.tar.gz tmp/webscrapbook-2.0.0b9.tar.gz --markdown 20230605/w/webscrapbook/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-05 16:23:46] INFO root fetch - processPackages [robocrys]: executing diffoscope
+[2023-06-05 16:23:46] INFO root fetch - processPackages [robocrys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocrys-0.2.7.tar.gz tmp/robocrys-0.2.8.tar.gz --markdown 20230605/r/robocrys/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-05 16:23:48] INFO root fetch - processPackages [openassist]: Remove: archive file [/home/abi/fetcher/tmp/openassist-2.2.6.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [openassist]: Remove: archive file [/home/abi/fetcher/tmp/openassist-2.2.7.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [openassist]: Start processing: alltime-athletics-python
+[2023-06-05 16:23:48] INFO root fetch - main [MainThread]: End processing [openassist]: success
+[2023-06-05 16:23:48] INFO root fetch - processPackages [alltime-athletics-python]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/e4/8f/151d2f916df3a32087f72e7e38a96b4af91a7e955c3404412df316b6a9ed/alltime_athletics_python-0.7.0.tar.gz
+[2023-06-05 16:23:48] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/19/3a/27015a02fe285deaea532b07d26c5a2818d47772d17dba56a841d687b76a/alltime_athletics_python-0.8.0.tar.gz
+[2023-06-05 16:23:48] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-05 16:23:48] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-0.7.0.tar.gz tmp/alltime_athletics_python-0.8.0.tar.gz --markdown 20230605/a/alltime-athletics-python/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-05 16:23:48] INFO root fetch - processPackages [num-tini4]: Remove: archive file [/home/abi/fetcher/tmp/num_tini4-0.1.2a1.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [num-tini4]: Remove: archive file [/home/abi/fetcher/tmp/num_tini4-0.2.0a1.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [num-tini4]: Start processing: spanishconjugator
+[2023-06-05 16:23:48] INFO root fetch - main [MainThread]: End processing [num-tini4]: success
+[2023-06-05 16:23:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [webscrapbook]: Remove: archive file [/home/abi/fetcher/tmp/webscrapbook-2.0.0b8.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5178040819.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [webscrapbook]: Remove: archive file [/home/abi/fetcher/tmp/webscrapbook-2.0.0b9.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5178216018.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-05 16:23:48] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-06-05 16:23:48] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-05 16:23:48] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-05 16:23:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-05 16:23:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-05 16:23:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-05 16:23:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230605/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-05 16:23:49] INFO root fetch - processPackages [django-streamfield]: Remove: archive file [/home/abi/fetcher/tmp/django-streamfield-2.1.0.tar.gz]
+[2023-06-05 16:23:49] INFO root fetch - processPackages [django-streamfield]: Remove: archive file [/home/abi/fetcher/tmp/django-streamfield-2.1.1.tar.gz]
+[2023-06-05 16:23:49] INFO root fetch - main [MainThread]: End processing [django-streamfield]: success
+[2023-06-05 16:23:49] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-0.7.0.tar.gz]
+[2023-06-05 16:23:49] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-0.8.0.tar.gz]
+[2023-06-05 16:23:49] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-05 16:23:49] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.3.0.tar.gz]
+[2023-06-05 16:23:49] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.4.0.tar.gz]
+[2023-06-05 16:23:49] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2023-06-05 16:23:50] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy-llm-0.2.0.tar.gz]
+[2023-06-05 16:23:50] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy-llm-0.2.1.tar.gz]
+[2023-06-05 16:23:50] INFO root fetch - main [MainThread]: End processing [spacy-llm]: success
+[2023-06-05 16:23:50] INFO root fetch - processPackages [robocrys]: Remove: archive file [/home/abi/fetcher/tmp/robocrys-0.2.7.tar.gz]
+[2023-06-05 16:23:50] INFO root fetch - processPackages [robocrys]: Remove: archive file [/home/abi/fetcher/tmp/robocrys-0.2.8.tar.gz]
+[2023-06-05 16:23:50] INFO root fetch - main [MainThread]: End processing [robocrys]: success
+[2023-06-05 16:23:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-05 16:23:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-05 16:23:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-05 16:24:10] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.1-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-05 16:24:10] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-05 16:24:10] INFO root fetch - main [MainThread]: End processing [awadb]: success
+[2023-06-05 16:24:10] INFO root fetch - main [MainThread]: Store serial: [18377126]
