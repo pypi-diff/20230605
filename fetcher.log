@@ -9744,3 +9744,111 @@
 [2023-06-05 12:20:13] INFO root fetch - main [MainThread]: End processing [streamlit-d3-network-component]: success
 [2023-06-05 12:20:14] INFO root fetch - main [MainThread]: End processing [autoeap]: success
 [2023-06-05 12:20:14] INFO root fetch - main [MainThread]: Store serial: [18374494]
+[2023-06-05 12:25:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374494]
+[2023-06-05 12:25:23] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: read-rapidpe
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-tools-scripts
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esg-coverage
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdit-py-emoji
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libretrofuzz
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytket-cutensornet
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatarena
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neuroimager
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py2app
+[2023-06-05 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-d3-network-component
+[2023-06-05 12:25:23] INFO root fetch - processPackages [python-tools-scripts]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-05 12:25:23] WARNING root fetch - processPackages [esg-coverage]: Skipping, unable to determine old version
+[2023-06-05 12:25:23] INFO root fetch - processPackages [mdit-py-emoji]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 12:25:23] WARNING root fetch - processPackages [pytket-cutensornet]: Skipping, unable to determine old version
+[2023-06-05 12:25:23] INFO root fetch - processPackages [esg-coverage]: Start processing: try-pyspark
+[2023-06-05 12:25:23] INFO root fetch - main [MainThread]: End processing [esg-coverage] error
+[2023-06-05 12:25:23] INFO root fetch - processPackages [streamlit-d3-network-component]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-05 12:25:23] INFO root fetch - processPackages [pytket-cutensornet]: Start processing: Metamorf
+[2023-06-05 12:25:23] INFO root fetch - processPackages [read-rapidpe]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-05 12:25:23] INFO root fetch - main [MainThread]: End processing [pytket-cutensornet] error
+[2023-06-05 12:25:23] WARNING root fetch - processPackages [neuroimager]: Skipping, unable to determine old version
+[2023-06-05 12:25:23] INFO root fetch - processPackages [neuroimager]: Start processing: extr-ds
+[2023-06-05 12:25:23] INFO root fetch - processPackages [chatarena]: New version: [0.1.9] Old Version: [0.1.8.dev0]
+[2023-06-05 12:25:23] INFO root fetch - main [MainThread]: End processing [neuroimager] error
+[2023-06-05 12:25:23] INFO root fetch - processPackages [py2app]: New version: [0.9] Old Version: [0.8.1]
+[2023-06-05 12:25:23] INFO root fetch - processPackages [libretrofuzz]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-06-05 12:25:23] WARNING root fetch - processPackages [try-pyspark]: Skipping, unable to determine old version
+[2023-06-05 12:25:23] INFO root fetch - processPackages [try-pyspark]: Start processing: hat-drivers
+[2023-06-05 12:25:23] INFO root fetch - main [MainThread]: End processing [try-pyspark] error
+[2023-06-05 12:25:23] INFO root fetch - processPackages [Metamorf]: New version: [0.4.4.1] Old Version: [0.4.3.1]
+[2023-06-05 12:25:23] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-06-05 12:25:23] INFO root fetch - processPackages [hat-drivers]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 12:25:23] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-06-05 12:25:23] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.5.8.tar.gz tmp/read_rapidpe-0.5.9.tar.gz --markdown 20230605/r/read-rapidpe/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-05 12:25:23] INFO root fetch - processPackages [python-tools-scripts]: Downloading https://files.pythonhosted.org/packages/08/9e/8ceb65814db258a32b107535a7836b9388b7fbb5c10f1e817b69e04f1384/python-tools-scripts-0.9.6.tar.gz
+[2023-06-05 12:25:23] INFO root fetch - processPackages [extr-ds]: Downloading https://files.pythonhosted.org/packages/2e/ef/8074f89595c63f21348251248751a152d006fc4591dc52cbf7d8a5262868/extr-ds-0.0.83.tar.gz
+[2023-06-05 12:25:23] ERROR root fetch - processPackages [streamlit-d3-network-component]: Unable to fetch info: No such project/version 'streamlit-d3-network-component' 0.0.7
+[2023-06-05 12:25:23] INFO root fetch - processPackages [streamlit-d3-network-component]: Start processing: autoviz
+[2023-06-05 12:25:23] INFO root fetch - main [MainThread]: End processing [streamlit-d3-network-component] error
+[2023-06-05 12:25:23] INFO root fetch - processPackages [mdit-py-emoji]: Downloading https://files.pythonhosted.org/packages/d2/0f/ec00dfc04e7802f44fbed3741c3e763e127029d69e69fbbe9ba4e9d20465/mdit-py-emoji-0.1.0.tar.gz
+[2023-06-05 12:25:23] INFO root fetch - processPackages [chatarena]: Downloading https://files.pythonhosted.org/packages/86/e0/c9e6be405708dabdbd9d89ab161d23bb0679e8283482beb136bc5b5982ac/chatarena-0.1.8.dev0.tar.gz
+[2023-06-05 12:25:24] INFO root fetch - processPackages [py2app]: Downloading https://files.pythonhosted.org/packages/ea/dd/af0813b8b308284be0146b382c569d91f4b249f913c331c0a871296fd442/py2app-0.8.1.tar.gz
+[2023-06-05 12:25:24] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/ed/e3/25d9ca36ae3640c6653274af08012f758fae16dc8c6ab2abb1bf5b61db8f/hat_drivers-0.6.8-cp38.cp39.cp310-none-any.whl
+[2023-06-05 12:25:24] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/31/50/ff49e4502ee187c6b8ba71d82606f1f02ddf8aa4b601a9c8cd3c0e94366d/libretrofuzz-2.9.3.tar.gz
+[2023-06-05 12:25:24] INFO root fetch - processPackages [autoviz]: New version: [0.1.73] Old Version: [0.1.72]
+[2023-06-05 12:25:24] INFO root fetch - processPackages [Metamorf]: Downloading https://files.pythonhosted.org/packages/fd/a6/df3788ab264ee247cc5738a281bfbc6e0c0c6a05dcf6579ddde55c5dd885/Metamorf-0.4.4.1.tar.gz
+[2023-06-05 12:25:24] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-05 12:25:24] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-2.9.2.tar.gz tmp/libretrofuzz-2.9.3.tar.gz --markdown 20230605/l/libretrofuzz/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-06-05 12:25:24] INFO root fetch - processPackages [python-tools-scripts]: Downloading https://files.pythonhosted.org/packages/ca/f8/52a2306cd6af9e646fe5e0f39503ca61591a6b1582eb271aa56b50bc4dd3/python-tools-scripts-0.9.7.tar.gz
+[2023-06-05 12:25:24] INFO root fetch - processPackages [mdit-py-emoji]: Downloading https://files.pythonhosted.org/packages/0d/f2/093ded924d3b706e2f86a74367f240d032ad801c0fc5c21261dbb330ea88/mdit-py-emoji-0.1.1.tar.gz
+[2023-06-05 12:25:24] INFO root fetch - processPackages [extr-ds]: Downloading https://files.pythonhosted.org/packages/86/83/bd4be10639f99bd8bfa649379bce5e45f693a0ab8542cdd44cf2fcb3240d/extr-ds-0.0.9.tar.gz
+[2023-06-05 12:25:24] INFO root fetch - processPackages [Metamorf]: executing diffoscope
+[2023-06-05 12:25:24] INFO root fetch - processPackages [Metamorf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Metamorf-0.4.3.1.tar.gz tmp/Metamorf-0.4.4.1.tar.gz --markdown 20230605/M/Metamorf/0.4.3.1-0.4.4.1/diff.md --exclude *.pyd
+[2023-06-05 12:25:24] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/bb/0e/3deca62b8cf028be043e4c745056433957f7732a03d966617c974481e439/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl
+[2023-06-05 12:25:24] INFO root fetch - processPackages [mdit-py-emoji]: executing diffoscope
+[2023-06-05 12:25:24] INFO root fetch - processPackages [mdit-py-emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdit-py-emoji-0.1.0.tar.gz tmp/mdit-py-emoji-0.1.1.tar.gz --markdown 20230605/m/mdit-py-emoji/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 12:25:24] INFO root fetch - processPackages [python-tools-scripts]: executing diffoscope
+[2023-06-05 12:25:24] INFO root fetch - processPackages [python-tools-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-tools-scripts-0.9.6.tar.gz tmp/python-tools-scripts-0.9.7.tar.gz --markdown 20230605/p/python-tools-scripts/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-05 12:25:24] INFO root fetch - processPackages [chatarena]: Downloading https://files.pythonhosted.org/packages/de/be/85946199fb324ac4db32f7e1406677e8f96516b562e17f036e817b71d47f/chatarena-0.1.9.tar.gz
+[2023-06-05 12:25:24] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-06-05 12:25:24] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.83.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230605/e/extr-ds/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 12:25:24] INFO root fetch - processPackages [hat-drivers]: executing diffoscope
+[2023-06-05 12:25:24] INFO root fetch - processPackages [hat-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_drivers-0.6.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl.zip --markdown 20230605/h/hat-drivers/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 12:25:24] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/aa/78/53021a887010a122c18058e0cdbe6e12c037d9f413c6ef7d1427766e780f/autoviz-0.1.73.tar.gz
+[2023-06-05 12:25:24] INFO root fetch - processPackages [chatarena]: executing diffoscope
+[2023-06-05 12:25:24] INFO root fetch - processPackages [chatarena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatarena-0.1.8.dev0.tar.gz tmp/chatarena-0.1.9.tar.gz --markdown 20230605/c/chatarena/0.1.8.dev0-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 12:25:24] INFO root fetch - processPackages [autoviz]: executing diffoscope
+[2023-06-05 12:25:24] INFO root fetch - processPackages [autoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviz-0.1.72.tar.gz tmp/autoviz-0.1.73.tar.gz --markdown 20230605/a/autoviz/0.1.72-0.1.73/diff.md --exclude *.pyd
+[2023-06-05 12:25:24] INFO root fetch - processPackages [py2app]: Downloading https://files.pythonhosted.org/packages/9e/e9/c834ca0467781ca54097aaea6756f6a8c156a00818a7dd00d534fe439a2c/py2app-0.9.tar.gz
+[2023-06-05 12:25:25] INFO root fetch - processPackages [py2app]: executing diffoscope
+[2023-06-05 12:25:25] INFO root fetch - processPackages [py2app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2app-0.8.1.tar.gz tmp/py2app-0.9.tar.gz --markdown 20230605/p/py2app/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-06-05 12:25:25] INFO root fetch - processPackages [read-rapidpe]: Start processing: tramway
+[2023-06-05 12:25:25] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-06-05 12:25:25] INFO root fetch - processPackages [tramway]: New version: [0.6rc1] Old Version: [0.6b0]
+[2023-06-05 12:25:25] INFO root fetch - processPackages [libretrofuzz]: Start processing: PyArrShow
+[2023-06-05 12:25:25] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-05 12:25:25] INFO root fetch - processPackages [tramway]: Downloading https://files.pythonhosted.org/packages/6b/df/91dbf17d13634a7c66d481ca659f1e07b806764fa95afc57afeb07aaec4f/tramway-0.6b0.tar.gz
+[2023-06-05 12:25:25] INFO root fetch - processPackages [PyArrShow]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-05 12:25:25] INFO root fetch - processPackages [mdit-py-emoji]: Start processing: django-image-compress
+[2023-06-05 12:25:25] INFO root fetch - main [MainThread]: End processing [mdit-py-emoji]: success
+[2023-06-05 12:25:25] WARNING root fetch - processPackages [django-image-compress]: Skipping, unable to determine old version
+[2023-06-05 12:25:25] INFO root fetch - processPackages [django-image-compress]: Start processing: vertica-sqlalchemy-dialect
+[2023-06-05 12:25:25] INFO root fetch - main [MainThread]: End processing [django-image-compress] error
+[2023-06-05 12:25:25] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 12:25:25] INFO root fetch - processPackages [PyArrShow]: Downloading https://files.pythonhosted.org/packages/dd/d7/6c340dc873b0251d746c7e4c49c646b1c7d009f6b5610caa7186b59e1dbc/PyArrShow-1.0.7.tar.gz
+[2023-06-05 12:25:25] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: Downloading https://files.pythonhosted.org/packages/2f/87/28108fd8205ebc2f1a26c1f5849cd387eda884be195c5dac1c9e79cbd701/vertica_sqlalchemy_dialect-0.0.1-py3-none-any.whl
+[2023-06-05 12:25:25] INFO root fetch - processPackages [tramway]: Downloading https://files.pythonhosted.org/packages/3e/bd/a5179c73cbec7f255afebf98974f47954f9ca58c58089e7180e301225813/tramway-0.6rc1.tar.gz
+[2023-06-05 12:25:26] INFO root fetch - processPackages [PyArrShow]: Downloading https://files.pythonhosted.org/packages/13/a2/24093c2d1715908f6338b119f3f9bb2c60fac97a05ff64a9f19d606f5145/PyArrShow-1.0.8.tar.gz
+[2023-06-05 12:25:26] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-06-05 12:25:26] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: Downloading https://files.pythonhosted.org/packages/0d/0b/1df9d6a10fbec8831babf585e4b8b647952820176b96e6aa8beae9ed8b24/vertica-sqlalchemy-dialect-0.0.2.tar.gz
+[2023-06-05 12:25:26] INFO root fetch - main [MainThread]: End processing [python-tools-scripts]: success
+[2023-06-05 12:25:26] INFO root fetch - processPackages [PyArrShow]: executing diffoscope
+[2023-06-05 12:25:26] INFO root fetch - processPackages [PyArrShow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyArrShow-1.0.7.tar.gz tmp/PyArrShow-1.0.8.tar.gz --markdown 20230605/P/PyArrShow/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-05 12:25:26] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: executing diffoscope
+[2023-06-05 12:25:26] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertica_sqlalchemy_dialect-0.0.1-py3-none-any.whl.zip tmp/vertica-sqlalchemy-dialect-0.0.2.tar.gz --markdown 20230605/v/vertica-sqlalchemy-dialect/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 12:25:26] INFO root fetch - processPackages [tramway]: executing diffoscope
+[2023-06-05 12:25:26] INFO root fetch - processPackages [tramway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tramway-0.6b0.tar.gz tmp/tramway-0.6rc1.tar.gz --markdown 20230605/t/tramway/0.6b0-0.6rc1/diff.md --exclude *.pyd
+[2023-06-05 12:25:26] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
+[2023-06-05 12:25:26] INFO root fetch - main [MainThread]: End processing [chatarena]: success
+[2023-06-05 12:25:27] INFO root fetch - main [MainThread]: End processing [vertica-sqlalchemy-dialect]: success
+[2023-06-05 12:25:27] INFO root fetch - main [MainThread]: End processing [autoviz]: success
+[2023-06-05 12:25:27] INFO root fetch - main [MainThread]: End processing [PyArrShow]: success
+[2023-06-05 12:25:28] INFO root fetch - main [MainThread]: End processing [tramway]: success
+[2023-06-05 12:25:28] INFO root fetch - main [MainThread]: End processing [Metamorf]: success
+[2023-06-05 12:25:31] INFO root fetch - main [MainThread]: End processing [py2app]: success
+[2023-06-05 12:25:31] INFO root fetch - main [MainThread]: Store serial: [18374559]
