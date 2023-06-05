@@ -4728,3 +4728,40 @@
 [2023-06-05 06:20:36] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
 [2023-06-05 06:20:36] INFO root fetch - main [MainThread]: End processing [naver-db]: success
 [2023-06-05 06:20:36] INFO root fetch - main [MainThread]: Store serial: [18371635]
+[2023-06-05 06:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371635]
+[2023-06-05 06:25:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-05 06:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getmodelspec
+[2023-06-05 06:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: areixio
+[2023-06-05 06:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsqdriver
+[2023-06-05 06:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gensp
+[2023-06-05 06:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openkeys
+[2023-06-05 06:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: samna
+[2023-06-05 06:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygeoweaver
+[2023-06-05 06:25:45] INFO root fetch - processPackages [gensp]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 06:25:45] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 06:25:45] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-05 06:25:45] INFO root fetch - processPackages [nsqdriver]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-05 06:25:45] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.80]
+[2023-06-05 06:25:45] WARNING root fetch - processPackages [openkeys]: Skipping, unable to determine old version
+[2023-06-05 06:25:45] INFO root fetch - main [MainThread]: End processing [openkeys] error
+[2023-06-05 06:25:45] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-06-05 06:25:45] ERROR root fetch - processPackages [getmodelspec]: Unable to fetch info: No such project/version 'getmodelspec' 1.0.7
+[2023-06-05 06:25:45] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-05 06:25:45] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 06:25:45] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.1.tar.gz tmp/gensp-1.0.2-py3.10.egg --markdown 20230605/g/gensp/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 06:25:45] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-05 06:25:45] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.8.tar.gz tmp/pygeoweaver-0.6.9.tar.gz --markdown 20230605/p/pygeoweaver/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 06:25:45] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/8a/5d/cddb7cc4e9bce9a09d99ddbe8cf4cc08499ef33d870b214385d509d9f633/areixio-0.2.80.tar.gz
+[2023-06-05 06:25:45] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/d6/95/2244c3fe8d6fff3d28f8780a85dd30b1172142805ec4cabc375abeff89e0/nsqdriver-0.2.7.tar.gz
+[2023-06-05 06:25:45] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-06-05 06:25:45] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230605/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-06-05 06:25:45] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2023-06-05 06:25:45] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.2.6.tar.gz tmp/nsqdriver-0.2.7.tar.gz --markdown 20230605/n/nsqdriver/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-05 06:25:46] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 06:25:46] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-05 06:25:46] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-06-05 06:25:46] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-06-05 06:25:46] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.80.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230605/a/areixio/0.2.80-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 06:25:46] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2023-06-05 06:25:58] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-06-05 06:25:58] INFO root fetch - main [MainThread]: Store serial: [18371657]
