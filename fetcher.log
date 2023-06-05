@@ -18775,3 +18775,210 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 18:12:14] INFO root fetch - processPackages [ask-smapi-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-smapi-model-1.9.2.tar.gz]
 [2023-06-05 18:12:14] INFO root fetch - main [MainThread]: End processing [ask-smapi-model]: success
 [2023-06-05 18:12:14] INFO root fetch - main [MainThread]: Store serial: [18378441]
+[2023-06-05 18:17:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378441]
+[2023-06-05 18:17:23] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getmodelspec
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-jobs
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradingindicators
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepset-cloud-sdk
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: erdgen
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PythonLogging
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enforce-notebook-run-order
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taipy
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qworker
+[2023-06-05 18:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opuscleaner
+[2023-06-05 18:17:23] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-06-05 18:17:23] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-05 18:17:23] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 18:17:23] INFO root fetch - processPackages [PythonLogging]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 18:17:23] INFO root fetch - processPackages [erdgen]: New version: [0.0.1rc4] Old Version: [0.0.1rc3]
+[2023-06-05 18:17:23] INFO root fetch - processPackages [taipy]: New version: [2.3.0.dev0] Old Version: [2.2.0]
+[2023-06-05 18:17:23] INFO root fetch - processPackages [opuscleaner]: New version: [0.2] Old Version: [0.1]
+[2023-06-05 18:17:23] WARNING root fetch - processPackages [tradingindicators]: Skipping, unable to determine old version
+[2023-06-05 18:17:23] INFO root fetch - processPackages [tradingindicators]: Start processing: Mediana-sdk
+[2023-06-05 18:17:23] INFO root fetch - main [MainThread]: End processing [tradingindicators] error
+[2023-06-05 18:17:23] INFO root fetch - processPackages [enforce-notebook-run-order]: New version: [1.0.0] Old Version: [0.1.6]
+[2023-06-05 18:17:23] INFO root fetch - processPackages [qworker]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-05 18:17:24] INFO root fetch - processPackages [PythonLogging]: Downloading https://files.pythonhosted.org/packages/e1/6a/6b33ea77394c759c43a0a2a3a5375a69eb83cdb53d4f42b8d9d92a565ec9/PythonLogging-1.0.1.tar.gz
+[2023-06-05 18:17:24] WARNING root fetch - processPackages [Mediana-sdk]: Skipping, unable to determine old version
+[2023-06-05 18:17:24] INFO root fetch - processPackages [Mediana-sdk]: Start processing: tracebloc-package
+[2023-06-05 18:17:24] INFO root fetch - main [MainThread]: End processing [Mediana-sdk] error
+[2023-06-05 18:17:24] INFO root fetch - processPackages [tracebloc-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 18:17:24] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/61/1b/e58bc101520da6a418238e0bd2f937294d42628dfdd63d5296cd46c4eb58/getmodelspec-1.0.15.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [erdgen]: Downloading https://files.pythonhosted.org/packages/5d/89/74cdf229da0e6a1ab6f6d39b6d08f3b7b23b1eb079c6375d2ab2d132a49b/erdgen-0.0.1rc3.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [opuscleaner]: Downloading https://files.pythonhosted.org/packages/60/7f/6004bead44ca11d1c69528c8d92e84f202e14dee1eb465a2ef62a9e76354/opuscleaner-0.1.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [enforce-notebook-run-order]: Downloading https://files.pythonhosted.org/packages/a1/5d/7300f7d13c32f2f30bd3639483467798017bb72d3210aa18735925be7342/enforce_notebook_run_order-0.1.6.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [taipy]: Downloading https://files.pythonhosted.org/packages/f6/ba/3dd5658c53d050e8ce096d58e7874dd0209970bfc24fc07c124f0b0ae03a/taipy-2.2.0.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/8c/0c/53c1613f9f9cc2d451482f056ad41f63d79cd5a6df8760a925969349d056/tracebloc_package-0.1.8.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/bb/89/7a79dfa443184d2422ab56cd9d89df9a1ca6b30f6bb8a6cafea6a4c0937b/deepset_cloud_sdk-0.0.8.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/b4/94/c47be59013da60ddb373f053fb6dc20308a8c29d979cb549ce612e82a603/qworker-1.8.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 18:17:24] INFO root fetch - processPackages [PythonLogging]: Downloading https://files.pythonhosted.org/packages/cb/62/c4fbacec63f139091434120ecc0752b57ce7a14b097625fd68977c871d48/PythonLogging-1.0.2.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/e0/47/92cf51868f38d02aff794a5e15ffcbc05d503d3840c5a5e72852d0b15ee0/getmodelspec-1.0.16.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [enforce-notebook-run-order]: Downloading https://files.pythonhosted.org/packages/6e/b1/3c499b6b9e097248987e87547db13752709ba8e650647130078f63210a59/enforce_notebook_run_order-1.0.0.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [PythonLogging]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [PythonLogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonLogging-1.0.1.tar.gz tmp/PythonLogging-1.0.2.tar.gz --markdown 20230605/P/PythonLogging/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 18:17:24] INFO root fetch - processPackages [erdgen]: Downloading https://files.pythonhosted.org/packages/ff/c7/7a9f585d57a03926bbebf66bd201429a397df9228308da445fe804f8e43d/erdgen-0.0.1rc4.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [opuscleaner]: Downloading https://files.pythonhosted.org/packages/b1/d0/aba22822bc8ab82c6cf3f41a0cc2c6cf44c8d8686b9e651257c8209cbbc0/opuscleaner-0.2.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/0d/7e/9168fbccba7d0ab57b3de008b68f52f071725ab15f0b8dea6cb926c1c8c1/qworker-1.8.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 18:17:24] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/33/fd/ab1e82f0b8ab4c7e6f30c92135a88a4dff8a164768c68401129a7678bb5b/deepset_cloud_sdk-0.0.9.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [enforce-notebook-run-order]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [enforce-notebook-run-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enforce_notebook_run_order-0.1.6.tar.gz tmp/enforce_notebook_run_order-1.0.0.tar.gz --markdown 20230605/e/enforce-notebook-run-order/0.1.6-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 18:17:24] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.15.tar.gz tmp/getmodelspec-1.0.16.tar.gz --markdown 20230605/g/getmodelspec/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-06-05 18:17:24] INFO root fetch - processPackages [taipy]: Downloading https://files.pythonhosted.org/packages/7e/86/e1c42a5c49caa7e8a048276e454793f318b3be7fff7da58d58ff0697037b/taipy-2.3.0.dev0.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [erdgen]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [erdgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdgen-0.0.1rc3.tar.gz tmp/erdgen-0.0.1rc4.tar.gz --markdown 20230605/e/erdgen/0.0.1rc3-0.0.1rc4/diff.md --exclude *.pyd
+[2023-06-05 18:17:24] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/2f/86/f5a06ff14db12b21fe7460dc71f1dae6aca3db77058e45f121993bc6a568/tracebloc_package-0.1.9.tar.gz
+[2023-06-05 18:17:24] INFO root fetch - processPackages [opuscleaner]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [opuscleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opuscleaner-0.1.tar.gz tmp/opuscleaner-0.2.tar.gz --markdown 20230605/o/opuscleaner/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-05 18:17:24] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.0.8.tar.gz tmp/deepset_cloud_sdk-0.0.9.tar.gz --markdown 20230605/d/deepset-cloud-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 18:17:24] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230605/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-05 18:17:24] INFO root fetch - processPackages [taipy]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [taipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-2.2.0.tar.gz tmp/taipy-2.3.0.dev0.tar.gz --markdown 20230605/t/taipy/2.2.0-2.3.0.dev0/diff.md --exclude *.pyd
+[2023-06-05 18:17:24] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.8.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.8.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230605/q/qworker/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-05 18:17:24] INFO root fetch - processPackages [tracebloc-package]: executing diffoscope
+[2023-06-05 18:17:24] INFO root fetch - processPackages [tracebloc-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-0.1.8.tar.gz tmp/tracebloc_package-0.1.9.tar.gz --markdown 20230605/t/tracebloc-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 18:17:25] INFO root fetch - processPackages [PythonLogging]: Remove: archive file [/home/abi/fetcher/tmp/PythonLogging-1.0.1.tar.gz]
+[2023-06-05 18:17:25] INFO root fetch - processPackages [PythonLogging]: Remove: archive file [/home/abi/fetcher/tmp/PythonLogging-1.0.2.tar.gz]
+[2023-06-05 18:17:25] INFO root fetch - processPackages [PythonLogging]: Start processing: clophfit
+[2023-06-05 18:17:25] INFO root fetch - main [MainThread]: End processing [PythonLogging]: success
+[2023-06-05 18:17:25] INFO root fetch - processPackages [clophfit]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.15.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.16.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [getmodelspec]: Start processing: localstack-core
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230605161506] Old Version: [2.1.1.dev20230605161421]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [enforce-notebook-run-order]: Remove: archive file [/home/abi/fetcher/tmp/enforce_notebook_run_order-0.1.6.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [enforce-notebook-run-order]: Remove: archive file [/home/abi/fetcher/tmp/enforce_notebook_run_order-1.0.0.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [enforce-notebook-run-order]: Start processing: aws-cdk.asset-awscli-v1
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [enforce-notebook-run-order]: success
+[2023-06-05 18:17:26] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/f5/90/e8b319dddc6d7c6d791510391e89c9107e2aabb286f1eddbbeb727f48065/clophfit-0.7.1.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [erdgen]: Remove: archive file [/home/abi/fetcher/tmp/erdgen-0.0.1rc3.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [erdgen]: Remove: archive file [/home/abi/fetcher/tmp/erdgen-0.0.1rc4.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [erdgen]: Start processing: odoo-addon-company-sanitary-registry
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [erdgen]: success
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ef/ae/cdd954865d85c1a7f29e82afb46aa0f3a9bd1e1ddf9639aa2376e6d6b255/localstack-core-2.1.1.dev20230605161421.tar.gz
+[2023-06-05 18:17:26] WARNING root fetch - processPackages [odoo-addon-company-sanitary-registry]: Skipping, unable to determine old version
+[2023-06-05 18:17:26] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Start processing: localstack-core
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-company-sanitary-registry] error
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230605161506] Old Version: [2.1.1.dev20230605161421]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ef/ae/cdd954865d85c1a7f29e82afb46aa0f3a9bd1e1ddf9639aa2376e6d6b255/localstack-core-2.1.1.dev20230605161421.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [taipy]: Remove: archive file [/home/abi/fetcher/tmp/taipy-2.2.0.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [taipy]: Remove: archive file [/home/abi/fetcher/tmp/taipy-2.3.0.dev0.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [taipy]: Start processing: amazon-braket-sdk
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [taipy]: success
+[2023-06-05 18:17:26] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-06-05 18:17:26] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.8.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: pepperize.cdk-vpc
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-06-05 18:17:26] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.9.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [tracebloc-package]: Start processing: airbyte-api
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [tracebloc-package]: success
+[2023-06-05 18:17:26] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [airbyte-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/59/12/2797d86f7253b7bf6517ff3cb9a04b094b6b8eb46891b4f0d21170622cf3/clophfit-0.8.0.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-0.0.8.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-0.0.9.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [deepset-cloud-sdk]: Start processing: mypackagelicenseprototype
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2023-06-05 18:17:26] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/25/98/839bb964d107b60f6cc3bb06dbdb864b04f9c38cafbf4725617501c0ad49/pepperize.cdk-vpc-0.0.98.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1a/28/053c331b71911280b5ca1d4cee6f14a24843affd57bf168dbc46cb1ce9b2/localstack-core-2.1.1.dev20230605161506.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1a/28/053c331b71911280b5ca1d4cee6f14a24843affd57bf168dbc46cb1ce9b2/localstack-core-2.1.1.dev20230605161506.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/86/55/b6e9e94843bf1883f6ea3d526ae51a9f2bb1328ceab5365c50f552530cf9/mypackagelicenseprototype-2.1.3-py3-none-any.whl
+[2023-06-05 18:17:26] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/85/cb/f563b80f4c903004b15e6be7245ef49cc3d1e16c8a667aab991f31853061/amazon-braket-sdk-1.9.5.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2023-06-05 18:17:26] INFO root fetch - processPackages [leadguru-jobs]: Start processing: pynter-defects
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-05 18:17:26] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.7.1.tar.gz tmp/clophfit-0.8.0.tar.gz --markdown 20230605/c/clophfit/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-05 18:17:26] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/d4/66/f87aba87ada17376fee9e34bc8e371f044987bb411d9d01db6d321356f3a/airbyte-api-0.6.0.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/e8/f1/d3bacab49ff19cf30ba787ffcbc7ad05fd05f663b5194429568885059996/pepperize.cdk-vpc-0.0.99.tar.gz
+[2023-06-05 18:17:26] WARNING root fetch - processPackages [pynter-defects]: Skipping, unable to determine old version
+[2023-06-05 18:17:26] INFO root fetch - processPackages [pynter-defects]: Start processing: xoa-driver
+[2023-06-05 18:17:26] INFO root fetch - main [MainThread]: End processing [pynter-defects] error
+[2023-06-05 18:17:26] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-06-05 18:17:26] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230605/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 18:17:26] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/6c/b5/8ec8f1ecf9c20bff8ae6f42661f05a8a89ae9360e6ef13cc96b084b93551/mypackagelicenseprototype-2.1.4-py3-none-any.whl
+[2023-06-05 18:17:26] INFO root fetch - processPackages [xoa-driver]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-05 18:17:26] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 18:17:26] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.1.3-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.1.4-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-05 18:17:26] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/c8/ff/cb73f3116051fd1759305c40178b654a37b22e1085a441b4ba720c8525d8/airbyte-api-0.7.0.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/c7a37a19be25e1021345ade602f9852e48f219edaa855aa624e9d54e0d70/amazon-braket-sdk-1.9.5.post0.tar.gz
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230605161421.tar.gz tmp/localstack-core-2.1.1.dev20230605161506.tar.gz --markdown 20230605/l/localstack-core/2.1.1.dev20230605161421-2.1.1.dev20230605161506/diff.md --exclude *.pyd
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-05 18:17:26] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230605161421.tar.gz tmp/localstack-core-2.1.1.dev20230605161506.tar.gz --markdown 20230605/l/localstack-core/2.1.1.dev20230605161421-2.1.1.dev20230605161506/diff.md --exclude *.pyd
+[2023-06-05 18:17:27] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2023-06-05 18:17:27] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20230605/a/amazon-braket-sdk/1.9.5-1.9.5.post0/diff.md --exclude *.pyd
+[2023-06-05 18:17:27] INFO root fetch - processPackages [airbyte-api]: executing diffoscope
+[2023-06-05 18:17:27] INFO root fetch - processPackages [airbyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-api-0.6.0.tar.gz tmp/airbyte-api-0.7.0.tar.gz --markdown 20230605/a/airbyte-api/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-05 18:17:27] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/51/1b/4c7090ae202f2f65ab2608194b79b12a47a7f0c90b9811232ee0393e451b/xoa-driver-2.0.1.tar.gz
+[2023-06-05 18:17:27] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/42/bd/bc47c00bdc89e5eb99b69fee56b83c8f07412d08907f7a3563bba154eb08/xoa-driver-2.0.2.tar.gz
+[2023-06-05 18:17:27] INFO root fetch - processPackages [xoa-driver]: executing diffoscope
+[2023-06-05 18:17:27] INFO root fetch - processPackages [xoa-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-driver-2.0.1.tar.gz tmp/xoa-driver-2.0.2.tar.gz --markdown 20230605/x/xoa-driver/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-05 18:17:27] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.8.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 18:17:27] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.8.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 18:17:27] INFO root fetch - processPackages [qworker]: Start processing: biom3d
+[2023-06-05 18:17:27] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-06-05 18:17:27] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-05 18:17:28] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/4f/53/c25cedaf854e7754675041bd48cb20b71dfd8e97dd3d0b8c79f7e87b6a51/biom3d-0.0.7.tar.gz
+[2023-06-05 18:17:28] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.3-py3-none-any.whl.zip]
+[2023-06-05 18:17:28] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.4-py3-none-any.whl.zip]
+[2023-06-05 18:17:28] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: taipy-rest
+[2023-06-05 18:17:28] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 18:17:28] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-06-05 18:17:28] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-06-05 18:17:28] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: obs-cli
+[2023-06-05 18:17:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-06-05 18:17:28] INFO root fetch - processPackages [obs-cli]: New version: [0.4] Old Version: [0.3]
+[2023-06-05 18:17:28] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/14/e7/4c2f83e1f89ccb3ce7a238a3347e643d1ec2414608921161612aac723fc0/obs-cli-0.3.tar.gz
+[2023-06-05 18:17:28] INFO root fetch - processPackages [taipy-rest]: New version: [2.3.0.dev1] Old Version: [2.3.0.dev0]
+[2023-06-05 18:17:28] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/b4/8d/1ccb9010d14d8a5e01159e7875fcc6fcdd100db65de19cfb377504cb21be/biom3d-0.0.9.tar.gz
+[2023-06-05 18:17:28] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/9d/9c/10ad874dd3293579cdbf0f643563297f080e8ece96e214a82d297f19db93/obs-cli-0.4.tar.gz
+[2023-06-05 18:17:28] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-06-05 18:17:28] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230605/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 18:17:28] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/7f/b0/d63689bb4492b0c653da1691fde89d83203537abe9909a69b973aa279bbf/taipy-rest-2.3.0.dev0.tar.gz
+[2023-06-05 18:17:28] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-05 18:17:28] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.3.tar.gz tmp/obs-cli-0.4.tar.gz --markdown 20230605/o/obs-cli/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-05 18:17:28] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/9b/2a/f61d6bf196caf2a1cd8bd61197bad6036483776053a795b2812add6faaa5/taipy-rest-2.3.0.dev1.tar.gz
+[2023-06-05 18:17:29] INFO root fetch - processPackages [taipy-rest]: executing diffoscope
+[2023-06-05 18:17:29] INFO root fetch - processPackages [taipy-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-rest-2.3.0.dev0.tar.gz tmp/taipy-rest-2.3.0.dev1.tar.gz --markdown 20230605/t/taipy-rest/2.3.0.dev0-2.3.0.dev1/diff.md --exclude *.pyd
+[2023-06-05 18:17:29] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.7.tar.gz]
+[2023-06-05 18:17:29] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.9.tar.gz]
+[2023-06-05 18:17:29] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-06-05 18:17:29] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.7.1.tar.gz]
+[2023-06-05 18:17:29] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.8.0.tar.gz]
+[2023-06-05 18:17:29] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2023-06-05 18:17:30] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.3.tar.gz]
+[2023-06-05 18:17:30] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.4.tar.gz]
+[2023-06-05 18:17:30] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-05 18:17:30] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-2.3.0.dev0.tar.gz]
+[2023-06-05 18:17:30] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-2.3.0.dev1.tar.gz]
+[2023-06-05 18:17:30] INFO root fetch - main [MainThread]: End processing [taipy-rest]: success
+[2023-06-05 18:17:30] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.tar.gz]
+[2023-06-05 18:17:30] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.post0.tar.gz]
+[2023-06-05 18:17:30] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2023-06-05 18:17:31] INFO root fetch - processPackages [xoa-driver]: Remove: archive file [/home/abi/fetcher/tmp/xoa-driver-2.0.1.tar.gz]
+[2023-06-05 18:17:31] INFO root fetch - processPackages [xoa-driver]: Remove: archive file [/home/abi/fetcher/tmp/xoa-driver-2.0.2.tar.gz]
+[2023-06-05 18:17:31] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
+[2023-06-05 18:17:32] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.6.0.tar.gz]
+[2023-06-05 18:17:32] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.7.0.tar.gz]
+[2023-06-05 18:17:32] INFO root fetch - main [MainThread]: End processing [airbyte-api]: success
+[2023-06-05 18:17:33] INFO root fetch - processPackages [opuscleaner]: Remove: archive file [/home/abi/fetcher/tmp/opuscleaner-0.1.tar.gz]
+[2023-06-05 18:17:33] INFO root fetch - processPackages [opuscleaner]: Remove: archive file [/home/abi/fetcher/tmp/opuscleaner-0.2.tar.gz]
+[2023-06-05 18:17:33] INFO root fetch - main [MainThread]: End processing [opuscleaner]: success
+[2023-06-05 18:17:34] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230605161421.tar.gz]
+[2023-06-05 18:17:34] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230605161506.tar.gz]
+[2023-06-05 18:17:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-05 18:17:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-05 18:17:34] INFO root fetch - main [MainThread]: Store serial: [18378524]
