@@ -17583,3 +17583,183 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 17:32:57] INFO root fetch - processPackages [gordo]: Remove: archive file [/home/abi/fetcher/tmp/gordo-5.1.0.tar.gz]
 [2023-06-05 17:32:57] INFO root fetch - main [MainThread]: End processing [gordo]: success
 [2023-06-05 17:32:57] INFO root fetch - main [MainThread]: Store serial: [18377947]
+[2023-06-05 17:38:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377947]
+[2023-06-05 17:38:06] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pikendus-backend
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TypeDal
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt4all
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scdeepinsight
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aheadworks-deploy-manager
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: e4ting
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dune-client
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlx2md
+[2023-06-05 17:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: The-Distiller
+[2023-06-05 17:38:06] INFO root fetch - processPackages [robotframework]: New version: [6.1b1] Old Version: [6.1a1]
+[2023-06-05 17:38:06] INFO root fetch - processPackages [pikendus-backend]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-05 17:38:06] INFO root fetch - processPackages [scdeepinsight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 17:38:06] INFO root fetch - processPackages [TypeDal]: New version: [1.0.0b1] Old Version: [1.0.0]
+[2023-06-05 17:38:06] INFO root fetch - processPackages [mlx2md]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-05 17:38:06] WARNING root fetch - processPackages [e4ting]: Skipping, unable to determine old version
+[2023-06-05 17:38:06] INFO root fetch - processPackages [e4ting]: Start processing: sarpy
+[2023-06-05 17:38:06] INFO root fetch - processPackages [gpt4all]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-05 17:38:06] INFO root fetch - main [MainThread]: End processing [e4ting] error
+[2023-06-05 17:38:06] INFO root fetch - processPackages [dune-client]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-06-05 17:38:06] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-05 17:38:06] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/7a/94/639488ee8ea5f1ea3afca991fbd9824ae325f796f4d75155e328af4e97f9/scdeepinsight-0.1.8.tar.gz
+[2023-06-05 17:38:06] INFO root fetch - processPackages [mlx2md]: Downloading https://files.pythonhosted.org/packages/8b/98/5837fdc55af41e1bcfd0b604abcd23b72eb5f265c3886afabd3d128b739d/mlx2md-0.1.2.tar.gz
+[2023-06-05 17:38:06] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/a8/12/71f81e88013c286d993248a3e8753667bc491c5fb22fa884278b068c5303/aheadworks_deploy_manager-1.4.8.tar.gz
+[2023-06-05 17:38:06] WARNING root fetch - processPackages [The-Distiller]: Skipping, unable to determine old version
+[2023-06-05 17:38:06] INFO root fetch - processPackages [The-Distiller]: Start processing: giefstat
+[2023-06-05 17:38:06] INFO root fetch - main [MainThread]: End processing [The-Distiller] error
+[2023-06-05 17:38:06] INFO root fetch - processPackages [sarpy]: New version: [1.3.9] Old Version: [1.3.7]
+[2023-06-05 17:38:06] INFO root fetch - processPackages [robotframework]: Downloading https://files.pythonhosted.org/packages/c2/87/fec1acef7f3a46a52912c3cd2bd5aa0e0e43ca44c3689976a9524050e38f/robotframework-6.1a1.zip
+[2023-06-05 17:38:06] INFO root fetch - processPackages [giefstat]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 17:38:06] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/c1/5f/d76dbfc425b9a61eb58367df28d6269c4951f4d872083a96407c92753845/gpt4all-0.2.3-py3-none-win_amd64.whl
+[2023-06-05 17:38:06] INFO root fetch - processPackages [dune-client]: Downloading https://files.pythonhosted.org/packages/aa/f2/da82fc16c6b26f0c2b9d8adf270c270a5d97c3f1c361e8a691f3d0c46ad7/dune_client-1.0.0.tar.gz
+[2023-06-05 17:38:06] INFO root fetch - processPackages [TypeDal]: Downloading https://files.pythonhosted.org/packages/a2/ff/84a4934c78aa8f5d43bb399eac4fc4d2a92ff859eaaf1167b033b3cc2784/typedal-1.0.0.tar.gz
+[2023-06-05 17:38:06] INFO root fetch - processPackages [giefstat]: Downloading https://files.pythonhosted.org/packages/5c/d5/57cd931d58e4566fd62bfd55cfb8305704491a18a05d72f46ffcae0ba811/giefstat-0.0.4.tar.gz
+[2023-06-05 17:38:06] INFO root fetch - processPackages [pikendus-backend]: Downloading https://files.pythonhosted.org/packages/79/c9/099cdf7eaf7137f92aa9c2b672033308e3b2790998d47ef7be74897c691c/pikendus_backend-0.2.5.tar.gz
+[2023-06-05 17:38:06] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/b8/01/5da57b9f1dbd79a13b113866cf9afb24012c894a5971947bf7d29ae2ad18/aheadworks_deploy_manager-1.4.9.tar.gz
+[2023-06-05 17:38:07] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/2f/2f/fae6bd1d0603ad1ad76300900e502d5909ff55a2e6ffc66be1d57e90b926/scdeepinsight-0.1.9.tar.gz
+[2023-06-05 17:38:07] INFO root fetch - processPackages [sarpy]: Downloading https://files.pythonhosted.org/packages/f0/b7/6c4b5051a973e56ca2cc5ee4d03f4197477def218a72333ceba9c140c710/sarpy-1.3.7.tar.gz
+[2023-06-05 17:38:07] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-05 17:38:07] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230605/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-05 17:38:07] INFO root fetch - processPackages [mlx2md]: Downloading https://files.pythonhosted.org/packages/d0/f2/ed7ebe11e58eb78a5e052811ca75c325cd46171853ea4c37fe19e0bf121f/mlx2md-0.1.3.tar.gz
+[2023-06-05 17:38:07] INFO root fetch - processPackages [TypeDal]: Downloading https://files.pythonhosted.org/packages/6c/a0/d35540c04bb58ac71f08b3e2e58f24016b152ac6ccf294623a065a8fc2e8/typedal-1.0.0b1.tar.gz
+[2023-06-05 17:38:07] INFO root fetch - processPackages [giefstat]: Downloading https://files.pythonhosted.org/packages/d3/9c/6c02a734bef9f772eed5fd3b45237f23c23770c8c568d12ed03c6076fb2c/giefstat-0.0.5.tar.gz
+[2023-06-05 17:38:07] INFO root fetch - processPackages [dune-client]: Downloading https://files.pythonhosted.org/packages/db/7e/9ba1fd099560bb788c8a32acb341fe05e4b45752f237a63bb309657dc515/dune_client-1.1.1.tar.gz
+[2023-06-05 17:38:07] INFO root fetch - processPackages [pikendus-backend]: Downloading https://files.pythonhosted.org/packages/88/3a/75e6cbb2cd03bb59239ed2df70a685b5d22fcbedde0a41e4c3d3c75c2d65/pikendus_backend-0.2.6.tar.gz
+[2023-06-05 17:38:07] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/03/8b/06f2a965698d444e213d14c7f02fea87c7e2e04fb947a11b846ae26a9171/gpt4all-0.3.0-py3-none-win_amd64.whl
+[2023-06-05 17:38:07] INFO root fetch - processPackages [scdeepinsight]: executing diffoscope
+[2023-06-05 17:38:07] INFO root fetch - processPackages [scdeepinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdeepinsight-0.1.8.tar.gz tmp/scdeepinsight-0.1.9.tar.gz --markdown 20230605/s/scdeepinsight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 17:38:07] INFO root fetch - processPackages [robotframework]: Downloading https://files.pythonhosted.org/packages/5e/49/d63696a266438f140acb3055c029eb7b1e4d45d281f832ac3d641e2e6158/robotframework-6.1b1.zip
+[2023-06-05 17:38:07] INFO root fetch - processPackages [mlx2md]: executing diffoscope
+[2023-06-05 17:38:07] INFO root fetch - processPackages [mlx2md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx2md-0.1.2.tar.gz tmp/mlx2md-0.1.3.tar.gz --markdown 20230605/m/mlx2md/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-05 17:38:07] INFO root fetch - processPackages [dune-client]: executing diffoscope
+[2023-06-05 17:38:07] INFO root fetch - processPackages [dune-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_client-1.0.0.tar.gz tmp/dune_client-1.1.1.tar.gz --markdown 20230605/d/dune-client/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-05 17:38:07] INFO root fetch - processPackages [TypeDal]: executing diffoscope
+[2023-06-05 17:38:07] INFO root fetch - processPackages [TypeDal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedal-1.0.0.tar.gz tmp/typedal-1.0.0b1.tar.gz --markdown 20230605/T/TypeDal/1.0.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-06-05 17:38:07] INFO root fetch - processPackages [giefstat]: executing diffoscope
+[2023-06-05 17:38:07] INFO root fetch - processPackages [giefstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giefstat-0.0.4.tar.gz tmp/giefstat-0.0.5.tar.gz --markdown 20230605/g/giefstat/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 17:38:07] INFO root fetch - processPackages [pikendus-backend]: executing diffoscope
+[2023-06-05 17:38:07] INFO root fetch - processPackages [pikendus-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikendus_backend-0.2.5.tar.gz tmp/pikendus_backend-0.2.6.tar.gz --markdown 20230605/p/pikendus-backend/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-05 17:38:07] INFO root fetch - processPackages [robotframework]: executing diffoscope
+[2023-06-05 17:38:07] INFO root fetch - processPackages [robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-6.1a1.zip tmp/robotframework-6.1b1.zip --markdown 20230605/r/robotframework/6.1a1-6.1b1/diff.md --exclude *.pyd
+[2023-06-05 17:38:07] INFO root fetch - processPackages [sarpy]: Downloading https://files.pythonhosted.org/packages/43/06/ab70e2c79d0ab76d6488034a535af3c6f5aa2640790169277a8c64fddfdb/sarpy-1.3.9.tar.gz
+[2023-06-05 17:38:07] INFO root fetch - processPackages [sarpy]: executing diffoscope
+[2023-06-05 17:38:07] INFO root fetch - processPackages [sarpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarpy-1.3.7.tar.gz tmp/sarpy-1.3.9.tar.gz --markdown 20230605/s/sarpy/1.3.7-1.3.9/diff.md --exclude *.pyd
+[2023-06-05 17:38:08] INFO root fetch - processPackages [gpt4all]: executing diffoscope
+[2023-06-05 17:38:08] INFO root fetch - processPackages [gpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-0.2.3-py3-none-win_amd64.whl.zip tmp/gpt4all-0.3.0-py3-none-win_amd64.whl.zip --markdown 20230605/g/gpt4all/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 17:38:08] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.8.tar.gz]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.9.tar.gz]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [scdeepinsight]: Start processing: tpdk
+[2023-06-05 17:38:08] INFO root fetch - main [MainThread]: End processing [scdeepinsight]: success
+[2023-06-05 17:38:08] INFO root fetch - processPackages [tpdk]: New version: [2.0.7] Old Version: [2.0.0b2]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [mlx2md]: Remove: archive file [/home/abi/fetcher/tmp/mlx2md-0.1.2.tar.gz]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [mlx2md]: Remove: archive file [/home/abi/fetcher/tmp/mlx2md-0.1.3.tar.gz]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [mlx2md]: Start processing: odoo-addon-sale-report-delivered-subtotal
+[2023-06-05 17:38:08] INFO root fetch - main [MainThread]: End processing [mlx2md]: success
+[2023-06-05 17:38:08] INFO root fetch - processPackages [odoo-addon-sale-report-delivered-subtotal]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [tpdk]: Downloading https://files.pythonhosted.org/packages/ab/01/70af601ee1f07bfcc5a1af43e65c1a99d145cef490aa33b753f4c4a3b690/tpdk-2.0.0b2.tar.gz
+[2023-06-05 17:38:08] INFO root fetch - processPackages [giefstat]: Remove: archive file [/home/abi/fetcher/tmp/giefstat-0.0.4.tar.gz]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [giefstat]: Remove: archive file [/home/abi/fetcher/tmp/giefstat-0.0.5.tar.gz]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [giefstat]: Start processing: nonebot-plugin-twitter
+[2023-06-05 17:38:08] INFO root fetch - main [MainThread]: End processing [giefstat]: success
+[2023-06-05 17:38:08] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [odoo-addon-sale-report-delivered-subtotal]: Downloading https://files.pythonhosted.org/packages/cc/32/acdfd1afbbb47b3baf3a6b84805903745b6ddef0cf257107cf7d2909e6c6/odoo_addon_sale_report_delivered_subtotal-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-05 17:38:08] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.8.tar.gz]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.9.tar.gz]
+[2023-06-05 17:38:08] INFO root fetch - processPackages [aheadworks-deploy-manager]: Start processing: scdeepinsight
+[2023-06-05 17:38:08] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-05 17:38:08] INFO root fetch - processPackages [scdeepinsight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 17:38:09] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/a1/e8/f99efc3ba42c837a02ed00c7967e209d0331b2de2bf093cfc4cf9cec6e95/nonebot-plugin-twitter-0.0.4.tar.gz
+[2023-06-05 17:38:09] INFO root fetch - processPackages [pikendus-backend]: Remove: archive file [/home/abi/fetcher/tmp/pikendus_backend-0.2.5.tar.gz]
+[2023-06-05 17:38:09] INFO root fetch - processPackages [pikendus-backend]: Remove: archive file [/home/abi/fetcher/tmp/pikendus_backend-0.2.6.tar.gz]
+[2023-06-05 17:38:09] INFO root fetch - processPackages [pikendus-backend]: Start processing: datatrail-cli
+[2023-06-05 17:38:09] INFO root fetch - main [MainThread]: End processing [pikendus-backend]: success
+[2023-06-05 17:38:09] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/7a/94/639488ee8ea5f1ea3afca991fbd9824ae325f796f4d75155e328af4e97f9/scdeepinsight-0.1.8.tar.gz
+[2023-06-05 17:38:09] INFO root fetch - processPackages [datatrail-cli]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-05 17:38:09] INFO root fetch - processPackages [tpdk]: Downloading https://files.pythonhosted.org/packages/70/81/e121b7b38740d11be47e153d625331a22c721d2d82ae35770d7e740c3bae/tpdk-2.0.7.tar.gz
+[2023-06-05 17:38:09] INFO root fetch - processPackages [odoo-addon-sale-report-delivered-subtotal]: Downloading https://files.pythonhosted.org/packages/04/1f/72b2d9155a5d95799ce226963001094ce0863bdff796c80b11ea73478702/odoo_addon_sale_report_delivered_subtotal-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-05 17:38:09] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/73/ec/d0e48e12bf25702908e8c0550caf9810399127a9dc445361beeec6a5eea1/nonebot-plugin-twitter-0.0.5.tar.gz
+[2023-06-05 17:38:09] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/2f/2f/fae6bd1d0603ad1ad76300900e502d5909ff55a2e6ffc66be1d57e90b926/scdeepinsight-0.1.9.tar.gz
+[2023-06-05 17:38:09] INFO root fetch - processPackages [odoo-addon-sale-report-delivered-subtotal]: executing diffoscope
+[2023-06-05 17:38:09] INFO root fetch - processPackages [odoo-addon-sale-report-delivered-subtotal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_report_delivered_subtotal-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_report_delivered_subtotal-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-sale-report-delivered-subtotal/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-05 17:38:09] INFO root fetch - processPackages [tpdk]: executing diffoscope
+[2023-06-05 17:38:09] INFO root fetch - processPackages [tpdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpdk-2.0.0b2.tar.gz tmp/tpdk-2.0.7.tar.gz --markdown 20230605/t/tpdk/2.0.0b2-2.0.7/diff.md --exclude *.pyd
+[2023-06-05 17:38:09] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-06-05 17:38:09] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.0.4.tar.gz tmp/nonebot-plugin-twitter-0.0.5.tar.gz --markdown 20230605/n/nonebot-plugin-twitter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 17:38:09] INFO root fetch - processPackages [datatrail-cli]: Downloading https://files.pythonhosted.org/packages/61/a8/abae23e9de01a6555f937efbd26121fdf2439596e6173f4b9d673df18a5f/datatrail_cli-0.2.0.tar.gz
+[2023-06-05 17:38:09] INFO root fetch - processPackages [scdeepinsight]: executing diffoscope
+[2023-06-05 17:38:09] INFO root fetch - processPackages [scdeepinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdeepinsight-0.1.8.tar.gz tmp/scdeepinsight-0.1.9.tar.gz --markdown 20230605/s/scdeepinsight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 17:38:09] INFO root fetch - processPackages [datatrail-cli]: Downloading https://files.pythonhosted.org/packages/a8/7e/335ad78f0debbfee0f21ae8945f0b1a318df1612614dac36c44feae25809/datatrail_cli-0.3.0.tar.gz
+[2023-06-05 17:38:09] INFO root fetch - processPackages [dune-client]: Remove: archive file [/home/abi/fetcher/tmp/dune_client-1.0.0.tar.gz]
+[2023-06-05 17:38:09] INFO root fetch - processPackages [dune-client]: Remove: archive file [/home/abi/fetcher/tmp/dune_client-1.1.1.tar.gz]
+[2023-06-05 17:38:09] INFO root fetch - processPackages [dune-client]: Start processing: mypackagelicenseprototype
+[2023-06-05 17:38:09] INFO root fetch - main [MainThread]: End processing [dune-client]: success
+[2023-06-05 17:38:09] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-05 17:38:09] INFO root fetch - processPackages [datatrail-cli]: executing diffoscope
+[2023-06-05 17:38:09] INFO root fetch - processPackages [datatrail-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatrail_cli-0.2.0.tar.gz tmp/datatrail_cli-0.3.0.tar.gz --markdown 20230605/d/datatrail-cli/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 17:38:10] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/44/49/e9321a871861a3834926f1759abc7e6440491959dfefaab87a6b634738a5/mypackagelicenseprototype-2.1.0.tar.gz
+[2023-06-05 17:38:10] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/23/eb/1ba8a7852c6a25feed3ce5b79307b7594528c47544e0931a94b47d56fd3c/mypackagelicenseprototype-2.1.1.tar.gz
+[2023-06-05 17:38:10] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 17:38:10] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.1.0.tar.gz tmp/mypackagelicenseprototype-2.1.1.tar.gz --markdown 20230605/m/mypackagelicenseprototype/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-05 17:38:10] INFO root fetch - processPackages [odoo-addon-sale-report-delivered-subtotal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_report_delivered_subtotal-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [odoo-addon-sale-report-delivered-subtotal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_report_delivered_subtotal-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [odoo-addon-sale-report-delivered-subtotal]: Start processing: GooseHDF5
+[2023-06-05 17:38:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-report-delivered-subtotal]: success
+[2023-06-05 17:38:10] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.8.tar.gz]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.9.tar.gz]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [scdeepinsight]: Start processing: batchx
+[2023-06-05 17:38:10] INFO root fetch - main [MainThread]: End processing [scdeepinsight]: success
+[2023-06-05 17:38:10] INFO root fetch - processPackages [batchx]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [GooseHDF5]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.0.4.tar.gz]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.0.5.tar.gz]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [nonebot-plugin-twitter]: Start processing: lokii
+[2023-06-05 17:38:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-06-05 17:38:10] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/1a/b4/eafc6c05bd2118b4e79a8b7fe5d0f3b4f63562467082d84eb263df649056/batchx-9.8.0.tar.gz
+[2023-06-05 17:38:10] INFO root fetch - processPackages [lokii]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [lokii]: Downloading https://files.pythonhosted.org/packages/f2/04/22fba8a27cc05954fed0f98b2f1dc538817fe1f401714352a37d7defb397/lokii-1.1.4.tar.gz
+[2023-06-05 17:38:10] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/5b/81/5c50aa0623da735c9a61638def1c8ce16e9c73508049a9a537486f67b2cc/batchx-9.9.0.tar.gz
+[2023-06-05 17:38:10] INFO root fetch - processPackages [datatrail-cli]: Remove: archive file [/home/abi/fetcher/tmp/datatrail_cli-0.2.0.tar.gz]
+[2023-06-05 17:38:10] INFO root fetch - processPackages [datatrail-cli]: Remove: archive file [/home/abi/fetcher/tmp/datatrail_cli-0.3.0.tar.gz]
+[2023-06-05 17:38:10] INFO root fetch - main [MainThread]: End processing [datatrail-cli]: success
+[2023-06-05 17:38:10] INFO root fetch - processPackages [GooseHDF5]: Downloading https://files.pythonhosted.org/packages/8a/b3/d391ec5c162f1b2821ca2905d81ed96f689168aad857d8186ba9848f496a/GooseHDF5-0.9.1.tar.gz
+[2023-06-05 17:38:10] INFO root fetch - processPackages [batchx]: executing diffoscope
+[2023-06-05 17:38:10] INFO root fetch - processPackages [batchx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchx-9.8.0.tar.gz tmp/batchx-9.9.0.tar.gz --markdown 20230605/b/batchx/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-06-05 17:38:11] INFO root fetch - processPackages [lokii]: Downloading https://files.pythonhosted.org/packages/1d/b7/1bf1de45d3cc3e34dd3368f7a79d81119ea9f29b176b131037364012b58b/lokii-1.1.5.tar.gz
+[2023-06-05 17:38:11] INFO root fetch - processPackages [lokii]: executing diffoscope
+[2023-06-05 17:38:11] INFO root fetch - processPackages [lokii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokii-1.1.4.tar.gz tmp/lokii-1.1.5.tar.gz --markdown 20230605/l/lokii/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-05 17:38:11] INFO root fetch - processPackages [GooseHDF5]: Downloading https://files.pythonhosted.org/packages/66/90/0ca3fb5d8d84c81d4e05c276d39995e8e0238097a549716660a6e2ec401a/GooseHDF5-0.9.2.tar.gz
+[2023-06-05 17:38:11] INFO root fetch - processPackages [GooseHDF5]: executing diffoscope
+[2023-06-05 17:38:11] INFO root fetch - processPackages [GooseHDF5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GooseHDF5-0.9.1.tar.gz tmp/GooseHDF5-0.9.2.tar.gz --markdown 20230605/G/GooseHDF5/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 17:38:12] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.8.0.tar.gz]
+[2023-06-05 17:38:12] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.9.0.tar.gz]
+[2023-06-05 17:38:12] INFO root fetch - main [MainThread]: End processing [batchx]: success
+[2023-06-05 17:38:12] INFO root fetch - processPackages [robotframework]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-6.1a1.zip]
+[2023-06-05 17:38:12] INFO root fetch - processPackages [robotframework]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-6.1b1.zip]
+[2023-06-05 17:38:12] INFO root fetch - main [MainThread]: End processing [robotframework]: success
+[2023-06-05 17:38:12] INFO root fetch - processPackages [GooseHDF5]: Remove: archive file [/home/abi/fetcher/tmp/GooseHDF5-0.9.1.tar.gz]
+[2023-06-05 17:38:12] INFO root fetch - processPackages [GooseHDF5]: Remove: archive file [/home/abi/fetcher/tmp/GooseHDF5-0.9.2.tar.gz]
+[2023-06-05 17:38:12] INFO root fetch - main [MainThread]: End processing [GooseHDF5]: success
+[2023-06-05 17:38:12] INFO root fetch - processPackages [lokii]: Remove: archive file [/home/abi/fetcher/tmp/lokii-1.1.4.tar.gz]
+[2023-06-05 17:38:12] INFO root fetch - processPackages [lokii]: Remove: archive file [/home/abi/fetcher/tmp/lokii-1.1.5.tar.gz]
+[2023-06-05 17:38:12] INFO root fetch - main [MainThread]: End processing [lokii]: success
+[2023-06-05 17:38:13] INFO root fetch - processPackages [gpt4all]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-0.2.3-py3-none-win_amd64.whl.zip]
+[2023-06-05 17:38:13] INFO root fetch - processPackages [gpt4all]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-0.3.0-py3-none-win_amd64.whl.zip]
+[2023-06-05 17:38:13] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
+[2023-06-05 17:38:13] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.0.tar.gz]
+[2023-06-05 17:38:13] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.1.tar.gz]
+[2023-06-05 17:38:13] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 17:38:13] INFO root fetch - processPackages [tpdk]: Remove: archive file [/home/abi/fetcher/tmp/tpdk-2.0.0b2.tar.gz]
+[2023-06-05 17:38:13] INFO root fetch - processPackages [tpdk]: Remove: archive file [/home/abi/fetcher/tmp/tpdk-2.0.7.tar.gz]
+[2023-06-05 17:38:13] INFO root fetch - main [MainThread]: End processing [tpdk]: success
+[2023-06-05 17:38:24] INFO root fetch - processPackages [sarpy]: Remove: archive file [/home/abi/fetcher/tmp/sarpy-1.3.7.tar.gz]
+[2023-06-05 17:38:24] INFO root fetch - processPackages [sarpy]: Remove: archive file [/home/abi/fetcher/tmp/sarpy-1.3.9.tar.gz]
+[2023-06-05 17:38:24] INFO root fetch - main [MainThread]: End processing [sarpy]: success
+[2023-06-05 17:39:04] INFO root fetch - processPackages [TypeDal]: Remove: archive file [/home/abi/fetcher/tmp/typedal-1.0.0.tar.gz]
+[2023-06-05 17:39:04] INFO root fetch - processPackages [TypeDal]: Remove: archive file [/home/abi/fetcher/tmp/typedal-1.0.0b1.tar.gz]
+[2023-06-05 17:39:04] INFO root fetch - main [MainThread]: End processing [TypeDal]: success
+[2023-06-05 17:39:04] INFO root fetch - main [MainThread]: Store serial: [18378013]
