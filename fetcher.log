@@ -22847,3 +22847,220 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 20:58:36] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-05 20:58:36] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-05 20:58:36] INFO root fetch - main [MainThread]: Store serial: [18380125]
+[2023-06-05 21:03:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18380125]
+[2023-06-05 21:03:45] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rai-sdk
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ktrain
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rhubarb-py
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-database-cleanup
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchainplus-sdk
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterhub-firstuseauthenticator-greg
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-survey-sale-generation
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deoldify
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sasview
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: depthai-sdk
+[2023-06-05 21:03:45] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2023-06-05 21:03:45] INFO root fetch - processPackages [rai-sdk]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 21:03:45] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ktrain]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-05 21:03:45] INFO root fetch - processPackages [depthai-sdk]: New version: [1.9.5] Old Version: [1.9.4.1]
+[2023-06-05 21:03:45] INFO root fetch - processPackages [sasview]: New version: [5.0.6b3] Old Version: [5.0.6b2]
+[2023-06-05 21:03:45] WARNING root fetch - processPackages [odoo-addon-survey-sale-generation]: Skipping, unable to determine old version
+[2023-06-05 21:03:45] INFO root fetch - processPackages [rhubarb-py]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-06-05 21:03:45] WARNING root fetch - processPackages [deoldify]: Skipping, unable to determine old version
+[2023-06-05 21:03:45] INFO root fetch - processPackages [odoo-addon-survey-sale-generation]: Start processing: redoubt-agent
+[2023-06-05 21:03:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-sale-generation] error
+[2023-06-05 21:03:45] INFO root fetch - processPackages [deoldify]: Start processing: pulumi-okta
+[2023-06-05 21:03:45] INFO root fetch - main [MainThread]: End processing [deoldify] error
+[2023-06-05 21:03:45] INFO root fetch - processPackages [pulumi-okta]: New version: [4.1.0a1685990084] Old Version: [4.0.0a1685982970]
+[2023-06-05 21:03:45] INFO root fetch - processPackages [redoubt-agent]: New version: [0.1.97] Old Version: [0.1.96]
+[2023-06-05 21:03:45] ERROR root fetch - processPackages [jupyterhub-firstuseauthenticator-greg]: Unable to get metadata: No such project 'jupyterhub-firstuseauthenticator-greg'
+[2023-06-05 21:03:45] INFO root fetch - processPackages [jupyterhub-firstuseauthenticator-greg]: Start processing: magnus
+[2023-06-05 21:03:45] INFO root fetch - main [MainThread]: End processing [jupyterhub-firstuseauthenticator-greg] error
+[2023-06-05 21:03:45] INFO root fetch - processPackages [magnus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-05 21:03:45] WARNING root fetch - processPackages [sasview]: fallback to get urls: [5.0.6b2]
+[2023-06-05 21:03:45] WARNING root fetch - processPackages [sasview]: None
+[2023-06-05 21:03:45] WARNING root fetch - processPackages [sasview]: None
+[2023-06-05 21:03:45] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/db/cc/7eef9633651c6ef51a32d1d045c5b608a4e4124f484c83018b450705b2e7/odoo14_addon_database_cleanup-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-06-05 21:03:45] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/af/b3/6ace5fe52040d8ab0801d3c944a743f0a7066f25735656866f2ef9c43e04/langchainplus_sdk-0.0.3.tar.gz
+[2023-06-05 21:03:45] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/20/eb/0df359cc2efb53018ab6bb3265e923186a11e3b4874f563e38ed961a4982/depthai-sdk-1.9.4.1.tar.gz
+[2023-06-05 21:03:45] WARNING root fetch - processPackages [sasview]: unable to get url for both version [5.0.6b2]
+[2023-06-05 21:03:45] INFO root fetch - processPackages [rai-sdk]: Downloading https://files.pythonhosted.org/packages/26/2f/e96e3afb168e9b2137f61b5be52114f38f3360f0f84e23db1b47c354542f/rai-sdk-0.6.8.tar.gz
+[2023-06-05 21:03:45] WARNING root fetch - processPackages [sasview]: None
+[2023-06-05 21:03:45] INFO root fetch - processPackages [sasview]: Start processing: snaptrade-python-sdk
+[2023-06-05 21:03:45] INFO root fetch - main [MainThread]: End processing [sasview] error
+[2023-06-05 21:03:45] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/e1/67/2c22d38035116647256ed330346063f29db5695b7a7752203309734692da/pulumi_okta-4.0.0a1685982970.tar.gz
+[2023-06-05 21:03:45] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/4c/eb/f7c8eecbaa0e06d80dbf78e1ae6b293b944d89a1f294331324c0b5262ad4/ktrain-0.9.3.tar.gz
+[2023-06-05 21:03:45] INFO root fetch - processPackages [redoubt-agent]: Downloading https://files.pythonhosted.org/packages/50/fb/76b633d3a15f6337472f94da6260c76f11f5ada090f49671aa2d269a121d/redoubt_agent-0.1.96.tar.gz
+[2023-06-05 21:03:45] INFO root fetch - processPackages [rhubarb-py]: Downloading https://files.pythonhosted.org/packages/91/c7/ae19b706167a25a4b508d66de4f4cdf2b70613b7a6419bebeb586efa1c2e/rhubarb_py-1.8.5.tar.gz
+[2023-06-05 21:03:45] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-06-05 21:03:45] INFO root fetch - processPackages [magnus]: Downloading https://files.pythonhosted.org/packages/90/39/6e79fcb32eeb63890ea90c481570e93e3cc96f5428dd4de86e0421b4a87d/magnus-0.4.8.tar.gz
+[2023-06-05 21:03:45] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/f9/ee/ee84637e4dada8e564800d1f08259606137855f54352487fc3d5d7030d23/langchainplus_sdk-0.0.4.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.3.tar.gz tmp/langchainplus_sdk-0.0.4.tar.gz --markdown 20230605/l/langchainplus-sdk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 21:03:46] INFO root fetch - processPackages [redoubt-agent]: Downloading https://files.pythonhosted.org/packages/08/60/91acc4201f10f7b0148488d8d8b3959de660b54cb9c52c2a9cacae15bbbf/redoubt_agent-0.1.97.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/76/f2/8c8786d4cd80a4b341295c80c397d87d4f57bfaf38e6908aff9e36e7dc4a/pulumi_okta-4.1.0a1685990084.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/0d/b6/1fd3c457321d7bcc252301e29a0aab003970896d8cad6e1c0c816b3cb22b/odoo14_addon_database_cleanup-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-06-05 21:03:46] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/8a/c6/52f9402b7ada5aae5bbcd8c9a70c488e99bfdb7e05ea708ea6bb2f02b64c/depthai-sdk-1.9.5.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [rhubarb-py]: Downloading https://files.pythonhosted.org/packages/24/97/1d76bc0b2fd86190e02fd466a5de44f4e55571e8cf7a16cbf59acd5e3baf/rhubarb_py-1.8.6.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [rai-sdk]: Downloading https://files.pythonhosted.org/packages/84/cd/5fc48204dc435a5b258ed074a52393010e06fe340e6bbb3294ca93607d0c/rai-sdk-0.6.9.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [redoubt-agent]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [redoubt-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redoubt_agent-0.1.96.tar.gz tmp/redoubt_agent-0.1.97.tar.gz --markdown 20230605/r/redoubt-agent/0.1.96-0.1.97/diff.md --exclude *.pyd
+[2023-06-05 21:03:46] INFO root fetch - processPackages [rhubarb-py]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [rhubarb-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhubarb_py-1.8.5.tar.gz tmp/rhubarb_py-1.8.6.tar.gz --markdown 20230605/r/rhubarb-py/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-06-05 21:03:46] INFO root fetch - processPackages [magnus]: Downloading https://files.pythonhosted.org/packages/44/a5/abfc74ee3d541331891e45d0986c3171ab5084231cebacc144a6afd310b0/magnus-0.4.9.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/73/d5/77df174a24b752d0c7bb5a140591e2c909781b0ab6d9d73451d484a6ede2/ktrain-0.9.4.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.0.0a1685982970.tar.gz tmp/pulumi_okta-4.1.0a1685990084.tar.gz --markdown 20230605/p/pulumi-okta/4.0.0a1685982970-4.1.0a1685990084/diff.md --exclude *.pyd
+[2023-06-05 21:03:46] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_database_cleanup-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_database_cleanup-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230605/o/odoo14-addon-database-cleanup/14.0.1.0.2.dev3-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-06-05 21:03:46] INFO root fetch - processPackages [rai-sdk]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [rai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai-sdk-0.6.8.tar.gz tmp/rai-sdk-0.6.9.tar.gz --markdown 20230605/r/rai-sdk/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 21:03:46] INFO root fetch - processPackages [magnus]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [ktrain]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [magnus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnus-0.4.8.tar.gz tmp/magnus-0.4.9.tar.gz --markdown 20230605/m/magnus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-05 21:03:46] INFO root fetch - processPackages [ktrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktrain-0.9.3.tar.gz tmp/ktrain-0.9.4.tar.gz --markdown 20230605/k/ktrain/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-05 21:03:46] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2023-06-05 21:03:46] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230605/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-05 21:03:46] INFO root fetch - processPackages [depthai-sdk]: executing diffoscope
+[2023-06-05 21:03:46] INFO root fetch - processPackages [depthai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthai-sdk-1.9.4.1.tar.gz tmp/depthai-sdk-1.9.5.tar.gz --markdown 20230605/d/depthai-sdk/1.9.4.1-1.9.5/diff.md --exclude *.pyd
+[2023-06-05 21:03:47] INFO root fetch - processPackages [redoubt-agent]: Remove: archive file [/home/abi/fetcher/tmp/redoubt_agent-0.1.96.tar.gz]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [redoubt-agent]: Remove: archive file [/home/abi/fetcher/tmp/redoubt_agent-0.1.97.tar.gz]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [redoubt-agent]: Start processing: lollms
+[2023-06-05 21:03:47] INFO root fetch - main [MainThread]: End processing [redoubt-agent]: success
+[2023-06-05 21:03:47] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.3.tar.gz]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.4.tar.gz]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [langchainplus-sdk]: Start processing: cloud-governance
+[2023-06-05 21:03:47] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-06-05 21:03:47] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-05 21:03:47] INFO root fetch - processPackages [rai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rai-sdk-0.6.8.tar.gz]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [rai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rai-sdk-0.6.9.tar.gz]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [rai-sdk]: Start processing: pyikarus
+[2023-06-05 21:03:47] INFO root fetch - main [MainThread]: End processing [rai-sdk]: success
+[2023-06-05 21:03:47] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-05 21:03:47] INFO root fetch - processPackages [lollms]: Start processing: nonebot-plugin-send-anything-anywhere
+[2023-06-05 21:03:47] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-05 21:03:47] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-05 21:03:47] INFO root fetch - processPackages [pyikarus]: New version: [0.3.3.dev20230605190030] Old Version: [0.3.3.dev20230605185501]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-05 21:03:47] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/90/c9/f0fef36bab51b1c31d0e63db96f046cf0d5ceecc231cb3d3d5bb6541da19/pyikarus-0.3.3.dev20230605185501.tar.gz
+[2023-06-05 21:03:47] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Downloading https://files.pythonhosted.org/packages/10/92/d41f8033e3b7fdfd2bd28d73a562544fca008ce8679b6a0aa1002f694a54/nonebot_plugin_send_anything_anywhere-0.2.5.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-05 21:03:48] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230605/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-05 21:03:48] INFO root fetch - processPackages [rhubarb-py]: Remove: archive file [/home/abi/fetcher/tmp/rhubarb_py-1.8.5.tar.gz]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [rhubarb-py]: Remove: archive file [/home/abi/fetcher/tmp/rhubarb_py-1.8.6.tar.gz]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [rhubarb-py]: Start processing: vja
+[2023-06-05 21:03:48] INFO root fetch - main [MainThread]: End processing [rhubarb-py]: success
+[2023-06-05 21:03:48] INFO root fetch - processPackages [magnus]: Remove: archive file [/home/abi/fetcher/tmp/magnus-0.4.8.tar.gz]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [magnus]: Remove: archive file [/home/abi/fetcher/tmp/magnus-0.4.9.tar.gz]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [magnus]: Start processing: eodc-faas-snap
+[2023-06-05 21:03:48] INFO root fetch - main [MainThread]: End processing [magnus]: success
+[2023-06-05 21:03:48] INFO root fetch - processPackages [vja]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [eodc-faas-snap]: New version: [2023.6.0rc0] Old Version: [2023.6.0]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [eodc-faas-snap]: Downloading https://files.pythonhosted.org/packages/4e/80/959666756b20be3c2f37e8d3504d94eb0d04452cefbab20a4aa03a23cb19/eodc_faas_snap-2023.6.0.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.3.tar.gz]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.4.tar.gz]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [ktrain]: Start processing: osu-wiki-tools
+[2023-06-05 21:03:48] INFO root fetch - main [MainThread]: End processing [ktrain]: success
+[2023-06-05 21:03:48] INFO root fetch - processPackages [osu-wiki-tools]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [vja]: Downloading https://files.pythonhosted.org/packages/08/81/6b344dc69f6f611e9163f1e2dcd6629cb2538a5d40fa38b64c6b284e2b45/vja-2.0.0rc2.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/db/9a/137596ce2b903deb5d58ebc586438b2686cdc38d28dbd987f95739cdff67/pyikarus-0.3.3.dev20230605190030.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Downloading https://files.pythonhosted.org/packages/5b/ee/3df0b1776ec17ab70a28f64bd25e50ac5c5cc24c3ac5c06447c668efa397/nonebot_plugin_send_anything_anywhere-0.2.6.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: executing diffoscope
+[2023-06-05 21:03:48] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_send_anything_anywhere-0.2.5.tar.gz tmp/nonebot_plugin_send_anything_anywhere-0.2.6.tar.gz --markdown 20230605/n/nonebot-plugin-send-anything-anywhere/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-05 21:03:48] INFO root fetch - processPackages [eodc-faas-snap]: Downloading https://files.pythonhosted.org/packages/9d/d0/f339a37171d9db458c161765b330fb0ce4f7620fcb4fff0a6578ae142e02/eodc_faas_snap-2023.6.0rc0.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-06-05 21:03:48] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.3.dev20230605185501.tar.gz tmp/pyikarus-0.3.3.dev20230605190030.tar.gz --markdown 20230605/p/pyikarus/0.3.3.dev20230605185501-0.3.3.dev20230605190030/diff.md --exclude *.pyd
+[2023-06-05 21:03:48] INFO root fetch - processPackages [osu-wiki-tools]: Downloading https://files.pythonhosted.org/packages/7b/c3/795e69fa382893172f73f166742c4c4bb31ac7839f9622a9de798a60b57a/osu-wiki-tools-1.1.3.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_database_cleanup-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_database_cleanup-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: Start processing: quick-batch
+[2023-06-05 21:03:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-database-cleanup]: success
+[2023-06-05 21:03:48] INFO root fetch - processPackages [quick-batch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 21:03:48] INFO root fetch - processPackages [eodc-faas-snap]: executing diffoscope
+[2023-06-05 21:03:48] INFO root fetch - processPackages [eodc-faas-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_snap-2023.6.0.tar.gz tmp/eodc_faas_snap-2023.6.0rc0.tar.gz --markdown 20230605/e/eodc-faas-snap/2023.6.0-2023.6.0rc0/diff.md --exclude *.pyd
+[2023-06-05 21:03:48] INFO root fetch - processPackages [vja]: Downloading https://files.pythonhosted.org/packages/1e/5d/5761f2e232c6acb998f921d03f2ee09781853c4fe394facf220435786b33/vja-2.0.0rc3.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [quick-batch]: Downloading https://files.pythonhosted.org/packages/29/4f/8ad4f23b1d921033ea5b2a675d3cbfc3a3ab2a60c57b95edfa484cb62a52/quick_batch-0.1.8.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [vja]: executing diffoscope
+[2023-06-05 21:03:48] INFO root fetch - processPackages [vja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vja-2.0.0rc2.tar.gz tmp/vja-2.0.0rc3.tar.gz --markdown 20230605/v/vja/2.0.0rc2-2.0.0rc3/diff.md --exclude *.pyd
+[2023-06-05 21:03:48] INFO root fetch - processPackages [osu-wiki-tools]: Downloading https://files.pythonhosted.org/packages/1c/c2/7ff1878ed14ee90860086100daa494fb3b9bc7202824ecba8ae351dd6a3a/osu-wiki-tools-1.1.4.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [osu-wiki-tools]: executing diffoscope
+[2023-06-05 21:03:48] INFO root fetch - processPackages [osu-wiki-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osu-wiki-tools-1.1.3.tar.gz tmp/osu-wiki-tools-1.1.4.tar.gz --markdown 20230605/o/osu-wiki-tools/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-05 21:03:48] INFO root fetch - processPackages [quick-batch]: Downloading https://files.pythonhosted.org/packages/15/1c/478e719ecaf658c1a590f8e01b54a767faf97e07ab33769040c9be3a7515/quick_batch-0.1.9.tar.gz
+[2023-06-05 21:03:48] INFO root fetch - processPackages [quick-batch]: executing diffoscope
+[2023-06-05 21:03:48] INFO root fetch - processPackages [quick-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_batch-0.1.8.tar.gz tmp/quick_batch-0.1.9.tar.gz --markdown 20230605/q/quick-batch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 21:03:49] INFO root fetch - processPackages [depthai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/depthai-sdk-1.9.4.1.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [depthai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/depthai-sdk-1.9.5.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [depthai-sdk]: Start processing: llm-generation-server
+[2023-06-05 21:03:49] INFO root fetch - main [MainThread]: End processing [depthai-sdk]: success
+[2023-06-05 21:03:49] INFO root fetch - processPackages [llm-generation-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.0.0a1685982970.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.1.0a1685990084.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [pulumi-okta]: Start processing: otpme
+[2023-06-05 21:03:49] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-06-05 21:03:49] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-05 21:03:49] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/d7/79/d2a5201af9976eb13abece0c1ddc942db3e35983e6c94707fd1e6b2788d8/llm_generation_server-0.0.8.tar.gz
+[2023-06-05 21:03:49] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_send_anything_anywhere-0.2.5.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_send_anything_anywhere-0.2.6.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Start processing: geome
+[2023-06-05 21:03:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-send-anything-anywhere]: success
+[2023-06-05 21:03:49] WARNING root fetch - processPackages [geome]: Skipping, unable to determine old version
+[2023-06-05 21:03:49] INFO root fetch - processPackages [geome]: Start processing: Simba-UW-tf-dev
+[2023-06-05 21:03:49] INFO root fetch - main [MainThread]: End processing [geome] error
+[2023-06-05 21:03:49] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/1b/92/b7a81c1ae09072f32e01c8f4f15a71efb359935e76a2cdba62984beb2ea1/llm_generation_server-0.0.9.tar.gz
+[2023-06-05 21:03:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.62.4] Old Version: [1.62.3]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-05 21:03:49] INFO root fetch - processPackages [eodc-faas-snap]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_snap-2023.6.0.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [eodc-faas-snap]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_snap-2023.6.0rc0.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [eodc-faas-snap]: Start processing: release-gitter
+[2023-06-05 21:03:49] INFO root fetch - main [MainThread]: End processing [eodc-faas-snap]: success
+[2023-06-05 21:03:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/a9/27/4dcad58ea6798dab5951eb22bef7cc53f7c174cf024b6fc382b0a3e40956/Simba-UW-tf-dev-1.62.3.tar.gz
+[2023-06-05 21:03:49] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-06-05 21:03:49] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.8.tar.gz tmp/llm_generation_server-0.0.9.tar.gz --markdown 20230605/l/llm-generation-server/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 21:03:49] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-05 21:03:49] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230605/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-05 21:03:49] INFO root fetch - processPackages [vja]: Remove: archive file [/home/abi/fetcher/tmp/vja-2.0.0rc2.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - processPackages [vja]: Remove: archive file [/home/abi/fetcher/tmp/vja-2.0.0rc3.tar.gz]
+[2023-06-05 21:03:49] INFO root fetch - main [MainThread]: End processing [vja]: success
+[2023-06-05 21:03:50] INFO root fetch - processPackages [release-gitter]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-05 21:03:50] INFO root fetch - processPackages [osu-wiki-tools]: Remove: archive file [/home/abi/fetcher/tmp/osu-wiki-tools-1.1.3.tar.gz]
+[2023-06-05 21:03:50] INFO root fetch - processPackages [osu-wiki-tools]: Remove: archive file [/home/abi/fetcher/tmp/osu-wiki-tools-1.1.4.tar.gz]
+[2023-06-05 21:03:50] INFO root fetch - main [MainThread]: End processing [osu-wiki-tools]: success
+[2023-06-05 21:03:50] INFO root fetch - processPackages [release-gitter]: Downloading https://files.pythonhosted.org/packages/40/14/114ef6a2a15e1459ed12c344ce9581186102c156fb4376e5f31f8f5d860a/release-gitter-2.0.0.tar.gz
+[2023-06-05 21:03:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/0f/c6/aa0e739afe231a4f3acc65d3c0e9bfe2238a33c976fb1542706c7c71deae/Simba-UW-tf-dev-1.62.4.tar.gz
+[2023-06-05 21:03:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-06-05 21:03:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.62.3.tar.gz tmp/Simba-UW-tf-dev-1.62.4.tar.gz --markdown 20230605/S/Simba-UW-tf-dev/1.62.3-1.62.4/diff.md --exclude *.pyd
+[2023-06-05 21:03:50] INFO root fetch - processPackages [release-gitter]: Downloading https://files.pythonhosted.org/packages/f4/bf/9b2e730e40f25ba6db0d1ed7f53850e357cd4de9d9973601a62ba53c9df7/release-gitter-2.1.0.tar.gz
+[2023-06-05 21:03:50] INFO root fetch - processPackages [release-gitter]: executing diffoscope
+[2023-06-05 21:03:50] INFO root fetch - processPackages [release-gitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/release-gitter-2.0.0.tar.gz tmp/release-gitter-2.1.0.tar.gz --markdown 20230605/r/release-gitter/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-05 21:03:50] INFO root fetch - processPackages [quick-batch]: Remove: archive file [/home/abi/fetcher/tmp/quick_batch-0.1.8.tar.gz]
+[2023-06-05 21:03:50] INFO root fetch - processPackages [quick-batch]: Remove: archive file [/home/abi/fetcher/tmp/quick_batch-0.1.9.tar.gz]
+[2023-06-05 21:03:50] INFO root fetch - main [MainThread]: End processing [quick-batch]: success
+[2023-06-05 21:03:51] INFO root fetch - processPackages [pyikarus]: Remove: archive file [/home/abi/fetcher/tmp/pyikarus-0.3.3.dev20230605185501.tar.gz]
+[2023-06-05 21:03:51] INFO root fetch - processPackages [pyikarus]: Remove: archive file [/home/abi/fetcher/tmp/pyikarus-0.3.3.dev20230605190030.tar.gz]
+[2023-06-05 21:03:51] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-06-05 21:03:51] INFO root fetch - processPackages [release-gitter]: Remove: archive file [/home/abi/fetcher/tmp/release-gitter-2.0.0.tar.gz]
+[2023-06-05 21:03:51] INFO root fetch - processPackages [release-gitter]: Remove: archive file [/home/abi/fetcher/tmp/release-gitter-2.1.0.tar.gz]
+[2023-06-05 21:03:51] INFO root fetch - main [MainThread]: End processing [release-gitter]: success
+[2023-06-05 21:03:52] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-05 21:03:52] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-05 21:03:52] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-05 21:03:53] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.0.8.tar.gz]
+[2023-06-05 21:03:53] INFO root fetch - processPackages [llm-generation-server]: Remove: archive file [/home/abi/fetcher/tmp/llm_generation_server-0.0.9.tar.gz]
+[2023-06-05 21:03:53] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-06-05 21:03:53] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-05 21:03:53] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-05 21:03:53] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-05 21:03:55] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.62.3.tar.gz]
+[2023-06-05 21:03:55] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.62.4.tar.gz]
+[2023-06-05 21:03:55] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-06-05 21:03:56] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-8.4.0.tar.gz]
+[2023-06-05 21:03:56] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-9.0.0.tar.gz]
+[2023-06-05 21:03:56] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-06-05 21:03:56] INFO root fetch - main [MainThread]: Store serial: [18380209]
