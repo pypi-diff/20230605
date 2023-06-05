@@ -14600,3 +14600,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 15:47:45] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-05 15:47:47] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-05 15:47:47] INFO root fetch - main [MainThread]: Store serial: [18376694]
+[2023-06-05 15:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376694]
+[2023-06-05 15:52:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kili
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blond
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-invoice-margin-sale
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypackagelicenseprototype
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plonetheme.barceloneta
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubemarine
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: govqa
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-magicauth
+[2023-06-05 15:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-data-services-lwdp
+[2023-06-05 15:52:58] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [blond]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [django-magicauth]: New version: [0.9] Old Version: [0.8]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [plonetheme.barceloneta]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [kubemarine]: New version: [0.18.0] Old Version: [0.17.0]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [govqa]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5177903823] Old Version: [2.1.0.0.dev5177789171]
+[2023-06-05 15:52:58] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: Downloading https://files.pythonhosted.org/packages/92/c3/a94b34245a88be2657f33adb38468aa237835c8dec4e715aeb5cf8215725/odoo_addon_account_invoice_margin_sale-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-05 15:52:58] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 15:52:58] INFO root fetch - processPackages [govqa]: Downloading https://files.pythonhosted.org/packages/ca/20/90db4627cab27a953c6b6f2f66e9f8c7e08117f7a7cedb7f4769fd9065ad/govqa-0.1.1-py3-none-any.whl
+[2023-06-05 15:52:58] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/6d/20/579ff9277dfc48d22d3266e71a7a9bf68fd5df158eab4759d618b72cfdec/th2_data_services_lwdp-2.1.0.0.dev5177789171.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/a9/85/b16168bdb8844b30d945196a8c8e0da49a722e2cf0e009971c0f4dfa6de8/plonetheme.barceloneta-3.1.2.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [django-magicauth]: Downloading https://files.pythonhosted.org/packages/91/76/3b4c4f5d15a13eaa494d684a0fb466f7c222e7fde44a289c36212f0d10fb/django-magicauth-0.8.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/71/6f/94a4a5deca276b2def7c654f9d74593d3bb4c957c716b0346f985704dfad/blond-2.1.3.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-05 15:52:58] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 15:52:58] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230605/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-05 15:52:58] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:52:58] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [kubemarine]: Downloading https://files.pythonhosted.org/packages/e3/f1/285b57c4d59a0d1037ade5971f6231397abcba6100d2377186f7d6d38d29/kubemarine-0.17.0.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: Downloading https://files.pythonhosted.org/packages/4b/d0/c399337592b685f69df9e170756d83b673fd0141a9e3c1b9d2028f5c55fd/odoo_addon_account_invoice_margin_sale-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-05 15:52:58] INFO root fetch - processPackages [govqa]: Downloading https://files.pythonhosted.org/packages/65/7e/f15a475cb2a6b165fb0a63ad889f9d430d366d471900a61611b9200e2e1b/govqa-1.0.0-py3-none-any.whl
+[2023-06-05 15:52:58] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/f3/d5/968583fdecac8af40653d965866cba7f2c703ad9d0d6e57a94b006201418/th2_data_services_lwdp-2.1.0.0.dev5177903823.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: executing diffoscope
+[2023-06-05 15:52:58] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_margin_sale-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_margin_sale-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-account-invoice-margin-sale/15.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-05 15:52:58] INFO root fetch - processPackages [govqa]: executing diffoscope
+[2023-06-05 15:52:58] INFO root fetch - processPackages [govqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govqa-0.1.1-py3-none-any.whl.zip tmp/govqa-1.0.0-py3-none-any.whl.zip --markdown 20230605/g/govqa/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 15:52:58] INFO root fetch - processPackages [kubemarine]: Downloading https://files.pythonhosted.org/packages/c4/98/9fb4e0e5a56b5d9ed24a67dff6dbb752fa9957fc18dc39bb4ad118132715/kubemarine-0.18.0.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [django-magicauth]: Downloading https://files.pythonhosted.org/packages/db/43/2a7d99e54443c3a84c7e0be41d4c729942b44a23c44dec6593a59e63945d/django-magicauth-0.9.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [kubemarine]: executing diffoscope
+[2023-06-05 15:52:58] INFO root fetch - processPackages [kubemarine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubemarine-0.17.0.tar.gz tmp/kubemarine-0.18.0.tar.gz --markdown 20230605/k/kubemarine/0.17.0-0.18.0/diff.md --exclude *.pyd
+[2023-06-05 15:52:58] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-05 15:52:58] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5177789171.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5177903823.tar.gz --markdown 20230605/t/th2-data-services-lwdp/2.1.0.0.dev5177789171-2.1.0.0.dev5177903823/diff.md --exclude *.pyd
+[2023-06-05 15:52:58] INFO root fetch - processPackages [django-magicauth]: executing diffoscope
+[2023-06-05 15:52:58] INFO root fetch - processPackages [django-magicauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-magicauth-0.8.tar.gz tmp/django-magicauth-0.9.tar.gz --markdown 20230605/d/django-magicauth/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-05 15:52:58] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/f7/65/52291f8c29f2d3279f51376dc7a356982a0333e7ddca60b44f54e21762cf/blond-2.1.4.tar.gz
+[2023-06-05 15:52:58] INFO root fetch - processPackages [blond]: executing diffoscope
+[2023-06-05 15:52:58] INFO root fetch - processPackages [blond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blond-2.1.3.tar.gz tmp/blond-2.1.4.tar.gz --markdown 20230605/b/blond/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-05 15:52:59] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-06-05 15:52:59] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-06-05 15:52:59] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230605/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-06-05 15:52:59] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/8e/2c/281d198f8de6e3eaabbd2ea87e2b2ffc79532b839972dc68a30ab9ea2e70/plonetheme.barceloneta-3.1.3.tar.gz
+[2023-06-05 15:52:59] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 15:52:59] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 15:52:59] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: Products.MeetingCPASLalouviere
+[2023-06-05 15:52:59] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 15:52:59] INFO root fetch - processPackages [plonetheme.barceloneta]: executing diffoscope
+[2023-06-05 15:52:59] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: New version: [4.2.0a7] Old Version: [4.2.0a6]
+[2023-06-05 15:52:59] INFO root fetch - processPackages [plonetheme.barceloneta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonetheme.barceloneta-3.1.2.tar.gz tmp/plonetheme.barceloneta-3.1.3.tar.gz --markdown 20230605/p/plonetheme.barceloneta/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-06-05 15:52:59] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Downloading https://files.pythonhosted.org/packages/46/9b/f061528de2197254d6e127cf39cca6382626f94eb88b1561ab551ada2f94/Products.MeetingCPASLalouviere-4.2.0a6.tar.gz
+[2023-06-05 15:52:59] INFO root fetch - processPackages [govqa]: Remove: archive file [/home/abi/fetcher/tmp/govqa-0.1.1-py3-none-any.whl.zip]
+[2023-06-05 15:52:59] INFO root fetch - processPackages [govqa]: Remove: archive file [/home/abi/fetcher/tmp/govqa-1.0.0-py3-none-any.whl.zip]
+[2023-06-05 15:52:59] INFO root fetch - processPackages [govqa]: Start processing: domdf-wxpython-tools
+[2023-06-05 15:52:59] INFO root fetch - main [MainThread]: End processing [govqa]: success
+[2023-06-05 15:52:59] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Downloading https://files.pythonhosted.org/packages/81/53/ecb521bec26539affa6da10f1b76205210732c1611ea6a7112c50d9ccf3c/Products.MeetingCPASLalouviere-4.2.0a7.tar.gz
+[2023-06-05 15:52:59] INFO root fetch - processPackages [domdf-wxpython-tools]: New version: [0.3.0.post1] Old Version: [0.2.5]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: executing diffoscope
+[2023-06-05 15:53:00] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingCPASLalouviere-4.2.0a6.tar.gz tmp/Products.MeetingCPASLalouviere-4.2.0a7.tar.gz --markdown 20230605/P/Products.MeetingCPASLalouviere/4.2.0a6-4.2.0a7/diff.md --exclude *.pyd
+[2023-06-05 15:53:00] INFO root fetch - processPackages [domdf-wxpython-tools]: Downloading https://files.pythonhosted.org/packages/23/e3/84f5ea7b5715d19f3736b3a777d071fcf4df614966e3f860de3179fd96d3/domdf_wxpython_tools-0.2.5.tar.gz
+[2023-06-05 15:53:00] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_margin_sale-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_margin_sale-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: Start processing: appeau-client
+[2023-06-05 15:53:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-margin-sale]: success
+[2023-06-05 15:53:00] INFO root fetch - processPackages [appeau-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [django-magicauth]: Remove: archive file [/home/abi/fetcher/tmp/django-magicauth-0.8.tar.gz]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [django-magicauth]: Remove: archive file [/home/abi/fetcher/tmp/django-magicauth-0.9.tar.gz]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [django-magicauth]: Start processing: ldeep
+[2023-06-05 15:53:00] INFO root fetch - main [MainThread]: End processing [django-magicauth]: success
+[2023-06-05 15:53:00] INFO root fetch - processPackages [ldeep]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [appeau-client]: Downloading https://files.pythonhosted.org/packages/12/be/6ec24f6360140bacf87f21599fa994bc1a5ca8f8116b029916120733d05c/appeau_client-0.0.4.tar.gz
+[2023-06-05 15:53:00] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [ramodels]: Start processing: robocorp-browser
+[2023-06-05 15:53:00] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-05 15:53:00] INFO root fetch - processPackages [robocorp-browser]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [domdf-wxpython-tools]: Downloading https://files.pythonhosted.org/packages/62/95/aeb438b49af4fe07ae56386114ec0ec6ce3a03b722ef57f12966b66cd44c/domdf_wxpython_tools-0.3.0.post1.tar.gz
+[2023-06-05 15:53:00] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/24/e2/09c2ff64528ba7e556d1f75dec902fee07b80fdde1f9ffcf6dd1e182bfcf/ldeep-1.0.8.tar.gz
+[2023-06-05 15:53:00] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/7c/6d/eab93ce07d0e427122a680b4bb3d4aa71fa5934af885ff6b53275a16154e/robocorp_browser-0.4.3.tar.gz
+[2023-06-05 15:53:00] INFO root fetch - processPackages [domdf-wxpython-tools]: executing diffoscope
+[2023-06-05 15:53:00] INFO root fetch - processPackages [domdf-wxpython-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domdf_wxpython_tools-0.2.5.tar.gz tmp/domdf_wxpython_tools-0.3.0.post1.tar.gz --markdown 20230605/d/domdf-wxpython-tools/0.2.5-0.3.0.post1/diff.md --exclude *.pyd
+[2023-06-05 15:53:00] INFO root fetch - processPackages [appeau-client]: Downloading https://files.pythonhosted.org/packages/4b/0b/316f7bff182bb35cacfc2f346e9c7bfe8484ce7c63d62eb0eef555e5ac39/appeau_client-0.0.5.tar.gz
+[2023-06-05 15:53:00] INFO root fetch - processPackages [appeau-client]: executing diffoscope
+[2023-06-05 15:53:00] INFO root fetch - processPackages [appeau-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appeau_client-0.0.4.tar.gz tmp/appeau_client-0.0.5.tar.gz --markdown 20230605/a/appeau-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 15:53:00] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/1c/f4/3ace81075266cf2bf8d8c007cff9303528a92c5cc8578edd82e1739f9c6a/robocorp_browser-0.4.4.tar.gz
+[2023-06-05 15:53:00] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5177789171.tar.gz]
+[2023-06-05 15:53:00] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5177903823.tar.gz]
+[2023-06-05 15:53:00] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-05 15:53:00] INFO root fetch - processPackages [robocorp-browser]: executing diffoscope
+[2023-06-05 15:53:00] INFO root fetch - processPackages [robocorp-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_browser-0.4.3.tar.gz tmp/robocorp_browser-0.4.4.tar.gz --markdown 20230605/r/robocorp-browser/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-05 15:53:01] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/e2/b0/645c2fce50d34f47b9f5b8fb9be8a6c2e716ddb3573e379f4221970560bc/ldeep-1.0.9.tar.gz
+[2023-06-05 15:53:01] INFO root fetch - processPackages [ldeep]: executing diffoscope
+[2023-06-05 15:53:01] INFO root fetch - processPackages [ldeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldeep-1.0.8.tar.gz tmp/ldeep-1.0.9.tar.gz --markdown 20230605/l/ldeep/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:53:01] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2023-06-05 15:53:01] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2023-06-05 15:53:01] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-06-05 15:53:02] INFO root fetch - processPackages [robocorp-browser]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_browser-0.4.3.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - processPackages [robocorp-browser]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_browser-0.4.4.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - main [MainThread]: End processing [robocorp-browser]: success
+[2023-06-05 15:53:02] INFO root fetch - processPackages [blond]: Remove: archive file [/home/abi/fetcher/tmp/blond-2.1.3.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - processPackages [blond]: Remove: archive file [/home/abi/fetcher/tmp/blond-2.1.4.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - main [MainThread]: End processing [blond]: success
+[2023-06-05 15:53:02] INFO root fetch - processPackages [kubemarine]: Remove: archive file [/home/abi/fetcher/tmp/kubemarine-0.17.0.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - processPackages [kubemarine]: Remove: archive file [/home/abi/fetcher/tmp/kubemarine-0.18.0.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - main [MainThread]: End processing [kubemarine]: success
+[2023-06-05 15:53:02] INFO root fetch - processPackages [appeau-client]: Remove: archive file [/home/abi/fetcher/tmp/appeau_client-0.0.4.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - processPackages [appeau-client]: Remove: archive file [/home/abi/fetcher/tmp/appeau_client-0.0.5.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - main [MainThread]: End processing [appeau-client]: success
+[2023-06-05 15:53:02] INFO root fetch - processPackages [domdf-wxpython-tools]: Remove: archive file [/home/abi/fetcher/tmp/domdf_wxpython_tools-0.2.5.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - processPackages [domdf-wxpython-tools]: Remove: archive file [/home/abi/fetcher/tmp/domdf_wxpython_tools-0.3.0.post1.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - main [MainThread]: End processing [domdf-wxpython-tools]: success
+[2023-06-05 15:53:02] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingCPASLalouviere-4.2.0a6.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingCPASLalouviere-4.2.0a7.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - main [MainThread]: End processing [Products.MeetingCPASLalouviere]: success
+[2023-06-05 15:53:02] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.8.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.9.tar.gz]
+[2023-06-05 15:53:02] INFO root fetch - main [MainThread]: End processing [ldeep]: success
+[2023-06-05 15:53:06] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.1.2.tar.gz]
+[2023-06-05 15:53:06] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.1.3.tar.gz]
+[2023-06-05 15:53:06] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
+[2023-06-05 15:53:06] INFO root fetch - main [MainThread]: Store serial: [18376738]
