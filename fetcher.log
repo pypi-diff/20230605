@@ -20105,3 +20105,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 19:05:27] INFO root fetch - processPackages [gridplayer]: Remove: archive file [/home/abi/fetcher/tmp/gridplayer-0.5.1.tar.gz]
 [2023-06-05 19:05:27] INFO root fetch - main [MainThread]: End processing [gridplayer]: success
 [2023-06-05 19:05:27] INFO root fetch - main [MainThread]: Store serial: [18378964]
+[2023-06-05 19:10:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378964]
+[2023-06-05 19:10:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-05 19:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s2aff
+[2023-06-05 19:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nowcasting-forecast
+[2023-06-05 19:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-extensions
+[2023-06-05 19:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-maintenance
+[2023-06-05 19:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hvplot
+[2023-06-05 19:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: element-lab
+[2023-06-05 19:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: candidhealth
+[2023-06-05 19:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-extensions
+[2023-06-05 19:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DisplayCAL
+[2023-06-05 19:10:39] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-06-05 19:10:39] INFO root fetch - processPackages [element-lab]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-05 19:10:39] INFO root fetch - processPackages [candidhealth]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-05 19:10:39] INFO root fetch - processPackages [DisplayCAL]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-06-05 19:10:39] INFO root fetch - processPackages [s2aff]: New version: [0.60] Old Version: [0.59]
+[2023-06-05 19:10:39] INFO root fetch - processPackages [nowcasting-forecast]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-05 19:10:39] INFO root fetch - processPackages [django-extensions]: New version: [3.2.3] Old Version: [3.2.1]
+[2023-06-05 19:10:39] INFO root fetch - processPackages [django-extensions]: New version: [3.2.3] Old Version: [3.2.1]
+[2023-06-05 19:10:39] INFO root fetch - processPackages [hvplot]: New version: [0.8.4a1] Old Version: [0.8.3rc2]
+[2023-06-05 19:10:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/b8/43/4f9267fb473fe43813da7a4fcdfbe16dd1d56d6fd29db8db59881295405b/netbox-cisco-maintenance-0.0.83.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [candidhealth]: Downloading https://files.pythonhosted.org/packages/74/96/5a5fe59cb055e52bbdd376780d52553b8efda1cb6c8174d88e4d59b6ca3f/candidhealth-0.1.1.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [DisplayCAL]: Downloading https://files.pythonhosted.org/packages/f0/fa/08db80717b4713433dd7fa23e825fd3d7c866f6783e3b5f8291639035db7/DisplayCAL-3.9.8.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [django-extensions]: Downloading https://files.pythonhosted.org/packages/8a/f1/318684c9466968bf9a9c221663128206e460c1a67f595055be4b284cde8a/django-extensions-3.2.3.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [django-extensions]: Downloading https://files.pythonhosted.org/packages/8a/f1/318684c9466968bf9a9c221663128206e460c1a67f595055be4b284cde8a/django-extensions-3.2.3.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/c5/94/6bfcdc0d91c266622fb44c146e234cc4a248b3231b2266773b9e50230d1d/s2aff-0.59.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/1a/9b/94e5686d4db8e17ec07f89821d9eec001024ac34e78d6ca9b3580d9b5adf/nowcasting_forecast-1.3.8.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [hvplot]: Downloading https://files.pythonhosted.org/packages/51/6f/6ce89c8f713587b505a7c7d4a32a9b19edb82722a19a0070b5d91b04a502/hvplot-0.8.3rc2.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [element-lab]: Downloading https://files.pythonhosted.org/packages/bf/63/a355772b96a836554d8b2880921989ef5271f099f65fde846cc31614ab4b/element-lab-0.2.0.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/55/18/d82dc30b78e3d23b9f00dc5bd845df80e3c03826a83d082261fb6a38bb30/netbox-cisco-maintenance-0.0.9.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-05 19:10:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.83.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230605/n/netbox-cisco-maintenance/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 19:10:40] INFO root fetch - processPackages [candidhealth]: Downloading https://files.pythonhosted.org/packages/f8/d4/662dde639df3b0a88177e86001d71d5f19017616cebd7e1e9c4b9840f884/candidhealth-0.2.0.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/ab/87/352f6fd9420b5b9321f1df081c1786fc4efd71fefa33ccac0ebcf008f7f7/s2aff-0.60.tar.gz
+[2023-06-05 19:10:40] WARNING root fetch - processPackages [DisplayCAL]: Skipping package: exceeds size limit 10672085>=10485760
+[2023-06-05 19:10:40] INFO root fetch - main [MainThread]: End processing [DisplayCAL] error
+[2023-06-05 19:10:40] INFO root fetch - processPackages [element-lab]: Downloading https://files.pythonhosted.org/packages/88/68/cf0c10a40864652c3a77c7b31879ec6327e3630c2d579dc57d79081e1979/element-lab-0.3.0.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [django-extensions]: executing diffoscope
+[2023-06-05 19:10:40] INFO root fetch - processPackages [django-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-extensions-3.2.1.tar.gz tmp/django-extensions-3.2.3.tar.gz --markdown 20230605/d/django-extensions/3.2.1-3.2.3/diff.md --exclude *.pyd
+[2023-06-05 19:10:40] INFO root fetch - processPackages [django-extensions]: executing diffoscope
+[2023-06-05 19:10:40] INFO root fetch - processPackages [django-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-extensions-3.2.1.tar.gz tmp/django-extensions-3.2.3.tar.gz --markdown 20230605/d/django-extensions/3.2.1-3.2.3/diff.md --exclude *.pyd
+[2023-06-05 19:10:40] INFO root fetch - processPackages [candidhealth]: executing diffoscope
+[2023-06-05 19:10:40] INFO root fetch - processPackages [candidhealth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/candidhealth-0.1.1.tar.gz tmp/candidhealth-0.2.0.tar.gz --markdown 20230605/c/candidhealth/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 19:10:40] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-06-05 19:10:40] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.59.tar.gz tmp/s2aff-0.60.tar.gz --markdown 20230605/s/s2aff/0.59-0.60/diff.md --exclude *.pyd
+[2023-06-05 19:10:40] INFO root fetch - processPackages [element-lab]: executing diffoscope
+[2023-06-05 19:10:40] INFO root fetch - processPackages [element-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-lab-0.2.0.tar.gz tmp/element-lab-0.3.0.tar.gz --markdown 20230605/e/element-lab/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 19:10:40] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/12/25/f079c128d585d077cb30e3dec159686cebd779faff6596b427c59287f911/nowcasting_forecast-1.3.9.tar.gz
+[2023-06-05 19:10:40] INFO root fetch - processPackages [nowcasting-forecast]: executing diffoscope
+[2023-06-05 19:10:40] INFO root fetch - processPackages [nowcasting-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_forecast-1.3.8.tar.gz tmp/nowcasting_forecast-1.3.9.tar.gz --markdown 20230605/n/nowcasting-forecast/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-05 19:10:41] INFO root fetch - processPackages [hvplot]: Downloading https://files.pythonhosted.org/packages/b5/d8/32ea1fcb6cac5a59a56f354ad6f7240a86fdb1ceeb24d990d15cb17d6cfc/hvplot-0.8.4a1.tar.gz
+[2023-06-05 19:10:41] INFO root fetch - processPackages [hvplot]: executing diffoscope
+[2023-06-05 19:10:41] INFO root fetch - processPackages [hvplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvplot-0.8.3rc2.tar.gz tmp/hvplot-0.8.4a1.tar.gz --markdown 20230605/h/hvplot/0.8.3rc2-0.8.4a1/diff.md --exclude *.pyd
+[2023-06-05 19:10:41] INFO root fetch - processPackages [nowcasting-forecast]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_forecast-1.3.8.tar.gz]
+[2023-06-05 19:10:41] INFO root fetch - processPackages [nowcasting-forecast]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_forecast-1.3.9.tar.gz]
+[2023-06-05 19:10:41] INFO root fetch - main [MainThread]: End processing [nowcasting-forecast]: success
+[2023-06-05 19:10:41] INFO root fetch - processPackages [s2aff]: Remove: archive file [/home/abi/fetcher/tmp/s2aff-0.59.tar.gz]
+[2023-06-05 19:10:41] INFO root fetch - processPackages [s2aff]: Remove: archive file [/home/abi/fetcher/tmp/s2aff-0.60.tar.gz]
+[2023-06-05 19:10:41] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-06-05 19:10:41] INFO root fetch - processPackages [element-lab]: Remove: archive file [/home/abi/fetcher/tmp/element-lab-0.2.0.tar.gz]
+[2023-06-05 19:10:41] INFO root fetch - processPackages [element-lab]: Remove: archive file [/home/abi/fetcher/tmp/element-lab-0.3.0.tar.gz]
+[2023-06-05 19:10:41] INFO root fetch - main [MainThread]: End processing [element-lab]: success
+[2023-06-05 19:10:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.83.tar.gz]
+[2023-06-05 19:10:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.9.tar.gz]
+[2023-06-05 19:10:42] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-05 19:10:42] INFO root fetch - processPackages [candidhealth]: Remove: archive file [/home/abi/fetcher/tmp/candidhealth-0.1.1.tar.gz]
+[2023-06-05 19:10:42] INFO root fetch - processPackages [candidhealth]: Remove: archive file [/home/abi/fetcher/tmp/candidhealth-0.2.0.tar.gz]
+[2023-06-05 19:10:42] INFO root fetch - main [MainThread]: End processing [candidhealth]: success
+[2023-06-05 19:10:44] INFO root fetch - processPackages [hvplot]: Remove: archive file [/home/abi/fetcher/tmp/hvplot-0.8.3rc2.tar.gz]
+[2023-06-05 19:10:44] INFO root fetch - processPackages [hvplot]: Remove: archive file [/home/abi/fetcher/tmp/hvplot-0.8.4a1.tar.gz]
+[2023-06-05 19:10:44] INFO root fetch - main [MainThread]: End processing [hvplot]: success
+[2023-06-05 19:10:45] INFO root fetch - processPackages [django-extensions]: Remove: archive file [/home/abi/fetcher/tmp/django-extensions-3.2.1.tar.gz]
+[2023-06-05 19:10:45] INFO root fetch - processPackages [django-extensions]: Remove: archive file [/home/abi/fetcher/tmp/django-extensions-3.2.3.tar.gz]
+[2023-06-05 19:10:45] INFO root fetch - main [MainThread]: End processing [django-extensions]: success
+[2023-06-05 19:10:45] INFO root fetch - main [MainThread]: End processing [django-extensions]: success
+[2023-06-05 19:10:45] INFO root fetch - main [MainThread]: Store serial: [18378992]
