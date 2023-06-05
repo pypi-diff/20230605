@@ -16081,3 +16081,145 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 16:40:20] INFO root fetch - processPackages [rbapy]: Remove: archive file [/home/abi/fetcher/tmp/rbapy-2.0.1.tar.gz]
 [2023-06-05 16:40:20] INFO root fetch - main [MainThread]: End processing [rbapy]: success
 [2023-06-05 16:40:20] INFO root fetch - main [MainThread]: Store serial: [18377279]
+[2023-06-05 16:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377279]
+[2023-06-05 16:45:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: league-shop-base
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instructure-dap-client
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluepyopt
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telekinesis
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: line-async-webhook
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linkedin-scraperb
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DSE-Software-Connection-Tester
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mon2pcap
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypeit
+[2023-06-05 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: install-release
+[2023-06-05 16:45:29] INFO root fetch - processPackages [telekinesis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 16:45:29] WARNING root fetch - processPackages [linkedin-scraperb]: Skipping, unable to determine old version
+[2023-06-05 16:45:29] INFO root fetch - processPackages [line-async-webhook]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-05 16:45:29] INFO root fetch - processPackages [linkedin-scraperb]: Start processing: openfabric-pysdk
+[2023-06-05 16:45:29] INFO root fetch - main [MainThread]: End processing [linkedin-scraperb] error
+[2023-06-05 16:45:29] INFO root fetch - processPackages [mon2pcap]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-05 16:45:29] INFO root fetch - processPackages [instructure-dap-client]: New version: [0.3.8.2] Old Version: [0.3.8]
+[2023-06-05 16:45:29] INFO root fetch - processPackages [install-release]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-05 16:45:29] INFO root fetch - processPackages [pypeit]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-05 16:45:29] INFO root fetch - processPackages [openfabric-pysdk]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-05 16:45:29] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2023-06-05 16:45:29] INFO root fetch - processPackages [mon2pcap]: Downloading https://files.pythonhosted.org/packages/ec/f6/3b7c40783e10f6b2c90a89866a964e79a716e34294df2463227a7c1faea6/mon2pcap-1.0.4.tar.gz
+[2023-06-05 16:45:29] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/aa/86/dc450aedaaf8947a852c0e97eb72fab6a33f1598db334aec327eb3da9f14/telekinesis-0.1.8.tar.gz
+[2023-06-05 16:45:29] INFO root fetch - processPackages [line-async-webhook]: Downloading https://files.pythonhosted.org/packages/9a/63/ff4acea61644109f556346a37a5b7fc90a6eb1aa26ce6dae85804cd77556/line_async_webhook-0.2.1.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 16:45:30] WARNING root fetch - processPackages [DSE-Software-Connection-Tester]: Skipping, unable to determine old version
+[2023-06-05 16:45:30] INFO root fetch - processPackages [DSE-Software-Connection-Tester]: Start processing: tensoract
+[2023-06-05 16:45:30] INFO root fetch - main [MainThread]: End processing [DSE-Software-Connection-Tester] error
+[2023-06-05 16:45:30] WARNING root fetch - processPackages [tensoract]: Skipping, unable to determine old version
+[2023-06-05 16:45:30] INFO root fetch - processPackages [tensoract]: Start processing: netbox-cisco-maintenance
+[2023-06-05 16:45:30] INFO root fetch - main [MainThread]: End processing [tensoract] error
+[2023-06-05 16:45:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 16:45:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/c7/0a/23030ab806d7c0cb62c5f36307b435d2832f67f6a099d087e1d17d4d5f5a/netbox-cisco-maintenance-0.0.8.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/f6/9c/89ce5106a8ef79bcf2ca3ac0083d2e3ef7e12a58b957c054cb8962d6ca34/telekinesis-0.1.9.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [pypeit]: Downloading https://files.pythonhosted.org/packages/3b/8a/5599fb525769c35352ea6a583d1d404455f6ccac1550c7e5ceaeae71f107/pypeit-1.9.0.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/02/51/e461071d827d1fafd2af5fbddbf633fa8ec6fe1cb1a547cb8afe2b45c2ef/bluepyopt-1.9.96.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [openfabric-pysdk]: Downloading https://files.pythonhosted.org/packages/05/c8/64764c8bd0f3c090bc4bf78400a5e679c290401d040ed66e12a7b7e04fb3/openfabric_pysdk-0.2.5.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/b1/b9/d2ed3385e8288ebf5616971f885738ca8e85a08eb8de08904a964fb2658e/instructure-dap-client-0.3.8.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [telekinesis]: executing diffoscope
+[2023-06-05 16:45:30] INFO root fetch - processPackages [telekinesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telekinesis-0.1.8.tar.gz tmp/telekinesis-0.1.9.tar.gz --markdown 20230605/t/telekinesis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 16:45:30] INFO root fetch - processPackages [mon2pcap]: Downloading https://files.pythonhosted.org/packages/27/f7/6b677b719b9f71926547575470814d63e8e435d52bde54c9e5f0337dec1c/mon2pcap-1.0.5.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [install-release]: Downloading https://files.pythonhosted.org/packages/4c/ff/90526ebd1dd812524f8296e8c72680a179bafdc674d85444f5edff868256/install_release-0.3.4.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/9a/36/856f05ff8f20b041ffd8a46c1c83f9f8b227d1764d27b5882c86fee7084a/league-shop-base-1.0.8.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [mon2pcap]: executing diffoscope
+[2023-06-05 16:45:30] INFO root fetch - processPackages [mon2pcap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mon2pcap-1.0.4.tar.gz tmp/mon2pcap-1.0.5.tar.gz --markdown 20230605/m/mon2pcap/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-05 16:45:30] WARNING root fetch - processPackages [pypeit]: Skipping package: exceeds size limit 106174808>=10485760
+[2023-06-05 16:45:30] INFO root fetch - processPackages [pypeit]: Start processing: fhirpack
+[2023-06-05 16:45:30] INFO root fetch - main [MainThread]: End processing [pypeit] error
+[2023-06-05 16:45:30] INFO root fetch - processPackages [line-async-webhook]: Downloading https://files.pythonhosted.org/packages/b3/f2/fe6c7e89740c202f8a01f7ffa5a12208e2e351944ff5e2e6c5ef56422273/line_async_webhook-0.2.2.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/55/18/d82dc30b78e3d23b9f00dc5bd845df80e3c03826a83d082261fb6a38bb30/netbox-cisco-maintenance-0.0.9.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [fhirpack]: New version: [0.0.9b0] Old Version: [0.0.8b1]
+[2023-06-05 16:45:30] INFO root fetch - processPackages [line-async-webhook]: executing diffoscope
+[2023-06-05 16:45:30] INFO root fetch - processPackages [line-async-webhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line_async_webhook-0.2.1.tar.gz tmp/line_async_webhook-0.2.2.tar.gz --markdown 20230605/l/line-async-webhook/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-05 16:45:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-05 16:45:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230605/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:45:30] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/14/91/1d14793794bb96d1a900bc6b09b965d865ae10ee1a3d951aaa882330e135/instructure-dap-client-0.3.8.2.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [openfabric-pysdk]: Downloading https://files.pythonhosted.org/packages/fb/31/0cf999533f1a6c51ab91efeabbeccf14d3928b0f0522f763f9d8cfc6e245/openfabric_pysdk-0.2.6.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [install-release]: Downloading https://files.pythonhosted.org/packages/57/c4/9edfd91bf0ed7761e57a833c0618e396a8e545b96fee1d14ae637008079c/install_release-0.3.5.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [instructure-dap-client]: executing diffoscope
+[2023-06-05 16:45:30] INFO root fetch - processPackages [instructure-dap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructure-dap-client-0.3.8.tar.gz tmp/instructure-dap-client-0.3.8.2.tar.gz --markdown 20230605/i/instructure-dap-client/0.3.8-0.3.8.2/diff.md --exclude *.pyd
+[2023-06-05 16:45:30] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/65/0f/18a17694624fbea4932495e5caf19dd6d774a835d6a79289130c89a06a5e/bluepyopt-1.9.98.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [fhirpack]: Downloading https://files.pythonhosted.org/packages/4a/4f/75c0e7678c036337e75eee172c00ef677b66198dc626451ec56c8199009e/fhirpack-0.0.8b1.tar.gz
+[2023-06-05 16:45:30] INFO root fetch - processPackages [openfabric-pysdk]: executing diffoscope
+[2023-06-05 16:45:30] INFO root fetch - processPackages [openfabric-pysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfabric_pysdk-0.2.5.tar.gz tmp/openfabric_pysdk-0.2.6.tar.gz --markdown 20230605/o/openfabric-pysdk/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-05 16:45:30] INFO root fetch - processPackages [install-release]: executing diffoscope
+[2023-06-05 16:45:30] INFO root fetch - processPackages [install-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install_release-0.3.4.tar.gz tmp/install_release-0.3.5.tar.gz --markdown 20230605/i/install-release/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-05 16:45:30] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2023-06-05 16:45:30] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20230605/b/bluepyopt/1.9.96-1.9.98/diff.md --exclude *.pyd
+[2023-06-05 16:45:30] WARNING root fetch - processPackages [fhirpack]: Skipping package: exceeds size limit 44321082>=10485760
+[2023-06-05 16:45:30] INFO root fetch - processPackages [fhirpack]: Start processing: lecore
+[2023-06-05 16:45:30] INFO root fetch - main [MainThread]: End processing [fhirpack] error
+[2023-06-05 16:45:31] INFO root fetch - processPackages [lecore]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/60/3b/3013a2c93a51c69994aef403d9f69f819d744bbc48dc2e61e714a278c38d/lecore-0.1.0.tar.gz
+[2023-06-05 16:45:31] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/e2/26/1a7ca28a471c3705930fb862d3f11522557e5f6c0d324560bcea93b51906/league-shop-base-1.0.9.tar.gz
+[2023-06-05 16:45:31] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-06-05 16:45:31] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230605/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:45:31] INFO root fetch - processPackages [line-async-webhook]: Remove: archive file [/home/abi/fetcher/tmp/line_async_webhook-0.2.1.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [line-async-webhook]: Remove: archive file [/home/abi/fetcher/tmp/line_async_webhook-0.2.2.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [line-async-webhook]: Start processing: datadog-api-client
+[2023-06-05 16:45:31] INFO root fetch - main [MainThread]: End processing [line-async-webhook]: success
+[2023-06-05 16:45:31] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/b5/f1/68f6e9cfb68aba7985e2631bc487166b3439460311e4f952cdf74de8be86/lecore-0.1.1.tar.gz
+[2023-06-05 16:45:31] INFO root fetch - processPackages [datadog-api-client]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-06-05 16:45:31] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.0.tar.gz tmp/lecore-0.1.1.tar.gz --markdown 20230605/l/lecore/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 16:45:31] INFO root fetch - processPackages [datadog-api-client]: Downloading https://files.pythonhosted.org/packages/86/2e/14d9ffd8e2df1929107d24c1420d88e95559f32f77e7ddf9f3b6d12d33b5/datadog-api-client-2.8.0.tar.gz
+[2023-06-05 16:45:31] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.8.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.9.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [telekinesis]: Start processing: FuncsForSPO
+[2023-06-05 16:45:31] INFO root fetch - main [MainThread]: End processing [telekinesis]: success
+[2023-06-05 16:45:31] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [install-release]: Remove: archive file [/home/abi/fetcher/tmp/install_release-0.3.4.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [install-release]: Remove: archive file [/home/abi/fetcher/tmp/install_release-0.3.5.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [install-release]: Start processing: odoo-addon-account-invoice-analytic-search
+[2023-06-05 16:45:31] INFO root fetch - main [MainThread]: End processing [install-release]: success
+[2023-06-05 16:45:31] WARNING root fetch - processPackages [odoo-addon-account-invoice-analytic-search]: Skipping, unable to determine old version
+[2023-06-05 16:45:31] INFO root fetch - processPackages [odoo-addon-account-invoice-analytic-search]: Start processing: pulumi-std
+[2023-06-05 16:45:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-analytic-search] error
+[2023-06-05 16:45:31] INFO root fetch - processPackages [openfabric-pysdk]: Remove: archive file [/home/abi/fetcher/tmp/openfabric_pysdk-0.2.5.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [openfabric-pysdk]: Remove: archive file [/home/abi/fetcher/tmp/openfabric_pysdk-0.2.6.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - main [MainThread]: End processing [openfabric-pysdk]: success
+[2023-06-05 16:45:31] INFO root fetch - processPackages [mon2pcap]: Remove: archive file [/home/abi/fetcher/tmp/mon2pcap-1.0.4.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - processPackages [mon2pcap]: Remove: archive file [/home/abi/fetcher/tmp/mon2pcap-1.0.5.tar.gz]
+[2023-06-05 16:45:31] INFO root fetch - main [MainThread]: End processing [mon2pcap]: success
+[2023-06-05 16:45:32] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/d5/42/f40cb77eca163d0e9e4a000c88b607b2b0265af6751fe54d095d38d32bee/FuncsForSPO-5.0.8.tar.gz
+[2023-06-05 16:45:32] INFO root fetch - processPackages [pulumi-std]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-05 16:45:32] INFO root fetch - processPackages [datadog-api-client]: Downloading https://files.pythonhosted.org/packages/e9/60/cf6fcb7773d3a0f80cc39cbca4c58fadba180f77adb24d296e86a330d6f4/datadog-api-client-2.9.0.tar.gz
+[2023-06-05 16:45:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.8.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.9.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-05 16:45:32] INFO root fetch - processPackages [datadog-api-client]: executing diffoscope
+[2023-06-05 16:45:32] INFO root fetch - processPackages [datadog-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog-api-client-2.8.0.tar.gz tmp/datadog-api-client-2.9.0.tar.gz --markdown 20230605/d/datadog-api-client/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-05 16:45:32] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/c0/7a/4027f150f3965e37432d5d92fdfca12d7a7192f8c5107ea3caace3c675b5/FuncsForSPO-5.0.9.tar.gz
+[2023-06-05 16:45:32] INFO root fetch - processPackages [pulumi-std]: Downloading https://files.pythonhosted.org/packages/82/25/df3d6f460b953c30559ad662f495b1e8392d9859510159740cd200828436/pulumi_std-1.1.0.tar.gz
+[2023-06-05 16:45:32] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-05 16:45:32] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.0.8.tar.gz tmp/FuncsForSPO-5.0.9.tar.gz --markdown 20230605/F/FuncsForSPO/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:45:32] INFO root fetch - processPackages [bluepyopt]: Remove: archive file [/home/abi/fetcher/tmp/bluepyopt-1.9.96.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - processPackages [bluepyopt]: Remove: archive file [/home/abi/fetcher/tmp/bluepyopt-1.9.98.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2023-06-05 16:45:32] INFO root fetch - processPackages [pulumi-std]: Downloading https://files.pythonhosted.org/packages/0a/b4/176f9d1f1f5f112d1d6c27fb75e5292149374a6e8b5c0c194e2fb81ac732/pulumi_std-1.2.0.tar.gz
+[2023-06-05 16:45:32] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.8.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.9.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-06-05 16:45:32] INFO root fetch - processPackages [pulumi-std]: executing diffoscope
+[2023-06-05 16:45:32] INFO root fetch - processPackages [pulumi-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_std-1.1.0.tar.gz tmp/pulumi_std-1.2.0.tar.gz --markdown 20230605/p/pulumi-std/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-05 16:45:32] INFO root fetch - processPackages [instructure-dap-client]: Remove: archive file [/home/abi/fetcher/tmp/instructure-dap-client-0.3.8.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - processPackages [instructure-dap-client]: Remove: archive file [/home/abi/fetcher/tmp/instructure-dap-client-0.3.8.2.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - main [MainThread]: End processing [instructure-dap-client]: success
+[2023-06-05 16:45:32] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.0.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.1.tar.gz]
+[2023-06-05 16:45:32] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-06-05 16:45:33] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-5.0.8.tar.gz]
+[2023-06-05 16:45:33] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-5.0.9.tar.gz]
+[2023-06-05 16:45:33] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-05 16:45:34] INFO root fetch - processPackages [pulumi-std]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_std-1.1.0.tar.gz]
+[2023-06-05 16:45:34] INFO root fetch - processPackages [pulumi-std]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_std-1.2.0.tar.gz]
+[2023-06-05 16:45:34] INFO root fetch - main [MainThread]: End processing [pulumi-std]: success
+[2023-06-05 16:47:22] INFO root fetch - processPackages [datadog-api-client]: Remove: archive file [/home/abi/fetcher/tmp/datadog-api-client-2.8.0.tar.gz]
+[2023-06-05 16:47:22] INFO root fetch - processPackages [datadog-api-client]: Remove: archive file [/home/abi/fetcher/tmp/datadog-api-client-2.9.0.tar.gz]
+[2023-06-05 16:47:22] INFO root fetch - main [MainThread]: End processing [datadog-api-client]: success
+[2023-06-05 16:47:22] INFO root fetch - main [MainThread]: Store serial: [18377342]
