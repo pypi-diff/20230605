@@ -4765,3 +4765,67 @@
 [2023-06-05 06:25:46] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
 [2023-06-05 06:25:58] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-06-05 06:25:58] INFO root fetch - main [MainThread]: Store serial: [18371657]
+[2023-06-05 06:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371657]
+[2023-06-05 06:31:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plutous-trade-crypto
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jijbench
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gensp
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-contract
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ipghrms-employee
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: custardpy
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: featurebyte
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-ipghrms-leave
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fdlogger
+[2023-06-05 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-virtual-fields
+[2023-06-05 06:31:10] INFO root fetch - processPackages [gensp]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-contract]: New version: [1.9] Old Version: [1.8]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-employee]: New version: [1.6] Old Version: [1.5]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [custardpy]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [jijbench]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.8] Old Version: [1.7]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [fdlogger]: New version: [23.6.4] Old Version: [23.5.31]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [featurebyte]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-contract]: executing diffoscope
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-contract-1.8.tar.gz tmp/django-ipghrms-contract-1.9.tar.gz --markdown 20230605/d/django-ipghrms-contract/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-virtual-fields]: New version: [0.0.0a0] Old Version: [0.0.0]
+[2023-06-05 06:31:10] INFO root fetch - processPackages [gensp]: Downloading https://files.pythonhosted.org/packages/5b/cf/4c1252b6340ef8c525e5c535802d1cecf501464eef1b7c166b9189f16add/gensp-1.0.3.tar.gz
+[2023-06-05 06:31:10] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/65/ff/403b4ab43f9910a3ce2015e989c5ff5c60ea8aadb9710a4b571c596a1a21/custardpy-0.5.4-py3-none-any.whl
+[2023-06-05 06:31:10] INFO root fetch - processPackages [featurebyte]: Downloading https://files.pythonhosted.org/packages/6c/7e/d162cd4954d8a35a5cb4ad75c8392020b8624f80aed4070fd0f326ff594a/featurebyte-0.2.2.tar.gz
+[2023-06-05 06:31:10] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-05 06:31:10] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230605/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 06:31:10] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-06-05 06:31:10] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.5.3-py3-none-any.whl.zip tmp/custardpy-0.5.4-py3-none-any.whl.zip --markdown 20230605/c/custardpy/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-virtual-fields]: Downloading https://files.pythonhosted.org/packages/51/b2/729195e12a82673b1ffbaba78db1eef2138b11408c5bce7bac1a3cd9e1c9/django_virtual_fields-0.0.0.tar.gz
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/08/c3/4a9b6723d712ef12c4c1e89a6417c5b9d1b84c618dbbefccd6323fcb1588/django-ipghrms-employee-1.6.tar.gz
+[2023-06-05 06:31:10] INFO root fetch - processPackages [jijbench]: Downloading https://files.pythonhosted.org/packages/37/18/959a0aaf381911d0e347509cdb96493b404f6488df70d30c08304be37de7/jijbench-0.5.4.tar.gz
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/07/64/fb9dd61ec26bdeb66686e6047d2f2eed129d48e5b31f092d1c2a6ae208a5/django-ipghrms-leave-1.8.tar.gz
+[2023-06-05 06:31:10] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/7a/a9/70ef1dd24ea9d4109dced815141942da193b865bce593409d4188f2c7c29/fdlogger-23.6.4.tar.gz
+[2023-06-05 06:31:10] INFO root fetch - processPackages [gensp]: Downloading https://files.pythonhosted.org/packages/96/88/1becbcd391797b796fc8f5d90a7690337d8238f3f7058523e7234c296b31/gensp-1.0.4.tar.gz
+[2023-06-05 06:31:10] INFO root fetch - processPackages [featurebyte]: Downloading https://files.pythonhosted.org/packages/42/63/f5f0a2f0404e1def691dd59c1c1c09124009defd6a6958618a122814149d/featurebyte-0.3.0.tar.gz
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-employee]: executing diffoscope
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-employee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-employee-1.5.tar.gz tmp/django-ipghrms-employee-1.6.tar.gz --markdown 20230605/d/django-ipghrms-employee/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-05 06:31:10] INFO root fetch - processPackages [jijbench]: executing diffoscope
+[2023-06-05 06:31:10] INFO root fetch - processPackages [jijbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijbench-0.5.3.tar.gz tmp/jijbench-0.5.4.tar.gz --markdown 20230605/j/jijbench/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-05 06:31:10] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 06:31:10] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.3.tar.gz tmp/gensp-1.0.4.tar.gz --markdown 20230605/g/gensp/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-05 06:31:10] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.7.tar.gz tmp/django-ipghrms-leave-1.8.tar.gz --markdown 20230605/d/django-ipghrms-leave/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-05 06:31:10] INFO root fetch - processPackages [featurebyte]: executing diffoscope
+[2023-06-05 06:31:10] INFO root fetch - processPackages [featurebyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurebyte-0.2.2.tar.gz tmp/featurebyte-0.3.0.tar.gz --markdown 20230605/f/featurebyte/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 06:31:10] INFO root fetch - processPackages [fdlogger]: executing diffoscope
+[2023-06-05 06:31:10] INFO root fetch - processPackages [fdlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdlogger-23.5.31.tar.gz tmp/fdlogger-23.6.4.tar.gz --markdown 20230605/f/fdlogger/23.5.31-23.6.4/diff.md --exclude *.pyd
+[2023-06-05 06:31:11] INFO root fetch - processPackages [django-virtual-fields]: Downloading https://files.pythonhosted.org/packages/d9/13/ea55fbb9b095e959295842c9ee5672eba080733ac4c693c98832b1063108/django_virtual_fields-0.0.0a0.tar.gz
+[2023-06-05 06:31:11] INFO root fetch - processPackages [django-virtual-fields]: executing diffoscope
+[2023-06-05 06:31:11] INFO root fetch - processPackages [django-virtual-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_virtual_fields-0.0.0.tar.gz tmp/django_virtual_fields-0.0.0a0.tar.gz --markdown 20230605/d/django-virtual-fields/0.0.0-0.0.0a0/diff.md --exclude *.pyd
+[2023-06-05 06:31:11] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-05 06:31:12] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-06-05 06:31:12] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 06:31:12] INFO root fetch - main [MainThread]: End processing [django-virtual-fields]: success
+[2023-06-05 06:31:13] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
+[2023-06-05 06:31:14] INFO root fetch - main [MainThread]: End processing [fdlogger]: success
+[2023-06-05 06:31:15] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
+[2023-06-05 06:31:15] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-05 06:31:18] INFO root fetch - main [MainThread]: End processing [featurebyte]: success
+[2023-06-05 06:32:21] INFO root fetch - main [MainThread]: End processing [jijbench]: success
+[2023-06-05 06:32:21] INFO root fetch - main [MainThread]: Store serial: [18371682]
