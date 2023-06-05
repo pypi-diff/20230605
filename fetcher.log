@@ -3927,3 +3927,27 @@
 [2023-06-05 04:29:13] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
 [2023-06-05 04:30:05] INFO root fetch - main [MainThread]: End processing [skyler-cli]: success
 [2023-06-05 04:30:05] INFO root fetch - main [MainThread]: Store serial: [18371206]
+[2023-06-05 04:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371206]
+[2023-06-05 04:35:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 04:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: midi-clip
+[2023-06-05 04:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zipline-tej
+[2023-06-05 04:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpqcv
+[2023-06-05 04:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arknights-mower
+[2023-06-05 04:35:14] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 04:35:14] INFO root fetch - processPackages [mpqcv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 04:35:14] INFO root fetch - processPackages [midi-clip]: New version: [0.9] Old Version: [0.8]
+[2023-06-05 04:35:14] INFO root fetch - processPackages [arknights-mower]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-06-05 04:35:14] INFO root fetch - processPackages [midi-clip]: executing diffoscope
+[2023-06-05 04:35:14] INFO root fetch - processPackages [midi-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midi-clip-0.8.tar.gz tmp/midi-clip-0.9.tar.gz --markdown 20230605/m/midi-clip/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-05 04:35:14] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/ac/4b/3548d1f1509feab8426188d512e2c9ee35bfa1abed7b830c5fcc22b51328/zipline-tej-0.0.5.tar.gz
+[2023-06-05 04:35:14] INFO root fetch - processPackages [arknights-mower]: Downloading https://files.pythonhosted.org/packages/65/bb/caf2cefea2fb5a9771e8051eb2676c498d2aa445c28bb2fe26e2c5d1e5dd/arknights_mower-3.1.5.tar.gz
+[2023-06-05 04:35:14] WARNING root fetch - processPackages [arknights-mower]: Skipping package: exceeds size limit 15847235>=10485760
+[2023-06-05 04:35:14] INFO root fetch - main [MainThread]: End processing [arknights-mower] error
+[2023-06-05 04:35:14] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-05 04:35:14] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.4.tar.gz tmp/zipline-tej-0.0.5.tar.gz --markdown 20230605/z/zipline-tej/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 04:35:14] INFO root fetch - processPackages [mpqcv]: executing diffoscope
+[2023-06-05 04:35:14] INFO root fetch - processPackages [mpqcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpqcv-0.0.8.tar.gz tmp/mpqcv-0.0.9.tar.gz --markdown 20230605/m/mpqcv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 04:35:15] INFO root fetch - main [MainThread]: End processing [midi-clip]: success
+[2023-06-05 04:35:15] INFO root fetch - main [MainThread]: End processing [mpqcv]: success
+[2023-06-05 04:35:16] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-05 04:35:16] INFO root fetch - main [MainThread]: Store serial: [18371217]
