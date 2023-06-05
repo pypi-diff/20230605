@@ -23474,3 +23474,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 21:15:00] INFO root fetch - processPackages [fietsboek]: Remove: archive file [/home/abi/fetcher/tmp/fietsboek-0.8.0.tar.gz]
 [2023-06-05 21:15:00] INFO root fetch - main [MainThread]: End processing [fietsboek]: success
 [2023-06-05 21:15:00] INFO root fetch - main [MainThread]: Store serial: [18380379]
+[2023-06-05 21:20:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18380379]
+[2023-06-05 21:20:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panel
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-cisco-maintenance
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datarobot-drum
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reboundx
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: repo-review
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypkamd
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dxsp
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keypoint-moseq
+[2023-06-05 21:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: threatmon
+[2023-06-05 21:20:09] INFO root fetch - processPackages [repo-review]: New version: [0.7.0b3] Old Version: [0.7.0b2]
+[2023-06-05 21:20:09] INFO root fetch - processPackages [datarobot-drum]: New version: [1.9.9.dev2] Old Version: [1.9.9.dev1]
+[2023-06-05 21:20:09] INFO root fetch - processPackages [reboundx]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-06-05 21:20:09] INFO root fetch - processPackages [keypoint-moseq]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 21:20:09] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-06-05 21:20:09] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-05 21:20:09] INFO root fetch - processPackages [panel]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-06-05 21:20:09] INFO root fetch - processPackages [pypkamd]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-05 21:20:09] INFO root fetch - processPackages [dxsp]: New version: [2.6.7] Old Version: [2.6.6]
+[2023-06-05 21:20:09] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-05 21:20:09] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/4d/aa/21014f070a06b777d1a167da91d2f10cc932c82c1b9f4d6423860629201e/panel-1.1.0rc1.tar.gz
+[2023-06-05 21:20:09] INFO root fetch - processPackages [threatmon]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 21:20:09] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25710017>=10485760
+[2023-06-05 21:20:09] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-06-05 21:20:09] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/a1/e7/ad16e21bcba1f6374dd366ee20b2d1ba4cd1164d660ada1a83dd3f474287/netbox-cisco-maintenance-0.0.84.tar.gz
+[2023-06-05 21:20:09] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-05 21:20:09] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-05 21:20:09] INFO root fetch - processPackages [keypoint-moseq]: Downloading https://files.pythonhosted.org/packages/97/c9/ca0fe35631053adae69a8972b72a2ac408488c4d931ccce7a4e8bbcca3ca/keypoint-moseq-0.1.3.tar.gz
+[2023-06-05 21:20:09] INFO root fetch - processPackages [repo-review]: Downloading https://files.pythonhosted.org/packages/ec/e9/2fb8bff073a2bb073dee48e965dfb499ebce5b897fe905100b809f2d24a0/repo_review-0.7.0b2.tar.gz
+[2023-06-05 21:20:09] INFO root fetch - processPackages [datarobot-drum]: Downloading https://files.pythonhosted.org/packages/04/51/352545a1b11f4fc5c3f426edaa82ac07d50c02da4f8d6bbbf64cd62eadff/datarobot_drum-1.9.9.dev1-py3-none-any.whl
+[2023-06-05 21:20:09] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/da/23/de2b565a516ad0e3b5dc10a601b82c2b9ca6b6a04002f33c68403172ed2c/dxsp-2.6.6.tar.gz
+[2023-06-05 21:20:09] INFO root fetch - processPackages [reboundx]: Downloading https://files.pythonhosted.org/packages/2c/69/c07e138d9489c9e5021e7fab8100e2fd3bc5a2ca3f9b85d6a282f2db3dab/reboundx-3.9.2.tar.gz
+[2023-06-05 21:20:09] INFO root fetch - processPackages [pypkamd]: Downloading https://files.pythonhosted.org/packages/72/e8/6d4597afa6e840d5ad6c4eb03837ec4a0991c66f8f4a41bc5f374b3e3fe4/pypkamd-0.5.0.tar.gz
+[2023-06-05 21:20:09] INFO root fetch - processPackages [threatmon]: Downloading https://files.pythonhosted.org/packages/c9/66/8e115a1eb804ad1167d907fd3b6be78833c23d77e6a35f093d1e6edc8a67/threatmon-0.0.1.tar.gz
+[2023-06-05 21:20:09] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/55/18/d82dc30b78e3d23b9f00dc5bd845df80e3c03826a83d082261fb6a38bb30/netbox-cisco-maintenance-0.0.9.tar.gz
+[2023-06-05 21:20:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-05 21:20:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.84.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230605/n/netbox-cisco-maintenance/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 21:20:10] INFO root fetch - processPackages [repo-review]: Downloading https://files.pythonhosted.org/packages/f3/06/5d306d9e679fb71da209aa034924e9cad255e0f4d1a1beb49d9b52df3cf5/repo_review-0.7.0b3.tar.gz
+[2023-06-05 21:20:10] INFO root fetch - processPackages [keypoint-moseq]: Downloading https://files.pythonhosted.org/packages/c9/5a/642f44802858d880323d4f15ae230779c2e958e342e21d7a2250eff5d47f/keypoint-moseq-0.1.4.tar.gz
+[2023-06-05 21:20:10] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/82/b2/7bc174f0eb7215ae07dfef404763a7eff8220253708820f922fae26c3831/dxsp-2.6.7.tar.gz
+[2023-06-05 21:20:10] INFO root fetch - processPackages [repo-review]: executing diffoscope
+[2023-06-05 21:20:10] INFO root fetch - processPackages [repo-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo_review-0.7.0b2.tar.gz tmp/repo_review-0.7.0b3.tar.gz --markdown 20230605/r/repo-review/0.7.0b2-0.7.0b3/diff.md --exclude *.pyd
+[2023-06-05 21:20:10] INFO root fetch - processPackages [reboundx]: Downloading https://files.pythonhosted.org/packages/18/0f/a37030dd8d53a16ef349bf752bf72e51c204641dc3d563360762bbd7dac2/reboundx-3.9.3.tar.gz
+[2023-06-05 21:20:10] INFO root fetch - processPackages [threatmon]: Downloading https://files.pythonhosted.org/packages/eb/46/76969a249b200b25348ac667845ad0c8f67393434d76b434a0701ddbee20/threatmon-0.0.2-py3-none-any.whl
+[2023-06-05 21:20:10] INFO root fetch - processPackages [keypoint-moseq]: executing diffoscope
+[2023-06-05 21:20:10] INFO root fetch - processPackages [keypoint-moseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypoint-moseq-0.1.3.tar.gz tmp/keypoint-moseq-0.1.4.tar.gz --markdown 20230605/k/keypoint-moseq/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 21:20:10] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-06-05 21:20:10] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.6.6.tar.gz tmp/dxsp-2.6.7.tar.gz --markdown 20230605/d/dxsp/2.6.6-2.6.7/diff.md --exclude *.pyd
+[2023-06-05 21:20:10] INFO root fetch - processPackages [datarobot-drum]: Downloading https://files.pythonhosted.org/packages/23/75/6b64b4240b00a04762c55748b6a459c99083850f20ebaaf9c1dcff7fddce/datarobot_drum-1.9.9.dev2-py3-none-any.whl
+[2023-06-05 21:20:10] INFO root fetch - processPackages [threatmon]: executing diffoscope
+[2023-06-05 21:20:10] INFO root fetch - processPackages [threatmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threatmon-0.0.1.tar.gz tmp/threatmon-0.0.2-py3-none-any.whl.zip --markdown 20230605/t/threatmon/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 21:20:10] INFO root fetch - processPackages [reboundx]: executing diffoscope
+[2023-06-05 21:20:10] INFO root fetch - processPackages [reboundx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reboundx-3.9.2.tar.gz tmp/reboundx-3.9.3.tar.gz --markdown 20230605/r/reboundx/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-06-05 21:20:10] INFO root fetch - processPackages [datarobot-drum]: executing diffoscope
+[2023-06-05 21:20:10] INFO root fetch - processPackages [datarobot-drum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip --markdown 20230605/d/datarobot-drum/1.9.9.dev1-1.9.9.dev2/diff.md --exclude *.pyd
+[2023-06-05 21:20:10] INFO root fetch - processPackages [pypkamd]: Downloading https://files.pythonhosted.org/packages/61/06/15aea444e6c522df230ad43512b201b522ceb6152aecfb4c0dd4e6745f2a/pypkamd-0.5.1.tar.gz
+[2023-06-05 21:20:10] INFO root fetch - processPackages [pypkamd]: executing diffoscope
+[2023-06-05 21:20:10] INFO root fetch - processPackages [pypkamd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypkamd-0.5.0.tar.gz tmp/pypkamd-0.5.1.tar.gz --markdown 20230605/p/pypkamd/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-05 21:20:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.84.tar.gz]
+[2023-06-05 21:20:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.9.tar.gz]
+[2023-06-05 21:20:11] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-05 21:20:11] INFO root fetch - processPackages [threatmon]: Remove: archive file [/home/abi/fetcher/tmp/threatmon-0.0.1.tar.gz]
+[2023-06-05 21:20:11] INFO root fetch - processPackages [threatmon]: Remove: archive file [/home/abi/fetcher/tmp/threatmon-0.0.2-py3-none-any.whl.zip]
+[2023-06-05 21:20:11] INFO root fetch - main [MainThread]: End processing [threatmon]: success
+[2023-06-05 21:20:11] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.6.tar.gz]
+[2023-06-05 21:20:11] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.7.tar.gz]
+[2023-06-05 21:20:11] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-06-05 21:20:11] INFO root fetch - processPackages [reboundx]: Remove: archive file [/home/abi/fetcher/tmp/reboundx-3.9.2.tar.gz]
+[2023-06-05 21:20:11] INFO root fetch - processPackages [reboundx]: Remove: archive file [/home/abi/fetcher/tmp/reboundx-3.9.3.tar.gz]
+[2023-06-05 21:20:11] INFO root fetch - main [MainThread]: End processing [reboundx]: success
+[2023-06-05 21:20:11] INFO root fetch - processPackages [repo-review]: Remove: archive file [/home/abi/fetcher/tmp/repo_review-0.7.0b2.tar.gz]
+[2023-06-05 21:20:11] INFO root fetch - processPackages [repo-review]: Remove: archive file [/home/abi/fetcher/tmp/repo_review-0.7.0b3.tar.gz]
+[2023-06-05 21:20:11] INFO root fetch - main [MainThread]: End processing [repo-review]: success
+[2023-06-05 21:20:12] INFO root fetch - processPackages [keypoint-moseq]: Remove: archive file [/home/abi/fetcher/tmp/keypoint-moseq-0.1.3.tar.gz]
+[2023-06-05 21:20:12] INFO root fetch - processPackages [keypoint-moseq]: Remove: archive file [/home/abi/fetcher/tmp/keypoint-moseq-0.1.4.tar.gz]
+[2023-06-05 21:20:12] INFO root fetch - main [MainThread]: End processing [keypoint-moseq]: success
+[2023-06-05 21:20:12] INFO root fetch - processPackages [pypkamd]: Remove: archive file [/home/abi/fetcher/tmp/pypkamd-0.5.0.tar.gz]
+[2023-06-05 21:20:12] INFO root fetch - processPackages [pypkamd]: Remove: archive file [/home/abi/fetcher/tmp/pypkamd-0.5.1.tar.gz]
+[2023-06-05 21:20:12] INFO root fetch - main [MainThread]: End processing [pypkamd]: success
+[2023-06-05 21:23:10] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
+[2023-06-05 21:23:10] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
+[2023-06-05 21:23:10] INFO root fetch - main [MainThread]: Store serial: [18380405]
