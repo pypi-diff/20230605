@@ -10669,3 +10669,138 @@
 [2023-06-05 13:21:04] INFO root fetch - main [MainThread]: End processing [openmodule]: success
 [2023-06-05 13:21:07] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
 [2023-06-05 13:21:07] INFO root fetch - main [MainThread]: Store serial: [18374993]
+[2023-06-05 13:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374993]
+[2023-06-05 13:26:17] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnert
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cnvrgv2
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remu
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-data-provider
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getmodelspec
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schoolware-api
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphsignal
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchtnt-nightly
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tb-nightly
+[2023-06-05 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leuci-map
+[2023-06-05 13:26:17] INFO root fetch - processPackages [cnert]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-05 13:26:17] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-05 13:26:17] INFO root fetch - processPackages [cnvrgv2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 13:26:17] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-05 13:26:17] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 13:26:17] INFO root fetch - processPackages [getmodelspec]: Start processing: lnschema_bionty
+[2023-06-05 13:26:17] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-05 13:26:17] INFO root fetch - processPackages [th2-grpc-data-provider]: New version: [2.0.0.dev3800999250] Old Version: [2.0.0.dev3800923993]
+[2023-06-05 13:26:17] INFO root fetch - processPackages [remu]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-05 13:26:17] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-05 13:26:17] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.4] Old Version: [2023.6.3]
+[2023-06-05 13:26:17] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-05 13:26:17] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-06-05 13:26:17] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230605/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-05 13:26:17] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-05 13:26:17] INFO root fetch - processPackages [th2-grpc-data-provider]: executing diffoscope
+[2023-06-05 13:26:17] INFO root fetch - processPackages [th2-grpc-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz --markdown 20230605/t/th2-grpc-data-provider/2.0.0.dev3800923993-2.0.0.dev3800999250/diff.md --exclude *.pyd
+[2023-06-05 13:26:17] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-06-05 13:26:17] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230605/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 13:26:17] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/43/7d/d9ba011ebe0db4596f6064c68d61afb71d5ac404bdf257be0b87f4df6f91/cnert-0.7.0.tar.gz
+[2023-06-05 13:26:17] INFO root fetch - processPackages [cnvrgv2]: Downloading https://files.pythonhosted.org/packages/43/fb/f63773c2a608f95bcd4a1397dc5632cf2872158cdca26fa735e9915b152a/cnvrgv2-1.0.8.tar.gz
+[2023-06-05 13:26:17] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/8a/ce/6c4ad532d461693620e6155f4cc8c8495b148d9bef62b7204619e41f19ec/graphsignal-0.9.4.tar.gz
+[2023-06-05 13:26:17] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-05 13:26:17] INFO root fetch - processPackages [remu]: Downloading https://files.pythonhosted.org/packages/10/7b/09d9996e82b055f018f333d39d25d34568d532cbc916e2d27b19dda589e9/remu-0.7.0.tar.gz
+[2023-06-05 13:26:17] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/4f/4a90173b01a8086490f647ccb58a5421c9d44a1c56813090cb773ecd7370/torchtnt-nightly-2023.6.4.tar.gz
+[2023-06-05 13:26:17] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-05 13:26:18] WARNING root fetch - processPackages [remu]: Skipping package: exceeds size limit 24638006>=10485760
+[2023-06-05 13:26:18] INFO root fetch - processPackages [remu]: Start processing: serializer-minenkov
+[2023-06-05 13:26:18] INFO root fetch - main [MainThread]: End processing [remu] error
+[2023-06-05 13:26:18] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-05 13:26:18] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.6.3.tar.gz tmp/torchtnt-nightly-2023.6.4.tar.gz --markdown 20230605/t/torchtnt-nightly/2023.6.3-2023.6.4/diff.md --exclude *.pyd
+[2023-06-05 13:26:18] WARNING root fetch - processPackages [serializer-minenkov]: Skipping, unable to determine old version
+[2023-06-05 13:26:18] INFO root fetch - processPackages [serializer-minenkov]: Start processing: brevettiai
+[2023-06-05 13:26:18] INFO root fetch - main [MainThread]: End processing [serializer-minenkov] error
+[2023-06-05 13:26:18] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/9c/52/c7267a9d34bef34e66284fbde194de8faf8d80ada35308df0e2cc90e269c/cnert-0.7.1.tar.gz
+[2023-06-05 13:26:18] INFO root fetch - processPackages [brevettiai]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-05 13:26:18] INFO root fetch - processPackages [cnvrgv2]: Downloading https://files.pythonhosted.org/packages/3e/d4/3802681a11d24c3a3d0577e032604d1a49eebac43c819e31ff87d7d2d575/cnvrgv2-1.0.9.tar.gz
+[2023-06-05 13:26:18] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/63/9a/d9360e506d4b48251d07845d69b0a9facd3465a3c270adacda14a215a8a8/graphsignal-0.9.5.tar.gz
+[2023-06-05 13:26:18] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-05 13:26:18] INFO root fetch - processPackages [cnert]: executing diffoscope
+[2023-06-05 13:26:18] INFO root fetch - processPackages [cnert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnert-0.7.0.tar.gz tmp/cnert-0.7.1.tar.gz --markdown 20230605/c/cnert/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-05 13:26:18] INFO root fetch - processPackages [brevettiai]: Downloading https://files.pythonhosted.org/packages/fd/74/b91096c23c3ecb8ce8ae68662a22890a72a6abd71f84067f71554e093362/brevettiai-0.8.5.tar.gz
+[2023-06-05 13:26:18] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-06-05 13:26:18] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230605/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-05 13:26:18] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-05 13:26:18] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230605/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 13:26:18] INFO root fetch - processPackages [cnvrgv2]: executing diffoscope
+[2023-06-05 13:26:18] INFO root fetch - processPackages [cnvrgv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnvrgv2-1.0.8.tar.gz tmp/cnvrgv2-1.0.9.tar.gz --markdown 20230605/c/cnvrgv2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 13:26:18] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-05 13:26:18] INFO root fetch - processPackages [brevettiai]: Downloading https://files.pythonhosted.org/packages/51/7b/7cd70b38f3f4dc15d9b6d4dacf13dc8cfa0a58815f132d15d1ced30785d6/brevettiai-0.8.6.tar.gz
+[2023-06-05 13:26:18] INFO root fetch - processPackages [brevettiai]: executing diffoscope
+[2023-06-05 13:26:18] INFO root fetch - processPackages [brevettiai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brevettiai-0.8.5.tar.gz tmp/brevettiai-0.8.6.tar.gz --markdown 20230605/b/brevettiai/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-05 13:26:18] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-05 13:26:18] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230605/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-05 13:26:19] INFO root fetch - processPackages [leuci-map]: Start processing: peewee-migrate
+[2023-06-05 13:26:19] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-06-05 13:26:19] INFO root fetch - processPackages [peewee-migrate]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-05 13:26:19] INFO root fetch - processPackages [schoolware-api]: Start processing: tensordict-nightly
+[2023-06-05 13:26:19] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-06-05 13:26:19] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.4] Old Version: [2023.6.3]
+[2023-06-05 13:26:19] INFO root fetch - processPackages [th2-grpc-data-provider]: Start processing: schoolware-api
+[2023-06-05 13:26:19] INFO root fetch - main [MainThread]: End processing [th2-grpc-data-provider]: success
+[2023-06-05 13:26:19] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-05 13:26:19] INFO root fetch - processPackages [peewee-migrate]: Downloading https://files.pythonhosted.org/packages/a4/d1/2ae4ca189a8e8087c7ca786af7707e043114db516cc42fabc10f74838d0f/peewee_migrate-1.8.1.tar.gz
+[2023-06-05 13:26:19] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-06-05 13:26:19] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230605/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-05 13:26:19] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/3d/13/713ea519bd85da3b71a49b98ad45b57b1260aedd7afbb8ca1178f58c4531/tensordict_nightly-2023.6.4-py39-none-any.whl
+[2023-06-05 13:26:19] INFO root fetch - processPackages [cnert]: Start processing: linkedin-scraperb
+[2023-06-05 13:26:19] INFO root fetch - main [MainThread]: End processing [cnert]: success
+[2023-06-05 13:26:19] WARNING root fetch - processPackages [linkedin-scraperb]: Skipping, unable to determine old version
+[2023-06-05 13:26:19] INFO root fetch - processPackages [linkedin-scraperb]: Start processing: UnityPy
+[2023-06-05 13:26:19] INFO root fetch - main [MainThread]: End processing [linkedin-scraperb] error
+[2023-06-05 13:26:19] INFO root fetch - processPackages [UnityPy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-05 13:26:19] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-05 13:26:19] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.3-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.4-py39-none-any.whl.zip --markdown 20230605/t/tensordict-nightly/2023.6.3-2023.6.4/diff.md --exclude *.pyd
+[2023-06-05 13:26:19] INFO root fetch - processPackages [peewee-migrate]: Downloading https://files.pythonhosted.org/packages/72/74/523b92e0e84be6a141a30637b529496ccbbb39632a0ba08ab332b540b5ab/peewee_migrate-1.9.0.tar.gz
+[2023-06-05 13:26:19] INFO root fetch - processPackages [peewee-migrate]: executing diffoscope
+[2023-06-05 13:26:19] INFO root fetch - processPackages [peewee-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_migrate-1.8.1.tar.gz tmp/peewee_migrate-1.9.0.tar.gz --markdown 20230605/p/peewee-migrate/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 13:26:19] INFO root fetch - processPackages [UnityPy]: Downloading https://files.pythonhosted.org/packages/f3/de/d7e485c609037e94fd2e03f9a700f09eccdddb3ef775fd406071a0eb3170/UnityPy-1.9.8.tar.gz
+[2023-06-05 13:26:19] INFO root fetch - processPackages [lnschema_bionty]: Start processing: adata
+[2023-06-05 13:26:19] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-05 13:26:19] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-06-05 13:26:20] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/66/fd/d3c9b9a7b2572489cc2001d80eeca95b9e231b8b8c1d6f582fe0e62853c5/adata-0.0.8b0.tar.gz
+[2023-06-05 13:26:20] INFO root fetch - processPackages [UnityPy]: Downloading https://files.pythonhosted.org/packages/19/ce/6a509e60952f5a718ca96ff7a6ac1eb961a20ae5cb015bfd27592ba21eff/UnityPy-1.9.9.tar.gz
+[2023-06-05 13:26:20] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/a8/b4/65647d57045b6c7d198901b3c90bec97ada894e04e9504c736ca433399c0/adata-0.0.9b0.tar.gz
+[2023-06-05 13:26:20] INFO root fetch - processPackages [cnvrgv2]: Start processing: PyBIS
+[2023-06-05 13:26:20] INFO root fetch - main [MainThread]: End processing [cnvrgv2]: success
+[2023-06-05 13:26:20] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-06-05 13:26:20] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-06-05 13:26:20] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230605/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-06-05 13:26:20] INFO root fetch - processPackages [schoolware-api]: Start processing: pySSRSapi
+[2023-06-05 13:26:20] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-06-05 13:26:20] INFO root fetch - processPackages [pySSRSapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-05 13:26:20] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-06-05 13:26:20] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/3e/b0/6cd5060f9a410fab1f2a74dd14956290167591cb459eae218fb6a1698870/pySSRSapi-0.0.7.tar.gz
+[2023-06-05 13:26:20] INFO root fetch - processPackages [tensordict-nightly]: Start processing: mypackagelicenseprototype
+[2023-06-05 13:26:20] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-05 13:26:20] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.0] Old Version: [1.8.4]
+[2023-06-05 13:26:20] INFO root fetch - processPackages [peewee-migrate]: Start processing: torchserve-nightly
+[2023-06-05 13:26:20] INFO root fetch - main [MainThread]: End processing [peewee-migrate]: success
+[2023-06-05 13:26:20] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.4] Old Version: [2023.6.3]
+[2023-06-05 13:26:20] INFO root fetch - processPackages [pySSRSapi]: executing diffoscope
+[2023-06-05 13:26:20] INFO root fetch - processPackages [pySSRSapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySSRSapi-0.0.6.tar.gz tmp/pySSRSapi-0.0.7.tar.gz --markdown 20230605/p/pySSRSapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-05 13:26:20] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 13:26:20] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.8.4-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.0.0-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.8.4-2.0.0/diff.md --exclude *.pyd
+[2023-06-05 13:26:20] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-06-05 13:26:20] INFO root fetch - processPackages [UnityPy]: executing diffoscope
+[2023-06-05 13:26:20] INFO root fetch - processPackages [UnityPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnityPy-1.9.8.tar.gz tmp/UnityPy-1.9.9.tar.gz --markdown 20230605/U/UnityPy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-05 13:26:21] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/c6/9d/7349bf077606ba52590612374d767afe88a597e80f70ab332a78af00a339/torchserve_nightly-2023.6.3-py3-none-any.whl
+[2023-06-05 13:26:21] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-06-05 13:26:21] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230605/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-06-05 13:26:21] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719504>=10485760
+[2023-06-05 13:26:21] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-05 13:26:21] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-05 13:26:21] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-06-05 13:26:21] INFO root fetch - main [MainThread]: End processing [pySSRSapi]: success
+[2023-06-05 13:26:21] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 13:26:22] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-06-05 13:26:22] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-06-05 13:26:22] INFO root fetch - main [MainThread]: End processing [brevettiai]: success
+[2023-06-05 13:26:24] INFO root fetch - main [MainThread]: End processing [UnityPy]: success
+[2023-06-05 13:26:25] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-05 13:26:25] INFO root fetch - main [MainThread]: Store serial: [18375066]
