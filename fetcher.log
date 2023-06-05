@@ -18982,3 +18982,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 18:17:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-05 18:17:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-05 18:17:34] INFO root fetch - main [MainThread]: Store serial: [18378524]
+[2023-06-05 18:22:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378524]
+[2023-06-05 18:22:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KraitUtilities
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getmodelspec
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ohnlp-backbone-xlang-python
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Signal8
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icub-models
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypackagelicenseprototype
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ohnlp-backbone-xlang-python
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flake8-bugbear
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatai-streamer
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qwak-sim
+[2023-06-05 18:22:43] INFO root fetch - processPackages [Signal8]: New version: [2.5] Old Version: [2.4]
+[2023-06-05 18:22:43] INFO root fetch - processPackages [icub-models]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-06-05 18:22:43] WARNING root fetch - processPackages [KraitUtilities]: Skipping, unable to determine old version
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 18:22:43] INFO root fetch - processPackages [KraitUtilities]: Start processing: semter
+[2023-06-05 18:22:43] INFO root fetch - main [MainThread]: End processing [KraitUtilities] error
+[2023-06-05 18:22:43] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 18:22:43] INFO root fetch - processPackages [chatai-streamer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 18:22:43] INFO root fetch - processPackages [qwak-sim]: New version: [2023.1014a0] Old Version: [2023.1013a0]
+[2023-06-05 18:22:43] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-06-05 18:22:43] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-05 18:22:43] INFO root fetch - processPackages [getmodelspec]: Start processing: django-tbase-post-product
+[2023-06-05 18:22:43] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-05 18:22:43] WARNING root fetch - processPackages [semter]: Skipping, unable to determine old version
+[2023-06-05 18:22:43] INFO root fetch - processPackages [flake8-bugbear]: New version: [23.6.5] Old Version: [23.5.9]
+[2023-06-05 18:22:43] INFO root fetch - processPackages [semter]: Start processing: lollms
+[2023-06-05 18:22:43] INFO root fetch - main [MainThread]: End processing [semter] error
+[2023-06-05 18:22:43] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.6.616859820] Old Version: [2023.6.516859797]
+[2023-06-05 18:22:43] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/29/da/36d2b79abe8dd9a0a82fd9f14376afeb82a690e5d31ebfa23e80f1f789b1/Signal8-2.4.tar.gz
+[2023-06-05 18:22:43] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-05 18:22:44] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/6c/b5/8ec8f1ecf9c20bff8ae6f42661f05a8a89ae9360e6ef13cc96b084b93551/mypackagelicenseprototype-2.1.4-py3-none-any.whl
+[2023-06-05 18:22:44] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-05 18:22:44] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-05 18:22:44] INFO root fetch - processPackages [lollms]: Start processing: torquant
+[2023-06-05 18:22:44] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-05 18:22:44] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/33/6c/75f7bee1cc94ea9da34e650d98a551c7f33143199d0d773d65d2d1b8490f/ohnlp-backbone-xlang-python-1.0.1.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/33/6c/75f7bee1cc94ea9da34e650d98a551c7f33143199d0d773d65d2d1b8490f/ohnlp-backbone-xlang-python-1.0.1.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/33/13/f40f36309d1f483f4a829a408883a8925a4709b7d955582c2aa14908afbb/flake8-bugbear-23.5.9.tar.gz
+[2023-06-05 18:22:44] WARNING root fetch - processPackages [torquant]: Skipping, unable to determine old version
+[2023-06-05 18:22:44] INFO root fetch - processPackages [torquant]: Start processing: swh.storage
+[2023-06-05 18:22:44] INFO root fetch - main [MainThread]: End processing [torquant] error
+[2023-06-05 18:22:44] INFO root fetch - processPackages [chatai-streamer]: Downloading https://files.pythonhosted.org/packages/4d/5d/b3ea2055f5db3f1457f5493cefc422e102eb990f2868a13ebafa9241d3f8/chatai-streamer-0.0.1.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/7c/39/824dac15790b087d22ad93ce392b830d3672b0ccdb1f7496810cd16da322/django_tbase_post_product-2023.6.516859797.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [icub-models]: Downloading https://files.pythonhosted.org/packages/9e/f4/6702798b3982e36f5f2db7b2777b19b493d37209e23ef680342dcc7143df/icub_models-2.0.1.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/bc/e8/9014a92b2bb7cb740c5d1fc570267a8f191ee72c1253458922cc03a89299/Signal8-2.5.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/84/24/f913b90203afc58e5d962d94a632f471c97824ea6781b866b69c8b72e72d/mypackagelicenseprototype-2.1.5-py3-none-any.whl
+[2023-06-05 18:22:44] INFO root fetch - processPackages [qwak-sim]: Downloading https://files.pythonhosted.org/packages/b7/36/215b69d333d66abd148e9010fd5423330faa35068cefe6d37dd9cb6493d8/qwak-sim-2023.1013a0.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-06-05 18:22:44] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-2.4.tar.gz tmp/Signal8-2.5.tar.gz --markdown 20230605/S/Signal8/2.4-2.5/diff.md --exclude *.pyd
+[2023-06-05 18:22:44] WARNING root fetch - processPackages [icub-models]: Skipping package: exceeds size limit 23551007>=10485760
+[2023-06-05 18:22:44] INFO root fetch - main [MainThread]: End processing [icub-models] error
+[2023-06-05 18:22:44] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/b4/32/61a3138338d79b167eb251c835f39bf7dd75ac2a70d2fbd322f5c9376836/ohnlp-backbone-xlang-python-1.0.2.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/b4/32/61a3138338d79b167eb251c835f39bf7dd75ac2a70d2fbd322f5c9376836/ohnlp-backbone-xlang-python-1.0.2.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 18:22:44] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.1.4-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.1.5-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-06-05 18:22:44] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-06-05 18:22:44] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-06-05 18:22:44] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.1.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.2.tar.gz --markdown 20230605/o/ohnlp-backbone-xlang-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 18:22:44] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.1.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.2.tar.gz --markdown 20230605/o/ohnlp-backbone-xlang-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 18:22:44] INFO root fetch - processPackages [flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/00/c5/e95dcb8f8a882858481e324d33853cc83701d581b51034079881b391c715/flake8-bugbear-23.6.5.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [flake8-bugbear]: executing diffoscope
+[2023-06-05 18:22:44] INFO root fetch - processPackages [flake8-bugbear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-bugbear-23.5.9.tar.gz tmp/flake8-bugbear-23.6.5.tar.gz --markdown 20230605/f/flake8-bugbear/23.5.9-23.6.5/diff.md --exclude *.pyd
+[2023-06-05 18:22:44] INFO root fetch - processPackages [chatai-streamer]: Downloading https://files.pythonhosted.org/packages/db/7b/876a5a19034f4ad1125241c212e167c6cc812b7cac4ebca4966544acc076/chatai-streamer-0.0.2.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [qwak-sim]: Downloading https://files.pythonhosted.org/packages/45/9a/7c594926191174878360143eea9223832583f0f464f2e7db81acb38c4321/qwak-sim-2023.1014a0.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [chatai-streamer]: executing diffoscope
+[2023-06-05 18:22:44] INFO root fetch - processPackages [chatai-streamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatai-streamer-0.0.1.tar.gz tmp/chatai-streamer-0.0.2.tar.gz --markdown 20230605/c/chatai-streamer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 18:22:44] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/2a/a5/700ce1668cca7add9281450f6356d414e4b61f4703676a1b092f8ebec349/django_tbase_post_product-2023.6.616859820.tar.gz
+[2023-06-05 18:22:44] INFO root fetch - processPackages [swh.storage]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-05 18:22:44] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-06-05 18:22:44] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.6.516859797.tar.gz tmp/django_tbase_post_product-2023.6.616859820.tar.gz --markdown 20230605/d/django-tbase-post-product/2023.6.516859797-2023.6.616859820/diff.md --exclude *.pyd
+[2023-06-05 18:22:44] INFO root fetch - processPackages [qwak-sim]: executing diffoscope
+[2023-06-05 18:22:44] INFO root fetch - processPackages [qwak-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak-sim-2023.1013a0.tar.gz tmp/qwak-sim-2023.1014a0.tar.gz --markdown 20230605/q/qwak-sim/2023.1013a0-2023.1014a0/diff.md --exclude *.pyd
+[2023-06-05 18:22:44] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/2a/de/dfede4312a54f58ce0cacba3673579b46c45be36910fe4c346f85de2a969/swh.storage-1.8.0.tar.gz
+[2023-06-05 18:22:45] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/96/d9/1ce230d5c980eab9071c640a60c695e7efad82145bb8f2662ef8678e7661/swh.storage-1.9.0.tar.gz
+[2023-06-05 18:22:45] INFO root fetch - processPackages [swh.storage]: executing diffoscope
+[2023-06-05 18:22:45] INFO root fetch - processPackages [swh.storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.storage-1.8.0.tar.gz tmp/swh.storage-1.9.0.tar.gz --markdown 20230605/s/swh.storage/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 18:22:45] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.4.tar.gz]
+[2023-06-05 18:22:45] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.5.tar.gz]
+[2023-06-05 18:22:45] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-06-05 18:22:45] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.1.tar.gz]
+[2023-06-05 18:22:45] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.2.tar.gz]
+[2023-06-05 18:22:45] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-06-05 18:22:45] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.4-py3-none-any.whl.zip]
+[2023-06-05 18:22:45] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.5-py3-none-any.whl.zip]
+[2023-06-05 18:22:45] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 18:22:45] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-06-05 18:22:45] INFO root fetch - processPackages [chatai-streamer]: Remove: archive file [/home/abi/fetcher/tmp/chatai-streamer-0.0.1.tar.gz]
+[2023-06-05 18:22:45] INFO root fetch - processPackages [chatai-streamer]: Remove: archive file [/home/abi/fetcher/tmp/chatai-streamer-0.0.2.tar.gz]
+[2023-06-05 18:22:45] INFO root fetch - main [MainThread]: End processing [chatai-streamer]: success
+[2023-06-05 18:22:46] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.6.516859797.tar.gz]
+[2023-06-05 18:22:46] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.6.616859820.tar.gz]
+[2023-06-05 18:22:46] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-06-05 18:22:46] INFO root fetch - processPackages [flake8-bugbear]: Remove: archive file [/home/abi/fetcher/tmp/flake8-bugbear-23.5.9.tar.gz]
+[2023-06-05 18:22:46] INFO root fetch - processPackages [flake8-bugbear]: Remove: archive file [/home/abi/fetcher/tmp/flake8-bugbear-23.6.5.tar.gz]
+[2023-06-05 18:22:46] INFO root fetch - main [MainThread]: End processing [flake8-bugbear]: success
+[2023-06-05 18:22:46] INFO root fetch - processPackages [qwak-sim]: Remove: archive file [/home/abi/fetcher/tmp/qwak-sim-2023.1013a0.tar.gz]
+[2023-06-05 18:22:46] INFO root fetch - processPackages [qwak-sim]: Remove: archive file [/home/abi/fetcher/tmp/qwak-sim-2023.1014a0.tar.gz]
+[2023-06-05 18:22:46] INFO root fetch - main [MainThread]: End processing [qwak-sim]: success
+[2023-06-05 18:22:49] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh.storage-1.8.0.tar.gz]
+[2023-06-05 18:22:49] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh.storage-1.9.0.tar.gz]
+[2023-06-05 18:22:49] INFO root fetch - main [MainThread]: End processing [swh.storage]: success
+[2023-06-05 18:22:49] INFO root fetch - main [MainThread]: Store serial: [18378572]
