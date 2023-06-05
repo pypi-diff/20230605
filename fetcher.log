@@ -5273,3 +5273,17 @@
 [2023-06-05 07:33:35] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
 [2023-06-05 07:33:39] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-06-05 07:33:39] INFO root fetch - main [MainThread]: Store serial: [18371922]
+[2023-06-05 07:38:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371922]
+[2023-06-05 07:38:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-05 07:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: andebox
+[2023-06-05 07:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PMPrimer
+[2023-06-05 07:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eisenheimisme
+[2023-06-05 07:38:48] WARNING root fetch - processPackages [eisenheimisme]: Skipping, unable to determine old version
+[2023-06-05 07:38:48] INFO root fetch - main [MainThread]: End processing [eisenheimisme] error
+[2023-06-05 07:38:48] INFO root fetch - processPackages [andebox]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 07:38:48] WARNING root fetch - processPackages [PMPrimer]: Skipping, unable to determine old version
+[2023-06-05 07:38:48] INFO root fetch - main [MainThread]: End processing [PMPrimer] error
+[2023-06-05 07:38:48] INFO root fetch - processPackages [andebox]: executing diffoscope
+[2023-06-05 07:38:48] INFO root fetch - processPackages [andebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andebox-0.8.0.tar.gz tmp/andebox-0.9.0.tar.gz --markdown 20230605/a/andebox/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 07:38:49] INFO root fetch - main [MainThread]: End processing [andebox]: success
+[2023-06-05 07:38:49] INFO root fetch - main [MainThread]: Store serial: [18371933]
