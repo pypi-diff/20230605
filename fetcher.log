@@ -11615,3 +11615,108 @@
 [2023-06-05 13:58:17] INFO root fetch - processPackages [deepfilterdataloader]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterDataLoader-0.5.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2023-06-05 13:58:17] INFO root fetch - main [MainThread]: End processing [deepfilterdataloader]: success
 [2023-06-05 13:58:17] INFO root fetch - main [MainThread]: Store serial: [18375483]
+[2023-06-05 14:03:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375483]
+[2023-06-05 14:03:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Products.MeetingCPASLalouviere
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smper
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psychrochart
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypackagelicenseprototype
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: image-stitching
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h2o-helium
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: domolibrary
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-job-etl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulsestreamer
+[2023-06-05 14:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-sale-timesheet-invoice-description
+[2023-06-05 14:03:32] WARNING root fetch - processPackages [image-stitching]: Skipping, unable to determine old version
+[2023-06-05 14:03:32] INFO root fetch - processPackages [image-stitching]: Start processing: odoo-addon-account-invoice-refund-reason
+[2023-06-05 14:03:32] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: New version: [4.2.0a5] Old Version: [4.2.0a4]
+[2023-06-05 14:03:32] INFO root fetch - main [MainThread]: End processing [image-stitching] error
+[2023-06-05 14:03:32] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-05 14:03:32] INFO root fetch - processPackages [smper]: New version: [4.0] Old Version: [3.3]
+[2023-06-05 14:03:32] INFO root fetch - processPackages [pulsestreamer]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-06-05 14:03:32] INFO root fetch - processPackages [h2o-helium]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-05 14:03:32] INFO root fetch - processPackages [psychrochart]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 14:03:32] INFO root fetch - processPackages [data-job-etl]: New version: [1.1.3] Old Version: [1.1.1]
+[2023-06-05 14:03:32] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 14:03:32] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/f9/88/8673535b98df034fcff01d40fae1b3f4e99f69744813b66af87f7bd9df3e/mypackagelicenseprototype-2.0.4-py3-none-any.whl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/e3/21/4720da5d616febdd12e875fe5900ec30fdebe3c7523e2db429341155ef60/domolibrary-0.1.8.tar.gz
+[2023-06-05 14:03:32] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-reason]: New version: [15.0.1.0.3] Old Version: [15.0.1.0.2]
+[2023-06-05 14:03:32] INFO root fetch - processPackages [odoo-addon-sale-timesheet-invoice-description]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1]
+[2023-06-05 14:03:32] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Downloading https://files.pythonhosted.org/packages/d0/7f/2a7d269d5c31581f080279a5906cd9a4bbe63196d17e149cf72ae7d550cc/Products.MeetingCPASLalouviere-4.2.0a4.tar.gz
+[2023-06-05 14:03:32] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/da/91/c6ad923562fd64851c9f7a055580352e6a9a921826a7f8150c1445753336/smper-3.3.tar.gz
+[2023-06-05 14:03:32] INFO root fetch - processPackages [h2o-helium]: Downloading https://files.pythonhosted.org/packages/bd/ae/c499f7748b7f9b0bba572c77e51cdb2eb1fcb3d960837d2024fbc8fc640a/h2o_helium-0.2.0-py3-none-any.whl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [pulsestreamer]: Downloading https://files.pythonhosted.org/packages/5b/ee/f04041e4fab2ad40d84448c9e741a0e7e1a9e946779f4a83b4f410eb4f2b/pulsestreamer-1.6.2-py2.py3-none-any.whl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [data-job-etl]: Downloading https://files.pythonhosted.org/packages/e2/e4/af5e2d2bc772e4512463e5bf4ec125dbc0399afbdb137ed3a4fa4e6b6278/data_job_etl-1.1.1-py3-none-any.whl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/cd/58/8faded02720f1b61da4703e3e2e304d1a3aa27788ee7402ba7814fdee5d4/psychrochart-0.4.0.tar.gz
+[2023-06-05 14:03:32] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ba/75/5a59616fc27c68dfb4e04e111a598384360b36ecbd4ac5c10bfb80277305/domolibrary-0.1.9.tar.gz
+[2023-06-05 14:03:32] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/b9/93/453e7feafdb311ed1cb1c43b32a868acc9129d221f791c64bf997e6649e9/mypackagelicenseprototype-2.0.5-py3-none-any.whl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [odoo-addon-sale-timesheet-invoice-description]: Downloading https://files.pythonhosted.org/packages/1b/42/00f0bb8e117f7f9d4100e9febdfb9e73374afa14566769b24442f7b09dd5/odoo_addon_sale_timesheet_invoice_description-15.0.1.0.1-py3-none-any.whl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-reason]: Downloading https://files.pythonhosted.org/packages/68/e5/e496d41624bb4d9f0a0e813eae5393f5009fee09d38972a1fc7c77748bfc/odoo_addon_account_invoice_refund_reason-15.0.1.0.2-py3-none-any.whl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 14:03:32] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.4-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.0.5-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-05 14:03:32] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-06-05 14:03:32] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230605/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 14:03:32] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/23/3c/40f037c7ab2c9630271d176dcb69a77ef970fc4c92cf81e75b16ad2a716c/smper-4.0.tar.gz
+[2023-06-05 14:03:32] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Downloading https://files.pythonhosted.org/packages/e5/b4/574e7bbfe635cd30cf6632343fda4449df3cb31d9e746a3f2c09521bfdb5/Products.MeetingCPASLalouviere-4.2.0a5.tar.gz
+[2023-06-05 14:03:32] INFO root fetch - processPackages [h2o-helium]: Downloading https://files.pythonhosted.org/packages/79/04/5d9b1cae7d0c6ada9b88211afb59e7d2e8201fefb4a6c02247dae51db595/h2o_helium-0.3.0-py3-none-any.whl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [smper]: executing diffoscope
+[2023-06-05 14:03:32] INFO root fetch - processPackages [smper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smper-3.3.tar.gz tmp/smper-4.0.tar.gz --markdown 20230605/s/smper/3.3-4.0/diff.md --exclude *.pyd
+[2023-06-05 14:03:32] INFO root fetch - processPackages [pulsestreamer]: Downloading https://files.pythonhosted.org/packages/a6/71/6d884d51a4e3f0161b173a96edd7c4116135e300ab5a718651ad5bced5cf/pulsestreamer-1.7.0-py2.py3-none-any.whl
+[2023-06-05 14:03:32] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/13/7f/dd256b23b4dcdf4d14b9490c47556dc6678af3016b54872bf1e9b3d3383d/psychrochart-0.5.0.tar.gz
+[2023-06-05 14:03:32] INFO root fetch - processPackages [data-job-etl]: Downloading https://files.pythonhosted.org/packages/ba/31/a0fa96b7d640232850ad0d9a4b6d07cb0260c8584a9b91b89080d545de6e/data_job_etl-1.1.3-py3-none-any.whl
+[2023-06-05 14:03:33] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-reason]: Downloading https://files.pythonhosted.org/packages/85/07/24a7eee1a265a41f326c5d31c4d9c613749ce1f1d4b620def9af238b3870/odoo_addon_account_invoice_refund_reason-15.0.1.0.3-py3-none-any.whl
+[2023-06-05 14:03:33] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: executing diffoscope
+[2023-06-05 14:03:33] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingCPASLalouviere-4.2.0a4.tar.gz tmp/Products.MeetingCPASLalouviere-4.2.0a5.tar.gz --markdown 20230605/P/Products.MeetingCPASLalouviere/4.2.0a4-4.2.0a5/diff.md --exclude *.pyd
+[2023-06-05 14:03:33] INFO root fetch - processPackages [h2o-helium]: executing diffoscope
+[2023-06-05 14:03:33] INFO root fetch - processPackages [h2o-helium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_helium-0.2.0-py3-none-any.whl.zip tmp/h2o_helium-0.3.0-py3-none-any.whl.zip --markdown 20230605/h/h2o-helium/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 14:03:33] INFO root fetch - processPackages [pulsestreamer]: executing diffoscope
+[2023-06-05 14:03:33] INFO root fetch - processPackages [pulsestreamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsestreamer-1.6.2-py2.py3-none-any.whl.zip tmp/pulsestreamer-1.7.0-py2.py3-none-any.whl.zip --markdown 20230605/p/pulsestreamer/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-06-05 14:03:33] INFO root fetch - processPackages [psychrochart]: executing diffoscope
+[2023-06-05 14:03:33] INFO root fetch - processPackages [psychrochart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychrochart-0.4.0.tar.gz tmp/psychrochart-0.5.0.tar.gz --markdown 20230605/p/psychrochart/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 14:03:33] INFO root fetch - processPackages [data-job-etl]: executing diffoscope
+[2023-06-05 14:03:33] INFO root fetch - processPackages [data-job-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_job_etl-1.1.1-py3-none-any.whl.zip tmp/data_job_etl-1.1.3-py3-none-any.whl.zip --markdown 20230605/d/data-job-etl/1.1.1-1.1.3/diff.md --exclude *.pyd
+[2023-06-05 14:03:33] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-reason]: executing diffoscope
+[2023-06-05 14:03:33] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_refund_reason-15.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_refund_reason-15.0.1.0.3-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-account-invoice-refund-reason/15.0.1.0.2-15.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-05 14:03:33] INFO root fetch - processPackages [odoo-addon-sale-timesheet-invoice-description]: Downloading https://files.pythonhosted.org/packages/5b/99/6c12a7fb5cb9d50f91ea0e4621b410a4ac3240755a63da55f370856890d4/odoo_addon_sale_timesheet_invoice_description-15.0.1.0.2-py3-none-any.whl
+[2023-06-05 14:03:33] INFO root fetch - processPackages [odoo-addon-sale-timesheet-invoice-description]: executing diffoscope
+[2023-06-05 14:03:33] INFO root fetch - processPackages [odoo-addon-sale-timesheet-invoice-description]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_timesheet_invoice_description-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_timesheet_invoice_description-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-sale-timesheet-invoice-description/15.0.1.0.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-05 14:03:34] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.4-py3-none-any.whl.zip]
+[2023-06-05 14:03:34] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.5-py3-none-any.whl.zip]
+[2023-06-05 14:03:34] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: pyentrp
+[2023-06-05 14:03:34] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 14:03:34] INFO root fetch - processPackages [smper]: Remove: archive file [/home/abi/fetcher/tmp/smper-3.3.tar.gz]
+[2023-06-05 14:03:34] INFO root fetch - processPackages [smper]: Remove: archive file [/home/abi/fetcher/tmp/smper-4.0.tar.gz]
+[2023-06-05 14:03:34] INFO root fetch - main [MainThread]: End processing [smper]: success
+[2023-06-05 14:03:34] INFO root fetch - processPackages [pyentrp]: New version: [0.8.2] Old Version: [0.7.1]
+[2023-06-05 14:03:34] INFO root fetch - processPackages [h2o-helium]: Remove: archive file [/home/abi/fetcher/tmp/h2o_helium-0.2.0-py3-none-any.whl.zip]
+[2023-06-05 14:03:34] INFO root fetch - processPackages [h2o-helium]: Remove: archive file [/home/abi/fetcher/tmp/h2o_helium-0.3.0-py3-none-any.whl.zip]
+[2023-06-05 14:03:34] INFO root fetch - main [MainThread]: End processing [h2o-helium]: success
+[2023-06-05 14:03:34] INFO root fetch - processPackages [pyentrp]: Downloading https://files.pythonhosted.org/packages/48/ba/1f1963bc06e2fb8ebde5b9874a02845e048c34634b65f27d253ccef6c365/pyentrp-0.7.1.tar.gz
+[2023-06-05 14:03:34] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.4.0.tar.gz]
+[2023-06-05 14:03:34] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.5.0.tar.gz]
+[2023-06-05 14:03:34] INFO root fetch - main [MainThread]: End processing [psychrochart]: success
+[2023-06-05 14:03:34] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_reason-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-05 14:03:34] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_reason-15.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-05 14:03:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-refund-reason]: success
+[2023-06-05 14:03:34] INFO root fetch - processPackages [pyentrp]: Downloading https://files.pythonhosted.org/packages/02/a9/d4145253726d1658392cc5b4bd1df348e50607d8e0924f544afc5f324eee/pyentrp-0.8.2.tar.gz
+[2023-06-05 14:03:34] INFO root fetch - processPackages [pulsestreamer]: Remove: archive file [/home/abi/fetcher/tmp/pulsestreamer-1.6.2-py2.py3-none-any.whl.zip]
+[2023-06-05 14:03:34] INFO root fetch - processPackages [pulsestreamer]: Remove: archive file [/home/abi/fetcher/tmp/pulsestreamer-1.7.0-py2.py3-none-any.whl.zip]
+[2023-06-05 14:03:34] INFO root fetch - main [MainThread]: End processing [pulsestreamer]: success
+[2023-06-05 14:03:34] INFO root fetch - processPackages [pyentrp]: executing diffoscope
+[2023-06-05 14:03:34] INFO root fetch - processPackages [pyentrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyentrp-0.7.1.tar.gz tmp/pyentrp-0.8.2.tar.gz --markdown 20230605/p/pyentrp/0.7.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-05 14:03:35] INFO root fetch - processPackages [odoo-addon-sale-timesheet-invoice-description]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_timesheet_invoice_description-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-05 14:03:35] INFO root fetch - processPackages [odoo-addon-sale-timesheet-invoice-description]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_timesheet_invoice_description-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-05 14:03:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-timesheet-invoice-description]: success
+[2023-06-05 14:03:35] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.8.tar.gz]
+[2023-06-05 14:03:35] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.9.tar.gz]
+[2023-06-05 14:03:35] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-06-05 14:03:35] INFO root fetch - processPackages [pyentrp]: Remove: archive file [/home/abi/fetcher/tmp/pyentrp-0.7.1.tar.gz]
+[2023-06-05 14:03:35] INFO root fetch - processPackages [pyentrp]: Remove: archive file [/home/abi/fetcher/tmp/pyentrp-0.8.2.tar.gz]
+[2023-06-05 14:03:35] INFO root fetch - main [MainThread]: End processing [pyentrp]: success
+[2023-06-05 14:03:36] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingCPASLalouviere-4.2.0a4.tar.gz]
+[2023-06-05 14:03:36] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingCPASLalouviere-4.2.0a5.tar.gz]
+[2023-06-05 14:03:36] INFO root fetch - main [MainThread]: End processing [Products.MeetingCPASLalouviere]: success
+[2023-06-05 14:03:36] INFO root fetch - processPackages [data-job-etl]: Remove: archive file [/home/abi/fetcher/tmp/data_job_etl-1.1.1-py3-none-any.whl.zip]
+[2023-06-05 14:03:36] INFO root fetch - processPackages [data-job-etl]: Remove: archive file [/home/abi/fetcher/tmp/data_job_etl-1.1.3-py3-none-any.whl.zip]
+[2023-06-05 14:03:36] INFO root fetch - main [MainThread]: End processing [data-job-etl]: success
+[2023-06-05 14:03:36] INFO root fetch - main [MainThread]: Store serial: [18375518]
