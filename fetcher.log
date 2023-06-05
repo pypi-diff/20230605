@@ -15784,3 +15784,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 16:24:10] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2023-06-05 16:24:10] INFO root fetch - main [MainThread]: End processing [awadb]: success
 [2023-06-05 16:24:10] INFO root fetch - main [MainThread]: Store serial: [18377126]
+[2023-06-05 16:29:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377126]
+[2023-06-05 16:29:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-cisco-maintenance
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liveports
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gemseo-matlab
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EdgeGPT
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-substate
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DSE-Software-Connection-Tester
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flywheel-cli
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tdw
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: invoke-plugin-for-pylint
+[2023-06-05 16:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyMoosh
+[2023-06-05 16:29:23] INFO root fetch - processPackages [liveports]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 16:29:23] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-05 16:29:23] INFO root fetch - processPackages [liveports]: Downloading https://files.pythonhosted.org/packages/10/64/468df380f0aac1455c5e52a945c54026dbd9f842475231eef1d6699b3f82/liveports-0.1.5.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/ca/c9/1a07dca941e3f714740bb53318c40e9d161f422c78b40066289f9b9f1cfa/EdgeGPT-0.8.2.tar.gz
+[2023-06-05 16:29:23] WARNING root fetch - processPackages [gemseo-matlab]: Skipping, unable to determine old version
+[2023-06-05 16:29:23] INFO root fetch - main [MainThread]: End processing [gemseo-matlab] error
+[2023-06-05 16:29:23] WARNING root fetch - processPackages [DSE-Software-Connection-Tester]: Skipping, unable to determine old version
+[2023-06-05 16:29:23] INFO root fetch - main [MainThread]: End processing [DSE-Software-Connection-Tester] error
+[2023-06-05 16:29:23] INFO root fetch - processPackages [invoke-plugin-for-pylint]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-06-05 16:29:23] INFO root fetch - processPackages [PyMoosh]: New version: [2.6] Old Version: [2.5]
+[2023-06-05 16:29:23] WARNING root fetch - processPackages [odoo-addon-purchase-substate]: Skipping, unable to determine old version
+[2023-06-05 16:29:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-substate] error
+[2023-06-05 16:29:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 16:29:23] INFO root fetch - processPackages [flywheel-cli]: New version: [9.0.3] Old Version: [9.0.2.dev1]
+[2023-06-05 16:29:23] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2023-06-05 16:29:23] INFO root fetch - processPackages [liveports]: Downloading https://files.pythonhosted.org/packages/8e/21/7dfd71d08bb6ca9c200c47026c2c8ac79e500435fa930ec87b3a47d3c7f6/liveports-0.1.6.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/26/6a/85a21c30b73741431e734b84a4832aae11ab7a6623e060eab621ab32bdc1/EdgeGPT-0.9.0.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [liveports]: executing diffoscope
+[2023-06-05 16:29:23] INFO root fetch - processPackages [liveports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveports-0.1.5.tar.gz tmp/liveports-0.1.6.tar.gz --markdown 20230605/l/liveports/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 16:29:23] INFO root fetch - processPackages [invoke-plugin-for-pylint]: Downloading https://files.pythonhosted.org/packages/ad/46/94b3639fa65d1a33d4e80ffbfabad419bcabbd5d1a489f9e073f6097e66b/invoke-plugin-for-pylint-1.0.1.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/6a/6b/f54775db9dea11c35558543cbe1374e325a5f84a6e2f401d3c478925dc25/PyMoosh-2.5.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/c7/0a/23030ab806d7c0cb62c5f36307b435d2832f67f6a099d087e1d17d4d5f5a/netbox-cisco-maintenance-0.0.8.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-05 16:29:23] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.8.2.tar.gz tmp/EdgeGPT-0.9.0.tar.gz --markdown 20230605/E/EdgeGPT/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 16:29:23] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/cd/8c/888e6a210974b8635a94ad1a71290a597e3bb5cf05736f9b6089b1e4f9ee/flywheel_cli-9.0.2.dev1-py3-none-any.whl
+[2023-06-05 16:29:23] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2023-06-05 16:29:23] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2023-06-05 16:29:23] INFO root fetch - processPackages [invoke-plugin-for-pylint]: Downloading https://files.pythonhosted.org/packages/fb/37/dac4614d4e715b646cdcf1aef6e52d2d1e44096e812e32aef84e3ce33794/invoke-plugin-for-pylint-2.0.0.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/3c/fe/2b7d8b7a0b0993560e6d3f804b170b217b0e9c36f79cd8a7a0e9cefbbdcd/PyMoosh-2.6.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/55/18/d82dc30b78e3d23b9f00dc5bd845df80e3c03826a83d082261fb6a38bb30/netbox-cisco-maintenance-0.0.9.tar.gz
+[2023-06-05 16:29:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-05 16:29:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230605/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:29:24] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/ca/5b/e1a470e13fabcd0f52c475b54da7f9f10c25fd5d419bd22de69fe2838457/flywheel_cli-9.0.3-py3-none-any.whl
+[2023-06-05 16:29:24] INFO root fetch - processPackages [invoke-plugin-for-pylint]: executing diffoscope
+[2023-06-05 16:29:24] INFO root fetch - processPackages [invoke-plugin-for-pylint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoke-plugin-for-pylint-1.0.1.tar.gz tmp/invoke-plugin-for-pylint-2.0.0.tar.gz --markdown 20230605/i/invoke-plugin-for-pylint/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-05 16:29:24] INFO root fetch - processPackages [PyMoosh]: executing diffoscope
+[2023-06-05 16:29:24] INFO root fetch - processPackages [PyMoosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMoosh-2.5.tar.gz tmp/PyMoosh-2.6.tar.gz --markdown 20230605/P/PyMoosh/2.5-2.6/diff.md --exclude *.pyd
+[2023-06-05 16:29:24] INFO root fetch - processPackages [flywheel-cli]: executing diffoscope
+[2023-06-05 16:29:24] INFO root fetch - processPackages [flywheel-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip --markdown 20230605/f/flywheel-cli/9.0.2.dev1-9.0.3/diff.md --exclude *.pyd
+[2023-06-05 16:29:25] INFO root fetch - processPackages [liveports]: Remove: archive file [/home/abi/fetcher/tmp/liveports-0.1.5.tar.gz]
+[2023-06-05 16:29:25] INFO root fetch - processPackages [liveports]: Remove: archive file [/home/abi/fetcher/tmp/liveports-0.1.6.tar.gz]
+[2023-06-05 16:29:25] INFO root fetch - main [MainThread]: End processing [liveports]: success
+[2023-06-05 16:29:25] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.8.2.tar.gz]
+[2023-06-05 16:29:25] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.0.tar.gz]
+[2023-06-05 16:29:25] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-05 16:29:26] INFO root fetch - processPackages [invoke-plugin-for-pylint]: Remove: archive file [/home/abi/fetcher/tmp/invoke-plugin-for-pylint-1.0.1.tar.gz]
+[2023-06-05 16:29:26] INFO root fetch - processPackages [invoke-plugin-for-pylint]: Remove: archive file [/home/abi/fetcher/tmp/invoke-plugin-for-pylint-2.0.0.tar.gz]
+[2023-06-05 16:29:26] INFO root fetch - main [MainThread]: End processing [invoke-plugin-for-pylint]: success
+[2023-06-05 16:29:26] INFO root fetch - processPackages [PyMoosh]: Remove: archive file [/home/abi/fetcher/tmp/PyMoosh-2.5.tar.gz]
+[2023-06-05 16:29:26] INFO root fetch - processPackages [PyMoosh]: Remove: archive file [/home/abi/fetcher/tmp/PyMoosh-2.6.tar.gz]
+[2023-06-05 16:29:26] INFO root fetch - main [MainThread]: End processing [PyMoosh]: success
+[2023-06-05 16:29:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.8.tar.gz]
+[2023-06-05 16:29:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.9.tar.gz]
+[2023-06-05 16:29:26] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-05 16:29:26] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip]
+[2023-06-05 16:29:26] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip]
+[2023-06-05 16:29:26] INFO root fetch - main [MainThread]: End processing [flywheel-cli]: success
+[2023-06-05 16:29:26] INFO root fetch - main [MainThread]: Store serial: [18377176]
