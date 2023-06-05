@@ -7257,3 +7257,62 @@
 [2023-06-05 10:05:12] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
 [2023-06-05 10:05:21] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
 [2023-06-05 10:05:21] INFO root fetch - main [MainThread]: Store serial: [18373137]
+[2023-06-05 10:10:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18373137]
+[2023-06-05 10:10:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-05 10:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solidityscan
+[2023-06-05 10:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupytercad
+[2023-06-05 10:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TMDBTraktSyncer
+[2023-06-05 10:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emid
+[2023-06-05 10:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jmcomic
+[2023-06-05 10:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyglove
+[2023-06-05 10:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fpm
+[2023-06-05 10:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libretrofuzz
+[2023-06-05 10:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Pytheas22
+[2023-06-05 10:10:30] INFO root fetch - processPackages [jupytercad]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-05 10:10:30] INFO root fetch - processPackages [fpm]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-05 10:10:30] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-05 10:10:30] INFO root fetch - processPackages [emid]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-05 10:10:30] INFO root fetch - processPackages [Pytheas22]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 10:10:30] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230605] Old Version: [0.3.1.dev20230604]
+[2023-06-05 10:10:30] INFO root fetch - processPackages [jmcomic]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-05 10:10:30] INFO root fetch - processPackages [libretrofuzz]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-05 10:10:30] WARNING root fetch - processPackages [solidityscan]: Skipping, unable to determine old version
+[2023-06-05 10:10:30] INFO root fetch - main [MainThread]: End processing [solidityscan] error
+[2023-06-05 10:10:31] INFO root fetch - processPackages [Pytheas22]: Downloading https://files.pythonhosted.org/packages/a7/ef/415d01d6212696325413f1dd9c001675fbcec44e5eb428f00ad4271ccf8a/Pytheas22-0.0.1.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [fpm]: Downloading https://files.pythonhosted.org/packages/1a/a0/12ccdd0b1059c9b6861696d6c088cd0675830189668de66feb5394940d4c/fpm-0.8.2.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/1e/54/8ec20150d398c1cee37e6c9480476b3fb5bf94bf7f6a866390e81916041c/TMDBTraktSyncer-1.1.9.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [emid]: Downloading https://files.pythonhosted.org/packages/86/d3/b39cc7be86deb95564eb505bcffc0fd2fc97613c5f885ef7bdf64e18bc6b/emid-0.0.0.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/a7/c5/1530e7bc0864c89e1643f5b47b3b104a1d82330c51aa9ae605aaa7470bea/jmcomic-2.0.3.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/f3/4a/11582415e794d59a533fab994a2387c495179ca48f288c36036f8755aea4/libretrofuzz-2.9.1.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a5/df/d9c016814036e3b0fcffb62d0b57813f79fc15f014e5e2803291943a2035/pyglove-0.3.1.dev20230605.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [jupytercad]: Downloading https://files.pythonhosted.org/packages/27/4b/6f15d4f15197e3c17483bda9d39acb2ffb41b647218a9074dab560de907f/jupytercad-0.2.3.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-05 10:10:31] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-2.9.0.tar.gz tmp/libretrofuzz-2.9.1.tar.gz --markdown 20230605/l/libretrofuzz/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-05 10:10:31] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/8a/3b/02e25e3e7f9f9daca647d8775106db57f8ffc2820febd0434b4bae16c622/jmcomic-2.0.4.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-05 10:10:31] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230604.tar.gz tmp/pyglove-0.3.1.dev20230605.tar.gz --markdown 20230605/p/pyglove/0.3.1.dev20230604-0.3.1.dev20230605/diff.md --exclude *.pyd
+[2023-06-05 10:10:31] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/ef/df/068e1b8f5d7a6ec6c391a808b1a07a45bdd0508a2cfb29704322eefc6a6f/TMDBTraktSyncer-1.2.0.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [fpm]: Downloading https://files.pythonhosted.org/packages/bd/a9/abdbe6f0ef5a5d58302b82f30b52991bf1a8241adcf5a3b78a1741df6827/fpm-0.9.0.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [emid]: Downloading https://files.pythonhosted.org/packages/5f/6c/b13da3d7bae335387acf7844ba566e2da4079ad349139fc7cc948e0bd23b/emid-0.0.1.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [jupytercad]: executing diffoscope
+[2023-06-05 10:10:31] INFO root fetch - processPackages [jupytercad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercad-0.2.2.tar.gz tmp/jupytercad-0.2.3.tar.gz --markdown 20230605/j/jupytercad/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-05 10:10:31] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-06-05 10:10:31] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.0.3.tar.gz tmp/jmcomic-2.0.4.tar.gz --markdown 20230605/j/jmcomic/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-05 10:10:31] INFO root fetch - processPackages [Pytheas22]: Downloading https://files.pythonhosted.org/packages/0f/63/d72ab13b5aba2152ee812a7c8924e5bf0a91924e0b0637d0a463947a20af/Pytheas22-0.0.2.tar.gz
+[2023-06-05 10:10:31] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2023-06-05 10:10:31] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.1.9.tar.gz tmp/TMDBTraktSyncer-1.2.0.tar.gz --markdown 20230605/T/TMDBTraktSyncer/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-05 10:10:31] INFO root fetch - processPackages [fpm]: executing diffoscope
+[2023-06-05 10:10:31] INFO root fetch - processPackages [fpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpm-0.8.2.tar.gz tmp/fpm-0.9.0.tar.gz --markdown 20230605/f/fpm/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 10:10:31] INFO root fetch - processPackages [emid]: executing diffoscope
+[2023-06-05 10:10:31] INFO root fetch - processPackages [emid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emid-0.0.0.tar.gz tmp/emid-0.0.1.tar.gz --markdown 20230605/e/emid/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-05 10:10:31] INFO root fetch - processPackages [Pytheas22]: executing diffoscope
+[2023-06-05 10:10:31] INFO root fetch - processPackages [Pytheas22]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pytheas22-0.0.1.tar.gz tmp/Pytheas22-0.0.2.tar.gz --markdown 20230605/P/Pytheas22/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 10:10:32] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-05 10:10:32] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-06-05 10:10:33] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2023-06-05 10:10:33] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-05 10:10:34] INFO root fetch - main [MainThread]: End processing [emid]: success
+[2023-06-05 10:10:38] INFO root fetch - main [MainThread]: End processing [fpm]: success
+[2023-06-05 10:10:44] INFO root fetch - main [MainThread]: End processing [Pytheas22]: success
+[2023-06-05 10:11:43] INFO root fetch - main [MainThread]: End processing [jupytercad]: success
+[2023-06-05 10:11:43] INFO root fetch - main [MainThread]: Store serial: [18373173]
