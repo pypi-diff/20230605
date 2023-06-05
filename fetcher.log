@@ -11289,3 +11289,45 @@
 [2023-06-05 13:45:21] INFO root fetch - processPackages [JoUtil]: Remove: archive file [/home/abi/fetcher/tmp/JoUtil-1.3.1-py3-none-any.whl.zip]
 [2023-06-05 13:45:21] INFO root fetch - main [MainThread]: End processing [JoUtil]: success
 [2023-06-05 13:45:21] INFO root fetch - main [MainThread]: Store serial: [18375364]
+[2023-06-05 13:46:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375364]
+[2023-06-05 13:46:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 13:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-06-05 13:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: survey-dashboard
+[2023-06-05 13:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gftools
+[2023-06-05 13:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tagreader
+[2023-06-05 13:46:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qwak-core
+[2023-06-05 13:46:55] INFO root fetch - processPackages [tagreader]: New version: [4.0.1] Old Version: [3.0.2]
+[2023-06-05 13:46:55] INFO root fetch - processPackages [qwak-core]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-06-05 13:46:55] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-05 13:46:55] INFO root fetch - processPackages [gftools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-05 13:46:56] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/4b/93/6370b5df392135aec2a9a9d8e0df531a9c0f5cc798229ac465a876ca23dd/qwak_core-0.0.96.tar.gz
+[2023-06-05 13:46:56] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-05 13:46:56] WARNING root fetch - processPackages [survey-dashboard]: Skipping, unable to determine old version
+[2023-06-05 13:46:56] INFO root fetch - main [MainThread]: End processing [survey-dashboard] error
+[2023-06-05 13:46:56] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/fe/46/5c8de65f78dc969add740cbb4c7c8022ba3ae56c7e17703ea56a5021195a/tagreader-3.0.2.tar.gz
+[2023-06-05 13:46:56] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/6d/5d/f19c961c63554a9224a8abee321b0a8715dc1e05bbe03077b56b75a8bc0b/gftools-0.9.8.tar.gz
+[2023-06-05 13:46:56] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/d1/dd/9a11f66c664f84434b1c3a34babb38e87fdd59b23c83160b18af2ea99978/qwak_core-0.0.97.tar.gz
+[2023-06-05 13:46:56] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-05 13:46:56] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-05 13:46:56] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.96.tar.gz tmp/qwak_core-0.0.97.tar.gz --markdown 20230605/q/qwak-core/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-06-05 13:46:56] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/34/5a/e99f7af48bdb9a71aa49d4879a598e384dcd4e07bd6ae1e06cedd893cce4/tagreader-4.0.1.tar.gz
+[2023-06-05 13:46:56] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-05 13:46:56] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230605/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-05 13:46:56] INFO root fetch - processPackages [tagreader]: executing diffoscope
+[2023-06-05 13:46:56] INFO root fetch - processPackages [tagreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagreader-3.0.2.tar.gz tmp/tagreader-4.0.1.tar.gz --markdown 20230605/t/tagreader/3.0.2-4.0.1/diff.md --exclude *.pyd
+[2023-06-05 13:46:57] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-3.0.2.tar.gz]
+[2023-06-05 13:46:57] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-4.0.1.tar.gz]
+[2023-06-05 13:46:57] INFO root fetch - main [MainThread]: End processing [tagreader]: success
+[2023-06-05 13:46:58] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/4a/43/0695adddf818c751dd6cd94baf605871116827e1297e634d3f4508330908/gftools-0.9.9.tar.gz
+[2023-06-05 13:47:00] INFO root fetch - processPackages [gftools]: executing diffoscope
+[2023-06-05 13:47:00] INFO root fetch - processPackages [gftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gftools-0.9.8.tar.gz tmp/gftools-0.9.9.tar.gz --markdown 20230605/g/gftools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-05 13:47:01] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.96.tar.gz]
+[2023-06-05 13:47:01] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.97.tar.gz]
+[2023-06-05 13:47:01] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-05 13:47:01] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-05 13:47:01] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-05 13:47:01] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-05 13:47:08] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.8.tar.gz]
+[2023-06-05 13:47:08] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
+[2023-06-05 13:47:08] INFO root fetch - main [MainThread]: End processing [gftools]: success
+[2023-06-05 13:47:08] INFO root fetch - main [MainThread]: Store serial: [18375377]
