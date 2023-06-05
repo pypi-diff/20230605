@@ -3826,3 +3826,38 @@
 [2023-06-05 04:12:22] INFO root fetch - main [MainThread]: End processing [u0-stitcher]: success
 [2023-06-05 04:12:23] INFO root fetch - main [MainThread]: End processing [seamm-util]: success
 [2023-06-05 04:12:23] INFO root fetch - main [MainThread]: Store serial: [18371155]
+[2023-06-05 04:17:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371155]
+[2023-06-05 04:17:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: andebox
+[2023-06-05 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspacer
+[2023-06-05 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midi-clip
+[2023-06-05 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zipline-tej
+[2023-06-05 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: midi-clip
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: New version: [0.9] Old Version: [0.8]
+[2023-06-05 04:17:32] INFO root fetch - processPackages [pyspacer]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-05 04:17:32] INFO root fetch - processPackages [andebox]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: New version: [0.9] Old Version: [0.8]
+[2023-06-05 04:17:32] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 04:17:32] INFO root fetch - processPackages [pyspacer]: Downloading https://files.pythonhosted.org/packages/a3/e6/007bb64c23ea050ad2618d5ed2c2fb604407db10829ceb9066c0a0faa619/pyspacer-0.3.1.tar.gz
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: Downloading https://files.pythonhosted.org/packages/5c/63/998a2099d4eb61825105d51228cf023c44a30f913c8d5f7bd87ac8fd5c15/midi-clip-0.8.tar.gz
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: Downloading https://files.pythonhosted.org/packages/5c/63/998a2099d4eb61825105d51228cf023c44a30f913c8d5f7bd87ac8fd5c15/midi-clip-0.8.tar.gz
+[2023-06-05 04:17:32] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/4e/31/04d5cfcbae6da1af222d075efc3c5e5986942f411608fd46c6d42ce71e37/zipline-tej-0.0.4.tar.gz
+[2023-06-05 04:17:32] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-05 04:17:32] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.3.tar.gz tmp/zipline-tej-0.0.4.tar.gz --markdown 20230605/z/zipline-tej/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 04:17:32] INFO root fetch - processPackages [andebox]: executing diffoscope
+[2023-06-05 04:17:32] INFO root fetch - processPackages [andebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andebox-0.8.0.tar.gz tmp/andebox-0.9.0.tar.gz --markdown 20230605/a/andebox/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 04:17:32] INFO root fetch - processPackages [pyspacer]: Downloading https://files.pythonhosted.org/packages/e6/90/be461312e4ac5f1138f1f269b73c506e8093645d1046f8ee0bb5ba86a55f/pyspacer-0.4.0.tar.gz
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: Downloading https://files.pythonhosted.org/packages/df/27/9766d2c24ff148634df5936b9e46dacfd05fa0a4659e1174c2c773ee49ff/midi-clip-0.9.tar.gz
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: Downloading https://files.pythonhosted.org/packages/df/27/9766d2c24ff148634df5936b9e46dacfd05fa0a4659e1174c2c773ee49ff/midi-clip-0.9.tar.gz
+[2023-06-05 04:17:32] INFO root fetch - processPackages [pyspacer]: executing diffoscope
+[2023-06-05 04:17:32] INFO root fetch - processPackages [pyspacer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspacer-0.3.1.tar.gz tmp/pyspacer-0.4.0.tar.gz --markdown 20230605/p/pyspacer/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: executing diffoscope
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midi-clip-0.8.tar.gz tmp/midi-clip-0.9.tar.gz --markdown 20230605/m/midi-clip/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: executing diffoscope
+[2023-06-05 04:17:32] INFO root fetch - processPackages [midi-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midi-clip-0.8.tar.gz tmp/midi-clip-0.9.tar.gz --markdown 20230605/m/midi-clip/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-05 04:17:33] INFO root fetch - main [MainThread]: End processing [andebox]: success
+[2023-06-05 04:17:33] INFO root fetch - main [MainThread]: End processing [midi-clip]: success
+[2023-06-05 04:17:33] INFO root fetch - main [MainThread]: End processing [midi-clip]: success
+[2023-06-05 04:17:34] INFO root fetch - main [MainThread]: End processing [pyspacer]: success
+[2023-06-05 04:17:34] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-05 04:17:34] INFO root fetch - main [MainThread]: Store serial: [18371170]
