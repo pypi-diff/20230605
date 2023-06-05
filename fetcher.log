@@ -13856,3 +13856,120 @@ EOFError: EOF read where object expected
 [2023-06-05 15:20:53] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
 [2023-06-05 15:20:53] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2023-06-05 15:20:53] INFO root fetch - main [MainThread]: Store serial: [18376437]
+[2023-06-05 15:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376437]
+[2023-06-05 15:26:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mozregression
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfluxconserving
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlx2md
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuroimager
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dune-harmonizer
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swigex
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proptables
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: textbsr
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-06-05 15:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: renku
+[2023-06-05 15:26:03] INFO root fetch - processPackages [pyfluxconserving]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-05 15:26:03] WARNING root fetch - processPackages [mlx2md]: Skipping, unable to determine old version
+[2023-06-05 15:26:03] INFO root fetch - processPackages [mlx2md]: Start processing: renku-lock
+[2023-06-05 15:26:03] INFO root fetch - processPackages [neuroimager]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 15:26:03] INFO root fetch - processPackages [textbsr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 15:26:03] WARNING root fetch - processPackages [proptables]: Skipping, unable to determine old version
+[2023-06-05 15:26:03] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 15:26:03] INFO root fetch - main [MainThread]: End processing [mlx2md] error
+[2023-06-05 15:26:03] INFO root fetch - processPackages [proptables]: Start processing: mypackagelicenseprototype
+[2023-06-05 15:26:03] INFO root fetch - processPackages [mozregression]: New version: [5.3.3.dev2] Old Version: [5.3.3.dev1]
+[2023-06-05 15:26:03] INFO root fetch - main [MainThread]: End processing [proptables] error
+[2023-06-05 15:26:03] INFO root fetch - processPackages [swigex]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-06-05 15:26:03] INFO root fetch - processPackages [renku]: New version: [2.5.0rc1] Old Version: [2.4.1rc3]
+[2023-06-05 15:26:03] INFO root fetch - processPackages [pyfluxconserving]: Downloading https://files.pythonhosted.org/packages/bf/1c/f57d7415b77a26bc09d33fc064b715722027e6542cea31ab1819d0d275bf/pyfluxconserving-0.0.7.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/fb/fb/7bdeae7240da9df88ed9a6de627b343c29f9ccbcffc1b9df5fc3d768faf8/textbsr-0.1.8.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 15:26:03] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 15:26:03] INFO root fetch - processPackages [renku-lock]: New version: [2.5.0rc1] Old Version: [2.4.1rc3]
+[2023-06-05 15:26:03] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/63/35/99ce6a4933c383ea402fbc875051215b3679aa71ff5b0b6f2aa7dcb33ac5/neuroimager-0.0.2.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/7a/56/02de6a6c773f2dfee7e4280a8aa8fd2bccbca5c6c112f8d454f36b358186/renku-2.4.1rc3.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [mozregression]: Downloading https://files.pythonhosted.org/packages/16/03/d2ec7d20f303ecfc3fd9d4437d177e2e2b91ec7d73e8c3cfb669ef99c229/mozregression-5.3.3.dev1.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/7e/28/342ca1d6dec0213639a4ae8db02df71a3c3dbf659f8c855fac6d188cc392/textbsr-0.1.9.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [pyfluxconserving]: Downloading https://files.pythonhosted.org/packages/d0/78/081c89d6f98a8077a14c93db6f5c4a64dd4c9e93ca8184916324f7e64bd7/pyfluxconserving-0.0.9.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [swigex]: Downloading https://files.pythonhosted.org/packages/3d/e0/2918d6c600102a8aa193eca14e9c825d93b63ee330b6d82193acb3d117f7/swigex-0.0.26-cp39-cp39-win_amd64.whl
+[2023-06-05 15:26:03] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-06-05 15:26:03] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 15:26:03] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-06-05 15:26:03] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.1.8.tar.gz tmp/textbsr-0.1.9.tar.gz --markdown 20230605/t/textbsr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:26:03] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/2a/c9/b0d67e34b5b1d0555fbc97c7dcdd0457607da2dc28e228940f9830c1f375/renku_lock-2.4.1rc3-py3-none-any.whl
+[2023-06-05 15:26:03] INFO root fetch - processPackages [pyfluxconserving]: executing diffoscope
+[2023-06-05 15:26:03] INFO root fetch - processPackages [pyfluxconserving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfluxconserving-0.0.7.tar.gz tmp/pyfluxconserving-0.0.9.tar.gz --markdown 20230605/p/pyfluxconserving/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:26:03] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 15:26:03] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:26:03] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/49/ea/367e5fd16718911ceb272778ad14c76517812200a783caeaaade4f485ab3/neuroimager-0.0.3.tar.gz
+[2023-06-05 15:26:04] INFO root fetch - processPackages [mozregression]: Downloading https://files.pythonhosted.org/packages/9a/54/a8060cde5d31685993154595a4e7f88a798ba20323ff2dac8fed22c8ee2c/mozregression-5.3.3.dev2.tar.gz
+[2023-06-05 15:26:04] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-06-05 15:26:04] INFO root fetch - processPackages [swigex]: Downloading https://files.pythonhosted.org/packages/3b/e5/619b8a08beca0876a37d1760a62b5eb5f1d8bb022cf2d70ed87a9091409b/swigex-0.0.27-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-05 15:26:04] INFO root fetch - processPackages [neuroimager]: executing diffoscope
+[2023-06-05 15:26:04] INFO root fetch - processPackages [neuroimager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroimager-0.0.2.tar.gz tmp/neuroimager-0.0.3.tar.gz --markdown 20230605/n/neuroimager/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 15:26:04] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/37/5b/166303075a37803110859bbddcf89c9463aca7b698130f0202d1c538b6a6/renku_lock-2.5.0rc1-py3-none-any.whl
+[2023-06-05 15:26:04] INFO root fetch - processPackages [mozregression]: executing diffoscope
+[2023-06-05 15:26:04] INFO root fetch - processPackages [mozregression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozregression-5.3.3.dev1.tar.gz tmp/mozregression-5.3.3.dev2.tar.gz --markdown 20230605/m/mozregression/5.3.3.dev1-5.3.3.dev2/diff.md --exclude *.pyd
+[2023-06-05 15:26:04] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-06-05 15:26:04] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230605/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 15:26:04] INFO root fetch - processPackages [swigex]: executing diffoscope
+[2023-06-05 15:26:04] INFO root fetch - processPackages [swigex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swigex-0.0.26-cp39-cp39-win_amd64.whl.zip tmp/swigex-0.0.27-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230605/s/swigex/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-06-05 15:26:04] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-06-05 15:26:04] INFO root fetch - processPackages [renku-lock]: executing diffoscope
+[2023-06-05 15:26:04] INFO root fetch - processPackages [renku-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku_lock-2.4.1rc3-py3-none-any.whl.zip tmp/renku_lock-2.5.0rc1-py3-none-any.whl.zip --markdown 20230605/r/renku-lock/2.4.1rc3-2.5.0rc1/diff.md --exclude *.pyd
+[2023-06-05 15:26:04] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/3e/2f/e2cac66d9294f6cf33944a176a8d8455e755693f112a5175880badb3c26c/renku-2.5.0rc1.tar.gz
+[2023-06-05 15:26:04] INFO root fetch - processPackages [renku]: executing diffoscope
+[2023-06-05 15:26:04] INFO root fetch - processPackages [renku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-2.4.1rc3.tar.gz tmp/renku-2.5.0rc1.tar.gz --markdown 20230605/r/renku/2.4.1rc3-2.5.0rc1/diff.md --exclude *.pyd
+[2023-06-05 15:26:04] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-06-05 15:26:04] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230605/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 15:26:05] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: pyoxynet
+[2023-06-05 15:26:05] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 15:26:05] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.2.tar.gz]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.3.tar.gz]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [neuroimager]: Start processing: xformers
+[2023-06-05 15:26:05] INFO root fetch - main [MainThread]: End processing [neuroimager]: success
+[2023-06-05 15:26:05] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-06-05 15:26:05] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.8.0.tar.gz]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.9.0.tar.gz]
+[2023-06-05 15:26:05] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-06-05 15:26:05] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-06-05 15:26:05] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.8.tar.gz]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.9.tar.gz]
+[2023-06-05 15:26:05] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-06-05 15:26:05] INFO root fetch - processPackages [mozregression]: Remove: archive file [/home/abi/fetcher/tmp/mozregression-5.3.3.dev1.tar.gz]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [mozregression]: Remove: archive file [/home/abi/fetcher/tmp/mozregression-5.3.3.dev2.tar.gz]
+[2023-06-05 15:26:05] INFO root fetch - main [MainThread]: End processing [mozregression]: success
+[2023-06-05 15:26:05] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.4.1rc3-py3-none-any.whl.zip]
+[2023-06-05 15:26:05] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.5.0rc1-py3-none-any.whl.zip]
+[2023-06-05 15:26:05] INFO root fetch - main [MainThread]: End processing [renku-lock]: success
+[2023-06-05 15:26:06] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-06-05 15:26:06] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-06-05 15:26:06] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230605/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:26:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-06-05 15:26:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-06-05 15:26:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-06-05 15:26:06] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-06-05 15:26:07] INFO root fetch - processPackages [pyfluxconserving]: Remove: archive file [/home/abi/fetcher/tmp/pyfluxconserving-0.0.7.tar.gz]
+[2023-06-05 15:26:07] INFO root fetch - processPackages [pyfluxconserving]: Remove: archive file [/home/abi/fetcher/tmp/pyfluxconserving-0.0.9.tar.gz]
+[2023-06-05 15:26:07] INFO root fetch - main [MainThread]: End processing [pyfluxconserving]: success
+[2023-06-05 15:26:07] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-06-05 15:26:07] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-06-05 15:26:07] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-06-05 15:26:08] INFO root fetch - processPackages [swigex]: Remove: archive file [/home/abi/fetcher/tmp/swigex-0.0.26-cp39-cp39-win_amd64.whl.zip]
+[2023-06-05 15:26:08] INFO root fetch - processPackages [swigex]: Remove: archive file [/home/abi/fetcher/tmp/swigex-0.0.27-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-05 15:26:08] INFO root fetch - main [MainThread]: End processing [swigex]: success
+[2023-06-05 15:26:08] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-06-05 15:26:08] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230605/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-06-05 15:26:10] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-06-05 15:26:10] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-06-05 15:26:10] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-06-05 15:26:18] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.4.1rc3.tar.gz]
+[2023-06-05 15:26:18] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.5.0rc1.tar.gz]
+[2023-06-05 15:26:18] INFO root fetch - main [MainThread]: End processing [renku]: success
+[2023-06-05 15:26:18] INFO root fetch - main [MainThread]: Store serial: [18376484]
