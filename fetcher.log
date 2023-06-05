@@ -4132,3 +4132,68 @@
 [2023-06-05 04:51:00] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-05 04:51:12] INFO root fetch - main [MainThread]: End processing [smartpip2]: success
 [2023-06-05 04:51:12] INFO root fetch - main [MainThread]: Store serial: [18371312]
+[2023-06-05 04:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371312]
+[2023-06-05 04:56:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PDPbox
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openrlbenchmark
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-easy-scrap
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lop-codeingame-cli
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: merlin-sdk
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentelemetry_wrapper
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lop-codeingame-cli
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aliyun-python-sdk-rds
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rutpy
+[2023-06-05 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyjar
+[2023-06-05 04:56:21] INFO root fetch - processPackages [PDPbox]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-05 04:56:21] INFO root fetch - processPackages [py-easy-scrap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 04:56:21] INFO root fetch - processPackages [lop-codeingame-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 04:56:21] INFO root fetch - processPackages [lop-codeingame-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 04:56:21] INFO root fetch - processPackages [opentelemetry_wrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 04:56:21] INFO root fetch - processPackages [pyjar]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 04:56:21] WARNING root fetch - processPackages [rutpy]: Skipping, unable to determine old version
+[2023-06-05 04:56:21] INFO root fetch - main [MainThread]: End processing [rutpy] error
+[2023-06-05 04:56:21] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-06-05 04:56:21] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.6] Old Version: [2.7.5]
+[2023-06-05 04:56:21] INFO root fetch - processPackages [openrlbenchmark]: New version: [0.2.0b4] Old Version: [0.2.0b3]
+[2023-06-05 04:56:21] INFO root fetch - processPackages [lop-codeingame-cli]: Downloading https://files.pythonhosted.org/packages/b8/8a/1b6162178d2a2c77311d3c1d99b66ddfec51f8ccfdf141598b988942a22b/lop_codeingame_cli-0.1.1.tar.gz
+[2023-06-05 04:56:21] INFO root fetch - processPackages [lop-codeingame-cli]: Downloading https://files.pythonhosted.org/packages/b8/8a/1b6162178d2a2c77311d3c1d99b66ddfec51f8ccfdf141598b988942a22b/lop_codeingame_cli-0.1.1.tar.gz
+[2023-06-05 04:56:21] INFO root fetch - processPackages [py-easy-scrap]: Downloading https://files.pythonhosted.org/packages/7f/b0/900dece8e9638c9a73da22c69f8c56c6772a288610603ec1b1aaf7908fd5/py-easy-scrap-0.1.0.tar.gz
+[2023-06-05 04:56:21] INFO root fetch - processPackages [PDPbox]: Downloading https://files.pythonhosted.org/packages/d5/6b/8b214723ff134f6b3f69a77c5bbd9d80db86ce01d3a970a5dbbab45c57fc/PDPbox-0.2.1.tar.gz
+[2023-06-05 04:56:21] INFO root fetch - processPackages [pyjar]: Downloading https://files.pythonhosted.org/packages/d3/47/a802bd15196a6ce61fa048ed6c7547a546a060a508bf3a089a557bb96a2c/pyjar-0.1.0.tar.gz
+[2023-06-05 04:56:21] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/f7/e4/fd5dfd15fd6e9f1e07501db9a8d740a15ca1780be1290f4485c95d179bb8/aliyun-python-sdk-rds-2.7.5.tar.gz
+[2023-06-05 04:56:21] WARNING root fetch - processPackages [PDPbox]: Skipping package: exceeds size limit 34021835>=10485760
+[2023-06-05 04:56:21] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/94/f8/82042608be78b53a13004f09b00b95f1668627ca3325cb055c7d57865765/opentelemetry_wrapper-0.0.8.tar.gz
+[2023-06-05 04:56:21] INFO root fetch - main [MainThread]: End processing [PDPbox] error
+[2023-06-05 04:56:21] INFO root fetch - processPackages [openrlbenchmark]: Downloading https://files.pythonhosted.org/packages/0e/4c/c77e59e553492f66be339124df5850576a0867ea40474bc32bf4a6f597fe/openrlbenchmark-0.2.0b3.tar.gz
+[2023-06-05 04:56:22] INFO root fetch - processPackages [py-easy-scrap]: Downloading https://files.pythonhosted.org/packages/b7/e7/321bd2c9a57c3dfd162799e2786f7b12a844422826ef64e5a333e06af3e3/py-easy-scrap-0.1.1.tar.gz
+[2023-06-05 04:56:22] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-06-05 04:56:22] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230605/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-06-05 04:56:22] INFO root fetch - processPackages [lop-codeingame-cli]: Downloading https://files.pythonhosted.org/packages/36/ec/edb92b4873495c4db54e0c25197c37ebc3edeeb183f886f40e1a0f427910/lop_codeingame_cli-0.1.2.tar.gz
+[2023-06-05 04:56:22] INFO root fetch - processPackages [lop-codeingame-cli]: Downloading https://files.pythonhosted.org/packages/36/ec/edb92b4873495c4db54e0c25197c37ebc3edeeb183f886f40e1a0f427910/lop_codeingame_cli-0.1.2.tar.gz
+[2023-06-05 04:56:22] INFO root fetch - processPackages [pyjar]: Downloading https://files.pythonhosted.org/packages/dd/0e/68947d41b20e53c2410a56cfdb419876203bb3c49eb7314fea2441291848/pyjar-0.1.1.tar.gz
+[2023-06-05 04:56:22] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/0c/d5/1e2feb6c4f4292ff1f32f91f6a4a13772a8d125ba64e4c729b99fe1ef87e/aliyun-python-sdk-rds-2.7.6.tar.gz
+[2023-06-05 04:56:22] INFO root fetch - processPackages [openrlbenchmark]: Downloading https://files.pythonhosted.org/packages/e7/b4/cefb707b94157fd2908fed832a7388c9d4c63698b9c3104284fae06dde31/openrlbenchmark-0.2.0b4.tar.gz
+[2023-06-05 04:56:22] INFO root fetch - processPackages [py-easy-scrap]: executing diffoscope
+[2023-06-05 04:56:22] INFO root fetch - processPackages [py-easy-scrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-easy-scrap-0.1.0.tar.gz tmp/py-easy-scrap-0.1.1.tar.gz --markdown 20230605/p/py-easy-scrap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 04:56:22] INFO root fetch - processPackages [openrlbenchmark]: executing diffoscope
+[2023-06-05 04:56:22] INFO root fetch - processPackages [openrlbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openrlbenchmark-0.2.0b3.tar.gz tmp/openrlbenchmark-0.2.0b4.tar.gz --markdown 20230605/o/openrlbenchmark/0.2.0b3-0.2.0b4/diff.md --exclude *.pyd
+[2023-06-05 04:56:22] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-06-05 04:56:22] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.5.tar.gz tmp/aliyun-python-sdk-rds-2.7.6.tar.gz --markdown 20230605/a/aliyun-python-sdk-rds/2.7.5-2.7.6/diff.md --exclude *.pyd
+[2023-06-05 04:56:22] INFO root fetch - processPackages [lop-codeingame-cli]: executing diffoscope
+[2023-06-05 04:56:22] INFO root fetch - processPackages [lop-codeingame-cli]: executing diffoscope
+[2023-06-05 04:56:22] INFO root fetch - processPackages [lop-codeingame-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lop_codeingame_cli-0.1.1.tar.gz tmp/lop_codeingame_cli-0.1.2.tar.gz --markdown 20230605/l/lop-codeingame-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 04:56:22] INFO root fetch - processPackages [lop-codeingame-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lop_codeingame_cli-0.1.1.tar.gz tmp/lop_codeingame_cli-0.1.2.tar.gz --markdown 20230605/l/lop-codeingame-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 04:56:22] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/1b/f4/cd4e9dabe3591f0a26e4ff6e36f50990c486f5ac10babd448c39fcc61cbe/opentelemetry_wrapper-0.0.9.tar.gz
+[2023-06-05 04:56:22] INFO root fetch - processPackages [pyjar]: executing diffoscope
+[2023-06-05 04:56:22] INFO root fetch - processPackages [pyjar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjar-0.1.0.tar.gz tmp/pyjar-0.1.1.tar.gz --markdown 20230605/p/pyjar/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 04:56:22] INFO root fetch - processPackages [opentelemetry_wrapper]: executing diffoscope
+[2023-06-05 04:56:22] INFO root fetch - processPackages [opentelemetry_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_wrapper-0.0.8.tar.gz tmp/opentelemetry_wrapper-0.0.9.tar.gz --markdown 20230605/o/opentelemetry_wrapper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 04:56:23] INFO root fetch - main [MainThread]: End processing [py-easy-scrap]: success
+[2023-06-05 04:56:23] INFO root fetch - main [MainThread]: End processing [pyjar]: success
+[2023-06-05 04:56:23] INFO root fetch - main [MainThread]: End processing [lop-codeingame-cli]: success
+[2023-06-05 04:56:23] INFO root fetch - main [MainThread]: End processing [lop-codeingame-cli]: success
+[2023-06-05 04:56:23] INFO root fetch - main [MainThread]: End processing [openrlbenchmark]: success
+[2023-06-05 04:56:24] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-06-05 04:56:24] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
+[2023-06-05 04:56:25] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-06-05 04:56:25] INFO root fetch - main [MainThread]: Store serial: [18371347]
