@@ -15467,3 +15467,209 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 16:12:49] ERROR root fetch - processPackages [Django]: Timeout during execution of pkgdiff
 [2023-06-05 16:12:49] INFO root fetch - main [MainThread]: End processing [Django] error
 [2023-06-05 16:12:49] INFO root fetch - main [MainThread]: Store serial: [18377007]
+[2023-06-05 16:17:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377007]
+[2023-06-05 16:17:58] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sap-audit-logging
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EdgeGPT
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-json-api
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: line-async-webhook
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commonX
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anchorconnector
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: empire-platform-api-public-client
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tabular-pipeline
+[2023-06-05 16:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-06-05 16:17:58] INFO root fetch - processPackages [sap-audit-logging]: New version: [1.3.0] Old Version: [1.2.7]
+[2023-06-05 16:17:58] INFO root fetch - processPackages [line-async-webhook]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-05 16:17:58] INFO root fetch - processPackages [django-json-api]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-05 16:17:58] INFO root fetch - processPackages [commonX]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-05 16:17:58] INFO root fetch - processPackages [tabular-pipeline]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-05 16:17:58] INFO root fetch - processPackages [anchorconnector]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-05 16:17:58] INFO root fetch - processPackages [findmyorder]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-05 16:17:58] INFO root fetch - processPackages [kcli]: New version: [99.0.202306051411] Old Version: [99.0.202306051405]
+[2023-06-05 16:17:58] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-05 16:17:58] ERROR root fetch - processPackages [empire-platform-api-public-client]: Unable to get metadata: No such project 'empire-platform-api-public-client'
+[2023-06-05 16:17:58] INFO root fetch - processPackages [empire-platform-api-public-client]: Start processing: req2flatpak
+[2023-06-05 16:17:58] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client] error
+[2023-06-05 16:17:58] INFO root fetch - processPackages [req2flatpak]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-05 16:17:59] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/3b/b0/cc0807669e6b9aa4848b1b4d290a22f9f5fbb74ccd2891ca84074dc8d38d/commonX-0.4.6.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [line-async-webhook]: Downloading https://files.pythonhosted.org/packages/b1/d0/5191303efea547e127a80f1e30d464a499b66d714ce5c9d2696e737c4e23/line_async_webhook-0.2.0.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [sap-audit-logging]: Downloading https://files.pythonhosted.org/packages/d0/4a/7c27016eb5c5393dde5dd6cee722495d4ce22411b96ac19ebd4e4c583e43/sap_audit_logging-1.2.7-py3-none-any.whl
+[2023-06-05 16:17:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/cc/de/dce932c98663a9baf181d33aa8cc01729076daa30771884bcd24c5e0923b/kcli-99.0.202306051405-py3-none-any.whl
+[2023-06-05 16:17:59] INFO root fetch - processPackages [tabular-pipeline]: Downloading https://files.pythonhosted.org/packages/a8/86/8addb562231b688d84a73e3409fd1a240e95b908066a33c8327b33e2b494/tabular_pipeline-0.2.1.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [anchorconnector]: Downloading https://files.pythonhosted.org/packages/f0/c6/d9cfd8386201d59f5cdc426606218579e104e7468e6a16d495e0fbe7d553/anchorconnector-0.1.0.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [django-json-api]: Downloading https://files.pythonhosted.org/packages/6c/70/7e471c1f449095002ae99cead6c381f4d36b99fe5eb5c1933f48d5430122/django-json-api-1.2.0.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/ca/f3/9f08c36adfb0cbbf52c339c94b39f7a01b27a2cba31b5d639b00e125eef9/findmyorder-1.3.8.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/ca/c9/1a07dca941e3f714740bb53318c40e9d161f422c78b40066289f9b9f1cfa/EdgeGPT-0.8.2.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/cf/d1/0dded921658b5f8cd0088b92e11fef40fbb8f395e2ac0539536121e3c42d/commonX-0.4.7.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [req2flatpak]: Downloading https://files.pythonhosted.org/packages/c7/83/ef283a05de4cf2de77d0289d649f8f0b661e92adf389cf9c42dfcdcb43b1/req2flatpak-0.1.0.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [line-async-webhook]: Downloading https://files.pythonhosted.org/packages/9a/63/ff4acea61644109f556346a37a5b7fc90a6eb1aa26ce6dae85804cd77556/line_async_webhook-0.2.1.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [tabular-pipeline]: Downloading https://files.pythonhosted.org/packages/c0/57/42fe30d77192b5eb56d9018053c82eaa58f07b76c11caf0f94677025ff44/tabular_pipeline-0.2.2.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.6.tar.gz tmp/commonX-0.4.7.tar.gz --markdown 20230605/c/commonX/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-05 16:17:59] INFO root fetch - processPackages [django-json-api]: Downloading https://files.pythonhosted.org/packages/ed/84/cf1ba30b6571119466142f4c57b10001895301ae7523e76d2d5f95de3caf/django-json-api-1.2.1.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/df/ea/b1d683277e2bd5dceaca7af932cd2a064d60263335516cc8f9896f60b2e8/kcli-99.0.202306051411-py3-none-any.whl
+[2023-06-05 16:17:59] INFO root fetch - processPackages [anchorconnector]: Downloading https://files.pythonhosted.org/packages/7b/b0/0de7ec1c0cfe4499daf585e354716bb85775ce554ec7bb1ac12237dfa21c/anchorconnector-0.2.0.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [line-async-webhook]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [line-async-webhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line_async_webhook-0.2.0.tar.gz tmp/line_async_webhook-0.2.1.tar.gz --markdown 20230605/l/line-async-webhook/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-05 16:17:59] INFO root fetch - processPackages [tabular-pipeline]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [tabular-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabular_pipeline-0.2.1.tar.gz tmp/tabular_pipeline-0.2.2.tar.gz --markdown 20230605/t/tabular-pipeline/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-05 16:17:59] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/26/6a/85a21c30b73741431e734b84a4832aae11ab7a6623e060eab621ab32bdc1/EdgeGPT-0.9.0.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/52/b2/27542c768cd467bba099bd3795a116a0f5925f906d812f5ba7335c21a9d3/findmyorder-1.3.9.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [django-json-api]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [django-json-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-json-api-1.2.0.tar.gz tmp/django-json-api-1.2.1.tar.gz --markdown 20230605/d/django-json-api/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-05 16:17:59] INFO root fetch - processPackages [anchorconnector]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [anchorconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anchorconnector-0.1.0.tar.gz tmp/anchorconnector-0.2.0.tar.gz --markdown 20230605/a/anchorconnector/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 16:17:59] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.8.2.tar.gz tmp/EdgeGPT-0.9.0.tar.gz --markdown 20230605/E/EdgeGPT/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 16:17:59] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.8.tar.gz tmp/findmyorder-1.3.9.tar.gz --markdown 20230605/f/findmyorder/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-05 16:17:59] INFO root fetch - processPackages [req2flatpak]: Downloading https://files.pythonhosted.org/packages/57/e9/265d5dc19f237691d85eb4223bef39d8e9caf3b3234fa68f430429a9a1ed/req2flatpak-0.2.0.tar.gz
+[2023-06-05 16:17:59] INFO root fetch - processPackages [sap-audit-logging]: Downloading https://files.pythonhosted.org/packages/a5/3e/412f695005319d6c30844918ce1f041ef7049a2143e825da987b3da36f3c/sap_audit_logging-1.3.0-py3-none-any.whl
+[2023-06-05 16:17:59] INFO root fetch - processPackages [req2flatpak]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [req2flatpak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/req2flatpak-0.1.0.tar.gz tmp/req2flatpak-0.2.0.tar.gz --markdown 20230605/r/req2flatpak/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 16:17:59] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306051405-py3-none-any.whl.zip tmp/kcli-99.0.202306051411-py3-none-any.whl.zip --markdown 20230605/k/kcli/99.0.202306051405-99.0.202306051411/diff.md --exclude *.pyd
+[2023-06-05 16:17:59] INFO root fetch - processPackages [sap-audit-logging]: executing diffoscope
+[2023-06-05 16:17:59] INFO root fetch - processPackages [sap-audit-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sap_audit_logging-1.2.7-py3-none-any.whl.zip tmp/sap_audit_logging-1.3.0-py3-none-any.whl.zip --markdown 20230605/s/sap-audit-logging/1.2.7-1.3.0/diff.md --exclude *.pyd
+[2023-06-05 16:18:00] INFO root fetch - processPackages [line-async-webhook]: Remove: archive file [/home/abi/fetcher/tmp/line_async_webhook-0.2.0.tar.gz]
+[2023-06-05 16:18:00] INFO root fetch - processPackages [line-async-webhook]: Remove: archive file [/home/abi/fetcher/tmp/line_async_webhook-0.2.1.tar.gz]
+[2023-06-05 16:18:00] INFO root fetch - processPackages [line-async-webhook]: Start processing: mypackagelicenseprototype
+[2023-06-05 16:18:00] INFO root fetch - main [MainThread]: End processing [line-async-webhook]: success
+[2023-06-05 16:18:00] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [anchorconnector]: Remove: archive file [/home/abi/fetcher/tmp/anchorconnector-0.1.0.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [anchorconnector]: Remove: archive file [/home/abi/fetcher/tmp/anchorconnector-0.2.0.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [anchorconnector]: Start processing: album-sender
+[2023-06-05 16:18:01] INFO root fetch - main [MainThread]: End processing [anchorconnector]: success
+[2023-06-05 16:18:01] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [album-sender]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [tabular-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/tabular_pipeline-0.2.1.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [tabular-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/tabular_pipeline-0.2.2.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [tabular-pipeline]: Start processing: hansken
+[2023-06-05 16:18:01] INFO root fetch - main [MainThread]: End processing [tabular-pipeline]: success
+[2023-06-05 16:18:01] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.4.6.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.4.7.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [commonX]: Start processing: flamapy-sat
+[2023-06-05 16:18:01] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-06-05 16:18:01] INFO root fetch - processPackages [hansken]: New version: [2023.6.5] Old Version: [2023.5.1]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [flamapy-sat]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [flamapy-sat]: Downloading https://files.pythonhosted.org/packages/97/d3/55d70aca453956efaa62595f26bda2b0c493932b53a44b9752b611fe769d/flamapy-sat-1.1.4.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.8.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.9.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [findmyorder]: Start processing: kfish
+[2023-06-05 16:18:01] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-06-05 16:18:01] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/72/90/a5e804bd6c1ecf26050b552365080edb0ff4e57f9b474941d1b3e8c956f2/album_sender-0.0.8.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 16:18:01] INFO root fetch - processPackages [kfish]: New version: [99.0.202306051413] Old Version: [99.0.202306051407]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [hansken]: Downloading https://files.pythonhosted.org/packages/f6/4a/18154ed854ee14b69d227af04a507e6d20a29fffe20672aac6f29cb0c6cc/hansken-2023.5.1.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b3/87/fe338af7b0136d9eb07d282835b70d6f7495fb3e9c03e7ad6b0c02ab356c/kfish-99.0.202306051407-py3-none-any.whl
+[2023-06-05 16:18:01] INFO root fetch - processPackages [sap-audit-logging]: Remove: archive file [/home/abi/fetcher/tmp/sap_audit_logging-1.2.7-py3-none-any.whl.zip]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [sap-audit-logging]: Remove: archive file [/home/abi/fetcher/tmp/sap_audit_logging-1.3.0-py3-none-any.whl.zip]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [sap-audit-logging]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-06-05 16:18:01] INFO root fetch - main [MainThread]: End processing [sap-audit-logging]: success
+[2023-06-05 16:18:01] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 16:18:01] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:18:01] INFO root fetch - processPackages [req2flatpak]: Remove: archive file [/home/abi/fetcher/tmp/req2flatpak-0.1.0.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [req2flatpak]: Remove: archive file [/home/abi/fetcher/tmp/req2flatpak-0.2.0.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [req2flatpak]: Start processing: spin-phonon-suite
+[2023-06-05 16:18:01] INFO root fetch - main [MainThread]: End processing [req2flatpak]: success
+[2023-06-05 16:18:01] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [spin-phonon-suite]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [django-json-api]: Remove: archive file [/home/abi/fetcher/tmp/django-json-api-1.2.0.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [django-json-api]: Remove: archive file [/home/abi/fetcher/tmp/django-json-api-1.2.1.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [django-json-api]: Start processing: sampacks
+[2023-06-05 16:18:01] INFO root fetch - main [MainThread]: End processing [django-json-api]: success
+[2023-06-05 16:18:01] INFO root fetch - processPackages [sampacks]: New version: [0.6] Old Version: [0.5]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [flamapy-sat]: Downloading https://files.pythonhosted.org/packages/5c/3c/ae6464b9b50c23b30af2e2fd3a11acda5f3208e2201168076d28bcd3edd1/flamapy-sat-1.1.5.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/ae/14/6b605aba563f66e1962bde704ca49ad5fd1bea18cb1241cac653b260c7c4/sampacks-0.5.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.8.2.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.0.tar.gz]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [EdgeGPT]: Start processing: daspython
+[2023-06-05 16:18:01] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-05 16:18:01] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/a6/b0/b73dab7d1275705a49c4160beb9cf5cd8fb5aab7e889c7b606e81f425bac/album_sender-0.0.9.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [daspython]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-06-05 16:18:01] INFO root fetch - processPackages [hansken]: Downloading https://files.pythonhosted.org/packages/4c/c4/759b76719cc7cd3113ada8c36c226b5d4d42ca52ebe854bb79c71f4cc037/hansken-2023.6.5.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a8/d8/cd602716553c491ea47014db0ee9be9bc51bf21c871dd6e19f70114df77b/kfish-99.0.202306051413-py3-none-any.whl
+[2023-06-05 16:18:01] INFO root fetch - processPackages [spin-phonon-suite]: Downloading https://files.pythonhosted.org/packages/f6/ca/39760d8aa95e28a388dad1655296b927ebebb7afe4e0dd83bdab927c785e/spin_phonon_suite-1.0.0.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [album-sender]: executing diffoscope
+[2023-06-05 16:18:01] INFO root fetch - processPackages [album-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/album_sender-0.0.8.tar.gz tmp/album_sender-0.0.9.tar.gz --markdown 20230605/a/album-sender/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:18:01] INFO root fetch - processPackages [flamapy-sat]: executing diffoscope
+[2023-06-05 16:18:01] INFO root fetch - processPackages [flamapy-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-sat-1.1.4.tar.gz tmp/flamapy-sat-1.1.5.tar.gz --markdown 20230605/f/flamapy-sat/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-05 16:18:01] INFO root fetch - processPackages [hansken]: executing diffoscope
+[2023-06-05 16:18:01] INFO root fetch - processPackages [hansken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hansken-2023.5.1.tar.gz tmp/hansken-2023.6.5.tar.gz --markdown 20230605/h/hansken/2023.5.1-2023.6.5/diff.md --exclude *.pyd
+[2023-06-05 16:18:01] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/e4/fc/1873699ae6141626250be518b841982a3f6058619c9e13906b6cc62058da/sampacks-0.6.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [daspython]: Downloading https://files.pythonhosted.org/packages/bf/96/9e84affe006bf4dc4b56e9adeb6fba82953c4b226252e7e69a751259a777/daspython-2.1.0.tar.gz
+[2023-06-05 16:18:01] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-05 16:18:01] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306051407-py3-none-any.whl.zip tmp/kfish-99.0.202306051413-py3-none-any.whl.zip --markdown 20230605/k/kfish/99.0.202306051407-99.0.202306051413/diff.md --exclude *.pyd
+[2023-06-05 16:18:01] INFO root fetch - processPackages [sampacks]: executing diffoscope
+[2023-06-05 16:18:01] INFO root fetch - processPackages [sampacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampacks-0.5.tar.gz tmp/sampacks-0.6.tar.gz --markdown 20230605/s/sampacks/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-05 16:18:01] INFO root fetch - processPackages [spin-phonon-suite]: Downloading https://files.pythonhosted.org/packages/e2/89/cc25c7f07beb2213ad02739192a5ad9dfbeb5438f81656760078f6a82557/spin_phonon_suite-1.1.0.tar.gz
+[2023-06-05 16:18:02] INFO root fetch - processPackages [spin-phonon-suite]: executing diffoscope
+[2023-06-05 16:18:02] INFO root fetch - processPackages [spin-phonon-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spin_phonon_suite-1.0.0.tar.gz tmp/spin_phonon_suite-1.1.0.tar.gz --markdown 20230605/s/spin-phonon-suite/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 16:18:02] INFO root fetch - processPackages [daspython]: Downloading https://files.pythonhosted.org/packages/14/38/a38baa8c7e5bf2159a76d4cb44ae6efb22217eeb062b2209a79d1e2b70fa/daspython-3.0.0.tar.gz
+[2023-06-05 16:18:02] INFO root fetch - processPackages [daspython]: executing diffoscope
+[2023-06-05 16:18:02] INFO root fetch - processPackages [daspython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daspython-2.1.0.tar.gz tmp/daspython-3.0.0.tar.gz --markdown 20230605/d/daspython/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-05 16:18:02] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 16:18:02] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 16:18:02] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: pytest-when
+[2023-06-05 16:18:02] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 16:18:02] INFO root fetch - processPackages [pytest-when]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [album-sender]: Remove: archive file [/home/abi/fetcher/tmp/album_sender-0.0.8.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [album-sender]: Remove: archive file [/home/abi/fetcher/tmp/album_sender-0.0.9.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [album-sender]: Start processing: obs-cli
+[2023-06-05 16:18:03] INFO root fetch - main [MainThread]: End processing [album-sender]: success
+[2023-06-05 16:18:03] INFO root fetch - processPackages [pytest-when]: Downloading https://files.pythonhosted.org/packages/5b/9f/9cc1927d20f7483011b5418d0107f659f8f0707f4a449fce7e49f0ba4b30/pytest_when-1.0.8.tar.gz
+[2023-06-05 16:18:03] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-06-05 16:18:03] WARNING root fetch - processPackages [obs-cli]: Skipping, unable to determine old version
+[2023-06-05 16:18:03] INFO root fetch - processPackages [obs-cli]: Start processing: Audio-Similarity
+[2023-06-05 16:18:03] INFO root fetch - main [MainThread]: End processing [obs-cli] error
+[2023-06-05 16:18:03] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306051407-py3-none-any.whl.zip]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306051413-py3-none-any.whl.zip]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [kfish]: Start processing: speculos
+[2023-06-05 16:18:03] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-05 16:18:03] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-06-05 16:18:03] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230605/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:18:03] WARNING root fetch - processPackages [Audio-Similarity]: Skipping, unable to determine old version
+[2023-06-05 16:18:03] INFO root fetch - processPackages [Audio-Similarity]: Start processing: awadb
+[2023-06-05 16:18:03] INFO root fetch - main [MainThread]: End processing [Audio-Similarity] error
+[2023-06-05 16:18:03] INFO root fetch - processPackages [pytest-when]: Downloading https://files.pythonhosted.org/packages/6a/12/9c78e1deaf5d512707946744da5dd14e6a2b75e75bccef28d03a9eb83ee9/pytest_when-1.0.9.tar.gz
+[2023-06-05 16:18:03] INFO root fetch - processPackages [speculos]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [pytest-when]: executing diffoscope
+[2023-06-05 16:18:03] INFO root fetch - processPackages [pytest-when]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_when-1.0.8.tar.gz tmp/pytest_when-1.0.9.tar.gz --markdown 20230605/p/pytest-when/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:18:03] INFO root fetch - processPackages [awadb]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [hansken]: Remove: archive file [/home/abi/fetcher/tmp/hansken-2023.5.1.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [hansken]: Remove: archive file [/home/abi/fetcher/tmp/hansken-2023.6.5.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - main [MainThread]: End processing [hansken]: success
+[2023-06-05 16:18:03] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/c3/7b/0ec21aa135096ef247fe95c159719e70aeb8d84395774ee6c99f8fd8aaa7/speculos-0.2.2.tar.gz
+[2023-06-05 16:18:03] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.5.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.6.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - main [MainThread]: End processing [sampacks]: success
+[2023-06-05 16:18:03] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 15996579>=10485760
+[2023-06-05 16:18:03] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2023-06-05 16:18:03] INFO root fetch - processPackages [flamapy-sat]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-sat-1.1.4.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [flamapy-sat]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-sat-1.1.5.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - main [MainThread]: End processing [flamapy-sat]: success
+[2023-06-05 16:18:03] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/3f/a7/5b38b78b9a8b3b58936cda84c53419f91d47acbdd2c299fa41831e02274e/awadb-0.3.1-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-05 16:18:03] INFO root fetch - processPackages [daspython]: Remove: archive file [/home/abi/fetcher/tmp/daspython-2.1.0.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - processPackages [daspython]: Remove: archive file [/home/abi/fetcher/tmp/daspython-3.0.0.tar.gz]
+[2023-06-05 16:18:03] INFO root fetch - main [MainThread]: End processing [daspython]: success
+[2023-06-05 16:18:03] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/90/76/c4929c64ca6252aa117fc96e7e7860faedc7f94943fa8ddebbd22f4f9e7e/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-05 16:18:04] INFO root fetch - processPackages [spin-phonon-suite]: Remove: archive file [/home/abi/fetcher/tmp/spin_phonon_suite-1.0.0.tar.gz]
+[2023-06-05 16:18:04] INFO root fetch - processPackages [spin-phonon-suite]: Remove: archive file [/home/abi/fetcher/tmp/spin_phonon_suite-1.1.0.tar.gz]
+[2023-06-05 16:18:04] INFO root fetch - main [MainThread]: End processing [spin-phonon-suite]: success
+[2023-06-05 16:18:04] INFO root fetch - processPackages [awadb]: executing diffoscope
+[2023-06-05 16:18:04] INFO root fetch - processPackages [awadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awadb-0.3.1-cp39-cp39-manylinux1_x86_64.whl.zip tmp/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230605/a/awadb/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 16:18:04] INFO root fetch - processPackages [pytest-when]: Remove: archive file [/home/abi/fetcher/tmp/pytest_when-1.0.8.tar.gz]
+[2023-06-05 16:18:04] INFO root fetch - processPackages [pytest-when]: Remove: archive file [/home/abi/fetcher/tmp/pytest_when-1.0.9.tar.gz]
+[2023-06-05 16:18:04] INFO root fetch - main [MainThread]: End processing [pytest-when]: success
+[2023-06-05 16:18:05] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-06-05 16:18:05] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-06-05 16:18:05] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-06-05 16:18:09] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306051405-py3-none-any.whl.zip]
+[2023-06-05 16:18:09] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306051411-py3-none-any.whl.zip]
+[2023-06-05 16:18:09] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-05 16:18:27] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.1-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-05 16:18:27] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-05 16:18:27] INFO root fetch - main [MainThread]: End processing [awadb]: success
+[2023-06-05 16:18:27] INFO root fetch - main [MainThread]: Store serial: [18377086]
