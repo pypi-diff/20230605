@@ -16394,3 +16394,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 16:52:38] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.64.1.tar.gz]
 [2023-06-05 16:52:38] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
 [2023-06-05 16:52:38] INFO root fetch - main [MainThread]: Store serial: [18377399]
+[2023-06-05 16:57:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377399]
+[2023-06-05 16:57:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emid
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aheadworks-deploy-manager
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: db2ixf
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conductor-python
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rcsb.workflow
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tox
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SimpleShape
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rbx
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cwapi3d
+[2023-06-05 16:57:47] INFO root fetch - processPackages [SimpleShape]: New version: [1.3] Old Version: [1.2]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [rcsb.workflow]: New version: [0.40] Old Version: [0.39]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [cwapi3d]: New version: [2.0.8] Old Version: [2.0.6]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [db2ixf]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [emid]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [rbx]: New version: [3.1.0.dev27] Old Version: [3.1.0.dev26]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [conductor-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [tox]: New version: [4.6.0] Old Version: [4.5.2]
+[2023-06-05 16:57:47] INFO root fetch - processPackages [SimpleShape]: Downloading https://files.pythonhosted.org/packages/5b/cb/d47bdf578722600331664bf8f33631367dafa64ec47e96f463074031d54d/SimpleShape-1.2-py3-none-any.whl
+[2023-06-05 16:57:47] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [tox]: Downloading https://files.pythonhosted.org/packages/71/da/0cb03d5659fc754dc467489acd66cdf8042e30b1255c59f71790660e0ce1/tox-4.5.2.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [cwapi3d]: Downloading https://files.pythonhosted.org/packages/5e/1e/b256827f839f864893ed2e99e8593ac6721046dc01318dbef44829f0d1a9/cwapi3d-2.0.6.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [emid]: Downloading https://files.pythonhosted.org/packages/0a/f9/f56f8ca9dbf3c20f741c16e91cf754fcf2ee37ad08f97eb3c3f85712a7bb/emid-0.0.2.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/a8/12/71f81e88013c286d993248a3e8753667bc491c5fb22fa884278b068c5303/aheadworks_deploy_manager-1.4.8.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [rbx]: Downloading https://files.pythonhosted.org/packages/b4/33/77885816c4477b5e8a090ac491083038889d12a37416774700230e3eff2a/rbx-3.1.0.dev26.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [rcsb.workflow]: Downloading https://files.pythonhosted.org/packages/19/79/c471f5d3efd5df300de1a34a66e12315b5d46dc72e30f2da9f6033209824/rcsb.workflow-0.39.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [conductor-python]: Downloading https://files.pythonhosted.org/packages/b8/3e/59c817236587c494cd92a7614ed237998be4be850582260c4473520307f4/conductor-python-1.0.8.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230605/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-05 16:57:48] INFO root fetch - processPackages [db2ixf]: Downloading https://files.pythonhosted.org/packages/c3/73/77b8db4ebcd5c9bd0cf542ae358e4da6381ed32f394b273df7b8f873c7d0/db2ixf-0.1.4.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [SimpleShape]: Downloading https://files.pythonhosted.org/packages/87/4a/4e559315ed56796c25e5f17f16558e2f0b42e5f52869776c4688c2ae8f87/SimpleShape-1.3.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [emid]: Downloading https://files.pythonhosted.org/packages/ac/78/b08e547f0a7af316dcad4b4786ed4b5872a1b9f15dfdef35d7a2d71eea70/emid-0.0.4.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [SimpleShape]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [SimpleShape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleShape-1.2-py3-none-any.whl.zip tmp/SimpleShape-1.3.tar.gz --markdown 20230605/S/SimpleShape/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-05 16:57:48] INFO root fetch - processPackages [conductor-python]: Downloading https://files.pythonhosted.org/packages/4c/37/75ceb98fa0a897a9ef3956c769a3653e5e884e10d1f0f2a847a40ec765a8/conductor-python-1.0.9.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [tox]: Downloading https://files.pythonhosted.org/packages/68/76/06f36b366d5be74a1c870e381db14d7231ee140cbd859125e8d81da4ae55/tox-4.6.0.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [cwapi3d]: Downloading https://files.pythonhosted.org/packages/10/10/7e64bbb7a1ac4e8ee66adc1fb2afdcc4225f5eaf0b1efb312d9be3e0093d/cwapi3d-2.0.8.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [rbx]: Downloading https://files.pythonhosted.org/packages/18/bf/678d78399a2049ba21bfd5d2802d64244f5877553b751c8c52bd7d6b262a/rbx-3.1.0.dev27.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [emid]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [emid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emid-0.0.2.tar.gz tmp/emid-0.0.4.tar.gz --markdown 20230605/e/emid/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 16:57:48] INFO root fetch - processPackages [rcsb.workflow]: Downloading https://files.pythonhosted.org/packages/b8/fb/710f1f8d97bb4444d315608b0dc5cffe16ec5b8144e7640389c9fe88f470/rcsb.workflow-0.40.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/b8/01/5da57b9f1dbd79a13b113866cf9afb24012c894a5971947bf7d29ae2ad18/aheadworks_deploy_manager-1.4.9.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [tox]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [tox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-4.5.2.tar.gz tmp/tox-4.6.0.tar.gz --markdown 20230605/t/tox/4.5.2-4.6.0/diff.md --exclude *.pyd
+[2023-06-05 16:57:48] INFO root fetch - processPackages [conductor-python]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [conductor-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conductor-python-1.0.8.tar.gz tmp/conductor-python-1.0.9.tar.gz --markdown 20230605/c/conductor-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:57:48] INFO root fetch - processPackages [db2ixf]: Downloading https://files.pythonhosted.org/packages/9f/ab/9e99f17726e220e8181dfc309db5e572365b4070b00084f4f0c9b811a2b6/db2ixf-0.1.5.tar.gz
+[2023-06-05 16:57:48] INFO root fetch - processPackages [rcsb.workflow]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [rcsb.workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.workflow-0.39.tar.gz tmp/rcsb.workflow-0.40.tar.gz --markdown 20230605/r/rcsb.workflow/0.39-0.40/diff.md --exclude *.pyd
+[2023-06-05 16:57:48] INFO root fetch - processPackages [db2ixf]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [db2ixf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db2ixf-0.1.4.tar.gz tmp/db2ixf-0.1.5.tar.gz --markdown 20230605/d/db2ixf/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 16:57:48] INFO root fetch - processPackages [rbx]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [rbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbx-3.1.0.dev26.tar.gz tmp/rbx-3.1.0.dev27.tar.gz --markdown 20230605/r/rbx/3.1.0.dev26-3.1.0.dev27/diff.md --exclude *.pyd
+[2023-06-05 16:57:48] INFO root fetch - processPackages [cwapi3d]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [cwapi3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwapi3d-2.0.6.tar.gz tmp/cwapi3d-2.0.8.tar.gz --markdown 20230605/c/cwapi3d/2.0.6-2.0.8/diff.md --exclude *.pyd
+[2023-06-05 16:57:48] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-05 16:57:48] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230605/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-05 16:57:49] INFO root fetch - processPackages [SimpleShape]: Remove: archive file [/home/abi/fetcher/tmp/SimpleShape-1.2-py3-none-any.whl.zip]
+[2023-06-05 16:57:49] INFO root fetch - processPackages [SimpleShape]: Remove: archive file [/home/abi/fetcher/tmp/SimpleShape-1.3.tar.gz]
+[2023-06-05 16:57:49] INFO root fetch - main [MainThread]: End processing [SimpleShape]: success
+[2023-06-05 16:57:49] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-05 16:57:49] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-05 16:57:49] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-05 16:57:50] INFO root fetch - processPackages [db2ixf]: Remove: archive file [/home/abi/fetcher/tmp/db2ixf-0.1.4.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - processPackages [db2ixf]: Remove: archive file [/home/abi/fetcher/tmp/db2ixf-0.1.5.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - main [MainThread]: End processing [db2ixf]: success
+[2023-06-05 16:57:50] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.8.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.9.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-05 16:57:50] INFO root fetch - processPackages [conductor-python]: Remove: archive file [/home/abi/fetcher/tmp/conductor-python-1.0.8.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - processPackages [conductor-python]: Remove: archive file [/home/abi/fetcher/tmp/conductor-python-1.0.9.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - main [MainThread]: End processing [conductor-python]: success
+[2023-06-05 16:57:50] INFO root fetch - processPackages [rcsb.workflow]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.workflow-0.39.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - processPackages [rcsb.workflow]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.workflow-0.40.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - main [MainThread]: End processing [rcsb.workflow]: success
+[2023-06-05 16:57:50] INFO root fetch - processPackages [rbx]: Remove: archive file [/home/abi/fetcher/tmp/rbx-3.1.0.dev26.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - processPackages [rbx]: Remove: archive file [/home/abi/fetcher/tmp/rbx-3.1.0.dev27.tar.gz]
+[2023-06-05 16:57:50] INFO root fetch - main [MainThread]: End processing [rbx]: success
+[2023-06-05 16:57:51] INFO root fetch - processPackages [tox]: Remove: archive file [/home/abi/fetcher/tmp/tox-4.5.2.tar.gz]
+[2023-06-05 16:57:51] INFO root fetch - processPackages [tox]: Remove: archive file [/home/abi/fetcher/tmp/tox-4.6.0.tar.gz]
+[2023-06-05 16:57:51] INFO root fetch - main [MainThread]: End processing [tox]: success
+[2023-06-05 16:57:51] INFO root fetch - processPackages [cwapi3d]: Remove: archive file [/home/abi/fetcher/tmp/cwapi3d-2.0.6.tar.gz]
+[2023-06-05 16:57:51] INFO root fetch - processPackages [cwapi3d]: Remove: archive file [/home/abi/fetcher/tmp/cwapi3d-2.0.8.tar.gz]
+[2023-06-05 16:57:51] INFO root fetch - main [MainThread]: End processing [cwapi3d]: success
+[2023-06-05 16:57:52] INFO root fetch - processPackages [emid]: Remove: archive file [/home/abi/fetcher/tmp/emid-0.0.2.tar.gz]
+[2023-06-05 16:57:52] INFO root fetch - processPackages [emid]: Remove: archive file [/home/abi/fetcher/tmp/emid-0.0.4.tar.gz]
+[2023-06-05 16:57:52] INFO root fetch - main [MainThread]: End processing [emid]: success
+[2023-06-05 16:57:52] INFO root fetch - main [MainThread]: Store serial: [18377427]
