@@ -5063,3 +5063,48 @@
 [2023-06-05 07:03:35] INFO root fetch - main [MainThread]: End processing [azdev]: success
 [2023-06-05 07:03:36] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-06-05 07:03:36] INFO root fetch - main [MainThread]: Store serial: [18371810]
+[2023-06-05 07:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371810]
+[2023-06-05 07:08:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-05 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-scraper-toolkit
+[2023-06-05 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cncd-package
+[2023-06-05 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thunder-ase
+[2023-06-05 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rising-plugin
+[2023-06-05 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2023-06-05 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-runtime
+[2023-06-05 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multi-model-server
+[2023-06-05 07:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-model-maker-nightly
+[2023-06-05 07:08:45] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 07:08:45] WARNING root fetch - processPackages [cncd-package]: Skipping, unable to determine old version
+[2023-06-05 07:08:45] INFO root fetch - main [MainThread]: End processing [cncd-package] error
+[2023-06-05 07:08:45] WARNING root fetch - processPackages [amazon-scraper-toolkit]: Skipping, unable to determine old version
+[2023-06-05 07:08:45] INFO root fetch - main [MainThread]: End processing [amazon-scraper-toolkit] error
+[2023-06-05 07:08:45] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-05 07:08:45] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.8b20230531]
+[2023-06-05 07:08:45] INFO root fetch - processPackages [thunder-ase]: New version: [0.3.1] Old Version: [0.2.4]
+[2023-06-05 07:08:45] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230605] Old Version: [0.1.1.dev20230604]
+[2023-06-05 07:08:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306040508] Old Version: [0.4.3.dev202306030508]
+[2023-06-05 07:08:45] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/f8/8c/f0981fcc6f75e9f6727d943ad605e57a446f4c77a313fa2393bb23cdbb62/omnata_plugin_runtime-0.1.7.tar.gz
+[2023-06-05 07:08:45] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-05 07:08:45] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230531-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230605/m/multi-model-server/1.1.8b20230531-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-05 07:08:45] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/50/a1/31da37d83e5e9de906208238ef3c0d92104aaf98b64feec3aebcd6b73915/thunder-ase-0.3.1.tar.gz
+[2023-06-05 07:08:45] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/57/86/fd629c0e0c89a427469cc1bc9415c39e82adb53939ccb173a096f607e4cc/rapid_pe-0.1.1.dev20230605.tar.gz
+[2023-06-05 07:08:45] INFO root fetch - processPackages [thunder-ase]: executing diffoscope
+[2023-06-05 07:08:45] INFO root fetch - processPackages [thunder-ase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunder-ase-0.2.4.tar.gz tmp/thunder-ase-0.3.1.tar.gz --markdown 20230605/t/thunder-ase/0.2.4-0.3.1/diff.md --exclude *.pyd
+[2023-06-05 07:08:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-05 07:08:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306030508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306040508.tar.gz --markdown 20230605/t/tflite-model-maker-nightly/0.4.3.dev202306030508-0.4.3.dev202306040508/diff.md --exclude *.pyd
+[2023-06-05 07:08:45] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-05 07:08:45] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-05 07:08:45] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230605/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 07:08:45] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-05 07:08:45] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230604.tar.gz tmp/rapid_pe-0.1.1.dev20230605.tar.gz --markdown 20230605/r/rapid-pe/0.1.1.dev20230604-0.1.1.dev20230605/diff.md --exclude *.pyd
+[2023-06-05 07:08:45] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-05 07:08:45] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.7.tar.gz tmp/omnata_plugin_runtime-0.1.8.tar.gz --markdown 20230605/o/omnata-plugin-runtime/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-05 07:08:46] INFO root fetch - main [MainThread]: End processing [thunder-ase]: success
+[2023-06-05 07:08:46] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-05 07:08:47] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-05 07:08:48] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-05 07:11:45] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-05 07:11:45] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-05 07:11:45] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-05 07:11:45] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-05 07:11:45] INFO root fetch - main [MainThread]: Store serial: [18371836]
