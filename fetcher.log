@@ -20674,3 +20674,200 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 19:34:05] INFO root fetch - processPackages [pylogics]: Remove: archive file [/home/abi/fetcher/tmp/pylogics-0.2.0.tar.gz]
 [2023-06-05 19:34:05] INFO root fetch - main [MainThread]: End processing [pylogics]: success
 [2023-06-05 19:34:05] INFO root fetch - main [MainThread]: Store serial: [18379183]
+[2023-06-05 19:39:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18379183]
+[2023-06-05 19:39:24] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: klp-commons
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bmp-cred-credit-common
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splathash
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fullask-rest-framework
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: findmyorder
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: comet-llm
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assisted-service-client
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gravitypy
+[2023-06-05 19:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kot
+[2023-06-05 19:39:24] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 19:39:24] WARNING root fetch - processPackages [splathash]: Skipping, unable to determine old version
+[2023-06-05 19:39:24] INFO root fetch - processPackages [splathash]: Start processing: animegifs
+[2023-06-05 19:39:24] INFO root fetch - processPackages [findmyorder]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-05 19:39:24] INFO root fetch - main [MainThread]: End processing [splathash] error
+[2023-06-05 19:39:24] WARNING root fetch - processPackages [bmp-cred-credit-common]: Skipping, unable to determine old version
+[2023-06-05 19:39:24] INFO root fetch - processPackages [bmp-cred-credit-common]: Start processing: altimate-dataminion
+[2023-06-05 19:39:24] INFO root fetch - processPackages [gravitypy]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-05 19:39:24] INFO root fetch - main [MainThread]: End processing [bmp-cred-credit-common] error
+[2023-06-05 19:39:24] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 19:39:24] INFO root fetch - processPackages [kot]: New version: [0.13.1] Old Version: [0.13.0]
+[2023-06-05 19:39:24] INFO root fetch - processPackages [altimate-dataminion]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 19:39:24] INFO root fetch - processPackages [animegifs]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-05 19:39:24] INFO root fetch - processPackages [comet-llm]: New version: [0.0.4] Old Version: [0.0.3b0]
+[2023-06-05 19:39:24] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/ca/f3/9f08c36adfb0cbbf52c339c94b39f7a01b27a2cba31b5d639b00e125eef9/findmyorder-1.3.8.tar.gz
+[2023-06-05 19:39:24] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-05 19:39:24] INFO root fetch - processPackages [altimate-dataminion]: Downloading https://files.pythonhosted.org/packages/a8/83/8746ef7519955d9f7699d63ae26a6d8ab514890ef131c427287fb3663110/altimate_dataminion-0.0.7.tar.gz
+[2023-06-05 19:39:24] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230605.8.1.375473] Old Version: [20230605.17.33.314585]
+[2023-06-05 19:39:24] INFO root fetch - processPackages [animegifs]: Downloading https://files.pythonhosted.org/packages/0b/6b/b56ff71c15a781c581a5f0261ff5b9a85640085f4229946e226d9ee32027/animegifs-0.6.1.tar.gz
+[2023-06-05 19:39:24] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/a1/1d/40152986dbd7fb9a65f7c24a6d724e24a7748f38160c7285d94fe6fdfe70/fullask-rest-framework-0.1.1.tar.gz
+[2023-06-05 19:39:24] INFO root fetch - processPackages [comet-llm]: Downloading https://files.pythonhosted.org/packages/fe/6f/87080ffb8aa0a8ad21f03e4e74df1a2a661e848c9cd305dc35f01297ce17/comet_llm-0.0.3b0.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/e3/94/b9d41734be8fbd3cebf962ef11a4248d4440e5a30e129d67ac7ed28b4f70/klp-commons-0.0.8.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [kot]: Downloading https://files.pythonhosted.org/packages/32/13/9511b39e074524a5a4c850330cd5d7bc51fa39130e8284efdefc331a6fc2/kot-0.13.0.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/10/40/69a96cf377b32fd817c576c534c81d0cf15ec26c6f20ff1afec9abe5bc1d/gravitypy-1.2.1.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/52/b2/27542c768cd467bba099bd3795a116a0f5925f906d812f5ba7335c21a9d3/findmyorder-1.3.9.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/95/9822197beef8cd1b43a7ddddaeaa2ac605c6a1615ddca83f474845ec2e8a/certora-cli-alpha-master-20230605.17.33.314585.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-05 19:39:25] INFO root fetch - processPackages [animegifs]: Downloading https://files.pythonhosted.org/packages/43/ec/c962f28a4691a19a28d4aa7a33d1623eb81cd8fecd2f9ae3cc239e9e017d/animegifs-0.6.2.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.8.tar.gz tmp/findmyorder-1.3.9.tar.gz --markdown 20230605/f/findmyorder/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-05 19:39:25] INFO root fetch - processPackages [altimate-dataminion]: Downloading https://files.pythonhosted.org/packages/c5/70/f13480aa9287204692f57a2cb557d90a542a2dd4ddcdc1d75e02a3dbea45/altimate_dataminion-0.0.8.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/60/34/bffcf3219beb8871f076f6d02e643d31544df78bc572b095fa35a71dbb10/fullask-rest-framework-0.1.2.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [comet-llm]: Downloading https://files.pythonhosted.org/packages/36/63/7b7d2dad9a84cf54496df73557d2c4e2922dcc113860716dbfdd4bf0eb52/comet_llm-0.0.4.tar.gz
+[2023-06-05 19:39:25] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39176007>=10485760
+[2023-06-05 19:39:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: otpme
+[2023-06-05 19:39:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-05 19:39:25] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-05 19:39:25] INFO root fetch - processPackages [kot]: Downloading https://files.pythonhosted.org/packages/38/8f/9617e63602af44446767df543f28f4fa9c57bf0bf16b086896b921016654/kot-0.13.1.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [comet-llm]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [comet-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_llm-0.0.3b0.tar.gz tmp/comet_llm-0.0.4.tar.gz --markdown 20230605/c/comet-llm/0.0.3b0-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 19:39:25] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/d3/6a/85d00d7753c4a57706b1c7141244b0a0c563e93b44cc9c8ef0e7e5b9dd31/gravitypy-1.2.2.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [animegifs]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [animegifs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animegifs-0.6.1.tar.gz tmp/animegifs-0.6.2.tar.gz --markdown 20230605/a/animegifs/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-05 19:39:25] INFO root fetch - processPackages [altimate-dataminion]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [altimate-dataminion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altimate_dataminion-0.0.7.tar.gz tmp/altimate_dataminion-0.0.8.tar.gz --markdown 20230605/a/altimate-dataminion/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 19:39:25] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.1.1.tar.gz tmp/fullask-rest-framework-0.1.2.tar.gz --markdown 20230605/f/fullask-rest-framework/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 19:39:25] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/53/33/d9ffdd5b9e8330b9db6c43b84e3bde30134298a6bf8696655c5c0ee970e2/klp-commons-0.0.9.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [gravitypy]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [gravitypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitypy-1.2.1.tar.gz tmp/gravitypy-1.2.2.tar.gz --markdown 20230605/g/gravitypy/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-05 19:39:25] INFO root fetch - processPackages [kot]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [kot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kot-0.13.0.tar.gz tmp/kot-0.13.1.tar.gz --markdown 20230605/k/kot/0.13.0-0.13.1/diff.md --exclude *.pyd
+[2023-06-05 19:39:25] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-05 19:39:25] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-05 19:39:25] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230605/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 19:39:25] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230605/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-05 19:39:25] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-05 19:39:25] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230605/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-05 19:39:26] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.8.tar.gz]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.9.tar.gz]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [findmyorder]: Start processing: kaiju-tools
+[2023-06-05 19:39:26] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-06-05 19:39:26] INFO root fetch - processPackages [kaiju-tools]: New version: [2.0.58] Old Version: [2.0.57]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/d5/ff/edbc84a7b7149e9a3ec7877d1a8f8971cea7ea75b24df200d579563c23a1/kaiju_tools-2.0.57-py3-none-any.whl
+[2023-06-05 19:39:26] INFO root fetch - processPackages [comet-llm]: Remove: archive file [/home/abi/fetcher/tmp/comet_llm-0.0.3b0.tar.gz]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [comet-llm]: Remove: archive file [/home/abi/fetcher/tmp/comet_llm-0.0.4.tar.gz]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [comet-llm]: Start processing: nctoolkit
+[2023-06-05 19:39:26] INFO root fetch - main [MainThread]: End processing [comet-llm]: success
+[2023-06-05 19:39:26] INFO root fetch - processPackages [nctoolkit]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [gravitypy]: Remove: archive file [/home/abi/fetcher/tmp/gravitypy-1.2.1.tar.gz]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [gravitypy]: Remove: archive file [/home/abi/fetcher/tmp/gravitypy-1.2.2.tar.gz]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [gravitypy]: Start processing: pulumi-snowflake
+[2023-06-05 19:39:26] INFO root fetch - main [MainThread]: End processing [gravitypy]: success
+[2023-06-05 19:39:26] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [animegifs]: Remove: archive file [/home/abi/fetcher/tmp/animegifs-0.6.1.tar.gz]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [animegifs]: Remove: archive file [/home/abi/fetcher/tmp/animegifs-0.6.2.tar.gz]
+[2023-06-05 19:39:26] INFO root fetch - processPackages [animegifs]: Start processing: hivae2
+[2023-06-05 19:39:26] INFO root fetch - main [MainThread]: End processing [animegifs]: success
+[2023-06-05 19:39:26] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/c7/c2/2dcc70189d4f2d14d53616048660f9d1a14ea92ee69f03c5c68c0397b27b/kaiju_tools-2.0.58-py3-none-any.whl
+[2023-06-05 19:39:27] INFO root fetch - processPackages [hivae2]: New version: [0.9] Old Version: [0.8]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [nctoolkit]: Downloading https://files.pythonhosted.org/packages/a6/38/2522b281788c663288f48d06f888990668a59e8d26bd4ec18f35669e81e2/nctoolkit-0.9.2.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.8.tar.gz]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.9.tar.gz]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [klp-commons]: Start processing: odoo14-addon-l10n-br-nfse-paulistana
+[2023-06-05 19:39:27] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-06-05 19:39:27] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kot]: Remove: archive file [/home/abi/fetcher/tmp/kot-0.13.0.tar.gz]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kot]: Remove: archive file [/home/abi/fetcher/tmp/kot-0.13.1.tar.gz]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kot]: Start processing: autoscrum
+[2023-06-05 19:39:27] INFO root fetch - main [MainThread]: End processing [kot]: success
+[2023-06-05 19:39:27] WARNING root fetch - processPackages [odoo14-addon-l10n-br-nfse-paulistana]: Skipping, unable to determine old version
+[2023-06-05 19:39:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-paulistana]: Start processing: kot
+[2023-06-05 19:39:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfse-paulistana] error
+[2023-06-05 19:39:27] INFO root fetch - processPackages [hivae2]: Downloading https://files.pythonhosted.org/packages/e3/3f/92c515ee45f9f1202d56f052c72d1b58b5099ffb0895cea69eb5986ae83d/hivae2-0.8.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kaiju-tools]: executing diffoscope
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kaiju-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tools-2.0.57-py3-none-any.whl.zip tmp/kaiju_tools-2.0.58-py3-none-any.whl.zip --markdown 20230605/k/kaiju-tools/2.0.57-2.0.58/diff.md --exclude *.pyd
+[2023-06-05 19:39:27] INFO root fetch - processPackages [autoscrum]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kot]: New version: [0.13.1] Old Version: [0.13.0]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-06-05 19:39:27] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230605/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kot]: Downloading https://files.pythonhosted.org/packages/32/13/9511b39e074524a5a4c850330cd5d7bc51fa39130e8284efdefc331a6fc2/kot-0.13.0.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [nctoolkit]: Downloading https://files.pythonhosted.org/packages/46/9e/ee903348d6de1371ce74ee5122f1ed8c7029e27d293fd4c48dec63b7b051/nctoolkit-0.9.3.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [altimate-dataminion]: Remove: archive file [/home/abi/fetcher/tmp/altimate_dataminion-0.0.7.tar.gz]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [altimate-dataminion]: Remove: archive file [/home/abi/fetcher/tmp/altimate_dataminion-0.0.8.tar.gz]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [altimate-dataminion]: Start processing: klp-commons
+[2023-06-05 19:39:27] INFO root fetch - main [MainThread]: End processing [altimate-dataminion]: success
+[2023-06-05 19:39:27] INFO root fetch - processPackages [autoscrum]: Downloading https://files.pythonhosted.org/packages/e3/53/9abc50b84abe0877170d36ee45e5ac38d5d4f4793e80bf9d6c6ae67efe2b/autoscrum-0.1.0.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kot]: Downloading https://files.pythonhosted.org/packages/38/8f/9617e63602af44446767df543f28f4fa9c57bf0bf16b086896b921016654/kot-0.13.1.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/e3/94/b9d41734be8fbd3cebf962ef11a4248d4440e5a30e129d67ac7ed28b4f70/klp-commons-0.0.8.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [nctoolkit]: executing diffoscope
+[2023-06-05 19:39:27] INFO root fetch - processPackages [nctoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nctoolkit-0.9.2.tar.gz tmp/nctoolkit-0.9.3.tar.gz --markdown 20230605/n/nctoolkit/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kot]: executing diffoscope
+[2023-06-05 19:39:27] INFO root fetch - processPackages [kot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kot-0.13.0.tar.gz tmp/kot-0.13.1.tar.gz --markdown 20230605/k/kot/0.13.0-0.13.1/diff.md --exclude *.pyd
+[2023-06-05 19:39:27] INFO root fetch - processPackages [hivae2]: Downloading https://files.pythonhosted.org/packages/39/27/d14373cf35a2ff7c11c485604a524e68278eb2b90a5bb2b9233b8bd9f1f1/hivae2-0.9.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [hivae2]: executing diffoscope
+[2023-06-05 19:39:27] INFO root fetch - processPackages [hivae2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivae2-0.8.tar.gz tmp/hivae2-0.9.tar.gz --markdown 20230605/h/hivae2/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-05 19:39:27] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.1.tar.gz]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.2.tar.gz]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [fullask-rest-framework]: Start processing: ever-playground
+[2023-06-05 19:39:27] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-05 19:39:27] INFO root fetch - processPackages [ever-playground]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-05 19:39:27] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/53/33/d9ffdd5b9e8330b9db6c43b84e3bde30134298a6bf8696655c5c0ee970e2/klp-commons-0.0.9.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [autoscrum]: Downloading https://files.pythonhosted.org/packages/3f/d1/8b3fda6955f7e18fd16a744a584c89eb0d70591447de0a377ecdccd5defe/autoscrum-0.2.0.tar.gz
+[2023-06-05 19:39:27] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-06-05 19:39:27] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230605/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 19:39:27] INFO root fetch - processPackages [autoscrum]: executing diffoscope
+[2023-06-05 19:39:27] INFO root fetch - processPackages [autoscrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoscrum-0.1.0.tar.gz tmp/autoscrum-0.2.0.tar.gz --markdown 20230605/a/autoscrum/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 19:39:27] INFO root fetch - processPackages [ever-playground]: Downloading https://files.pythonhosted.org/packages/0f/3b/2eabcdce68ad95c631d5cc881113cacc0a6230418b503cc6ae683a070fc9/ever_playground-0.6.2.tar.gz
+[2023-06-05 19:39:28] INFO root fetch - processPackages [ever-playground]: Downloading https://files.pythonhosted.org/packages/f5/64/938fa8dffecc03130e19d83fd1244012f76ae67af9fc074080bd94c32bdb/ever_playground-0.6.3.tar.gz
+[2023-06-05 19:39:28] INFO root fetch - processPackages [ever-playground]: executing diffoscope
+[2023-06-05 19:39:28] INFO root fetch - processPackages [ever-playground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ever_playground-0.6.2.tar.gz tmp/ever_playground-0.6.3.tar.gz --markdown 20230605/e/ever-playground/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-05 19:39:29] INFO root fetch - processPackages [kot]: Remove: archive file [/home/abi/fetcher/tmp/kot-0.13.0.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [kot]: Remove: archive file [/home/abi/fetcher/tmp/kot-0.13.1.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [kot]: Start processing: nxstools
+[2023-06-05 19:39:29] INFO root fetch - main [MainThread]: End processing [kot]: success
+[2023-06-05 19:39:29] INFO root fetch - processPackages [hivae2]: Remove: archive file [/home/abi/fetcher/tmp/hivae2-0.8.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [hivae2]: Remove: archive file [/home/abi/fetcher/tmp/hivae2-0.9.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [hivae2]: Start processing: influxdb3-python-cli
+[2023-06-05 19:39:29] INFO root fetch - main [MainThread]: End processing [hivae2]: success
+[2023-06-05 19:39:29] INFO root fetch - processPackages [nxstools]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [influxdb3-python-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [kaiju-tools]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tools-2.0.57-py3-none-any.whl.zip]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [kaiju-tools]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tools-2.0.58-py3-none-any.whl.zip]
+[2023-06-05 19:39:29] INFO root fetch - main [MainThread]: End processing [kaiju-tools]: success
+[2023-06-05 19:39:29] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/84/46/b2964365a310f4a41c0aeb355140878571512cbc27ccf85f2e26f5f69789/nxstools-3.8.0.tar.gz
+[2023-06-05 19:39:29] INFO root fetch - processPackages [autoscrum]: Remove: archive file [/home/abi/fetcher/tmp/autoscrum-0.1.0.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [autoscrum]: Remove: archive file [/home/abi/fetcher/tmp/autoscrum-0.2.0.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - main [MainThread]: End processing [autoscrum]: success
+[2023-06-05 19:39:29] INFO root fetch - processPackages [influxdb3-python-cli]: Downloading https://files.pythonhosted.org/packages/95/3a/bca94ed8e99fa74b4db74bee5242974eaf451c00d09aaf73cd3122b66007/influxdb3-python-cli-0.1.0.tar.gz
+[2023-06-05 19:39:29] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.8.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.9.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-06-05 19:39:29] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-06-05 19:39:29] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-06-05 19:39:29] INFO root fetch - processPackages [influxdb3-python-cli]: Downloading https://files.pythonhosted.org/packages/f5/8a/a23b79e1aa5d7a6d1ebef2befaded0da26f950bbb424dd9f9f44800b87c8/influxdb3-python-cli-0.1.1.tar.gz
+[2023-06-05 19:39:29] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/07/02/9c4773f7d22547c1f62765ea915c410a90195e7a3b6a1d4ea0947c516c39/nxstools-3.9.0.tar.gz
+[2023-06-05 19:39:29] INFO root fetch - processPackages [influxdb3-python-cli]: executing diffoscope
+[2023-06-05 19:39:29] INFO root fetch - processPackages [influxdb3-python-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-cli-0.1.0.tar.gz tmp/influxdb3-python-cli-0.1.1.tar.gz --markdown 20230605/i/influxdb3-python-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 19:39:29] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-05 19:39:29] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-05 19:39:29] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-05 19:39:30] INFO root fetch - processPackages [nxstools]: executing diffoscope
+[2023-06-05 19:39:30] INFO root fetch - processPackages [nxstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxstools-3.8.0.tar.gz tmp/nxstools-3.9.0.tar.gz --markdown 20230605/n/nxstools/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-05 19:39:30] INFO root fetch - processPackages [nctoolkit]: Remove: archive file [/home/abi/fetcher/tmp/nctoolkit-0.9.2.tar.gz]
+[2023-06-05 19:39:30] INFO root fetch - processPackages [nctoolkit]: Remove: archive file [/home/abi/fetcher/tmp/nctoolkit-0.9.3.tar.gz]
+[2023-06-05 19:39:30] INFO root fetch - main [MainThread]: End processing [nctoolkit]: success
+[2023-06-05 19:39:30] INFO root fetch - processPackages [ever-playground]: Remove: archive file [/home/abi/fetcher/tmp/ever_playground-0.6.2.tar.gz]
+[2023-06-05 19:39:30] INFO root fetch - processPackages [ever-playground]: Remove: archive file [/home/abi/fetcher/tmp/ever_playground-0.6.3.tar.gz]
+[2023-06-05 19:39:30] INFO root fetch - main [MainThread]: End processing [ever-playground]: success
+[2023-06-05 19:39:30] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-05 19:39:30] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-05 19:39:30] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-05 19:39:31] INFO root fetch - processPackages [influxdb3-python-cli]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-cli-0.1.0.tar.gz]
+[2023-06-05 19:39:31] INFO root fetch - processPackages [influxdb3-python-cli]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-cli-0.1.1.tar.gz]
+[2023-06-05 19:39:31] INFO root fetch - main [MainThread]: End processing [influxdb3-python-cli]: success
+[2023-06-05 19:39:31] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-3.8.0.tar.gz]
+[2023-06-05 19:39:31] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-3.9.0.tar.gz]
+[2023-06-05 19:39:31] INFO root fetch - main [MainThread]: End processing [nxstools]: success
+[2023-06-05 19:39:31] INFO root fetch - main [MainThread]: Store serial: [18379306]
