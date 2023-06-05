@@ -18084,3 +18084,170 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 17:50:13] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
 [2023-06-05 17:50:13] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
 [2023-06-05 17:50:13] INFO root fetch - main [MainThread]: Store serial: [18378176]
+[2023-06-05 17:55:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378176]
+[2023-06-05 17:55:38] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: propan
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docleaf
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-index
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nowcasting-datamodel
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: canonicalwebteam.http
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zabel-elements
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coinbase-commerce-API
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pySSRSapi
+[2023-06-05 17:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: obs-cli
+[2023-06-05 17:55:38] INFO root fetch - processPackages [pySSRSapi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [propan]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [docleaf]: New version: [0.2.0a0] Old Version: [0.1.0a2]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [coinbase-commerce-API]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [obs-cli]: New version: [0.4] Old Version: [0.3]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/3e/b0/6cd5060f9a410fab1f2a74dd14956290167591cb459eae218fb6a1698870/pySSRSapi-0.0.7.tar.gz
+[2023-06-05 17:55:38] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/14/e7/4c2f83e1f89ccb3ce7a238a3347e643d1ec2414608921161612aac723fc0/obs-cli-0.3.tar.gz
+[2023-06-05 17:55:38] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-05 17:55:38] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-05 17:55:38] INFO root fetch - processPackages [canonicalwebteam.http]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [zabel-elements]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-05 17:55:38] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/13/0e/24d2d6bbd2352f14512f6ee43c4e75efea79d00dbd9bdf9813d45af50e9b/docleaf-0.1.0a2-cp310-cp310-manylinux_2_34_x86_64.whl
+[2023-06-05 17:55:38] INFO root fetch - processPackages [coinbase-commerce-API]: Downloading https://files.pythonhosted.org/packages/42/2f/c788b529474843ac563d790f13b752233dd184d9ecb4974302bbe0ce2c48/coinbase-commerce-API-1.0.0.tar.gz
+[2023-06-05 17:55:38] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-05 17:55:38] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/85/3a/77aec3e3f785906ab6b5e728e0bbdc218228baac25a9e2e94a4fa62f0f53/nowcasting_datamodel-1.3.9.tar.gz
+[2023-06-05 17:55:38] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/c1/1f/3cdcbe16d3596d5f4c8b2bd2a676c177f21741fde5a400918310da0cf6ef/pySSRSapi-0.0.8.tar.gz
+[2023-06-05 17:55:38] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-05 17:55:39] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/20/97/4ac3834c4ccd9bf2fa45bec45d6b3f150b192393e4806f0f5b2f78e57937/propan-0.1.2.8.tar.gz
+[2023-06-05 17:55:39] INFO root fetch - processPackages [zabel-elements]: Downloading https://files.pythonhosted.org/packages/5f/39/ad03fc6cf0b575c47396cd9f44ac96551349c4e0c0b5409c67c9e9dc0c23/zabel_elements-1.8.1-py3-none-any.whl
+[2023-06-05 17:55:39] INFO root fetch - processPackages [canonicalwebteam.http]: Downloading https://files.pythonhosted.org/packages/1c/74/aef0c0151ca165054e070ee24ad0d59f035d48b6e6c4222801abc94f2765/canonicalwebteam.http-1.0.3.tar.gz
+[2023-06-05 17:55:39] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230605/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 17:55:39] INFO root fetch - processPackages [pySSRSapi]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [pySSRSapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySSRSapi-0.0.7.tar.gz tmp/pySSRSapi-0.0.8.tar.gz --markdown 20230605/p/pySSRSapi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 17:55:39] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/9d/9c/10ad874dd3293579cdbf0f643563297f080e8ece96e214a82d297f19db93/obs-cli-0.4.tar.gz
+[2023-06-05 17:55:39] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230605/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 17:55:39] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.3.tar.gz tmp/obs-cli-0.4.tar.gz --markdown 20230605/o/obs-cli/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-05 17:55:39] INFO root fetch - processPackages [coinbase-commerce-API]: Downloading https://files.pythonhosted.org/packages/da/3a/5333c8f8dcb1c6f63db703951a7c1454814b2978bc9d2d337863f26697ad/coinbase-commerce-API-1.0.1.tar.gz
+[2023-06-05 17:55:39] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/a5/11/f130e3172fdab37340c891218d3e308d6c84bb98a9898e903f613c247597/docleaf-0.2.0a0-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.whl
+[2023-06-05 17:55:39] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/bd/23/952836bb808c3e4f1c89fc52d1ad3fdf40bcdcf4faec57e9e7036528f56e/nowcasting_datamodel-1.4.0.tar.gz
+[2023-06-05 17:55:39] INFO root fetch - processPackages [canonicalwebteam.http]: Downloading https://files.pythonhosted.org/packages/09/1c/6b426c4a6396e3d977b820af02959fdf5b0c40ed82f94339c5a25752690d/canonicalwebteam.http-1.0.4.tar.gz
+[2023-06-05 17:55:39] INFO root fetch - processPackages [coinbase-commerce-API]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [coinbase-commerce-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinbase-commerce-API-1.0.0.tar.gz tmp/coinbase-commerce-API-1.0.1.tar.gz --markdown 20230605/c/coinbase-commerce-API/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 17:55:39] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.3.9.tar.gz tmp/nowcasting_datamodel-1.4.0.tar.gz --markdown 20230605/n/nowcasting-datamodel/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-06-05 17:55:39] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/67/09/b314612d19f8335ff944a14169a7626076b1696df41ecb837405d460f3ed/propan-0.1.2.9.tar.gz
+[2023-06-05 17:55:39] INFO root fetch - processPackages [canonicalwebteam.http]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [canonicalwebteam.http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canonicalwebteam.http-1.0.3.tar.gz tmp/canonicalwebteam.http-1.0.4.tar.gz --markdown 20230605/c/canonicalwebteam.http/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 17:55:39] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.2.8.tar.gz tmp/propan-0.1.2.9.tar.gz --markdown 20230605/p/propan/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2023-06-05 17:55:39] INFO root fetch - processPackages [zabel-elements]: Downloading https://files.pythonhosted.org/packages/b7/a7/6f93f1838ec6585d2200940225b0d9f6df044f18746f729b748d822aafb7/zabel_elements-1.9.0-py3-none-any.whl
+[2023-06-05 17:55:39] INFO root fetch - processPackages [docleaf]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [docleaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docleaf-0.1.0a2-cp310-cp310-manylinux_2_34_x86_64.whl.zip tmp/docleaf-0.2.0a0-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.whl.zip --markdown 20230605/d/docleaf/0.1.0a2-0.2.0a0/diff.md --exclude *.pyd
+[2023-06-05 17:55:39] INFO root fetch - processPackages [zabel-elements]: executing diffoscope
+[2023-06-05 17:55:39] INFO root fetch - processPackages [zabel-elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zabel_elements-1.8.1-py3-none-any.whl.zip tmp/zabel_elements-1.9.0-py3-none-any.whl.zip --markdown 20230605/z/zabel-elements/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 17:55:40] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.7.tar.gz]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.8.tar.gz]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [pySSRSapi]: Start processing: xpress
+[2023-06-05 17:55:40] INFO root fetch - main [MainThread]: End processing [pySSRSapi]: success
+[2023-06-05 17:55:40] INFO root fetch - processPackages [xpress]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.3.tar.gz]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.4.tar.gz]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [obs-cli]: Start processing: e4ting
+[2023-06-05 17:55:40] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-05 17:55:40] WARNING root fetch - processPackages [e4ting]: Skipping, unable to determine old version
+[2023-06-05 17:55:40] INFO root fetch - processPackages [e4ting]: Start processing: hat-drivers
+[2023-06-05 17:55:40] INFO root fetch - main [MainThread]: End processing [e4ting] error
+[2023-06-05 17:55:40] INFO root fetch - processPackages [xpress]: Downloading https://files.pythonhosted.org/packages/ec/15/7008a16b56d0b5385a0da7c000101f7ee021f0738db612edcf2b84fcd4aa/xpress-9.1.0-cp39-cp39-win_amd64.whl
+[2023-06-05 17:55:40] INFO root fetch - processPackages [hat-drivers]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [coinbase-commerce-API]: Remove: archive file [/home/abi/fetcher/tmp/coinbase-commerce-API-1.0.0.tar.gz]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [coinbase-commerce-API]: Remove: archive file [/home/abi/fetcher/tmp/coinbase-commerce-API-1.0.1.tar.gz]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [coinbase-commerce-API]: Start processing: aries-cloudagent
+[2023-06-05 17:55:40] INFO root fetch - main [MainThread]: End processing [coinbase-commerce-API]: success
+[2023-06-05 17:55:40] INFO root fetch - processPackages [aries-cloudagent]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/ed/e3/25d9ca36ae3640c6653274af08012f758fae16dc8c6ab2abb1bf5b61db8f/hat_drivers-0.6.8-cp38.cp39.cp310-none-any.whl
+[2023-06-05 17:55:40] WARNING root fetch - processPackages [xpress]: Skipping package: exceeds size limit 55087257>=10485760
+[2023-06-05 17:55:40] INFO root fetch - processPackages [xpress]: Start processing: nlp2
+[2023-06-05 17:55:40] INFO root fetch - main [MainThread]: End processing [xpress] error
+[2023-06-05 17:55:40] INFO root fetch - processPackages [nlp2]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [canonicalwebteam.http]: Remove: archive file [/home/abi/fetcher/tmp/canonicalwebteam.http-1.0.3.tar.gz]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [canonicalwebteam.http]: Remove: archive file [/home/abi/fetcher/tmp/canonicalwebteam.http-1.0.4.tar.gz]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [canonicalwebteam.http]: Start processing: tex-fast-recompile
+[2023-06-05 17:55:40] INFO root fetch - main [MainThread]: End processing [canonicalwebteam.http]: success
+[2023-06-05 17:55:40] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/bb/0e/3deca62b8cf028be043e4c745056433957f7732a03d966617c974481e439/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl
+[2023-06-05 17:55:40] INFO root fetch - processPackages [tex-fast-recompile]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 17:55:40] INFO root fetch - processPackages [aries-cloudagent]: Downloading https://files.pythonhosted.org/packages/1c/7f/69159c06617b75179b0f38821900c6e9c6f922afcca39616074d8492f560/aries_cloudagent-1.0.0rc1.tar.gz
+[2023-06-05 17:55:41] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.3.9.tar.gz]
+[2023-06-05 17:55:41] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.0.tar.gz]
+[2023-06-05 17:55:41] INFO root fetch - processPackages [nowcasting-datamodel]: Start processing: adafruit-circuitpython-crickit
+[2023-06-05 17:55:41] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-06-05 17:55:41] INFO root fetch - processPackages [hat-drivers]: executing diffoscope
+[2023-06-05 17:55:41] INFO root fetch - processPackages [hat-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_drivers-0.6.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl.zip --markdown 20230605/h/hat-drivers/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 17:55:41] INFO root fetch - processPackages [nlp2]: Downloading https://files.pythonhosted.org/packages/f2/ac/4b1993bb4ce5c0365c691765e8d11701c3777a583807e435399f95275891/nlp2-1.8.8.tar.gz
+[2023-06-05 17:55:41] INFO root fetch - processPackages [adafruit-circuitpython-crickit]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-05 17:55:41] INFO root fetch - processPackages [tex-fast-recompile]: Downloading https://files.pythonhosted.org/packages/58/95/1ea29ff90b56f5dc89d24d76f869be081fd556b9e37f3cdbfeb75f9c659c/tex-fast-recompile-0.4.0.tar.gz
+[2023-06-05 17:55:41] INFO root fetch - processPackages [adafruit-circuitpython-crickit]: Downloading https://files.pythonhosted.org/packages/b7/40/3987cf54cf461bafeddb67c8bdee080fb7a2d4d757daeba03f026325826c/adafruit-circuitpython-crickit-2.3.8.tar.gz
+[2023-06-05 17:55:41] INFO root fetch - processPackages [aries-cloudagent]: Downloading https://files.pythonhosted.org/packages/93/05/659ccc126e716daebe92215caaf65fba86b46c515a3e36abbae43be11e95/aries_cloudagent-1.0.0rc2.tar.gz
+[2023-06-05 17:55:41] INFO root fetch - processPackages [tex-fast-recompile]: Downloading https://files.pythonhosted.org/packages/46/e3/d7c9da462bae3933ec43500e9ba7cf550615ada8c3529c527ce34ca1c342/tex-fast-recompile-0.5.0.tar.gz
+[2023-06-05 17:55:41] INFO root fetch - processPackages [tex-fast-recompile]: executing diffoscope
+[2023-06-05 17:55:41] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.2.8.tar.gz]
+[2023-06-05 17:55:41] INFO root fetch - processPackages [tex-fast-recompile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tex-fast-recompile-0.4.0.tar.gz tmp/tex-fast-recompile-0.5.0.tar.gz --markdown 20230605/t/tex-fast-recompile/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 17:55:41] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.2.9.tar.gz]
+[2023-06-05 17:55:41] INFO root fetch - processPackages [propan]: Start processing: odoo-addon-analytic-operating-unit
+[2023-06-05 17:55:41] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-06-05 17:55:41] INFO root fetch - processPackages [aries-cloudagent]: executing diffoscope
+[2023-06-05 17:55:41] INFO root fetch - processPackages [aries-cloudagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudagent-1.0.0rc1.tar.gz tmp/aries_cloudagent-1.0.0rc2.tar.gz --markdown 20230605/a/aries-cloudagent/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-05 17:55:41] INFO root fetch - processPackages [adafruit-circuitpython-crickit]: Downloading https://files.pythonhosted.org/packages/d1/ba/1ac4e007a6cc5545fe94c85ca5063c051c08fe545dcfeda4aed7a14c36fb/adafruit-circuitpython-crickit-2.3.9.tar.gz
+[2023-06-05 17:55:41] INFO root fetch - processPackages [odoo-addon-analytic-operating-unit]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-06-05 17:55:41] INFO root fetch - processPackages [adafruit-circuitpython-crickit]: executing diffoscope
+[2023-06-05 17:55:41] INFO root fetch - processPackages [adafruit-circuitpython-crickit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-crickit-2.3.8.tar.gz tmp/adafruit-circuitpython-crickit-2.3.9.tar.gz --markdown 20230605/a/adafruit-circuitpython-crickit/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-05 17:55:41] INFO root fetch - processPackages [zabel-elements]: Remove: archive file [/home/abi/fetcher/tmp/zabel_elements-1.8.1-py3-none-any.whl.zip]
+[2023-06-05 17:55:41] INFO root fetch - processPackages [zabel-elements]: Remove: archive file [/home/abi/fetcher/tmp/zabel_elements-1.9.0-py3-none-any.whl.zip]
+[2023-06-05 17:55:41] INFO root fetch - processPackages [zabel-elements]: Start processing: zachet
+[2023-06-05 17:55:41] INFO root fetch - main [MainThread]: End processing [zabel-elements]: success
+[2023-06-05 17:55:41] INFO root fetch - processPackages [odoo-addon-analytic-operating-unit]: Downloading https://files.pythonhosted.org/packages/73/4e/0d7cd8937d3eaf6ef34038a414632fa1c7ccfea570e0f29868672bf794e2/odoo_addon_analytic_operating_unit-15.0.1.0.1-py3-none-any.whl
+[2023-06-05 17:55:41] WARNING root fetch - processPackages [zachet]: Skipping, unable to determine old version
+[2023-06-05 17:55:41] INFO root fetch - processPackages [zachet]: Start processing: CAD-to-OpenMC
+[2023-06-05 17:55:41] INFO root fetch - main [MainThread]: End processing [zachet] error
+[2023-06-05 17:55:41] INFO root fetch - processPackages [nlp2]: Downloading https://files.pythonhosted.org/packages/77/ab/46377678d6582d770be274d90003d2465bf547b723dae63270bcf1718015/nlp2-1.8.9.tar.gz
+[2023-06-05 17:55:41] INFO root fetch - processPackages [CAD-to-OpenMC]: New version: [0.2.6a0] Old Version: [0.2.5]
+[2023-06-05 17:55:42] INFO root fetch - processPackages [odoo-addon-analytic-operating-unit]: Downloading https://files.pythonhosted.org/packages/ee/49/0f87f958a7fbe24f33a55aff7cc44666a4bd49bbdb13caae95d9d57c75cd/odoo_addon_analytic_operating_unit-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-05 17:55:42] INFO root fetch - processPackages [nlp2]: executing diffoscope
+[2023-06-05 17:55:42] INFO root fetch - processPackages [nlp2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp2-1.8.8.tar.gz tmp/nlp2-1.8.9.tar.gz --markdown 20230605/n/nlp2/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-05 17:55:42] INFO root fetch - processPackages [odoo-addon-analytic-operating-unit]: executing diffoscope
+[2023-06-05 17:55:42] INFO root fetch - processPackages [odoo-addon-analytic-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_analytic_operating_unit-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_analytic_operating_unit-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-analytic-operating-unit/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-05 17:55:42] INFO root fetch - processPackages [CAD-to-OpenMC]: Downloading https://files.pythonhosted.org/packages/b5/1d/2f3c15dd26ca1a6dea07610de7f2f0ff2862f188a8e6fdf4192a3910a0db/CAD_to_OpenMC-0.2.5.tar.gz
+[2023-06-05 17:55:42] INFO root fetch - processPackages [tex-fast-recompile]: Remove: archive file [/home/abi/fetcher/tmp/tex-fast-recompile-0.4.0.tar.gz]
+[2023-06-05 17:55:42] INFO root fetch - processPackages [tex-fast-recompile]: Remove: archive file [/home/abi/fetcher/tmp/tex-fast-recompile-0.5.0.tar.gz]
+[2023-06-05 17:55:42] INFO root fetch - main [MainThread]: End processing [tex-fast-recompile]: success
+[2023-06-05 17:55:42] INFO root fetch - processPackages [CAD-to-OpenMC]: Downloading https://files.pythonhosted.org/packages/68/fa/b31bbf9f56e01b7f284cace907dcf7590f94486d145359c63976cbffff13/CAD_to_OpenMC-0.2.6a0.tar.gz
+[2023-06-05 17:55:42] INFO root fetch - processPackages [adafruit-circuitpython-crickit]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-crickit-2.3.8.tar.gz]
+[2023-06-05 17:55:42] INFO root fetch - processPackages [adafruit-circuitpython-crickit]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-crickit-2.3.9.tar.gz]
+[2023-06-05 17:55:42] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-crickit]: success
+[2023-06-05 17:55:42] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.6.8-cp38.cp39.cp310-none-any.whl.zip]
+[2023-06-05 17:55:42] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl.zip]
+[2023-06-05 17:55:42] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
+[2023-06-05 17:55:42] INFO root fetch - processPackages [CAD-to-OpenMC]: executing diffoscope
+[2023-06-05 17:55:42] INFO root fetch - processPackages [CAD-to-OpenMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CAD_to_OpenMC-0.2.5.tar.gz tmp/CAD_to_OpenMC-0.2.6a0.tar.gz --markdown 20230605/C/CAD-to-OpenMC/0.2.5-0.2.6a0/diff.md --exclude *.pyd
+[2023-06-05 17:55:43] INFO root fetch - processPackages [nlp2]: Remove: archive file [/home/abi/fetcher/tmp/nlp2-1.8.8.tar.gz]
+[2023-06-05 17:55:43] INFO root fetch - processPackages [nlp2]: Remove: archive file [/home/abi/fetcher/tmp/nlp2-1.8.9.tar.gz]
+[2023-06-05 17:55:43] INFO root fetch - main [MainThread]: End processing [nlp2]: success
+[2023-06-05 17:55:43] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-05 17:55:43] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-05 17:55:43] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-05 17:55:43] INFO root fetch - processPackages [odoo-addon-analytic-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_analytic_operating_unit-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-05 17:55:43] INFO root fetch - processPackages [odoo-addon-analytic-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_analytic_operating_unit-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-05 17:55:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-analytic-operating-unit]: success
+[2023-06-05 17:55:43] INFO root fetch - processPackages [CAD-to-OpenMC]: Remove: archive file [/home/abi/fetcher/tmp/CAD_to_OpenMC-0.2.5.tar.gz]
+[2023-06-05 17:55:43] INFO root fetch - processPackages [CAD-to-OpenMC]: Remove: archive file [/home/abi/fetcher/tmp/CAD_to_OpenMC-0.2.6a0.tar.gz]
+[2023-06-05 17:55:43] INFO root fetch - main [MainThread]: End processing [CAD-to-OpenMC]: success
+[2023-06-05 17:55:45] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.1.0a2-cp310-cp310-manylinux_2_34_x86_64.whl.zip]
+[2023-06-05 17:55:45] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.2.0a0-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.whl.zip]
+[2023-06-05 17:55:45] INFO root fetch - main [MainThread]: End processing [docleaf]: success
+[2023-06-05 17:55:46] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-05 17:55:46] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-05 17:55:46] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-05 17:56:05] INFO root fetch - processPackages [aries-cloudagent]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudagent-1.0.0rc1.tar.gz]
+[2023-06-05 17:56:05] INFO root fetch - processPackages [aries-cloudagent]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudagent-1.0.0rc2.tar.gz]
+[2023-06-05 17:56:05] INFO root fetch - main [MainThread]: End processing [aries-cloudagent]: success
+[2023-06-05 17:56:05] INFO root fetch - main [MainThread]: Store serial: [18378240]
