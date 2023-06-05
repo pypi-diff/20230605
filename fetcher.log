@@ -3756,3 +3756,48 @@
 [2023-06-05 04:01:05] INFO root fetch - main [MainThread]: End processing [shady-island]: success
 [2023-06-05 04:01:06] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-06-05 04:01:06] INFO root fetch - main [MainThread]: Store serial: [18371112]
+[2023-06-05 04:06:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371112]
+[2023-06-05 04:06:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-05 04:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scdef
+[2023-06-05 04:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mobio-dedupe-sdk-test
+[2023-06-05 04:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zipline-tej
+[2023-06-05 04:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PRauto
+[2023-06-05 04:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CacheControl
+[2023-06-05 04:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plib3.stdlib
+[2023-06-05 04:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sosin
+[2023-06-05 04:06:15] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 04:06:15] INFO root fetch - processPackages [scdef]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 04:06:15] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 04:06:15] INFO root fetch - processPackages [CacheControl]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-05 04:06:15] INFO root fetch - processPackages [PRauto]: New version: [0.211] Old Version: [0.21]
+[2023-06-05 04:06:15] INFO root fetch - processPackages [plib3.stdlib]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-05 04:06:15] INFO root fetch - processPackages [sosin]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-05 04:06:15] INFO root fetch - processPackages [scdef]: Downloading https://files.pythonhosted.org/packages/4b/b7/99a177b82ff363dff3df6152e2b0596fa23fa787c13ed38220cff1afe3ce/scdef-0.0.4.tar.gz
+[2023-06-05 04:06:15] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/11/75/71ee15ed9add9c67dc66a1137787cfd2e80335565f7adf39838fbb18b6dd/PRauto-0.211.tar.gz
+[2023-06-05 04:06:15] INFO root fetch - processPackages [plib3.stdlib]: Downloading https://files.pythonhosted.org/packages/9d/a5/4e22df6868690ba59c85aa10ebf4815dfd7d47d9e25717f36a1a80f0073b/plib3.stdlib-2.3.1.tar.gz
+[2023-06-05 04:06:15] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/cd/7d/86e6dc0d57fed961f4eeadecebf785f125d1d1cc84f4fb1b95a6dc286195/zipline-tej-0.0.3.tar.gz
+[2023-06-05 04:06:15] INFO root fetch - processPackages [PRauto]: executing diffoscope
+[2023-06-05 04:06:15] INFO root fetch - processPackages [PRauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PRauto-0.21.tar.gz tmp/PRauto-0.211.tar.gz --markdown 20230605/P/PRauto/0.21-0.211/diff.md --exclude *.pyd
+[2023-06-05 04:06:16] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-06-05 04:06:16] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230605/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 04:06:16] INFO root fetch - processPackages [scdef]: Downloading https://files.pythonhosted.org/packages/9c/34/5f2468dc184646a95641f6806e75beedb3f1885642106ec55cd14531b84c/scdef-0.0.5.tar.gz
+[2023-06-05 04:06:16] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-05 04:06:16] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.2.tar.gz tmp/zipline-tej-0.0.3.tar.gz --markdown 20230605/z/zipline-tej/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 04:06:16] INFO root fetch - processPackages [CacheControl]: executing diffoscope
+[2023-06-05 04:06:16] INFO root fetch - processPackages [CacheControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CacheControl-0.9.3.tar.gz tmp/CacheControl-0.9.4.tar.gz --markdown 20230605/C/CacheControl/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-05 04:06:16] INFO root fetch - processPackages [plib3.stdlib]: Downloading https://files.pythonhosted.org/packages/ba/0b/7120c270faddd5bc6f61b06bab98747e38313844d44bf92f3de537ed1881/plib3.stdlib-2.3.2.tar.gz
+[2023-06-05 04:06:16] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/52/09/d638b7158c888f6bd392e1690ed5cd273dad0d4dcbef093cfc9eaefa6600/sosin-1.2.0.tar.gz
+[2023-06-05 04:06:16] INFO root fetch - processPackages [scdef]: executing diffoscope
+[2023-06-05 04:06:16] INFO root fetch - processPackages [scdef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdef-0.0.4.tar.gz tmp/scdef-0.0.5.tar.gz --markdown 20230605/s/scdef/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 04:06:16] INFO root fetch - processPackages [plib3.stdlib]: executing diffoscope
+[2023-06-05 04:06:16] INFO root fetch - processPackages [plib3.stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plib3.stdlib-2.3.1.tar.gz tmp/plib3.stdlib-2.3.2.tar.gz --markdown 20230605/p/plib3.stdlib/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-05 04:06:16] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2023-06-05 04:06:16] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.1.9.tar.gz tmp/sosin-1.2.0.tar.gz --markdown 20230605/s/sosin/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-05 04:06:17] INFO root fetch - main [MainThread]: End processing [PRauto]: success
+[2023-06-05 04:06:17] INFO root fetch - main [MainThread]: End processing [scdef]: success
+[2023-06-05 04:06:17] INFO root fetch - main [MainThread]: End processing [CacheControl]: success
+[2023-06-05 04:06:17] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2023-06-05 04:06:17] INFO root fetch - main [MainThread]: End processing [plib3.stdlib]: success
+[2023-06-05 04:06:18] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-06-05 04:07:11] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-05 04:07:11] INFO root fetch - main [MainThread]: Store serial: [18371139]
