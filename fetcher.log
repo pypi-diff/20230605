@@ -23558,3 +23558,173 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 21:23:10] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
 [2023-06-05 21:23:10] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
 [2023-06-05 21:23:10] INFO root fetch - main [MainThread]: Store serial: [18380405]
+[2023-06-05 21:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18380405]
+[2023-06-05 21:28:20] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-messagebus
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awscli
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boto3
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub-classify
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyaedt
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-lambda-builders
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: defog
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-base-model-restrict-update
+[2023-06-05 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dapr
+[2023-06-05 21:28:20] INFO root fetch - processPackages [neon-messagebus]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev6]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [acryl-datahub-classify]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [aws-lambda-builders]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [pyaedt]: New version: [0.6.79] Old Version: [0.6.78]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [dapr]: New version: [1.9.1] Old Version: [1.9.0rc4]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-05 21:28:20] INFO root fetch - processPackages [neon-messagebus]: Downloading https://files.pythonhosted.org/packages/01/75/2e47e98c649e508f85d064bce5a11fbebfde5880dae22ac8e055693605f9/neon_messagebus-1.0.1a1-py3-none-any.whl
+[2023-06-05 21:28:20] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Downloading https://files.pythonhosted.org/packages/c0/f8/d800f1f5c2242890eb1c7de97875580c7adf4525b2b83014590704847774/odoo14_addon_base_model_restrict_update-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-05 21:28:20] INFO root fetch - processPackages [acryl-datahub-classify]: Downloading https://files.pythonhosted.org/packages/b6/64/50676b9ac352473e55373bbc8baa18a067063a0cc729e1c078d1528ed736/acryl-datahub-classify-0.0.6.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [aws-lambda-builders]: Downloading https://files.pythonhosted.org/packages/e3/69/b30e6dd522093bda1a181f35238cc15adbccec6e37043e773b39ac03040e/aws_lambda_builders-1.8.1.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [dapr]: Downloading https://files.pythonhosted.org/packages/a0/ec/183a5b1693d9bd2d93b75968093ba59ac129b7a7da967219aa75435bbf28/dapr-1.9.0rc4.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/cd/01/3bd0656f80c5afb2f0e09f09215178a501191aef9fff0a43b156cf1c9665/botocore-1.9.8.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/84/06/782193c5b3720ef9eff21fa2d4c6b7cab72ac635f9865449796fa78e9551/awscli-1.9.8.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/95/51/f6788115251e93bb35a56196036aa225060105616d369a2b1a712f537e1e/boto3-1.9.98.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [pyaedt]: Downloading https://files.pythonhosted.org/packages/d3/93/1e1db71758dc0e027b0d993a95e8bb5b5b19bd095c194cab1f0ffba7737f/pyaedt-0.6.78.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [neon-messagebus]: Downloading https://files.pythonhosted.org/packages/ef/1d/a796358acce42072cc6cf80ddfc9d44840fbfc6475a456358e2ca83c155a/neon_messagebus-1.0.1a2-py3-none-any.whl
+[2023-06-05 21:28:20] INFO root fetch - processPackages [acryl-datahub-classify]: Downloading https://files.pythonhosted.org/packages/d5/2f/d50d63352b16a8579c707f0ba3d0fc762bd9e7e861cebd335a0639d06f91/acryl-datahub-classify-0.0.7.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Downloading https://files.pythonhosted.org/packages/07/93/9ccbb1ba97a332b33bed2b076af7a4837e8d9db05a0822fd76544d58d1f5/odoo14_addon_base_model_restrict_update-14.0.1.1.0-py3-none-any.whl
+[2023-06-05 21:28:20] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2023-06-05 21:28:20] INFO root fetch - processPackages [dapr]: Downloading https://files.pythonhosted.org/packages/d3/22/746fe6eaeead873cb127fc0d712a6e077f1f98af463858fcf341bba60f17/dapr-1.9.1.tar.gz
+[2023-06-05 21:28:21] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/a4/40/6b6504d54ab9fbb16030052d363568399b7678ac18dc233de23fe7ed1922/boto3-1.9.99.tar.gz
+[2023-06-05 21:28:21] INFO root fetch - processPackages [aws-lambda-builders]: Downloading https://files.pythonhosted.org/packages/e9/59/d34d362a4f20df6d878a4efa92f9ef96e556c2070f93b248df06a8eaa5fa/aws_lambda_builders-1.9.0.tar.gz
+[2023-06-05 21:28:21] INFO root fetch - processPackages [neon-messagebus]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [neon-messagebus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_messagebus-1.0.1a1-py3-none-any.whl.zip tmp/neon_messagebus-1.0.1a2-py3-none-any.whl.zip --markdown 20230605/n/neon-messagebus/1.0.1a1-1.0.1a2/diff.md --exclude *.pyd
+[2023-06-05 21:28:21] INFO root fetch - processPackages [acryl-datahub-classify]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [acryl-datahub-classify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-classify-0.0.6.tar.gz tmp/acryl-datahub-classify-0.0.7.tar.gz --markdown 20230605/a/acryl-datahub-classify/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-05 21:28:21] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/03/ae/0ab53e9f7ac1eff217ca8355af05fe5fbdd9fd087e75a7abcda0c9179848/awscli-1.9.9.tar.gz
+[2023-06-05 21:28:21] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_model_restrict_update-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230605/o/odoo14-addon-base-model-restrict-update/14.0.1.0.1.dev6-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-05 21:28:21] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230605/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 21:28:21] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/58/63/da4e26f62f9cf5702bb82462ca688961afdf72123f071831ed927b19c7a0/botocore-1.9.9.tar.gz
+[2023-06-05 21:28:21] INFO root fetch - processPackages [dapr]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [dapr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-1.9.0rc4.tar.gz tmp/dapr-1.9.1.tar.gz --markdown 20230605/d/dapr/1.9.0rc4-1.9.1/diff.md --exclude *.pyd
+[2023-06-05 21:28:21] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230605/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-05 21:28:21] INFO root fetch - processPackages [aws-lambda-builders]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [aws-lambda-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_builders-1.8.1.tar.gz tmp/aws_lambda_builders-1.9.0.tar.gz --markdown 20230605/a/aws-lambda-builders/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 21:28:21] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230605/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-05 21:28:21] INFO root fetch - processPackages [pyaedt]: Downloading https://files.pythonhosted.org/packages/24/ed/ec9bdfc38d7c3ee4715a7a13cc21cc6accd711c6f4ffeaa2e0b4fe44c6f4/pyaedt-0.6.79.tar.gz
+[2023-06-05 21:28:21] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230605/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-05 21:28:21] INFO root fetch - processPackages [pyaedt]: executing diffoscope
+[2023-06-05 21:28:21] INFO root fetch - processPackages [pyaedt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaedt-0.6.78.tar.gz tmp/pyaedt-0.6.79.tar.gz --markdown 20230605/p/pyaedt/0.6.78-0.6.79/diff.md --exclude *.pyd
+[2023-06-05 21:28:22] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.0.1a1-py3-none-any.whl.zip]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.0.1a2-py3-none-any.whl.zip]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [neon-messagebus]: Start processing: dapr-ext-workflow
+[2023-06-05 21:28:22] INFO root fetch - main [MainThread]: End processing [neon-messagebus]: success
+[2023-06-05 21:28:22] INFO root fetch - processPackages [dapr-ext-workflow]: New version: [0.1.0rc1] Old Version: [0.1.0]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [acryl-datahub-classify]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-classify-0.0.6.tar.gz]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [acryl-datahub-classify]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-classify-0.0.7.tar.gz]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [acryl-datahub-classify]: Start processing: flask-dapr
+[2023-06-05 21:28:22] INFO root fetch - main [MainThread]: End processing [acryl-datahub-classify]: success
+[2023-06-05 21:28:22] INFO root fetch - processPackages [flask-dapr]: New version: [1.9.1] Old Version: [1.9.0rc4]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [defog]: Start processing: dapr-ext-grpc
+[2023-06-05 21:28:22] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-06-05 21:28:22] INFO root fetch - processPackages [dapr-ext-workflow]: Downloading https://files.pythonhosted.org/packages/56/64/b68134771f3acc2f74d8581c0da03cf5dead93486cf6b5a0f7c625413b00/dapr-ext-workflow-0.1.0.tar.gz
+[2023-06-05 21:28:22] INFO root fetch - processPackages [dapr-ext-grpc]: New version: [1.9.1] Old Version: [1.9.0rc4]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_model_restrict_update-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Start processing: dapr-ext-fastapi
+[2023-06-05 21:28:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-model-restrict-update]: success
+[2023-06-05 21:28:22] INFO root fetch - processPackages [dapr-ext-fastapi]: New version: [1.9.1] Old Version: [1.9.0rc4]
+[2023-06-05 21:28:22] INFO root fetch - processPackages [flask-dapr]: Downloading https://files.pythonhosted.org/packages/79/7e/917c14d07b10690b7be2a5a8ade670a463f5dde547cb70acdc2501b9b493/flask-dapr-1.9.0rc4.tar.gz
+[2023-06-05 21:28:22] INFO root fetch - processPackages [dapr-ext-grpc]: Downloading https://files.pythonhosted.org/packages/f8/06/5e67002f246a1c0f650422da673a3cccd14e2018e0ab2b34cd9a5f36be38/dapr-ext-grpc-1.9.0rc4.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-workflow]: Downloading https://files.pythonhosted.org/packages/3b/bf/0a357f2617b5f054ccfff99a451343f825d45b514a80422d440ae79ae140/dapr-ext-workflow-0.1.0rc1.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-fastapi]: Downloading https://files.pythonhosted.org/packages/b7/bd/8ab8844549d879f3b40597ff385bc6ebb88163b2bed4bd5267a20301a2f0/dapr-ext-fastapi-1.9.0rc4.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr]: Remove: archive file [/home/abi/fetcher/tmp/dapr-1.9.0rc4.tar.gz]
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr]: Remove: archive file [/home/abi/fetcher/tmp/dapr-1.9.1.tar.gz]
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr]: Start processing: chartfactor
+[2023-06-05 21:28:23] INFO root fetch - main [MainThread]: End processing [dapr]: success
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-workflow]: executing diffoscope
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-0.1.0.tar.gz tmp/dapr-ext-workflow-0.1.0rc1.tar.gz --markdown 20230605/d/dapr-ext-workflow/0.1.0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-06-05 21:28:23] INFO root fetch - processPackages [flask-dapr]: Downloading https://files.pythonhosted.org/packages/ff/11/1c8868cedd9c3c72542d7480d43d038fd433e9b857c883ec340c95f439c1/flask-dapr-1.9.1.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-grpc]: Downloading https://files.pythonhosted.org/packages/14/0c/34fcb79f8153527cbe8f5e88ffa5a5aef54054e7be26155852d7703ea078/dapr-ext-grpc-1.9.1.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [flask-dapr]: executing diffoscope
+[2023-06-05 21:28:23] INFO root fetch - processPackages [flask-dapr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dapr-1.9.0rc4.tar.gz tmp/flask-dapr-1.9.1.tar.gz --markdown 20230605/f/flask-dapr/1.9.0rc4-1.9.1/diff.md --exclude *.pyd
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-grpc]: executing diffoscope
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-grpc-1.9.0rc4.tar.gz tmp/dapr-ext-grpc-1.9.1.tar.gz --markdown 20230605/d/dapr-ext-grpc/1.9.0rc4-1.9.1/diff.md --exclude *.pyd
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-fastapi]: Downloading https://files.pythonhosted.org/packages/f3/90/60d48d8d3e6e855db4180a5cfecb537591608f2a23ffca23c61463a52757/dapr-ext-fastapi-1.9.1.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [aws-lambda-builders]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_builders-1.8.1.tar.gz]
+[2023-06-05 21:28:23] INFO root fetch - processPackages [aws-lambda-builders]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_builders-1.9.0.tar.gz]
+[2023-06-05 21:28:23] INFO root fetch - processPackages [aws-lambda-builders]: Start processing: chartfactor-jlab-ext
+[2023-06-05 21:28:23] INFO root fetch - main [MainThread]: End processing [aws-lambda-builders]: success
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/51/bd/236f1ae29b3cc86d202a733d2aaeb78c86201ef7bc61fc1cd30bddbce0f2/chartfactor-4.1.8.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor-jlab-ext]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-fastapi]: executing diffoscope
+[2023-06-05 21:28:23] INFO root fetch - processPackages [dapr-ext-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-fastapi-1.9.0rc4.tar.gz tmp/dapr-ext-fastapi-1.9.1.tar.gz --markdown 20230605/d/dapr-ext-fastapi/1.9.0rc4-1.9.1/diff.md --exclude *.pyd
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/cc/a4/85daf844bdc010d3b6279fb0e8ebe60ee62905963aca4f393e1efcca1feb/chartfactor-jlab-ext-4.1.8.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/8e/5d/6202a224abbd847f997118507e9fe6896e2196a4601df38fb897fe5308fc/chartfactor-4.1.9.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor]: executing diffoscope
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-4.1.8.tar.gz tmp/chartfactor-4.1.9.tar.gz --markdown 20230605/c/chartfactor/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/72/c6/0474b4f09832c1718fcc42a76919f02eeafd36c752b4a0527a1e99cbc65f/chartfactor-jlab-ext-4.1.9.tar.gz
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor-jlab-ext]: executing diffoscope
+[2023-06-05 21:28:23] INFO root fetch - processPackages [chartfactor-jlab-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-jlab-ext-4.1.8.tar.gz tmp/chartfactor-jlab-ext-4.1.9.tar.gz --markdown 20230605/c/chartfactor-jlab-ext/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-06-05 21:28:24] INFO root fetch - processPackages [dapr-ext-grpc]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-grpc-1.9.0rc4.tar.gz]
+[2023-06-05 21:28:24] INFO root fetch - processPackages [dapr-ext-grpc]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-grpc-1.9.1.tar.gz]
+[2023-06-05 21:28:24] INFO root fetch - processPackages [dapr-ext-grpc]: Start processing: mdit-py-plugins
+[2023-06-05 21:28:24] INFO root fetch - main [MainThread]: End processing [dapr-ext-grpc]: success
+[2023-06-05 21:28:24] INFO root fetch - processPackages [dapr-ext-workflow]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-0.1.0.tar.gz]
+[2023-06-05 21:28:24] INFO root fetch - processPackages [dapr-ext-workflow]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-0.1.0rc1.tar.gz]
+[2023-06-05 21:28:24] INFO root fetch - processPackages [dapr-ext-workflow]: Start processing: kelpie-personal-trainer
+[2023-06-05 21:28:24] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow]: success
+[2023-06-05 21:28:24] INFO root fetch - processPackages [mdit-py-plugins]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-05 21:28:24] INFO root fetch - processPackages [kelpie-personal-trainer]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-05 21:28:24] INFO root fetch - processPackages [mdit-py-plugins]: Downloading https://files.pythonhosted.org/packages/49/e7/cc2720da8a32724b36d04c6dba5644154cdf883a1482b3bbb81959a642ed/mdit-py-plugins-0.3.5.tar.gz
+[2023-06-05 21:28:24] INFO root fetch - processPackages [kelpie-personal-trainer]: Downloading https://files.pythonhosted.org/packages/ef/e3/b30b7411d0191d93ecd8f9e064212daca131bcc3895fc544fd56ecc191cc/kelpie_personal_trainer-0.2.6.tar.gz
+[2023-06-05 21:28:24] INFO root fetch - processPackages [flask-dapr]: Remove: archive file [/home/abi/fetcher/tmp/flask-dapr-1.9.0rc4.tar.gz]
+[2023-06-05 21:28:24] INFO root fetch - processPackages [flask-dapr]: Remove: archive file [/home/abi/fetcher/tmp/flask-dapr-1.9.1.tar.gz]
+[2023-06-05 21:28:24] INFO root fetch - processPackages [flask-dapr]: Start processing: lqs-client
+[2023-06-05 21:28:24] INFO root fetch - main [MainThread]: End processing [flask-dapr]: success
+[2023-06-05 21:28:24] WARNING root fetch - processPackages [kelpie-personal-trainer]: Skipping package: exceeds size limit 18724041>=10485760
+[2023-06-05 21:28:25] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
+[2023-06-05 21:28:25] INFO root fetch - processPackages [lqs-client]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-05 21:28:25] INFO root fetch - processPackages [dapr-ext-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-fastapi-1.9.0rc4.tar.gz]
+[2023-06-05 21:28:25] INFO root fetch - processPackages [dapr-ext-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-fastapi-1.9.1.tar.gz]
+[2023-06-05 21:28:25] INFO root fetch - main [MainThread]: End processing [dapr-ext-fastapi]: success
+[2023-06-05 21:28:25] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.98.tar.gz]
+[2023-06-05 21:28:25] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.99.tar.gz]
+[2023-06-05 21:28:25] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-06-05 21:28:25] INFO root fetch - processPackages [mdit-py-plugins]: Downloading https://files.pythonhosted.org/packages/b4/db/61960d68d5c39ff0dd48cb799a39ae4e297f6e9b96bf2f8da29d897fba0c/mdit_py_plugins-0.4.0.tar.gz
+[2023-06-05 21:28:25] INFO root fetch - processPackages [lqs-client]: Downloading https://files.pythonhosted.org/packages/dc/32/a9a01fcb52142805a5445865dc380be7baea859e5cf80d3c5d7ddaa016f5/lqs-client-0.0.9.tar.gz
+[2023-06-05 21:28:25] INFO root fetch - processPackages [mdit-py-plugins]: executing diffoscope
+[2023-06-05 21:28:25] INFO root fetch - processPackages [mdit-py-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdit-py-plugins-0.3.5.tar.gz tmp/mdit_py_plugins-0.4.0.tar.gz --markdown 20230605/m/mdit-py-plugins/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-05 21:28:25] INFO root fetch - processPackages [lqs-client]: Downloading https://files.pythonhosted.org/packages/2d/1b/0e48344e6c58a2e5d8dc6d5d03c81e77788add999ac502b4065c3a43c6b4/lqs-client-0.1.0.tar.gz
+[2023-06-05 21:28:25] INFO root fetch - processPackages [lqs-client]: executing diffoscope
+[2023-06-05 21:28:25] INFO root fetch - processPackages [lqs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqs-client-0.0.9.tar.gz tmp/lqs-client-0.1.0.tar.gz --markdown 20230605/l/lqs-client/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-05 21:28:26] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.8.tar.gz]
+[2023-06-05 21:28:26] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.9.tar.gz]
+[2023-06-05 21:28:26] INFO root fetch - main [MainThread]: End processing [chartfactor]: success
+[2023-06-05 21:28:26] INFO root fetch - processPackages [mdit-py-plugins]: Remove: archive file [/home/abi/fetcher/tmp/mdit-py-plugins-0.3.5.tar.gz]
+[2023-06-05 21:28:26] INFO root fetch - processPackages [mdit-py-plugins]: Remove: archive file [/home/abi/fetcher/tmp/mdit_py_plugins-0.4.0.tar.gz]
+[2023-06-05 21:28:26] INFO root fetch - main [MainThread]: End processing [mdit-py-plugins]: success
+[2023-06-05 21:28:27] INFO root fetch - processPackages [lqs-client]: Remove: archive file [/home/abi/fetcher/tmp/lqs-client-0.0.9.tar.gz]
+[2023-06-05 21:28:27] INFO root fetch - processPackages [lqs-client]: Remove: archive file [/home/abi/fetcher/tmp/lqs-client-0.1.0.tar.gz]
+[2023-06-05 21:28:27] INFO root fetch - main [MainThread]: End processing [lqs-client]: success
+[2023-06-05 21:28:27] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-4.1.8.tar.gz]
+[2023-06-05 21:28:27] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-4.1.9.tar.gz]
+[2023-06-05 21:28:27] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
+[2023-06-05 21:28:30] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.6.78.tar.gz]
+[2023-06-05 21:28:30] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.6.79.tar.gz]
+[2023-06-05 21:28:30] INFO root fetch - main [MainThread]: End processing [pyaedt]: success
+[2023-06-05 21:28:33] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.8.tar.gz]
+[2023-06-05 21:28:33] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.9.tar.gz]
+[2023-06-05 21:28:33] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-06-05 21:28:43] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.8.tar.gz]
+[2023-06-05 21:28:43] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.9.tar.gz]
+[2023-06-05 21:28:43] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-06-05 21:28:43] INFO root fetch - main [MainThread]: Store serial: [18380458]
