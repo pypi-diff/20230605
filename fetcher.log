@@ -3549,3 +3549,82 @@
 [2023-06-05 03:41:12] INFO root fetch - main [MainThread]: End processing [bohra]: success
 [2023-06-05 03:41:41] INFO root fetch - main [MainThread]: End processing [exact]: success
 [2023-06-05 03:41:41] INFO root fetch - main [MainThread]: Store serial: [18370980]
+[2023-06-05 03:46:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18370980]
+[2023-06-05 03:46:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nicovideo-api-client
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proactive
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-scipy
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive-jupyter-kernel
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-sphinx
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-organizations
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meow-sim
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meow-sim
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zepben.examples
+[2023-06-05 03:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-django
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nicovideo-api-client]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [meow-sim]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [meow-sim]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [zepben.examples]: New version: [0.2.0b7] Old Version: [0.2.0b6]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/73/a1/2370a0f05c69d7f020633959699d4d8a03f3eb4239d33212d9767dfe5b2f/meow-sim-0.3.6.tar.gz
+[2023-06-05 03:46:50] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-05 03:46:50] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/73/a1/2370a0f05c69d7f020633959699d4d8a03f3eb4239d33212d9767dfe5b2f/meow-sim-0.3.6.tar.gz
+[2023-06-05 03:46:50] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-05 03:46:50] INFO root fetch - processPackages [proactive]: Start processing: reytool
+[2023-06-05 03:46:50] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nicovideo-api-client]: Downloading https://files.pythonhosted.org/packages/87/11/f03b75256870fdc2e737dae6838356d22abb205178e52c4c056ee6851a3c/nicovideo_api_client-2.0.4.tar.gz
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230605/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 03:46:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-05 03:46:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230605/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230605/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 03:46:50] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-05 03:46:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-05 03:46:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230605/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230605/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 03:46:50] INFO root fetch - processPackages [zepben.examples]: Downloading https://files.pythonhosted.org/packages/72/d2/9b78651afb1db00b91b95a325ecd956b06701d3bc26981803c8aa319accd/zepben.examples-0.2.0b7-py3-none-any.whl
+[2023-06-05 03:46:50] INFO root fetch - processPackages [nicovideo-api-client]: Downloading https://files.pythonhosted.org/packages/7c/0f/bd40d89314b1cd783d7d49fba594b57cccac0ad3d45e198ee6652777f488/nicovideo_api_client-2.0.5.tar.gz
+[2023-06-05 03:46:50] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/81/29/7bfab4b0759583930ff20a813780f038a5fa270f6f7dab02c948fbb47d9c/meow-sim-0.3.7.tar.gz
+[2023-06-05 03:46:50] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/81/29/7bfab4b0759583930ff20a813780f038a5fa270f6f7dab02c948fbb47d9c/meow-sim-0.3.7.tar.gz
+[2023-06-05 03:46:50] INFO root fetch - processPackages [zepben.examples]: executing diffoscope
+[2023-06-05 03:46:50] INFO root fetch - processPackages [zepben.examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.examples-0.2.0b6-py3-none-any.whl.zip tmp/zepben.examples-0.2.0b7-py3-none-any.whl.zip --markdown 20230605/z/zepben.examples/0.2.0b6-0.2.0b7/diff.md --exclude *.pyd
+[2023-06-05 03:46:51] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-05 03:46:51] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230605/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-05 03:46:51] INFO root fetch - processPackages [nicovideo-api-client]: executing diffoscope
+[2023-06-05 03:46:51] INFO root fetch - processPackages [nicovideo-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicovideo_api_client-2.0.4.tar.gz tmp/nicovideo_api_client-2.0.5.tar.gz --markdown 20230605/n/nicovideo-api-client/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-05 03:46:51] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-05 03:46:51] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.3.6.tar.gz tmp/meow-sim-0.3.7.tar.gz --markdown 20230605/m/meow-sim/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-05 03:46:51] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-05 03:46:51] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.3.6.tar.gz tmp/meow-sim-0.3.7.tar.gz --markdown 20230605/m/meow-sim/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-05 03:46:52] INFO root fetch - processPackages [nicovideo-api-client]: Start processing: xj-invoice
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [nicovideo-api-client]: success
+[2023-06-05 03:46:52] INFO root fetch - processPackages [xj-invoice]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 03:46:52] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: getmodelspec
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-05 03:46:52] INFO root fetch - processPackages [zepben.examples]: Start processing: nbdev-apl
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [zepben.examples]: success
+[2023-06-05 03:46:52] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-05 03:46:52] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.814] Old Version: [0.0.813]
+[2023-06-05 03:46:52] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/e8/fe/b2d08c0428c63988d457cdf9d6b48292de9f5a8fa506d04bf3c1f8c0baf8/xj_invoice-1.0.4.tar.gz
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-05 03:46:52] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-05 03:46:52] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.813.tar.gz tmp/nbdev-apl-0.0.814.tar.gz --markdown 20230605/n/nbdev-apl/0.0.813-0.0.814/diff.md --exclude *.pyd
+[2023-06-05 03:46:52] INFO root fetch - processPackages [xj-invoice]: executing diffoscope
+[2023-06-05 03:46:52] INFO root fetch - processPackages [xj-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_invoice-1.0.3.tar.gz tmp/xj_invoice-1.0.4.tar.gz --markdown 20230605/x/xj-invoice/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-05 03:46:52] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-05 03:46:53] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-05 03:46:53] INFO root fetch - main [MainThread]: End processing [xj-invoice]: success
+[2023-06-05 03:47:46] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-05 03:47:46] INFO root fetch - main [MainThread]: Store serial: [18371021]
