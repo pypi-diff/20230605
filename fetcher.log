@@ -16592,3 +16592,198 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 17:03:06] INFO root fetch - processPackages [hansken]: Remove: archive file [/home/abi/fetcher/tmp/hansken-2023.6.5.1.tar.gz]
 [2023-06-05 17:03:06] INFO root fetch - main [MainThread]: End processing [hansken]: success
 [2023-06-05 17:03:06] INFO root fetch - main [MainThread]: Store serial: [18377469]
+[2023-06-05 17:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377469]
+[2023-06-05 17:08:15] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strawberry-django-plus
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nicegui
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wizata-dsapi
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hmd-cli-build
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: megadata
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PVNet
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flywheel-sdk
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smarthouse
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorflow-text-nightly
+[2023-06-05 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scdeepinsight
+[2023-06-05 17:08:15] INFO root fetch - processPackages [smarthouse]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 17:08:15] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 17:08:15] INFO root fetch - processPackages [hmd-cli-build]: New version: [0.1.48] Old Version: [0.1.46]
+[2023-06-05 17:08:15] INFO root fetch - processPackages [nicegui]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-05 17:08:15] INFO root fetch - processPackages [scdeepinsight]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 17:08:15] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230604] Old Version: [2.14.0.dev20230603]
+[2023-06-05 17:08:15] INFO root fetch - processPackages [PVNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 17:08:15] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 17:08:15] INFO root fetch - processPackages [flywheel-sdk]: New version: [9.0.3] Old Version: [9.0.2]
+[2023-06-05 17:08:15] INFO root fetch - processPackages [smarthouse]: Downloading https://files.pythonhosted.org/packages/e2/bf/da893040c4885110c6bdf9974be5c8c659e7b5267ca0d2956fb80668c177/smarthouse-0.1.3.tar.gz
+[2023-06-05 17:08:15] INFO root fetch - processPackages [strawberry-django-plus]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-05 17:08:16] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/c1/66/7bb17d67ca06e3cbf62c7811ba02ede0a5e968e5ee06b0758ff14964884f/scdeepinsight-0.1.5.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/db/18/1acacd008c750e61bf570a49c63150ce5e2f6f63fc27290d33af9f68c426/megadata-0.0.8.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/3b/54/0abd157d9ca0e1bd9deaa1296cf25406cd85fe1e4ff090c3d004e7b22b6d/PVNet-0.0.8.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/35/d9/3755a0174dff3fabe8197ca66d234865c535e6def44c59a79263aa707215/nicegui-1.2.8.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/b2/b5/75e83544e30ba5adbedab522a0e990db2f2bf45be09c617196ab9d99fc43/strawberry_django_plus-2.6.0.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [hmd-cli-build]: Downloading https://files.pythonhosted.org/packages/d9/02/b5af4cd2a9b1241f3415a7460494fd710afbf78aa47b48731dd01a15cf2f/hmd_cli_build-0.1.46-py3-none-any.whl
+[2023-06-05 17:08:16] INFO root fetch - processPackages [flywheel-sdk]: Downloading https://files.pythonhosted.org/packages/65/c2/e9b249e776d0a15d8c5b788c3afe744242444832720e30251ab4357fa82a/flywheel_sdk-9.0.2-py2.py3-none-any.whl
+[2023-06-05 17:08:16] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/ea/17/1ca7bdf28c354fee52c73d575a9e9ff03f24e25bc39b3f197b27a76e7234/tensorflow_text_nightly-2.14.0.dev20230603-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 17:08:16] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/57/07/ca5a89b7a2142120c33b178499a1bbb8a61eb50a14c7fb6bc872f7becf22/wizata-dsapi-0.1.8.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/ed/6c/ae306ef51fc937145d77865d3c9d3cec6a9c232d5791eaac8a33861472f6/PVNet-0.0.9.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/5d/26/6d8b9381f9027997fc2e2b35fa84c5a0c46a64cef0e64bb3786ad3ebae12/scdeepinsight-0.1.6.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [smarthouse]: Downloading https://files.pythonhosted.org/packages/a8/4b/21095e6350cd12b0d0ba4748a2d2172706a3f8d58055ad1c4ca8d02f78e6/smarthouse-0.1.4.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/34/d3/1b1e3069204cfd5341c0be3bad7df7e60019431a6959b3182db14b874807/megadata-0.0.9.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-05 17:08:16] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.8.tar.gz tmp/PVNet-0.0.9.tar.gz --markdown 20230605/P/PVNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:08:16] INFO root fetch - processPackages [scdeepinsight]: executing diffoscope
+[2023-06-05 17:08:16] INFO root fetch - processPackages [scdeepinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdeepinsight-0.1.5.tar.gz tmp/scdeepinsight-0.1.6.tar.gz --markdown 20230605/s/scdeepinsight/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 17:08:16] INFO root fetch - processPackages [smarthouse]: executing diffoscope
+[2023-06-05 17:08:16] INFO root fetch - processPackages [smarthouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarthouse-0.1.3.tar.gz tmp/smarthouse-0.1.4.tar.gz --markdown 20230605/s/smarthouse/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 17:08:16] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [hmd-cli-build]: Downloading https://files.pythonhosted.org/packages/9b/d6/ab3897ef1f2e501c9d4f2abf54c03a21360c9f3bc5c438883fff3e76cc72/hmd_cli_build-0.1.48-py3-none-any.whl
+[2023-06-05 17:08:16] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/00/e4/4092bc5f5104c74f225f8e51ce310fd6460272121b02092aa44a0181dd1a/strawberry_django_plus-2.6.1.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-05 17:08:16] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230605/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 17:08:16] INFO root fetch - processPackages [hmd-cli-build]: executing diffoscope
+[2023-06-05 17:08:16] INFO root fetch - processPackages [hmd-cli-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_cli_build-0.1.46-py3-none-any.whl.zip tmp/hmd_cli_build-0.1.48-py3-none-any.whl.zip --markdown 20230605/h/hmd-cli-build/0.1.46-0.1.48/diff.md --exclude *.pyd
+[2023-06-05 17:08:16] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-06-05 17:08:16] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230605/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:08:16] INFO root fetch - processPackages [flywheel-sdk]: Downloading https://files.pythonhosted.org/packages/47/bc/9ea49bbd7fa672c57d00f2fc4ed9e510c60b70d9c4d6846f245c3eac8df2/flywheel_sdk-9.0.3-py2.py3-none-any.whl
+[2023-06-05 17:08:16] INFO root fetch - processPackages [strawberry-django-plus]: executing diffoscope
+[2023-06-05 17:08:16] INFO root fetch - processPackages [strawberry-django-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_plus-2.6.0.tar.gz tmp/strawberry_django_plus-2.6.1.tar.gz --markdown 20230605/s/strawberry-django-plus/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-05 17:08:16] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/a8/5b/4700da14dca835cafbca381f4f627a906a0eb4deacdecde0e9d5c319bec5/nicegui-1.2.9.tar.gz
+[2023-06-05 17:08:16] INFO root fetch - processPackages [flywheel-sdk]: executing diffoscope
+[2023-06-05 17:08:16] INFO root fetch - processPackages [flywheel-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_sdk-9.0.2-py2.py3-none-any.whl.zip tmp/flywheel_sdk-9.0.3-py2.py3-none-any.whl.zip --markdown 20230605/f/flywheel-sdk/9.0.2-9.0.3/diff.md --exclude *.pyd
+[2023-06-05 17:08:16] INFO root fetch - processPackages [nicegui]: executing diffoscope
+[2023-06-05 17:08:16] INFO root fetch - processPackages [nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicegui-1.2.8.tar.gz tmp/nicegui-1.2.9.tar.gz --markdown 20230605/n/nicegui/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-05 17:08:16] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/4e/00/b24c26454a58bf56c01ecdf50a7c79d3802c4284cc3650455b1b85ed82fb/tensorflow_text_nightly-2.14.0.dev20230604-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 17:08:17] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-05 17:08:17] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230603-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230604-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230605/t/tensorflow-text-nightly/2.14.0.dev20230603-2.14.0.dev20230604/diff.md --exclude *.pyd
+[2023-06-05 17:08:17] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.5.tar.gz]
+[2023-06-05 17:08:17] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.6.tar.gz]
+[2023-06-05 17:08:17] INFO root fetch - processPackages [scdeepinsight]: Start processing: pulumi-std
+[2023-06-05 17:08:17] INFO root fetch - main [MainThread]: End processing [scdeepinsight]: success
+[2023-06-05 17:08:17] INFO root fetch - processPackages [pulumi-std]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-05 17:08:17] INFO root fetch - processPackages [pulumi-std]: Downloading https://files.pythonhosted.org/packages/0a/b4/176f9d1f1f5f112d1d6c27fb75e5292149374a6e8b5c0c194e2fb81ac732/pulumi_std-1.2.0.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [hmd-cli-build]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_build-0.1.46-py3-none-any.whl.zip]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [hmd-cli-build]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_build-0.1.48-py3-none-any.whl.zip]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [hmd-cli-build]: Start processing: netbox-cisco-maintenance
+[2023-06-05 17:08:18] INFO root fetch - main [MainThread]: End processing [hmd-cli-build]: success
+[2023-06-05 17:08:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/c7/0a/23030ab806d7c0cb62c5f36307b435d2832f67f6a099d087e1d17d4d5f5a/netbox-cisco-maintenance-0.0.8.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.0.8.tar.gz]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.0.9.tar.gz]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [PVNet]: Start processing: simplekml2-for-python3
+[2023-06-05 17:08:18] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-05 17:08:18] WARNING root fetch - processPackages [simplekml2-for-python3]: Skipping, unable to determine old version
+[2023-06-05 17:08:18] INFO root fetch - processPackages [simplekml2-for-python3]: Start processing: odoo-addon-mis-builder-operating-unit-access-all
+[2023-06-05 17:08:18] INFO root fetch - main [MainThread]: End processing [simplekml2-for-python3] error
+[2023-06-05 17:08:18] WARNING root fetch - processPackages [odoo-addon-mis-builder-operating-unit-access-all]: Skipping, unable to determine old version
+[2023-06-05 17:08:18] INFO root fetch - processPackages [odoo-addon-mis-builder-operating-unit-access-all]: Start processing: obs-cli
+[2023-06-05 17:08:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder-operating-unit-access-all] error
+[2023-06-05 17:08:18] INFO root fetch - processPackages [pulumi-std]: Downloading https://files.pythonhosted.org/packages/49/b2/4426a20569792803cbe0b49efc664048e9802b7ba185273d10abdc4343de/pulumi_std-1.3.0.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [obs-cli]: New version: [0.2] Old Version: [0.1]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [smarthouse]: Remove: archive file [/home/abi/fetcher/tmp/smarthouse-0.1.3.tar.gz]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [smarthouse]: Remove: archive file [/home/abi/fetcher/tmp/smarthouse-0.1.4.tar.gz]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [smarthouse]: Start processing: pararamio
+[2023-06-05 17:08:18] INFO root fetch - main [MainThread]: End processing [smarthouse]: success
+[2023-06-05 17:08:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/55/18/d82dc30b78e3d23b9f00dc5bd845df80e3c03826a83d082261fb6a38bb30/netbox-cisco-maintenance-0.0.9.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [pararamio]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [megadata]: Remove: archive file [/home/abi/fetcher/tmp/megadata-0.0.8.tar.gz]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [megadata]: Remove: archive file [/home/abi/fetcher/tmp/megadata-0.0.9.tar.gz]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [megadata]: Start processing: txtadv-nightly
+[2023-06-05 17:08:18] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-06-05 17:08:18] INFO root fetch - processPackages [pulumi-std]: executing diffoscope
+[2023-06-05 17:08:18] INFO root fetch - processPackages [pulumi-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_std-1.2.0.tar.gz tmp/pulumi_std-1.3.0.tar.gz --markdown 20230605/p/pulumi-std/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-05 17:08:18] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/b0/a3/681f227d45dfab507ee316f942234081cf93b9f4168aa8c9cd33656c99fb/obs-cli-0.1.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-05 17:08:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230605/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:08:18] INFO root fetch - processPackages [txtadv-nightly]: New version: [110105103104116108121110105103104116108121.2] Old Version: [110105103104116108121110105103104116108121.1]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [pararamio]: Downloading https://files.pythonhosted.org/packages/e9/f8/acf87ef85411b2946b64beb75a3fa3c7cf3984257c3e51e91760cb7fb133/pararamio-1.0.8.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/0d/a0/7233eb37cbf4d9e0ac0da9970a45de89efc204b7d3f09121765c64e20ec9/obs-cli-0.2.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [txtadv-nightly]: Downloading https://files.pythonhosted.org/packages/97/d7/08bd2f0379e0f2240dbdc5076c1b405e2141a01a6eb272abaa4de5afbe78/txtadv_nightly-110105103104116108121110105103104116108121.1.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-05 17:08:18] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.1.tar.gz tmp/obs-cli-0.2.tar.gz --markdown 20230605/o/obs-cli/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-05 17:08:18] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.8.tar.gz]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.9.tar.gz]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [wizata-dsapi]: Start processing: noisemonitor
+[2023-06-05 17:08:18] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-05 17:08:18] WARNING root fetch - processPackages [noisemonitor]: Skipping, unable to determine old version
+[2023-06-05 17:08:18] INFO root fetch - processPackages [noisemonitor]: Start processing: steam-sdk
+[2023-06-05 17:08:18] INFO root fetch - main [MainThread]: End processing [noisemonitor] error
+[2023-06-05 17:08:18] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-05 17:08:18] INFO root fetch - processPackages [pararamio]: Downloading https://files.pythonhosted.org/packages/5b/70/102908b952b358379e28a352f136f20fc1dea203df8f1a19d41c8426d64b/pararamio-1.0.9.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/60/2c/3c21c0815edf029e79c95d2f5fccd2a2f589a21e648b6c3ea6a2a61d7c1e/steam-sdk-2023.6.8.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [txtadv-nightly]: Downloading https://files.pythonhosted.org/packages/b5/88/9cc1e8c563aee9d14b8cbfbded791d6a5e304e527b667365c22bdbb5eacc/txtadv_nightly-110105103104116108121110105103104116108121.2.tar.gz
+[2023-06-05 17:08:18] INFO root fetch - processPackages [pararamio]: executing diffoscope
+[2023-06-05 17:08:18] INFO root fetch - processPackages [pararamio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pararamio-1.0.8.tar.gz tmp/pararamio-1.0.9.tar.gz --markdown 20230605/p/pararamio/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:08:18] INFO root fetch - processPackages [txtadv-nightly]: executing diffoscope
+[2023-06-05 17:08:18] INFO root fetch - processPackages [txtadv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txtadv_nightly-110105103104116108121110105103104116108121.1.tar.gz tmp/txtadv_nightly-110105103104116108121110105103104116108121.2.tar.gz --markdown 20230605/t/txtadv-nightly/110105103104116108121110105103104116108121.1-110105103104116108121110105103104116108121.2/diff.md --exclude *.pyd
+[2023-06-05 17:08:19] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/cf/10/2b634f09e25cfaaa5b5c4ea8889e69240ff6c0ad61d248fcbfd14e6aa988/steam-sdk-2023.6.9.tar.gz
+[2023-06-05 17:08:19] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-2.6.0.tar.gz]
+[2023-06-05 17:08:19] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-2.6.1.tar.gz]
+[2023-06-05 17:08:19] INFO root fetch - processPackages [strawberry-django-plus]: Start processing: hmd-cli-python
+[2023-06-05 17:08:19] INFO root fetch - main [MainThread]: End processing [strawberry-django-plus]: success
+[2023-06-05 17:08:19] INFO root fetch - processPackages [hmd-cli-python]: New version: [0.2.75] Old Version: [0.2.74]
+[2023-06-05 17:08:19] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-05 17:08:19] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.8.tar.gz tmp/steam-sdk-2023.6.9.tar.gz --markdown 20230605/s/steam-sdk/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-05 17:08:19] INFO root fetch - processPackages [hmd-cli-python]: Downloading https://files.pythonhosted.org/packages/86/31/6c42baf68c4f67cc133148f6eafd3c52e4512437004b75194820b90727be/hmd_cli_python-0.2.74-py3-none-any.whl
+[2023-06-05 17:08:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.8.tar.gz]
+[2023-06-05 17:08:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.9.tar.gz]
+[2023-06-05 17:08:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: msaf-test
+[2023-06-05 17:08:19] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-05 17:08:19] WARNING root fetch - processPackages [msaf-test]: Skipping, unable to determine old version
+[2023-06-05 17:08:19] INFO root fetch - processPackages [msaf-test]: Start processing: invenio-app-rdm
+[2023-06-05 17:08:19] INFO root fetch - main [MainThread]: End processing [msaf-test] error
+[2023-06-05 17:08:19] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-06-05 17:08:19] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2023-06-05 17:08:19] INFO root fetch - processPackages [hmd-cli-python]: Downloading https://files.pythonhosted.org/packages/dd/78/20364f68e695a2b328c56be61e13a84f5c66f08116f4b4a20ea33fe66259/hmd_cli_python-0.2.75-py3-none-any.whl
+[2023-06-05 17:08:19] INFO root fetch - processPackages [hmd-cli-python]: executing diffoscope
+[2023-06-05 17:08:19] INFO root fetch - processPackages [hmd-cli-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_cli_python-0.2.74-py3-none-any.whl.zip tmp/hmd_cli_python-0.2.75-py3-none-any.whl.zip --markdown 20230605/h/hmd-cli-python/0.2.74-0.2.75/diff.md --exclude *.pyd
+[2023-06-05 17:08:19] INFO root fetch - processPackages [pulumi-std]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_std-1.2.0.tar.gz]
+[2023-06-05 17:08:19] INFO root fetch - processPackages [pulumi-std]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_std-1.3.0.tar.gz]
+[2023-06-05 17:08:19] INFO root fetch - processPackages [pulumi-std]: Start processing: tabular-pipeline
+[2023-06-05 17:08:19] INFO root fetch - main [MainThread]: End processing [pulumi-std]: success
+[2023-06-05 17:08:19] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2023-06-05 17:08:19] INFO root fetch - processPackages [tabular-pipeline]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-05 17:08:19] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2023-06-05 17:08:19] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20230605/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-06-05 17:08:20] INFO root fetch - processPackages [tabular-pipeline]: Downloading https://files.pythonhosted.org/packages/c0/57/42fe30d77192b5eb56d9018053c82eaa58f07b76c11caf0f94677025ff44/tabular_pipeline-0.2.2.tar.gz
+[2023-06-05 17:08:20] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.1.tar.gz]
+[2023-06-05 17:08:20] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.2.tar.gz]
+[2023-06-05 17:08:20] INFO root fetch - processPackages [obs-cli]: Start processing: stewchef
+[2023-06-05 17:08:20] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-05 17:08:20] INFO root fetch - processPackages [stewchef]: New version: [0.1.5a0] Old Version: [0.1.5]
+[2023-06-05 17:08:20] INFO root fetch - processPackages [txtadv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/txtadv_nightly-110105103104116108121110105103104116108121.1.tar.gz]
+[2023-06-05 17:08:20] INFO root fetch - processPackages [txtadv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/txtadv_nightly-110105103104116108121110105103104116108121.2.tar.gz]
+[2023-06-05 17:08:20] INFO root fetch - main [MainThread]: End processing [txtadv-nightly]: success
+[2023-06-05 17:08:20] INFO root fetch - processPackages [tabular-pipeline]: Downloading https://files.pythonhosted.org/packages/4f/82/d6d7a1f0dac46ee1f7a822c3a805f81d51c55f62fdee241414331504846e/tabular_pipeline-0.2.3.tar.gz
+[2023-06-05 17:08:20] INFO root fetch - processPackages [stewchef]: Downloading https://files.pythonhosted.org/packages/e8/1f/26f45b757dd8e9bd9218cc151819b67ea000341bebedb2802d614faea777/stewchef-0.1.5.tar.gz
+[2023-06-05 17:08:20] INFO root fetch - processPackages [tabular-pipeline]: executing diffoscope
+[2023-06-05 17:08:20] INFO root fetch - processPackages [tabular-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabular_pipeline-0.2.2.tar.gz tmp/tabular_pipeline-0.2.3.tar.gz --markdown 20230605/t/tabular-pipeline/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-05 17:08:20] INFO root fetch - processPackages [stewchef]: Downloading https://files.pythonhosted.org/packages/c7/f3/836a8722e575d229ae3f312dfa0a5b445bc3d8d225b41aed95001266e662/stewchef-0.1.5a0.tar.gz
+[2023-06-05 17:08:20] INFO root fetch - processPackages [stewchef]: executing diffoscope
+[2023-06-05 17:08:20] INFO root fetch - processPackages [stewchef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stewchef-0.1.5.tar.gz tmp/stewchef-0.1.5a0.tar.gz --markdown 20230605/s/stewchef/0.1.5-0.1.5a0/diff.md --exclude *.pyd
+[2023-06-05 17:08:20] INFO root fetch - processPackages [pararamio]: Remove: archive file [/home/abi/fetcher/tmp/pararamio-1.0.8.tar.gz]
+[2023-06-05 17:08:20] INFO root fetch - processPackages [pararamio]: Remove: archive file [/home/abi/fetcher/tmp/pararamio-1.0.9.tar.gz]
+[2023-06-05 17:08:20] INFO root fetch - main [MainThread]: End processing [pararamio]: success
+[2023-06-05 17:08:20] INFO root fetch - processPackages [hmd-cli-python]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_python-0.2.74-py3-none-any.whl.zip]
+[2023-06-05 17:08:20] INFO root fetch - processPackages [hmd-cli-python]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_python-0.2.75-py3-none-any.whl.zip]
+[2023-06-05 17:08:20] INFO root fetch - main [MainThread]: End processing [hmd-cli-python]: success
+[2023-06-05 17:08:21] INFO root fetch - processPackages [tabular-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/tabular_pipeline-0.2.2.tar.gz]
+[2023-06-05 17:08:21] INFO root fetch - processPackages [tabular-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/tabular_pipeline-0.2.3.tar.gz]
+[2023-06-05 17:08:21] INFO root fetch - main [MainThread]: End processing [tabular-pipeline]: success
+[2023-06-05 17:08:21] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.8.tar.gz]
+[2023-06-05 17:08:21] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
+[2023-06-05 17:08:21] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-05 17:08:22] INFO root fetch - processPackages [stewchef]: Remove: archive file [/home/abi/fetcher/tmp/stewchef-0.1.5.tar.gz]
+[2023-06-05 17:08:22] INFO root fetch - processPackages [stewchef]: Remove: archive file [/home/abi/fetcher/tmp/stewchef-0.1.5a0.tar.gz]
+[2023-06-05 17:08:22] INFO root fetch - main [MainThread]: End processing [stewchef]: success
+[2023-06-05 17:08:22] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230603-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 17:08:22] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230604-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 17:08:22] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-05 17:08:22] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.5.tar.gz]
+[2023-06-05 17:08:22] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
+[2023-06-05 17:08:22] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2023-06-05 17:08:24] INFO root fetch - processPackages [flywheel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_sdk-9.0.2-py2.py3-none-any.whl.zip]
+[2023-06-05 17:08:24] INFO root fetch - processPackages [flywheel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_sdk-9.0.3-py2.py3-none-any.whl.zip]
+[2023-06-05 17:08:24] INFO root fetch - main [MainThread]: End processing [flywheel-sdk]: success
+[2023-06-05 17:08:24] INFO root fetch - processPackages [nicegui]: Remove: archive file [/home/abi/fetcher/tmp/nicegui-1.2.8.tar.gz]
+[2023-06-05 17:08:24] INFO root fetch - processPackages [nicegui]: Remove: archive file [/home/abi/fetcher/tmp/nicegui-1.2.9.tar.gz]
+[2023-06-05 17:08:24] INFO root fetch - main [MainThread]: End processing [nicegui]: success
+[2023-06-05 17:08:24] INFO root fetch - main [MainThread]: Store serial: [18377550]
