@@ -20376,3 +20376,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 19:16:13] INFO root fetch - processPackages [rigatoni]: Remove: archive file [/home/abi/fetcher/tmp/rigatoni-0.1.9.tar.gz]
 [2023-06-05 19:16:13] INFO root fetch - main [MainThread]: End processing [rigatoni]: success
 [2023-06-05 19:16:13] INFO root fetch - main [MainThread]: Store serial: [18379054]
+[2023-06-05 19:21:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18379054]
+[2023-06-05 19:21:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flat-api
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-drawable-canvas
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tomas
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Lab93DatabaseSystem
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: retrack
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: absfuyu
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klp-commons
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: motion-python
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-schema-builder
+[2023-06-05 19:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: threatmon
+[2023-06-05 19:21:24] INFO root fetch - processPackages [Lab93DatabaseSystem]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 19:21:24] INFO root fetch - processPackages [tomas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 19:21:24] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 19:21:24] INFO root fetch - processPackages [retrack]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-05 19:21:24] INFO root fetch - processPackages [dbt-schema-builder]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-05 19:21:24] INFO root fetch - processPackages [motion-python]: New version: [0.1.55] Old Version: [0.1.54]
+[2023-06-05 19:21:24] INFO root fetch - processPackages [streamlit-drawable-canvas]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-05 19:21:24] INFO root fetch - processPackages [absfuyu]: New version: [2.0.0] Old Version: [1.6.0]
+[2023-06-05 19:21:24] WARNING root fetch - processPackages [threatmon]: Skipping, unable to determine old version
+[2023-06-05 19:21:24] INFO root fetch - processPackages [threatmon]: Start processing: bowtie-json-schema
+[2023-06-05 19:21:24] INFO root fetch - main [MainThread]: End processing [threatmon] error
+[2023-06-05 19:21:24] INFO root fetch - processPackages [flat-api]: New version: [1.0.0] Old Version: [0.8.1]
+[2023-06-05 19:21:24] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/e3/94/b9d41734be8fbd3cebf962ef11a4248d4440e5a30e129d67ac7ed28b4f70/klp-commons-0.0.8.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-05 19:21:24] INFO root fetch - processPackages [tomas]: Downloading https://files.pythonhosted.org/packages/6f/20/8c777b1b71c3f1cd8c07dd763b43d5eb5f97864f3f9c9edae0fbae4b74e1/tomas-0.1.8.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [dbt-schema-builder]: Downloading https://files.pythonhosted.org/packages/26/1c/67b3810f31231cfd889dd7bc575fd16f9db3ad56247ce17c79aa90fca48c/dbt-schema-builder-0.4.7.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/9f/e6/cbbeb3095e75828a184882f79ce900b957d572e7618983f424a6b92af15d/motion_python-0.1.54.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [Lab93DatabaseSystem]: Downloading https://files.pythonhosted.org/packages/bd/ab/44ec2e143972a8a1ada296fa6587fe60598f535a805551f60509ab0b4c84/Lab93DatabaseSystem-0.0.5.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [retrack]: Downloading https://files.pythonhosted.org/packages/2a/36/a8cdec3351175cba895e8cf3eda9a9c27882ced3527b596e9ee66a515acd/retrack-0.8.0.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/e2/18/ded185057fee0397f77cd78787b34d061505ac5163c064c03fa82dc2c77f/absfuyu-1.6.0.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [streamlit-drawable-canvas]: Downloading https://files.pythonhosted.org/packages/50/2c/8dd1d17a769e3594deed74826bfe2e4f3631a542f029e4afde400c6db4ba/streamlit-drawable-canvas-0.9.2.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [flat-api]: Downloading https://files.pythonhosted.org/packages/32/b1/4b5e14dc90e4ec5e7a6e5c9101b747154f882f0a98222c301a6fb91a5d39/flat_api-0.8.1.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/f5/46/4db066cc06ba5f7d831bae82053365da0c98f43cd93debd59effbd0cddf8/bowtie_json_schema-2023.5.9.tar.gz
+[2023-06-05 19:21:24] INFO root fetch - processPackages [dbt-schema-builder]: Downloading https://files.pythonhosted.org/packages/22/22/af015a0e0edb8897dc00c600304cea1da8ef1e1886cb056033bb2753a479/dbt-schema-builder-0.4.8.tar.gz
+[2023-06-05 19:21:25] INFO root fetch - processPackages [tomas]: Downloading https://files.pythonhosted.org/packages/df/44/232dc95d63eec7ad37badd9124539513a9775ede9c38ca33e576dc10c147/tomas-0.1.9.tar.gz
+[2023-06-05 19:21:25] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/53/33/d9ffdd5b9e8330b9db6c43b84e3bde30134298a6bf8696655c5c0ee970e2/klp-commons-0.0.9.tar.gz
+[2023-06-05 19:21:25] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/b8/96/8fdd631bc3374fda644ed79cb42e93baa85b1d5ce454f56b7a78da36883a/motion_python-0.1.55.tar.gz
+[2023-06-05 19:21:25] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-06-05 19:21:25] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230605/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 19:21:25] INFO root fetch - processPackages [retrack]: Downloading https://files.pythonhosted.org/packages/77/7c/61ae93810b0c4f1d8f09b0e55452ddfd4ca600178061f8ed06013545702b/retrack-0.8.1.tar.gz
+[2023-06-05 19:21:25] INFO root fetch - processPackages [flat-api]: Downloading https://files.pythonhosted.org/packages/f0/70/1cf7a98aa291bb7226db4d47e7cbc5cc205b49272b6c3c70a8cb7ed0f02b/flat_api-1.0.0.tar.gz
+[2023-06-05 19:21:25] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-05 19:21:25] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.54.tar.gz tmp/motion_python-0.1.55.tar.gz --markdown 20230605/m/motion-python/0.1.54-0.1.55/diff.md --exclude *.pyd
+[2023-06-05 19:21:25] INFO root fetch - processPackages [dbt-schema-builder]: executing diffoscope
+[2023-06-05 19:21:25] INFO root fetch - processPackages [Lab93DatabaseSystem]: Downloading https://files.pythonhosted.org/packages/06/b8/dd4cb2453b46dab84d5eeda0208056ea227dc492968ce4cd6ff9d4c7a0be/Lab93DatabaseSystem-0.0.6.tar.gz
+[2023-06-05 19:21:25] INFO root fetch - processPackages [dbt-schema-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-schema-builder-0.4.7.tar.gz tmp/dbt-schema-builder-0.4.8.tar.gz --markdown 20230605/d/dbt-schema-builder/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-05 19:21:25] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/9a/b7/1b5570024ed301e0d1bc594b77b2123ee0f6dcc5a5ff937c15530725d53d/absfuyu-2.0.0.tar.gz
+[2023-06-05 19:21:25] INFO root fetch - processPackages [retrack]: executing diffoscope
+[2023-06-05 19:21:25] INFO root fetch - processPackages [retrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retrack-0.8.0.tar.gz tmp/retrack-0.8.1.tar.gz --markdown 20230605/r/retrack/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-05 19:21:25] INFO root fetch - processPackages [Lab93DatabaseSystem]: executing diffoscope
+[2023-06-05 19:21:25] INFO root fetch - processPackages [Lab93DatabaseSystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lab93DatabaseSystem-0.0.5.tar.gz tmp/Lab93DatabaseSystem-0.0.6.tar.gz --markdown 20230605/L/Lab93DatabaseSystem/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 19:21:25] INFO root fetch - processPackages [flat-api]: executing diffoscope
+[2023-06-05 19:21:25] INFO root fetch - processPackages [flat-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flat_api-0.8.1.tar.gz tmp/flat_api-1.0.0.tar.gz --markdown 20230605/f/flat-api/0.8.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 19:21:25] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/04/59/eb0d869383c0f442a5237e30bd87905a131267dd04ffff94ba1728cef0a5/bowtie_json_schema-2023.6.1.tar.gz
+[2023-06-05 19:21:25] INFO root fetch - processPackages [absfuyu]: executing diffoscope
+[2023-06-05 19:21:25] INFO root fetch - processPackages [absfuyu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absfuyu-1.6.0.tar.gz tmp/absfuyu-2.0.0.tar.gz --markdown 20230605/a/absfuyu/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-05 19:21:25] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-06-05 19:21:25] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2023.5.9.tar.gz tmp/bowtie_json_schema-2023.6.1.tar.gz --markdown 20230605/b/bowtie-json-schema/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-05 19:21:25] INFO root fetch - processPackages [tomas]: executing diffoscope
+[2023-06-05 19:21:25] INFO root fetch - processPackages [tomas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomas-0.1.8.tar.gz tmp/tomas-0.1.9.tar.gz --markdown 20230605/t/tomas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 19:21:26] INFO root fetch - processPackages [streamlit-drawable-canvas]: Downloading https://files.pythonhosted.org/packages/07/fe/69768e7391587b97ef5c503c263bdf960e21f20c02c6b17427a8963af0c6/streamlit-drawable-canvas-0.9.3.tar.gz
+[2023-06-05 19:21:26] INFO root fetch - processPackages [streamlit-drawable-canvas]: executing diffoscope
+[2023-06-05 19:21:26] INFO root fetch - processPackages [streamlit-drawable-canvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-drawable-canvas-0.9.2.tar.gz tmp/streamlit-drawable-canvas-0.9.3.tar.gz --markdown 20230605/s/streamlit-drawable-canvas/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-05 19:21:26] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.54.tar.gz]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.55.tar.gz]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [motion-python]: Start processing: flowtask
+[2023-06-05 19:21:26] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-05 19:21:26] INFO root fetch - processPackages [flowtask]: New version: [4.4.1] Old Version: [4.4.0]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/7c/94/c2ea99ef6d53697ecfe8e149b6fef6ee3dc9f53ff4885474e8fa7116291a/flowtask-4.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 19:21:26] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.8.tar.gz]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.9.tar.gz]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [klp-commons]: Start processing: macrometa-target-collection
+[2023-06-05 19:21:26] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-06-05 19:21:26] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.64] Old Version: [0.0.63]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [retrack]: Remove: archive file [/home/abi/fetcher/tmp/retrack-0.8.0.tar.gz]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [retrack]: Remove: archive file [/home/abi/fetcher/tmp/retrack-0.8.1.tar.gz]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [retrack]: Start processing: spanishconjugator
+[2023-06-05 19:21:26] INFO root fetch - main [MainThread]: End processing [retrack]: success
+[2023-06-05 19:21:26] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [Lab93DatabaseSystem]: Remove: archive file [/home/abi/fetcher/tmp/Lab93DatabaseSystem-0.0.5.tar.gz]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [Lab93DatabaseSystem]: Remove: archive file [/home/abi/fetcher/tmp/Lab93DatabaseSystem-0.0.6.tar.gz]
+[2023-06-05 19:21:26] INFO root fetch - processPackages [Lab93DatabaseSystem]: Start processing: jampy
+[2023-06-05 19:21:26] INFO root fetch - main [MainThread]: End processing [Lab93DatabaseSystem]: success
+[2023-06-05 19:21:26] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-05 19:21:27] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/53/13/c0ef193432c1050798ebb050d6bccf44fe73acf2419e37622111e509d397/macrometa-target-collection-0.0.63.tar.gz
+[2023-06-05 19:21:27] INFO root fetch - processPackages [jampy]: New version: [7.1.0] Old Version: [7.0.10]
+[2023-06-05 19:21:27] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/e8/a2/d69626d52de92e95f2d4cc76fbb1fa19b1758353f5896f5e989e18a6949a/flowtask-4.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 19:21:27] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-05 19:21:27] INFO root fetch - processPackages [dbt-schema-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-schema-builder-0.4.7.tar.gz]
+[2023-06-05 19:21:27] INFO root fetch - processPackages [dbt-schema-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-schema-builder-0.4.8.tar.gz]
+[2023-06-05 19:21:27] INFO root fetch - main [MainThread]: End processing [dbt-schema-builder]: success
+[2023-06-05 19:21:27] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.5.9.tar.gz]
+[2023-06-05 19:21:27] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.6.1.tar.gz]
+[2023-06-05 19:21:27] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-06-05 19:21:27] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-05 19:21:27] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230605/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-05 19:21:27] INFO root fetch - processPackages [tomas]: Remove: archive file [/home/abi/fetcher/tmp/tomas-0.1.8.tar.gz]
+[2023-06-05 19:21:27] INFO root fetch - processPackages [tomas]: Remove: archive file [/home/abi/fetcher/tmp/tomas-0.1.9.tar.gz]
+[2023-06-05 19:21:27] INFO root fetch - main [MainThread]: End processing [tomas]: success
+[2023-06-05 19:21:27] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/dd/48/d7949dc032c21186a30ecb76be956587f5976bfc1e95f64f97e05bc3ff7b/macrometa-target-collection-0.0.64.tar.gz
+[2023-06-05 19:21:27] INFO root fetch - processPackages [jampy]: Downloading https://files.pythonhosted.org/packages/e5/56/5488b769de648fa1e86d0a30f35bd7cae9a59ee2ffc7a300cf849b6dc52a/jampy-7.0.10.tar.gz
+[2023-06-05 19:21:27] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-06-05 19:21:27] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.63.tar.gz tmp/macrometa-target-collection-0.0.64.tar.gz --markdown 20230605/m/macrometa-target-collection/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2023-06-05 19:21:27] INFO root fetch - processPackages [jampy]: Downloading https://files.pythonhosted.org/packages/d6/3a/0b377c95a27b18c002da64ff9b5380d58c4e2f91d3f86b4e54b407d167f2/jampy-7.1.0.tar.gz
+[2023-06-05 19:21:27] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-05 19:21:27] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230605/f/flowtask/4.4.0-4.4.1/diff.md --exclude *.pyd
+[2023-06-05 19:21:27] INFO root fetch - processPackages [jampy]: executing diffoscope
+[2023-06-05 19:21:27] INFO root fetch - processPackages [jampy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jampy-7.0.10.tar.gz tmp/jampy-7.1.0.tar.gz --markdown 20230605/j/jampy/7.0.10-7.1.0/diff.md --exclude *.pyd
+[2023-06-05 19:21:27] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-1.6.0.tar.gz]
+[2023-06-05 19:21:27] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-2.0.0.tar.gz]
+[2023-06-05 19:21:27] INFO root fetch - main [MainThread]: End processing [absfuyu]: success
+[2023-06-05 19:21:28] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-05 19:21:28] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-05 19:21:28] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-05 19:21:28] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.63.tar.gz]
+[2023-06-05 19:21:28] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.64.tar.gz]
+[2023-06-05 19:21:28] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-06-05 19:21:28] INFO root fetch - processPackages [jampy]: Remove: archive file [/home/abi/fetcher/tmp/jampy-7.0.10.tar.gz]
+[2023-06-05 19:21:28] INFO root fetch - processPackages [jampy]: Remove: archive file [/home/abi/fetcher/tmp/jampy-7.1.0.tar.gz]
+[2023-06-05 19:21:28] INFO root fetch - main [MainThread]: End processing [jampy]: success
+[2023-06-05 19:21:30] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 19:21:30] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 19:21:30] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-05 19:21:31] INFO root fetch - processPackages [flat-api]: Remove: archive file [/home/abi/fetcher/tmp/flat_api-0.8.1.tar.gz]
+[2023-06-05 19:21:31] INFO root fetch - processPackages [flat-api]: Remove: archive file [/home/abi/fetcher/tmp/flat_api-1.0.0.tar.gz]
+[2023-06-05 19:21:31] INFO root fetch - main [MainThread]: End processing [flat-api]: success
+[2023-06-05 19:22:28] INFO root fetch - processPackages [streamlit-drawable-canvas]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-drawable-canvas-0.9.2.tar.gz]
+[2023-06-05 19:22:28] INFO root fetch - processPackages [streamlit-drawable-canvas]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-drawable-canvas-0.9.3.tar.gz]
+[2023-06-05 19:22:28] INFO root fetch - main [MainThread]: End processing [streamlit-drawable-canvas]: success
+[2023-06-05 19:22:28] INFO root fetch - main [MainThread]: Store serial: [18379104]
