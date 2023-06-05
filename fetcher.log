@@ -19320,3 +19320,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 18:28:09] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-1.2.9.tar.gz]
 [2023-06-05 18:28:09] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
 [2023-06-05 18:28:09] INFO root fetch - main [MainThread]: Store serial: [18378640]
+[2023-06-05 18:33:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378640]
+[2023-06-05 18:33:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: languagemodels
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acryl-datahub-tc
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypackagelicenseprototype
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insurance-gi
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lollms
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TradeGate
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fullask-rest-framework
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mne
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ohnlp-backbone-xlang-python
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hello50
+[2023-06-05 18:33:23] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [languagemodels]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [hello50]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [insurance-gi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [TradeGate]: New version: [0.3.8.6] Old Version: [0.3.8.5]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [acryl-datahub-tc]: New version: [0.10.2rc1] Old Version: [0.10.2.0rc3]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [mne]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [hello50]: Downloading https://files.pythonhosted.org/packages/9c/23/4ef6a1fc93a9feba281bb45572e2b21bb021b9aa01d9fe6f4f481c2308b9/hello50-1.0.5.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/84/24/f913b90203afc58e5d962d94a632f471c97824ea6781b866b69c8b72e72d/mypackagelicenseprototype-2.1.5-py3-none-any.whl
+[2023-06-05 18:33:23] INFO root fetch - processPackages [TradeGate]: Downloading https://files.pythonhosted.org/packages/12/40/8ea82d296391f0ca869ebbe2229d9d6562fd327a33924f04ed95fa9124e1/TradeGate-0.3.8.5.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/b4/32/61a3138338d79b167eb251c835f39bf7dd75ac2a70d2fbd322f5c9376836/ohnlp-backbone-xlang-python-1.0.2.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [languagemodels]: Downloading https://files.pythonhosted.org/packages/3c/10/e1a849c0e9a1970bd86d9bf3fd0ece7d8b1038930168a77625acb01b05eb/languagemodels-0.0.4.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [acryl-datahub-tc]: Downloading https://files.pythonhosted.org/packages/dc/7a/01917f3b39c02dd2241c290e0255bd9cb4c61adeff44a1a3795386458811/acryl-datahub-tc-0.10.2.0rc3.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [insurance-gi]: Downloading https://files.pythonhosted.org/packages/e5/9c/76ddb7b31052d07f9159c068f020d6978bd37645295420ba4dd0cb61bec4/insurance_gi-0.0.1.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/cb/9f/4413d3f2e5932a9a7aa84a8733db9f21d5bd86774b0bbe0b6f114da695a0/fullask-rest-framework-0.0.3.tar.gz
+[2023-06-05 18:33:23] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-05 18:33:23] INFO root fetch - processPackages [lollms]: Start processing: obs-cli
+[2023-06-05 18:33:23] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-05 18:33:23] INFO root fetch - processPackages [hello50]: Downloading https://files.pythonhosted.org/packages/71/89/e4d73b61f9e44bf8eed7602a2d94d53cfdfa5e5b3b66c2c229d6ced17282/hello50-1.1.0.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [mne]: Downloading https://files.pythonhosted.org/packages/06/39/cf60efb97704a3f08004d0abe3cdebdb5d6e08c7e0e6fa85e89409f66308/mne-1.4.0.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [obs-cli]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-05 18:33:23] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/81/9b/7818e2ef487fb073181db3324264684fbd5e3a3e2dbacec4436a9009d351/mypackagelicenseprototype-2.1.6-py3-none-any.whl
+[2023-06-05 18:33:23] INFO root fetch - processPackages [languagemodels]: Downloading https://files.pythonhosted.org/packages/52/44/b115bec7282b4e926b06470d72864d153a5a0b00893d4a93b327c5a6d691/languagemodels-0.1.0.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [TradeGate]: Downloading https://files.pythonhosted.org/packages/48/7e/cdd14b4abf9654ea553d6c8cc2c9ab05ef29db553e0338539598cf0457ef/TradeGate-0.3.8.6.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [hello50]: executing diffoscope
+[2023-06-05 18:33:23] INFO root fetch - processPackages [hello50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello50-1.0.5.tar.gz tmp/hello50-1.1.0.tar.gz --markdown 20230605/h/hello50/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/92/56/217fd5974baf52b924c37293be835379e300a29e85c7de6fb8cfa6f72dce/ohnlp-backbone-xlang-python-1.0.3.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/d9/99/537d0b28577244e50a20895c2fd9a31369a83aef4616b0e1cbbec0fd4ed0/obs-cli-0.4.1.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/f0/ef/39a0c2d3a9f4dd25b816adb5487a34dd5988444b75e1d14dc8736fe892cf/fullask-rest-framework-0.1.0.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [insurance-gi]: Downloading https://files.pythonhosted.org/packages/5b/39/efa7371e8f405b19cea900b94cb0586399fe96d8ae56819a674c3440f3fd/insurance_gi-0.0.2.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [languagemodels]: executing diffoscope
+[2023-06-05 18:33:23] INFO root fetch - processPackages [languagemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/languagemodels-0.0.4.tar.gz tmp/languagemodels-0.1.0.tar.gz --markdown 20230605/l/languagemodels/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-05 18:33:23] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 18:33:23] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.1.5-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.1.6-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-05 18:33:23] INFO root fetch - processPackages [TradeGate]: executing diffoscope
+[2023-06-05 18:33:23] INFO root fetch - processPackages [TradeGate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TradeGate-0.3.8.5.tar.gz tmp/TradeGate-0.3.8.6.tar.gz --markdown 20230605/T/TradeGate/0.3.8.5-0.3.8.6/diff.md --exclude *.pyd
+[2023-06-05 18:33:23] INFO root fetch - processPackages [acryl-datahub-tc]: Downloading https://files.pythonhosted.org/packages/d8/42/a164326a278dd192b4c1ee4bd38fb229537302d3343618b9d6ffb0304cb5/acryl-datahub-tc-0.10.2rc1.tar.gz
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-06-05 18:33:23] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.2.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.3.tar.gz --markdown 20230605/o/ohnlp-backbone-xlang-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-05 18:33:23] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-05 18:33:23] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.0.3.tar.gz tmp/fullask-rest-framework-0.1.0.tar.gz --markdown 20230605/f/fullask-rest-framework/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-05 18:33:23] INFO root fetch - processPackages [insurance-gi]: executing diffoscope
+[2023-06-05 18:33:23] INFO root fetch - processPackages [insurance-gi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insurance_gi-0.0.1.tar.gz tmp/insurance_gi-0.0.2.tar.gz --markdown 20230605/i/insurance-gi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 18:33:24] INFO root fetch - processPackages [acryl-datahub-tc]: executing diffoscope
+[2023-06-05 18:33:24] INFO root fetch - processPackages [acryl-datahub-tc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-tc-0.10.2.0rc3.tar.gz tmp/acryl-datahub-tc-0.10.2rc1.tar.gz --markdown 20230605/a/acryl-datahub-tc/0.10.2.0rc3-0.10.2rc1/diff.md --exclude *.pyd
+[2023-06-05 18:33:24] INFO root fetch - processPackages [mne]: Downloading https://files.pythonhosted.org/packages/99/4c/5a1f7c2dd474ebd28ac93756ac372a5db60a02a377a07b53d7b959be55e4/mne-1.4.1.tar.gz
+[2023-06-05 18:33:24] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/13/54/e71b5ea163735f18a5ac1f24ac65dfa4d1828d2565f3a30c8a44fff28450/obs-cli-0.4.2.tar.gz
+[2023-06-05 18:33:24] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-05 18:33:24] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.4.1.tar.gz tmp/obs-cli-0.4.2.tar.gz --markdown 20230605/o/obs-cli/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-05 18:33:25] INFO root fetch - processPackages [hello50]: Remove: archive file [/home/abi/fetcher/tmp/hello50-1.0.5.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [hello50]: Remove: archive file [/home/abi/fetcher/tmp/hello50-1.1.0.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [hello50]: Start processing: netbox-cisco-maintenance
+[2023-06-05 18:33:25] INFO root fetch - main [MainThread]: End processing [hello50]: success
+[2023-06-05 18:33:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.5-py3-none-any.whl.zip]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.6-py3-none-any.whl.zip]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: django-pg-jsonschema
+[2023-06-05 18:33:25] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 18:33:25] WARNING root fetch - processPackages [django-pg-jsonschema]: Skipping, unable to determine old version
+[2023-06-05 18:33:25] INFO root fetch - processPackages [django-pg-jsonschema]: Start processing: feathub-nightly
+[2023-06-05 18:33:25] INFO root fetch - main [MainThread]: End processing [django-pg-jsonschema] error
+[2023-06-05 18:33:25] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230604] Old Version: [0.1.dev20230603]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/78/c7/00c4d01db28861a873aea60a1a2e4e68c3c0f4b5db70b3210dfeec6bc85e/feathub_nightly-0.1.dev20230603-py3-none-any.whl
+[2023-06-05 18:33:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/0b/fa/77a7b318b55ec8ca54e3293bf0231735a695275c76278dc6f81d6a6de8f7/netbox-cisco-maintenance-0.0.81.tar.gz
+[2023-06-05 18:33:25] INFO root fetch - processPackages [mne]: executing diffoscope
+[2023-06-05 18:33:25] INFO root fetch - processPackages [mne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mne-1.4.0.tar.gz tmp/mne-1.4.1.tar.gz --markdown 20230605/m/mne/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-05 18:33:25] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12203985>=10485760
+[2023-06-05 18:33:25] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-06-05 18:33:25] INFO root fetch - processPackages [languagemodels]: Remove: archive file [/home/abi/fetcher/tmp/languagemodels-0.0.4.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [languagemodels]: Remove: archive file [/home/abi/fetcher/tmp/languagemodels-0.1.0.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - main [MainThread]: End processing [languagemodels]: success
+[2023-06-05 18:33:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/55/18/d82dc30b78e3d23b9f00dc5bd845df80e3c03826a83d082261fb6a38bb30/netbox-cisco-maintenance-0.0.9.tar.gz
+[2023-06-05 18:33:25] INFO root fetch - processPackages [insurance-gi]: Remove: archive file [/home/abi/fetcher/tmp/insurance_gi-0.0.1.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [insurance-gi]: Remove: archive file [/home/abi/fetcher/tmp/insurance_gi-0.0.2.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - main [MainThread]: End processing [insurance-gi]: success
+[2023-06-05 18:33:25] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.2.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.3.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-06-05 18:33:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-05 18:33:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.81.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230605/n/netbox-cisco-maintenance/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 18:33:25] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.4.1.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.4.2.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-05 18:33:25] INFO root fetch - processPackages [TradeGate]: Remove: archive file [/home/abi/fetcher/tmp/TradeGate-0.3.8.5.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - processPackages [TradeGate]: Remove: archive file [/home/abi/fetcher/tmp/TradeGate-0.3.8.6.tar.gz]
+[2023-06-05 18:33:25] INFO root fetch - main [MainThread]: End processing [TradeGate]: success
+[2023-06-05 18:33:26] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.0.3.tar.gz]
+[2023-06-05 18:33:26] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.0.tar.gz]
+[2023-06-05 18:33:26] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-05 18:33:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.81.tar.gz]
+[2023-06-05 18:33:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.9.tar.gz]
+[2023-06-05 18:33:26] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-05 18:33:35] INFO root fetch - processPackages [acryl-datahub-tc]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-tc-0.10.2.0rc3.tar.gz]
+[2023-06-05 18:33:35] INFO root fetch - processPackages [acryl-datahub-tc]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-tc-0.10.2rc1.tar.gz]
+[2023-06-05 18:33:35] INFO root fetch - main [MainThread]: End processing [acryl-datahub-tc]: success
+[2023-06-05 18:33:38] INFO root fetch - processPackages [mne]: Remove: archive file [/home/abi/fetcher/tmp/mne-1.4.0.tar.gz]
+[2023-06-05 18:33:38] INFO root fetch - processPackages [mne]: Remove: archive file [/home/abi/fetcher/tmp/mne-1.4.1.tar.gz]
+[2023-06-05 18:33:38] INFO root fetch - main [MainThread]: End processing [mne]: success
+[2023-06-05 18:33:38] INFO root fetch - main [MainThread]: Store serial: [18378680]
