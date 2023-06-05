@@ -5198,3 +5198,40 @@
 [2023-06-05 07:23:13] INFO root fetch - main [MainThread]: End processing [ecape]: success
 [2023-06-05 07:23:13] INFO root fetch - main [MainThread]: End processing [stopwords-zh]: success
 [2023-06-05 07:23:13] INFO root fetch - main [MainThread]: Store serial: [18371879]
+[2023-06-05 07:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371879]
+[2023-06-05 07:28:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-05 07:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gensp
+[2023-06-05 07:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hkfdb
+[2023-06-05 07:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: andebox
+[2023-06-05 07:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: megadata
+[2023-06-05 07:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: latex-ml-helper
+[2023-06-05 07:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codecarbon
+[2023-06-05 07:28:22] INFO root fetch - processPackages [codecarbon]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-05 07:28:22] INFO root fetch - processPackages [gensp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 07:28:22] INFO root fetch - processPackages [hkfdb]: New version: [3.4.2] Old Version: [3.4]
+[2023-06-05 07:28:22] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 07:28:22] INFO root fetch - processPackages [andebox]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 07:28:22] INFO root fetch - processPackages [latex-ml-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 07:28:22] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 07:28:22] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.8.tar.gz tmp/gensp-1.0.9.tar.gz --markdown 20230605/g/gensp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 07:28:22] INFO root fetch - processPackages [andebox]: executing diffoscope
+[2023-06-05 07:28:22] INFO root fetch - processPackages [andebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andebox-0.8.0.tar.gz tmp/andebox-0.9.0.tar.gz --markdown 20230605/a/andebox/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 07:28:22] INFO root fetch - processPackages [latex-ml-helper]: Downloading https://files.pythonhosted.org/packages/fd/05/3e6b9c5b75d02acbfd4ff8be520d86695227db478fbfd2578c8b449524e4/latex_ml_helper-0.0.8.tar.gz
+[2023-06-05 07:28:22] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/64/60/9e1601e2b1b64ae2cb305a1580ed089b773b8313c865c6d918ce164c3a46/hkfdb-3.4.2.tar.gz
+[2023-06-05 07:28:22] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-06-05 07:28:22] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.4.tar.gz tmp/hkfdb-3.4.2.tar.gz --markdown 20230605/h/hkfdb/3.4-3.4.2/diff.md --exclude *.pyd
+[2023-06-05 07:28:22] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/c5/2d/f83998583c02ae4c653801642f49bd90f29ece54ced4cfec6d576a937983/codecarbon-2.2.3.tar.gz
+[2023-06-05 07:28:22] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-06-05 07:28:22] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230605/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 07:28:22] INFO root fetch - processPackages [latex-ml-helper]: Downloading https://files.pythonhosted.org/packages/0a/4c/341fa893d4e9e2b18e7ef12a732e6b82a9d3ac3ba7fd4459eaf8b97f4d5b/latex_ml_helper-0.0.9.tar.gz
+[2023-06-05 07:28:22] INFO root fetch - processPackages [codecarbon]: executing diffoscope
+[2023-06-05 07:28:22] INFO root fetch - processPackages [codecarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecarbon-2.2.2.tar.gz tmp/codecarbon-2.2.3.tar.gz --markdown 20230605/c/codecarbon/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-05 07:28:22] INFO root fetch - processPackages [latex-ml-helper]: executing diffoscope
+[2023-06-05 07:28:22] INFO root fetch - processPackages [latex-ml-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latex_ml_helper-0.0.8.tar.gz tmp/latex_ml_helper-0.0.9.tar.gz --markdown 20230605/l/latex-ml-helper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 07:28:23] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 07:28:23] INFO root fetch - main [MainThread]: End processing [andebox]: success
+[2023-06-05 07:28:23] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-06-05 07:28:23] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-06-05 07:28:23] INFO root fetch - main [MainThread]: End processing [latex-ml-helper]: success
+[2023-06-05 07:28:24] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
+[2023-06-05 07:28:24] INFO root fetch - main [MainThread]: Store serial: [18371895]
