@@ -4612,3 +4612,56 @@
 [2023-06-05 06:04:11] INFO root fetch - main [MainThread]: End processing [augratin]: success
 [2023-06-05 06:05:01] INFO root fetch - main [MainThread]: End processing [optuna-dashboard]: success
 [2023-06-05 06:05:01] INFO root fetch - main [MainThread]: Store serial: [18371557]
+[2023-06-05 06:10:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371557]
+[2023-06-05 06:10:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-05 06:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volworld-common
+[2023-06-05 06:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: applyx
+[2023-06-05 06:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: regpredict
+[2023-06-05 06:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dartrig
+[2023-06-05 06:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KS-Constants
+[2023-06-05 06:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hytest
+[2023-06-05 06:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-clickzetta
+[2023-06-05 06:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lite-tools
+[2023-06-05 06:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: applyx
+[2023-06-05 06:10:11] INFO root fetch - processPackages [applyx]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-05 06:10:11] INFO root fetch - processPackages [volworld-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 06:10:11] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 06:10:11] INFO root fetch - processPackages [hytest]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-05 06:10:11] INFO root fetch - processPackages [dartrig]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 06:10:11] INFO root fetch - processPackages [KS-Constants]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-05 06:10:11] INFO root fetch - processPackages [applyx]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-05 06:10:11] INFO root fetch - processPackages [applyx]: executing diffoscope
+[2023-06-05 06:10:11] INFO root fetch - processPackages [applyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applyx-0.2.7-py3-none-any.whl.zip tmp/applyx-0.2.9-py3-none-any.whl.zip --markdown 20230605/a/applyx/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 06:10:11] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 06:10:11] INFO root fetch - processPackages [applyx]: executing diffoscope
+[2023-06-05 06:10:11] INFO root fetch - processPackages [applyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applyx-0.2.7-py3-none-any.whl.zip tmp/applyx-0.2.9-py3-none-any.whl.zip --markdown 20230605/a/applyx/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 06:10:11] INFO root fetch - processPackages [hytest]: executing diffoscope
+[2023-06-05 06:10:11] INFO root fetch - processPackages [hytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hytest-0.8.8-py3-none-any.whl.zip tmp/hytest-0.8.9-py3-none-any.whl.zip --markdown 20230605/h/hytest/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-05 06:10:11] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-06-05 06:10:11] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/0b/1f/2029cdafde47a23fbfe5afee4377f484fc6d58378afb73d8e425ea01d869/dartrig-0.1.6.tar.gz
+[2023-06-05 06:10:11] INFO root fetch - processPackages [KS-Constants]: Downloading https://files.pythonhosted.org/packages/4e/f6/ddce289d358e1ca81717c9ca7cda279c3281ae836989247dc374446477e0/KS_Constants-1.2.8.tar.gz
+[2023-06-05 06:10:11] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/ef/56/22c087279289459fc87e3a313f00e99070412b658a385677bd7603bb9b45/dbt-clickzetta-0.1.4.tar.gz
+[2023-06-05 06:10:11] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-05 06:10:11] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.5.tar.gz tmp/dartrig-0.1.6.tar.gz --markdown 20230605/d/dartrig/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 06:10:11] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-06-05 06:10:11] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230605/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 06:10:12] INFO root fetch - processPackages [volworld-common]: executing diffoscope
+[2023-06-05 06:10:12] INFO root fetch - processPackages [volworld-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_common-0.1.8.tar.gz tmp/volworld_common-0.1.9.tar.gz --markdown 20230605/v/volworld-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 06:10:12] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-06-05 06:10:12] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230605/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-06-05 06:10:12] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/74/ce/1c51ecfb9436c9b0f69504cc1707ba66e22bf879aa498fe57ef52b9428d9/dbt-clickzetta-0.1.5.tar.gz
+[2023-06-05 06:10:12] INFO root fetch - processPackages [KS-Constants]: Downloading https://files.pythonhosted.org/packages/40/56/27ad8aa3753c8eca96ba943b2503da5baa888bf4273d9dbd51f5c9270ac3/KS_Constants-1.2.9.tar.gz
+[2023-06-05 06:10:12] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-05 06:10:12] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.1.4.tar.gz tmp/dbt-clickzetta-0.1.5.tar.gz --markdown 20230605/d/dbt-clickzetta/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 06:10:12] INFO root fetch - processPackages [KS-Constants]: executing diffoscope
+[2023-06-05 06:10:12] INFO root fetch - processPackages [KS-Constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KS_Constants-1.2.8.tar.gz tmp/KS_Constants-1.2.9.tar.gz --markdown 20230605/K/KS-Constants/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-05 06:10:13] INFO root fetch - main [MainThread]: End processing [hytest]: success
+[2023-06-05 06:10:13] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-05 06:10:13] INFO root fetch - main [MainThread]: End processing [applyx]: success
+[2023-06-05 06:10:13] INFO root fetch - main [MainThread]: End processing [applyx]: success
+[2023-06-05 06:10:13] INFO root fetch - main [MainThread]: End processing [volworld-common]: success
+[2023-06-05 06:10:13] INFO root fetch - main [MainThread]: End processing [KS-Constants]: success
+[2023-06-05 06:10:13] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-06-05 06:10:14] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-05 06:10:15] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-06-05 06:10:15] INFO root fetch - main [MainThread]: Store serial: [18371579]
