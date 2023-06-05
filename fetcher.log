@@ -4197,3 +4197,33 @@
 [2023-06-05 04:56:24] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
 [2023-06-05 04:56:25] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
 [2023-06-05 04:56:25] INFO root fetch - main [MainThread]: Store serial: [18371347]
+[2023-06-05 05:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371347]
+[2023-06-05 05:01:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-easy-scrap
+[2023-06-05 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-runtime
+[2023-06-05 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-sqla
+[2023-06-05 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imageio
+[2023-06-05 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bnipython
+[2023-06-05 05:01:34] INFO root fetch - processPackages [py-easy-scrap]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 05:01:34] INFO root fetch - processPackages [bnipython]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-05 05:01:34] INFO root fetch - processPackages [imageio]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-05 05:01:34] WARNING root fetch - processPackages [easy-sqla]: Skipping, unable to determine old version
+[2023-06-05 05:01:34] INFO root fetch - main [MainThread]: End processing [easy-sqla] error
+[2023-06-05 05:01:34] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 05:01:34] INFO root fetch - processPackages [bnipython]: Downloading https://files.pythonhosted.org/packages/ed/6e/77f9eec36c32a1df07bb1e6d62638fa8c10cc9c6be70691a32da06bf1cd3/bnipython-0.6.4.tar.gz
+[2023-06-05 05:01:34] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/6d/ff/487f3d72299125e5f48489b60395def83787344bd2544462f0f7dc4289d8/omnata_plugin_runtime-0.1.6.tar.gz
+[2023-06-05 05:01:34] INFO root fetch - processPackages [py-easy-scrap]: Downloading https://files.pythonhosted.org/packages/83/e8/3bb5d41aec29f9f0a57a36ec0d55e40fe40644687da42a524e65d3e6d316/py-easy-scrap-0.1.2.tar.gz
+[2023-06-05 05:01:34] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-05 05:01:34] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.5.tar.gz tmp/omnata_plugin_runtime-0.1.6.tar.gz --markdown 20230605/o/omnata-plugin-runtime/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 05:01:34] INFO root fetch - processPackages [py-easy-scrap]: executing diffoscope
+[2023-06-05 05:01:34] INFO root fetch - processPackages [py-easy-scrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-easy-scrap-0.1.1.tar.gz tmp/py-easy-scrap-0.1.2.tar.gz --markdown 20230605/p/py-easy-scrap/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 05:01:34] INFO root fetch - processPackages [imageio]: executing diffoscope
+[2023-06-05 05:01:34] INFO root fetch - processPackages [imageio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imageio-2.8.0.tar.gz tmp/imageio-2.9.0.tar.gz --markdown 20230605/i/imageio/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-05 05:01:34] INFO root fetch - processPackages [bnipython]: Downloading https://files.pythonhosted.org/packages/db/2e/1ac74bc9223ef44588527e47be2df2987b53bccd5a5a6105935411cbe7fa/bnipython-0.6.5.tar.gz
+[2023-06-05 05:01:34] INFO root fetch - processPackages [bnipython]: executing diffoscope
+[2023-06-05 05:01:34] INFO root fetch - processPackages [bnipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnipython-0.6.4.tar.gz tmp/bnipython-0.6.5.tar.gz --markdown 20230605/b/bnipython/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-05 05:01:35] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-05 05:01:35] INFO root fetch - main [MainThread]: End processing [py-easy-scrap]: success
+[2023-06-05 05:01:35] INFO root fetch - main [MainThread]: End processing [bnipython]: success
+[2023-06-05 05:01:36] INFO root fetch - main [MainThread]: End processing [imageio]: success
+[2023-06-05 05:01:36] INFO root fetch - main [MainThread]: Store serial: [18371364]
