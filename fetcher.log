@@ -5173,3 +5173,28 @@
 [2023-06-05 07:17:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-05 07:18:02] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
 [2023-06-05 07:18:02] INFO root fetch - main [MainThread]: Store serial: [18371865]
+[2023-06-05 07:23:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371865]
+[2023-06-05 07:23:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 07:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecape
+[2023-06-05 07:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gensp
+[2023-06-05 07:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stopwords-zh
+[2023-06-05 07:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-adom
+[2023-06-05 07:23:11] INFO root fetch - processPackages [stopwords-zh]: New version: [2023.6.5.13.18.38] Old Version: [2023.5.4.10.49.5]
+[2023-06-05 07:23:11] INFO root fetch - processPackages [ecape]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 07:23:11] INFO root fetch - processPackages [gensp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 07:23:11] WARNING root fetch - processPackages [antchain-adom]: Skipping, unable to determine old version
+[2023-06-05 07:23:11] INFO root fetch - main [MainThread]: End processing [antchain-adom] error
+[2023-06-05 07:23:11] INFO root fetch - processPackages [stopwords-zh]: Downloading https://files.pythonhosted.org/packages/99/69/ec4464fd2c45096822351a7cc9ed70fd31988b1651cc3518fea77772ab09/stopwords-zh-2023.5.4.10.49.5.tar.gz
+[2023-06-05 07:23:11] INFO root fetch - processPackages [gensp]: Downloading https://files.pythonhosted.org/packages/27/bb/c7ca645fc97f3f910727fa462f163d38dd5c9b4cef24ec8b41dd543be0b6/gensp-1.0.9.tar.gz
+[2023-06-05 07:23:11] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/e8/1f/1bf5bbf267bc1d2b7a9d257eced7b8dafe5f90dc38a1a98ede9b9f63798f/ecape-0.0.5.tar.gz
+[2023-06-05 07:23:11] INFO root fetch - processPackages [ecape]: executing diffoscope
+[2023-06-05 07:23:11] INFO root fetch - processPackages [ecape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecape-0.0.4.tar.gz tmp/ecape-0.0.5.tar.gz --markdown 20230605/e/ecape/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 07:23:12] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 07:23:12] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.8.tar.gz tmp/gensp-1.0.9.tar.gz --markdown 20230605/g/gensp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 07:23:12] INFO root fetch - processPackages [stopwords-zh]: Downloading https://files.pythonhosted.org/packages/87/23/c5d6fb809da70a4c93c62352c3d8f6e4dec98f9cd2fdeb47f6a336734cd3/stopwords-zh-2023.6.5.13.18.38.tar.gz
+[2023-06-05 07:23:12] INFO root fetch - processPackages [stopwords-zh]: executing diffoscope
+[2023-06-05 07:23:12] INFO root fetch - processPackages [stopwords-zh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords-zh-2023.5.4.10.49.5.tar.gz tmp/stopwords-zh-2023.6.5.13.18.38.tar.gz --markdown 20230605/s/stopwords-zh/2023.5.4.10.49.5-2023.6.5.13.18.38/diff.md --exclude *.pyd
+[2023-06-05 07:23:13] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 07:23:13] INFO root fetch - main [MainThread]: End processing [ecape]: success
+[2023-06-05 07:23:13] INFO root fetch - main [MainThread]: End processing [stopwords-zh]: success
+[2023-06-05 07:23:13] INFO root fetch - main [MainThread]: Store serial: [18371879]
