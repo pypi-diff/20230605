@@ -7426,3 +7426,112 @@
 [2023-06-05 10:17:04] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-05 10:17:05] INFO root fetch - main [MainThread]: End processing [pychoacoustics]: success
 [2023-06-05 10:17:05] INFO root fetch - main [MainThread]: Store serial: [18373219]
+[2023-06-05 10:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18373219]
+[2023-06-05 10:22:14] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myDynamixel
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mastf-libscout
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwak-core
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prancer-basic
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sound-source-id
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Trello-Wrapper
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easyai-sdwebui-api
+[2023-06-05 10:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mock-data-generator
+[2023-06-05 10:22:14] INFO root fetch - processPackages [myDynamixel]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-05 10:22:14] WARNING root fetch - processPackages [Trello-Wrapper]: Skipping, unable to determine old version
+[2023-06-05 10:22:14] INFO root fetch - processPackages [mastf-libscout]: New version: [0.1.1a0] Old Version: [0.1.0a0]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [Trello-Wrapper]: Start processing: aiofile
+[2023-06-05 10:22:14] INFO root fetch - main [MainThread]: End processing [Trello-Wrapper] error
+[2023-06-05 10:22:14] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.456.0]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [mock-data-generator]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [sound-source-id]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [easyai-sdwebui-api]: New version: [0.1.3rc1] Old Version: [0.1.2]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [qwak-core]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [aiofile]: New version: [3.8.6] Old Version: [3.8.5]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [prancer-basic]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230605] Old Version: [2.14.0.dev20230604]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [mastf-libscout]: Downloading https://files.pythonhosted.org/packages/ab/2b/e0950ab7695c89558b6323107f9b1457711c30c03a48f5163ef8b2ba30ef/mastf-libscout-0.1.0a0.tar.gz
+[2023-06-05 10:22:14] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/5d/35/b02e06d2802473dda6c9b6c9f7e0c968c7814eee05f23899582e6822dd21/stigg_api_client-0.456.0.tar.gz
+[2023-06-05 10:22:14] INFO root fetch - processPackages [myDynamixel]: Downloading https://files.pythonhosted.org/packages/d6/03/cb4546f25d764538fe4f93e62693a5c7342ac4a7e0c37e794fd2b1e0b61b/myDynamixel-1.3.0-py3-none-any.whl
+[2023-06-05 10:22:14] INFO root fetch - processPackages [aiofile]: Downloading https://files.pythonhosted.org/packages/85/21/30b99e6e76dfafb97d062482cd1a55feda869027cfd33e504beec6cfd40d/aiofile-3.8.5.tar.gz
+[2023-06-05 10:22:14] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/d4/18/c183f3a613dd30db4de5f814930ea1d45068087f732679ce366353daeb63/mock_data_generator-1.0.2.tar.gz
+[2023-06-05 10:22:14] INFO root fetch - processPackages [sound-source-id]: Downloading https://files.pythonhosted.org/packages/a8/2c/28668024facc337033b790253666902b199f971431308172e708c28e99d1/sound_source_id-0.0.2.tar.gz
+[2023-06-05 10:22:14] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/ce/90/7f6b24c5a53bed2182a31470c79e93d93fe511588b55376087f614e927dd/prancer-basic-3.0.6.tar.gz
+[2023-06-05 10:22:14] INFO root fetch - processPackages [easyai-sdwebui-api]: Downloading https://files.pythonhosted.org/packages/8e/3d/53bf57a72019a54d178494f04a347e0c6837e6e3909de86b0772a43655f6/easyai-sdwebui-api-0.1.2.tar.gz
+[2023-06-05 10:22:14] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/c7/31/cbcdbade4e5fe13f7831ec98e34e19ab24e72fe25c4850e2cc65412eb1b2/tf_nightly-2.14.0.dev20230604-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 10:22:14] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 488946040>=10485760
+[2023-06-05 10:22:14] INFO root fetch - processPackages [tf-nightly]: Start processing: callapi
+[2023-06-05 10:22:14] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-05 10:22:14] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/4b/93/6370b5df392135aec2a9a9d8e0df531a9c0f5cc798229ac465a876ca23dd/qwak_core-0.0.96.tar.gz
+[2023-06-05 10:22:14] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-05 10:22:14] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.0.1.tar.gz tmp/mock_data_generator-1.0.2.tar.gz --markdown 20230605/m/mock-data-generator/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 10:22:14] INFO root fetch - processPackages [callapi]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-05 10:22:14] INFO root fetch - processPackages [myDynamixel]: Downloading https://files.pythonhosted.org/packages/e2/e1/5871f0d3344cafc1ff6c48fb3c1b97fb0ed08c339e3be79baf8ba9fbab7b/myDynamixel-1.3.1-py3-none-any.whl
+[2023-06-05 10:22:14] INFO root fetch - processPackages [mastf-libscout]: Downloading https://files.pythonhosted.org/packages/db/ae/5aef5359f8c187dd35fe16e4fb9a3442a18309f76271b728ad8c15f436ad/mastf-libscout-0.1.1a0.tar.gz
+[2023-06-05 10:22:14] INFO root fetch - processPackages [aiofile]: Downloading https://files.pythonhosted.org/packages/d8/0d/03c0396e40cf1ff6d364f653bd36d812bce77a54a7dde4e8d7450312a17a/aiofile-3.8.6.tar.gz
+[2023-06-05 10:22:15] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-05 10:22:15] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.95.tar.gz tmp/qwak_core-0.0.96.tar.gz --markdown 20230605/q/qwak-core/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-06-05 10:22:15] INFO root fetch - processPackages [myDynamixel]: executing diffoscope
+[2023-06-05 10:22:15] INFO root fetch - processPackages [myDynamixel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myDynamixel-1.3.0-py3-none-any.whl.zip tmp/myDynamixel-1.3.1-py3-none-any.whl.zip --markdown 20230605/m/myDynamixel/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-05 10:22:15] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-06-05 10:22:15] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/88/c5/09fcd86179381db6c3227fcdf22fc6fcde70cffefd223aa3127a77c26e42/prancer-basic-3.0.7.tar.gz
+[2023-06-05 10:22:15] INFO root fetch - processPackages [aiofile]: executing diffoscope
+[2023-06-05 10:22:15] INFO root fetch - processPackages [aiofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofile-3.8.5.tar.gz tmp/aiofile-3.8.6.tar.gz --markdown 20230605/a/aiofile/3.8.5-3.8.6/diff.md --exclude *.pyd
+[2023-06-05 10:22:15] INFO root fetch - processPackages [sound-source-id]: Downloading https://files.pythonhosted.org/packages/71/32/8d5d9af817f692184dba05e8a7d6372c955fd153f5f9d3ccff6d3fa8d8b9/sound_source_id-0.0.3.tar.gz
+[2023-06-05 10:22:15] INFO root fetch - processPackages [callapi]: Downloading https://files.pythonhosted.org/packages/dc/48/2f7e389666650ecde168ef40ffebed0718e2e81f739b00c29098db6b7ea7/callapi-0.1.0.tar.gz
+[2023-06-05 10:22:15] INFO root fetch - processPackages [easyai-sdwebui-api]: Downloading https://files.pythonhosted.org/packages/3b/d3/da6369ff822cc3b9ad4d675fe6134817006118104aeb6b6c0545a34983ab/easyai-sdwebui-api-0.1.3rc1.tar.gz
+[2023-06-05 10:22:15] INFO root fetch - processPackages [mastf-libscout]: executing diffoscope
+[2023-06-05 10:22:15] INFO root fetch - processPackages [mastf-libscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastf-libscout-0.1.0a0.tar.gz tmp/mastf-libscout-0.1.1a0.tar.gz --markdown 20230605/m/mastf-libscout/0.1.0a0-0.1.1a0/diff.md --exclude *.pyd
+[2023-06-05 10:22:15] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-06-05 10:22:15] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.456.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230605/s/stigg-api-client/0.456.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 10:22:15] INFO root fetch - processPackages [prancer-basic]: executing diffoscope
+[2023-06-05 10:22:15] INFO root fetch - processPackages [prancer-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prancer-basic-3.0.6.tar.gz tmp/prancer-basic-3.0.7.tar.gz --markdown 20230605/p/prancer-basic/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-06-05 10:22:15] INFO root fetch - processPackages [sound-source-id]: executing diffoscope
+[2023-06-05 10:22:15] INFO root fetch - processPackages [sound-source-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sound_source_id-0.0.2.tar.gz tmp/sound_source_id-0.0.3.tar.gz --markdown 20230605/s/sound-source-id/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 10:22:15] INFO root fetch - processPackages [callapi]: Downloading https://files.pythonhosted.org/packages/44/98/3b9fcee13d0e7257f94ee2dfa1ca6618e12ca4f9f457ece7574332c4eae6/callapi-1.0.0.tar.gz
+[2023-06-05 10:22:15] INFO root fetch - processPackages [easyai-sdwebui-api]: executing diffoscope
+[2023-06-05 10:22:15] INFO root fetch - processPackages [easyai-sdwebui-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyai-sdwebui-api-0.1.2.tar.gz tmp/easyai-sdwebui-api-0.1.3rc1.tar.gz --markdown 20230605/e/easyai-sdwebui-api/0.1.2-0.1.3rc1/diff.md --exclude *.pyd
+[2023-06-05 10:22:15] INFO root fetch - processPackages [callapi]: executing diffoscope
+[2023-06-05 10:22:15] INFO root fetch - processPackages [callapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callapi-0.1.0.tar.gz tmp/callapi-1.0.0.tar.gz --markdown 20230605/c/callapi/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 10:22:16] INFO root fetch - processPackages [mock-data-generator]: Start processing: mastf-libscout
+[2023-06-05 10:22:16] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-05 10:22:16] INFO root fetch - processPackages [mastf-libscout]: New version: [0.1.1a0] Old Version: [0.1.0a0]
+[2023-06-05 10:22:16] INFO root fetch - processPackages [mastf-libscout]: executing diffoscope
+[2023-06-05 10:22:16] INFO root fetch - processPackages [mastf-libscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastf-libscout-0.1.0a0.tar.gz tmp/mastf-libscout-0.1.1a0.tar.gz --markdown 20230605/m/mastf-libscout/0.1.0a0-0.1.1a0/diff.md --exclude *.pyd
+[2023-06-05 10:22:16] INFO root fetch - processPackages [myDynamixel]: Start processing: hip-data-ml-utils
+[2023-06-05 10:22:16] INFO root fetch - main [MainThread]: End processing [myDynamixel]: success
+[2023-06-05 10:22:16] INFO root fetch - processPackages [hip-data-ml-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 10:22:16] INFO root fetch - processPackages [aiofile]: Start processing: cloudtik
+[2023-06-05 10:22:16] INFO root fetch - main [MainThread]: End processing [aiofile]: success
+[2023-06-05 10:22:16] INFO root fetch - processPackages [hip-data-ml-utils]: Downloading https://files.pythonhosted.org/packages/d0/14/ce6ee1ac95cc54ccf38488816d55a3fd28b070f35ffa0f3b2868345b466a/hip_data_ml_utils-1.0.2.tar.gz
+[2023-06-05 10:22:16] INFO root fetch - processPackages [cloudtik]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-06-05 10:22:17] INFO root fetch - processPackages [hip-data-ml-utils]: executing diffoscope
+[2023-06-05 10:22:17] INFO root fetch - processPackages [hip-data-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hip_data_ml_utils-1.0.1.tar.gz tmp/hip_data_ml_utils-1.0.2.tar.gz --markdown 20230605/h/hip-data-ml-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 10:22:17] INFO root fetch - processPackages [callapi]: Start processing: rdf-doctor
+[2023-06-05 10:22:17] INFO root fetch - main [MainThread]: End processing [callapi]: success
+[2023-06-05 10:22:17] INFO root fetch - processPackages [rdf-doctor]: New version: [0.8.0] Old Version: [0.2.2]
+[2023-06-05 10:22:17] INFO root fetch - processPackages [cloudtik]: Downloading https://files.pythonhosted.org/packages/08/5d/79e6ae0820cbf6ec6be34f503d6eb9b60368caa6e016a8d7bc77ac762d01/cloudtik-1.0.7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-05 10:22:17] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/bd/00/11184bd54b79ed59eadd6a74e3b8b83c5137d211535f1615f16464a84d82/rdf_doctor-0.2.2-py3-none-any.whl
+[2023-06-05 10:22:17] INFO root fetch - processPackages [mastf-libscout]: Start processing: openedx-scorm-xblock
+[2023-06-05 10:22:17] INFO root fetch - main [MainThread]: End processing [mastf-libscout]: success
+[2023-06-05 10:22:17] INFO root fetch - processPackages [openedx-scorm-xblock]: New version: [9.5.1] Old Version: [9.5.0]
+[2023-06-05 10:22:17] INFO root fetch - processPackages [cloudtik]: Downloading https://files.pythonhosted.org/packages/a4/65/e661725082b618a9564d8e49c198721b8e56cb4e2c09b548461436cdece8/cloudtik-1.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-05 10:22:17] INFO root fetch - processPackages [openedx-scorm-xblock]: executing diffoscope
+[2023-06-05 10:22:17] INFO root fetch - processPackages [openedx-scorm-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-scorm-xblock-9.5.0.tar.gz tmp/openedx-scorm-xblock-9.5.1.tar.gz --markdown 20230605/o/openedx-scorm-xblock/9.5.0-9.5.1/diff.md --exclude *.pyd
+[2023-06-05 10:22:17] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/9a/e5/f7beb634ff7215814c7446991ac41ef5fad93caa3ac7b7ac92aa2b75b15c/rdf_doctor-0.8.0-py3-none-any.whl
+[2023-06-05 10:22:17] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2023-06-05 10:22:17] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-0.2.2-py3-none-any.whl.zip tmp/rdf_doctor-0.8.0-py3-none-any.whl.zip --markdown 20230605/r/rdf-doctor/0.2.2-0.8.0/diff.md --exclude *.pyd
+[2023-06-05 10:22:18] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-06-05 10:22:18] INFO root fetch - main [MainThread]: End processing [easyai-sdwebui-api]: success
+[2023-06-05 10:22:18] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
+[2023-06-05 10:22:18] INFO root fetch - main [MainThread]: End processing [mastf-libscout]: success
+[2023-06-05 10:22:18] INFO root fetch - main [MainThread]: End processing [hip-data-ml-utils]: success
+[2023-06-05 10:22:19] INFO root fetch - processPackages [cloudtik]: executing diffoscope
+[2023-06-05 10:22:19] INFO root fetch - processPackages [cloudtik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtik-1.0.7-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/cloudtik-1.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230605/c/cloudtik/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 10:22:19] INFO root fetch - main [MainThread]: End processing [sound-source-id]: success
+[2023-06-05 10:22:19] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2023-06-05 10:22:19] INFO root fetch - main [MainThread]: End processing [openedx-scorm-xblock]: success
+[2023-06-05 10:22:21] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-05 10:23:32] INFO root fetch - main [MainThread]: End processing [cloudtik]: success
+[2023-06-05 10:23:32] INFO root fetch - main [MainThread]: Store serial: [18373271]
