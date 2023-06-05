@@ -19435,3 +19435,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 18:33:38] INFO root fetch - processPackages [mne]: Remove: archive file [/home/abi/fetcher/tmp/mne-1.4.1.tar.gz]
 [2023-06-05 18:33:38] INFO root fetch - main [MainThread]: End processing [mne]: success
 [2023-06-05 18:33:38] INFO root fetch - main [MainThread]: Store serial: [18378680]
+[2023-06-05 18:38:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378680]
+[2023-06-05 18:38:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tailscale
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zachet
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: determined
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calixa-proto-py
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: model-hub
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: newick-tree-builder
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Signal8
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lmo
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cpython-lldb
+[2023-06-05 18:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jgp-utils
+[2023-06-05 18:38:47] INFO root fetch - processPackages [zachet]: New version: [0.0.10] Old Version: [0.0.1]
+[2023-06-05 18:38:47] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-06-05 18:38:47] INFO root fetch - processPackages [determined]: New version: [0.23.0rc4] Old Version: [0.23.0rc3]
+[2023-06-05 18:38:47] INFO root fetch - processPackages [Signal8]: New version: [2.6] Old Version: [2.5]
+[2023-06-05 18:38:47] INFO root fetch - processPackages [lmo]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-05 18:38:47] INFO root fetch - processPackages [cpython-lldb]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-05 18:38:47] INFO root fetch - processPackages [newick-tree-builder]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-05 18:38:47] INFO root fetch - processPackages [calixa-proto-py]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 18:38:47] INFO root fetch - processPackages [model-hub]: New version: [0.23.0rc4] Old Version: [0.23.0rc3]
+[2023-06-05 18:38:47] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/bc/e8/9014a92b2bb7cb740c5d1fc570267a8f191ee72c1253458922cc03a89299/Signal8-2.5.tar.gz
+[2023-06-05 18:38:47] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/dd/c2/81baa9e52d3afde834b5176911f2ae3cdce27c82030062ac5c3ed222f6c4/lmo-0.5.2.tar.gz
+[2023-06-05 18:38:47] WARNING root fetch - processPackages [jgp-utils]: Skipping, unable to determine old version
+[2023-06-05 18:38:47] INFO root fetch - main [MainThread]: End processing [jgp-utils] error
+[2023-06-05 18:38:47] INFO root fetch - processPackages [zachet]: Downloading https://files.pythonhosted.org/packages/5f/96/acb2562f7ffa60720a0ceccd1c5f7a0a2a4e053f43c348e7c4d575144fe2/zachet-0.0.1.tar.gz
+[2023-06-05 18:38:47] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/cd/e2/a5c9912686491f72d9552443e2922afdc65615d76e7285f73fcc1717f242/determined-0.23.0rc3-py3-none-any.whl
+[2023-06-05 18:38:47] INFO root fetch - processPackages [newick-tree-builder]: Downloading https://files.pythonhosted.org/packages/f5/b1/49c174dd96cbd5ee3f9e7b411dcda53f9b45d76c43f9dd9c62c657b7e5b3/newick-tree-builder-0.4.7.tar.gz
+[2023-06-05 18:38:47] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-06-05 18:38:47] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/dd/64/07c74e7de6ef14191544b44041f2cad46f9fca954b765b21a58382bad514/model_hub-0.23.0rc3-py3-none-any.whl
+[2023-06-05 18:38:48] INFO root fetch - processPackages [calixa-proto-py]: Downloading https://files.pythonhosted.org/packages/27/dc/1cf17f2821980cbec5b9227d53697bc45bd153a9b5546f2da3895414859f/calixa-proto-py-2.0.8.tar.gz
+[2023-06-05 18:38:48] INFO root fetch - processPackages [cpython-lldb]: Downloading https://files.pythonhosted.org/packages/42/a5/3cc8bb29e42267abe909908910a76fead42c9c12723c2bc81e5ae09a57ac/cpython_lldb-0.3.1.tar.gz
+[2023-06-05 18:38:48] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/1c/c3/5cc83c15fbefe8fbe0e80ca9ae037e677769493c83bab79ff8285ed60a82/lmo-0.5.3.tar.gz
+[2023-06-05 18:38:48] INFO root fetch - processPackages [lmo]: executing diffoscope
+[2023-06-05 18:38:48] INFO root fetch - processPackages [lmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmo-0.5.2.tar.gz tmp/lmo-0.5.3.tar.gz --markdown 20230605/l/lmo/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-05 18:38:48] INFO root fetch - processPackages [zachet]: Downloading https://files.pythonhosted.org/packages/59/e9/fd7a66e15397711979565ee15445f41ad384447eac6c2d34e0ec5536aebd/zachet-0.0.10.tar.gz
+[2023-06-05 18:38:48] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/62/b9/c9cf538faddf323d3155fe45effbce868e9b40b09e478d308d15cd4483b7/Signal8-2.6.tar.gz
+[2023-06-05 18:38:48] INFO root fetch - processPackages [newick-tree-builder]: Downloading https://files.pythonhosted.org/packages/30/b3/67214d63d50384126e498d729caac1b7e3e5b85b0952421f45f2436e45f1/newick-tree-builder-0.4.8.tar.gz
+[2023-06-05 18:38:48] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/05/23/70bfd6795307c6f2ab90710227256dd47d43ea6c23a6e0f1737cf0788427/determined-0.23.0rc4-py3-none-any.whl
+[2023-06-05 18:38:48] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/34/47/2ef00c34cdb04ad44549c25e2fa5898cf26da331e89753edd9f150ee01e4/model_hub-0.23.0rc4-py3-none-any.whl
+[2023-06-05 18:38:48] INFO root fetch - processPackages [cpython-lldb]: Downloading https://files.pythonhosted.org/packages/41/47/69577abe78979fb237c133c58332376bd0162642a34e05ec78eeca691e41/cpython_lldb-0.3.2.tar.gz
+[2023-06-05 18:38:48] INFO root fetch - processPackages [zachet]: executing diffoscope
+[2023-06-05 18:38:48] INFO root fetch - processPackages [zachet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zachet-0.0.1.tar.gz tmp/zachet-0.0.10.tar.gz --markdown 20230605/z/zachet/0.0.1-0.0.10/diff.md --exclude *.pyd
+[2023-06-05 18:38:48] INFO root fetch - processPackages [calixa-proto-py]: Downloading https://files.pythonhosted.org/packages/01/30/86465543b3806024012227bd625eeaee344a1d145c297042b83becfd8a64/calixa-proto-py-2.0.9.tar.gz
+[2023-06-05 18:38:48] INFO root fetch - processPackages [newick-tree-builder]: executing diffoscope
+[2023-06-05 18:38:48] INFO root fetch - processPackages [newick-tree-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newick-tree-builder-0.4.7.tar.gz tmp/newick-tree-builder-0.4.8.tar.gz --markdown 20230605/n/newick-tree-builder/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-05 18:38:48] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-06-05 18:38:48] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-06-05 18:38:48] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.0rc3-py3-none-any.whl.zip tmp/model_hub-0.23.0rc4-py3-none-any.whl.zip --markdown 20230605/m/model-hub/0.23.0rc3-0.23.0rc4/diff.md --exclude *.pyd
+[2023-06-05 18:38:48] INFO root fetch - processPackages [cpython-lldb]: executing diffoscope
+[2023-06-05 18:38:48] INFO root fetch - processPackages [cpython-lldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpython_lldb-0.3.1.tar.gz tmp/cpython_lldb-0.3.2.tar.gz --markdown 20230605/c/cpython-lldb/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 18:38:48] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-06-05 18:38:48] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-2.5.tar.gz tmp/Signal8-2.6.tar.gz --markdown 20230605/S/Signal8/2.5-2.6/diff.md --exclude *.pyd
+[2023-06-05 18:38:48] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-06-05 18:38:48] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.0rc3-py3-none-any.whl.zip tmp/determined-0.23.0rc4-py3-none-any.whl.zip --markdown 20230605/d/determined/0.23.0rc3-0.23.0rc4/diff.md --exclude *.pyd
+[2023-06-05 18:38:48] INFO root fetch - processPackages [calixa-proto-py]: executing diffoscope
+[2023-06-05 18:38:48] INFO root fetch - processPackages [calixa-proto-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calixa-proto-py-2.0.8.tar.gz tmp/calixa-proto-py-2.0.9.tar.gz --markdown 20230605/c/calixa-proto-py/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 18:38:48] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-06-05 18:38:48] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230605/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-06-05 18:38:49] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.5.2.tar.gz]
+[2023-06-05 18:38:49] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.5.3.tar.gz]
+[2023-06-05 18:38:49] INFO root fetch - main [MainThread]: End processing [lmo]: success
+[2023-06-05 18:38:49] INFO root fetch - processPackages [zachet]: Remove: archive file [/home/abi/fetcher/tmp/zachet-0.0.1.tar.gz]
+[2023-06-05 18:38:49] INFO root fetch - processPackages [zachet]: Remove: archive file [/home/abi/fetcher/tmp/zachet-0.0.10.tar.gz]
+[2023-06-05 18:38:49] INFO root fetch - main [MainThread]: End processing [zachet]: success
+[2023-06-05 18:38:49] INFO root fetch - processPackages [newick-tree-builder]: Remove: archive file [/home/abi/fetcher/tmp/newick-tree-builder-0.4.7.tar.gz]
+[2023-06-05 18:38:49] INFO root fetch - processPackages [newick-tree-builder]: Remove: archive file [/home/abi/fetcher/tmp/newick-tree-builder-0.4.8.tar.gz]
+[2023-06-05 18:38:49] INFO root fetch - main [MainThread]: End processing [newick-tree-builder]: success
+[2023-06-05 18:38:49] INFO root fetch - processPackages [cpython-lldb]: Remove: archive file [/home/abi/fetcher/tmp/cpython_lldb-0.3.1.tar.gz]
+[2023-06-05 18:38:49] INFO root fetch - processPackages [cpython-lldb]: Remove: archive file [/home/abi/fetcher/tmp/cpython_lldb-0.3.2.tar.gz]
+[2023-06-05 18:38:49] INFO root fetch - main [MainThread]: End processing [cpython-lldb]: success
+[2023-06-05 18:38:49] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.0rc3-py3-none-any.whl.zip]
+[2023-06-05 18:38:49] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.0rc4-py3-none-any.whl.zip]
+[2023-06-05 18:38:49] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-06-05 18:38:50] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.5.tar.gz]
+[2023-06-05 18:38:50] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.6.tar.gz]
+[2023-06-05 18:38:50] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-06-05 18:38:50] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-06-05 18:38:50] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-06-05 18:38:50] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-06-05 18:38:51] INFO root fetch - processPackages [calixa-proto-py]: Remove: archive file [/home/abi/fetcher/tmp/calixa-proto-py-2.0.8.tar.gz]
+[2023-06-05 18:38:51] INFO root fetch - processPackages [calixa-proto-py]: Remove: archive file [/home/abi/fetcher/tmp/calixa-proto-py-2.0.9.tar.gz]
+[2023-06-05 18:38:51] INFO root fetch - main [MainThread]: End processing [calixa-proto-py]: success
+[2023-06-05 18:38:51] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.0rc3-py3-none-any.whl.zip]
+[2023-06-05 18:38:51] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.0rc4-py3-none-any.whl.zip]
+[2023-06-05 18:38:51] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-06-05 18:38:51] INFO root fetch - main [MainThread]: Store serial: [18378713]
