@@ -4546,3 +4546,45 @@
 [2023-06-05 05:53:46] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-05 05:53:47] INFO root fetch - main [MainThread]: End processing [edk2-basetools]: success
 [2023-06-05 05:53:47] INFO root fetch - main [MainThread]: Store serial: [18371521]
+[2023-06-05 05:58:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371521]
+[2023-06-05 05:58:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-05 05:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pigeonsai
+[2023-06-05 05:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhatching
+[2023-06-05 05:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bambooai
+[2023-06-05 05:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ilib
+[2023-06-05 05:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DeSide
+[2023-06-05 05:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: searchlogit
+[2023-06-05 05:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zipline-tej
+[2023-06-05 05:58:56] INFO root fetch - processPackages [bambooai]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-05 05:58:56] INFO root fetch - processPackages [DeSide]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 05:58:56] INFO root fetch - processPackages [ilib]: New version: [0.3] Old Version: [0.2]
+[2023-06-05 05:58:56] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 05:58:56] INFO root fetch - processPackages [pigeonsai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 05:58:56] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-05 05:58:56] WARNING root fetch - processPackages [pyhatching]: Skipping, unable to determine old version
+[2023-06-05 05:58:56] INFO root fetch - main [MainThread]: End processing [pyhatching] error
+[2023-06-05 05:58:56] INFO root fetch - processPackages [DeSide]: Downloading https://files.pythonhosted.org/packages/e6/ec/38aa05ff03930dc942f72b270f53f962e8d993f940f6b26acd06d2a6c6b0/DeSide-1.0.1.tar.gz
+[2023-06-05 05:58:56] INFO root fetch - processPackages [pigeonsai]: Downloading https://files.pythonhosted.org/packages/5b/6a/d5a9f13f262c8400add98c798f7bed4d23a08c714e8b142328ad5e98785e/pigeonsai-0.0.6.tar.gz
+[2023-06-05 05:58:56] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-05 05:58:57] INFO root fetch - processPackages [pigeonsai]: executing diffoscope
+[2023-06-05 05:58:57] INFO root fetch - processPackages [pigeonsai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonsai-0.0.5.tar.gz tmp/pigeonsai-0.0.6.tar.gz --markdown 20230605/p/pigeonsai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 05:58:57] INFO root fetch - processPackages [ilib]: Downloading https://files.pythonhosted.org/packages/03/97/c50377559ce972bc02eb3a20f736c02f1240e8061d52dc336e08347c772b/ilib-0.3.tar.gz
+[2023-06-05 05:58:57] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/2e/9f/e7140bb2ceddf4d8af0d9983e4c4ca97dc497887b8d8e2488a794a94a15e/bambooai-0.2.8.tar.gz
+[2023-06-05 05:58:57] INFO root fetch - processPackages [ilib]: executing diffoscope
+[2023-06-05 05:58:57] INFO root fetch - processPackages [ilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilib-0.2.tar.gz tmp/ilib-0.3.tar.gz --markdown 20230605/i/ilib/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-05 05:58:57] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-06-05 05:58:57] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.2.7.tar.gz tmp/bambooai-0.2.8.tar.gz --markdown 20230605/b/bambooai/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-05 05:58:57] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-05 05:58:57] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230605/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 05:58:57] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-05 05:58:57] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230605/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-05 05:58:57] INFO root fetch - processPackages [DeSide]: Downloading https://files.pythonhosted.org/packages/60/72/2d87cb182f93d1a4c08635d608e04d499e999ef9873deca86e39e8567373/DeSide-1.0.2.tar.gz
+[2023-06-05 05:58:57] INFO root fetch - processPackages [DeSide]: executing diffoscope
+[2023-06-05 05:58:57] INFO root fetch - processPackages [DeSide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeSide-1.0.1.tar.gz tmp/DeSide-1.0.2.tar.gz --markdown 20230605/D/DeSide/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 05:58:58] INFO root fetch - main [MainThread]: End processing [pigeonsai]: success
+[2023-06-05 05:58:58] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-06-05 05:58:58] INFO root fetch - main [MainThread]: End processing [ilib]: success
+[2023-06-05 05:58:58] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-05 05:58:59] INFO root fetch - main [MainThread]: End processing [DeSide]: success
+[2023-06-05 05:59:00] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-05 05:59:00] INFO root fetch - main [MainThread]: Store serial: [18371545]
