@@ -20601,3 +20601,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 19:27:58] INFO root fetch - processPackages [hello50]: Remove: archive file [/home/abi/fetcher/tmp/hello50-1.1.90.tar.gz]
 [2023-06-05 19:27:58] INFO root fetch - main [MainThread]: End processing [hello50]: success
 [2023-06-05 19:27:58] INFO root fetch - main [MainThread]: Store serial: [18379134]
+[2023-06-05 19:33:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18379134]
+[2023-06-05 19:33:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Signal8
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lvsfunc
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: howistheweathertoday
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xGPR
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Signal8
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interpreters-3-12
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylogics
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: panel
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: howistheweathertoday
+[2023-06-05 19:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mit-tools
+[2023-06-05 19:33:08] INFO root fetch - processPackages [lvsfunc]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-05 19:33:08] INFO root fetch - processPackages [xGPR]: New version: [0.1.1.0] Old Version: [0.1.0.6]
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: New version: [2.8] Old Version: [2.7]
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-05 19:33:08] INFO root fetch - processPackages [pylogics]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-05 19:33:08] WARNING root fetch - processPackages [interpreters-3-12]: Skipping, unable to determine old version
+[2023-06-05 19:33:08] WARNING root fetch - processPackages [mit-tools]: Skipping, unable to determine old version
+[2023-06-05 19:33:08] INFO root fetch - main [MainThread]: End processing [interpreters-3-12] error
+[2023-06-05 19:33:08] INFO root fetch - main [MainThread]: End processing [mit-tools] error
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: New version: [2.8] Old Version: [2.7]
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-05 19:33:08] INFO root fetch - processPackages [panel]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/54/2e/ecdca19662f6dce7787719af8478ede73c7a4048c813da7884ae54f07692/Signal8-2.7.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/54/2e/ecdca19662f6dce7787719af8478ede73c7a4048c813da7884ae54f07692/Signal8-2.7.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/52/c5/4657279f93f0896f14294eb9df1d5fae50b7ef2f16067f1c6bf1a9431a21/xGPR-0.1.0.6.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: Downloading https://files.pythonhosted.org/packages/1b/88/7a75e2cc49c1b1c1670e7d2e7163bea58d4a2eae7c66a51721a1d4323a3e/howistheweathertoday-1.0.0.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [lvsfunc]: Downloading https://files.pythonhosted.org/packages/22/5a/b82bcfa741f1dc324aa865ac09ea8e4a759d96cd34bb153e460eb0935a0f/lvsfunc-0.7.1.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: Downloading https://files.pythonhosted.org/packages/1b/88/7a75e2cc49c1b1c1670e7d2e7163bea58d4a2eae7c66a51721a1d4323a3e/howistheweathertoday-1.0.0.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/4d/aa/21014f070a06b777d1a167da91d2f10cc932c82c1b9f4d6423860629201e/panel-1.1.0rc1.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [pylogics]: Downloading https://files.pythonhosted.org/packages/ab/5e/c4a542fd747e5a9a9deffd4f665539f21d5dc64a6bb32e76f143758b84c9/pylogics-0.1.1.tar.gz
+[2023-06-05 19:33:08] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25710017>=10485760
+[2023-06-05 19:33:08] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/1d/f2/98c2ff110c06b0cf7ddd14fc782444a3a6a456d55b281ce01213f1e61977/Signal8-2.8.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/1d/f2/98c2ff110c06b0cf7ddd14fc782444a3a6a456d55b281ce01213f1e61977/Signal8-2.8.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: Downloading https://files.pythonhosted.org/packages/34/ac/0fe4d9cc4fa03a551a15527c93ca11905292319c814ef627eabb5fc3ad3d/howistheweathertoday-1.1.0.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: Downloading https://files.pythonhosted.org/packages/34/ac/0fe4d9cc4fa03a551a15527c93ca11905292319c814ef627eabb5fc3ad3d/howistheweathertoday-1.1.0.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [lvsfunc]: Downloading https://files.pythonhosted.org/packages/03/bd/e0869d867e48ff76f8e283ab04e88ea3232a126eb7f03542cad2fb5d665f/lvsfunc-0.8.0.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: executing diffoscope
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/howistheweathertoday-1.0.0.tar.gz tmp/howistheweathertoday-1.1.0.tar.gz --markdown 20230605/h/howistheweathertoday/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 19:33:08] INFO root fetch - processPackages [pylogics]: Downloading https://files.pythonhosted.org/packages/01/31/1ad2ccdd7bcba17b6fadeb95b7b49923b431e53517d3526369a916e98990/pylogics-0.2.0.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: executing diffoscope
+[2023-06-05 19:33:08] INFO root fetch - processPackages [howistheweathertoday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/howistheweathertoday-1.0.0.tar.gz tmp/howistheweathertoday-1.1.0.tar.gz --markdown 20230605/h/howistheweathertoday/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 19:33:08] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/63/7a/ee183f99d808b35118047120039a764b99496217cc161a6862063db17304/xGPR-0.1.1.0.tar.gz
+[2023-06-05 19:33:08] INFO root fetch - processPackages [lvsfunc]: executing diffoscope
+[2023-06-05 19:33:08] INFO root fetch - processPackages [lvsfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvsfunc-0.7.1.tar.gz tmp/lvsfunc-0.8.0.tar.gz --markdown 20230605/l/lvsfunc/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-2.7.tar.gz tmp/Signal8-2.8.tar.gz --markdown 20230605/S/Signal8/2.7-2.8/diff.md --exclude *.pyd
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-06-05 19:33:08] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-2.7.tar.gz tmp/Signal8-2.8.tar.gz --markdown 20230605/S/Signal8/2.7-2.8/diff.md --exclude *.pyd
+[2023-06-05 19:33:08] INFO root fetch - processPackages [pylogics]: executing diffoscope
+[2023-06-05 19:33:08] INFO root fetch - processPackages [pylogics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogics-0.1.1.tar.gz tmp/pylogics-0.2.0.tar.gz --markdown 20230605/p/pylogics/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 19:33:08] INFO root fetch - processPackages [xGPR]: executing diffoscope
+[2023-06-05 19:33:08] INFO root fetch - processPackages [xGPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xGPR-0.1.0.6.tar.gz tmp/xGPR-0.1.1.0.tar.gz --markdown 20230605/x/xGPR/0.1.0.6-0.1.1.0/diff.md --exclude *.pyd
+[2023-06-05 19:33:09] INFO root fetch - processPackages [howistheweathertoday]: Remove: archive file [/home/abi/fetcher/tmp/howistheweathertoday-1.0.0.tar.gz]
+[2023-06-05 19:33:09] INFO root fetch - processPackages [howistheweathertoday]: Remove: archive file [/home/abi/fetcher/tmp/howistheweathertoday-1.1.0.tar.gz]
+[2023-06-05 19:33:09] INFO root fetch - main [MainThread]: End processing [howistheweathertoday]: success
+[2023-06-05 19:33:10] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.7.tar.gz]
+[2023-06-05 19:33:10] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.8.tar.gz]
+[2023-06-05 19:33:10] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-06-05 19:33:10] INFO root fetch - main [MainThread]: End processing [howistheweathertoday]: success
+[2023-06-05 19:33:10] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-06-05 19:33:10] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.0.6.tar.gz]
+[2023-06-05 19:33:10] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.1.0.tar.gz]
+[2023-06-05 19:33:10] INFO root fetch - main [MainThread]: End processing [xGPR]: success
+[2023-06-05 19:34:04] INFO root fetch - processPackages [lvsfunc]: Remove: archive file [/home/abi/fetcher/tmp/lvsfunc-0.7.1.tar.gz]
+[2023-06-05 19:34:04] INFO root fetch - processPackages [lvsfunc]: Remove: archive file [/home/abi/fetcher/tmp/lvsfunc-0.8.0.tar.gz]
+[2023-06-05 19:34:04] INFO root fetch - main [MainThread]: End processing [lvsfunc]: success
+[2023-06-05 19:34:05] INFO root fetch - processPackages [pylogics]: Remove: archive file [/home/abi/fetcher/tmp/pylogics-0.1.1.tar.gz]
+[2023-06-05 19:34:05] INFO root fetch - processPackages [pylogics]: Remove: archive file [/home/abi/fetcher/tmp/pylogics-0.2.0.tar.gz]
+[2023-06-05 19:34:05] INFO root fetch - main [MainThread]: End processing [pylogics]: success
+[2023-06-05 19:34:05] INFO root fetch - main [MainThread]: Store serial: [18379183]
