@@ -16787,3 +16787,187 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 17:08:24] INFO root fetch - processPackages [nicegui]: Remove: archive file [/home/abi/fetcher/tmp/nicegui-1.2.9.tar.gz]
 [2023-06-05 17:08:24] INFO root fetch - main [MainThread]: End processing [nicegui]: success
 [2023-06-05 17:08:24] INFO root fetch - main [MainThread]: Store serial: [18377550]
+[2023-06-05 17:13:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377550]
+[2023-06-05 17:13:35] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LaueTools
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tagging-module
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hmd-cli-docker
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-stabilize-amount
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terraform-backend-s3-bucket
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nlptest
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyDriller
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hmd-cli-transform-deploy
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sharkpyro
+[2023-06-05 17:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymablock
+[2023-06-05 17:13:35] INFO root fetch - processPackages [LaueTools]: New version: [3.0.65] Old Version: [3.0.64]
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-docker]: New version: [0.1.117] Old Version: [0.1.116]
+[2023-06-05 17:13:35] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 17:13:35] WARNING root fetch - processPackages [django-stabilize-amount]: Skipping, unable to determine old version
+[2023-06-05 17:13:35] INFO root fetch - processPackages [django-stabilize-amount]: Start processing: PVNet
+[2023-06-05 17:13:35] INFO root fetch - main [MainThread]: End processing [django-stabilize-amount] error
+[2023-06-05 17:13:35] INFO root fetch - processPackages [tagging-module]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 17:13:35] WARNING root fetch - processPackages [pymablock]: Skipping, unable to determine old version
+[2023-06-05 17:13:35] INFO root fetch - processPackages [pymablock]: Start processing: hmd-cli-bender
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-transform-deploy]: New version: [0.1.51] Old Version: [0.1.44]
+[2023-06-05 17:13:35] INFO root fetch - main [MainThread]: End processing [pymablock] error
+[2023-06-05 17:13:35] WARNING root fetch - processPackages [sharkpyro]: Skipping, unable to determine old version
+[2023-06-05 17:13:35] INFO root fetch - processPackages [sharkpyro]: Start processing: scdeepinsight
+[2023-06-05 17:13:35] INFO root fetch - main [MainThread]: End processing [sharkpyro] error
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PyDriller]: New version: [2.5] Old Version: [2.4.1]
+[2023-06-05 17:13:35] INFO root fetch - processPackages [nlptest]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-bender]: New version: [0.1.22] Old Version: [0.1.19]
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PVNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 17:13:35] INFO root fetch - processPackages [scdeepinsight]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-05 17:13:35] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/5d/26/6d8b9381f9027997fc2e2b35fa84c5a0c46a64cef0e64bb3786ad3ebae12/scdeepinsight-0.1.6.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/3b/54/0abd157d9ca0e1bd9deaa1296cf25406cd85fe1e4ff090c3d004e7b22b6d/PVNet-0.0.8.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [LaueTools]: Downloading https://files.pythonhosted.org/packages/27/ba/8177ac59cc678d642fbbbe7df22aeee566683abf2c6e83ccd566e3e45d9b/LaueTools-3.0.64.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-transform-deploy]: Downloading https://files.pythonhosted.org/packages/ac/d3/d0ea8327fbcd4808983f6303a4b2e2a51a2e239571876990429f3e647981/hmd_cli_transform_deploy-0.1.44-py3-none-any.whl
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-docker]: Downloading https://files.pythonhosted.org/packages/9f/2c/431a47f38e8da65df3fe1ead43f9f08f894d834982c700344c68a233ba27/hmd_cli_docker-0.1.116-py3-none-any.whl
+[2023-06-05 17:13:35] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-bender]: Downloading https://files.pythonhosted.org/packages/0e/18/dc5e9bf4697513ec1ee71c94f76b1d7fa4f58808e8965a3467be256919ab/hmd_cli_bender-0.1.19-py3-none-any.whl
+[2023-06-05 17:13:35] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/dc/78/5c9801d05e8b6540c8d797b59b5df71169bde45c64897aa2f528acf9351a/nlptest-1.4.0rc1.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [tagging-module]: Downloading https://files.pythonhosted.org/packages/9f/90/262e1462e8677cfd539a9e4b2ce29c78fa179d69217b86704ac4e60ae4e8/tagging_module-0.0.7.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PyDriller]: Downloading https://files.pythonhosted.org/packages/0c/a5/0a5abc195a0a23ddf288545597c568fb4e1eedf7bf78fe33b9314722c1ca/PyDriller-2.4.1-py3-none-any.whl
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/ed/6c/ae306ef51fc937145d77865d3c9d3cec6a9c232d5791eaac8a33861472f6/PVNet-0.0.9.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/ec/13/34ea7f23dd315411aae9e3000ba888ff011c1db38c161d350f132056e1c1/scdeepinsight-0.1.7.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-transform-deploy]: Downloading https://files.pythonhosted.org/packages/a6/6a/973963dd717c065bc45ffb35344ed283b8d36032fd017d4e59a56c5b9ca8/hmd_cli_transform_deploy-0.1.51-py3-none-any.whl
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PyDriller]: Downloading https://files.pythonhosted.org/packages/e0/eb/f3b7a4afe6fd22fffdb99ddfd91eae8cec974ca2a5424333a8ff45b1be4e/PyDriller-2.5-py3-none-any.whl
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-docker]: Downloading https://files.pythonhosted.org/packages/bf/14/875e63ca1dff0aa363737d1e9a02f17ee4cc239187ceee409c54d8899c53/hmd_cli_docker-0.1.117-py3-none-any.whl
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-bender]: Downloading https://files.pythonhosted.org/packages/74/33/fc367d80bb7b54f7ee3832ad4522695fdde5d0487e81b6935b8b51eab764/hmd_cli_bender-0.1.22-py3-none-any.whl
+[2023-06-05 17:13:35] INFO root fetch - processPackages [scdeepinsight]: executing diffoscope
+[2023-06-05 17:13:35] INFO root fetch - processPackages [scdeepinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdeepinsight-0.1.6.tar.gz tmp/scdeepinsight-0.1.7.tar.gz --markdown 20230605/s/scdeepinsight/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.8.tar.gz tmp/PVNet-0.0.9.tar.gz --markdown 20230605/P/PVNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:13:35] WARNING root fetch - processPackages [LaueTools]: Skipping package: exceeds size limit 48277615>=10485760
+[2023-06-05 17:13:35] INFO root fetch - processPackages [LaueTools]: Start processing: odoo-addon-purchase-work-acceptance
+[2023-06-05 17:13:35] INFO root fetch - main [MainThread]: End processing [LaueTools] error
+[2023-06-05 17:13:35] INFO root fetch - processPackages [tagging-module]: Downloading https://files.pythonhosted.org/packages/18/6d/be5cf88e7b9b81704e5ad3f50b239bd3af3310c16bad38e356d0e2f1fbfd/tagging_module-0.0.8.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-transform-deploy]: executing diffoscope
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-transform-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_cli_transform_deploy-0.1.44-py3-none-any.whl.zip tmp/hmd_cli_transform_deploy-0.1.51-py3-none-any.whl.zip --markdown 20230605/h/hmd-cli-transform-deploy/0.1.44-0.1.51/diff.md --exclude *.pyd
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PyDriller]: executing diffoscope
+[2023-06-05 17:13:35] INFO root fetch - processPackages [PyDriller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDriller-2.4.1-py3-none-any.whl.zip tmp/PyDriller-2.5-py3-none-any.whl.zip --markdown 20230605/P/PyDriller/2.4.1-2.5/diff.md --exclude *.pyd
+[2023-06-05 17:13:35] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-docker]: executing diffoscope
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_cli_docker-0.1.116-py3-none-any.whl.zip tmp/hmd_cli_docker-0.1.117-py3-none-any.whl.zip --markdown 20230605/h/hmd-cli-docker/0.1.116-0.1.117/diff.md --exclude *.pyd
+[2023-06-05 17:13:35] INFO root fetch - processPackages [odoo-addon-purchase-work-acceptance]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.1]
+[2023-06-05 17:13:35] INFO root fetch - processPackages [tagging-module]: executing diffoscope
+[2023-06-05 17:13:35] INFO root fetch - processPackages [tagging-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagging_module-0.0.7.tar.gz tmp/tagging_module-0.0.8.tar.gz --markdown 20230605/t/tagging-module/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 17:13:35] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 74512449>=10485760
+[2023-06-05 17:13:35] INFO root fetch - processPackages [nlptest]: Start processing: pepperize.cdk-security-group
+[2023-06-05 17:13:35] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-bender]: executing diffoscope
+[2023-06-05 17:13:35] INFO root fetch - processPackages [hmd-cli-bender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_cli_bender-0.1.19-py3-none-any.whl.zip tmp/hmd_cli_bender-0.1.22-py3-none-any.whl.zip --markdown 20230605/h/hmd-cli-bender/0.1.19-0.1.22/diff.md --exclude *.pyd
+[2023-06-05 17:13:35] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 17:13:35] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-06-05 17:13:35] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230605/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:13:35] INFO root fetch - processPackages [odoo-addon-purchase-work-acceptance]: Downloading https://files.pythonhosted.org/packages/e8/cd/ffaa7f80fb30e1828d7978fa987c07f90856b1acd605e06dd9656857af8a/odoo_addon_purchase_work_acceptance-15.0.1.0.1-py3-none-any.whl
+[2023-06-05 17:13:36] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/51/98/1c396781b2a6e81d75ff16359a412509fb0b2e194622172459fdd5a259e9/pepperize.cdk-security-group-0.0.98.tar.gz
+[2023-06-05 17:13:36] INFO root fetch - processPackages [odoo-addon-purchase-work-acceptance]: Downloading https://files.pythonhosted.org/packages/15/17/e72428aa2f66c4c89c553204fbf49ec175f2f58217dcb7cc18e152442f78/odoo_addon_purchase_work_acceptance-15.0.1.1.0-py3-none-any.whl
+[2023-06-05 17:13:36] INFO root fetch - processPackages [odoo-addon-purchase-work-acceptance]: executing diffoscope
+[2023-06-05 17:13:36] INFO root fetch - processPackages [odoo-addon-purchase-work-acceptance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_work_acceptance-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_work_acceptance-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-purchase-work-acceptance/15.0.1.0.1-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-05 17:13:36] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/f9/44/84eb1aff085a41b99d2fbf0824481285bc3007b7c318e9a646a4802ce199/pepperize.cdk-security-group-0.0.99.tar.gz
+[2023-06-05 17:13:36] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-06-05 17:13:36] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230605/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 17:13:37] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.6.tar.gz]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.7.tar.gz]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [scdeepinsight]: Start processing: stockwell
+[2023-06-05 17:13:37] INFO root fetch - main [MainThread]: End processing [scdeepinsight]: success
+[2023-06-05 17:13:37] INFO root fetch - processPackages [stockwell]: New version: [1.1] Old Version: [1.0.7]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hmd-cli-transform-deploy]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_transform_deploy-0.1.44-py3-none-any.whl.zip]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hmd-cli-transform-deploy]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_transform_deploy-0.1.51-py3-none-any.whl.zip]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hmd-cli-transform-deploy]: Start processing: mwahpy
+[2023-06-05 17:13:37] INFO root fetch - main [MainThread]: End processing [hmd-cli-transform-deploy]: success
+[2023-06-05 17:13:37] INFO root fetch - processPackages [mwahpy]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [tagging-module]: Remove: archive file [/home/abi/fetcher/tmp/tagging_module-0.0.7.tar.gz]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [tagging-module]: Remove: archive file [/home/abi/fetcher/tmp/tagging_module-0.0.8.tar.gz]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [tagging-module]: Start processing: textarium
+[2023-06-05 17:13:37] INFO root fetch - main [MainThread]: End processing [tagging-module]: success
+[2023-06-05 17:13:37] INFO root fetch - processPackages [textarium]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [stockwell]: Downloading https://files.pythonhosted.org/packages/f0/42/23ffa0b654a374aff902ac3ca11bfc083f59ca3c8fbf04c236868068a70d/stockwell-1.0.7.tar.gz
+[2023-06-05 17:13:37] INFO root fetch - processPackages [textarium]: Downloading https://files.pythonhosted.org/packages/76/5e/75fd1737ca23d0c7e608cce318920388c324b2b1d726e3a98ff173c7bb1d/textarium-0.1.1.tar.gz
+[2023-06-05 17:13:37] INFO root fetch - processPackages [mwahpy]: Downloading https://files.pythonhosted.org/packages/60/c7/a12dca7c4fd1f3d604867e450d717445d8b80b6f1aa6429664eaa3aa8413/mwahpy-1.4.7.tar.gz
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hmd-cli-bender]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_bender-0.1.19-py3-none-any.whl.zip]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hmd-cli-bender]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_bender-0.1.22-py3-none-any.whl.zip]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hmd-cli-bender]: Start processing: giefstat
+[2023-06-05 17:13:37] INFO root fetch - main [MainThread]: End processing [hmd-cli-bender]: success
+[2023-06-05 17:13:37] INFO root fetch - processPackages [giefstat]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hmd-cli-docker]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_docker-0.1.116-py3-none-any.whl.zip]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hmd-cli-docker]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_docker-0.1.117-py3-none-any.whl.zip]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hmd-cli-docker]: Start processing: mlx2md
+[2023-06-05 17:13:37] INFO root fetch - main [MainThread]: End processing [hmd-cli-docker]: success
+[2023-06-05 17:13:37] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.0.8.tar.gz]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.0.9.tar.gz]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [PVNet]: Start processing: django-fakery
+[2023-06-05 17:13:37] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-05 17:13:37] INFO root fetch - processPackages [mlx2md]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [django-fakery]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [textarium]: Downloading https://files.pythonhosted.org/packages/62/c5/2b8f522cfa41e4433a01eb8bf540052157e4e5fed59fa80749d47395e3d7/textarium-0.1.2.tar.gz
+[2023-06-05 17:13:37] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Start processing: hcai-nova-server-nightly
+[2023-06-05 17:13:37] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-06-05 17:13:37] INFO root fetch - processPackages [PyDriller]: Remove: archive file [/home/abi/fetcher/tmp/PyDriller-2.4.1-py3-none-any.whl.zip]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [PyDriller]: Remove: archive file [/home/abi/fetcher/tmp/PyDriller-2.5-py3-none-any.whl.zip]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [PyDriller]: Start processing: odoo14-addon-pos-payment-change
+[2023-06-05 17:13:37] INFO root fetch - main [MainThread]: End processing [PyDriller]: success
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306050655] Old Version: [0.1.8.dev202306050652]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [textarium]: executing diffoscope
+[2023-06-05 17:13:37] INFO root fetch - processPackages [textarium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textarium-0.1.1.tar.gz tmp/textarium-0.1.2.tar.gz --markdown 20230605/t/textarium/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/59/ed/f60a67bafa16d5c926f67e3d5cdc0a16e26fb675e64897c61ac0cfaef672/hcai-nova-server-nightly-0.1.8.dev202306050652.tar.gz
+[2023-06-05 17:13:37] INFO root fetch - processPackages [giefstat]: Downloading https://files.pythonhosted.org/packages/15/10/18c7751c4e524c98e40fab9f43bd7dc7aee3071d81b4d730f895c599072f/giefstat-0.0.3.tar.gz
+[2023-06-05 17:13:37] INFO root fetch - processPackages [stockwell]: Downloading https://files.pythonhosted.org/packages/46/f7/0e71c285d44320445cc39e786ee61b4be1489a3ca7cf4246f82bb370ccb4/stockwell-1.1.tar.gz
+[2023-06-05 17:13:37] INFO root fetch - processPackages [odoo14-addon-pos-payment-change]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2023-06-05 17:13:37] INFO root fetch - processPackages [stockwell]: executing diffoscope
+[2023-06-05 17:13:37] INFO root fetch - processPackages [stockwell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockwell-1.0.7.tar.gz tmp/stockwell-1.1.tar.gz --markdown 20230605/s/stockwell/1.0.7-1.1/diff.md --exclude *.pyd
+[2023-06-05 17:13:37] INFO root fetch - processPackages [mlx2md]: Downloading https://files.pythonhosted.org/packages/97/1b/c9351b00014ddc6205e7b527b5291031b5b62016a4f54e42f5988fc4b3cf/mlx2md-0.1.1.tar.gz
+[2023-06-05 17:13:37] INFO root fetch - processPackages [django-fakery]: Downloading https://files.pythonhosted.org/packages/67/2c/c88bb422bc3acf4f97e070b153b7d40ed3baaf1c4cba51520b1c89730ab2/django-fakery-4.1.0.tar.gz
+[2023-06-05 17:13:37] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/0e/a6/cda431e1e137fe3116dd1b99874174218a901b361d58cbbc0eb04cdfca6a/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz
+[2023-06-05 17:13:38] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.98.tar.gz]
+[2023-06-05 17:13:38] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.99.tar.gz]
+[2023-06-05 17:13:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-06-05 17:13:38] INFO root fetch - processPackages [odoo14-addon-pos-payment-change]: Downloading https://files.pythonhosted.org/packages/80/a1/b12826079c0e03586ae52b0adb403e002e4f84f38f184d24d47b5254a2df/odoo14_addon_pos_payment_change-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-06-05 17:13:38] INFO root fetch - processPackages [giefstat]: Downloading https://files.pythonhosted.org/packages/5c/d5/57cd931d58e4566fd62bfd55cfb8305704491a18a05d72f46ffcae0ba811/giefstat-0.0.4.tar.gz
+[2023-06-05 17:13:38] INFO root fetch - processPackages [giefstat]: executing diffoscope
+[2023-06-05 17:13:38] INFO root fetch - processPackages [giefstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giefstat-0.0.3.tar.gz tmp/giefstat-0.0.4.tar.gz --markdown 20230605/g/giefstat/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 17:13:38] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-05 17:13:38] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.8.dev202306050652.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz --markdown 20230605/h/hcai-nova-server-nightly/0.1.8.dev202306050652-0.1.9.dev202306050655/diff.md --exclude *.pyd
+[2023-06-05 17:13:38] INFO root fetch - processPackages [odoo-addon-purchase-work-acceptance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_work_acceptance-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-05 17:13:38] INFO root fetch - processPackages [odoo-addon-purchase-work-acceptance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_work_acceptance-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-05 17:13:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-work-acceptance]: success
+[2023-06-05 17:13:38] INFO root fetch - processPackages [mwahpy]: Downloading https://files.pythonhosted.org/packages/d9/99/ddf39d7a3fa514aa150d08ecf19042b5f5178208534580f34333006dabd1/mwahpy-1.4.8.tar.gz
+[2023-06-05 17:13:38] INFO root fetch - processPackages [mlx2md]: Downloading https://files.pythonhosted.org/packages/8b/98/5837fdc55af41e1bcfd0b604abcd23b72eb5f265c3886afabd3d128b739d/mlx2md-0.1.2.tar.gz
+[2023-06-05 17:13:38] INFO root fetch - processPackages [mwahpy]: executing diffoscope
+[2023-06-05 17:13:38] INFO root fetch - processPackages [mwahpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwahpy-1.4.7.tar.gz tmp/mwahpy-1.4.8.tar.gz --markdown 20230605/m/mwahpy/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-05 17:13:38] INFO root fetch - processPackages [django-fakery]: Downloading https://files.pythonhosted.org/packages/a3/f9/3fa39f26c8febe69bafb148e08ac1d107b18d160232a8502d0d37f12703b/django-fakery-4.1.1.tar.gz
+[2023-06-05 17:13:38] INFO root fetch - processPackages [mlx2md]: executing diffoscope
+[2023-06-05 17:13:38] INFO root fetch - processPackages [mlx2md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx2md-0.1.1.tar.gz tmp/mlx2md-0.1.2.tar.gz --markdown 20230605/m/mlx2md/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 17:13:38] INFO root fetch - processPackages [django-fakery]: executing diffoscope
+[2023-06-05 17:13:38] INFO root fetch - processPackages [django-fakery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-fakery-4.1.0.tar.gz tmp/django-fakery-4.1.1.tar.gz --markdown 20230605/d/django-fakery/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-06-05 17:13:38] INFO root fetch - processPackages [odoo14-addon-pos-payment-change]: Downloading https://files.pythonhosted.org/packages/8a/8d/0766b7e6ef1f23e54fd9d867638b27fbaf8bbac84eb55aa8c050aff5be06/odoo14_addon_pos_payment_change-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-06-05 17:13:38] INFO root fetch - processPackages [odoo14-addon-pos-payment-change]: executing diffoscope
+[2023-06-05 17:13:38] INFO root fetch - processPackages [odoo14-addon-pos-payment-change]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_payment_change-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_pos_payment_change-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230605/o/odoo14-addon-pos-payment-change/14.0.1.0.2.dev3-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-06-05 17:13:39] INFO root fetch - processPackages [textarium]: Remove: archive file [/home/abi/fetcher/tmp/textarium-0.1.1.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - processPackages [textarium]: Remove: archive file [/home/abi/fetcher/tmp/textarium-0.1.2.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - main [MainThread]: End processing [textarium]: success
+[2023-06-05 17:13:39] INFO root fetch - processPackages [giefstat]: Remove: archive file [/home/abi/fetcher/tmp/giefstat-0.0.3.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - processPackages [giefstat]: Remove: archive file [/home/abi/fetcher/tmp/giefstat-0.0.4.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - main [MainThread]: End processing [giefstat]: success
+[2023-06-05 17:13:39] INFO root fetch - processPackages [stockwell]: Remove: archive file [/home/abi/fetcher/tmp/stockwell-1.0.7.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - processPackages [stockwell]: Remove: archive file [/home/abi/fetcher/tmp/stockwell-1.1.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - main [MainThread]: End processing [stockwell]: success
+[2023-06-05 17:13:39] INFO root fetch - processPackages [mlx2md]: Remove: archive file [/home/abi/fetcher/tmp/mlx2md-0.1.1.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - processPackages [mlx2md]: Remove: archive file [/home/abi/fetcher/tmp/mlx2md-0.1.2.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - main [MainThread]: End processing [mlx2md]: success
+[2023-06-05 17:13:39] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.8.dev202306050652.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-05 17:13:39] INFO root fetch - processPackages [django-fakery]: Remove: archive file [/home/abi/fetcher/tmp/django-fakery-4.1.0.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - processPackages [django-fakery]: Remove: archive file [/home/abi/fetcher/tmp/django-fakery-4.1.1.tar.gz]
+[2023-06-05 17:13:39] INFO root fetch - main [MainThread]: End processing [django-fakery]: success
+[2023-06-05 17:13:43] INFO root fetch - processPackages [mwahpy]: Remove: archive file [/home/abi/fetcher/tmp/mwahpy-1.4.7.tar.gz]
+[2023-06-05 17:13:43] INFO root fetch - processPackages [mwahpy]: Remove: archive file [/home/abi/fetcher/tmp/mwahpy-1.4.8.tar.gz]
+[2023-06-05 17:13:43] INFO root fetch - main [MainThread]: End processing [mwahpy]: success
+[2023-06-05 17:14:22] INFO root fetch - processPackages [odoo14-addon-pos-payment-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_payment_change-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-06-05 17:14:22] INFO root fetch - processPackages [odoo14-addon-pos-payment-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_payment_change-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-06-05 17:14:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-payment-change]: success
+[2023-06-05 17:14:22] INFO root fetch - main [MainThread]: Store serial: [18377699]
