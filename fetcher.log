@@ -7110,3 +7110,76 @@
 [2023-06-05 09:54:44] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
 [2023-06-05 09:54:45] INFO root fetch - main [MainThread]: End processing [wedge-lib]: success
 [2023-06-05 09:54:45] INFO root fetch - main [MainThread]: Store serial: [18373056]
+[2023-06-05 09:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18373056]
+[2023-06-05 09:59:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leuci-map
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gensp
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: StrangeSerializerLab3
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DAJIN2
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fluidsimfoam
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IMDBTraktSyncer
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydocstyle-gitlab-code-quality
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aspectify
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dlt
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quetz-server
+[2023-06-05 09:59:54] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 09:59:54] INFO root fetch - processPackages [gensp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 09:59:54] INFO root fetch - processPackages [quetz-server]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 09:59:54] INFO root fetch - processPackages [StrangeSerializerLab3]: New version: [9.0] Old Version: [8.0]
+[2023-06-05 09:59:54] INFO root fetch - processPackages [DAJIN2]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-05 09:59:54] INFO root fetch - processPackages [dlt]: New version: [0.2.9a0] Old Version: [0.2.9]
+[2023-06-05 09:59:54] INFO root fetch - processPackages [aspectify]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-06-05 09:59:54] WARNING root fetch - processPackages [pydocstyle-gitlab-code-quality]: Skipping, unable to determine old version
+[2023-06-05 09:59:54] INFO root fetch - processPackages [fluidsimfoam]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 09:59:54] INFO root fetch - processPackages [pydocstyle-gitlab-code-quality]: Start processing: ar-ex-sys-worker
+[2023-06-05 09:59:54] INFO root fetch - main [MainThread]: End processing [pydocstyle-gitlab-code-quality] error
+[2023-06-05 09:59:54] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.6.3] Old Version: [1.6.24]
+[2023-06-05 09:59:54] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 09:59:54] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.8.tar.gz tmp/gensp-1.0.9.tar.gz --markdown 20230605/g/gensp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 09:59:54] INFO root fetch - processPackages [StrangeSerializerLab3]: executing diffoscope
+[2023-06-05 09:59:54] INFO root fetch - processPackages [StrangeSerializerLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StrangeSerializerLab3-8.0.tar.gz tmp/StrangeSerializerLab3-9.0.tar.gz --markdown 20230605/S/StrangeSerializerLab3/8.0-9.0/diff.md --exclude *.pyd
+[2023-06-05 09:59:54] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/d7/f9/d814c86bcb6551942e72559977ffd7788e9a2d159c055fc5698defcc15da/leuci-map-0.1.8.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/54/96/32dc9cea2adb9f769f39f10731431bf86d8e9b7ede7ccf5bbfc2872caec4/dlt-0.2.9.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [DAJIN2]: Downloading https://files.pythonhosted.org/packages/92/54/af56a3d82ace6b735dc8c62bf0afeef8796d4b128da96caa8d6cb69088b6/DAJIN2-0.2.1.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [fluidsimfoam]: Downloading https://files.pythonhosted.org/packages/27/f0/3bf41d341a4b2da2c5ad3bae6a11b623d93841392f362a80030bcd37b4c6/fluidsimfoam-0.0.4.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [aspectify]: Downloading https://files.pythonhosted.org/packages/c7/2c/997fa1d5af76d15b53d674eb5fdeedc4d3eccfdd912412df30e60d9f8f96/aspectify-0.0.4.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/ec/07/359d3c458f92c141712f2d7c8b4b71ad66f009ef49f60c38022456c80c2d/IMDBTraktSyncer-1.3.9.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [quetz-server]: Downloading https://files.pythonhosted.org/packages/b0/94/3c693d0feed2ad0c4617c2271a699c140626cc66de3213d2cd7d26f09803/quetz-server-0.8.0.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [DAJIN2]: executing diffoscope
+[2023-06-05 09:59:54] INFO root fetch - processPackages [DAJIN2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DAJIN2-0.2.0.tar.gz tmp/DAJIN2-0.2.1.tar.gz --markdown 20230605/D/DAJIN2/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/4f/94/2aeda250e45d920133d437ff935c61fbab33662597fc71edd7c11d9cc6fd/ar_ex_sys_worker-1.6.24-py3-none-any.whl
+[2023-06-05 09:59:54] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-06-05 09:59:54] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.3.8.tar.gz tmp/IMDBTraktSyncer-1.3.9.tar.gz --markdown 20230605/I/IMDBTraktSyncer/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-05 09:59:54] INFO root fetch - processPackages [aspectify]: Downloading https://files.pythonhosted.org/packages/90/a2/7ab312dbe9dcc01fcd2a334a85147d317631e13e91d05e9b374e03741955/aspectify-1.0.0.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [fluidsimfoam]: Downloading https://files.pythonhosted.org/packages/b8/c9/b7adc6c993c3f11928c5f56b0c5c6e976ff9c2a909c82b69983746d1d7e3/fluidsimfoam-0.0.5.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [quetz-server]: Downloading https://files.pythonhosted.org/packages/22/63/47aa9c442fd585271be49e043b60a132400c3db68bb0e760867a50abc6f6/quetz-server-0.9.0.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/a5/6b/40c71586f5079a60c1c2c8cade456100291e78b20b461af178946dd90af4/ar_ex_sys_worker-1.6.3-py3-none-any.whl
+[2023-06-05 09:59:54] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/bc/11/576f16633925285145590e6115d389e48e6a57630148ab22593aeb2f0a67/dlt-0.2.9a0.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [quetz-server]: executing diffoscope
+[2023-06-05 09:59:54] INFO root fetch - processPackages [quetz-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quetz-server-0.8.0.tar.gz tmp/quetz-server-0.9.0.tar.gz --markdown 20230605/q/quetz-server/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 09:59:54] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/ef/bd/8215fa42b8399ed3a3bbe6d8cb906b7c7f4767bbb786d85e8172c4dbf877/leuci-map-0.1.9.tar.gz
+[2023-06-05 09:59:54] INFO root fetch - processPackages [aspectify]: executing diffoscope
+[2023-06-05 09:59:54] INFO root fetch - processPackages [aspectify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspectify-0.0.4.tar.gz tmp/aspectify-1.0.0.tar.gz --markdown 20230605/a/aspectify/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 09:59:54] INFO root fetch - processPackages [fluidsimfoam]: executing diffoscope
+[2023-06-05 09:59:54] INFO root fetch - processPackages [fluidsimfoam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidsimfoam-0.0.4.tar.gz tmp/fluidsimfoam-0.0.5.tar.gz --markdown 20230605/f/fluidsimfoam/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2023-06-05 09:59:54] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.6.24-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.6.3-py3-none-any.whl.zip --markdown 20230605/a/ar-ex-sys-worker/1.6.24-1.6.3/diff.md --exclude *.pyd
+[2023-06-05 09:59:54] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-06-05 09:59:54] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.2.9.tar.gz tmp/dlt-0.2.9a0.tar.gz --markdown 20230605/d/dlt/0.2.9-0.2.9a0/diff.md --exclude *.pyd
+[2023-06-05 09:59:55] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-06-05 09:59:55] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230605/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 09:59:55] INFO root fetch - processPackages [StrangeSerializerLab3]: Start processing: solidityscan
+[2023-06-05 09:59:55] INFO root fetch - main [MainThread]: End processing [StrangeSerializerLab3]: success
+[2023-06-05 09:59:55] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 09:59:55] WARNING root fetch - processPackages [solidityscan]: Skipping, unable to determine old version
+[2023-06-05 09:59:55] INFO root fetch - main [MainThread]: End processing [solidityscan] error
+[2023-06-05 09:59:56] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-06-05 09:59:56] INFO root fetch - main [MainThread]: End processing [aspectify]: success
+[2023-06-05 09:59:56] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2023-06-05 09:59:56] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-06-05 09:59:56] INFO root fetch - main [MainThread]: End processing [DAJIN2]: success
+[2023-06-05 09:59:56] INFO root fetch - main [MainThread]: End processing [fluidsimfoam]: success
+[2023-06-05 09:59:57] INFO root fetch - main [MainThread]: End processing [quetz-server]: success
+[2023-06-05 09:59:57] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-06-05 09:59:57] INFO root fetch - main [MainThread]: Store serial: [18373100]
