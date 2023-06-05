@@ -14909,3 +14909,336 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 15:58:23] INFO root fetch - processPackages [vstools]: Remove: archive file [/home/abi/fetcher/tmp/vstools-2.2.0.tar.gz]
 [2023-06-05 15:58:23] INFO root fetch - main [MainThread]: End processing [vstools]: success
 [2023-06-05 15:58:23] INFO root fetch - main [MainThread]: Store serial: [18376807]
+[2023-06-05 16:03:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376807]
+[2023-06-05 16:03:32] INFO root fetch - main [MainThread]: Found 38 changed packages
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: try-pyspark1
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vskernels
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vsexprtools
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-zarr
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: un-yaml
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PVNet
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plone.app.mosaic
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reytool
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-ai-generativelanguage
+[2023-06-05 16:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-br-account-nfe
+[2023-06-05 16:03:32] WARNING root fetch - processPackages [try-pyspark1]: Skipping, unable to determine old version
+[2023-06-05 16:03:32] INFO root fetch - processPackages [try-pyspark1]: Start processing: google-apps-script-type
+[2023-06-05 16:03:32] INFO root fetch - main [MainThread]: End processing [try-pyspark1] error
+[2023-06-05 16:03:32] INFO root fetch - processPackages [pydantic-zarr]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [vsexprtools]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [PVNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [vskernels]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [plone.app.mosaic]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [google-apps-script-type]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [google-ai-generativelanguage]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [un-yaml]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: New version: [14.0.2.1.2] Old Version: [14.0.2.1.1.dev1]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-05 16:03:32] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-05 16:03:32] INFO root fetch - processPackages [pydantic-zarr]: Downloading https://files.pythonhosted.org/packages/47/04/a6e75fb9c61739c40943ed90564ce46cd795cf2f961d9546d8a85e640f5c/pydantic_zarr-0.1.2.tar.gz
+[2023-06-05 16:03:32] INFO root fetch - processPackages [vskernels]: Downloading https://files.pythonhosted.org/packages/b7/cc/fad5b2253d70d5d404ed8d6087ffd81f1d01bff2a2dbe37b6f5aebccf766/vskernels-2.4.0.tar.gz
+[2023-06-05 16:03:32] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/3b/54/0abd157d9ca0e1bd9deaa1296cf25406cd85fe1e4ff090c3d004e7b22b6d/PVNet-0.0.8.tar.gz
+[2023-06-05 16:03:32] INFO root fetch - processPackages [vsexprtools]: Downloading https://files.pythonhosted.org/packages/db/30/15d3da10f13ed189b3e4a7af087714d40f531d900d9af435279105c62420/vsexprtools-1.4.4.tar.gz
+[2023-06-05 16:03:32] INFO root fetch - processPackages [google-ai-generativelanguage]: Downloading https://files.pythonhosted.org/packages/f9/bb/2283ff15f05de219551e54b3a7ca384d58d4d8cb2684d139ce98bc18ecb8/google-ai-generativelanguage-0.2.0.tar.gz
+[2023-06-05 16:03:32] INFO root fetch - processPackages [un-yaml]: Downloading https://files.pythonhosted.org/packages/68/4d/ee46a52989eeacffdddc7bcdfce892a121430e7f9fa4a316062228aff8a0/un_yaml-0.2.0.tar.gz
+[2023-06-05 16:03:32] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Downloading https://files.pythonhosted.org/packages/1d/38/4b8c06818bf984df71cf465e62b80999510ea268f180703352e2d7e4f27f/odoo14_addon_l10n_br_account_nfe-14.0.2.1.1.dev1-py3-none-any.whl
+[2023-06-05 16:03:32] INFO root fetch - processPackages [google-apps-script-type]: Downloading https://files.pythonhosted.org/packages/d2/8d/415be0694b568780fd62eb320a25ddf28cb1ba0a6aaa4d7d4b1dd9caba7f/google-apps-script-type-0.3.1.tar.gz
+[2023-06-05 16:03:32] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/89/57/eeaf9b652d1d9d0fd2aed03504a9e4ba04020550e28eeedff12315a5438c/plone.app.mosaic-3.1.1.tar.gz
+[2023-06-05 16:03:32] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-05 16:03:32] INFO root fetch - processPackages [pydantic-zarr]: Downloading https://files.pythonhosted.org/packages/8f/5e/858a15ef829a8eba9db2b2e7bef0ac822e689859956f8dbb3c3852c4f444/pydantic_zarr-0.1.3.tar.gz
+[2023-06-05 16:03:33] INFO root fetch - processPackages [google-ai-generativelanguage]: Downloading https://files.pythonhosted.org/packages/a6/21/89a5057fad945a9a967500ae9b4774d280cdad748fd9fb1640b9becabaf1/google-ai-generativelanguage-0.2.1.tar.gz
+[2023-06-05 16:03:33] INFO root fetch - processPackages [un-yaml]: Downloading https://files.pythonhosted.org/packages/eb/28/76ddb9fed8c0b7efc9c37b262f63b24e579464067f765925ac9f0f2e2743/un_yaml-0.3.0.tar.gz
+[2023-06-05 16:03:33] INFO root fetch - processPackages [pydantic-zarr]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [pydantic-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_zarr-0.1.2.tar.gz tmp/pydantic_zarr-0.1.3.tar.gz --markdown 20230605/p/pydantic-zarr/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-05 16:03:33] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/ed/6c/ae306ef51fc937145d77865d3c9d3cec6a9c232d5791eaac8a33861472f6/PVNet-0.0.9.tar.gz
+[2023-06-05 16:03:33] INFO root fetch - processPackages [vskernels]: Downloading https://files.pythonhosted.org/packages/94/82/9735e0e6f9ad95887fc01435fa623a22fb84d6dd4a06b4e55b2a2179b734/vskernels-2.4.1.tar.gz
+[2023-06-05 16:03:33] INFO root fetch - processPackages [google-ai-generativelanguage]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [vsexprtools]: Downloading https://files.pythonhosted.org/packages/b0/53/1498c27cc7550db1c1852032e6d491a3fa5710046c0a236ebd22d5dd1cd3/vsexprtools-1.4.5.tar.gz
+[2023-06-05 16:03:33] INFO root fetch - processPackages [google-ai-generativelanguage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ai-generativelanguage-0.2.0.tar.gz tmp/google-ai-generativelanguage-0.2.1.tar.gz --markdown 20230605/g/google-ai-generativelanguage/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-05 16:03:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Downloading https://files.pythonhosted.org/packages/4d/fd/72e03437e304a917012f2e225156b6aaeefd7ffdb77f23d99c88e193a264/odoo14_addon_l10n_br_account_nfe-14.0.2.1.2-py3-none-any.whl
+[2023-06-05 16:03:33] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230605/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-05 16:03:33] INFO root fetch - processPackages [google-apps-script-type]: Downloading https://files.pythonhosted.org/packages/7b/f2/99d1aaa610112bfe786e4eb92571ef6074789b74f512364ee6544338dd1c/google-apps-script-type-0.3.2.tar.gz
+[2023-06-05 16:03:33] INFO root fetch - processPackages [un-yaml]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [un-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/un_yaml-0.2.0.tar.gz tmp/un_yaml-0.3.0.tar.gz --markdown 20230605/u/un-yaml/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 16:03:33] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.8.tar.gz tmp/PVNet-0.0.9.tar.gz --markdown 20230605/P/PVNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:03:33] INFO root fetch - processPackages [vsexprtools]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [vskernels]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [vskernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vskernels-2.4.0.tar.gz tmp/vskernels-2.4.1.tar.gz --markdown 20230605/v/vskernels/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-05 16:03:33] INFO root fetch - processPackages [vsexprtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsexprtools-1.4.4.tar.gz tmp/vsexprtools-1.4.5.tar.gz --markdown 20230605/v/vsexprtools/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-05 16:03:33] INFO root fetch - processPackages [google-apps-script-type]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [google-apps-script-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-apps-script-type-0.3.1.tar.gz tmp/google-apps-script-type-0.3.2.tar.gz --markdown 20230605/g/google-apps-script-type/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 16:03:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.2-py3-none-any.whl.zip --markdown 20230605/o/odoo14-addon-l10n-br-account-nfe/14.0.2.1.1.dev1-14.0.2.1.2/diff.md --exclude *.pyd
+[2023-06-05 16:03:33] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/9a/8a/fd8c66c575f26fe216dda5185cdc3b4ae864528d9c5358e1d2ba84e0d94e/plone.app.mosaic-3.1.2.tar.gz
+[2023-06-05 16:03:33] INFO root fetch - processPackages [plone.app.mosaic]: executing diffoscope
+[2023-06-05 16:03:33] INFO root fetch - processPackages [plone.app.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.mosaic-3.1.1.tar.gz tmp/plone.app.mosaic-3.1.2.tar.gz --markdown 20230605/p/plone.app.mosaic/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-06-05 16:03:35] INFO root fetch - processPackages [pydantic-zarr]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_zarr-0.1.2.tar.gz]
+[2023-06-05 16:03:35] INFO root fetch - processPackages [pydantic-zarr]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_zarr-0.1.3.tar.gz]
+[2023-06-05 16:03:35] INFO root fetch - processPackages [pydantic-zarr]: Start processing: google-geo-type
+[2023-06-05 16:03:35] INFO root fetch - main [MainThread]: End processing [pydantic-zarr]: success
+[2023-06-05 16:03:35] INFO root fetch - processPackages [google-geo-type]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-05 16:03:35] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-05 16:03:35] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-05 16:03:35] INFO root fetch - processPackages [reytool]: Start processing: google-maps-addressvalidation
+[2023-06-05 16:03:35] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-05 16:03:35] INFO root fetch - processPackages [google-maps-addressvalidation]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-05 16:03:35] INFO root fetch - processPackages [google-geo-type]: Downloading https://files.pythonhosted.org/packages/de/aa/59600db32da25d833919505ab3be28f8a5c1428382d23b1c9595e1294c38/google-geo-type-0.3.0.tar.gz
+[2023-06-05 16:03:35] INFO root fetch - processPackages [un-yaml]: Remove: archive file [/home/abi/fetcher/tmp/un_yaml-0.2.0.tar.gz]
+[2023-06-05 16:03:35] INFO root fetch - processPackages [un-yaml]: Remove: archive file [/home/abi/fetcher/tmp/un_yaml-0.3.0.tar.gz]
+[2023-06-05 16:03:35] INFO root fetch - processPackages [un-yaml]: Start processing: google-maps-mapsplatformdatasets
+[2023-06-05 16:03:35] INFO root fetch - main [MainThread]: End processing [un-yaml]: success
+[2023-06-05 16:03:35] INFO root fetch - processPackages [google-maps-mapsplatformdatasets]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-05 16:03:35] INFO root fetch - processPackages [google-maps-addressvalidation]: Downloading https://files.pythonhosted.org/packages/77/d6/d9b843fe070c5c43bd6bf6ec6b9a6801a27400338791b30a220c30c01c42/google-maps-addressvalidation-0.3.3.tar.gz
+[2023-06-05 16:03:35] INFO root fetch - processPackages [google-geo-type]: Downloading https://files.pythonhosted.org/packages/22/7e/739db2bb93c1388d87719d0742a335fee275200c4ef50d38cad5d4b49591/google-geo-type-0.3.1.tar.gz
+[2023-06-05 16:03:35] INFO root fetch - processPackages [google-maps-mapsplatformdatasets]: Downloading https://files.pythonhosted.org/packages/fa/e0/4226e4af27ea601d06b18771538f66c1be3b27bb1d5325343839c834c3bd/google-maps-mapsplatformdatasets-0.2.1.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.0.8.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.0.9.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [PVNet]: Start processing: tbd-calver-versioning
+[2023-06-05 16:03:36] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-05 16:03:36] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.2-py3-none-any.whl.zip]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Start processing: tbd-calver-versioning
+[2023-06-05 16:03:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account-nfe]: success
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: New version: [2023.6.5rc1] Old Version: [2023.6.5.1]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-geo-type]: executing diffoscope
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-geo-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-geo-type-0.3.0.tar.gz tmp/google-geo-type-0.3.1.tar.gz --markdown 20230605/g/google-geo-type/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: New version: [2023.6.5rc1] Old Version: [2023.6.5.1]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [vsexprtools]: Remove: archive file [/home/abi/fetcher/tmp/vsexprtools-1.4.4.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [vsexprtools]: Remove: archive file [/home/abi/fetcher/tmp/vsexprtools-1.4.5.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [vsexprtools]: Start processing: google-maps-places
+[2023-06-05 16:03:36] INFO root fetch - main [MainThread]: End processing [vsexprtools]: success
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-places]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-addressvalidation]: Downloading https://files.pythonhosted.org/packages/fe/7e/3ad2380446851b265425338e7c51366a3f4e44ed94f3975be06f3dc75822/google-maps-addressvalidation-0.3.4.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [vskernels]: Remove: archive file [/home/abi/fetcher/tmp/vskernels-2.4.0.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [vskernels]: Remove: archive file [/home/abi/fetcher/tmp/vskernels-2.4.1.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [vskernels]: Start processing: google-maps-routing
+[2023-06-05 16:03:36] INFO root fetch - main [MainThread]: End processing [vskernels]: success
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-routing]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-ai-generativelanguage]: Remove: archive file [/home/abi/fetcher/tmp/google-ai-generativelanguage-0.2.0.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: Downloading https://files.pythonhosted.org/packages/15/20/f0180722c63039dfce0cb3ba1c2574bf3a36f9593b6237f5be2c665e871e/tbd-calver-versioning-2023.6.5.1.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-ai-generativelanguage]: Remove: archive file [/home/abi/fetcher/tmp/google-ai-generativelanguage-0.2.1.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-ai-generativelanguage]: Start processing: napatrackmater
+[2023-06-05 16:03:36] INFO root fetch - main [MainThread]: End processing [google-ai-generativelanguage]: success
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: Downloading https://files.pythonhosted.org/packages/15/20/f0180722c63039dfce0cb3ba1c2574bf3a36f9593b6237f5be2c665e871e/tbd-calver-versioning-2023.6.5.1.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [napatrackmater]: New version: [3.5.9] Old Version: [3.5.8]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-mapsplatformdatasets]: Downloading https://files.pythonhosted.org/packages/7f/7d/f843cf6647c9da69ae3cf2ab436b66dd04d16b7ddb0f1f77d0324ca147da/google-maps-mapsplatformdatasets-0.3.0.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-addressvalidation]: executing diffoscope
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-addressvalidation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-maps-addressvalidation-0.3.3.tar.gz tmp/google-maps-addressvalidation-0.3.4.tar.gz --markdown 20230605/g/google-maps-addressvalidation/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-places]: Downloading https://files.pythonhosted.org/packages/3d/ca/18a56aa5090c2726e36be64d8bbd03405313bde6d4d02fd94b0966c88b8f/google-maps-places-0.1.0.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-mapsplatformdatasets]: executing diffoscope
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-mapsplatformdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-maps-mapsplatformdatasets-0.2.1.tar.gz tmp/google-maps-mapsplatformdatasets-0.3.0.tar.gz --markdown 20230605/g/google-maps-mapsplatformdatasets/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-routing]: Downloading https://files.pythonhosted.org/packages/41/ea/02a2242b35d617230c949c90d72c560d160bb407408c18574c4ce437f302/google-maps-routing-0.5.0.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/30/bc/f04a30fbb67e03be229e846f5dc4d907f2e9efe112a0954a221334c36165/napatrackmater-3.5.8.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: Downloading https://files.pythonhosted.org/packages/e0/1c/95f64febc81b23add268f2fa06faf8f887597adb38ef08cec330823e5840/tbd-calver-versioning-2023.6.5rc1.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: Downloading https://files.pythonhosted.org/packages/e0/1c/95f64febc81b23add268f2fa06faf8f887597adb38ef08cec330823e5840/tbd-calver-versioning-2023.6.5rc1.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: executing diffoscope
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbd-calver-versioning-2023.6.5.1.tar.gz tmp/tbd-calver-versioning-2023.6.5rc1.tar.gz --markdown 20230605/t/tbd-calver-versioning/2023.6.5.1-2023.6.5rc1/diff.md --exclude *.pyd
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: executing diffoscope
+[2023-06-05 16:03:36] INFO root fetch - processPackages [tbd-calver-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbd-calver-versioning-2023.6.5.1.tar.gz tmp/tbd-calver-versioning-2023.6.5rc1.tar.gz --markdown 20230605/t/tbd-calver-versioning/2023.6.5.1-2023.6.5rc1/diff.md --exclude *.pyd
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-places]: Downloading https://files.pythonhosted.org/packages/8b/b5/0e022f0eb62fbef7714c014aa883175f93b6750b80c2019acf87bb9384d3/google-maps-places-0.1.1.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-apps-script-type]: Remove: archive file [/home/abi/fetcher/tmp/google-apps-script-type-0.3.1.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-apps-script-type]: Remove: archive file [/home/abi/fetcher/tmp/google-apps-script-type-0.3.2.tar.gz]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-apps-script-type]: Start processing: MirMachine
+[2023-06-05 16:03:36] INFO root fetch - main [MainThread]: End processing [google-apps-script-type]: success
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-routing]: Downloading https://files.pythonhosted.org/packages/f6/95/962eab995fb6d002c6dd66392682f12311e7df54710010ddeff74db3d1d9/google-maps-routing-0.5.1.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [MirMachine]: New version: [0.2.1a0] Old Version: [0.2.13rc1]
+[2023-06-05 16:03:36] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/54/9d/e4e01bda0285a8e4df6eadf89cb98bd20c2e8660daba796915127e5d265e/napatrackmater-3.5.9.tar.gz
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-places]: executing diffoscope
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-places]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-maps-places-0.1.0.tar.gz tmp/google-maps-places-0.1.1.tar.gz --markdown 20230605/g/google-maps-places/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-routing]: executing diffoscope
+[2023-06-05 16:03:36] INFO root fetch - processPackages [google-maps-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-maps-routing-0.5.0.tar.gz tmp/google-maps-routing-0.5.1.tar.gz --markdown 20230605/g/google-maps-routing/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-05 16:03:36] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-05 16:03:36] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.5.8.tar.gz tmp/napatrackmater-3.5.9.tar.gz --markdown 20230605/n/napatrackmater/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2023-06-05 16:03:36] INFO root fetch - processPackages [MirMachine]: Downloading https://files.pythonhosted.org/packages/04/a9/f4fd89df6bf8d4bbc410fe653cd45bacda108301b5e4f10f126fc75336c3/MirMachine-0.2.13rc1.tar.gz
+[2023-06-05 16:03:36] WARNING root fetch - processPackages [MirMachine]: Skipping package: exceeds size limit 12420536>=10485760
+[2023-06-05 16:03:36] INFO root fetch - processPackages [MirMachine]: Start processing: mdapackmol-fmt
+[2023-06-05 16:03:36] INFO root fetch - main [MainThread]: End processing [MirMachine] error
+[2023-06-05 16:03:37] INFO root fetch - processPackages [mdapackmol-fmt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 16:03:37] INFO root fetch - processPackages [mdapackmol-fmt]: Downloading https://files.pythonhosted.org/packages/30/56/bdfc24726f0d188bfbcd2c5140914a34393525c98eab202b54ec4259cf53/mdapackmol-fmt-0.1.0.tar.gz
+[2023-06-05 16:03:37] INFO root fetch - processPackages [mdapackmol-fmt]: Downloading https://files.pythonhosted.org/packages/0f/ec/27864147b095c721b111cd37d0003a1dcfb87080880c75e3ac3089a98122/mdapackmol_fmt-0.1.1-py2.py3-none-any.whl
+[2023-06-05 16:03:37] INFO root fetch - processPackages [mdapackmol-fmt]: executing diffoscope
+[2023-06-05 16:03:37] INFO root fetch - processPackages [mdapackmol-fmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdapackmol-fmt-0.1.0.tar.gz tmp/mdapackmol_fmt-0.1.1-py2.py3-none-any.whl.zip --markdown 20230605/m/mdapackmol-fmt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 16:03:38] INFO root fetch - processPackages [google-geo-type]: Remove: archive file [/home/abi/fetcher/tmp/google-geo-type-0.3.0.tar.gz]
+[2023-06-05 16:03:38] INFO root fetch - processPackages [google-geo-type]: Remove: archive file [/home/abi/fetcher/tmp/google-geo-type-0.3.1.tar.gz]
+[2023-06-05 16:03:38] INFO root fetch - processPackages [google-geo-type]: Start processing: vsrgtools
+[2023-06-05 16:03:38] INFO root fetch - main [MainThread]: End processing [google-geo-type]: success
+[2023-06-05 16:03:38] INFO root fetch - processPackages [vsrgtools]: New version: [1.5.0] Old Version: [1.4.4]
+[2023-06-05 16:03:38] INFO root fetch - processPackages [google-maps-addressvalidation]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-addressvalidation-0.3.3.tar.gz]
+[2023-06-05 16:03:38] INFO root fetch - processPackages [google-maps-addressvalidation]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-addressvalidation-0.3.4.tar.gz]
+[2023-06-05 16:03:38] INFO root fetch - processPackages [google-maps-addressvalidation]: Start processing: swagger-plugin-for-sphinx
+[2023-06-05 16:03:38] INFO root fetch - main [MainThread]: End processing [google-maps-addressvalidation]: success
+[2023-06-05 16:03:38] INFO root fetch - processPackages [swagger-plugin-for-sphinx]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-05 16:03:38] INFO root fetch - processPackages [vsrgtools]: Downloading https://files.pythonhosted.org/packages/24/9f/6e262648c47e36840e077d7fd966dca3e4ac3df8da2fc4d662b4d477d189/vsrgtools-1.4.4.tar.gz
+[2023-06-05 16:03:38] INFO root fetch - processPackages [tbd-calver-versioning]: Remove: archive file [/home/abi/fetcher/tmp/tbd-calver-versioning-2023.6.5.1.tar.gz]
+[2023-06-05 16:03:38] INFO root fetch - processPackages [tbd-calver-versioning]: Remove: archive file [/home/abi/fetcher/tmp/tbd-calver-versioning-2023.6.5rc1.tar.gz]
+[2023-06-05 16:03:38] INFO root fetch - processPackages [tbd-calver-versioning]: Start processing: sambaflux
+[2023-06-05 16:03:38] INFO root fetch - main [MainThread]: End processing [tbd-calver-versioning]: success
+[2023-06-05 16:03:38] INFO root fetch - processPackages [sambaflux]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-05 16:03:38] INFO root fetch - processPackages [swagger-plugin-for-sphinx]: Downloading https://files.pythonhosted.org/packages/83/42/2b029e5b23b4e068f7f956e49f3aeef3a596672bce9aacdfc6fcda404d35/swagger-plugin-for-sphinx-3.0.0.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [tbd-calver-versioning]: Start processing: datamarket
+[2023-06-05 16:03:39] INFO root fetch - main [MainThread]: End processing [tbd-calver-versioning]: success
+[2023-06-05 16:03:39] INFO root fetch - processPackages [google-maps-mapsplatformdatasets]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-mapsplatformdatasets-0.2.1.tar.gz]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [google-maps-mapsplatformdatasets]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-mapsplatformdatasets-0.3.0.tar.gz]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [google-maps-mapsplatformdatasets]: Start processing: pyschism
+[2023-06-05 16:03:39] INFO root fetch - main [MainThread]: End processing [google-maps-mapsplatformdatasets]: success
+[2023-06-05 16:03:39] INFO root fetch - processPackages [datamarket]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [google-maps-places]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-places-0.1.0.tar.gz]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [google-maps-places]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-places-0.1.1.tar.gz]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [google-maps-places]: Start processing: vsmasktools
+[2023-06-05 16:03:39] INFO root fetch - main [MainThread]: End processing [google-maps-places]: success
+[2023-06-05 16:03:39] INFO root fetch - processPackages [vsrgtools]: Downloading https://files.pythonhosted.org/packages/b1/48/ce85e7503d10ec4e63741a768de189ead6c54bf1a641ee5f97bc1236c0a0/vsrgtools-1.5.0.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [sambaflux]: Downloading https://files.pythonhosted.org/packages/5d/71/d268ff340bb56ecfd30a5ca44c1d68e559c1009360e38d4af22ded5419fd/sambaflux-0.1.6.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [pyschism]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [vsmasktools]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [vsrgtools]: executing diffoscope
+[2023-06-05 16:03:39] INFO root fetch - processPackages [vsrgtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsrgtools-1.4.4.tar.gz tmp/vsrgtools-1.5.0.tar.gz --markdown 20230605/v/vsrgtools/1.4.4-1.5.0/diff.md --exclude *.pyd
+[2023-06-05 16:03:39] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.5.8.tar.gz]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.5.9.tar.gz]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [napatrackmater]: Start processing: configparsersimplifier
+[2023-06-05 16:03:39] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-05 16:03:39] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/6f/54/08d254732d5eb6ade221890fb94a2f0a39c9336fe3a5f1375c291f630006/datamarket-0.3.6.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [configparsersimplifier]: New version: [1.2] Old Version: [1.1]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [vsmasktools]: Downloading https://files.pythonhosted.org/packages/c7/d9/8d28db15a82df0bc5b892e706f4f5bdf58e7597eb1fe9768fd360ece5d2e/vsmasktools-1.0.0.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [swagger-plugin-for-sphinx]: Downloading https://files.pythonhosted.org/packages/08/5f/4a4e051b7f7aa89fb470fa34089a54f56a96a850b0d329a331435229f720/swagger-plugin-for-sphinx-3.1.0.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [configparsersimplifier]: Downloading https://files.pythonhosted.org/packages/44/f2/863afc5777c9f88f403fd71b648fbfd60968ce1f046bd7d0b0aa313de171/configparsersimplifier-1.1.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [pyschism]: Downloading https://files.pythonhosted.org/packages/f3/fa/15512a56a8f58a169f48980e201ee68b71d2f4b0c89d9569083240e0d61a/pyschism-0.1.6.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [sambaflux]: Downloading https://files.pythonhosted.org/packages/01/c9/2f40401f4913b3f9296abbbcc6350248de02c378bc7f84ba24d9df800d6c/sambaflux-0.1.7.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [swagger-plugin-for-sphinx]: executing diffoscope
+[2023-06-05 16:03:39] INFO root fetch - processPackages [swagger-plugin-for-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swagger-plugin-for-sphinx-3.0.0.tar.gz tmp/swagger-plugin-for-sphinx-3.1.0.tar.gz --markdown 20230605/s/swagger-plugin-for-sphinx/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-05 16:03:39] INFO root fetch - processPackages [mdapackmol-fmt]: Remove: archive file [/home/abi/fetcher/tmp/mdapackmol-fmt-0.1.0.tar.gz]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [mdapackmol-fmt]: Remove: archive file [/home/abi/fetcher/tmp/mdapackmol_fmt-0.1.1-py2.py3-none-any.whl.zip]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [mdapackmol-fmt]: Start processing: kcli
+[2023-06-05 16:03:39] INFO root fetch - main [MainThread]: End processing [mdapackmol-fmt]: success
+[2023-06-05 16:03:39] INFO root fetch - processPackages [sambaflux]: executing diffoscope
+[2023-06-05 16:03:39] INFO root fetch - processPackages [sambaflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sambaflux-0.1.6.tar.gz tmp/sambaflux-0.1.7.tar.gz --markdown 20230605/s/sambaflux/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 16:03:39] INFO root fetch - processPackages [kcli]: New version: [99.0.202306051401] Old Version: [99.0.202306051337]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/2a/91/8f5c76bab5bb2fd617fb3c4c56818cab0b755d87843539ecc89fe256ea10/datamarket-0.3.7.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/1d/fe/05f5923710c2c691c452f5dd3aff5a02f130dbecd6096905dd9b9655c054/kcli-99.0.202306051337-py3-none-any.whl
+[2023-06-05 16:03:39] INFO root fetch - processPackages [configparsersimplifier]: Downloading https://files.pythonhosted.org/packages/e8/a8/39bb92061c25acd3c8a3d1571e2dc073db21cae9d0ea7d1a3b7c58578658/configparsersimplifier-1.2.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2023-06-05 16:03:39] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.3.6.tar.gz tmp/datamarket-0.3.7.tar.gz --markdown 20230605/d/datamarket/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-05 16:03:39] INFO root fetch - processPackages [vsmasktools]: Downloading https://files.pythonhosted.org/packages/74/5f/03186b335d3f89d78565d129a04d6c9b8a690e3ca1d674a44c4dc532f65a/vsmasktools-1.1.0.tar.gz
+[2023-06-05 16:03:39] INFO root fetch - processPackages [vsmasktools]: executing diffoscope
+[2023-06-05 16:03:39] INFO root fetch - processPackages [vsmasktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsmasktools-1.0.0.tar.gz tmp/vsmasktools-1.1.0.tar.gz --markdown 20230605/v/vsmasktools/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 16:03:39] INFO root fetch - processPackages [configparsersimplifier]: executing diffoscope
+[2023-06-05 16:03:39] INFO root fetch - processPackages [configparsersimplifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configparsersimplifier-1.1.tar.gz tmp/configparsersimplifier-1.2.tar.gz --markdown 20230605/c/configparsersimplifier/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-05 16:03:39] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/64/14/d7572a9c9c6b1b8cdf8c8c263c701a8206d40941ecf614b56432ce6e21bc/kcli-99.0.202306051401-py3-none-any.whl
+[2023-06-05 16:03:39] INFO root fetch - processPackages [google-maps-routing]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-routing-0.5.0.tar.gz]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [google-maps-routing]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-routing-0.5.1.tar.gz]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [google-maps-routing]: Start processing: spatk
+[2023-06-05 16:03:39] INFO root fetch - main [MainThread]: End processing [google-maps-routing]: success
+[2023-06-05 16:03:39] INFO root fetch - processPackages [spatk]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-06-05 16:03:39] INFO root fetch - processPackages [pyschism]: Downloading https://files.pythonhosted.org/packages/41/25/0ba406dcdf6ea42cc460f48f89fb30b341f7fc63658708bab45dc0fe48ab/pyschism-0.1.7.tar.gz
+[2023-06-05 16:03:40] INFO root fetch - processPackages [spatk]: Downloading https://files.pythonhosted.org/packages/43/02/ce25b3e6fabfb5f14023c92194225e11496961f913fa835203c51817753f/spatk-1.0.1.tar.gz
+[2023-06-05 16:03:40] INFO root fetch - processPackages [pyschism]: executing diffoscope
+[2023-06-05 16:03:40] INFO root fetch - processPackages [pyschism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyschism-0.1.6.tar.gz tmp/pyschism-0.1.7.tar.gz --markdown 20230605/p/pyschism/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 16:03:40] INFO root fetch - processPackages [spatk]: Downloading https://files.pythonhosted.org/packages/be/fb/2c0fb4071f04a828dd60836d235325afbd01b36e6d7159c8f78b2b9abe65/spatk-1.1.1.tar.gz
+[2023-06-05 16:03:40] INFO root fetch - processPackages [spatk]: executing diffoscope
+[2023-06-05 16:03:40] INFO root fetch - processPackages [spatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatk-1.0.1.tar.gz tmp/spatk-1.1.1.tar.gz --markdown 20230605/s/spatk/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-05 16:03:40] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-05 16:03:40] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306051337-py3-none-any.whl.zip tmp/kcli-99.0.202306051401-py3-none-any.whl.zip --markdown 20230605/k/kcli/99.0.202306051337-99.0.202306051401/diff.md --exclude *.pyd
+[2023-06-05 16:03:40] INFO root fetch - processPackages [swagger-plugin-for-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/swagger-plugin-for-sphinx-3.0.0.tar.gz]
+[2023-06-05 16:03:40] INFO root fetch - processPackages [swagger-plugin-for-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/swagger-plugin-for-sphinx-3.1.0.tar.gz]
+[2023-06-05 16:03:40] INFO root fetch - processPackages [swagger-plugin-for-sphinx]: Start processing: mypackagelicenseprototype
+[2023-06-05 16:03:40] INFO root fetch - main [MainThread]: End processing [swagger-plugin-for-sphinx]: success
+[2023-06-05 16:03:40] INFO root fetch - processPackages [sambaflux]: Remove: archive file [/home/abi/fetcher/tmp/sambaflux-0.1.6.tar.gz]
+[2023-06-05 16:03:40] INFO root fetch - processPackages [sambaflux]: Remove: archive file [/home/abi/fetcher/tmp/sambaflux-0.1.7.tar.gz]
+[2023-06-05 16:03:40] INFO root fetch - processPackages [sambaflux]: Start processing: vsaa
+[2023-06-05 16:03:40] INFO root fetch - main [MainThread]: End processing [sambaflux]: success
+[2023-06-05 16:03:40] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 16:03:40] INFO root fetch - processPackages [vsaa]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-05 16:03:40] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 16:03:41] INFO root fetch - processPackages [vsaa]: Downloading https://files.pythonhosted.org/packages/97/4b/77aef44563cb91d1716ded78c1b72f50d7b320ee1c17b5bb281a18d3a8aa/vsaa-1.7.0.tar.gz
+[2023-06-05 16:03:41] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 16:03:41] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.3.6.tar.gz]
+[2023-06-05 16:03:41] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.3.7.tar.gz]
+[2023-06-05 16:03:41] INFO root fetch - processPackages [datamarket]: Start processing: flamapy-sat
+[2023-06-05 16:03:41] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2023-06-05 16:03:41] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 16:03:41] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:03:41] INFO root fetch - processPackages [vsrgtools]: Remove: archive file [/home/abi/fetcher/tmp/vsrgtools-1.4.4.tar.gz]
+[2023-06-05 16:03:41] INFO root fetch - processPackages [vsrgtools]: Remove: archive file [/home/abi/fetcher/tmp/vsrgtools-1.5.0.tar.gz]
+[2023-06-05 16:03:41] INFO root fetch - processPackages [vsrgtools]: Start processing: th2-data-services-lwdp
+[2023-06-05 16:03:41] INFO root fetch - main [MainThread]: End processing [vsrgtools]: success
+[2023-06-05 16:03:41] INFO root fetch - processPackages [configparsersimplifier]: Remove: archive file [/home/abi/fetcher/tmp/configparsersimplifier-1.1.tar.gz]
+[2023-06-05 16:03:41] INFO root fetch - processPackages [configparsersimplifier]: Remove: archive file [/home/abi/fetcher/tmp/configparsersimplifier-1.2.tar.gz]
+[2023-06-05 16:03:41] INFO root fetch - processPackages [configparsersimplifier]: Start processing: model-bakery
+[2023-06-05 16:03:41] INFO root fetch - main [MainThread]: End processing [configparsersimplifier]: success
+[2023-06-05 16:03:41] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5177903823] Old Version: [2.1.0.0.dev5177789171]
+[2023-06-05 16:03:41] INFO root fetch - processPackages [flamapy-sat]: New version: [1.1.3] Old Version: [1.0.1.dev0]
+[2023-06-05 16:03:41] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/6d/20/579ff9277dfc48d22d3266e71a7a9bf68fd5df158eab4759d618b72cfdec/th2_data_services_lwdp-2.1.0.0.dev5177789171.tar.gz
+[2023-06-05 16:03:41] INFO root fetch - processPackages [model-bakery]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-05 16:03:41] INFO root fetch - processPackages [vsaa]: Downloading https://files.pythonhosted.org/packages/12/fe/adacfb75dc0263d72e400ed9bdc6672dfadebb4a505ccefcbaae600b752c/vsaa-1.8.0.tar.gz
+[2023-06-05 16:03:41] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/f3/d5/968583fdecac8af40653d965866cba7f2c703ad9d0d6e57a94b006201418/th2_data_services_lwdp-2.1.0.0.dev5177903823.tar.gz
+[2023-06-05 16:03:41] INFO root fetch - processPackages [model-bakery]: Downloading https://files.pythonhosted.org/packages/2e/b5/8891c65776c51b08d0692fbcb04e061886b840b997fd639dae100e096c44/model_bakery-1.8.0.tar.gz
+[2023-06-05 16:03:41] INFO root fetch - processPackages [vsaa]: executing diffoscope
+[2023-06-05 16:03:41] INFO root fetch - processPackages [vsaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsaa-1.7.0.tar.gz tmp/vsaa-1.8.0.tar.gz --markdown 20230605/v/vsaa/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-05 16:03:41] INFO root fetch - processPackages [flamapy-sat]: Downloading https://files.pythonhosted.org/packages/c0/bd/e82436814b2f64be311316b55513074aff8b8ccdd446898d5743b34adf59/flamapy-sat-1.0.1.dev0.tar.gz
+[2023-06-05 16:03:41] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-05 16:03:41] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5177789171.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5177903823.tar.gz --markdown 20230605/t/th2-data-services-lwdp/2.1.0.0.dev5177789171-2.1.0.0.dev5177903823/diff.md --exclude *.pyd
+[2023-06-05 16:03:41] INFO root fetch - processPackages [flamapy-sat]: Downloading https://files.pythonhosted.org/packages/88/6f/ce42c9983b97e031f4a3e0faff0b9c3c92fc7d7fc331d57a7fe71df4d9cc/flamapy-sat-1.1.3.tar.gz
+[2023-06-05 16:03:41] INFO root fetch - processPackages [model-bakery]: Downloading https://files.pythonhosted.org/packages/fe/86/645ddf84911cca043ef6999fe63979e74e94fea053fdbeb645f168eecc17/model_bakery-1.9.0.tar.gz
+[2023-06-05 16:03:41] INFO root fetch - processPackages [flamapy-sat]: executing diffoscope
+[2023-06-05 16:03:41] INFO root fetch - processPackages [flamapy-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-sat-1.0.1.dev0.tar.gz tmp/flamapy-sat-1.1.3.tar.gz --markdown 20230605/f/flamapy-sat/1.0.1.dev0-1.1.3/diff.md --exclude *.pyd
+[2023-06-05 16:03:41] INFO root fetch - processPackages [model-bakery]: executing diffoscope
+[2023-06-05 16:03:41] INFO root fetch - processPackages [model-bakery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_bakery-1.8.0.tar.gz tmp/model_bakery-1.9.0.tar.gz --markdown 20230605/m/model-bakery/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 16:03:42] INFO root fetch - processPackages [vsmasktools]: Remove: archive file [/home/abi/fetcher/tmp/vsmasktools-1.0.0.tar.gz]
+[2023-06-05 16:03:42] INFO root fetch - processPackages [vsmasktools]: Remove: archive file [/home/abi/fetcher/tmp/vsmasktools-1.1.0.tar.gz]
+[2023-06-05 16:03:42] INFO root fetch - processPackages [vsmasktools]: Start processing: vsscale
+[2023-06-05 16:03:42] INFO root fetch - main [MainThread]: End processing [vsmasktools]: success
+[2023-06-05 16:03:42] INFO root fetch - processPackages [vsscale]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-05 16:03:42] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 16:03:42] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 16:03:42] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: weightipy
+[2023-06-05 16:03:42] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 16:03:42] INFO root fetch - processPackages [vsscale]: Downloading https://files.pythonhosted.org/packages/19/28/e052874261009fc9bd0efc06ede186d10e671d80f7f455cd584d9f30b40a/vsscale-1.8.0.tar.gz
+[2023-06-05 16:03:42] INFO root fetch - processPackages [weightipy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-05 16:03:42] INFO root fetch - processPackages [weightipy]: Downloading https://files.pythonhosted.org/packages/c9/6d/61885c0ab6913aefb883227e88a05ba0e82f7188d5c1ba71bb217675ac78/weightipy-0.2.0.tar.gz
+[2023-06-05 16:03:42] INFO root fetch - processPackages [vsscale]: Downloading https://files.pythonhosted.org/packages/9d/9a/7a430da6389f67cc71fa1e8273b76a91369664e69f84b47ebcd7940a3c17/vsscale-1.9.0.tar.gz
+[2023-06-05 16:03:42] INFO root fetch - processPackages [weightipy]: Downloading https://files.pythonhosted.org/packages/8a/bf/f5bbb379c5f1a85144d78975f22fb38376dbe7758a496a5035bbe4a50123/weightipy-0.3.0.tar.gz
+[2023-06-05 16:03:42] INFO root fetch - processPackages [spatk]: Remove: archive file [/home/abi/fetcher/tmp/spatk-1.0.1.tar.gz]
+[2023-06-05 16:03:42] INFO root fetch - processPackages [spatk]: Remove: archive file [/home/abi/fetcher/tmp/spatk-1.1.1.tar.gz]
+[2023-06-05 16:03:42] INFO root fetch - processPackages [spatk]: Start processing: edx-enterprise-subsidy-client
+[2023-06-05 16:03:42] INFO root fetch - main [MainThread]: End processing [spatk]: success
+[2023-06-05 16:03:43] INFO root fetch - processPackages [vsscale]: executing diffoscope
+[2023-06-05 16:03:43] INFO root fetch - processPackages [vsscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsscale-1.8.0.tar.gz tmp/vsscale-1.9.0.tar.gz --markdown 20230605/v/vsscale/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 16:03:43] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-05 16:03:43] INFO root fetch - processPackages [weightipy]: executing diffoscope
+[2023-06-05 16:03:43] INFO root fetch - processPackages [weightipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weightipy-0.2.0.tar.gz tmp/weightipy-0.3.0.tar.gz --markdown 20230605/w/weightipy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 16:03:43] INFO root fetch - processPackages [vsaa]: Remove: archive file [/home/abi/fetcher/tmp/vsaa-1.7.0.tar.gz]
+[2023-06-05 16:03:43] INFO root fetch - processPackages [vsaa]: Remove: archive file [/home/abi/fetcher/tmp/vsaa-1.8.0.tar.gz]
+[2023-06-05 16:03:43] INFO root fetch - main [MainThread]: End processing [vsaa]: success
+[2023-06-05 16:03:43] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Downloading https://files.pythonhosted.org/packages/bb/6e/357164a5098683f845f8b79f87a3b48426cce4e8015dc77cc0e9509b184c/edx-enterprise-subsidy-client-0.3.6.tar.gz
+[2023-06-05 16:03:43] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Downloading https://files.pythonhosted.org/packages/93/a1/45d01475406ab921a4cb791de59cc5071fee93931e8fd5db47d3f168a8a6/edx-enterprise-subsidy-client-0.3.7.tar.gz
+[2023-06-05 16:03:43] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: executing diffoscope
+[2023-06-05 16:03:43] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-subsidy-client-0.3.6.tar.gz tmp/edx-enterprise-subsidy-client-0.3.7.tar.gz --markdown 20230605/e/edx-enterprise-subsidy-client/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-05 16:03:43] INFO root fetch - processPackages [flamapy-sat]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-sat-1.0.1.dev0.tar.gz]
+[2023-06-05 16:03:43] INFO root fetch - processPackages [flamapy-sat]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-sat-1.1.3.tar.gz]
+[2023-06-05 16:03:43] INFO root fetch - main [MainThread]: End processing [flamapy-sat]: success
+[2023-06-05 16:03:43] INFO root fetch - processPackages [model-bakery]: Remove: archive file [/home/abi/fetcher/tmp/model_bakery-1.8.0.tar.gz]
+[2023-06-05 16:03:43] INFO root fetch - processPackages [model-bakery]: Remove: archive file [/home/abi/fetcher/tmp/model_bakery-1.9.0.tar.gz]
+[2023-06-05 16:03:43] INFO root fetch - main [MainThread]: End processing [model-bakery]: success
+[2023-06-05 16:03:43] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5177789171.tar.gz]
+[2023-06-05 16:03:43] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5177903823.tar.gz]
+[2023-06-05 16:03:43] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-05 16:03:44] INFO root fetch - processPackages [vsscale]: Remove: archive file [/home/abi/fetcher/tmp/vsscale-1.8.0.tar.gz]
+[2023-06-05 16:03:44] INFO root fetch - processPackages [vsscale]: Remove: archive file [/home/abi/fetcher/tmp/vsscale-1.9.0.tar.gz]
+[2023-06-05 16:03:44] INFO root fetch - main [MainThread]: End processing [vsscale]: success
+[2023-06-05 16:03:44] INFO root fetch - processPackages [weightipy]: Remove: archive file [/home/abi/fetcher/tmp/weightipy-0.2.0.tar.gz]
+[2023-06-05 16:03:44] INFO root fetch - processPackages [weightipy]: Remove: archive file [/home/abi/fetcher/tmp/weightipy-0.3.0.tar.gz]
+[2023-06-05 16:03:44] INFO root fetch - main [MainThread]: End processing [weightipy]: success
+[2023-06-05 16:03:45] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-subsidy-client-0.3.6.tar.gz]
+[2023-06-05 16:03:45] INFO root fetch - processPackages [edx-enterprise-subsidy-client]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-subsidy-client-0.3.7.tar.gz]
+[2023-06-05 16:03:45] INFO root fetch - main [MainThread]: End processing [edx-enterprise-subsidy-client]: success
+[2023-06-05 16:03:45] INFO root fetch - processPackages [pyschism]: Remove: archive file [/home/abi/fetcher/tmp/pyschism-0.1.6.tar.gz]
+[2023-06-05 16:03:45] INFO root fetch - processPackages [pyschism]: Remove: archive file [/home/abi/fetcher/tmp/pyschism-0.1.7.tar.gz]
+[2023-06-05 16:03:45] INFO root fetch - main [MainThread]: End processing [pyschism]: success
+[2023-06-05 16:03:49] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306051337-py3-none-any.whl.zip]
+[2023-06-05 16:03:49] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306051401-py3-none-any.whl.zip]
+[2023-06-05 16:03:49] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-05 16:04:29] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.mosaic-3.1.1.tar.gz]
+[2023-06-05 16:04:29] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.mosaic-3.1.2.tar.gz]
+[2023-06-05 16:04:29] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic]: success
+[2023-06-05 16:04:29] INFO root fetch - main [MainThread]: Store serial: [18376922]
