@@ -3124,3 +3124,53 @@
 [2023-06-05 03:18:12] INFO root fetch - main [MainThread]: End processing [moped]: success
 [2023-06-05 03:18:19] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-05 03:18:19] INFO root fetch - main [MainThread]: Store serial: [18370725]
+[2023-06-05 03:23:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18370725]
+[2023-06-05 03:23:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qbwc
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qbwc
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: setuptools-ziglang
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AaronBlaser-SDK
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikGapps
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alegrapy
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sops-secrets
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlplatformutils
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NikGapps
+[2023-06-05 03:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: int3
+[2023-06-05 03:23:29] INFO root fetch - processPackages [qbwc]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 03:23:29] WARNING root fetch - processPackages [setuptools-ziglang]: Skipping, unable to determine old version
+[2023-06-05 03:23:29] INFO root fetch - main [MainThread]: End processing [setuptools-ziglang] error
+[2023-06-05 03:23:29] WARNING root fetch - processPackages [alegrapy]: Skipping, unable to determine old version
+[2023-06-05 03:23:29] INFO root fetch - main [MainThread]: End processing [alegrapy] error
+[2023-06-05 03:23:29] INFO root fetch - processPackages [mlplatformutils]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-05 03:23:29] INFO root fetch - processPackages [NikGapps]: New version: [1.30] Old Version: [1.29]
+[2023-06-05 03:23:29] INFO root fetch - processPackages [NikGapps]: New version: [1.30] Old Version: [1.29]
+[2023-06-05 03:23:29] WARNING root fetch - processPackages [int3]: Skipping, unable to determine old version
+[2023-06-05 03:23:29] INFO root fetch - main [MainThread]: End processing [int3] error
+[2023-06-05 03:23:29] INFO root fetch - processPackages [qbwc]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 03:23:29] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-05 03:23:29] WARNING root fetch - processPackages [AaronBlaser-SDK]: Skipping, unable to determine old version
+[2023-06-05 03:23:29] INFO root fetch - main [MainThread]: End processing [AaronBlaser-SDK] error
+[2023-06-05 03:23:29] INFO root fetch - processPackages [qbwc]: Downloading https://files.pythonhosted.org/packages/ef/b8/584fa3118755cf26b01db31175842bf083df8e3bea1d330f3a48789268b3/qbwc-0.0.1.tar.gz
+[2023-06-05 03:23:29] INFO root fetch - processPackages [qbwc]: Downloading https://files.pythonhosted.org/packages/ef/b8/584fa3118755cf26b01db31175842bf083df8e3bea1d330f3a48789268b3/qbwc-0.0.1.tar.gz
+[2023-06-05 03:23:29] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-05 03:23:29] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230605/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-05 03:23:29] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/95/06/9d5b787d5b0b57a9cd475176ff3abe1f5b928f4c7b6f3b929d508c64d408/NikGapps-1.29.tar.gz
+[2023-06-05 03:23:29] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/95/06/9d5b787d5b0b57a9cd475176ff3abe1f5b928f4c7b6f3b929d508c64d408/NikGapps-1.29.tar.gz
+[2023-06-05 03:23:29] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/7a/1b/043d1bb417fb218023de957785d4f86f4cdf5553ece1b2a3356af72565d6/mlplatformutils-0.8.2.tar.gz
+[2023-06-05 03:23:29] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-05 03:23:29] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.8.1.tar.gz tmp/mlplatformutils-0.8.2.tar.gz --markdown 20230605/m/mlplatformutils/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-05 03:23:30] INFO root fetch - processPackages [qbwc]: Downloading https://files.pythonhosted.org/packages/de/06/f1973bb179c7f2be07728c4f21eed68c40b789d6625afe424f454c012928/qbwc-0.0.2.tar.gz
+[2023-06-05 03:23:30] INFO root fetch - processPackages [qbwc]: Downloading https://files.pythonhosted.org/packages/de/06/f1973bb179c7f2be07728c4f21eed68c40b789d6625afe424f454c012928/qbwc-0.0.2.tar.gz
+[2023-06-05 03:23:30] INFO root fetch - processPackages [qbwc]: executing diffoscope
+[2023-06-05 03:23:30] INFO root fetch - processPackages [qbwc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbwc-0.0.1.tar.gz tmp/qbwc-0.0.2.tar.gz --markdown 20230605/q/qbwc/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 03:23:30] INFO root fetch - processPackages [qbwc]: executing diffoscope
+[2023-06-05 03:23:30] INFO root fetch - processPackages [qbwc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbwc-0.0.1.tar.gz tmp/qbwc-0.0.2.tar.gz --markdown 20230605/q/qbwc/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 03:23:30] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41561737>=10485760
+[2023-06-05 03:23:30] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41561737>=10485760
+[2023-06-05 03:23:30] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-05 03:23:30] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-05 03:23:30] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-05 03:23:31] INFO root fetch - main [MainThread]: End processing [qbwc]: success
+[2023-06-05 03:23:31] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-05 03:23:31] INFO root fetch - main [MainThread]: End processing [qbwc]: success
+[2023-06-05 03:23:31] INFO root fetch - main [MainThread]: Store serial: [18370765]
