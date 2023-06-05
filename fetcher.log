@@ -19852,3 +19852,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 18:54:41] INFO root fetch - processPackages [doppkit-esri-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/doppkit-esri-toolbox-0.1.4.tar.gz]
 [2023-06-05 18:54:41] INFO root fetch - main [MainThread]: End processing [doppkit-esri-toolbox]: success
 [2023-06-05 18:54:41] INFO root fetch - main [MainThread]: Store serial: [18378857]
+[2023-06-05 18:59:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378857]
+[2023-06-05 18:59:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tiny-ai-helper
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: purplecaffeine
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hvneuro
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zenml
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: benchmark-runner
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: obs-cli
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ohnlp-backbone-xlang-python
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalice
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-okta
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fauna
+[2023-06-05 18:59:50] WARNING root fetch - processPackages [hvneuro]: Skipping, unable to determine old version
+[2023-06-05 18:59:50] INFO root fetch - main [MainThread]: End processing [hvneuro] error
+[2023-06-05 18:59:50] INFO root fetch - processPackages [purplecaffeine]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 18:59:50] INFO root fetch - processPackages [tiny-ai-helper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 18:59:50] INFO root fetch - processPackages [zenml]: New version: [0.9.0] Old Version: [0.8.1rc0]
+[2023-06-05 18:59:50] INFO root fetch - processPackages [obs-cli]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-05 18:59:50] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 18:59:50] INFO root fetch - processPackages [fauna]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-05 18:59:50] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-05 18:59:50] INFO root fetch - processPackages [chalice]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-05 18:59:50] INFO root fetch - processPackages [pulumi-okta]: New version: [4.0.0a1685982970] Old Version: [4.0.0a1685663230]
+[2023-06-05 18:59:51] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/bb/24/53441b5b62264606147f58aa4b70fe7244a2bc550d47d89edc0837f08a65/obs-cli-0.5.1.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [tiny-ai-helper]: Downloading https://files.pythonhosted.org/packages/ca/f2/26b5e3978ce7e839be8e5b2a8fe6b0a580b6f5d67a36a7977c1e73a4ef30/tiny_ai_helper-0.1.8.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [purplecaffeine]: Downloading https://files.pythonhosted.org/packages/48/c9/f46e54093545192fb8886b898e3c8457517b48dfb899525e4c0b6bd5807f/purplecaffeine-0.1.0.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/92/56/217fd5974baf52b924c37293be835379e300a29e85c7de6fb8cfa6f72dce/ohnlp-backbone-xlang-python-1.0.3.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [zenml]: Downloading https://files.pythonhosted.org/packages/a4/ba/9dd131570801a06d93e9cd4378d1f0d8501cf5e70ba8de510e199e4d3cc5/zenml-0.8.1rc0.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [fauna]: Downloading https://files.pythonhosted.org/packages/41/50/4096b7ecb26f28b0c13057d32e335a847dc99666d2c7dccd21d94cb29778/fauna-0.6.1-py2.py3-none-any.whl
+[2023-06-05 18:59:51] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [chalice]: Downloading https://files.pythonhosted.org/packages/df/dd/3ad0dfd1b7989b2a3131d2c2d8ad32834c3a52e68cc2e25760c35bc9a1eb/chalice-1.9.0.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/43/f0/7cb4b485e2ec1c6f581c8f0e138d33bb93d6982bdf11d2c489826bc5ba7a/pulumi_okta-4.0.0a1685663230.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/29/49/f5dddc539e5750b9fa0bd5991c62a19bc104ccf086c3f1734231bbe0fa61/obs-cli-0.5.2.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-05 18:59:51] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.5.1.tar.gz tmp/obs-cli-0.5.2.tar.gz --markdown 20230605/o/obs-cli/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-05 18:59:51] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/ba/e9/5c0df2841914b52e07455cf2c7c66902375c38d90810a1ca5502ba0df813/ohnlp-backbone-xlang-python-1.0.4.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [purplecaffeine]: Downloading https://files.pythonhosted.org/packages/b3/fe/07509677d2106fe83a8064406a6c0a9cf33258a160502a813b5e4f63dd40/purplecaffeine-0.1.1.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [tiny-ai-helper]: Downloading https://files.pythonhosted.org/packages/67/b9/a8002bd44df5647c2e404e47cfd82abedb51ae58382a4ac06333e91f80b1/tiny_ai_helper-0.1.9.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [fauna]: Downloading https://files.pythonhosted.org/packages/f4/4e/409bcef4e8d39fb9ed8d8d2106d1bec6e4a6273f09e07deac522c00b5980/fauna-0.7.0-py2.py3-none-any.whl
+[2023-06-05 18:59:51] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-06-05 18:59:51] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.3.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.4.tar.gz --markdown 20230605/o/ohnlp-backbone-xlang-python/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 18:59:51] INFO root fetch - processPackages [purplecaffeine]: executing diffoscope
+[2023-06-05 18:59:51] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/e1/67/2c22d38035116647256ed330346063f29db5695b7a7752203309734692da/pulumi_okta-4.0.0a1685982970.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [purplecaffeine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purplecaffeine-0.1.0.tar.gz tmp/purplecaffeine-0.1.1.tar.gz --markdown 20230605/p/purplecaffeine/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 18:59:51] INFO root fetch - processPackages [tiny-ai-helper]: executing diffoscope
+[2023-06-05 18:59:51] INFO root fetch - processPackages [tiny-ai-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_ai_helper-0.1.8.tar.gz tmp/tiny_ai_helper-0.1.9.tar.gz --markdown 20230605/t/tiny-ai-helper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 18:59:51] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-06-05 18:59:51] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230605/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-05 18:59:51] INFO root fetch - processPackages [fauna]: executing diffoscope
+[2023-06-05 18:59:51] INFO root fetch - processPackages [chalice]: Downloading https://files.pythonhosted.org/packages/a6/f5/ea0db83d4aade5c859f0d94190b38ed3637ca5df7d3c3cbf205e99f1c7e1/chalice-1.9.1.tar.gz
+[2023-06-05 18:59:51] INFO root fetch - processPackages [fauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fauna-0.6.1-py2.py3-none-any.whl.zip tmp/fauna-0.7.0-py2.py3-none-any.whl.zip --markdown 20230605/f/fauna/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-05 18:59:51] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-06-05 18:59:51] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.0.0a1685663230.tar.gz tmp/pulumi_okta-4.0.0a1685982970.tar.gz --markdown 20230605/p/pulumi-okta/4.0.0a1685663230-4.0.0a1685982970/diff.md --exclude *.pyd
+[2023-06-05 18:59:52] INFO root fetch - processPackages [zenml]: Downloading https://files.pythonhosted.org/packages/2c/42/78e070bea92d65044e034f70260230101d041ea1f99d781d2f29f7c995c5/zenml-0.9.0.tar.gz
+[2023-06-05 18:59:52] INFO root fetch - processPackages [zenml]: executing diffoscope
+[2023-06-05 18:59:52] INFO root fetch - processPackages [zenml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenml-0.8.1rc0.tar.gz tmp/zenml-0.9.0.tar.gz --markdown 20230605/z/zenml/0.8.1rc0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 18:59:52] INFO root fetch - processPackages [chalice]: executing diffoscope
+[2023-06-05 18:59:52] INFO root fetch - processPackages [chalice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalice-1.9.0.tar.gz tmp/chalice-1.9.1.tar.gz --markdown 20230605/c/chalice/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-05 18:59:52] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.5.1.tar.gz]
+[2023-06-05 18:59:52] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.5.2.tar.gz]
+[2023-06-05 18:59:52] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-05 18:59:52] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.3.tar.gz]
+[2023-06-05 18:59:52] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.4.tar.gz]
+[2023-06-05 18:59:52] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-06-05 18:59:53] INFO root fetch - processPackages [tiny-ai-helper]: Remove: archive file [/home/abi/fetcher/tmp/tiny_ai_helper-0.1.8.tar.gz]
+[2023-06-05 18:59:53] INFO root fetch - processPackages [tiny-ai-helper]: Remove: archive file [/home/abi/fetcher/tmp/tiny_ai_helper-0.1.9.tar.gz]
+[2023-06-05 18:59:53] INFO root fetch - main [MainThread]: End processing [tiny-ai-helper]: success
+[2023-06-05 18:59:53] INFO root fetch - processPackages [purplecaffeine]: Remove: archive file [/home/abi/fetcher/tmp/purplecaffeine-0.1.0.tar.gz]
+[2023-06-05 18:59:53] INFO root fetch - processPackages [purplecaffeine]: Remove: archive file [/home/abi/fetcher/tmp/purplecaffeine-0.1.1.tar.gz]
+[2023-06-05 18:59:53] INFO root fetch - main [MainThread]: End processing [purplecaffeine]: success
+[2023-06-05 18:59:53] INFO root fetch - processPackages [fauna]: Remove: archive file [/home/abi/fetcher/tmp/fauna-0.6.1-py2.py3-none-any.whl.zip]
+[2023-06-05 18:59:53] INFO root fetch - processPackages [fauna]: Remove: archive file [/home/abi/fetcher/tmp/fauna-0.7.0-py2.py3-none-any.whl.zip]
+[2023-06-05 18:59:53] INFO root fetch - main [MainThread]: End processing [fauna]: success
+[2023-06-05 18:59:53] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2023-06-05 18:59:53] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2023-06-05 18:59:53] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-06-05 18:59:54] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.0.0a1685663230.tar.gz]
+[2023-06-05 18:59:54] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.0.0a1685982970.tar.gz]
+[2023-06-05 18:59:54] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-06-05 18:59:54] INFO root fetch - processPackages [chalice]: Remove: archive file [/home/abi/fetcher/tmp/chalice-1.9.0.tar.gz]
+[2023-06-05 18:59:54] INFO root fetch - processPackages [chalice]: Remove: archive file [/home/abi/fetcher/tmp/chalice-1.9.1.tar.gz]
+[2023-06-05 18:59:54] INFO root fetch - main [MainThread]: End processing [chalice]: success
+[2023-06-05 19:00:03] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.8.1rc0.tar.gz]
+[2023-06-05 19:00:03] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.9.0.tar.gz]
+[2023-06-05 19:00:03] INFO root fetch - main [MainThread]: End processing [zenml]: success
+[2023-06-05 19:00:03] INFO root fetch - main [MainThread]: Store serial: [18378894]
