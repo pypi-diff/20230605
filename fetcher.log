@@ -14157,3 +14157,185 @@ EOFError: EOF read where object expected
 [2023-06-05 15:31:36] INFO root fetch - processPackages [rocrate]: Remove: archive file [/home/abi/fetcher/tmp/rocrate-0.8.0.tar.gz]
 [2023-06-05 15:31:36] INFO root fetch - main [MainThread]: End processing [rocrate]: success
 [2023-06-05 15:31:36] INFO root fetch - main [MainThread]: Store serial: [18376559]
+[2023-06-05 15:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376559]
+[2023-06-05 15:36:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appeau-client
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxhelper
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ztfidr
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepsearch-toolkit
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: guadania
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fasttq
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cached-url
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: comet-llm
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-data-services-lwdp
+[2023-06-05 15:36:48] INFO root fetch - processPackages [appeau-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [jaxhelper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [guadania]: New version: [1.6] Old Version: [1.5.2]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [deepsearch-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [comet-llm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5176722421] Old Version: [2.1.0.0.dev5174263610]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [ztfidr]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [cached-url]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [fasttq]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [coiled]: New version: [0.7.1.dev8] Old Version: [0.7.1.dev7]
+[2023-06-05 15:36:48] INFO root fetch - processPackages [jaxhelper]: Downloading https://files.pythonhosted.org/packages/2c/cc/ba9edb42535eb4e2049c9e479585f48f74cb24b960399be4809509a83702/jaxhelper-0.0.2.tar.gz
+[2023-06-05 15:36:48] INFO root fetch - processPackages [cached-url]: Downloading https://files.pythonhosted.org/packages/a6/f4/5919b477b554f8925ec16632921855810e23c975790245307a13dc5d79ed/cached_url-0.0.8.tar.gz
+[2023-06-05 15:36:48] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/5e/f8/4f9fa03aa49610d57c1816b63a2de18009bbce3c332e8d07e7d3b3deb762/th2_data_services_lwdp-2.1.0.0.dev5174263610.tar.gz
+[2023-06-05 15:36:48] INFO root fetch - processPackages [appeau-client]: Downloading https://files.pythonhosted.org/packages/32/7e/7c4b65e0af01046ac0c8da4da353a0b8e620919c78482cdf7570f01ebb0d/appeau_client-0.0.2.tar.gz
+[2023-06-05 15:36:48] INFO root fetch - processPackages [comet-llm]: Downloading https://files.pythonhosted.org/packages/97/87/09801ec6767ee8a9384cd73e62ce09df55b7875710df1a1de3f996eaadb5/comet_llm-0.0.2.tar.gz
+[2023-06-05 15:36:48] INFO root fetch - processPackages [guadania]: Downloading https://files.pythonhosted.org/packages/c5/42/164f0ef2dd6b8389a08c2f69867248c3a607a6cca0c14c34b03d0720b9d2/guadania-1.5.2-py3-none-any.whl
+[2023-06-05 15:36:49] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/53/66/33bde55a240a8b297e68f7746e32e0c49c3be34a0bef777b582ce892e75a/deepsearch_toolkit-0.8.0.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/75/28/784ab63797505a263155634a208bb6288807e2a16941ee14fa42094de031/ztfidr-0.9.3.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/2b/51/d433616070c35128b5b2438cf42f94522b5916f9cf89c4016d3c7e0bdfbc/th2_data_services_lwdp-2.1.0.0.dev5176722421.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [cached-url]: Downloading https://files.pythonhosted.org/packages/ac/27/2d72325349abfd6eb53cded5af403ef9596661b8c498e7dc04212372d585/cached_url-0.0.9.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [fasttq]: Downloading https://files.pythonhosted.org/packages/11/5b/f0c217667c75a31b358580f28c084e6e334fdbc5341f9d0e1a597fd84841/fasttq-1.0.1.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/dd/99/5f0ecb4ca958ec7c5f103a7402efa650b441927f212f56018152b1d6818a/coiled-0.7.1.dev7.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5174263610.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5176722421.tar.gz --markdown 20230605/t/th2-data-services-lwdp/2.1.0.0.dev5174263610-2.1.0.0.dev5176722421/diff.md --exclude *.pyd
+[2023-06-05 15:36:49] INFO root fetch - processPackages [jaxhelper]: Downloading https://files.pythonhosted.org/packages/fa/38/52c5fd1be366c42f21c8fc0e338184bc47813adeb4c04bf95af99705b6dd/jaxhelper-0.0.3.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [cached-url]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [cached-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cached_url-0.0.8.tar.gz tmp/cached_url-0.0.9.tar.gz --markdown 20230605/c/cached-url/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:36:49] INFO root fetch - processPackages [appeau-client]: Downloading https://files.pythonhosted.org/packages/14/67/630b8f5953910aa4e411272d02d2e9809c750e5056a8fe38532d5640b176/appeau_client-0.0.3.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [jaxhelper]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [jaxhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxhelper-0.0.2.tar.gz tmp/jaxhelper-0.0.3.tar.gz --markdown 20230605/j/jaxhelper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 15:36:49] INFO root fetch - processPackages [appeau-client]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [appeau-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appeau_client-0.0.2.tar.gz tmp/appeau_client-0.0.3.tar.gz --markdown 20230605/a/appeau-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 15:36:49] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/fc/b2/69c438a7965e64908af61ea79fa1aee3f7f461818088f5baa6f61c467832/ztfidr-0.9.4.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [comet-llm]: Downloading https://files.pythonhosted.org/packages/97/f1/22314bc49a35f30a87efd214bbe0ccd2bfa31fd6649252c0bf3c9fbe8898/comet_llm-0.0.3.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [guadania]: Downloading https://files.pythonhosted.org/packages/e9/43/35b516ad73922645f46d1af5f8322cc75e58e90bfc1255428aa13277fee8/guadania-1.6-py3-none-any.whl
+[2023-06-05 15:36:49] INFO root fetch - processPackages [comet-llm]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [comet-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_llm-0.0.2.tar.gz tmp/comet_llm-0.0.3.tar.gz --markdown 20230605/c/comet-llm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 15:36:49] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a6/9e/7546000d905a1ffdf4b859794cc7d76b2f667af4576c672cdbf110b301e0/coiled-0.7.1.dev8.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/af/4f/81421d1676fe839d31289bc27a262bdbb1dfd7c868324c8a18fca437e37e/deepsearch_toolkit-0.9.0.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [fasttq]: Downloading https://files.pythonhosted.org/packages/eb/83/97f2542a885eac6c8d7434140064c897f1bec5f7ea73a3578f8f07ac1421/fasttq-1.0.2.tar.gz
+[2023-06-05 15:36:49] INFO root fetch - processPackages [ztfidr]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [ztfidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztfidr-0.9.3.tar.gz tmp/ztfidr-0.9.4.tar.gz --markdown 20230605/z/ztfidr/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-05 15:36:49] INFO root fetch - processPackages [fasttq]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [fasttq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttq-1.0.1.tar.gz tmp/fasttq-1.0.2.tar.gz --markdown 20230605/f/fasttq/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 15:36:49] INFO root fetch - processPackages [guadania]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [guadania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guadania-1.5.2-py3-none-any.whl.zip tmp/guadania-1.6-py3-none-any.whl.zip --markdown 20230605/g/guadania/1.5.2-1.6/diff.md --exclude *.pyd
+[2023-06-05 15:36:49] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.1.dev7.tar.gz tmp/coiled-0.7.1.dev8.tar.gz --markdown 20230605/c/coiled/0.7.1.dev7-0.7.1.dev8/diff.md --exclude *.pyd
+[2023-06-05 15:36:49] INFO root fetch - processPackages [deepsearch-toolkit]: executing diffoscope
+[2023-06-05 15:36:49] INFO root fetch - processPackages [deepsearch-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_toolkit-0.8.0.tar.gz tmp/deepsearch_toolkit-0.9.0.tar.gz --markdown 20230605/d/deepsearch-toolkit/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 15:36:50] INFO root fetch - processPackages [cached-url]: Remove: archive file [/home/abi/fetcher/tmp/cached_url-0.0.8.tar.gz]
+[2023-06-05 15:36:50] INFO root fetch - processPackages [cached-url]: Remove: archive file [/home/abi/fetcher/tmp/cached_url-0.0.9.tar.gz]
+[2023-06-05 15:36:50] INFO root fetch - processPackages [cached-url]: Start processing: nonebot-plugin-spark-gpt
+[2023-06-05 15:36:50] INFO root fetch - main [MainThread]: End processing [cached-url]: success
+[2023-06-05 15:36:50] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-06-05 15:36:51] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/47/ff/eaddf90684155c86dd32f01491577c9a9487cc37ee4df93780d26f7d51d8/nonebot_plugin_spark_gpt-0.3.1.tar.gz
+[2023-06-05 15:36:51] INFO root fetch - processPackages [jaxhelper]: Remove: archive file [/home/abi/fetcher/tmp/jaxhelper-0.0.2.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - processPackages [jaxhelper]: Remove: archive file [/home/abi/fetcher/tmp/jaxhelper-0.0.3.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - main [MainThread]: End processing [jaxhelper]: success
+[2023-06-05 15:36:51] INFO root fetch - processPackages [appeau-client]: Remove: archive file [/home/abi/fetcher/tmp/appeau_client-0.0.2.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - processPackages [appeau-client]: Remove: archive file [/home/abi/fetcher/tmp/appeau_client-0.0.3.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - main [MainThread]: End processing [appeau-client]: success
+[2023-06-05 15:36:51] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11188195>=10485760
+[2023-06-05 15:36:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-06-05 15:36:51] ERROR root fetch - processPackages [guadania]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid start byte
+
+[2023-06-05 15:36:51] INFO root fetch - main [MainThread]: End processing [guadania] error
+[2023-06-05 15:36:51] INFO root fetch - processPackages [comet-llm]: Remove: archive file [/home/abi/fetcher/tmp/comet_llm-0.0.2.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - processPackages [comet-llm]: Remove: archive file [/home/abi/fetcher/tmp/comet_llm-0.0.3.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - main [MainThread]: End processing [comet-llm]: success
+[2023-06-05 15:36:51] INFO root fetch - processPackages [fasttq]: Remove: archive file [/home/abi/fetcher/tmp/fasttq-1.0.1.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - processPackages [fasttq]: Remove: archive file [/home/abi/fetcher/tmp/fasttq-1.0.2.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - main [MainThread]: End processing [fasttq]: success
+[2023-06-05 15:36:51] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.1.dev7.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.1.dev8.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-05 15:36:51] INFO root fetch - processPackages [ztfidr]: Remove: archive file [/home/abi/fetcher/tmp/ztfidr-0.9.3.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - processPackages [ztfidr]: Remove: archive file [/home/abi/fetcher/tmp/ztfidr-0.9.4.tar.gz]
+[2023-06-05 15:36:51] INFO root fetch - main [MainThread]: End processing [ztfidr]: success
+[2023-06-05 15:36:52] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5174263610.tar.gz]
+[2023-06-05 15:36:52] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5176722421.tar.gz]
+[2023-06-05 15:36:52] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-05 15:36:56] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.8.0.tar.gz]
+[2023-06-05 15:36:56] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
+[2023-06-05 15:36:56] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
+[2023-06-05 15:36:56] INFO root fetch - main [MainThread]: Store serial: [18376599]
