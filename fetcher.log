@@ -5936,3 +5936,42 @@
 [2023-06-05 08:39:18] INFO root fetch - main [MainThread]: End processing [cekit]: success
 [2023-06-05 08:39:56] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
 [2023-06-05 08:39:56] INFO root fetch - main [MainThread]: Store serial: [18372321]
+[2023-06-05 08:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372321]
+[2023-06-05 08:45:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-05 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2023-06-05 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mock-data-generator
+[2023-06-05 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mediacatch-s2t
+[2023-06-05 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepod
+[2023-06-05 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hh-ui-check
+[2023-06-05 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pasta-eln
+[2023-06-05 08:45:13] WARNING root fetch - processPackages [mock-data-generator]: Skipping, unable to determine old version
+[2023-06-05 08:45:13] INFO root fetch - main [MainThread]: End processing [mock-data-generator] error
+[2023-06-05 08:45:13] INFO root fetch - processPackages [mediacatch-s2t]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-06-05 08:45:13] INFO root fetch - processPackages [deepod]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-05 08:45:13] INFO root fetch - processPackages [hh-ui-check]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 08:45:13] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-05 08:45:13] INFO root fetch - processPackages [pasta-eln]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-05 08:45:13] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/8b/33/28ba55446e3ae605a74d0c418296b520ae304c2987b17af9708da245433d/mediacatch-s2t-0.0.6.tar.gz
+[2023-06-05 08:45:13] INFO root fetch - processPackages [deepod]: Downloading https://files.pythonhosted.org/packages/f1/22/60f17a4d0784c3eaff5b8dd7fbc48cd89fd12c90d7e3686794d3eab35352/deepod-0.2.0.tar.gz
+[2023-06-05 08:45:13] INFO root fetch - processPackages [hh-ui-check]: Downloading https://files.pythonhosted.org/packages/4e/c6/ffbb1916126b396e57c9db44bb7412a439bfeb87ea7d5c167107e15782f4/hh_ui_check-0.1.3.tar.gz
+[2023-06-05 08:45:13] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/59/01/45ffea951e67890c77f3163c7ed1a04ee8ce4d2bb13f356a5a300937db83/pasta_eln-2.3.8-py3-none-any.whl
+[2023-06-05 08:45:13] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-06-05 08:45:13] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230605/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-05 08:45:13] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/fa/e5/afe190a4f2b8ae218e3c20a4f4f8f33fca45f864ec4481c36f92c53372f3/mediacatch-s2t-1.0.0.tar.gz
+[2023-06-05 08:45:13] INFO root fetch - processPackages [deepod]: Downloading https://files.pythonhosted.org/packages/50/a9/b98080f8e0c6957e6b68b004cf7812e5e13c3c9897441b1540927248f0e1/deepod-0.3.0.tar.gz
+[2023-06-05 08:45:13] INFO root fetch - processPackages [mediacatch-s2t]: executing diffoscope
+[2023-06-05 08:45:13] INFO root fetch - processPackages [mediacatch-s2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediacatch-s2t-0.0.6.tar.gz tmp/mediacatch-s2t-1.0.0.tar.gz --markdown 20230605/m/mediacatch-s2t/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 08:45:13] INFO root fetch - processPackages [deepod]: executing diffoscope
+[2023-06-05 08:45:13] INFO root fetch - processPackages [deepod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepod-0.2.0.tar.gz tmp/deepod-0.3.0.tar.gz --markdown 20230605/d/deepod/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 08:45:13] INFO root fetch - processPackages [hh-ui-check]: Downloading https://files.pythonhosted.org/packages/8b/33/7d3afa93610ce0a6c74bcca8c2398a6b20fc226ae5a46a9deb036171dcda/hh_ui_check-0.1.4.tar.gz
+[2023-06-05 08:45:13] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/ff/12/4f1000dade1566838e3e724b7d28c6409c52ce7ac4152a176bdc17bdb32f/pasta_eln-2.3.9-py3-none-any.whl
+[2023-06-05 08:45:14] INFO root fetch - processPackages [hh-ui-check]: executing diffoscope
+[2023-06-05 08:45:14] INFO root fetch - processPackages [hh-ui-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hh_ui_check-0.1.3.tar.gz tmp/hh_ui_check-0.1.4.tar.gz --markdown 20230605/h/hh-ui-check/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 08:45:14] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-06-05 08:45:14] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.3.8-py3-none-any.whl.zip tmp/pasta_eln-2.3.9-py3-none-any.whl.zip --markdown 20230605/p/pasta-eln/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-05 08:45:14] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-06-05 08:45:14] INFO root fetch - main [MainThread]: End processing [mediacatch-s2t]: success
+[2023-06-05 08:45:15] INFO root fetch - main [MainThread]: End processing [hh-ui-check]: success
+[2023-06-05 08:45:15] INFO root fetch - main [MainThread]: End processing [deepod]: success
+[2023-06-05 08:45:15] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-06-05 08:45:15] INFO root fetch - main [MainThread]: Store serial: [18372345]
