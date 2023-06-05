@@ -15855,3 +15855,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 16:29:26] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip]
 [2023-06-05 16:29:26] INFO root fetch - main [MainThread]: End processing [flywheel-cli]: success
 [2023-06-05 16:29:26] INFO root fetch - main [MainThread]: Store serial: [18377176]
+[2023-06-05 16:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377176]
+[2023-06-05 16:34:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liquibase-datasource
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-tbase-post-product
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rmlab
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqrack
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pktperf
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diffable-sql
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vsdenoise
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sparsezoo-nightly
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparseml-nightly
+[2023-06-05 16:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepsparse-nightly
+[2023-06-05 16:34:35] WARNING root fetch - processPackages [liquibase-datasource]: Skipping, unable to determine old version
+[2023-06-05 16:34:35] INFO root fetch - processPackages [liquibase-datasource]: Start processing: vsdehalo
+[2023-06-05 16:34:35] INFO root fetch - main [MainThread]: End processing [liquibase-datasource] error
+[2023-06-05 16:34:35] INFO root fetch - processPackages [pktperf]: New version: [0.5.3] Old Version: [0.4.1]
+[2023-06-05 16:34:35] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.6.516859753] Old Version: [2023.6.216856966]
+[2023-06-05 16:34:35] INFO root fetch - processPackages [rmlab]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-05 16:34:35] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-05 16:34:35] INFO root fetch - processPackages [diffable-sql]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 16:34:35] INFO root fetch - processPackages [pktperf]: Downloading https://files.pythonhosted.org/packages/c6/ba/9f1f1db4895e602571cbd44bf9ce551397add4604613cfe98f16e892e3dc/pktperf-0.4.1.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [deepsparse-nightly]: New version: [1.6.0.20230604] Old Version: [1.5.0.20230531]
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdenoise]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparseml-nightly]: New version: [1.6.0.20230604] Old Version: [1.5.0.20230531]
+[2023-06-05 16:34:36] INFO root fetch - processPackages [diffable-sql]: Downloading https://files.pythonhosted.org/packages/86/9d/5241ed3dfc42287bce6524832d539b4241428c046ce63a65871e85853e19/diffable_sql-0.1.0.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparsezoo-nightly]: New version: [1.6.0.20230604] Old Version: [1.5.0.20230531]
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdehalo]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-05 16:34:36] INFO root fetch - processPackages [pktperf]: Downloading https://files.pythonhosted.org/packages/c1/a2/3061933ae66cd127450460b57730e8cc37b0df74c73437e728b7c4d58360/pktperf-0.5.3.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [diffable-sql]: Downloading https://files.pythonhosted.org/packages/90/5c/30e86fd5dc24ac9e397570a6a469ab6316a9b9580faa870ebd417a69f7be/diffable_sql-0.1.1.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [rmlab]: Downloading https://files.pythonhosted.org/packages/79/dd/27100f78b33a69b948c8d5d0459790843d18b924581a2c6d8e3438fdbb79/rmlab-0.4.3.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/2e/92/06c21134adb001b94be7cda3e80facd886305c14ead6aafa0a6d20804a3b/django_tbase_post_product-2023.6.216856966.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [pktperf]: executing diffoscope
+[2023-06-05 16:34:36] INFO root fetch - processPackages [pktperf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pktperf-0.4.1.tar.gz tmp/pktperf-0.5.3.tar.gz --markdown 20230605/p/pktperf/0.4.1-0.5.3/diff.md --exclude *.pyd
+[2023-06-05 16:34:36] INFO root fetch - processPackages [deepsparse-nightly]: Downloading https://files.pythonhosted.org/packages/5a/e0/5c50bab88c975208f1179edde4f5a4f004c10ff03badeb761a8a3cef95be/deepsparse-nightly-1.5.0.20230531.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-05 16:34:36] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230605/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-05 16:34:36] WARNING root fetch - processPackages [deepsparse-nightly]: Skipping package: exceeds size limit 42359697>=10485760
+[2023-06-05 16:34:36] INFO root fetch - processPackages [deepsparse-nightly]: Start processing: rcsb.exdb
+[2023-06-05 16:34:36] INFO root fetch - main [MainThread]: End processing [deepsparse-nightly] error
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdenoise]: Downloading https://files.pythonhosted.org/packages/ea/2e/ef557415ad1046e0b113e24e3c1e7e4c05e68fe779ed8f2ef27cdabc5bc0/vsdenoise-2.2.0.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [diffable-sql]: executing diffoscope
+[2023-06-05 16:34:36] INFO root fetch - processPackages [diffable-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffable_sql-0.1.0.tar.gz tmp/diffable_sql-0.1.1.tar.gz --markdown 20230605/d/diffable-sql/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdehalo]: Downloading https://files.pythonhosted.org/packages/57/0d/3a168352f9afeb4b74e9acb0b0680122fe95085c418dc98e771ca499b8a7/vsdehalo-1.7.0.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/6d/88/a732de61171725c9581bc38d150aa180c4fb8f1d0fadac3e28398c3136df/sparseml_nightly-1.5.0.20230531-py3-none-any.whl
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/48/a2/31a24d9e9640c7a8617760d843b894e5277aa2d51f7e1a92ceadf1ab2ae7/sparsezoo_nightly-1.5.0.20230531-py3-none-any.whl
+[2023-06-05 16:34:36] INFO root fetch - processPackages [rcsb.exdb]: New version: [0.97] Old Version: [0.96]
+[2023-06-05 16:34:36] INFO root fetch - processPackages [rmlab]: Downloading https://files.pythonhosted.org/packages/71/1d/da7f366b55b0e97cc238d80e03efb48bffdb2005b6bc65bb1c8af5caf129/rmlab-0.4.4.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/e0/64/a5c7d3815be3dcb10a2ff7bb19c3eef2a5d3c65bb62fe1ffa62ed9525ad9/django_tbase_post_product-2023.6.516859753.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdenoise]: Downloading https://files.pythonhosted.org/packages/38/39/1383212356425ffdc90c061249c1f4bb8a3e5a2fd32201f101fc2c24aa2b/vsdenoise-2.3.0.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/38/4f/5216be15621e06ef8f193cea8958bf261d91cf815960372c8321a9087691/sparsezoo_nightly-1.6.0.20230604-py3-none-any.whl
+[2023-06-05 16:34:36] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-06-05 16:34:36] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.6.216856966.tar.gz tmp/django_tbase_post_product-2023.6.516859753.tar.gz --markdown 20230605/d/django-tbase-post-product/2023.6.216856966-2023.6.516859753/diff.md --exclude *.pyd
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/42/45/cb7f5036c0b23dc5efb3d89316112aacf9675098f8c43209c9907e50a290/sparseml_nightly-1.6.0.20230604-py3-none-any.whl
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdenoise]: executing diffoscope
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdenoise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsdenoise-2.2.0.tar.gz tmp/vsdenoise-2.3.0.tar.gz --markdown 20230605/v/vsdenoise/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdehalo]: Downloading https://files.pythonhosted.org/packages/35/49/bf78aa09b5373b643d42b64f07d305363a331866a76a65c5f197ab0c17ca/vsdehalo-1.7.1.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparsezoo-nightly]: executing diffoscope
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparsezoo-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsezoo_nightly-1.5.0.20230531-py3-none-any.whl.zip tmp/sparsezoo_nightly-1.6.0.20230604-py3-none-any.whl.zip --markdown 20230605/s/sparsezoo-nightly/1.5.0.20230531-1.6.0.20230604/diff.md --exclude *.pyd
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparseml-nightly]: executing diffoscope
+[2023-06-05 16:34:36] INFO root fetch - processPackages [sparseml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseml_nightly-1.5.0.20230531-py3-none-any.whl.zip tmp/sparseml_nightly-1.6.0.20230604-py3-none-any.whl.zip --markdown 20230605/s/sparseml-nightly/1.5.0.20230531-1.6.0.20230604/diff.md --exclude *.pyd
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdehalo]: executing diffoscope
+[2023-06-05 16:34:36] INFO root fetch - processPackages [vsdehalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsdehalo-1.7.0.tar.gz tmp/vsdehalo-1.7.1.tar.gz --markdown 20230605/v/vsdehalo/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-05 16:34:36] INFO root fetch - processPackages [rcsb.exdb]: Downloading https://files.pythonhosted.org/packages/5c/ab/b89462802a848e12b85511e4189d280decffa192112415540aff47ef7795/rcsb.exdb-0.96.tar.gz
+[2023-06-05 16:34:36] INFO root fetch - processPackages [rmlab]: executing diffoscope
+[2023-06-05 16:34:36] INFO root fetch - processPackages [rmlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmlab-0.4.3.tar.gz tmp/rmlab-0.4.4.tar.gz --markdown 20230605/r/rmlab/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-05 16:34:37] INFO root fetch - processPackages [rcsb.exdb]: Downloading https://files.pythonhosted.org/packages/0f/58/daaece75bbf961d6b80deae72af3ea33954776665c4f403b493a3a8aa671/rcsb.exdb-0.97.tar.gz
+[2023-06-05 16:34:37] INFO root fetch - processPackages [rcsb.exdb]: executing diffoscope
+[2023-06-05 16:34:37] INFO root fetch - processPackages [rcsb.exdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.exdb-0.96.tar.gz tmp/rcsb.exdb-0.97.tar.gz --markdown 20230605/r/rcsb.exdb/0.96-0.97/diff.md --exclude *.pyd
+[2023-06-05 16:34:37] INFO root fetch - processPackages [pktperf]: Remove: archive file [/home/abi/fetcher/tmp/pktperf-0.4.1.tar.gz]
+[2023-06-05 16:34:37] INFO root fetch - processPackages [pktperf]: Remove: archive file [/home/abi/fetcher/tmp/pktperf-0.5.3.tar.gz]
+[2023-06-05 16:34:37] INFO root fetch - processPackages [pktperf]: Start processing: sparsify-nightly
+[2023-06-05 16:34:37] INFO root fetch - main [MainThread]: End processing [pktperf]: success
+[2023-06-05 16:34:37] INFO root fetch - processPackages [diffable-sql]: Remove: archive file [/home/abi/fetcher/tmp/diffable_sql-0.1.0.tar.gz]
+[2023-06-05 16:34:37] INFO root fetch - processPackages [diffable-sql]: Remove: archive file [/home/abi/fetcher/tmp/diffable_sql-0.1.1.tar.gz]
+[2023-06-05 16:34:37] INFO root fetch - processPackages [diffable-sql]: Start processing: nm-transformers-nightly
+[2023-06-05 16:34:37] INFO root fetch - main [MainThread]: End processing [diffable-sql]: success
+[2023-06-05 16:34:37] INFO root fetch - processPackages [sparsify-nightly]: New version: [1.6.0.20230604] Old Version: [1.5.0.20230521]
+[2023-06-05 16:34:38] INFO root fetch - processPackages [nm-transformers-nightly]: New version: [1.6.0.20230604] Old Version: [1.5.0.20230531]
+[2023-06-05 16:34:38] INFO root fetch - processPackages [sparsify-nightly]: Downloading https://files.pythonhosted.org/packages/5f/89/4f0bd8792a8347f2f081231fa41c8651564d14ede797c71ecb90327e9abd/sparsify-nightly-1.5.0.20230521.tar.gz
+[2023-06-05 16:34:38] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/69/90/107b9006e3bb5f5f342e029a3c96c44dab4ca53e0b39b8e25c07a35e1c63/nm_transformers_nightly-1.5.0.20230531-py3-none-any.whl
+[2023-06-05 16:34:38] INFO root fetch - processPackages [vsdehalo]: Remove: archive file [/home/abi/fetcher/tmp/vsdehalo-1.7.0.tar.gz]
+[2023-06-05 16:34:38] INFO root fetch - processPackages [vsdehalo]: Remove: archive file [/home/abi/fetcher/tmp/vsdehalo-1.7.1.tar.gz]
+[2023-06-05 16:34:38] INFO root fetch - processPackages [vsdehalo]: Start processing: vsdeband
+[2023-06-05 16:34:38] INFO root fetch - main [MainThread]: End processing [vsdehalo]: success
+[2023-06-05 16:34:38] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-05 16:34:38] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-05 16:34:38] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-05 16:34:38] INFO root fetch - processPackages [vsdeband]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 16:34:38] INFO root fetch - processPackages [rmlab]: Remove: archive file [/home/abi/fetcher/tmp/rmlab-0.4.3.tar.gz]
+[2023-06-05 16:34:38] INFO root fetch - processPackages [rmlab]: Remove: archive file [/home/abi/fetcher/tmp/rmlab-0.4.4.tar.gz]
+[2023-06-05 16:34:38] INFO root fetch - main [MainThread]: End processing [rmlab]: success
+[2023-06-05 16:34:38] INFO root fetch - processPackages [vsdeband]: Downloading https://files.pythonhosted.org/packages/d6/46/c64ac463220caefd9314cd5c770f56444f65d3ab61e1592de0642844fc29/vsdeband-1.0.0.tar.gz
+[2023-06-05 16:34:38] INFO root fetch - processPackages [sparsezoo-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsezoo_nightly-1.5.0.20230531-py3-none-any.whl.zip]
+[2023-06-05 16:34:38] INFO root fetch - processPackages [sparsezoo-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsezoo_nightly-1.6.0.20230604-py3-none-any.whl.zip]
+[2023-06-05 16:34:38] INFO root fetch - main [MainThread]: End processing [sparsezoo-nightly]: success
+[2023-06-05 16:34:38] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.6.216856966.tar.gz]
+[2023-06-05 16:34:38] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.6.516859753.tar.gz]
+[2023-06-05 16:34:38] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-06-05 16:34:38] INFO root fetch - processPackages [sparsify-nightly]: Downloading https://files.pythonhosted.org/packages/a1/55/d628893efc66e8533a8270e0a9021960ed76486cf17ee726751672d84cda/sparsify-nightly-1.6.0.20230604.tar.gz
+[2023-06-05 16:34:39] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/81/e7/212603bdcd10668a121cae8272125b4cb4e5f7a318e0fccd496ae8912807/nm_transformers_nightly-1.6.0.20230604-py3-none-any.whl
+[2023-06-05 16:34:39] INFO root fetch - processPackages [vsdeband]: Downloading https://files.pythonhosted.org/packages/d1/ba/115799e3353603a56b1f508937c37d82d2ed33296cf0f5a8ebc6ce691648/vsdeband-1.0.1.tar.gz
+[2023-06-05 16:34:39] INFO root fetch - processPackages [sparsify-nightly]: executing diffoscope
+[2023-06-05 16:34:39] INFO root fetch - processPackages [sparsify-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsify-nightly-1.5.0.20230521.tar.gz tmp/sparsify-nightly-1.6.0.20230604.tar.gz --markdown 20230605/s/sparsify-nightly/1.5.0.20230521-1.6.0.20230604/diff.md --exclude *.pyd
+[2023-06-05 16:34:39] INFO root fetch - processPackages [vsdeband]: executing diffoscope
+[2023-06-05 16:34:39] INFO root fetch - processPackages [vsdeband]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsdeband-1.0.0.tar.gz tmp/vsdeband-1.0.1.tar.gz --markdown 20230605/v/vsdeband/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 16:34:39] INFO root fetch - processPackages [vsdenoise]: Remove: archive file [/home/abi/fetcher/tmp/vsdenoise-2.2.0.tar.gz]
+[2023-06-05 16:34:39] INFO root fetch - processPackages [vsdenoise]: Remove: archive file [/home/abi/fetcher/tmp/vsdenoise-2.3.0.tar.gz]
+[2023-06-05 16:34:39] INFO root fetch - main [MainThread]: End processing [vsdenoise]: success
+[2023-06-05 16:34:40] INFO root fetch - processPackages [rcsb.exdb]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.exdb-0.96.tar.gz]
+[2023-06-05 16:34:40] INFO root fetch - processPackages [rcsb.exdb]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.exdb-0.97.tar.gz]
+[2023-06-05 16:34:40] INFO root fetch - main [MainThread]: End processing [rcsb.exdb]: success
+[2023-06-05 16:34:40] INFO root fetch - processPackages [vsdeband]: Remove: archive file [/home/abi/fetcher/tmp/vsdeband-1.0.0.tar.gz]
+[2023-06-05 16:34:40] INFO root fetch - processPackages [vsdeband]: Remove: archive file [/home/abi/fetcher/tmp/vsdeband-1.0.1.tar.gz]
+[2023-06-05 16:34:40] INFO root fetch - main [MainThread]: End processing [vsdeband]: success
+[2023-06-05 16:34:41] INFO root fetch - processPackages [nm-transformers-nightly]: executing diffoscope
+[2023-06-05 16:34:41] INFO root fetch - processPackages [nm-transformers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_transformers_nightly-1.5.0.20230531-py3-none-any.whl.zip tmp/nm_transformers_nightly-1.6.0.20230604-py3-none-any.whl.zip --markdown 20230605/n/nm-transformers-nightly/1.5.0.20230531-1.6.0.20230604/diff.md --exclude *.pyd
+[2023-06-05 16:34:41] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.5.0.20230531-py3-none-any.whl.zip]
+[2023-06-05 16:34:41] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.6.0.20230604-py3-none-any.whl.zip]
+[2023-06-05 16:34:41] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
+[2023-06-05 16:34:49] INFO root fetch - processPackages [sparsify-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsify-nightly-1.5.0.20230521.tar.gz]
+[2023-06-05 16:34:49] INFO root fetch - processPackages [sparsify-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsify-nightly-1.6.0.20230604.tar.gz]
+[2023-06-05 16:34:49] INFO root fetch - main [MainThread]: End processing [sparsify-nightly]: success
+[2023-06-05 16:35:00] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.5.0.20230531-py3-none-any.whl.zip]
+[2023-06-05 16:35:00] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.6.0.20230604-py3-none-any.whl.zip]
+[2023-06-05 16:35:00] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly]: success
+[2023-06-05 16:35:00] INFO root fetch - main [MainThread]: Store serial: [18377229]
