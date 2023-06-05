@@ -9489,3 +9489,115 @@
 [2023-06-05 12:08:36] INFO root fetch - main [MainThread]: End processing [enebootools]: success
 [2023-06-05 12:08:45] INFO root fetch - main [MainThread]: End processing [wavpack-numcodecs]: success
 [2023-06-05 12:08:45] INFO root fetch - main [MainThread]: Store serial: [18374381]
+[2023-06-05 12:13:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374381]
+[2023-06-05 12:14:00] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domolibrary
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bpc-walrus
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dm-reverb-nightly
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-ionq
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-web
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-pasqal
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-aqt
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-core
+[2023-06-05 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-google
+[2023-06-05 12:14:00] INFO root fetch - processPackages [bpc-walrus]: New version: [0.1.5rc1] Old Version: [0.1.5]
+[2023-06-05 12:14:00] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 12:14:00] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230605100941] Old Version: [1.2.0.dev20230602213529]
+[2023-06-05 12:14:00] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230605100941] Old Version: [1.2.0.dev20230602213529]
+[2023-06-05 12:14:00] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-05 12:14:00] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230605100941] Old Version: [1.2.0.dev20230602213529]
+[2023-06-05 12:14:00] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230605100941] Old Version: [1.2.0.dev20230602213529]
+[2023-06-05 12:14:01] INFO root fetch - processPackages [bpc-walrus]: Downloading https://files.pythonhosted.org/packages/87/93/6135fe910c5b924a3978af50d772bfa5b96298109c77a40b983d52e878f5/bpc-walrus-0.1.5.tar.gz
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230605100941] Old Version: [1.2.0.dev20230602213529]
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230605100941] Old Version: [1.2.0.dev20230602213529]
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230605100941] Old Version: [1.2.0.dev20230602213529]
+[2023-06-05 12:14:01] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/48/5e/3b56dda2073c1eb14e6f3800cb7a8dedf9b70361a54ef830cd5c2865edd9/cirq_ionq-1.2.0.dev20230602213529-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/48/67/f41676ad2e8ad3864a89cda042d82c922bf63ae606fa8099adcba6498100/cirq_web-1.2.0.dev20230602213529-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/21/0a/360c20369a22c39455ddba27a66d62d1db19cbcdb8e7108fafd3c8451198/cirq_aqt-1.2.0.dev20230602213529-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/1c/95/1f847a09495a12b51df34f7dbc243b466868e941b6d09ba4de2f9572e6dd/cirq-1.2.0.dev20230602213529-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/40/1b/45e5831316000a1138c8b81d5c6e20cb9dee88affa0b0854d8005b9ba679/cirq_core-1.2.0.dev20230602213529-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/0a/d9/46f1963a56b4a55bdf3b0d22c9451f1f994633db5ad136aedcf390bfce10/cirq_pasqal-1.2.0.dev20230602213529-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/d5/57/8514a124611ea2e00e864f20013139658cb741bb297b4610a73821bd454f/cirq_google-1.2.0.dev20230602213529-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [bpc-walrus]: Downloading https://files.pythonhosted.org/packages/6c/a7/1b734696d0c4daf968a68446e9695e7806e535778174b86b35d91c75d5d4/bpc-walrus-0.1.5rc1.tar.gz
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/a9/23/3cdc62abcbee4acba606a5a44b891ef004c0297fbd4e115642ba3f0499e7/cirq_ionq-1.2.0.dev20230605100941-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/ea/41/c2fd09345bcbca932ce2990a48ce9571b0511d2bdc79d4e37e3e2cb52473/cirq_web-1.2.0.dev20230605100941-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [bpc-walrus]: executing diffoscope
+[2023-06-05 12:14:01] INFO root fetch - processPackages [bpc-walrus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpc-walrus-0.1.5.tar.gz tmp/bpc-walrus-0.1.5rc1.tar.gz --markdown 20230605/b/bpc-walrus/0.1.5-0.1.5rc1/diff.md --exclude *.pyd
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/59/05/7d646d0f2bf8cc8fc3d64066012c3ced5937760f27fb0912e06da6c7346c/cirq-1.2.0.dev20230605100941-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/9d/b6/0506289fec3ca497ed8af1e62e0ffa40f3f85e5fe5307100d2c4a55bc6d9/cirq_aqt-1.2.0.dev20230605100941-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230602213529-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230605100941-py3-none-any.whl.zip --markdown 20230605/c/cirq-ionq/1.2.0.dev20230602213529-1.2.0.dev20230605100941/diff.md --exclude *.pyd
+[2023-06-05 12:14:01] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-06-05 12:14:01] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230605/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/d1/0c/cb02ac87b6b018c28bed6a42f21f0b3b88f7283b7665b0477244555c1811/cirq_pasqal-1.2.0.dev20230605100941-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230602213529-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230605100941-py3-none-any.whl.zip --markdown 20230605/c/cirq-web/1.2.0.dev20230602213529-1.2.0.dev20230605100941/diff.md --exclude *.pyd
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/0f/94/24d69994ccba48d671d288c87201f90379c92f3a19384d2cb04b5179554a/cirq_google-1.2.0.dev20230605100941-py3-none-any.whl
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-06-05 12:14:01] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230602213529-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230605100941-py3-none-any.whl.zip --markdown 20230605/c/cirq/1.2.0.dev20230602213529-1.2.0.dev20230605100941/diff.md --exclude *.pyd
+[2023-06-05 12:14:02] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-06-05 12:14:02] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230602213529-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230605100941-py3-none-any.whl.zip --markdown 20230605/c/cirq-aqt/1.2.0.dev20230602213529-1.2.0.dev20230605100941/diff.md --exclude *.pyd
+[2023-06-05 12:14:02] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-05 12:14:02] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/3b/03/66b8f04ffcf58edd58fb97b3ebf6374839f5eb3871d670fc1296e6faadea/cirq_core-1.2.0.dev20230605100941-py3-none-any.whl
+[2023-06-05 12:14:02] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-06-05 12:14:02] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230602213529-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230605100941-py3-none-any.whl.zip --markdown 20230605/c/cirq-pasqal/1.2.0.dev20230602213529-1.2.0.dev20230605100941/diff.md --exclude *.pyd
+[2023-06-05 12:14:02] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-06-05 12:14:02] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230602213529-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230605100941-py3-none-any.whl.zip --markdown 20230605/c/cirq-google/1.2.0.dev20230602213529-1.2.0.dev20230605100941/diff.md --exclude *.pyd
+[2023-06-05 12:14:02] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-06-05 12:14:02] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230602213529-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230605100941-py3-none-any.whl.zip --markdown 20230605/c/cirq-core/1.2.0.dev20230602213529-1.2.0.dev20230605100941/diff.md --exclude *.pyd
+[2023-06-05 12:14:02] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-05 12:14:02] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230605/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-05 12:14:03] INFO root fetch - processPackages [cirq]: Start processing: cirq-rigetti
+[2023-06-05 12:14:03] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-06-05 12:14:03] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230605100941] Old Version: [1.2.0.dev20230602213529]
+[2023-06-05 12:14:03] INFO root fetch - processPackages [bpc-walrus]: Start processing: streamlit-d3-network-component
+[2023-06-05 12:14:03] INFO root fetch - main [MainThread]: End processing [bpc-walrus]: success
+[2023-06-05 12:14:04] INFO root fetch - processPackages [streamlit-d3-network-component]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 12:14:04] INFO root fetch - processPackages [cirq-ionq]: Start processing: odoo-addon-shipment-advice
+[2023-06-05 12:14:04] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-06-05 12:14:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1]
+[2023-06-05 12:14:04] INFO root fetch - processPackages [cirq-aqt]: Start processing: aquarium-python-api
+[2023-06-05 12:14:04] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-06-05 12:14:04] INFO root fetch - processPackages [aquarium-python-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-05 12:14:04] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/5c/27/1e3faa26c249da08328f74a2924b32ebba45ee97eb1490258a3618419ea9/cirq_rigetti-1.2.0.dev20230602213529-py3-none-any.whl
+[2023-06-05 12:14:04] INFO root fetch - processPackages [cirq-pasqal]: Start processing: sspqdd
+[2023-06-05 12:14:04] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-06-05 12:14:04] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 12:14:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/f9/06/c7c523068d7c8bc9692b183cd6a8705a17529a4adcd4ee09bffa320a1d97/odoo_addon_shipment_advice-16.0.1.0.1-py3-none-any.whl
+[2023-06-05 12:14:04] INFO root fetch - processPackages [aquarium-python-api]: Downloading https://files.pythonhosted.org/packages/08/3a/e2d767eb4fbf8c47f7cc70dd65c5401b882694d2ca8de7cf0abcb9c7b7b5/aquarium-python-api-2.0.3.tar.gz
+[2023-06-05 12:14:04] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/93/c1/8d33d53bd2612ef55160a166d16f8d4955a72c6e54c8fb42645b440e7a39/cirq_rigetti-1.2.0.dev20230605100941-py3-none-any.whl
+[2023-06-05 12:14:04] INFO root fetch - processPackages [aquarium-python-api]: executing diffoscope
+[2023-06-05 12:14:04] INFO root fetch - processPackages [aquarium-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aquarium-python-api-2.0.2.tar.gz tmp/aquarium-python-api-2.0.3.tar.gz --markdown 20230605/a/aquarium-python-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-05 12:14:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/61/ce/bcd33ad2c4d6ca4d8be5ecb38706c49460824bdb9b4c4bc2ee2e1d6d1420/odoo_addon_shipment_advice-16.0.1.1.0-py3-none-any.whl
+[2023-06-05 12:14:04] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-06-05 12:14:04] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230602213529-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230605100941-py3-none-any.whl.zip --markdown 20230605/c/cirq-rigetti/1.2.0.dev20230602213529-1.2.0.dev20230605100941/diff.md --exclude *.pyd
+[2023-06-05 12:14:04] INFO root fetch - processPackages [streamlit-d3-network-component]: Downloading https://files.pythonhosted.org/packages/7c/4f/d4f9e7af299b8f2f817dc908cdee2621d62dace3e896ce240c1c4e67b66c/streamlit-d3-network-component-0.0.4.tar.gz
+[2023-06-05 12:14:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: executing diffoscope
+[2023-06-05 12:14:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shipment_advice-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_shipment_advice-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-shipment-advice/16.0.1.0.1-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-05 12:14:04] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-06-05 12:14:04] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230605/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 12:14:04] INFO root fetch - processPackages [streamlit-d3-network-component]: executing diffoscope
+[2023-06-05 12:14:04] INFO root fetch - processPackages [streamlit-d3-network-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_d3_network_component-0.0.3-py3-none-any.whl.zip tmp/streamlit-d3-network-component-0.0.4.tar.gz --markdown 20230605/s/streamlit-d3-network-component/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 12:14:04] INFO root fetch - processPackages [domolibrary]: Start processing: glossanea
+[2023-06-05 12:14:04] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-06-05 12:14:05] WARNING root fetch - processPackages [glossanea]: Skipping, unable to determine old version
+[2023-06-05 12:14:05] INFO root fetch - processPackages [glossanea]: Start processing: napari-label-focus
+[2023-06-05 12:14:05] INFO root fetch - main [MainThread]: End processing [glossanea] error
+[2023-06-05 12:14:05] INFO root fetch - processPackages [napari-label-focus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 12:14:05] INFO root fetch - processPackages [napari-label-focus]: Downloading https://files.pythonhosted.org/packages/09/3f/410d70ee0e5f2d81a733c0b89d93f871b2d5bc3dde5f83d22f5aca93ba06/napari-label-focus-0.0.1.tar.gz
+[2023-06-05 12:14:05] INFO root fetch - processPackages [napari-label-focus]: Downloading https://files.pythonhosted.org/packages/4b/f9/8ad44964c827337abc82ad31cb336c7d74f09744b38013217e32547d3758/napari-label-focus-0.0.2.tar.gz
+[2023-06-05 12:14:05] INFO root fetch - processPackages [napari-label-focus]: executing diffoscope
+[2023-06-05 12:14:05] INFO root fetch - processPackages [napari-label-focus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-label-focus-0.0.1.tar.gz tmp/napari-label-focus-0.0.2.tar.gz --markdown 20230605/n/napari-label-focus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 12:14:06] INFO root fetch - main [MainThread]: End processing [streamlit-d3-network-component]: success
+[2023-06-05 12:14:06] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-06-05 12:14:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-shipment-advice]: success
+[2023-06-05 12:14:06] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-06-05 12:14:06] INFO root fetch - main [MainThread]: End processing [aquarium-python-api]: success
+[2023-06-05 12:14:06] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-06-05 12:14:06] INFO root fetch - main [MainThread]: End processing [napari-label-focus]: success
+[2023-06-05 12:14:07] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-06-05 12:14:21] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-06-05 12:14:57] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-05 12:14:57] INFO root fetch - main [MainThread]: Store serial: [18374429]
