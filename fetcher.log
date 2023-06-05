@@ -14489,3 +14489,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 15:42:18] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-06-05 15:42:18] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-05 15:42:18] INFO root fetch - main [MainThread]: Store serial: [18376649]
+[2023-06-05 15:47:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376649]
+[2023-06-05 15:47:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plone.staticresources
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-lottie
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-pos-no-cash-bank-statement
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vnpy-ctastrategy
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decanter-ai-sdk
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scdeepinsight
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vectorbt
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neuroimager
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: suger
+[2023-06-05 15:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-dss-interface
+[2023-06-05 15:47:38] INFO root fetch - processPackages [streamlit-lottie]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 15:47:38] INFO root fetch - processPackages [vnpy-ctastrategy]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-05 15:47:38] INFO root fetch - processPackages [plone.staticresources]: New version: [2.1.3] Old Version: [2.1.2.1]
+[2023-06-05 15:47:38] INFO root fetch - processPackages [odoo14-addon-pos-no-cash-bank-statement]: New version: [14.0.1.0.3.dev5] Old Version: [14.0.1.0.3.dev4]
+[2023-06-05 15:47:38] INFO root fetch - processPackages [decanter-ai-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 15:47:38] INFO root fetch - processPackages [neuroimager]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 15:47:38] WARNING root fetch - processPackages [scdeepinsight]: Skipping, unable to determine old version
+[2023-06-05 15:47:38] INFO root fetch - processPackages [scdeepinsight]: Start processing: c2cciutils
+[2023-06-05 15:47:38] INFO root fetch - main [MainThread]: End processing [scdeepinsight] error
+[2023-06-05 15:47:38] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-05 15:47:38] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/63/35/99ce6a4933c383ea402fbc875051215b3679aa71ff5b0b6f2aa7dcb33ac5/neuroimager-0.0.2.tar.gz
+[2023-06-05 15:47:38] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-05 15:47:38] INFO root fetch - processPackages [py-dss-interface]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-05 15:47:38] INFO root fetch - processPackages [vectorbt]: New version: [0.25.4] Old Version: [0.25.3]
+[2023-06-05 15:47:38] INFO root fetch - processPackages [suger]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 15:47:39] INFO root fetch - processPackages [plone.staticresources]: Downloading https://files.pythonhosted.org/packages/61/7a/73525d191f47d61a102c70f8b541dde515d2e119fa26e264db1ea851313a/plone.staticresources-2.1.2.1.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [vnpy-ctastrategy]: Downloading https://files.pythonhosted.org/packages/ec/bc/4ef52a33ceea69bbf6d6ff18d8954f48aa6889baf467582574ee9d24fbb4/vnpy_ctastrategy-1.1.4.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [streamlit-lottie]: Downloading https://files.pythonhosted.org/packages/ba/30/d00e8f45c57fbb59e51cff59fc82e948fa75bd40103262220e64e78c6f3d/streamlit-lottie-0.0.3.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [decanter-ai-sdk]: Downloading https://files.pythonhosted.org/packages/67/6e/a76e21d8455d1d1aab8ab3b33ffcfea001523f7f5275b3dd775227bda674/decanter-ai-sdk-0.1.8.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [odoo14-addon-pos-no-cash-bank-statement]: Downloading https://files.pythonhosted.org/packages/5b/55/2ab380acb5d4e9c0c118e3f7b18aa5fc07e253c5453f738a50ca0f5ee1cf/odoo14_addon_pos_no_cash_bank_statement-14.0.1.0.3.dev4-py3-none-any.whl
+[2023-06-05 15:47:39] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/49/ea/367e5fd16718911ceb272778ad14c76517812200a783caeaaade4f485ab3/neuroimager-0.0.3.tar.gz
+[2023-06-05 15:47:39] WARNING root fetch - processPackages [plone.staticresources]: Skipping package: exceeds size limit 11061113>=10485760
+[2023-06-05 15:47:39] INFO root fetch - processPackages [plone.staticresources]: Start processing: appeau-client
+[2023-06-05 15:47:39] INFO root fetch - main [MainThread]: End processing [plone.staticresources] error
+[2023-06-05 15:47:39] INFO root fetch - processPackages [appeau-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 15:47:39] INFO root fetch - processPackages [py-dss-interface]: Downloading https://files.pythonhosted.org/packages/82/49/2a83409dadcf0e8d1de95a242b5f47de825c772564511441b1bbe8d60a5e/py-dss-interface-2.0.1.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [suger]: Downloading https://files.pythonhosted.org/packages/84/48/d115b655e2a11a057f7bed286906174794849957983ed147af3c777dffd4/suger-0.1.0.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [vectorbt]: Downloading https://files.pythonhosted.org/packages/0c/b9/d1d2591a3fc33d9324e979948c9453cc657d5665e2bace0091a1534255ca/vectorbt-0.25.3.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [neuroimager]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [neuroimager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroimager-0.0.2.tar.gz tmp/neuroimager-0.0.3.tar.gz --markdown 20230605/n/neuroimager/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 15:47:39] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [appeau-client]: Downloading https://files.pythonhosted.org/packages/32/7e/7c4b65e0af01046ac0c8da4da353a0b8e620919c78482cdf7570f01ebb0d/appeau_client-0.0.2.tar.gz
+[2023-06-05 15:47:39] WARNING root fetch - processPackages [py-dss-interface]: Skipping package: exceeds size limit 64642148>=10485760
+[2023-06-05 15:47:39] INFO root fetch - processPackages [py-dss-interface]: Start processing: c2cciutils
+[2023-06-05 15:47:39] INFO root fetch - main [MainThread]: End processing [py-dss-interface] error
+[2023-06-05 15:47:39] INFO root fetch - processPackages [vnpy-ctastrategy]: Downloading https://files.pythonhosted.org/packages/24/f5/65ab0b72ff02404bceeba57b720b430c28f25b5228a6fb5fedb308e210a4/vnpy_ctastrategy-1.1.5.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-05 15:47:39] INFO root fetch - processPackages [streamlit-lottie]: Downloading https://files.pythonhosted.org/packages/f2/0c/c9d1db59057a66161a9a5ed391f3e55865eb91a92601199794424d93b79c/streamlit-lottie-0.0.4.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [decanter-ai-sdk]: Downloading https://files.pythonhosted.org/packages/7d/25/697b73519c5e93e32cc15d57327602921ae82762cea10775c3306cd568c3/decanter-ai-sdk-0.1.9.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [appeau-client]: Downloading https://files.pythonhosted.org/packages/14/67/630b8f5953910aa4e411272d02d2e9809c750e5056a8fe38532d5640b176/appeau_client-0.0.3.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230605/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-05 15:47:39] INFO root fetch - processPackages [odoo14-addon-pos-no-cash-bank-statement]: Downloading https://files.pythonhosted.org/packages/82/a2/712311c74ef8f7bb50195f1dcee88880860d28b4141f5a6fd66ebc0466b9/odoo14_addon_pos_no_cash_bank_statement-14.0.1.0.3.dev5-py3-none-any.whl
+[2023-06-05 15:47:39] INFO root fetch - processPackages [suger]: Downloading https://files.pythonhosted.org/packages/0b/28/7efb4beb4aba7b9873be736405d56abbabdd7fd10b4ad27d36a57847fe6c/suger-0.1.1.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [vectorbt]: Downloading https://files.pythonhosted.org/packages/81/9e/c982ea7758b71751f4cd4cab92d99ec57351c5430915556eee3d63c03c0e/vectorbt-0.25.4.tar.gz
+[2023-06-05 15:47:39] INFO root fetch - processPackages [vnpy-ctastrategy]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [vnpy-ctastrategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_ctastrategy-1.1.4.tar.gz tmp/vnpy_ctastrategy-1.1.5.tar.gz --markdown 20230605/v/vnpy-ctastrategy/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-05 15:47:39] INFO root fetch - processPackages [streamlit-lottie]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [streamlit-lottie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-lottie-0.0.3.tar.gz tmp/streamlit-lottie-0.0.4.tar.gz --markdown 20230605/s/streamlit-lottie/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 15:47:39] INFO root fetch - processPackages [decanter-ai-sdk]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [decanter-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decanter-ai-sdk-0.1.8.tar.gz tmp/decanter-ai-sdk-0.1.9.tar.gz --markdown 20230605/d/decanter-ai-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:47:39] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230605/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-05 15:47:39] INFO root fetch - processPackages [odoo14-addon-pos-no-cash-bank-statement]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [odoo14-addon-pos-no-cash-bank-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_no_cash_bank_statement-14.0.1.0.3.dev4-py3-none-any.whl.zip tmp/odoo14_addon_pos_no_cash_bank_statement-14.0.1.0.3.dev5-py3-none-any.whl.zip --markdown 20230605/o/odoo14-addon-pos-no-cash-bank-statement/14.0.1.0.3.dev4-14.0.1.0.3.dev5/diff.md --exclude *.pyd
+[2023-06-05 15:47:39] INFO root fetch - processPackages [suger]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [suger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suger-0.1.0.tar.gz tmp/suger-0.1.1.tar.gz --markdown 20230605/s/suger/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 15:47:39] INFO root fetch - processPackages [vectorbt]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [vectorbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorbt-0.25.3.tar.gz tmp/vectorbt-0.25.4.tar.gz --markdown 20230605/v/vectorbt/0.25.3-0.25.4/diff.md --exclude *.pyd
+[2023-06-05 15:47:39] INFO root fetch - processPackages [appeau-client]: executing diffoscope
+[2023-06-05 15:47:39] INFO root fetch - processPackages [appeau-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appeau_client-0.0.2.tar.gz tmp/appeau_client-0.0.3.tar.gz --markdown 20230605/a/appeau-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 15:47:40] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.2.tar.gz]
+[2023-06-05 15:47:40] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.3.tar.gz]
+[2023-06-05 15:47:40] INFO root fetch - processPackages [neuroimager]: Start processing: eodc-faas-sen2like
+[2023-06-05 15:47:40] INFO root fetch - main [MainThread]: End processing [neuroimager]: success
+[2023-06-05 15:47:40] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc9] Old Version: [2023.5.0rc8]
+[2023-06-05 15:47:40] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/6f/79/bae87beb530e78e07f51b8276ba5b8f6ac56ab41a37cceb885e96a64b264/eodc_faas_sen2like-2023.5.0rc8.tar.gz
+[2023-06-05 15:47:41] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/c8/b6/6c4840a096d42c0bb6a21eeb711f7f34d7a41ed6a998032a17efe3e0570a/eodc_faas_sen2like-2023.5.0rc9.tar.gz
+[2023-06-05 15:47:41] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-05 15:47:41] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz --markdown 20230605/e/eodc-faas-sen2like/2023.5.0rc8-2023.5.0rc9/diff.md --exclude *.pyd
+[2023-06-05 15:47:41] INFO root fetch - processPackages [decanter-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decanter-ai-sdk-0.1.8.tar.gz]
+[2023-06-05 15:47:41] INFO root fetch - processPackages [decanter-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decanter-ai-sdk-0.1.9.tar.gz]
+[2023-06-05 15:47:41] INFO root fetch - main [MainThread]: End processing [decanter-ai-sdk]: success
+[2023-06-05 15:47:41] INFO root fetch - processPackages [appeau-client]: Remove: archive file [/home/abi/fetcher/tmp/appeau_client-0.0.2.tar.gz]
+[2023-06-05 15:47:41] INFO root fetch - processPackages [appeau-client]: Remove: archive file [/home/abi/fetcher/tmp/appeau_client-0.0.3.tar.gz]
+[2023-06-05 15:47:41] INFO root fetch - main [MainThread]: End processing [appeau-client]: success
+[2023-06-05 15:47:41] INFO root fetch - processPackages [odoo14-addon-pos-no-cash-bank-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_no_cash_bank_statement-14.0.1.0.3.dev4-py3-none-any.whl.zip]
+[2023-06-05 15:47:41] INFO root fetch - processPackages [odoo14-addon-pos-no-cash-bank-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_no_cash_bank_statement-14.0.1.0.3.dev5-py3-none-any.whl.zip]
+[2023-06-05 15:47:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-no-cash-bank-statement]: success
+[2023-06-05 15:47:41] INFO root fetch - processPackages [vnpy-ctastrategy]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_ctastrategy-1.1.4.tar.gz]
+[2023-06-05 15:47:41] INFO root fetch - processPackages [vnpy-ctastrategy]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_ctastrategy-1.1.5.tar.gz]
+[2023-06-05 15:47:41] INFO root fetch - main [MainThread]: End processing [vnpy-ctastrategy]: success
+[2023-06-05 15:47:41] INFO root fetch - processPackages [suger]: Remove: archive file [/home/abi/fetcher/tmp/suger-0.1.0.tar.gz]
+[2023-06-05 15:47:41] INFO root fetch - processPackages [suger]: Remove: archive file [/home/abi/fetcher/tmp/suger-0.1.1.tar.gz]
+[2023-06-05 15:47:41] INFO root fetch - main [MainThread]: End processing [suger]: success
+[2023-06-05 15:47:42] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz]
+[2023-06-05 15:47:42] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz]
+[2023-06-05 15:47:42] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-05 15:47:43] INFO root fetch - processPackages [streamlit-lottie]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-lottie-0.0.3.tar.gz]
+[2023-06-05 15:47:43] INFO root fetch - processPackages [streamlit-lottie]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-lottie-0.0.4.tar.gz]
+[2023-06-05 15:47:43] INFO root fetch - main [MainThread]: End processing [streamlit-lottie]: success
+[2023-06-05 15:47:43] INFO root fetch - processPackages [vectorbt]: Remove: archive file [/home/abi/fetcher/tmp/vectorbt-0.25.3.tar.gz]
+[2023-06-05 15:47:43] INFO root fetch - processPackages [vectorbt]: Remove: archive file [/home/abi/fetcher/tmp/vectorbt-0.25.4.tar.gz]
+[2023-06-05 15:47:43] INFO root fetch - main [MainThread]: End processing [vectorbt]: success
+[2023-06-05 15:47:45] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-06-05 15:47:45] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-06-05 15:47:45] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-05 15:47:47] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-05 15:47:47] INFO root fetch - main [MainThread]: Store serial: [18376694]
