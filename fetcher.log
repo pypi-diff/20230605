@@ -12275,3 +12275,181 @@
 [2023-06-05 14:29:54] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.1.0-py3-none-any.whl.zip]
 [2023-06-05 14:29:54] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
 [2023-06-05 14:29:54] INFO root fetch - main [MainThread]: Store serial: [18375748]
+[2023-06-05 14:35:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375748]
+[2023-06-05 14:35:05] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timeitpoj
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: textbsr
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krkn-lib-kubernetes
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-viewflow
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-salesforce-api
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Image-filtering
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wizata-dsapi
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc-faas-sen2like
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gemseo-scilab
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liquibase-datasource
+[2023-06-05 14:35:05] INFO root fetch - processPackages [timeitpoj]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 14:35:05] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 14:35:05] WARNING root fetch - processPackages [Image-filtering]: Skipping, unable to determine old version
+[2023-06-05 14:35:05] WARNING root fetch - processPackages [liquibase-datasource]: Skipping, unable to determine old version
+[2023-06-05 14:35:05] INFO root fetch - processPackages [Image-filtering]: Start processing: test-graphql-sdk
+[2023-06-05 14:35:05] INFO root fetch - processPackages [gemseo-scilab]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-05 14:35:05] INFO root fetch - main [MainThread]: End processing [Image-filtering] error
+[2023-06-05 14:35:05] INFO root fetch - processPackages [liquibase-datasource]: Start processing: pdfmerge
+[2023-06-05 14:35:05] INFO root fetch - main [MainThread]: End processing [liquibase-datasource] error
+[2023-06-05 14:35:05] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc9] Old Version: [2023.5.0rc8]
+[2023-06-05 14:35:05] INFO root fetch - processPackages [textbsr]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 14:35:05] INFO root fetch - processPackages [krkn-lib-kubernetes]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 14:35:05] INFO root fetch - processPackages [ms-salesforce-api]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-06-05 14:35:06] INFO root fetch - processPackages [django-viewflow]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2023-06-05 14:35:06] INFO root fetch - processPackages [pdfmerge]: New version: [1.0.0] Old Version: [0.0.7]
+[2023-06-05 14:35:06] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 14:35:06] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/57/07/ca5a89b7a2142120c33b178499a1bbb8a61eb50a14c7fb6bc872f7becf22/wizata-dsapi-0.1.8.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/26/26/8c1f980fafb45e17d913b5edf984be706f1094cda03fb224078d031fa8df/textbsr-0.1.3.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/6f/79/bae87beb530e78e07f51b8276ba5b8f6ac56ab41a37cceb885e96a64b264/eodc_faas_sen2like-2023.5.0rc8.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [timeitpoj]: Downloading https://files.pythonhosted.org/packages/22/5b/e9daa5137a38375df6488576c6019b5b22f4ce0ca575c547f68de0a79b26/timeitpoj-0.1.0.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/ac/c8/66fef350999eaf22322e1356a82aa7c7d90aec80789ef09d63946b434bc7/test_graphql_sdk-0.0.3.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [gemseo-scilab]: Downloading https://files.pythonhosted.org/packages/64/cb/1ae169be38a79e6daa85c59de4c0817ea7eaec6393b43d44fd041a144517/gemseo-scilab-2.0.0.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [krkn-lib-kubernetes]: Downloading https://files.pythonhosted.org/packages/61/50/73d5efa08fd53d5295c70be01b5425fa791a55daa078295abcaa37afdfd4/krkn_lib_kubernetes-0.1.0.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/a0/bd/292cae44e684ae3dcf207391576c1222de15c46f220a582c1868ae8626b2/django-viewflow-2.0.0b3.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/54/4e/c6bae0dcfafe7a4eb378db2b30bcdfa9ac84e5b00b7fdf7204ec54b4a335/ms_salesforce_api-0.0.38.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [pdfmerge]: Downloading https://files.pythonhosted.org/packages/f2/96/c61ff94c9e9e4301c910545d19f487502bed8d1fc5681d7cf4d628b235f6/pdfmerge-0.0.7.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/c8/b6/6c4840a096d42c0bb6a21eeb711f7f34d7a41ed6a998032a17efe3e0570a/eodc_faas_sen2like-2023.5.0rc9.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz --markdown 20230605/e/eodc-faas-sen2like/2023.5.0rc8-2023.5.0rc9/diff.md --exclude *.pyd
+[2023-06-05 14:35:06] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/02/7a/d27297d11e4adc56a334f9f8a2a5f33230c02ab8d6b39df36f2043c2fa86/textbsr-0.1.4.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [timeitpoj]: Downloading https://files.pythonhosted.org/packages/e6/ce/53e90425ddab5b75446f0e751d6068f3074f6cc531de465e10d4a798c44d/timeitpoj-0.1.1.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/25/83/cffe67783043587a28c0f9ddbd72784b1b6ebace4dc18cdbbf36484ee55a/test_graphql_sdk-0.0.4.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230605/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 14:35:06] INFO root fetch - processPackages [krkn-lib-kubernetes]: Downloading https://files.pythonhosted.org/packages/bb/a9/eda55f6b4dc957678a0f71678122f7685a493d255e93aa5bebf8a9345c91/krkn_lib_kubernetes-0.1.1.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [gemseo-scilab]: Downloading https://files.pythonhosted.org/packages/39/02/b516b542b1644a688a3f04b7e7333acbdd7379912077d59a5f803a88e78e/gemseo-scilab-2.0.1.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [pdfmerge]: Downloading https://files.pythonhosted.org/packages/55/50/e9751e29937fb5470fe874547c0d81c02defe8b0c3463255423772562332/pdfmerge-1.0.0.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.1.3.tar.gz tmp/textbsr-0.1.4.tar.gz --markdown 20230605/t/textbsr/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 14:35:06] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.0.3.tar.gz tmp/test_graphql_sdk-0.0.4.tar.gz --markdown 20230605/t/test-graphql-sdk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 14:35:06] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/24/73/f966ec5aaff8a7a0c2b2eb418834cc4ae038fd991b89e9fa132a96ed3e6e/ms_salesforce_api-0.0.39.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [gemseo-scilab]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [gemseo-scilab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemseo-scilab-2.0.0.tar.gz tmp/gemseo-scilab-2.0.1.tar.gz --markdown 20230605/g/gemseo-scilab/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-05 14:35:06] INFO root fetch - processPackages [timeitpoj]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [timeitpoj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeitpoj-0.1.0.tar.gz tmp/timeitpoj-0.1.1.tar.gz --markdown 20230605/t/timeitpoj/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 14:35:06] INFO root fetch - processPackages [krkn-lib-kubernetes]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [krkn-lib-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krkn_lib_kubernetes-0.1.0.tar.gz tmp/krkn_lib_kubernetes-0.1.1.tar.gz --markdown 20230605/k/krkn-lib-kubernetes/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 14:35:06] INFO root fetch - processPackages [pdfmerge]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [pdfmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfmerge-0.0.7.tar.gz tmp/pdfmerge-1.0.0.tar.gz --markdown 20230605/p/pdfmerge/0.0.7-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 14:35:06] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/79/19/b045abcdd97cda6113e2725613f662ce3a66ecab9a4668ac63981ecd3a90/django-viewflow-2.0.0b4.tar.gz
+[2023-06-05 14:35:06] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-0.0.38.tar.gz tmp/ms_salesforce_api-0.0.39.tar.gz --markdown 20230605/m/ms-salesforce-api/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-06-05 14:35:06] INFO root fetch - processPackages [django-viewflow]: executing diffoscope
+[2023-06-05 14:35:06] INFO root fetch - processPackages [django-viewflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-viewflow-2.0.0b3.tar.gz tmp/django-viewflow-2.0.0b4.tar.gz --markdown 20230605/d/django-viewflow/2.0.0b3-2.0.0b4/diff.md --exclude *.pyd
+[2023-06-05 14:35:08] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: trianglechain
+[2023-06-05 14:35:08] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-05 14:35:08] INFO root fetch - processPackages [trianglechain]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.8.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.9.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [wizata-dsapi]: Start processing: tarentula
+[2023-06-05 14:35:08] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-05 14:35:08] INFO root fetch - processPackages [tarentula]: New version: [4.3.4] Old Version: [4.3.3]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [trianglechain]: Downloading https://files.pythonhosted.org/packages/a3/70/3588382c56af582791508964510673d10f6779417b195ea9ab8cbf208f3e/trianglechain-0.3.1.tar.gz
+[2023-06-05 14:35:08] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.3.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.4.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [test-graphql-sdk]: Start processing: mock-data-generator
+[2023-06-05 14:35:08] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-05 14:35:08] INFO root fetch - processPackages [mock-data-generator]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [tarentula]: Downloading https://files.pythonhosted.org/packages/66/76/35944eb865294622adac84f3f5980454333d0362d567bfface18a0c111e5/tarentula-4.3.3.tar.gz
+[2023-06-05 14:35:08] INFO root fetch - processPackages [krkn-lib-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/krkn_lib_kubernetes-0.1.0.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [krkn-lib-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/krkn_lib_kubernetes-0.1.1.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [krkn-lib-kubernetes]: Start processing: luminesce-sdk-preview
+[2023-06-05 14:35:08] INFO root fetch - main [MainThread]: End processing [krkn-lib-kubernetes]: success
+[2023-06-05 14:35:08] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/52/c2/510869e0d35d69afac207410232d4a802c66314c2d3dd698c5d6de7307e8/mock_data_generator-1.1.1.tar.gz
+[2023-06-05 14:35:08] INFO root fetch - processPackages [pdfmerge]: Remove: archive file [/home/abi/fetcher/tmp/pdfmerge-0.0.7.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [pdfmerge]: Remove: archive file [/home/abi/fetcher/tmp/pdfmerge-1.0.0.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [pdfmerge]: Start processing: ms-salesforce-api
+[2023-06-05 14:35:08] INFO root fetch - main [MainThread]: End processing [pdfmerge]: success
+[2023-06-05 14:35:08] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.3.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.4.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [textbsr]: Start processing: vasp-suite
+[2023-06-05 14:35:08] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-06-05 14:35:08] INFO root fetch - processPackages [ms-salesforce-api]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-05 14:35:08] INFO root fetch - processPackages [trianglechain]: Downloading https://files.pythonhosted.org/packages/f5/40/c3dd3f48b3780a250ebadd9ef2c74305921d11c51d9638b74637af27acfa/trianglechain-0.4.0.tar.gz
+[2023-06-05 14:35:08] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-06-05 14:35:08] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-0.0.38.tar.gz tmp/ms_salesforce_api-0.0.39.tar.gz --markdown 20230605/m/ms-salesforce-api/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-06-05 14:35:08] INFO root fetch - processPackages [timeitpoj]: Remove: archive file [/home/abi/fetcher/tmp/timeitpoj-0.1.0.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [timeitpoj]: Remove: archive file [/home/abi/fetcher/tmp/timeitpoj-0.1.1.tar.gz]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [timeitpoj]: Start processing: nvfuser-cu121
+[2023-06-05 14:35:08] INFO root fetch - main [MainThread]: End processing [timeitpoj]: success
+[2023-06-05 14:35:08] INFO root fetch - processPackages [vasp-suite]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [trianglechain]: executing diffoscope
+[2023-06-05 14:35:08] INFO root fetch - processPackages [trianglechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trianglechain-0.3.1.tar.gz tmp/trianglechain-0.4.0.tar.gz --markdown 20230605/t/trianglechain/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-05 14:35:08] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-05 14:35:08] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/65/04/1794ebfb17a755386e4329af80111665983416b1470d595ec1e489a84a7c/mock_data_generator-1.1.2.tar.gz
+[2023-06-05 14:35:08] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-05 14:35:08] INFO root fetch - processPackages [tarentula]: Downloading https://files.pythonhosted.org/packages/72/c0/69ae9d244b55d6a1f7da1221936ca778f6f7a5a1bae73a1bbb147419de23/tarentula-4.3.4.tar.gz
+[2023-06-05 14:35:08] INFO root fetch - processPackages [tarentula]: executing diffoscope
+[2023-06-05 14:35:08] INFO root fetch - processPackages [tarentula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarentula-4.3.3.tar.gz tmp/tarentula-4.3.4.tar.gz --markdown 20230605/t/tarentula/4.3.3-4.3.4/diff.md --exclude *.pyd
+[2023-06-05 14:35:08] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-05 14:35:08] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230605/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-05 14:35:08] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-05 14:35:08] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.1.1.tar.gz tmp/mock_data_generator-1.1.2.tar.gz --markdown 20230605/m/mock-data-generator/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-05 14:35:08] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 14:35:08] INFO root fetch - processPackages [vasp-suite]: Downloading https://files.pythonhosted.org/packages/de/15/0a5d99383e4c0b2d6cc91df47e0ae8485ab23d729ad885b8ccbaa45f0228/vasp_suite-1.1.3.tar.gz
+[2023-06-05 14:35:09] INFO root fetch - processPackages [vasp-suite]: Downloading https://files.pythonhosted.org/packages/56/4f/bc497247a13b557f0c997e917363eef09d1b771803ab1e763e21d7f9503d/vasp_suite-1.2.0.tar.gz
+[2023-06-05 14:35:09] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.38.tar.gz]
+[2023-06-05 14:35:09] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.39.tar.gz]
+[2023-06-05 14:35:09] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-06-05 14:35:09] INFO root fetch - processPackages [vasp-suite]: executing diffoscope
+[2023-06-05 14:35:09] INFO root fetch - processPackages [vasp-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vasp_suite-1.1.3.tar.gz tmp/vasp_suite-1.2.0.tar.gz --markdown 20230605/v/vasp-suite/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-06-05 14:35:09] ERROR root fetch - processPackages [ms-salesforce-api]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/ms_salesforce_api-0.0.38.tar.gz does not exist
+
+[2023-06-05 14:35:09] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api] error
+[2023-06-05 14:35:09] INFO root fetch - processPackages [gemseo-scilab]: Remove: archive file [/home/abi/fetcher/tmp/gemseo-scilab-2.0.0.tar.gz]
+[2023-06-05 14:35:09] INFO root fetch - processPackages [gemseo-scilab]: Remove: archive file [/home/abi/fetcher/tmp/gemseo-scilab-2.0.1.tar.gz]
+[2023-06-05 14:35:09] INFO root fetch - main [MainThread]: End processing [gemseo-scilab]: success
+[2023-06-05 14:35:10] INFO root fetch - processPackages [trianglechain]: Remove: archive file [/home/abi/fetcher/tmp/trianglechain-0.3.1.tar.gz]
+[2023-06-05 14:35:10] INFO root fetch - processPackages [trianglechain]: Remove: archive file [/home/abi/fetcher/tmp/trianglechain-0.4.0.tar.gz]
+[2023-06-05 14:35:10] INFO root fetch - main [MainThread]: End processing [trianglechain]: success
+[2023-06-05 14:35:10] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 14:35:10] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.1.1.tar.gz]
+[2023-06-05 14:35:10] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.1.2.tar.gz]
+[2023-06-05 14:35:10] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-05 14:35:10] INFO root fetch - processPackages [vasp-suite]: Remove: archive file [/home/abi/fetcher/tmp/vasp_suite-1.1.3.tar.gz]
+[2023-06-05 14:35:10] INFO root fetch - processPackages [vasp-suite]: Remove: archive file [/home/abi/fetcher/tmp/vasp_suite-1.2.0.tar.gz]
+[2023-06-05 14:35:10] INFO root fetch - main [MainThread]: End processing [vasp-suite]: success
+[2023-06-05 14:35:11] INFO root fetch - processPackages [tarentula]: Remove: archive file [/home/abi/fetcher/tmp/tarentula-4.3.3.tar.gz]
+[2023-06-05 14:35:11] INFO root fetch - processPackages [tarentula]: Remove: archive file [/home/abi/fetcher/tmp/tarentula-4.3.4.tar.gz]
+[2023-06-05 14:35:11] INFO root fetch - main [MainThread]: End processing [tarentula]: success
+[2023-06-05 14:35:11] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-06-05 14:35:11] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230605/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-05 14:35:12] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-05 14:35:12] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-05 14:35:12] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-05 14:35:13] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 14:35:13] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 14:35:13] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-06-05 14:35:20] INFO root fetch - processPackages [django-viewflow]: Remove: archive file [/home/abi/fetcher/tmp/django-viewflow-2.0.0b3.tar.gz]
+[2023-06-05 14:35:20] INFO root fetch - processPackages [django-viewflow]: Remove: archive file [/home/abi/fetcher/tmp/django-viewflow-2.0.0b4.tar.gz]
+[2023-06-05 14:35:20] INFO root fetch - main [MainThread]: End processing [django-viewflow]: success
+[2023-06-05 14:35:20] INFO root fetch - main [MainThread]: Store serial: [18375808]
