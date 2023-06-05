@@ -19522,3 +19522,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 18:38:51] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.0rc4-py3-none-any.whl.zip]
 [2023-06-05 18:38:51] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-06-05 18:38:51] INFO root fetch - main [MainThread]: Store serial: [18378713]
+[2023-06-05 18:43:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378713]
+[2023-06-05 18:44:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semter
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flamapy-fm-dist
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: etm-dgraham
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momento
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ord-schema
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loreme
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: obs-cli
+[2023-06-05 18:44:01] INFO root fetch - processPackages [momento]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-05 18:44:01] INFO root fetch - processPackages [etm-dgraham]: New version: [5.0.6] Old Version: [5.0.5]
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ord-schema]: New version: [0.3.54] Old Version: [0.3.53]
+[2023-06-05 18:44:01] INFO root fetch - processPackages [semter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 18:44:01] WARNING root fetch - processPackages [loreme]: Skipping, unable to determine old version
+[2023-06-05 18:44:01] INFO root fetch - main [MainThread]: End processing [loreme] error
+[2023-06-05 18:44:01] INFO root fetch - processPackages [obs-cli]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-05 18:44:01] WARNING root fetch - processPackages [flamapy-fm-dist]: Skipping, unable to determine old version
+[2023-06-05 18:44:01] INFO root fetch - main [MainThread]: End processing [flamapy-fm-dist] error
+[2023-06-05 18:44:01] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-05 18:44:01] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/d9/99/537d0b28577244e50a20895c2fd9a31369a83aef4616b0e1cbbec0fd4ed0/obs-cli-0.4.1.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/6c/a2/3949bb80f18386040af27d27bee7c906d010eb4bd993a6f1b6bd59a47bff/etm-dgraham-5.0.5.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [semter]: Downloading https://files.pythonhosted.org/packages/46/06/c2b638a6508046495c014187d448c765ec8a9509f3b02780a9f1f885eaee/semter-0.0.2.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/b6/9c/0e9f37d999287e7155b1c5e6a27948bb3a5ab4015aa7b835185d7709ea3c/momento-1.5.1.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ord-schema]: Downloading https://files.pythonhosted.org/packages/13/43/c3612563e36173de5fd9026f9efa1d2c2bd45d9a3b8577d879ff538a8ee6/ord-schema-0.3.53.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/13/54/e71b5ea163735f18a5ac1f24ac65dfa4d1828d2565f3a30c8a44fff28450/obs-cli-0.4.2.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/2e/2e/f7829335f0047804c5251dd78d2a73705414450e8e35d2ed1759dc150931/etm-dgraham-5.0.6.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-05 18:44:01] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.4.1.tar.gz tmp/obs-cli-0.4.2.tar.gz --markdown 20230605/o/obs-cli/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-05 18:44:01] INFO root fetch - processPackages [semter]: Downloading https://files.pythonhosted.org/packages/02/71/5ffb66a672454ed99f287fce81ba5f392fb1829480134685ed9a14c77bc6/semter-0.0.3.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/0b/55/55f8b754fa394017ecfeb8274122e677a7f03bc49fc6722fe84cb09869cb/momento-1.5.2.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [semter]: executing diffoscope
+[2023-06-05 18:44:01] INFO root fetch - processPackages [semter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semter-0.0.2.tar.gz tmp/semter-0.0.3.tar.gz --markdown 20230605/s/semter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 18:44:01] INFO root fetch - processPackages [ord-schema]: Downloading https://files.pythonhosted.org/packages/45/7f/bfe265fa5c48d97b97919d15540aefa02d33e3455d868bb394043bb0b286/ord-schema-0.3.54.tar.gz
+[2023-06-05 18:44:01] INFO root fetch - processPackages [momento]: executing diffoscope
+[2023-06-05 18:44:01] INFO root fetch - processPackages [momento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-1.5.1.tar.gz tmp/momento-1.5.2.tar.gz --markdown 20230605/m/momento/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-05 18:44:01] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-06-05 18:44:01] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.0.5.tar.gz tmp/etm-dgraham-5.0.6.tar.gz --markdown 20230605/e/etm-dgraham/5.0.5-5.0.6/diff.md --exclude *.pyd
+[2023-06-05 18:44:01] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-05 18:44:01] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230605/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-05 18:44:02] INFO root fetch - processPackages [ord-schema]: executing diffoscope
+[2023-06-05 18:44:02] INFO root fetch - processPackages [ord-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ord-schema-0.3.53.tar.gz tmp/ord-schema-0.3.54.tar.gz --markdown 20230605/o/ord-schema/0.3.53-0.3.54/diff.md --exclude *.pyd
+[2023-06-05 18:44:02] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.4.1.tar.gz]
+[2023-06-05 18:44:02] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.4.2.tar.gz]
+[2023-06-05 18:44:02] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-05 18:44:02] INFO root fetch - processPackages [semter]: Remove: archive file [/home/abi/fetcher/tmp/semter-0.0.2.tar.gz]
+[2023-06-05 18:44:02] INFO root fetch - processPackages [semter]: Remove: archive file [/home/abi/fetcher/tmp/semter-0.0.3.tar.gz]
+[2023-06-05 18:44:02] INFO root fetch - main [MainThread]: End processing [semter]: success
+[2023-06-05 18:44:03] INFO root fetch - processPackages [ord-schema]: Remove: archive file [/home/abi/fetcher/tmp/ord-schema-0.3.53.tar.gz]
+[2023-06-05 18:44:03] INFO root fetch - processPackages [ord-schema]: Remove: archive file [/home/abi/fetcher/tmp/ord-schema-0.3.54.tar.gz]
+[2023-06-05 18:44:03] INFO root fetch - main [MainThread]: End processing [ord-schema]: success
+[2023-06-05 18:44:03] INFO root fetch - processPackages [momento]: Remove: archive file [/home/abi/fetcher/tmp/momento-1.5.1.tar.gz]
+[2023-06-05 18:44:03] INFO root fetch - processPackages [momento]: Remove: archive file [/home/abi/fetcher/tmp/momento-1.5.2.tar.gz]
+[2023-06-05 18:44:03] INFO root fetch - main [MainThread]: End processing [momento]: success
+[2023-06-05 18:44:03] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.0.5.tar.gz]
+[2023-06-05 18:44:03] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.0.6.tar.gz]
+[2023-06-05 18:44:03] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-06-05 18:44:07] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-06-05 18:44:07] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-06-05 18:44:07] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-05 18:44:07] INFO root fetch - main [MainThread]: Store serial: [18378741]
