@@ -3861,3 +3861,31 @@
 [2023-06-05 04:17:34] INFO root fetch - main [MainThread]: End processing [pyspacer]: success
 [2023-06-05 04:17:34] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-05 04:17:34] INFO root fetch - main [MainThread]: Store serial: [18371170]
+[2023-06-05 04:22:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371170]
+[2023-06-05 04:22:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 04:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-scrape-toolkit
+[2023-06-05 04:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brainflow
+[2023-06-05 04:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2023-06-05 04:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygeoweaver
+[2023-06-05 04:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: classwork
+[2023-06-05 04:22:43] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 04:22:43] WARNING root fetch - processPackages [amazon-scrape-toolkit]: Skipping, unable to determine old version
+[2023-06-05 04:22:43] INFO root fetch - main [MainThread]: End processing [amazon-scrape-toolkit] error
+[2023-06-05 04:22:43] INFO root fetch - processPackages [policyengine-us]: New version: [0.332.0] Old Version: [0.331.1]
+[2023-06-05 04:22:43] INFO root fetch - processPackages [classwork]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 04:22:43] INFO root fetch - processPackages [brainflow]: New version: [5.8.0] Old Version: [5.7.0]
+[2023-06-05 04:22:43] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-05 04:22:43] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.8.tar.gz tmp/pygeoweaver-0.6.9.tar.gz --markdown 20230605/p/pygeoweaver/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 04:22:43] INFO root fetch - processPackages [classwork]: Downloading https://files.pythonhosted.org/packages/b1/49/a3d24bbcb72ea7172d0d8f272284a2a7b8a4f844127b67859c8b29be6e34/classwork-0.0.6.tar.gz
+[2023-06-05 04:22:44] INFO root fetch - processPackages [brainflow]: Downloading https://files.pythonhosted.org/packages/b3/e0/6db9fd6438c2548b40816924e03ee7fe984397299b904aa849ed4a685cc3/brainflow-5.7.0-py3-none-any.whl
+[2023-06-05 04:22:44] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/6a/9f/0b151d0da397e9098312fd07e822ad7b324e1889140cf357e5b30a11dac0/policyengine-us-0.332.0.tar.gz
+[2023-06-05 04:22:44] INFO root fetch - processPackages [classwork]: executing diffoscope
+[2023-06-05 04:22:44] INFO root fetch - processPackages [classwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classwork-0.0.5.tar.gz tmp/classwork-0.0.6.tar.gz --markdown 20230605/c/classwork/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 04:22:44] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-05 04:22:44] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.331.1.tar.gz tmp/policyengine-us-0.332.0.tar.gz --markdown 20230605/p/policyengine-us/0.331.1-0.332.0/diff.md --exclude *.pyd
+[2023-06-05 04:22:44] WARNING root fetch - processPackages [brainflow]: Skipping package: exceeds size limit 28088495>=10485760
+[2023-06-05 04:22:44] INFO root fetch - main [MainThread]: End processing [brainflow] error
+[2023-06-05 04:22:45] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-05 04:22:45] INFO root fetch - main [MainThread]: End processing [classwork]: success
+[2023-06-05 04:24:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-05 04:24:02] INFO root fetch - main [MainThread]: Store serial: [18371186]
