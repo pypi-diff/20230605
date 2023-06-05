@@ -22531,3 +22531,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 20:45:07] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.2.8.tar.gz]
 [2023-06-05 20:45:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blive-danmaku]: success
 [2023-06-05 20:45:07] INFO root fetch - main [MainThread]: Store serial: [18379979]
+[2023-06-05 20:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18379979]
+[2023-06-05 20:50:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: censusdis
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MLXP
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-python-cloud-debugger
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghastoolkit
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viggofiscal
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: summa-embed
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Simba-UW-tf-dev
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: peaqevcore
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ghastoolkit]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [findmyorder]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [google-python-cloud-debugger]: New version: [4.0] Old Version: [3.5]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [MLXP]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [censusdis]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [viggofiscal]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [summa-embed]: New version: [0.15.9] Old Version: [0.15.8]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [coiled]: New version: [0.7.1.dev8] Old Version: [0.7.1.dev7]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.62.4] Old Version: [1.62.3]
+[2023-06-05 20:50:17] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [MLXP]: Downloading https://files.pythonhosted.org/packages/de/74/827a9690f7a8ddd1aec26dcf3b61abfbc0e5ffb4bd711b2ac7740c89ff6a/MLXP-0.0.1.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/ca/f3/9f08c36adfb0cbbf52c339c94b39f7a01b27a2cba31b5d639b00e125eef9/findmyorder-1.3.8.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/ca/73/667143ec0e8beca0129901275796d253c99a1610575b61643fa7bf2a13dd/ghastoolkit-0.3.1.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [google-python-cloud-debugger]: Downloading https://files.pythonhosted.org/packages/70/13/6d8a51d50165847bb35ef0664a76f14fd6c0b0b19cdaa1427a8e27235cb6/google_python_cloud_debugger-3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 20:50:17] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/dd/99/5f0ecb4ca958ec7c5f103a7402efa650b441927f212f56018152b1d6818a/coiled-0.7.1.dev7.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/1d/f7/699fd23505f978dd899e2073786192479423a7b851c1d73814ab4d6a97c0/viggofiscal-1.4.3.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/d3/76/3e67274c41f886fe2825bbefd0a9ebc2779df36365933f28a39f025344f0/summa_embed-0.15.8.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [censusdis]: Downloading https://files.pythonhosted.org/packages/fd/18/5b7c72ee455cfb3948d868d748bf89555d2c149579a30e4a42a2e072e5bc/censusdis-0.8.8.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/a9/27/4dcad58ea6798dab5951eb22bef7cc53f7c174cf024b6fc382b0a3e40956/Simba-UW-tf-dev-1.62.3.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [MLXP]: Downloading https://files.pythonhosted.org/packages/7f/b0/98c690683bc61cd7aa5f7f71b77bf6098699d5e1fbd87aa3aefa28ebfea4/MLXP-0.0.2.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/99/6f/fb4eaa1f886923b4622add4b04b6b94fcc0e8a19e516233dff06fcab0367/ghastoolkit-0.3.2.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/52/b2/27542c768cd467bba099bd3795a116a0f5925f906d812f5ba7335c21a9d3/findmyorder-1.3.9.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/85/f3/318247e4a88c2863d70584cc815a88a4cae4873d2ef2354a292661e3cc45/viggofiscal-1.5.0.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a6/9e/7546000d905a1ffdf4b859794cc7d76b2f667af4576c672cdbf110b301e0/coiled-0.7.1.dev8.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-05 20:50:17] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230605/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-05 20:50:17] INFO root fetch - processPackages [MLXP]: executing diffoscope
+[2023-06-05 20:50:17] INFO root fetch - processPackages [MLXP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLXP-0.0.1.tar.gz tmp/MLXP-0.0.2.tar.gz --markdown 20230605/M/MLXP/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 20:50:17] INFO root fetch - processPackages [google-python-cloud-debugger]: Downloading https://files.pythonhosted.org/packages/30/df/0247cefea64a5c6b85d2b29513c449650f20f5b8a88fba810731385bbf7c/google_python_cloud_debugger-4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 20:50:17] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/84/ee/3c80d4e6da0ce8108133279e8c64435f59a0f3450af01199e31e0c9cb544/summa_embed-0.15.9.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-06-05 20:50:17] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.3.1.tar.gz tmp/ghastoolkit-0.3.2.tar.gz --markdown 20230605/g/ghastoolkit/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 20:50:17] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-06-05 20:50:17] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.8.tar.gz tmp/findmyorder-1.3.9.tar.gz --markdown 20230605/f/findmyorder/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-05 20:50:17] INFO root fetch - processPackages [censusdis]: Downloading https://files.pythonhosted.org/packages/01/ee/d48301c7bc70fbf6b088f2a29da50d64b9841cdbb919002dc1bcf8082a3a/censusdis-0.9.0.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/0f/c6/aa0e739afe231a4f3acc65d3c0e9bfe2238a33c976fb1542706c7c71deae/Simba-UW-tf-dev-1.62.4.tar.gz
+[2023-06-05 20:50:17] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-05 20:50:17] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.1.dev7.tar.gz tmp/coiled-0.7.1.dev8.tar.gz --markdown 20230605/c/coiled/0.7.1.dev7-0.7.1.dev8/diff.md --exclude *.pyd
+[2023-06-05 20:50:17] INFO root fetch - processPackages [viggofiscal]: executing diffoscope
+[2023-06-05 20:50:17] INFO root fetch - processPackages [viggofiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggofiscal-1.4.3.tar.gz tmp/viggofiscal-1.5.0.tar.gz --markdown 20230605/v/viggofiscal/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-06-05 20:50:17] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-06-05 20:50:17] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.15.8.tar.gz tmp/summa_embed-0.15.9.tar.gz --markdown 20230605/s/summa-embed/0.15.8-0.15.9/diff.md --exclude *.pyd
+[2023-06-05 20:50:18] INFO root fetch - processPackages [censusdis]: executing diffoscope
+[2023-06-05 20:50:18] INFO root fetch - processPackages [censusdis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censusdis-0.8.8.tar.gz tmp/censusdis-0.9.0.tar.gz --markdown 20230605/c/censusdis/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 20:50:18] INFO root fetch - processPackages [google-python-cloud-debugger]: executing diffoscope
+[2023-06-05 20:50:18] INFO root fetch - processPackages [google-python-cloud-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_python_cloud_debugger-3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/google_python_cloud_debugger-4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230605/g/google-python-cloud-debugger/3.5-4.0/diff.md --exclude *.pyd
+[2023-06-05 20:50:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-06-05 20:50:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.62.3.tar.gz tmp/Simba-UW-tf-dev-1.62.4.tar.gz --markdown 20230605/S/Simba-UW-tf-dev/1.62.3-1.62.4/diff.md --exclude *.pyd
+[2023-06-05 20:50:19] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.8.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.9.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - processPackages [findmyorder]: Start processing: redoubt-agent
+[2023-06-05 20:50:19] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-06-05 20:50:19] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.3.1.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.3.2.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-06-05 20:50:19] INFO root fetch - processPackages [censusdis]: Remove: archive file [/home/abi/fetcher/tmp/censusdis-0.8.8.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - processPackages [censusdis]: Remove: archive file [/home/abi/fetcher/tmp/censusdis-0.9.0.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - main [MainThread]: End processing [censusdis]: success
+[2023-06-05 20:50:19] INFO root fetch - processPackages [MLXP]: Remove: archive file [/home/abi/fetcher/tmp/MLXP-0.0.1.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - processPackages [MLXP]: Remove: archive file [/home/abi/fetcher/tmp/MLXP-0.0.2.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - main [MainThread]: End processing [MLXP]: success
+[2023-06-05 20:50:19] INFO root fetch - processPackages [redoubt-agent]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-06-05 20:50:19] INFO root fetch - processPackages [google-python-cloud-debugger]: Remove: archive file [/home/abi/fetcher/tmp/google_python_cloud_debugger-3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 20:50:19] INFO root fetch - processPackages [google-python-cloud-debugger]: Remove: archive file [/home/abi/fetcher/tmp/google_python_cloud_debugger-4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 20:50:19] INFO root fetch - main [MainThread]: End processing [google-python-cloud-debugger]: success
+[2023-06-05 20:50:19] INFO root fetch - processPackages [redoubt-agent]: Downloading https://files.pythonhosted.org/packages/46/ab/844be8be254e850e4ae1bd0b9ceb7edf0a39455854f9eda352878a224a9a/redoubt_agent-0.1.95.tar.gz
+[2023-06-05 20:50:19] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-05 20:50:19] INFO root fetch - processPackages [viggofiscal]: Remove: archive file [/home/abi/fetcher/tmp/viggofiscal-1.4.3.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - processPackages [viggofiscal]: Remove: archive file [/home/abi/fetcher/tmp/viggofiscal-1.5.0.tar.gz]
+[2023-06-05 20:50:19] INFO root fetch - main [MainThread]: End processing [viggofiscal]: success
+[2023-06-05 20:50:20] INFO root fetch - processPackages [redoubt-agent]: Downloading https://files.pythonhosted.org/packages/50/fb/76b633d3a15f6337472f94da6260c76f11f5ada090f49671aa2d269a121d/redoubt_agent-0.1.96.tar.gz
+[2023-06-05 20:50:20] INFO root fetch - processPackages [redoubt-agent]: executing diffoscope
+[2023-06-05 20:50:20] INFO root fetch - processPackages [redoubt-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redoubt_agent-0.1.95.tar.gz tmp/redoubt_agent-0.1.96.tar.gz --markdown 20230605/r/redoubt-agent/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-06-05 20:50:20] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.1.dev7.tar.gz]
+[2023-06-05 20:50:20] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.1.dev8.tar.gz]
+[2023-06-05 20:50:20] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-05 20:50:21] INFO root fetch - processPackages [redoubt-agent]: Remove: archive file [/home/abi/fetcher/tmp/redoubt_agent-0.1.95.tar.gz]
+[2023-06-05 20:50:21] INFO root fetch - processPackages [redoubt-agent]: Remove: archive file [/home/abi/fetcher/tmp/redoubt_agent-0.1.96.tar.gz]
+[2023-06-05 20:50:21] INFO root fetch - main [MainThread]: End processing [redoubt-agent]: success
+[2023-06-05 20:50:21] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.15.8.tar.gz]
+[2023-06-05 20:50:21] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.15.9.tar.gz]
+[2023-06-05 20:50:21] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-06-05 20:50:26] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.62.3.tar.gz]
+[2023-06-05 20:50:26] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.62.4.tar.gz]
+[2023-06-05 20:50:26] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-06-05 20:50:26] INFO root fetch - main [MainThread]: Store serial: [18380031]
