@@ -9852,3 +9852,91 @@
 [2023-06-05 12:25:28] INFO root fetch - main [MainThread]: End processing [Metamorf]: success
 [2023-06-05 12:25:31] INFO root fetch - main [MainThread]: End processing [py2app]: success
 [2023-06-05 12:25:31] INFO root fetch - main [MainThread]: Store serial: [18374559]
+[2023-06-05 12:30:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374559]
+[2023-06-05 12:30:42] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gnssrefl
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KMMTR
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt4-api
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azure-native
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: east-tool
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-image-compress
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paramga
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: honeybee-radiance-postprocess
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tldraw
+[2023-06-05 12:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BigBrainGHLPy
+[2023-06-05 12:30:42] INFO root fetch - processPackages [gnssrefl]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [gpt4-api]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [django-image-compress]: New version: [1.0.0] Old Version: [0.4]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [KMMTR]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [BigBrainGHLPy]: New version: [0.0.7] Old Version: [0.0.4]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [tldraw]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [east-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.0.0a2] Old Version: [2.0.0a1685634670]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [paramga]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-06-05 12:30:42] INFO root fetch - processPackages [east-tool]: executing diffoscope
+[2023-06-05 12:30:42] INFO root fetch - processPackages [east-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/east-tool-0.8.0.tar.gz tmp/east-tool-0.9.0.tar.gz --markdown 20230605/e/east-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 12:30:42] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/a4/5c/f49ad56cf2935d22d1328bf9170ea052b2eef9de33ec9d65022e09364bfd/gnssrefl-1.3.7.tar.gz
+[2023-06-05 12:30:42] INFO root fetch - processPackages [django-image-compress]: Downloading https://files.pythonhosted.org/packages/8c/a3/53ca7203f7f82b4f148ce7624696d1b7bd5c6a8b53b1f5ae390014bbefb9/django_image_compress-0.4.tar.gz
+[2023-06-05 12:30:42] INFO root fetch - processPackages [KMMTR]: Downloading https://files.pythonhosted.org/packages/db/33/d588c975c3243d2870914d8ffb0b04ef31e16c46a9c5c4bc1e8f7341a9db/KMMTR-1.1.1.tar.gz
+[2023-06-05 12:30:42] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/52/0d/8372bf97bc5811e45e0db85cfd9513bbca2c15cbd5a41f75bc9795d87e32/pulumi_azure_native-2.0.0a1685634670.tar.gz
+[2023-06-05 12:30:42] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/db/8f/89ae9e8e616d8c1a67f4f578fd192cf55d3bec74277039309427f1f5437a/gpt4-api-0.1.7.tar.gz
+[2023-06-05 12:30:42] INFO root fetch - processPackages [BigBrainGHLPy]: Downloading https://files.pythonhosted.org/packages/e3/07/bad16958d5636f0efc2dfb8313286942797cd9f24a3bce398675de6db735/BigBrainGHLPy-0.0.4.tar.gz
+[2023-06-05 12:30:42] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-06-05 12:30:42] INFO root fetch - processPackages [tldraw]: Downloading https://files.pythonhosted.org/packages/14/46/070c62bb3ffa4b0731796f2fe09d7a191cb7e66cfa0ee94fef4fb3eb432a/tldraw-0.1.0.tar.gz
+[2023-06-05 12:30:42] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-06-05 12:30:42] INFO root fetch - processPackages [paramga]: Downloading https://files.pythonhosted.org/packages/02/6e/d05080e3d5bfe1ed95f5b2cd6a07ec43bba37dda92aa774be4269cbc4353/paramga-0.5.4.tar.gz
+[2023-06-05 12:30:42] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.1.6.tar.gz tmp/gpt4-api-0.1.7.tar.gz --markdown 20230605/g/gpt4-api/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 12:30:42] INFO root fetch - processPackages [paramga]: executing diffoscope
+[2023-06-05 12:30:42] INFO root fetch - processPackages [paramga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paramga-0.5.3.tar.gz tmp/paramga-0.5.4.tar.gz --markdown 20230605/p/paramga/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-05 12:30:42] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 29889527>=10485760
+[2023-06-05 12:30:42] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: etm-dgraham
+[2023-06-05 12:30:42] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-06-05 12:30:43] INFO root fetch - processPackages [etm-dgraham]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-06-05 12:30:43] INFO root fetch - processPackages [django-image-compress]: Downloading https://files.pythonhosted.org/packages/dc/e5/e4ade25f3f6a6dc8db5e0ebedcd7d272b3326ade628cee7d8398fd99ecd6/django_image_compress-1.0.0.tar.gz
+[2023-06-05 12:30:43] INFO root fetch - processPackages [django-image-compress]: executing diffoscope
+[2023-06-05 12:30:43] INFO root fetch - processPackages [django-image-compress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_image_compress-0.4.tar.gz tmp/django_image_compress-1.0.0.tar.gz --markdown 20230605/d/django-image-compress/0.4-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 12:30:43] INFO root fetch - processPackages [KMMTR]: Downloading https://files.pythonhosted.org/packages/86/8c/89a29f1bc5dd5ea4282bf5697116e13d1b6abd2d9ab57ea6f93192b63873/KMMTR-1.1.2.tar.gz
+[2023-06-05 12:30:43] INFO root fetch - processPackages [KMMTR]: executing diffoscope
+[2023-06-05 12:30:43] INFO root fetch - processPackages [KMMTR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KMMTR-1.1.1.tar.gz tmp/KMMTR-1.1.2.tar.gz --markdown 20230605/K/KMMTR/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-05 12:30:43] INFO root fetch - processPackages [BigBrainGHLPy]: Downloading https://files.pythonhosted.org/packages/64/d4/8895d750f115b5ce57d3ed69cbb739ae155fb55225f69b6942169f3b9ea8/BigBrainGHLPy-0.0.7.tar.gz
+[2023-06-05 12:30:43] INFO root fetch - processPackages [tldraw]: Downloading https://files.pythonhosted.org/packages/0c/65/f84b54885af01339bae03a2140093a7ab93e6a233e88485ea1b6eb429527/tldraw-0.1.1.tar.gz
+[2023-06-05 12:30:43] INFO root fetch - processPackages [BigBrainGHLPy]: executing diffoscope
+[2023-06-05 12:30:43] INFO root fetch - processPackages [BigBrainGHLPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BigBrainGHLPy-0.0.4.tar.gz tmp/BigBrainGHLPy-0.0.7.tar.gz --markdown 20230605/B/BigBrainGHLPy/0.0.4-0.0.7/diff.md --exclude *.pyd
+[2023-06-05 12:30:43] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/6c/a2/3949bb80f18386040af27d27bee7c906d010eb4bd993a6f1b6bd59a47bff/etm-dgraham-5.0.5.tar.gz
+[2023-06-05 12:30:43] INFO root fetch - processPackages [tldraw]: executing diffoscope
+[2023-06-05 12:30:43] INFO root fetch - processPackages [tldraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldraw-0.1.0.tar.gz tmp/tldraw-0.1.1.tar.gz --markdown 20230605/t/tldraw/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 12:30:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-06-05 12:30:43] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-06-05 12:30:43] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.0.4.tar.gz tmp/etm-dgraham-5.0.5.tar.gz --markdown 20230605/e/etm-dgraham/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-06-05 12:30:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-06-05 12:30:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230605/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-06-05 12:30:44] INFO root fetch - processPackages [gpt4-api]: Start processing: vertica-sqlalchemy-dialect
+[2023-06-05 12:30:44] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-06-05 12:30:44] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 12:30:44] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/58/ca/e783ec5ced96c271dfccce3e4af083e94ee3baec149a1e2374beb8c43fdf/gnssrefl-1.3.8.tar.gz
+[2023-06-05 12:30:44] INFO root fetch - processPackages [django-image-compress]: Start processing: bitmart-python-sdk-api
+[2023-06-05 12:30:44] INFO root fetch - main [MainThread]: End processing [django-image-compress]: success
+[2023-06-05 12:30:44] WARNING root fetch - processPackages [bitmart-python-sdk-api]: Skipping, unable to determine old version
+[2023-06-05 12:30:44] INFO root fetch - processPackages [bitmart-python-sdk-api]: Start processing: localstack-core
+[2023-06-05 12:30:44] INFO root fetch - main [MainThread]: End processing [bitmart-python-sdk-api] error
+[2023-06-05 12:30:44] INFO root fetch - main [MainThread]: End processing [paramga]: success
+[2023-06-05 12:30:44] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230605102948] Old Version: [2.1.1.dev20230605081531]
+[2023-06-05 12:30:44] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: Downloading https://files.pythonhosted.org/packages/4b/1f/032b9966599e801bf66c70dadca76e08fa146815b8154b47cedfb5e35b35/vertica-sqlalchemy-dialect-0.0.3.tar.gz
+[2023-06-05 12:30:44] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: executing diffoscope
+[2023-06-05 12:30:44] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertica-sqlalchemy-dialect-0.0.2.tar.gz tmp/vertica-sqlalchemy-dialect-0.0.3.tar.gz --markdown 20230605/v/vertica-sqlalchemy-dialect/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 12:30:44] INFO root fetch - main [MainThread]: End processing [BigBrainGHLPy]: success
+[2023-06-05 12:30:44] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/34/02/83c8e42540cee18c12af8ffd29d906d498998e8088dce0e117dffa101c45/localstack-core-2.1.1.dev20230605102948.tar.gz
+[2023-06-05 12:30:44] INFO root fetch - main [MainThread]: End processing [tldraw]: success
+[2023-06-05 12:30:44] INFO root fetch - main [MainThread]: End processing [KMMTR]: success
+[2023-06-05 12:30:44] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-05 12:30:44] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230605081531.tar.gz tmp/localstack-core-2.1.1.dev20230605102948.tar.gz --markdown 20230605/l/localstack-core/2.1.1.dev20230605081531-2.1.1.dev20230605102948/diff.md --exclude *.pyd
+[2023-06-05 12:30:45] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-06-05 12:30:45] INFO root fetch - main [MainThread]: End processing [east-tool]: success
+[2023-06-05 12:30:45] INFO root fetch - main [MainThread]: End processing [vertica-sqlalchemy-dialect]: success
+[2023-06-05 12:30:45] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2023-06-05 12:30:45] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-1.3.7.tar.gz tmp/gnssrefl-1.3.8.tar.gz --markdown 20230605/g/gnssrefl/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-05 12:30:46] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-06-05 12:30:51] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-05 12:31:44] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2023-06-05 12:31:44] INFO root fetch - main [MainThread]: Store serial: [18374600]
