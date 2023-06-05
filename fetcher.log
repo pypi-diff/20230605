@@ -782,3 +782,63 @@
 [2023-06-05 02:03:23] INFO root fetch - main [MainThread]: End processing [logstream]: success
 [2023-06-05 02:03:23] INFO root fetch - main [MainThread]: End processing [roboduck]: success
 [2023-06-05 02:03:23] INFO root fetch - main [MainThread]: Store serial: [18369392]
+[2023-06-05 02:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18369392]
+[2023-06-05 02:08:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 02:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchdatasets-nightly
+[2023-06-05 02:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ejulio-lotr-sdk
+[2023-06-05 02:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-06-05 02:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: no-api-sdk
+[2023-06-05 02:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotnikmq
+[2023-06-05 02:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2023-06-05 02:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: legion-utils
+[2023-06-05 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testudo
+[2023-06-05 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaxutils-nightly
+[2023-06-05 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchlayers-nightly
+[2023-06-05 02:08:32] WARNING root fetch - processPackages [ejulio-lotr-sdk]: Skipping, unable to determine old version
+[2023-06-05 02:08:32] INFO root fetch - main [MainThread]: End processing [ejulio-lotr-sdk] error
+[2023-06-05 02:08:32] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-05 02:08:32] INFO root fetch - processPackages [legion-utils]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-05 02:08:32] INFO root fetch - processPackages [testudo]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-05 02:08:32] INFO root fetch - processPackages [robotnikmq]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-05 02:08:32] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-05 02:08:32] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230604] Old Version: [0.0.8.dev20230603]
+[2023-06-05 02:08:32] INFO root fetch - processPackages [no-api-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 02:08:32] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1685837295] Old Version: [1685750813]
+[2023-06-05 02:08:32] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-05 02:08:32] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230605/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-05 02:08:32] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1685923398] Old Version: [1685837034]
+[2023-06-05 02:08:32] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-05 02:08:32] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1685750813.tar.gz tmp/torchlayers-nightly-1685837295.tar.gz --markdown 20230605/t/torchlayers-nightly/1685750813-1685837295/diff.md --exclude *.pyd
+[2023-06-05 02:08:32] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-05 02:08:32] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230605/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-05 02:08:32] INFO root fetch - processPackages [testudo]: Downloading https://files.pythonhosted.org/packages/80/45/9c6930036a7cd14509ab1d06b37baf485ec912d7fe7527a5642b221eee0c/testudo-0.3.0.tar.gz
+[2023-06-05 02:08:32] INFO root fetch - processPackages [legion-utils]: Downloading https://files.pythonhosted.org/packages/bc/6c/e487ee7b8285ec9104ca7f9192230af90550303e06005b5108c370ba56d2/legion-utils-0.3.1.tar.gz
+[2023-06-05 02:08:32] INFO root fetch - processPackages [robotnikmq]: Downloading https://files.pythonhosted.org/packages/97/70/4da9c99cded6e0ef7acd27ad4422a93870bf6215b3b1e29932a26546fb22/robotnikmq-0.7.0.tar.gz
+[2023-06-05 02:08:32] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/24/c0/e90f49f4a2dbd6422541cc72637117323d6790708984b56750d469b1a81b/jaxutils-nightly-0.0.8.dev20230604.tar.gz
+[2023-06-05 02:08:32] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/b0/93/523404670231b14df11c41e89e58a6770e15db5093364fe0c2e2bea6d98b/torchdatasets-nightly-1685837034.tar.gz
+[2023-06-05 02:08:32] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-05 02:08:32] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230603.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230604.tar.gz --markdown 20230605/j/jaxutils-nightly/0.0.8.dev20230603-0.0.8.dev20230604/diff.md --exclude *.pyd
+[2023-06-05 02:08:32] INFO root fetch - processPackages [robotnikmq]: Downloading https://files.pythonhosted.org/packages/69/17/d49ebd7792ecc350974160c0aba14c19b9bb745c06474f74439731dbfd7f/robotnikmq-0.7.1.tar.gz
+[2023-06-05 02:08:32] INFO root fetch - processPackages [no-api-sdk]: executing diffoscope
+[2023-06-05 02:08:32] INFO root fetch - processPackages [no-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230605/n/no-api-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 02:08:32] INFO root fetch - processPackages [robotnikmq]: executing diffoscope
+[2023-06-05 02:08:32] INFO root fetch - processPackages [robotnikmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotnikmq-0.7.0.tar.gz tmp/robotnikmq-0.7.1.tar.gz --markdown 20230605/r/robotnikmq/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-05 02:08:32] INFO root fetch - processPackages [testudo]: Downloading https://files.pythonhosted.org/packages/30/55/738158eabb118cbde6f55bea838a7345c9b52a769b0fa05101e22ed2eb65/testudo-0.3.1.tar.gz
+[2023-06-05 02:08:32] INFO root fetch - processPackages [legion-utils]: Downloading https://files.pythonhosted.org/packages/ea/88/1e372a08de60c15f5083a32666b03904b76b16464eae69180949bec74a03/legion-utils-0.3.2.tar.gz
+[2023-06-05 02:08:32] INFO root fetch - processPackages [testudo]: executing diffoscope
+[2023-06-05 02:08:32] INFO root fetch - processPackages [testudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testudo-0.3.0.tar.gz tmp/testudo-0.3.1.tar.gz --markdown 20230605/t/testudo/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-05 02:08:32] INFO root fetch - processPackages [legion-utils]: executing diffoscope
+[2023-06-05 02:08:32] INFO root fetch - processPackages [legion-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legion-utils-0.3.1.tar.gz tmp/legion-utils-0.3.2.tar.gz --markdown 20230605/l/legion-utils/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 02:08:32] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/e6/3c/1bfadea1746657d0d7ed5557b7da754fa11616084a5d964787089685d4e1/torchdatasets-nightly-1685923398.tar.gz
+[2023-06-05 02:08:32] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-05 02:08:32] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1685837034.tar.gz tmp/torchdatasets-nightly-1685923398.tar.gz --markdown 20230605/t/torchdatasets-nightly/1685837034-1685923398/diff.md --exclude *.pyd
+[2023-06-05 02:08:33] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-05 02:08:33] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-05 02:08:34] INFO root fetch - main [MainThread]: End processing [no-api-sdk]: success
+[2023-06-05 02:08:34] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-05 02:08:34] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-05 02:08:34] INFO root fetch - main [MainThread]: End processing [testudo]: success
+[2023-06-05 02:08:34] INFO root fetch - main [MainThread]: End processing [robotnikmq]: success
+[2023-06-05 02:08:34] INFO root fetch - main [MainThread]: End processing [legion-utils]: success
+[2023-06-05 02:08:44] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-05 02:08:44] INFO root fetch - main [MainThread]: Store serial: [18369456]
