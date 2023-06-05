@@ -5235,3 +5235,41 @@
 [2023-06-05 07:28:23] INFO root fetch - main [MainThread]: End processing [latex-ml-helper]: success
 [2023-06-05 07:28:24] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
 [2023-06-05 07:28:24] INFO root fetch - main [MainThread]: Store serial: [18371895]
+[2023-06-05 07:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371895]
+[2023-06-05 07:33:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-05 07:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-06-05 07:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gensp
+[2023-06-05 07:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MeUtils
+[2023-06-05 07:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DAJIN2
+[2023-06-05 07:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meow-sim
+[2023-06-05 07:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abmatrix
+[2023-06-05 07:33:33] INFO root fetch - processPackages [gensp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 07:33:33] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.5.1] Old Version: [2023.6.5.0]
+[2023-06-05 07:33:33] INFO root fetch - processPackages [abmatrix]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-05 07:33:33] INFO root fetch - processPackages [DAJIN2]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-05 07:33:33] INFO root fetch - processPackages [meow-sim]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-05 07:33:33] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.5.8.42.19] Old Version: [2023.6.5.13.29.35]
+[2023-06-05 07:33:33] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 07:33:33] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.8.tar.gz tmp/gensp-1.0.9.tar.gz --markdown 20230605/g/gensp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 07:33:33] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/c1/2a/f10d2bb88884e3c25614c94ceeb8a00df95004b82770103dcd2a0e95b461/MeUtils-2023.6.5.13.29.35.tar.gz
+[2023-06-05 07:33:33] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/7b/e9/db8c151689a2936cb0898406c3d91350bfa10c023b2a2edb10d2afd3e8a6/meow-sim-0.3.9.tar.gz
+[2023-06-05 07:33:33] INFO root fetch - processPackages [abmatrix]: Downloading https://files.pythonhosted.org/packages/31/8f/4ede7dd27bf1b0de1cad75420da24d0047388832e650a0b532631b0dfe1e/abmatrix-0.3.1.tar.gz
+[2023-06-05 07:33:33] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/23/f5/3d6f5ec20842cd7ccc3809ea4a32d77b39bc187f367d854830fb771a0fa6/crazy-thursday-2023.6.5.1.tar.gz
+[2023-06-05 07:33:33] INFO root fetch - processPackages [DAJIN2]: Downloading https://files.pythonhosted.org/packages/30/6c/11e278792aefcb0989eafebeee5c621460e0c9b892901c1e2d1519d70833/DAJIN2-0.2.0.tar.gz
+[2023-06-05 07:33:33] INFO root fetch - processPackages [abmatrix]: executing diffoscope
+[2023-06-05 07:33:33] INFO root fetch - processPackages [abmatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abmatrix-0.3.0.tar.gz tmp/abmatrix-0.3.1.tar.gz --markdown 20230605/a/abmatrix/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-05 07:33:33] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-05 07:33:33] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.5.0.tar.gz tmp/crazy-thursday-2023.6.5.1.tar.gz --markdown 20230605/c/crazy-thursday/2023.6.5.0-2023.6.5.1/diff.md --exclude *.pyd
+[2023-06-05 07:33:33] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-05 07:33:33] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.3.8.tar.gz tmp/meow-sim-0.3.9.tar.gz --markdown 20230605/m/meow-sim/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-05 07:33:33] INFO root fetch - processPackages [DAJIN2]: executing diffoscope
+[2023-06-05 07:33:33] INFO root fetch - processPackages [DAJIN2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DAJIN2-0.1.9.tar.gz tmp/DAJIN2-0.2.0.tar.gz --markdown 20230605/D/DAJIN2/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 07:33:34] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 07:33:34] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-05 07:33:34] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.5.13.29.35.tar.gz tmp/MeUtils-2023.6.5.8.42.19.tar.gz --markdown 20230605/M/MeUtils/2023.6.5.13.29.35-2023.6.5.8.42.19/diff.md --exclude *.pyd
+[2023-06-05 07:33:34] INFO root fetch - main [MainThread]: End processing [abmatrix]: success
+[2023-06-05 07:33:35] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-05 07:33:35] INFO root fetch - main [MainThread]: End processing [DAJIN2]: success
+[2023-06-05 07:33:35] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-05 07:33:39] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-05 07:33:39] INFO root fetch - main [MainThread]: Store serial: [18371922]
