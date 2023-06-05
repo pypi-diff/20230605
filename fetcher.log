@@ -21007,3 +21007,147 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 19:52:54] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-05 19:52:54] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-05 19:52:54] INFO root fetch - main [MainThread]: Store serial: [18379352]
+[2023-06-05 19:57:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18379352]
+[2023-06-05 19:58:04] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nrpylatex
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toolforge-weld
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: install-pybci
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lollms
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-tbase-post-product
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polygons
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yotpy
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: func-adl
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esentity
+[2023-06-05 19:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multi-model-server
+[2023-06-05 19:58:04] INFO root fetch - processPackages [toolforge-weld]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-05 19:58:04] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-05 19:58:04] INFO root fetch - processPackages [install-pybci]: New version: [0.2.4b0] Old Version: [0.2.3b1]
+[2023-06-05 19:58:04] INFO root fetch - processPackages [nrpylatex]: New version: [1.3] Old Version: [1.2.6]
+[2023-06-05 19:58:04] INFO root fetch - processPackages [yotpy]: New version: [0.0.87] Old Version: [0.0.86]
+[2023-06-05 19:58:04] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.6.616859875] Old Version: [2023.6.616859820]
+[2023-06-05 19:58:04] INFO root fetch - processPackages [polygons]: New version: [0.3.2] Old Version: [0.3.0]
+[2023-06-05 19:58:04] INFO root fetch - processPackages [func-adl]: New version: [3.2b1] Old Version: [3.2.5a1]
+[2023-06-05 19:58:04] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-05 19:58:04] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-05 19:58:05] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/2a/a5/700ce1668cca7add9281450f6356d414e4b61f4703676a1b092f8ebec349/django_tbase_post_product-2023.6.616859820.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [install-pybci]: Downloading https://files.pythonhosted.org/packages/4a/a1/484bf582fdaa5c8faa02fa50f87d1ca5a1b5c79ce587a82ea1eaf0d642af/install-pybci-0.2.3b1.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [func-adl]: Downloading https://files.pythonhosted.org/packages/da/97/b3e1e0869cf685c237a1eaa8d64d9cdc569dc5f593d80082ce2e77a914a7/func_adl-3.2.5a1.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [polygons]: Downloading https://files.pythonhosted.org/packages/3e/eb/1f56046b05786ba928380722b2899115aa542a3b2cc1d83a47bc130c5aab/polygons-0.3.0-cp39-none-win_amd64.whl
+[2023-06-05 19:58:05] INFO root fetch - processPackages [nrpylatex]: Downloading https://files.pythonhosted.org/packages/ab/5d/93e47dad0e7ddb2fa1bd801c7d7dcf376a397a83382674d0fdc6b3add798/nrpylatex-1.2.6.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [install-pybci]: Downloading https://files.pythonhosted.org/packages/ba/f0/c587879644b4ec62d3ed1eb9b04801d6e0c8400a73e13b639d9604f31a24/install-pybci-0.2.4b0.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/1c/cd/34064ecdc653f54295fe4f197389310e06d70ef39a470194e04f542963fb/multi_model_server-1.1.9-py2.py3-none-any.whl
+[2023-06-05 19:58:05] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/3e/60/d2a1f9450416c6eeba357374228451e55234aff152ae43599a63eb61343c/django_tbase_post_product-2023.6.616859875.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [nrpylatex]: Downloading https://files.pythonhosted.org/packages/24/f8/c6ae92c4df3b156663330b688a1edf4df744a21dffba00367a0bfde3620a/nrpylatex-1.3.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [install-pybci]: executing diffoscope
+[2023-06-05 19:58:05] INFO root fetch - processPackages [install-pybci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install-pybci-0.2.3b1.tar.gz tmp/install-pybci-0.2.4b0.tar.gz --markdown 20230605/i/install-pybci/0.2.3b1-0.2.4b0/diff.md --exclude *.pyd
+[2023-06-05 19:58:05] INFO root fetch - processPackages [func-adl]: Downloading https://files.pythonhosted.org/packages/eb/4a/a82fe7d9c3e175cc83be2d0879968302ad53fc7e2f7d8bc04049c65506f3/func_adl-3.2b1.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [polygons]: Downloading https://files.pythonhosted.org/packages/59/ad/4151744a66f09be18ef5c200619cbbf955910d8e7f87a4f31415b10d2d5e/polygons-0.3.2-cp39-none-win_amd64.whl
+[2023-06-05 19:58:05] INFO root fetch - processPackages [nrpylatex]: executing diffoscope
+[2023-06-05 19:58:05] INFO root fetch - processPackages [nrpylatex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrpylatex-1.2.6.tar.gz tmp/nrpylatex-1.3.tar.gz --markdown 20230605/n/nrpylatex/1.2.6-1.3/diff.md --exclude *.pyd
+[2023-06-05 19:58:05] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-06-05 19:58:05] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.6.616859820.tar.gz tmp/django_tbase_post_product-2023.6.616859875.tar.gz --markdown 20230605/d/django-tbase-post-product/2023.6.616859820-2023.6.616859875/diff.md --exclude *.pyd
+[2023-06-05 19:58:05] INFO root fetch - processPackages [func-adl]: executing diffoscope
+[2023-06-05 19:58:05] INFO root fetch - processPackages [func-adl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func_adl-3.2.5a1.tar.gz tmp/func_adl-3.2b1.tar.gz --markdown 20230605/f/func-adl/3.2.5a1-3.2b1/diff.md --exclude *.pyd
+[2023-06-05 19:58:05] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-05 19:58:05] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230605/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-05 19:58:05] INFO root fetch - processPackages [polygons]: executing diffoscope
+[2023-06-05 19:58:05] INFO root fetch - processPackages [polygons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polygons-0.3.0-cp39-none-win_amd64.whl.zip tmp/polygons-0.3.2-cp39-none-win_amd64.whl.zip --markdown 20230605/p/polygons/0.3.0-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 19:58:05] INFO root fetch - processPackages [toolforge-weld]: Downloading https://files.pythonhosted.org/packages/43/21/0e080d65579ef4c7ccdc1a85ee8ca130367566bc2e4490df13d4146acc48/toolforge-weld-1.0.1.tar.gz
+[2023-06-05 19:58:05] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-06-05 19:58:06] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-06-05 19:58:06] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230605/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-05 19:58:06] INFO root fetch - processPackages [toolforge-weld]: Downloading https://files.pythonhosted.org/packages/ac/c0/6f2c5ff776b63f1a4a314da58c724aa9b4fc7b05e5ae77a14ca4b78aea4c/toolforge-weld-1.1.0.tar.gz
+[2023-06-05 19:58:06] INFO root fetch - processPackages [toolforge-weld]: executing diffoscope
+[2023-06-05 19:58:06] INFO root fetch - processPackages [toolforge-weld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolforge-weld-1.0.1.tar.gz tmp/toolforge-weld-1.1.0.tar.gz --markdown 20230605/t/toolforge-weld/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 19:58:06] INFO root fetch - processPackages [yotpy]: Downloading https://files.pythonhosted.org/packages/b2/16/66701893420d7d761b58fd95243f03a5aeb90dad1ce38b1d89c6fcfcfd4d/yotpy-0.0.86.tar.gz
+[2023-06-05 19:58:06] INFO root fetch - processPackages [yotpy]: Downloading https://files.pythonhosted.org/packages/58/c5/0032df293c91bc6d34780ea1d1c3172839fd163e280e223690d3c56d15f3/yotpy-0.0.87.tar.gz
+[2023-06-05 19:58:06] INFO root fetch - processPackages [yotpy]: executing diffoscope
+[2023-06-05 19:58:06] INFO root fetch - processPackages [yotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yotpy-0.0.86.tar.gz tmp/yotpy-0.0.87.tar.gz --markdown 20230605/y/yotpy/0.0.86-0.0.87/diff.md --exclude *.pyd
+[2023-06-05 19:58:06] INFO root fetch - processPackages [install-pybci]: Remove: archive file [/home/abi/fetcher/tmp/install-pybci-0.2.3b1.tar.gz]
+[2023-06-05 19:58:06] INFO root fetch - processPackages [install-pybci]: Remove: archive file [/home/abi/fetcher/tmp/install-pybci-0.2.4b0.tar.gz]
+[2023-06-05 19:58:06] INFO root fetch - processPackages [install-pybci]: Start processing: interpreters-3-12
+[2023-06-05 19:58:06] INFO root fetch - main [MainThread]: End processing [install-pybci]: success
+[2023-06-05 19:58:06] INFO root fetch - processPackages [interpreters-3-12]: New version: [0.0.1.1] Old Version: [0.0.1.0]
+[2023-06-05 19:58:06] INFO root fetch - processPackages [interpreters-3-12]: Downloading https://files.pythonhosted.org/packages/8b/58/76b1b63212bb2bc95006b619ba57570b9021e676ea21cee9dda671e936a5/interpreters_3_12-0.0.1.0.tar.gz
+[2023-06-05 19:58:07] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.6.616859820.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.6.616859875.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [django-tbase-post-product]: Start processing: data-science-helper-utility
+[2023-06-05 19:58:07] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-06-05 19:58:07] INFO root fetch - processPackages [data-science-helper-utility]: New version: [0.0.99] Old Version: [0.0.94]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-05 19:58:07] INFO root fetch - processPackages [polygons]: Remove: archive file [/home/abi/fetcher/tmp/polygons-0.3.0-cp39-none-win_amd64.whl.zip]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [polygons]: Remove: archive file [/home/abi/fetcher/tmp/polygons-0.3.2-cp39-none-win_amd64.whl.zip]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [polygons]: Start processing: hrin-msb
+[2023-06-05 19:58:07] INFO root fetch - main [MainThread]: End processing [polygons]: success
+[2023-06-05 19:58:07] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-05 19:58:07] INFO root fetch - processPackages [lollms]: Start processing: bowtie-json-schema
+[2023-06-05 19:58:07] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-05 19:58:07] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/04/59/eb0d869383c0f442a5237e30bd87905a131267dd04ffff94ba1728cef0a5/bowtie_json_schema-2023.6.1.tar.gz
+[2023-06-05 19:58:07] INFO root fetch - processPackages [func-adl]: Remove: archive file [/home/abi/fetcher/tmp/func_adl-3.2.5a1.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [func-adl]: Remove: archive file [/home/abi/fetcher/tmp/func_adl-3.2b1.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [func-adl]: Start processing: xw-utils
+[2023-06-05 19:58:07] INFO root fetch - main [MainThread]: End processing [func-adl]: success
+[2023-06-05 19:58:07] INFO root fetch - processPackages [data-science-helper-utility]: Downloading https://files.pythonhosted.org/packages/cc/38/091679a59be2dd480e4ca1614790082129ef275fb88647f04e45a9583ad6/data-science-helper-utility-0.0.94.tar.gz
+[2023-06-05 19:58:07] INFO root fetch - processPackages [interpreters-3-12]: Downloading https://files.pythonhosted.org/packages/2b/48/5f5b96140519bd56f91053c49192430bfc825cdd23fde942b5fc644d0ad4/interpreters_3_12-0.0.1.1.tar.gz
+[2023-06-05 19:58:07] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [esentity]: Start processing: actuarialmath
+[2023-06-05 19:58:07] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-06-05 19:58:07] WARNING root fetch - processPackages [actuarialmath]: Skipping, unable to determine old version
+[2023-06-05 19:58:07] INFO root fetch - processPackages [actuarialmath]: Start processing: fwhunt-scan
+[2023-06-05 19:58:07] INFO root fetch - main [MainThread]: End processing [actuarialmath] error
+[2023-06-05 19:58:07] INFO root fetch - processPackages [interpreters-3-12]: executing diffoscope
+[2023-06-05 19:58:07] INFO root fetch - processPackages [interpreters-3-12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpreters_3_12-0.0.1.0.tar.gz tmp/interpreters_3_12-0.0.1.1.tar.gz --markdown 20230605/i/interpreters-3-12/0.0.1.0-0.0.1.1/diff.md --exclude *.pyd
+[2023-06-05 19:58:07] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/80/45/1a43a2bc42b5dcf5a46eeebbd5377b582aae89786ae8fe1778f27845ce1d/bowtie_json_schema-2023.6.2.tar.gz
+[2023-06-05 19:58:07] INFO root fetch - processPackages [nrpylatex]: Remove: archive file [/home/abi/fetcher/tmp/nrpylatex-1.2.6.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [nrpylatex]: Remove: archive file [/home/abi/fetcher/tmp/nrpylatex-1.3.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - main [MainThread]: End processing [nrpylatex]: success
+[2023-06-05 19:58:07] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-05 19:58:07] INFO root fetch - processPackages [fwhunt-scan]: New version: [2.3.0] Old Version: [2.2.6]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-06-05 19:58:07] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2023.6.1.tar.gz tmp/bowtie_json_schema-2023.6.2.tar.gz --markdown 20230605/b/bowtie-json-schema/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-05 19:58:07] INFO root fetch - processPackages [toolforge-weld]: Remove: archive file [/home/abi/fetcher/tmp/toolforge-weld-1.0.1.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - processPackages [toolforge-weld]: Remove: archive file [/home/abi/fetcher/tmp/toolforge-weld-1.1.0.tar.gz]
+[2023-06-05 19:58:07] INFO root fetch - main [MainThread]: End processing [toolforge-weld]: success
+[2023-06-05 19:58:07] INFO root fetch - processPackages [fwhunt-scan]: Downloading https://files.pythonhosted.org/packages/85/96/e1174104ede13556a012c5f7de262fa73f4588a110c3ab9eaf3d4f8b5d90/fwhunt_scan-2.2.6.tar.gz
+[2023-06-05 19:58:07] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-05 19:58:08] INFO root fetch - processPackages [yotpy]: Remove: archive file [/home/abi/fetcher/tmp/yotpy-0.0.86.tar.gz]
+[2023-06-05 19:58:08] INFO root fetch - processPackages [yotpy]: Remove: archive file [/home/abi/fetcher/tmp/yotpy-0.0.87.tar.gz]
+[2023-06-05 19:58:08] INFO root fetch - main [MainThread]: End processing [yotpy]: success
+[2023-06-05 19:58:08] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-05 19:58:08] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-05 19:58:08] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230605/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 19:58:08] INFO root fetch - processPackages [fwhunt-scan]: Downloading https://files.pythonhosted.org/packages/f7/fd/d615493794d0c9e855145f21fddda415ef85d8628a5384897af6cf245817/fwhunt_scan-2.3.0.tar.gz
+[2023-06-05 19:58:08] INFO root fetch - processPackages [interpreters-3-12]: Remove: archive file [/home/abi/fetcher/tmp/interpreters_3_12-0.0.1.0.tar.gz]
+[2023-06-05 19:58:08] INFO root fetch - processPackages [interpreters-3-12]: Remove: archive file [/home/abi/fetcher/tmp/interpreters_3_12-0.0.1.1.tar.gz]
+[2023-06-05 19:58:08] INFO root fetch - main [MainThread]: End processing [interpreters-3-12]: success
+[2023-06-05 19:58:08] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.6.1.tar.gz]
+[2023-06-05 19:58:08] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.6.2.tar.gz]
+[2023-06-05 19:58:08] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-06-05 19:58:08] INFO root fetch - processPackages [fwhunt-scan]: executing diffoscope
+[2023-06-05 19:58:08] INFO root fetch - processPackages [fwhunt-scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwhunt_scan-2.2.6.tar.gz tmp/fwhunt_scan-2.3.0.tar.gz --markdown 20230605/f/fwhunt-scan/2.2.6-2.3.0/diff.md --exclude *.pyd
+[2023-06-05 19:58:09] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-05 19:58:09] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-05 19:58:09] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-05 19:58:10] INFO root fetch - processPackages [fwhunt-scan]: Remove: archive file [/home/abi/fetcher/tmp/fwhunt_scan-2.2.6.tar.gz]
+[2023-06-05 19:58:10] INFO root fetch - processPackages [fwhunt-scan]: Remove: archive file [/home/abi/fetcher/tmp/fwhunt_scan-2.3.0.tar.gz]
+[2023-06-05 19:58:10] INFO root fetch - main [MainThread]: End processing [fwhunt-scan]: success
+[2023-06-05 19:58:10] INFO root fetch - processPackages [data-science-helper-utility]: Downloading https://files.pythonhosted.org/packages/8a/bb/8a2f8ca25f9877319e98e6ecf502c2dae5a1ca5b648638e49f3e012e450f/data-science-helper-utility-0.0.99.tar.gz
+[2023-06-05 19:58:11] INFO root fetch - processPackages [data-science-helper-utility]: executing diffoscope
+[2023-06-05 19:58:11] INFO root fetch - processPackages [data-science-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-science-helper-utility-0.0.94.tar.gz tmp/data-science-helper-utility-0.0.99.tar.gz --markdown 20230605/d/data-science-helper-utility/0.0.94-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 19:58:12] INFO root fetch - processPackages [data-science-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/data-science-helper-utility-0.0.94.tar.gz]
+[2023-06-05 19:58:12] INFO root fetch - processPackages [data-science-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/data-science-helper-utility-0.0.99.tar.gz]
+[2023-06-05 19:58:12] INFO root fetch - main [MainThread]: End processing [data-science-helper-utility]: success
+[2023-06-05 19:58:17] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-05 19:58:17] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-05 19:58:17] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230605/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 19:58:18] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-05 19:58:18] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-05 19:58:18] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-05 20:01:05] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-05 20:01:05] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-05 20:01:05] INFO root fetch - main [MainThread]: Store serial: [18379414]
