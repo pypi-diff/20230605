@@ -14339,3 +14339,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 15:36:56] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
 [2023-06-05 15:36:56] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
 [2023-06-05 15:36:56] INFO root fetch - main [MainThread]: Store serial: [18376599]
+[2023-06-05 15:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376599]
+[2023-06-05 15:42:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlrun
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parsevasp
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imessagedb
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataset-tools
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mock-data-generator
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lnschema_core
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxhelper
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccxt
+[2023-06-05 15:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Calibrator-KS1200
+[2023-06-05 15:42:05] INFO root fetch - processPackages [parsevasp]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-06-05 15:42:05] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 15:42:05] INFO root fetch - processPackages [mock-data-generator]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-05 15:42:05] INFO root fetch - processPackages [jaxhelper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 15:42:05] INFO root fetch - processPackages [Calibrator-KS1200]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 15:42:05] INFO root fetch - processPackages [imessagedb]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-05 15:42:05] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2023-06-05 15:42:05] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-05 15:42:06] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/be/cf/242571e76bd37a44500e5ab0da92c7e6fe9231df3060a3adf85a9df5d098/mock_data_generator-1.2.1.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-05 15:42:06] INFO root fetch - processPackages [jaxhelper]: Downloading https://files.pythonhosted.org/packages/fa/38/52c5fd1be366c42f21c8fc0e338184bc47813adeb4c04bf95af99705b6dd/jaxhelper-0.0.3.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [kcli]: New version: [99.0.202306051337] Old Version: [99.0.202306041921]
+[2023-06-05 15:42:06] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [Calibrator-KS1200]: Downloading https://files.pythonhosted.org/packages/7b/a3/7ba7fd970699a9ef1dd1f72563124b457c906f3c43c5e7b8661af2c1a472/Calibrator-KS1200-0.0.5.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [parsevasp]: Downloading https://files.pythonhosted.org/packages/54/ed/1bbeb42a500b2d9db77a5f0ff46238a84d3b2c15e7e25723974ac8afda05/parsevasp-3.1.0.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [imessagedb]: Downloading https://files.pythonhosted.org/packages/d2/41/28ba47a4f88c86d6b95aeedfd401ac02a870437b309fe2a0918419f5c2da/imessagedb-1.4.2.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/cc/d6/23a6f4ab58eb64abe8a97721e193fe5875b6fa07e6b221689217c379945a/kcli-99.0.202306041921-py3-none-any.whl
+[2023-06-05 15:42:06] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/53/ab/c4b6cba1b681d59d469058b913e88a639eebd1952ee11b561f5fd2dc06f6/mlrun-1.4.0rc8-py3-none-any.whl
+[2023-06-05 15:42:06] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/fc/07/6fef9ee9bdf9988349a8763514473e2a431c957a679a3c78011c5946a8cd/mock_data_generator-1.2.2.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [jaxhelper]: Downloading https://files.pythonhosted.org/packages/56/14/18fc1ce2d19a2c972677fc51c2266820edefb6b30489d99a439daf12e39c/jaxhelper-0.0.4.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-05 15:42:06] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.2.1.tar.gz tmp/mock_data_generator-1.2.2.tar.gz --markdown 20230605/m/mock-data-generator/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-05 15:42:06] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [imessagedb]: Downloading https://files.pythonhosted.org/packages/72/a9/4034365e31a8e79c0ad8ee39667a4e4df09933bdb12b7be60a267b843cc2/imessagedb-1.4.3.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [jaxhelper]: executing diffoscope
+[2023-06-05 15:42:06] INFO root fetch - processPackages [jaxhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxhelper-0.0.3.tar.gz tmp/jaxhelper-0.0.4.tar.gz --markdown 20230605/j/jaxhelper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 15:42:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/1d/fe/05f5923710c2c691c452f5dd3aff5a02f130dbecd6096905dd9b9655c054/kcli-99.0.202306051337-py3-none-any.whl
+[2023-06-05 15:42:06] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [imessagedb]: executing diffoscope
+[2023-06-05 15:42:06] INFO root fetch - processPackages [imessagedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imessagedb-1.4.2.tar.gz tmp/imessagedb-1.4.3.tar.gz --markdown 20230605/i/imessagedb/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-05 15:42:06] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [Calibrator-KS1200]: Downloading https://files.pythonhosted.org/packages/5a/b2/942ea9ba3d315edff4c5186dffc92a6efb0d38f9877b317ff9772fee1a45/Calibrator_KS1200-0.0.6-py3-none-any.whl
+[2023-06-05 15:42:06] INFO root fetch - processPackages [parsevasp]: Downloading https://files.pythonhosted.org/packages/01/d4/a6c7fe0961ca4e3f79283be857dadc4d729e837f5f3744fb619d1d0d1011/parsevasp-3.2.0.tar.gz
+[2023-06-05 15:42:06] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-05 15:42:06] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230605/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 15:42:06] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2023-06-05 15:42:06] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20230605/d/dataset-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:42:06] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-05 15:42:06] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306041921-py3-none-any.whl.zip tmp/kcli-99.0.202306051337-py3-none-any.whl.zip --markdown 20230605/k/kcli/99.0.202306041921-99.0.202306051337/diff.md --exclude *.pyd
+[2023-06-05 15:42:06] INFO root fetch - processPackages [Calibrator-KS1200]: executing diffoscope
+[2023-06-05 15:42:06] INFO root fetch - processPackages [Calibrator-KS1200]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Calibrator-KS1200-0.0.5.tar.gz tmp/Calibrator_KS1200-0.0.6-py3-none-any.whl.zip --markdown 20230605/C/Calibrator-KS1200/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 15:42:06] INFO root fetch - processPackages [parsevasp]: executing diffoscope
+[2023-06-05 15:42:06] INFO root fetch - processPackages [parsevasp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsevasp-3.1.0.tar.gz tmp/parsevasp-3.2.0.tar.gz --markdown 20230605/p/parsevasp/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-06-05 15:42:06] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-05 15:42:06] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230605/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:42:06] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/eb/ad/9f5f871fcad9f8cb844bb52b41819c7f2f0813f9ea4390a2c38a5ed6f6b9/mlrun-1.4.0rc9-py3-none-any.whl
+[2023-06-05 15:42:07] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-06-05 15:42:07] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip --markdown 20230605/m/mlrun/1.4.0rc8-1.4.0rc9/diff.md --exclude *.pyd
+[2023-06-05 15:42:08] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.1.tar.gz]
+[2023-06-05 15:42:08] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.2.tar.gz]
+[2023-06-05 15:42:08] INFO root fetch - processPackages [mock-data-generator]: Start processing: eFatura
+[2023-06-05 15:42:08] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-05 15:42:08] INFO root fetch - processPackages [eFatura]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-05 15:42:08] INFO root fetch - processPackages [jaxhelper]: Remove: archive file [/home/abi/fetcher/tmp/jaxhelper-0.0.3.tar.gz]
+[2023-06-05 15:42:08] INFO root fetch - processPackages [jaxhelper]: Remove: archive file [/home/abi/fetcher/tmp/jaxhelper-0.0.4.tar.gz]
+[2023-06-05 15:42:08] INFO root fetch - processPackages [jaxhelper]: Start processing: kfish
+[2023-06-05 15:42:08] INFO root fetch - main [MainThread]: End processing [jaxhelper]: success
+[2023-06-05 15:42:08] INFO root fetch - processPackages [kfish]: New version: [99.0.202306051340] Old Version: [99.0.202306041923]
+[2023-06-05 15:42:08] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9c/4b/1ed268255c4366b305c8f2d136b7735e3c5375f4a9abe57d4fc461b11ffb/kfish-99.0.202306041923-py3-none-any.whl
+[2023-06-05 15:42:08] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/17/9b/92c1f929be1a734235f84c3cc8fdec15478a2ffffce68bc1bf5382fdc5d2/eFatura-1.0.7.tar.gz
+[2023-06-05 15:42:09] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e0/21/6d7e8906b6d97390932ffd7e5cc6e94b711436df9aa5b049ea550d349706/kfish-99.0.202306051340-py3-none-any.whl
+[2023-06-05 15:42:09] INFO root fetch - processPackages [imessagedb]: Remove: archive file [/home/abi/fetcher/tmp/imessagedb-1.4.2.tar.gz]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [imessagedb]: Remove: archive file [/home/abi/fetcher/tmp/imessagedb-1.4.3.tar.gz]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [imessagedb]: Start processing: tvv
+[2023-06-05 15:42:09] INFO root fetch - main [MainThread]: End processing [imessagedb]: success
+[2023-06-05 15:42:09] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/c4/c5/c6857c05031ac25fa648e7daffb255f3a14a001498ea53197757c0d2b292/eFatura-1.0.8.tar.gz
+[2023-06-05 15:42:09] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-05 15:42:09] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306041923-py3-none-any.whl.zip tmp/kfish-99.0.202306051340-py3-none-any.whl.zip --markdown 20230605/k/kfish/99.0.202306041923-99.0.202306051340/diff.md --exclude *.pyd
+[2023-06-05 15:42:09] WARNING root fetch - processPackages [tvv]: Skipping, unable to determine old version
+[2023-06-05 15:42:09] INFO root fetch - processPackages [tvv]: Start processing: boundaryscheme
+[2023-06-05 15:42:09] INFO root fetch - main [MainThread]: End processing [tvv] error
+[2023-06-05 15:42:09] INFO root fetch - processPackages [boundaryscheme]: New version: [2.1] Old Version: [1.0]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-06-05 15:42:09] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-1.0.7.tar.gz tmp/eFatura-1.0.8.tar.gz --markdown 20230605/e/eFatura/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-05 15:42:09] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [dataset-tools]: Start processing: dbt-schema-builder
+[2023-06-05 15:42:09] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2023-06-05 15:42:09] INFO root fetch - processPackages [dbt-schema-builder]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [parsevasp]: Remove: archive file [/home/abi/fetcher/tmp/parsevasp-3.1.0.tar.gz]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [parsevasp]: Remove: archive file [/home/abi/fetcher/tmp/parsevasp-3.2.0.tar.gz]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [parsevasp]: Start processing: pulumi-proxmoxve
+[2023-06-05 15:42:09] INFO root fetch - main [MainThread]: End processing [parsevasp]: success
+[2023-06-05 15:42:09] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [boundaryscheme]: Downloading https://files.pythonhosted.org/packages/8d/d4/ab0043c7897c1e9ceb8fb9efe7648074679d5ec3c5646ffa1ccecda70ceb/boundaryscheme-1.0.tar.gz
+[2023-06-05 15:42:09] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/2f/8e/9721a923522afaeba306af1cb2efcd0a788678eff6dcd16e98b3dfe5336a/pulumi_proxmoxve-5.2.0.tar.gz
+[2023-06-05 15:42:09] INFO root fetch - processPackages [dbt-schema-builder]: Downloading https://files.pythonhosted.org/packages/fe/5f/f7f5067acf2a64a51ff7bdbdf0c037bac1c4895dea8330ed29ec2b24789f/dbt-schema-builder-0.4.6.tar.gz
+[2023-06-05 15:42:09] INFO root fetch - processPackages [Calibrator-KS1200]: Remove: archive file [/home/abi/fetcher/tmp/Calibrator-KS1200-0.0.5.tar.gz]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [Calibrator-KS1200]: Remove: archive file [/home/abi/fetcher/tmp/Calibrator_KS1200-0.0.6-py3-none-any.whl.zip]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [Calibrator-KS1200]: Start processing: modoboa-amavis
+[2023-06-05 15:42:09] INFO root fetch - main [MainThread]: End processing [Calibrator-KS1200]: success
+[2023-06-05 15:42:09] INFO root fetch - processPackages [modoboa-amavis]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-05 15:42:09] INFO root fetch - processPackages [boundaryscheme]: Downloading https://files.pythonhosted.org/packages/18/f9/0092d11d318c8aaa27b37fe56556ead94085eba38f01615e44ad6250fc07/boundaryscheme-2.1.tar.gz
+[2023-06-05 15:42:09] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/3a/c7/774aa03d3ddfd23d97ff9397798fae6ee398b820291fcfb5715d7fe0dde2/pulumi_proxmoxve-5.3.0.tar.gz
+[2023-06-05 15:42:09] INFO root fetch - processPackages [boundaryscheme]: executing diffoscope
+[2023-06-05 15:42:09] INFO root fetch - processPackages [boundaryscheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boundaryscheme-1.0.tar.gz tmp/boundaryscheme-2.1.tar.gz --markdown 20230605/b/boundaryscheme/1.0-2.1/diff.md --exclude *.pyd
+[2023-06-05 15:42:09] INFO root fetch - processPackages [modoboa-amavis]: Downloading https://files.pythonhosted.org/packages/6e/b7/1f9282628de1363ff2d1a503b3e124dbf1ec70843530bed4581a1b4079bb/modoboa-amavis-1.4.0.tar.gz
+[2023-06-05 15:42:09] INFO root fetch - processPackages [dbt-schema-builder]: Downloading https://files.pythonhosted.org/packages/26/1c/67b3810f31231cfd889dd7bc575fd16f9db3ad56247ce17c79aa90fca48c/dbt-schema-builder-0.4.7.tar.gz
+[2023-06-05 15:42:10] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2023-06-05 15:42:10] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-5.2.0.tar.gz tmp/pulumi_proxmoxve-5.3.0.tar.gz --markdown 20230605/p/pulumi-proxmoxve/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2023-06-05 15:42:10] INFO root fetch - processPackages [dbt-schema-builder]: executing diffoscope
+[2023-06-05 15:42:10] INFO root fetch - processPackages [dbt-schema-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-schema-builder-0.4.6.tar.gz tmp/dbt-schema-builder-0.4.7.tar.gz --markdown 20230605/d/dbt-schema-builder/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-05 15:42:10] INFO root fetch - processPackages [modoboa-amavis]: Downloading https://files.pythonhosted.org/packages/d6/d3/056587d0caaff83dbbd8c07e036651035e0c7a5082a3625f973077ff602a/modoboa-amavis-1.4.1.tar.gz
+[2023-06-05 15:42:10] INFO root fetch - processPackages [modoboa-amavis]: executing diffoscope
+[2023-06-05 15:42:10] INFO root fetch - processPackages [modoboa-amavis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modoboa-amavis-1.4.0.tar.gz tmp/modoboa-amavis-1.4.1.tar.gz --markdown 20230605/m/modoboa-amavis/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-05 15:42:11] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-05 15:42:11] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-05 15:42:11] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-05 15:42:11] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306041923-py3-none-any.whl.zip]
+[2023-06-05 15:42:11] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306051340-py3-none-any.whl.zip]
+[2023-06-05 15:42:11] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-05 15:42:11] INFO root fetch - processPackages [eFatura]: Remove: archive file [/home/abi/fetcher/tmp/eFatura-1.0.7.tar.gz]
+[2023-06-05 15:42:11] INFO root fetch - processPackages [eFatura]: Remove: archive file [/home/abi/fetcher/tmp/eFatura-1.0.8.tar.gz]
+[2023-06-05 15:42:11] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-06-05 15:42:12] INFO root fetch - processPackages [boundaryscheme]: Remove: archive file [/home/abi/fetcher/tmp/boundaryscheme-1.0.tar.gz]
+[2023-06-05 15:42:12] INFO root fetch - processPackages [boundaryscheme]: Remove: archive file [/home/abi/fetcher/tmp/boundaryscheme-2.1.tar.gz]
+[2023-06-05 15:42:12] INFO root fetch - main [MainThread]: End processing [boundaryscheme]: success
+[2023-06-05 15:42:12] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.2.0.tar.gz]
+[2023-06-05 15:42:12] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.3.0.tar.gz]
+[2023-06-05 15:42:12] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2023-06-05 15:42:12] INFO root fetch - processPackages [dbt-schema-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-schema-builder-0.4.6.tar.gz]
+[2023-06-05 15:42:12] INFO root fetch - processPackages [dbt-schema-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-schema-builder-0.4.7.tar.gz]
+[2023-06-05 15:42:12] INFO root fetch - main [MainThread]: End processing [dbt-schema-builder]: success
+[2023-06-05 15:42:15] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip]
+[2023-06-05 15:42:15] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip]
+[2023-06-05 15:42:15] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-06-05 15:42:15] INFO root fetch - processPackages [modoboa-amavis]: Remove: archive file [/home/abi/fetcher/tmp/modoboa-amavis-1.4.0.tar.gz]
+[2023-06-05 15:42:15] INFO root fetch - processPackages [modoboa-amavis]: Remove: archive file [/home/abi/fetcher/tmp/modoboa-amavis-1.4.1.tar.gz]
+[2023-06-05 15:42:15] INFO root fetch - main [MainThread]: End processing [modoboa-amavis]: success
+[2023-06-05 15:42:17] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306041921-py3-none-any.whl.zip]
+[2023-06-05 15:42:17] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306051337-py3-none-any.whl.zip]
+[2023-06-05 15:42:17] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-05 15:42:18] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-05 15:42:18] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-05 15:42:18] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-05 15:42:18] INFO root fetch - main [MainThread]: Store serial: [18376649]
