@@ -11720,3 +11720,93 @@
 [2023-06-05 14:03:36] INFO root fetch - processPackages [data-job-etl]: Remove: archive file [/home/abi/fetcher/tmp/data_job_etl-1.1.3-py3-none-any.whl.zip]
 [2023-06-05 14:03:36] INFO root fetch - main [MainThread]: End processing [data-job-etl]: success
 [2023-06-05 14:03:36] INFO root fetch - main [MainThread]: Store serial: [18375518]
+[2023-06-05 14:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375518]
+[2023-06-05 14:08:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gemseo-calibration
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recognize
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smper
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cashare
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textbsr
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gravity-auto-exit
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monotonic-nn
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mouritech-mail-notification
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypackagelicenseprototype
+[2023-06-05 14:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alltime-athletics-python
+[2023-06-05 14:08:45] INFO root fetch - processPackages [smper]: New version: [4.20] Old Version: [3.1]
+[2023-06-05 14:08:45] INFO root fetch - processPackages [cashare]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-06-05 14:08:45] INFO root fetch - processPackages [textbsr]: New version: [0.1.1] Old Version: [0.0.24]
+[2023-06-05 14:08:45] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-05 14:08:45] WARNING root fetch - processPackages [mouritech-mail-notification]: Skipping, unable to determine old version
+[2023-06-05 14:08:45] INFO root fetch - processPackages [gemseo-calibration]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-05 14:08:45] INFO root fetch - processPackages [mouritech-mail-notification]: Start processing: gc-google-services-api
+[2023-06-05 14:08:45] INFO root fetch - processPackages [recognize]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 14:08:45] WARNING root fetch - processPackages [monotonic-nn]: Skipping, unable to determine old version
+[2023-06-05 14:08:45] INFO root fetch - processPackages [alltime-athletics-python]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-05 14:08:45] INFO root fetch - processPackages [gravity-auto-exit]: New version: [1.8.44] Old Version: [1.8.43]
+[2023-06-05 14:08:45] INFO root fetch - main [MainThread]: End processing [mouritech-mail-notification] error
+[2023-06-05 14:08:45] INFO root fetch - main [MainThread]: End processing [monotonic-nn] error
+[2023-06-05 14:08:45] INFO root fetch - processPackages [gc-google-services-api]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-05 14:08:45] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/a9/b3/d8c6cb575ecb33cec9fab6261733dc3d10ab550ea026d03a0d7bb676c0b9/textbsr-0.0.24.tar.gz
+[2023-06-05 14:08:45] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/e4/8f/151d2f916df3a32087f72e7e38a96b4af91a7e955c3404412df316b6a9ed/alltime_athletics_python-0.7.0.tar.gz
+[2023-06-05 14:08:45] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/b9/93/453e7feafdb311ed1cb1c43b32a868acc9129d221f791c64bf997e6649e9/mypackagelicenseprototype-2.0.5-py3-none-any.whl
+[2023-06-05 14:08:45] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/51/e6/ed644a647de4c4abab4bb1eca7d1d83f423295f8a398b6366a82531ac446/gravity_auto_exit-1.8.43-py3-none-any.whl
+[2023-06-05 14:08:45] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/ea/d1/a6c1f73c17de023e1d94f1be935c219734aab8fa8ad0c3f8092245c7a387/recognize-0.1.1.tar.gz
+[2023-06-05 14:08:45] INFO root fetch - processPackages [gc-google-services-api]: Downloading https://files.pythonhosted.org/packages/1c/46/292276474efc2134482885a175c170cdf50190018639d9c132b2cfd0997b/gc_google_services_api-1.2.6.tar.gz
+[2023-06-05 14:08:45] INFO root fetch - processPackages [cashare]: Downloading https://files.pythonhosted.org/packages/8e/5e/527d61710975aafd8183b584852b4ad2e353b6b24df92f915945a55ffebe/cashare-0.0.2.tar.gz
+[2023-06-05 14:08:45] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/7a/b5/a8c66d3cf68f127cff864adbf627af704f8896abbc7bd6384a33e02affad/smper-3.1.tar.gz
+[2023-06-05 14:08:46] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/19/3a/27015a02fe285deaea532b07d26c5a2818d47772d17dba56a841d687b76a/alltime_athletics_python-0.8.0.tar.gz
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gemseo-calibration]: Downloading https://files.pythonhosted.org/packages/84/d4/caa69249bd5d9a74970078fd4c2c6e0485ad8376994d8a24e5f0352001db/gemseo-calibration-1.0.0.tar.gz
+[2023-06-05 14:08:46] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-05 14:08:46] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-0.7.0.tar.gz tmp/alltime_athletics_python-0.8.0.tar.gz --markdown 20230605/a/alltime-athletics-python/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-05 14:08:46] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9b/92/7e1bc557001ddf1d1d797058b8b608d53a7c76235ac65b4210fb50811797/mypackagelicenseprototype-2.0.6-py3-none-any.whl
+[2023-06-05 14:08:46] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/40/65/2c4f0d411f5bcbe535d00cd6de029201a1f60c849a4beb6cf3616387b7d0/recognize-0.1.2.tar.gz
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gc-google-services-api]: Downloading https://files.pythonhosted.org/packages/6b/fa/f36f891a9167fba3cd24b398825813f97b811757d61d4a4fc75de09c30cb/gc_google_services_api-1.2.7.tar.gz
+[2023-06-05 14:08:46] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/68/f4/3cf04d64575965d148f27201c8062b25541ec2ad27af6e5a54a6120fc63c/textbsr-0.1.1.tar.gz
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/c2/92/541d020697843f9c432b5be44a26c09c4ca2657686c9c73328f68115b336/gravity_auto_exit-1.8.44-py3-none-any.whl
+[2023-06-05 14:08:46] INFO root fetch - processPackages [cashare]: Downloading https://files.pythonhosted.org/packages/a6/6f/0a58d9d4c1040bc9de3f106e827001522cb197cc7f8f2908f6c35a8554c6/cashare-0.0.5.tar.gz
+[2023-06-05 14:08:46] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-06-05 14:08:46] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.24.tar.gz tmp/textbsr-0.1.1.tar.gz --markdown 20230605/t/textbsr/0.0.24-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gravity-auto-exit]: executing diffoscope
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gravity-auto-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravity_auto_exit-1.8.43-py3-none-any.whl.zip tmp/gravity_auto_exit-1.8.44-py3-none-any.whl.zip --markdown 20230605/g/gravity-auto-exit/1.8.43-1.8.44/diff.md --exclude *.pyd
+[2023-06-05 14:08:46] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 14:08:46] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.5-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.0.6-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-05 14:08:46] INFO root fetch - processPackages [recognize]: executing diffoscope
+[2023-06-05 14:08:46] INFO root fetch - processPackages [recognize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognize-0.1.1.tar.gz tmp/recognize-0.1.2.tar.gz --markdown 20230605/r/recognize/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gc-google-services-api]: executing diffoscope
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gc-google-services-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gc_google_services_api-1.2.6.tar.gz tmp/gc_google_services_api-1.2.7.tar.gz --markdown 20230605/g/gc-google-services-api/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-05 14:08:46] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/a5/dd/1bd30a48de0bd7c6a64c1f7ce10e9de58a4726fc096852381918309d4732/smper-4.20.tar.gz
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gemseo-calibration]: Downloading https://files.pythonhosted.org/packages/13/ea/e4ccfc067d94065fd329cb8252156c1dc02ad944c7ee0a4ab6e3453872ff/gemseo-calibration-2.0.0.tar.gz
+[2023-06-05 14:08:46] INFO root fetch - processPackages [cashare]: executing diffoscope
+[2023-06-05 14:08:46] INFO root fetch - processPackages [cashare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashare-0.0.2.tar.gz tmp/cashare-0.0.5.tar.gz --markdown 20230605/c/cashare/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gemseo-calibration]: executing diffoscope
+[2023-06-05 14:08:46] INFO root fetch - processPackages [gemseo-calibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemseo-calibration-1.0.0.tar.gz tmp/gemseo-calibration-2.0.0.tar.gz --markdown 20230605/g/gemseo-calibration/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-05 14:08:46] INFO root fetch - processPackages [smper]: executing diffoscope
+[2023-06-05 14:08:46] INFO root fetch - processPackages [smper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smper-3.1.tar.gz tmp/smper-4.20.tar.gz --markdown 20230605/s/smper/3.1-4.20/diff.md --exclude *.pyd
+[2023-06-05 14:08:47] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-0.7.0.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-0.8.0.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-05 14:08:47] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.0.24.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.1.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-06-05 14:08:47] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.5-py3-none-any.whl.zip]
+[2023-06-05 14:08:47] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.6-py3-none-any.whl.zip]
+[2023-06-05 14:08:47] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 14:08:47] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.1.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.2.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - main [MainThread]: End processing [recognize]: success
+[2023-06-05 14:08:47] INFO root fetch - processPackages [gravity-auto-exit]: Remove: archive file [/home/abi/fetcher/tmp/gravity_auto_exit-1.8.43-py3-none-any.whl.zip]
+[2023-06-05 14:08:47] INFO root fetch - processPackages [gravity-auto-exit]: Remove: archive file [/home/abi/fetcher/tmp/gravity_auto_exit-1.8.44-py3-none-any.whl.zip]
+[2023-06-05 14:08:47] INFO root fetch - main [MainThread]: End processing [gravity-auto-exit]: success
+[2023-06-05 14:08:47] INFO root fetch - processPackages [smper]: Remove: archive file [/home/abi/fetcher/tmp/smper-3.1.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - processPackages [smper]: Remove: archive file [/home/abi/fetcher/tmp/smper-4.20.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - main [MainThread]: End processing [smper]: success
+[2023-06-05 14:08:47] INFO root fetch - processPackages [gc-google-services-api]: Remove: archive file [/home/abi/fetcher/tmp/gc_google_services_api-1.2.6.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - processPackages [gc-google-services-api]: Remove: archive file [/home/abi/fetcher/tmp/gc_google_services_api-1.2.7.tar.gz]
+[2023-06-05 14:08:47] INFO root fetch - main [MainThread]: End processing [gc-google-services-api]: success
+[2023-06-05 14:08:48] INFO root fetch - processPackages [cashare]: Remove: archive file [/home/abi/fetcher/tmp/cashare-0.0.2.tar.gz]
+[2023-06-05 14:08:48] INFO root fetch - processPackages [cashare]: Remove: archive file [/home/abi/fetcher/tmp/cashare-0.0.5.tar.gz]
+[2023-06-05 14:08:48] INFO root fetch - main [MainThread]: End processing [cashare]: success
+[2023-06-05 14:08:50] INFO root fetch - processPackages [gemseo-calibration]: Remove: archive file [/home/abi/fetcher/tmp/gemseo-calibration-1.0.0.tar.gz]
+[2023-06-05 14:08:50] INFO root fetch - processPackages [gemseo-calibration]: Remove: archive file [/home/abi/fetcher/tmp/gemseo-calibration-2.0.0.tar.gz]
+[2023-06-05 14:08:50] INFO root fetch - main [MainThread]: End processing [gemseo-calibration]: success
+[2023-06-05 14:08:50] INFO root fetch - main [MainThread]: Store serial: [18375554]
