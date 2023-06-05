@@ -4089,3 +4089,46 @@
 [2023-06-05 04:45:40] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-05 04:45:43] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-05 04:45:43] INFO root fetch - main [MainThread]: Store serial: [18371290]
+[2023-06-05 04:50:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371290]
+[2023-06-05 04:50:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-05 04:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecape
+[2023-06-05 04:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chappie-rl
+[2023-06-05 04:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjar
+[2023-06-05 04:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2023-06-05 04:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zipline-tej
+[2023-06-05 04:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartpip2
+[2023-06-05 04:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raya
+[2023-06-05 04:50:57] INFO root fetch - processPackages [ecape]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 04:50:57] WARNING root fetch - processPackages [pyjar]: Skipping, unable to determine old version
+[2023-06-05 04:50:57] INFO root fetch - main [MainThread]: End processing [pyjar] error
+[2023-06-05 04:50:57] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-05 04:50:57] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230605] Old Version: [1.2.20230604]
+[2023-06-05 04:50:57] INFO root fetch - processPackages [chappie-rl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 04:50:57] INFO root fetch - processPackages [raya]: New version: [3.4.1.dev9] Old Version: [3.4.1.dev8]
+[2023-06-05 04:50:57] INFO root fetch - processPackages [smartpip2]: New version: [2.1.9.5] Old Version: [2.1.9.4]
+[2023-06-05 04:50:58] INFO root fetch - processPackages [raya]: executing diffoscope
+[2023-06-05 04:50:58] INFO root fetch - processPackages [raya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raya-3.4.1.dev8.tar.gz tmp/raya-3.4.1.dev9.tar.gz --markdown 20230605/r/raya/3.4.1.dev8-3.4.1.dev9/diff.md --exclude *.pyd
+[2023-06-05 04:50:58] INFO root fetch - processPackages [chappie-rl]: Downloading https://files.pythonhosted.org/packages/05/80/b1f88706c9005e0ec62b2ca05de80fb51780ba9f152ae6b84627c5de3267/chappie-rl-0.0.1.tar.gz
+[2023-06-05 04:50:58] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/99/2f/2659b83762a2687abc6dc55946a980ed70b8e42542660e3780d0ca511470/ecape-0.0.3.tar.gz
+[2023-06-05 04:50:58] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/a6/76/b6af015d9e16dabde076d2df00905fafcec902a5f1eb985278feeeca4f94/iam_actions-1.2.20230605.tar.gz
+[2023-06-05 04:50:58] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/64/b3/14edd4663cdb9e22b2d5ff4621a687742a3a3f0d905fccb66f3be5384630/zipline-tej-0.0.7.tar.gz
+[2023-06-05 04:50:58] INFO root fetch - processPackages [smartpip2]: Downloading https://files.pythonhosted.org/packages/c3/21/1049b2924393ab8cbc2721272370a8b413618eff2e0e71ce181039c47aae/smartpip2-2.1.9.4.tar.gz
+[2023-06-05 04:50:58] INFO root fetch - processPackages [ecape]: executing diffoscope
+[2023-06-05 04:50:58] INFO root fetch - processPackages [ecape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecape-0.0.2.tar.gz tmp/ecape-0.0.3.tar.gz --markdown 20230605/e/ecape/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 04:50:58] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-05 04:50:58] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.6.tar.gz tmp/zipline-tej-0.0.7.tar.gz --markdown 20230605/z/zipline-tej/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-05 04:50:58] INFO root fetch - processPackages [chappie-rl]: Downloading https://files.pythonhosted.org/packages/10/45/94824c0b9297e211c100da68d61759faeb77936d6ff8e4c00c41f394196c/chappie_rl-0.0.2.tar.gz
+[2023-06-05 04:50:58] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-05 04:50:58] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230604.tar.gz tmp/iam_actions-1.2.20230605.tar.gz --markdown 20230605/i/iam-actions/1.2.20230604-1.2.20230605/diff.md --exclude *.pyd
+[2023-06-05 04:50:58] INFO root fetch - processPackages [chappie-rl]: executing diffoscope
+[2023-06-05 04:50:58] INFO root fetch - processPackages [chappie-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chappie-rl-0.0.1.tar.gz tmp/chappie_rl-0.0.2.tar.gz --markdown 20230605/c/chappie-rl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 04:50:58] INFO root fetch - processPackages [smartpip2]: Downloading https://files.pythonhosted.org/packages/6b/24/21ffd9d732659ab67b5dc882d59889c99f4d84215f1d2f9a2f33c9721e64/smartpip2-2.1.9.5.tar.gz
+[2023-06-05 04:50:59] INFO root fetch - processPackages [smartpip2]: executing diffoscope
+[2023-06-05 04:50:59] INFO root fetch - processPackages [smartpip2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpip2-2.1.9.4.tar.gz tmp/smartpip2-2.1.9.5.tar.gz --markdown 20230605/s/smartpip2/2.1.9.4-2.1.9.5/diff.md --exclude *.pyd
+[2023-06-05 04:50:59] INFO root fetch - main [MainThread]: End processing [ecape]: success
+[2023-06-05 04:50:59] INFO root fetch - main [MainThread]: End processing [raya]: success
+[2023-06-05 04:50:59] INFO root fetch - main [MainThread]: End processing [chappie-rl]: success
+[2023-06-05 04:51:00] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-05 04:51:00] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-05 04:51:12] INFO root fetch - main [MainThread]: End processing [smartpip2]: success
+[2023-06-05 04:51:12] INFO root fetch - main [MainThread]: Store serial: [18371312]
