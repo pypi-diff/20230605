@@ -4470,3 +4470,32 @@
 [2023-06-05 05:37:56] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
 [2023-06-05 05:37:58] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2023-06-05 05:37:58] INFO root fetch - main [MainThread]: Store serial: [18371487]
+[2023-06-05 05:43:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371487]
+[2023-06-05 05:43:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 05:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radvis
+[2023-06-05 05:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inventree-wireviz-plugin
+[2023-06-05 05:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projectaria-tools-dev
+[2023-06-05 05:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rf-groundingdino
+[2023-06-05 05:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lop-codeingame-cli
+[2023-06-05 05:43:07] WARNING root fetch - processPackages [projectaria-tools-dev]: Skipping, unable to determine old version
+[2023-06-05 05:43:07] INFO root fetch - main [MainThread]: End processing [projectaria-tools-dev] error
+[2023-06-05 05:43:07] INFO root fetch - processPackages [lop-codeingame-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 05:43:07] INFO root fetch - processPackages [radvis]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-05 05:43:07] INFO root fetch - processPackages [inventree-wireviz-plugin]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-05 05:43:07] INFO root fetch - processPackages [rf-groundingdino]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 05:43:07] INFO root fetch - processPackages [lop-codeingame-cli]: executing diffoscope
+[2023-06-05 05:43:07] INFO root fetch - processPackages [lop-codeingame-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lop_codeingame_cli-0.1.4.tar.gz tmp/lop_codeingame_cli-0.1.5.tar.gz --markdown 20230605/l/lop-codeingame-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 05:43:07] INFO root fetch - processPackages [radvis]: Downloading https://files.pythonhosted.org/packages/dc/62/a38c49b57ab2d4006022b8edb49b1f23deceb17fd58a8cfddbd9ac00013e/radvis-0.2.3.tar.gz
+[2023-06-05 05:43:07] INFO root fetch - processPackages [inventree-wireviz-plugin]: Downloading https://files.pythonhosted.org/packages/76/c4/f2ffebf5c5dcbecb79c45e23f74005bdcae6b40a1b69616cc5f476a1dd27/inventree-wireviz-plugin-0.4.1.tar.gz
+[2023-06-05 05:43:07] INFO root fetch - processPackages [rf-groundingdino]: Downloading https://files.pythonhosted.org/packages/43/2f/dfa4bfca4c48287f80457f885b1b66c309e4bd84497a006f560976a60b4f/rf_groundingdino-0.1.2.tar.gz
+[2023-06-05 05:43:07] INFO root fetch - processPackages [radvis]: executing diffoscope
+[2023-06-05 05:43:07] INFO root fetch - processPackages [radvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radvis-0.2.2.tar.gz tmp/radvis-0.2.3.tar.gz --markdown 20230605/r/radvis/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-05 05:43:07] INFO root fetch - processPackages [inventree-wireviz-plugin]: executing diffoscope
+[2023-06-05 05:43:07] INFO root fetch - processPackages [inventree-wireviz-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-wireviz-plugin-0.4.0.tar.gz tmp/inventree-wireviz-plugin-0.4.1.tar.gz --markdown 20230605/i/inventree-wireviz-plugin/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-05 05:43:08] INFO root fetch - processPackages [rf-groundingdino]: executing diffoscope
+[2023-06-05 05:43:08] INFO root fetch - processPackages [rf-groundingdino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rf_groundingdino-0.1.1-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/rf_groundingdino-0.1.2.tar.gz --markdown 20230605/r/rf-groundingdino/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 05:43:08] INFO root fetch - main [MainThread]: End processing [lop-codeingame-cli]: success
+[2023-06-05 05:43:08] INFO root fetch - main [MainThread]: End processing [radvis]: success
+[2023-06-05 05:43:08] INFO root fetch - main [MainThread]: End processing [inventree-wireviz-plugin]: success
+[2023-06-05 05:43:13] INFO root fetch - main [MainThread]: End processing [rf-groundingdino]: success
+[2023-06-05 05:43:13] INFO root fetch - main [MainThread]: Store serial: [18371502]
