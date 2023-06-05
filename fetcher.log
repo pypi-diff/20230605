@@ -6051,3 +6051,83 @@
 [2023-06-05 08:50:27] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
 [2023-06-05 08:50:29] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
 [2023-06-05 08:50:29] INFO root fetch - main [MainThread]: Store serial: [18372383]
+[2023-06-05 08:55:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372383]
+[2023-06-05 08:55:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gensp
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metarace
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hh-ui-check
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Bigsansar
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wpcsys
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hcai-nova-server-nightly
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geopandas
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hp2p-api
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easifem
+[2023-06-05 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hcai-nova-server
+[2023-06-05 08:55:38] INFO root fetch - processPackages [gensp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 08:55:38] INFO root fetch - processPackages [wpcsys]: New version: [2.1.2] Old Version: [2.0.3]
+[2023-06-05 08:55:38] INFO root fetch - processPackages [metarace]: New version: [2.0.3] Old Version: [1.12.3.dev9]
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-05 08:55:38] WARNING root fetch - processPackages [hp2p-api]: Skipping, unable to determine old version
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hp2p-api]: Start processing: FreeplanIr
+[2023-06-05 08:55:38] INFO root fetch - main [MainThread]: End processing [hp2p-api] error
+[2023-06-05 08:55:38] WARNING root fetch - processPackages [easifem]: Skipping, unable to determine old version
+[2023-06-05 08:55:38] INFO root fetch - processPackages [easifem]: Start processing: BFEE2
+[2023-06-05 08:55:38] INFO root fetch - main [MainThread]: End processing [easifem] error
+[2023-06-05 08:55:38] INFO root fetch - processPackages [geopandas]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hh-ui-check]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 08:55:38] INFO root fetch - processPackages [Bigsansar]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-06-05 08:55:38] INFO root fetch - processPackages [FreeplanIr]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 08:55:38] INFO root fetch - processPackages [BFEE2]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306050655] Old Version: [0.1.8.dev202306050652]
+[2023-06-05 08:55:38] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 08:55:38] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.8.tar.gz tmp/gensp-1.0.9.tar.gz --markdown 20230605/g/gensp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 08:55:38] INFO root fetch - processPackages [metarace]: Downloading https://files.pythonhosted.org/packages/cc/27/9bd305ba10461bbfd33ef42f7e541ee25802867080adfa5817c72b129d91/metarace-1.12.3.dev9-py2-none-any.whl
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/a6/c9/9d8566c889dcf44c3fed194abe21fc77025c6f584202fa32c3fd9a59e54c/hcai-nova-server-0.1.7.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/d4/06/3454d30604ba6226111c8927a5050f6d45c34b5874c5aee79c66d4bc56ac/Bigsansar-1.6.7.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hh-ui-check]: Downloading https://files.pythonhosted.org/packages/4d/fd/6134ea7c3ca517d997313d2dc24d735570ea9ce47d5600f3c32063b22c19/hh_ui_check-0.1.5.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [FreeplanIr]: Downloading https://files.pythonhosted.org/packages/2f/30/ad92b86f54ceffdbc57f1bb7a08e8536e1045791ab07db06827072a497ed/FreeplanIr-1.0.3.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [geopandas]: Downloading https://files.pythonhosted.org/packages/e0/4d/13d8ad924f3353728ee621e89b1f4c54cd8bc22310253ab6991073e42a32/geopandas-0.8.2.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [BFEE2]: Downloading https://files.pythonhosted.org/packages/56/20/56865c30d1267bec081702a1f65b6f5ef0e864dcb6dc88ee7a0ae7108b07/BFEE2-2.3.2.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/59/ed/f60a67bafa16d5c926f67e3d5cdc0a16e26fb675e64897c61ac0cfaef672/hcai-nova-server-nightly-0.1.8.dev202306050652.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hh-ui-check]: executing diffoscope
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hh-ui-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hh_ui_check-0.1.4.tar.gz tmp/hh_ui_check-0.1.5.tar.gz --markdown 20230605/h/hh-ui-check/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 08:55:38] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-05 08:55:38] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.6.6.tar.gz tmp/Bigsansar-1.6.7.tar.gz --markdown 20230605/B/Bigsansar/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-06-05 08:55:38] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/da/33/6572d9acd358c8b09cc6bf4b8cae40116601c9a9c04a07802397db739d03/wpcsys-2.0.3.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/41/e7/88c9ee328c9b7058af2bccb07742ff63eb94c157f8aa8043f8e77de83d19/hcai-nova-server-0.1.8.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [FreeplanIr]: Downloading https://files.pythonhosted.org/packages/95/f2/a76d0db05a1edc06b181b5c56e0a934871c851d41190ded3a43d626c84af/FreeplanIr-1.0.4.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [metarace]: Downloading https://files.pythonhosted.org/packages/fb/ad/c78d2794eeafe7250f0bfbe09731519e06656754699c8bfd1789ebded043/metarace-2.0.3.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/0e/a6/cda431e1e137fe3116dd1b99874174218a901b361d58cbbc0eb04cdfca6a/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [BFEE2]: Downloading https://files.pythonhosted.org/packages/b9/ba/a6836935f50b0380412674e204320c27420a76d4979ca69a1e459d47127d/BFEE2-2.4.0.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server]: executing diffoscope
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-0.1.7.tar.gz tmp/hcai-nova-server-0.1.8.tar.gz --markdown 20230605/h/hcai-nova-server/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-05 08:55:38] INFO root fetch - processPackages [FreeplanIr]: executing diffoscope
+[2023-06-05 08:55:38] INFO root fetch - processPackages [FreeplanIr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeplanIr-1.0.3.tar.gz tmp/FreeplanIr-1.0.4.tar.gz --markdown 20230605/F/FreeplanIr/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 08:55:38] INFO root fetch - processPackages [geopandas]: Downloading https://files.pythonhosted.org/packages/9b/59/3b0907ae8128f81db5cd978d95e6cd6aa2b0ce19884833c37f65deaaca44/geopandas-0.9.0.tar.gz
+[2023-06-05 08:55:38] INFO root fetch - processPackages [metarace]: executing diffoscope
+[2023-06-05 08:55:38] INFO root fetch - processPackages [metarace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metarace-1.12.3.dev9-py2-none-any.whl.zip tmp/metarace-2.0.3.tar.gz --markdown 20230605/m/metarace/1.12.3.dev9-2.0.3/diff.md --exclude *.pyd
+[2023-06-05 08:55:38] INFO root fetch - processPackages [BFEE2]: executing diffoscope
+[2023-06-05 08:55:38] INFO root fetch - processPackages [BFEE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BFEE2-2.3.2.tar.gz tmp/BFEE2-2.4.0.tar.gz --markdown 20230605/B/BFEE2/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-05 08:55:38] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.8.dev202306050652.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz --markdown 20230605/h/hcai-nova-server-nightly/0.1.8.dev202306050652-0.1.9.dev202306050655/diff.md --exclude *.pyd
+[2023-06-05 08:55:38] INFO root fetch - processPackages [geopandas]: executing diffoscope
+[2023-06-05 08:55:38] INFO root fetch - processPackages [geopandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopandas-0.8.2.tar.gz tmp/geopandas-0.9.0.tar.gz --markdown 20230605/g/geopandas/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 08:55:39] INFO root fetch - processPackages [gensp]: Start processing: hcai-nova-server-nightly
+[2023-06-05 08:55:39] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 08:55:39] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306050655] Old Version: [0.1.8.dev202306050652]
+[2023-06-05 08:55:39] INFO root fetch - main [MainThread]: End processing [hh-ui-check]: success
+[2023-06-05 08:55:39] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/6f/e8/bb9dd4dd2287877b78eda247a72fa05fbefe4de5312427b3c5cf60c0e6e6/wpcsys-2.1.2.tar.gz
+[2023-06-05 08:55:39] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-05 08:55:39] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.8.dev202306050652.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz --markdown 20230605/h/hcai-nova-server-nightly/0.1.8.dev202306050652-0.1.9.dev202306050655/diff.md --exclude *.pyd
+[2023-06-05 08:55:40] INFO root fetch - processPackages [wpcsys]: executing diffoscope
+[2023-06-05 08:55:40] INFO root fetch - processPackages [wpcsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpcsys-2.0.3.tar.gz tmp/wpcsys-2.1.2.tar.gz --markdown 20230605/w/wpcsys/2.0.3-2.1.2/diff.md --exclude *.pyd
+[2023-06-05 08:55:40] INFO root fetch - main [MainThread]: End processing [FreeplanIr]: success
+[2023-06-05 08:55:40] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-05 08:55:40] INFO root fetch - main [MainThread]: End processing [hcai-nova-server]: success
+[2023-06-05 08:55:40] INFO root fetch - main [MainThread]: End processing [metarace]: success
+[2023-06-05 08:55:40] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-05 08:55:40] INFO root fetch - main [MainThread]: End processing [BFEE2]: success
+[2023-06-05 08:55:41] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-05 08:55:41] INFO root fetch - main [MainThread]: End processing [geopandas]: success
+[2023-06-05 08:55:42] INFO root fetch - main [MainThread]: End processing [wpcsys]: success
+[2023-06-05 08:55:42] INFO root fetch - main [MainThread]: Store serial: [18372429]
