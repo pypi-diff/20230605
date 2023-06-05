@@ -2918,3 +2918,32 @@
 [2023-06-05 02:57:02] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
 [2023-06-05 02:57:03] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
 [2023-06-05 02:57:03] INFO root fetch - main [MainThread]: Store serial: [18370588]
+[2023-06-05 03:02:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18370588]
+[2023-06-05 03:02:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-05 03:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ejulio-lotr-sdk
+[2023-06-05 03:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getModelSpec
+[2023-06-05 03:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberx
+[2023-06-05 03:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2023-06-05 03:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: read-rapidpe
+[2023-06-05 03:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brunotest
+[2023-06-05 03:02:11] WARNING root fetch - processPackages [getModelSpec]: Skipping, unable to determine old version
+[2023-06-05 03:02:11] INFO root fetch - main [MainThread]: End processing [getModelSpec] error
+[2023-06-05 03:02:11] INFO root fetch - processPackages [read-rapidpe]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-05 03:02:11] INFO root fetch - processPackages [cyberx]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-05 03:02:11] WARNING root fetch - processPackages [brunotest]: Skipping, unable to determine old version
+[2023-06-05 03:02:11] INFO root fetch - main [MainThread]: End processing [brunotest] error
+[2023-06-05 03:02:11] WARNING root fetch - processPackages [ejulio-lotr-sdk]: Skipping, unable to determine old version
+[2023-06-05 03:02:11] INFO root fetch - main [MainThread]: End processing [ejulio-lotr-sdk] error
+[2023-06-05 03:02:11] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-05 03:02:11] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-06-05 03:02:11] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.5.8.tar.gz tmp/read_rapidpe-0.5.9.tar.gz --markdown 20230605/r/read-rapidpe/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-05 03:02:11] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-05 03:02:11] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230605/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-05 03:02:11] INFO root fetch - processPackages [cyberx]: Downloading https://files.pythonhosted.org/packages/33/f8/732f91878f7633e61be0c083d0433acd52b89899add4648ea4b2b105b482/cyberx-0.1.3-cp39-cp39-win_amd64.whl
+[2023-06-05 03:02:11] INFO root fetch - processPackages [cyberx]: Downloading https://files.pythonhosted.org/packages/fb/6d/b74f97cc3c29dbe846602e759237a5a3288dc9f38d948264490673996716/cyberx-0.2.0-cp39-cp39-win_amd64.whl
+[2023-06-05 03:02:12] INFO root fetch - processPackages [cyberx]: executing diffoscope
+[2023-06-05 03:02:12] INFO root fetch - processPackages [cyberx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberx-0.1.3-cp39-cp39-win_amd64.whl.zip tmp/cyberx-0.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230605/c/cyberx/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 03:02:12] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-06-05 03:02:15] INFO root fetch - main [MainThread]: End processing [cyberx]: success
+[2023-06-05 03:02:31] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-05 03:02:31] INFO root fetch - main [MainThread]: Store serial: [18370614]
