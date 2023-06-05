@@ -4900,3 +4900,35 @@
 [2023-06-05 06:37:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-location-geonames-import]: success
 [2023-06-05 06:37:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-location]: success
 [2023-06-05 06:37:35] INFO root fetch - main [MainThread]: Store serial: [18371720]
+[2023-06-05 06:42:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371720]
+[2023-06-05 06:42:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 06:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: andebox
+[2023-06-05 06:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doFolder
+[2023-06-05 06:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edman-web
+[2023-06-05 06:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gensp
+[2023-06-05 06:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecape
+[2023-06-05 06:42:43] INFO root fetch - processPackages [gensp]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-05 06:42:44] INFO root fetch - processPackages [edman-web]: New version: [2023.6.5] Old Version: [2023.6.2]
+[2023-06-05 06:42:44] INFO root fetch - processPackages [doFolder]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-05 06:42:44] INFO root fetch - processPackages [ecape]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 06:42:44] INFO root fetch - processPackages [andebox]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 06:42:44] INFO root fetch - processPackages [doFolder]: Downloading https://files.pythonhosted.org/packages/28/2e/db370897115f672e24befe5b7e50494f3a54ec7c45f5d6dc311cb4e6fbb1/doFolder-0.0.9.tar.gz
+[2023-06-05 06:42:44] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/37/1c/ccaf71a22959f40976daddd7d5dc14dc9c2820f197b381f5492c7882736a/ecape-0.0.4.tar.gz
+[2023-06-05 06:42:44] INFO root fetch - processPackages [gensp]: Downloading https://files.pythonhosted.org/packages/13/b8/9fa0ecefa83ebb39097f546b91f21864958d7a8d7db305d412cc748ace67/gensp-1.0.7.tar.gz
+[2023-06-05 06:42:44] INFO root fetch - processPackages [doFolder]: executing diffoscope
+[2023-06-05 06:42:44] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/f9/69/d46c2f94d8ab4e2794030dc41e43146a7a13f47632a66a15e6016a580cdb/edman_web-2023.6.5.tar.gz
+[2023-06-05 06:42:44] INFO root fetch - processPackages [doFolder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doFolder-0.0.7.tar.gz tmp/doFolder-0.0.9.tar.gz --markdown 20230605/d/doFolder/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 06:42:44] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 06:42:44] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.6.tar.gz tmp/gensp-1.0.7.tar.gz --markdown 20230605/g/gensp/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-05 06:42:44] INFO root fetch - processPackages [andebox]: executing diffoscope
+[2023-06-05 06:42:44] INFO root fetch - processPackages [andebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andebox-0.8.0.tar.gz tmp/andebox-0.9.0.tar.gz --markdown 20230605/a/andebox/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 06:42:44] INFO root fetch - processPackages [ecape]: executing diffoscope
+[2023-06-05 06:42:44] INFO root fetch - processPackages [ecape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecape-0.0.3.tar.gz tmp/ecape-0.0.4.tar.gz --markdown 20230605/e/ecape/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 06:42:44] INFO root fetch - processPackages [edman-web]: executing diffoscope
+[2023-06-05 06:42:44] INFO root fetch - processPackages [edman-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_web-2023.6.2.tar.gz tmp/edman_web-2023.6.5.tar.gz --markdown 20230605/e/edman-web/2023.6.2-2023.6.5/diff.md --exclude *.pyd
+[2023-06-05 06:42:45] INFO root fetch - main [MainThread]: End processing [doFolder]: success
+[2023-06-05 06:42:45] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 06:42:45] INFO root fetch - main [MainThread]: End processing [andebox]: success
+[2023-06-05 06:42:45] INFO root fetch - main [MainThread]: End processing [edman-web]: success
+[2023-06-05 06:42:45] INFO root fetch - main [MainThread]: End processing [ecape]: success
+[2023-06-05 06:42:45] INFO root fetch - main [MainThread]: Store serial: [18371735]
