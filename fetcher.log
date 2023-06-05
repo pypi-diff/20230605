@@ -11871,3 +11871,149 @@
 [2023-06-05 14:14:01] INFO root fetch - processPackages [python-pdfbox-v2]: Remove: archive file [/home/abi/fetcher/tmp/python-pdfbox-v2-2.0.28.tar.gz]
 [2023-06-05 14:14:01] INFO root fetch - main [MainThread]: End processing [python-pdfbox-v2]: success
 [2023-06-05 14:14:01] INFO root fetch - main [MainThread]: Store serial: [18375582]
+[2023-06-05 14:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375582]
+[2023-06-05 14:19:14] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypackagelicenseprototype
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eodal
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collectd-dbod
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textbsr
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smper
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cobra-db
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: panda-server
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pspipe-utils
+[2023-06-05 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrdp
+[2023-06-05 14:19:14] INFO root fetch - processPackages [collectd-dbod]: New version: [1.9] Old Version: [1.1]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [textbsr]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pyrdp]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [eodal]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [smper]: New version: [5.0] Old Version: [2.3]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [cobra-db]: New version: [0.4.2] Old Version: [0.3.8]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [panda-server]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pspipe-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/68/f4/3cf04d64575965d148f27201c8062b25541ec2ad27af6e5a54a6120fc63c/textbsr-0.1.1.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pyrdp]: Downloading https://files.pythonhosted.org/packages/15/03/649319366060c08fa2b01398db4ff259e81019649b96c753b434aed4dc86/pyrdp-0.1.3.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/33/1e/d954a9c3ce2b63e53ab846f22afe51e80d04eeee2058855e0374db4c6d4b/smper-2.3.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [collectd-dbod]: Downloading https://files.pythonhosted.org/packages/c1/ac/e6920f09c08c68d554864a23041ffb32a4929dfa3f4ff2bffc425dc7aabc/collectd-dbod-1.1.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [cobra-db]: Downloading https://files.pythonhosted.org/packages/ce/25/b9c3ca4ad7369c74c6fad25935716346f60fa3f40d192ab3d3616717f652/cobra_db-0.3.8.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/35/84/fed794ac41e7e7f9d849620a81e263a084197a86131b72143f0df48c678e/panda-server-0.0.58.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-06-05 14:19:14] WARNING root fetch - processPackages [smper]: Skipping package: exceeds size limit 20759979>=10485760
+[2023-06-05 14:19:14] INFO root fetch - processPackages [eodal]: Downloading https://files.pythonhosted.org/packages/09/08/7699cb4e8b1ee3d5586d559ac68dc2f02f3ebf8665383a462d016fb5118b/eodal-0.2.0.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pspipe-utils]: Downloading https://files.pythonhosted.org/packages/cf/56/dc2d804e16b9c88fd63fb2d4a6855205f5abfde833d875a8e076a9f59d8b/pspipe_utils-0.1.2.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [smper]: Start processing: sai-click2book-model
+[2023-06-05 14:19:14] INFO root fetch - main [MainThread]: End processing [smper] error
+[2023-06-05 14:19:14] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/a8/3e/a824db5c0b3eeb7a3766e5e828d7e170b95cea5b15fe47752f5b54b3fc11/textbsr-0.1.2.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9b/92/7e1bc557001ddf1d1d797058b8b608d53a7c76235ac65b4210fb50811797/mypackagelicenseprototype-2.0.6-py3-none-any.whl
+[2023-06-05 14:19:14] WARNING root fetch - processPackages [pspipe-utils]: Skipping package: exceeds size limit 23550489>=10485760
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pspipe-utils]: Start processing: invenio-rdm-records
+[2023-06-05 14:19:14] WARNING root fetch - processPackages [eodal]: Skipping package: exceeds size limit 24511331>=10485760
+[2023-06-05 14:19:14] INFO root fetch - main [MainThread]: End processing [pspipe-utils] error
+[2023-06-05 14:19:14] INFO root fetch - processPackages [eodal]: Start processing: pulpcore
+[2023-06-05 14:19:14] INFO root fetch - main [MainThread]: End processing [eodal] error
+[2023-06-05 14:19:14] WARNING root fetch - processPackages [sai-click2book-model]: Skipping, unable to determine old version
+[2023-06-05 14:19:14] INFO root fetch - processPackages [sai-click2book-model]: Start processing: pulpcore-client
+[2023-06-05 14:19:14] INFO root fetch - main [MainThread]: End processing [sai-click2book-model] error
+[2023-06-05 14:19:14] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-06-05 14:19:14] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.1.1.tar.gz tmp/textbsr-0.1.2.tar.gz --markdown 20230605/t/textbsr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-06-05 14:19:14] INFO root fetch - processPackages [collectd-dbod]: Downloading https://files.pythonhosted.org/packages/4c/13/ef15098d620d5a4437a5e0c1c4ae48d8c6cef32446804ed6c3f4ae3e756b/collectd-dbod-1.9.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [pyrdp]: Downloading https://files.pythonhosted.org/packages/5d/a3/4673306b8dc810a96535754c2d0ec482388fe9fb8aaa26fe2b921d8e2d02/pyrdp-0.1.4.tar.gz
+[2023-06-05 14:19:14] INFO root fetch - processPackages [cobra-db]: Downloading https://files.pythonhosted.org/packages/39/d2/769cbb44b1f4da7feb38bdc4c31d754cf93acc6594f33501a7f2901ac040/cobra_db-0.4.2.tar.gz
+[2023-06-05 14:19:15] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/66/dd/bbcd7421b189996040796a1a4e9b58590d893cc9b0592a52a5d37f82a0f5/mypackagelicenseprototype-2.0.7-py3-none-any.whl
+[2023-06-05 14:19:15] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/be/c6/4834f0d5ef9320f3a00945919eb1273cc9275eea20ad889fb109d035f673/panda-server-0.0.59.tar.gz
+[2023-06-05 14:19:15] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/c3/df/3927054adba2168d6230de073af102aee96c729cdf135a7e9b53b8fbfe7c/invenio-rdm-records-4.2.4.tar.gz
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pyrdp]: executing diffoscope
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pyrdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrdp-0.1.3.tar.gz tmp/pyrdp-0.1.4.tar.gz --markdown 20230605/p/pyrdp/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 14:19:15] INFO root fetch - processPackages [collectd-dbod]: executing diffoscope
+[2023-06-05 14:19:15] INFO root fetch - processPackages [collectd-dbod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collectd-dbod-1.1.tar.gz tmp/collectd-dbod-1.9.tar.gz --markdown 20230605/c/collectd-dbod/1.1-1.9/diff.md --exclude *.pyd
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-06-05 14:19:15] INFO root fetch - processPackages [cobra-db]: executing diffoscope
+[2023-06-05 14:19:15] INFO root fetch - processPackages [cobra-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobra_db-0.3.8.tar.gz tmp/cobra_db-0.4.2.tar.gz --markdown 20230605/c/cobra-db/0.3.8-0.4.2/diff.md --exclude *.pyd
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-06-05 14:19:15] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 14:19:15] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.6-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.0.7-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-05 14:19:15] INFO root fetch - processPackages [panda-server]: executing diffoscope
+[2023-06-05 14:19:15] INFO root fetch - processPackages [panda-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-server-0.0.58.tar.gz tmp/panda-server-0.0.59.tar.gz --markdown 20230605/p/panda-server/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-06-05 14:19:15] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/13/41/958de99c38a3f358bad8ad20e0eb6ba0605d3c235bf7ea8f0b1650a6b39e/invenio-rdm-records-4.2.5.tar.gz
+[2023-06-05 14:19:15] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-06-05 14:19:15] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.2.4.tar.gz tmp/invenio-rdm-records-4.2.5.tar.gz --markdown 20230605/i/invenio-rdm-records/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230605/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230605/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-06-05 14:19:15] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230605/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-06-05 14:19:16] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.1.tar.gz]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.2.tar.gz]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [textbsr]: Start processing: monotonic-nn
+[2023-06-05 14:19:16] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-06-05 14:19:16] INFO root fetch - processPackages [monotonic-nn]: New version: [0.2.0rc1] Old Version: [0.2.0rc0]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/54/5a/27830162f55f7872a69e48c7a144f35fff07942cc3cd8695c3063cd40d4c/monotonic-nn-0.2.0rc0.tar.gz
+[2023-06-05 14:19:16] INFO root fetch - processPackages [pyrdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrdp-0.1.3.tar.gz]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [pyrdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrdp-0.1.4.tar.gz]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [pyrdp]: Start processing: solara-enterprise
+[2023-06-05 14:19:16] INFO root fetch - main [MainThread]: End processing [pyrdp]: success
+[2023-06-05 14:19:16] INFO root fetch - processPackages [solara-enterprise]: New version: [1.16.1] Old Version: [1.16.0]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.6-py3-none-any.whl.zip]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.7-py3-none-any.whl.zip]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: solara
+[2023-06-05 14:19:16] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 14:19:16] INFO root fetch - processPackages [solara]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/7d/ce/0db5c9f4ce9f9393e2b46f2d13c3eaece323788d81f6a730ff6762033029/monotonic-nn-0.2.0rc1.tar.gz
+[2023-06-05 14:19:16] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/da/84/967990845d9fc9dcf2b4cade077f69a021704ecc88ae70c0efefbddd8e15/solara_enterprise-1.16.0.tar.gz
+[2023-06-05 14:19:16] INFO root fetch - processPackages [monotonic-nn]: executing diffoscope
+[2023-06-05 14:19:16] INFO root fetch - processPackages [monotonic-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic-nn-0.2.0rc0.tar.gz tmp/monotonic-nn-0.2.0rc1.tar.gz --markdown 20230605/m/monotonic-nn/0.2.0rc0-0.2.0rc1/diff.md --exclude *.pyd
+[2023-06-05 14:19:16] INFO root fetch - processPackages [solara]: Downloading https://files.pythonhosted.org/packages/0f/d5/8c179a51a9a0a60f569f9740c8bb93fdfbc24fd7c47c8e722b5b0f55b341/solara-1.8.2.tar.gz
+[2023-06-05 14:19:16] INFO root fetch - processPackages [collectd-dbod]: Remove: archive file [/home/abi/fetcher/tmp/collectd-dbod-1.1.tar.gz]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [collectd-dbod]: Remove: archive file [/home/abi/fetcher/tmp/collectd-dbod-1.9.tar.gz]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [collectd-dbod]: Start processing: solara-assets
+[2023-06-05 14:19:16] INFO root fetch - main [MainThread]: End processing [collectd-dbod]: success
+[2023-06-05 14:19:16] INFO root fetch - processPackages [solara-assets]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/f6/7b/e1cbbc9cdcaaa2538d3af27334bedf7fa67d2d4f7c3d090c548cb4eb8431/solara_enterprise-1.16.1.tar.gz
+[2023-06-05 14:19:16] INFO root fetch - processPackages [cobra-db]: Remove: archive file [/home/abi/fetcher/tmp/cobra_db-0.3.8.tar.gz]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [cobra-db]: Remove: archive file [/home/abi/fetcher/tmp/cobra_db-0.4.2.tar.gz]
+[2023-06-05 14:19:16] INFO root fetch - processPackages [cobra-db]: Start processing: readwise-api
+[2023-06-05 14:19:16] INFO root fetch - main [MainThread]: End processing [cobra-db]: success
+[2023-06-05 14:19:17] INFO root fetch - processPackages [solara-assets]: Downloading https://files.pythonhosted.org/packages/32/88/9e435f44c84a3837462449476bdf0c80f355c752ae05b8b5f3cd293219f1/solara_assets-1.8.2.tar.gz
+[2023-06-05 14:19:17] INFO root fetch - processPackages [solara-enterprise]: executing diffoscope
+[2023-06-05 14:19:17] INFO root fetch - processPackages [solara-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara_enterprise-1.16.0.tar.gz tmp/solara_enterprise-1.16.1.tar.gz --markdown 20230605/s/solara-enterprise/1.16.0-1.16.1/diff.md --exclude *.pyd
+[2023-06-05 14:19:17] WARNING root fetch - processPackages [readwise-api]: Skipping, unable to determine old version
+[2023-06-05 14:19:17] INFO root fetch - main [MainThread]: End processing [readwise-api] error
+[2023-06-05 14:19:17] WARNING root fetch - processPackages [solara-assets]: Skipping package: exceeds size limit 31423360>=10485760
+[2023-06-05 14:19:17] INFO root fetch - main [MainThread]: End processing [solara-assets] error
+[2023-06-05 14:19:17] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-06-05 14:19:17] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-06-05 14:19:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-06-05 14:19:17] INFO root fetch - processPackages [solara]: Downloading https://files.pythonhosted.org/packages/e8/90/f26cbae23327466263cf6a05ac43ed3ec38356f23af8c896fb9d38cbc597/solara-1.9.0.tar.gz
+[2023-06-05 14:19:18] INFO root fetch - processPackages [solara-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/solara_enterprise-1.16.0.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - processPackages [solara-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/solara_enterprise-1.16.1.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - main [MainThread]: End processing [solara-enterprise]: success
+[2023-06-05 14:19:18] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda-server-0.0.58.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda-server-0.0.59.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - main [MainThread]: End processing [panda-server]: success
+[2023-06-05 14:19:18] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-06-05 14:19:18] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.2.0rc0.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.2.0rc1.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - main [MainThread]: End processing [monotonic-nn]: success
+[2023-06-05 14:19:18] INFO root fetch - processPackages [solara]: executing diffoscope
+[2023-06-05 14:19:18] INFO root fetch - processPackages [solara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara-1.8.2.tar.gz tmp/solara-1.9.0.tar.gz --markdown 20230605/s/solara/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 14:19:18] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2023-06-05 14:19:18] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-06-05 14:19:23] INFO root fetch - processPackages [solara]: Remove: archive file [/home/abi/fetcher/tmp/solara-1.8.2.tar.gz]
+[2023-06-05 14:19:23] INFO root fetch - processPackages [solara]: Remove: archive file [/home/abi/fetcher/tmp/solara-1.9.0.tar.gz]
+[2023-06-05 14:19:23] INFO root fetch - main [MainThread]: End processing [solara]: success
+[2023-06-05 14:19:25] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.2.4.tar.gz]
+[2023-06-05 14:19:25] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.2.5.tar.gz]
+[2023-06-05 14:19:25] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-06-05 14:19:25] INFO root fetch - main [MainThread]: Store serial: [18375642]
