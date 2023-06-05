@@ -5002,3 +5002,64 @@
 [2023-06-05 06:58:23] INFO root fetch - main [MainThread]: End processing [mosek-license-server]: success
 [2023-06-05 06:58:23] INFO root fetch - main [MainThread]: End processing [parafilt]: success
 [2023-06-05 06:58:23] INFO root fetch - main [MainThread]: Store serial: [18371777]
+[2023-06-05 07:03:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371777]
+[2023-06-05 07:03:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-05 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openkeys
+[2023-06-05 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-animus
+[2023-06-05 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cgpmgr
+[2023-06-05 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gensp
+[2023-06-05 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databaseRestoreIntegrity
+[2023-06-05 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-runtime-nightly
+[2023-06-05 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azdev
+[2023-06-05 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kyzylborda-lib
+[2023-06-05 07:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TreeSAK
+[2023-06-05 07:03:32] INFO root fetch - processPackages [openkeys]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 07:03:32] INFO root fetch - processPackages [gensp]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-05 07:03:32] INFO root fetch - processPackages [py-animus]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 07:03:32] INFO root fetch - processPackages [databaseRestoreIntegrity]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 07:03:32] INFO root fetch - processPackages [kyzylborda-lib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 07:03:32] INFO root fetch - processPackages [cgpmgr]: New version: [1.3] Old Version: [1.2]
+[2023-06-05 07:03:32] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 07:03:32] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230603] Old Version: [2.14.0.dev20230602]
+[2023-06-05 07:03:32] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-05 07:03:32] INFO root fetch - processPackages [kyzylborda-lib]: Downloading https://files.pythonhosted.org/packages/00/29/68db00f85c6948041b53506e31a0b5a77737c2c9b65d6b42227ac01df607/kyzylborda_lib-1.0.4-py3-none-any.whl
+[2023-06-05 07:03:32] INFO root fetch - processPackages [openkeys]: Downloading https://files.pythonhosted.org/packages/8f/05/755903865009f8b22fb25c10a0b5cfa5f766a05f36f202087af5f00fa81b/openkeys-0.0.1.tar.gz
+[2023-06-05 07:03:32] INFO root fetch - processPackages [databaseRestoreIntegrity]: Downloading https://files.pythonhosted.org/packages/6b/ca/e08ddbdd598711e3aff1f847d1de9b8fd9a9a4d1aec0a8b89daa4c15d7b6/databaseRestoreIntegrity-1.0.0.tar.gz
+[2023-06-05 07:03:32] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/e5/fa/7364cee42c144e604e244323f847586bf0aff605bf0c6ffa328dd8638ca3/py_animus-1.0.8.tar.gz
+[2023-06-05 07:03:32] INFO root fetch - processPackages [gensp]: Downloading https://files.pythonhosted.org/packages/df/b7/dd8efefad32b1efc48b1ad103bb3dc42dddd6b209980f0449fc45ea283b4/gensp-1.0.8.tar.gz
+[2023-06-05 07:03:32] INFO root fetch - processPackages [cgpmgr]: Downloading https://files.pythonhosted.org/packages/9a/46/07211a783589e3f5f3c08deb7691640c045d9ede875947aad24b96943fc9/cgpmgr-1.2.tar.gz
+[2023-06-05 07:03:32] INFO root fetch - processPackages [kyzylborda-lib]: executing diffoscope
+[2023-06-05 07:03:32] INFO root fetch - processPackages [kyzylborda-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyzylborda_lib-1.0.3-py3-none-any.whl.zip tmp/kyzylborda_lib-1.0.4-py3-none-any.whl.zip --markdown 20230605/k/kyzylborda-lib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 07:03:32] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/0a/8d/cae8bb25d15a4c8c52506540b94432efb6803c6a6c42902c7447f1d1bf51/tflite_runtime_nightly-2.14.0.dev20230603-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-05 07:03:32] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-06-05 07:03:32] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 07:03:32] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.7.tar.gz tmp/gensp-1.0.8.tar.gz --markdown 20230605/g/gensp/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-05 07:03:33] INFO root fetch - processPackages [openkeys]: Downloading https://files.pythonhosted.org/packages/fb/ea/4b725e2743b97ae478b3cb7ac1e60bb9767a44172213259889a434637cd9/openkeys-0.0.2.tar.gz
+[2023-06-05 07:03:33] INFO root fetch - processPackages [databaseRestoreIntegrity]: Downloading https://files.pythonhosted.org/packages/51/cc/4da504c825e4d4a693adfcb666ac2249995de001b265d378b1b1b30eed54/databaseRestoreIntegrity-1.0.1.tar.gz
+[2023-06-05 07:03:33] INFO root fetch - processPackages [openkeys]: executing diffoscope
+[2023-06-05 07:03:33] INFO root fetch - processPackages [openkeys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openkeys-0.0.1.tar.gz tmp/openkeys-0.0.2.tar.gz --markdown 20230605/o/openkeys/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 07:03:33] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-06-05 07:03:33] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230605/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 07:03:33] INFO root fetch - processPackages [databaseRestoreIntegrity]: executing diffoscope
+[2023-06-05 07:03:33] INFO root fetch - processPackages [databaseRestoreIntegrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databaseRestoreIntegrity-1.0.0.tar.gz tmp/databaseRestoreIntegrity-1.0.1.tar.gz --markdown 20230605/d/databaseRestoreIntegrity/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 07:03:33] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/d0/f2/ad85921f027bfea132df7280af98bacb101900532efd1d6e0a3cf1407033/py_animus-1.0.9.tar.gz
+[2023-06-05 07:03:33] INFO root fetch - processPackages [cgpmgr]: Downloading https://files.pythonhosted.org/packages/bb/20/3c89cc3c21b87ef71455d975cc974049f0c8a277597fa6b5b67c21ea5940/cgpmgr-1.3.tar.gz
+[2023-06-05 07:03:33] INFO root fetch - processPackages [cgpmgr]: executing diffoscope
+[2023-06-05 07:03:33] INFO root fetch - processPackages [cgpmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgpmgr-1.2.tar.gz tmp/cgpmgr-1.3.tar.gz --markdown 20230605/c/cgpmgr/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-05 07:03:33] INFO root fetch - processPackages [py-animus]: executing diffoscope
+[2023-06-05 07:03:33] INFO root fetch - processPackages [py-animus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_animus-1.0.8.tar.gz tmp/py_animus-1.0.9.tar.gz --markdown 20230605/p/py-animus/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 07:03:33] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-06-05 07:03:33] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-05 07:03:33] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230602-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230603-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230605/t/tflite-runtime-nightly/2.14.0.dev20230602-2.14.0.dev20230603/diff.md --exclude *.pyd
+[2023-06-05 07:03:33] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-06-05 07:03:33] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230605/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-05 07:03:34] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 07:03:34] INFO root fetch - main [MainThread]: End processing [openkeys]: success
+[2023-06-05 07:03:34] INFO root fetch - main [MainThread]: End processing [kyzylborda-lib]: success
+[2023-06-05 07:03:34] INFO root fetch - main [MainThread]: End processing [databaseRestoreIntegrity]: success
+[2023-06-05 07:03:34] INFO root fetch - main [MainThread]: End processing [cgpmgr]: success
+[2023-06-05 07:03:34] INFO root fetch - main [MainThread]: End processing [py-animus]: success
+[2023-06-05 07:03:35] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-06-05 07:03:35] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-06-05 07:03:36] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-05 07:03:36] INFO root fetch - main [MainThread]: Store serial: [18371810]
