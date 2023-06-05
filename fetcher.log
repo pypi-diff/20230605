@@ -17385,3 +17385,201 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 17:27:39] INFO root fetch - processPackages [ovos-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_weather-0.0.1a9-py3-none-any.whl.zip]
 [2023-06-05 17:27:39] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
 [2023-06-05 17:27:39] INFO root fetch - main [MainThread]: Store serial: [18377871]
+[2023-06-05 17:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377871]
+[2023-06-05 17:32:50] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stewchef
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdiffweb
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docassemble.ALWeaver
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stigg-api-client-v2
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rum-with-telegram
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-parquet
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eazy
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: georgio
+[2023-06-05 17:32:50] INFO root fetch - processPackages [docassemble.ALWeaver]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.457.0] Old Version: [0.455.1]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.457.0]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stewchef]: New version: [0.1.6b0] Old Version: [0.1.6a0]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [rdiffweb]: New version: [2.8.0a3] Old Version: [2.8.0a2]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [eazy]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [georgio]: New version: [2023.156.924] Old Version: [2023.119.77]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [rum-with-telegram]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [aws-parquet]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/2a/21/476ab9aa8c300a70e0bafaec838238c355cf92b5a38e3636fc85d55dbd89/stigg_api_client-0.457.0.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stewchef]: Downloading https://files.pythonhosted.org/packages/38/1e/c0ebc64aba46c914250f1634b21c9bc11b03d57d85c9a0679b9acd00ff2f/stewchef-0.1.6a0.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [docassemble.ALWeaver]: Downloading https://files.pythonhosted.org/packages/dc/fb/783c2be72d4281665c69dc41913df99aec9404eb60a56dbfcb9ab0cb7288/docassemble.ALWeaver-1.8.0.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [rdiffweb]: Downloading https://files.pythonhosted.org/packages/43/33/76af03f4071945e83dd6177c39753af08cb588aede5eb2412ff580326348/rdiffweb-2.8.0a2-py3-none-any.whl
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e1/c1/a90d0b75b8b2718c1e13cbf61ffe60628b5e0fddba34a9220d78fe643b73/stigg_api_client_v2-0.455.1.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [georgio]: Downloading https://files.pythonhosted.org/packages/3d/94/4c62c8ad2c5f2ce24e92b5632de2a575d32ea3f94272e0ec9bfd4b08a4bf/georgio-2023.119.77-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [eazy]: Downloading https://files.pythonhosted.org/packages/88/1a/c2da078ffa16fe1ebc37df98572e386aa5b19e517e7567e0043a0617240f/eazy-0.6.4.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [aws-parquet]: Downloading https://files.pythonhosted.org/packages/bd/3b/a49adb1e5de8c6e50cca0c103d1b40d7ddcc7d50433ea14615d95f2c2518/aws_parquet-0.2.0.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/08/ae/65e6a2569cdefbc93c1dd0fca47b6b81f5c7246949f7cae8a9bb2ee9865f/rum_with_telegram-1.0.3.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stewchef]: Downloading https://files.pythonhosted.org/packages/cb/9f/d272ede164a7da6c5044c3b7c2adf3d04c203aa88a482cad9be5d97975d1/stewchef-0.1.6b0.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/6c/a1/fbef115f551a1159931f5611089e064138b2f0984c9cbf1d2d417ca7d5c8/stigg_api_client_v2-0.457.0.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [aws-parquet]: Downloading https://files.pythonhosted.org/packages/6a/93/cc36937ad56ad1f1fa85382fc77af6e7b83bdd04f4372d6859a4db85341f/aws_parquet-0.3.0.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-05 17:32:50] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230605/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.457.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230605/s/stigg-api-client/0.457.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stewchef]: executing diffoscope
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stewchef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stewchef-0.1.6a0.tar.gz tmp/stewchef-0.1.6b0.tar.gz --markdown 20230605/s/stewchef/0.1.6a0-0.1.6b0/diff.md --exclude *.pyd
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-06-05 17:32:50] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.455.1.tar.gz tmp/stigg_api_client_v2-0.457.0.tar.gz --markdown 20230605/s/stigg-api-client-v2/0.455.1-0.457.0/diff.md --exclude *.pyd
+[2023-06-05 17:32:50] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/d3/fe/d18fa0994a394ccd12ee56faba085e39a54d97cabedc451f4b569857e89b/rum_with_telegram-1.0.4.tar.gz
+[2023-06-05 17:32:51] INFO root fetch - processPackages [aws-parquet]: executing diffoscope
+[2023-06-05 17:32:51] INFO root fetch - processPackages [aws-parquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_parquet-0.2.0.tar.gz tmp/aws_parquet-0.3.0.tar.gz --markdown 20230605/a/aws-parquet/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-05 17:32:51] INFO root fetch - processPackages [georgio]: Downloading https://files.pythonhosted.org/packages/02/bd/2218c1ee7304b37508acf990bf99a92686af1203db0c91755327ec69eb76/georgio-2023.156.924-cp311-none-win_amd64.whl
+[2023-06-05 17:32:51] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-06-05 17:32:51] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-1.0.3.tar.gz tmp/rum_with_telegram-1.0.4.tar.gz --markdown 20230605/r/rum-with-telegram/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 17:32:51] INFO root fetch - processPackages [georgio]: executing diffoscope
+[2023-06-05 17:32:51] INFO root fetch - processPackages [georgio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georgio-2023.119.77-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/georgio-2023.156.924-cp311-none-win_amd64.whl.zip --markdown 20230605/g/georgio/2023.119.77-2023.156.924/diff.md --exclude *.pyd
+[2023-06-05 17:32:51] INFO root fetch - processPackages [docassemble.ALWeaver]: Downloading https://files.pythonhosted.org/packages/e0/6c/75e6ccf843d277f11b5703c75829ad4ed2cd935604621c63ae6f169dfc13/docassemble.ALWeaver-1.9.0.tar.gz
+[2023-06-05 17:32:51] INFO root fetch - processPackages [eazy]: Downloading https://files.pythonhosted.org/packages/fb/b0/a40131ecd47eaeaddc96e12badf26a42981f26abe921533549cb8df57036/eazy-0.6.5.tar.gz
+[2023-06-05 17:32:51] INFO root fetch - processPackages [docassemble.ALWeaver]: executing diffoscope
+[2023-06-05 17:32:51] INFO root fetch - processPackages [docassemble.ALWeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.ALWeaver-1.8.0.tar.gz tmp/docassemble.ALWeaver-1.9.0.tar.gz --markdown 20230605/d/docassemble.ALWeaver/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-05 17:32:51] INFO root fetch - processPackages [rdiffweb]: Downloading https://files.pythonhosted.org/packages/ee/3a/63e7663f872126844d81f1cabc48acd5d5efc3d24facfe0bf5c8f5b809a1/rdiffweb-2.8.0a3-py3-none-any.whl
+[2023-06-05 17:32:51] INFO root fetch - processPackages [eazy]: executing diffoscope
+[2023-06-05 17:32:51] INFO root fetch - processPackages [eazy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eazy-0.6.4.tar.gz tmp/eazy-0.6.5.tar.gz --markdown 20230605/e/eazy/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-05 17:32:52] INFO root fetch - processPackages [rdiffweb]: executing diffoscope
+[2023-06-05 17:32:52] INFO root fetch - processPackages [rdiffweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdiffweb-2.8.0a2-py3-none-any.whl.zip tmp/rdiffweb-2.8.0a3-py3-none-any.whl.zip --markdown 20230605/r/rdiffweb/2.8.0a2-2.8.0a3/diff.md --exclude *.pyd
+[2023-06-05 17:32:52] INFO root fetch - processPackages [stewchef]: Remove: archive file [/home/abi/fetcher/tmp/stewchef-0.1.6a0.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [stewchef]: Remove: archive file [/home/abi/fetcher/tmp/stewchef-0.1.6b0.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [stewchef]: Start processing: navalmartin-mir-db-utils
+[2023-06-05 17:32:52] INFO root fetch - main [MainThread]: End processing [stewchef]: success
+[2023-06-05 17:32:52] INFO root fetch - processPackages [navalmartin-mir-db-utils]: New version: [0.0.9] Old Version: [0.0.36]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [aws-parquet]: Remove: archive file [/home/abi/fetcher/tmp/aws_parquet-0.2.0.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [aws-parquet]: Remove: archive file [/home/abi/fetcher/tmp/aws_parquet-0.3.0.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [aws-parquet]: Start processing: ngscrape
+[2023-06-05 17:32:52] INFO root fetch - main [MainThread]: End processing [aws-parquet]: success
+[2023-06-05 17:32:52] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.457.0.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [stigg-api-client]: Start processing: odoo-addon-purchase-invoice-plan
+[2023-06-05 17:32:52] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-06-05 17:32:52] INFO root fetch - processPackages [ngscrape]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [rum-with-telegram]: Remove: archive file [/home/abi/fetcher/tmp/rum_with_telegram-1.0.3.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [rum-with-telegram]: Remove: archive file [/home/abi/fetcher/tmp/rum_with_telegram-1.0.4.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [rum-with-telegram]: Start processing: sampacks
+[2023-06-05 17:32:52] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-06-05 17:32:52] INFO root fetch - processPackages [navalmartin-mir-db-utils]: Downloading https://files.pythonhosted.org/packages/11/aa/8989cd03c489e8e877fc3231706d7cbac7432338a6b6cf9cb091ac9e9d1e/navalmartin_mir_db_utils-0.0.36.tar.gz
+[2023-06-05 17:32:52] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/68/4b/84203f7bdb8b562d6bf064747143858f78d421104cd23dfc1b5df54d731c/ngscrape-3.0.1.tar.gz
+[2023-06-05 17:32:52] INFO root fetch - processPackages [sampacks]: New version: [0.8] Old Version: [0.7]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [ramodels]: Start processing: price2bq-mg
+[2023-06-05 17:32:52] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-05 17:32:52] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.455.1.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.457.0.tar.gz]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [stigg-api-client-v2]: Start processing: PVNet
+[2023-06-05 17:32:52] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-06-05 17:32:52] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/0d/cf/ebf33d59639ef28ff42da90058ee5d7dafcff2f0d29730a95dd9f8f45869/ngscrape-3.0.2.tar.gz
+[2023-06-05 17:32:52] INFO root fetch - processPackages [PVNet]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [georgio]: Remove: archive file [/home/abi/fetcher/tmp/georgio-2023.119.77-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [georgio]: Remove: archive file [/home/abi/fetcher/tmp/georgio-2023.156.924-cp311-none-win_amd64.whl.zip]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [georgio]: Start processing: liquisource
+[2023-06-05 17:32:52] INFO root fetch - main [MainThread]: End processing [georgio]: success
+[2023-06-05 17:32:52] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: Downloading https://files.pythonhosted.org/packages/02/be/bd99d152aa7445d865eefd9f295f85dd5856b9d08358d72a5bd247c41e8c/odoo_addon_purchase_invoice_plan-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-05 17:32:52] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/4a/ea/4e1d9556c298bf3e8669503493494ef7819a84e33423cf70ea0d783fdf5c/sampacks-0.7.tar.gz
+[2023-06-05 17:32:52] WARNING root fetch - processPackages [liquisource]: Skipping, unable to determine old version
+[2023-06-05 17:32:52] INFO root fetch - processPackages [liquisource]: Start processing: raven-hydro
+[2023-06-05 17:32:52] INFO root fetch - main [MainThread]: End processing [liquisource] error
+[2023-06-05 17:32:52] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/ed/6c/ae306ef51fc937145d77865d3c9d3cec6a9c232d5791eaac8a33861472f6/PVNet-0.0.9.tar.gz
+[2023-06-05 17:32:52] WARNING root fetch - processPackages [price2bq-mg]: Skipping, unable to determine old version
+[2023-06-05 17:32:52] INFO root fetch - processPackages [price2bq-mg]: Start processing: lokii
+[2023-06-05 17:32:52] INFO root fetch - main [MainThread]: End processing [price2bq-mg] error
+[2023-06-05 17:32:52] INFO root fetch - processPackages [navalmartin-mir-db-utils]: Downloading https://files.pythonhosted.org/packages/41/2a/39fc86eef4f5fe8b6776ca508496a71a589fc60bb227ce018a1df89f1b42/navalmartin_mir_db_utils-0.0.9.tar.gz
+[2023-06-05 17:32:52] INFO root fetch - processPackages [ngscrape]: executing diffoscope
+[2023-06-05 17:32:52] INFO root fetch - processPackages [ngscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngscrape-3.0.1.tar.gz tmp/ngscrape-3.0.2.tar.gz --markdown 20230605/n/ngscrape/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-05 17:32:52] INFO root fetch - processPackages [raven-hydro]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [navalmartin-mir-db-utils]: executing diffoscope
+[2023-06-05 17:32:52] INFO root fetch - processPackages [navalmartin-mir-db-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_db_utils-0.0.36.tar.gz tmp/navalmartin_mir_db_utils-0.0.9.tar.gz --markdown 20230605/n/navalmartin-mir-db-utils/0.0.36-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:32:52] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/8a/5a/e8ffdfef7a179278a2229a70614299b6d271982a1a09eb91a95d595f8b3f/PVNet-0.1.0.tar.gz
+[2023-06-05 17:32:52] INFO root fetch - processPackages [lokii]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-05 17:32:52] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: Downloading https://files.pythonhosted.org/packages/27/0d/c95ed71a7b6d61a135f5c13bc9d7ab3a77da0e439bc7ec85746f81208f16/odoo_addon_purchase_invoice_plan-15.0.1.0.1-py3-none-any.whl
+[2023-06-05 17:32:52] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/12/a1/ec1defabcd8bf488f3c8616c1c7a6c2205b820426ca05e55c2703121e1b0/sampacks-0.8.tar.gz
+[2023-06-05 17:32:52] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: executing diffoscope
+[2023-06-05 17:32:52] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_invoice_plan-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_invoice_plan-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-purchase-invoice-plan/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-05 17:32:53] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-05 17:32:53] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.9.tar.gz tmp/PVNet-0.1.0.tar.gz --markdown 20230605/P/PVNet/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-05 17:32:53] INFO root fetch - processPackages [raven-hydro]: Downloading https://files.pythonhosted.org/packages/38/a6/4919d98e7dec23002df857d0193f46327dcb07d0d3333d981ba6c848cd46/raven-hydro-0.2.1.tar.gz
+[2023-06-05 17:32:53] INFO root fetch - processPackages [sampacks]: executing diffoscope
+[2023-06-05 17:32:53] INFO root fetch - processPackages [sampacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampacks-0.7.tar.gz tmp/sampacks-0.8.tar.gz --markdown 20230605/s/sampacks/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-05 17:32:53] INFO root fetch - processPackages [lokii]: Downloading https://files.pythonhosted.org/packages/ff/70/ce67ad68385274f6198e108d63d2df9efc07a18e154af931a64dee2ec0a8/lokii-1.1.3.tar.gz
+[2023-06-05 17:32:53] INFO root fetch - processPackages [raven-hydro]: Downloading https://files.pythonhosted.org/packages/3f/a6/5217b59515dbb559f3d32a5a48886a2630e0657a7033fc480c26d649343d/raven-hydro-0.2.2.tar.gz
+[2023-06-05 17:32:53] INFO root fetch - processPackages [lokii]: Downloading https://files.pythonhosted.org/packages/f2/04/22fba8a27cc05954fed0f98b2f1dc538817fe1f401714352a37d7defb397/lokii-1.1.4.tar.gz
+[2023-06-05 17:32:53] INFO root fetch - processPackages [raven-hydro]: executing diffoscope
+[2023-06-05 17:32:53] INFO root fetch - processPackages [raven-hydro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raven-hydro-0.2.1.tar.gz tmp/raven-hydro-0.2.2.tar.gz --markdown 20230605/r/raven-hydro/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-05 17:32:53] INFO root fetch - processPackages [lokii]: executing diffoscope
+[2023-06-05 17:32:53] INFO root fetch - processPackages [lokii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokii-1.1.3.tar.gz tmp/lokii-1.1.4.tar.gz --markdown 20230605/l/lokii/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-05 17:32:54] INFO root fetch - processPackages [eazy]: Remove: archive file [/home/abi/fetcher/tmp/eazy-0.6.4.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [eazy]: Remove: archive file [/home/abi/fetcher/tmp/eazy-0.6.5.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [eazy]: Start processing: strmprivacy-api-definitions
+[2023-06-05 17:32:54] INFO root fetch - main [MainThread]: End processing [eazy]: success
+[2023-06-05 17:32:54] INFO root fetch - processPackages [navalmartin-mir-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_db_utils-0.0.36.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [navalmartin-mir-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_db_utils-0.0.9.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [navalmartin-mir-db-utils]: Start processing: gordo
+[2023-06-05 17:32:54] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-db-utils]: success
+[2023-06-05 17:32:54] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [2.9.0] Old Version: [2.87.1]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [ngscrape]: Remove: archive file [/home/abi/fetcher/tmp/ngscrape-3.0.1.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [ngscrape]: Remove: archive file [/home/abi/fetcher/tmp/ngscrape-3.0.2.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [ngscrape]: Start processing: wscraping-helper
+[2023-06-05 17:32:54] INFO root fetch - main [MainThread]: End processing [ngscrape]: success
+[2023-06-05 17:32:54] WARNING root fetch - processPackages [wscraping-helper]: Skipping, unable to determine old version
+[2023-06-05 17:32:54] INFO root fetch - processPackages [wscraping-helper]: Start processing: lecore
+[2023-06-05 17:32:54] INFO root fetch - main [MainThread]: End processing [wscraping-helper] error
+[2023-06-05 17:32:54] INFO root fetch - processPackages [lecore]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [gordo]: New version: [5.1.0] Old Version: [5.0.3]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/b5/f1/68f6e9cfb68aba7985e2631bc487166b3439460311e4f952cdf74de8be86/lecore-0.1.1.tar.gz
+[2023-06-05 17:32:54] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_invoice_plan-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_invoice_plan-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: Start processing: petljadoc
+[2023-06-05 17:32:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-invoice-plan]: success
+[2023-06-05 17:32:54] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/b3/4f/81697924dd8d2ea98fb50b6bb4aca165ee8be302fd9db389bb55ae60dfac/lecore-0.1.2.tar.gz
+[2023-06-05 17:32:54] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-06-05 17:32:54] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.1.tar.gz tmp/lecore-0.1.2.tar.gz --markdown 20230605/l/lecore/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 17:32:54] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.7.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.8.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - main [MainThread]: End processing [sampacks]: success
+[2023-06-05 17:32:54] INFO root fetch - processPackages [gordo]: Downloading https://files.pythonhosted.org/packages/a2/e7/5fc7f31e6d7f23d3e9aeedcbeba4d9ed9855a7e04ee5b4b5131c435f9474/gordo-5.0.3.tar.gz
+[2023-06-05 17:32:54] INFO root fetch - processPackages [petljadoc]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.0.9.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.0.tar.gz]
+[2023-06-05 17:32:54] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-05 17:32:54] INFO root fetch - processPackages [petljadoc]: Downloading https://files.pythonhosted.org/packages/c8/b4/08b5b8981ff6110579e1d35d2fddc802319f520efdefadb328fdbd75109e/petljadoc-1.3.3.tar.gz
+[2023-06-05 17:32:54] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/b5/76/4dfa949362b20ff33f2037688baff43d26df0f93b78fd0cbbbb67cdc6596/strmprivacy-api-definitions-2.87.1.tar.gz
+[2023-06-05 17:32:54] INFO root fetch - processPackages [gordo]: Downloading https://files.pythonhosted.org/packages/59/16/de746db0f58f2037ab6a4872c8d91f03a1fdbb2d160ce171a6dd79a822b2/gordo-5.1.0.tar.gz
+[2023-06-05 17:32:54] INFO root fetch - processPackages [petljadoc]: Downloading https://files.pythonhosted.org/packages/09/79/03d7756da2303cd8dcbc1d0ea441c9cf7ec3f84fbcf30d9195fe28d6adec/petljadoc-1.3.4-py3-none-any.whl
+[2023-06-05 17:32:54] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/89/ad/908915ed1c7af94dfe78a95110dc03d81532c4e526c5d82f30d952314754/strmprivacy-api-definitions-2.9.0.tar.gz
+[2023-06-05 17:32:54] INFO root fetch - processPackages [gordo]: executing diffoscope
+[2023-06-05 17:32:54] INFO root fetch - processPackages [gordo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gordo-5.0.3.tar.gz tmp/gordo-5.1.0.tar.gz --markdown 20230605/g/gordo/5.0.3-5.1.0/diff.md --exclude *.pyd
+[2023-06-05 17:32:54] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-06-05 17:32:54] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-2.87.1.tar.gz tmp/strmprivacy-api-definitions-2.9.0.tar.gz --markdown 20230605/s/strmprivacy-api-definitions/2.87.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-05 17:32:54] WARNING root fetch - processPackages [petljadoc]: Skipping package: exceeds size limit 13369857>=10485760
+[2023-06-05 17:32:54] INFO root fetch - main [MainThread]: End processing [petljadoc] error
+[2023-06-05 17:32:55] INFO root fetch - processPackages [lokii]: Remove: archive file [/home/abi/fetcher/tmp/lokii-1.1.3.tar.gz]
+[2023-06-05 17:32:55] INFO root fetch - processPackages [lokii]: Remove: archive file [/home/abi/fetcher/tmp/lokii-1.1.4.tar.gz]
+[2023-06-05 17:32:55] INFO root fetch - main [MainThread]: End processing [lokii]: success
+[2023-06-05 17:32:55] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.1.tar.gz]
+[2023-06-05 17:32:55] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.2.tar.gz]
+[2023-06-05 17:32:55] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-06-05 17:32:55] INFO root fetch - processPackages [rdiffweb]: Remove: archive file [/home/abi/fetcher/tmp/rdiffweb-2.8.0a2-py3-none-any.whl.zip]
+[2023-06-05 17:32:55] INFO root fetch - processPackages [rdiffweb]: Remove: archive file [/home/abi/fetcher/tmp/rdiffweb-2.8.0a3-py3-none-any.whl.zip]
+[2023-06-05 17:32:55] INFO root fetch - main [MainThread]: End processing [rdiffweb]: success
+[2023-06-05 17:32:56] INFO root fetch - processPackages [docassemble.ALWeaver]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.ALWeaver-1.8.0.tar.gz]
+[2023-06-05 17:32:56] INFO root fetch - processPackages [docassemble.ALWeaver]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.ALWeaver-1.9.0.tar.gz]
+[2023-06-05 17:32:56] INFO root fetch - main [MainThread]: End processing [docassemble.ALWeaver]: success
+[2023-06-05 17:32:56] INFO root fetch - processPackages [raven-hydro]: Remove: archive file [/home/abi/fetcher/tmp/raven-hydro-0.2.1.tar.gz]
+[2023-06-05 17:32:56] INFO root fetch - processPackages [raven-hydro]: Remove: archive file [/home/abi/fetcher/tmp/raven-hydro-0.2.2.tar.gz]
+[2023-06-05 17:32:56] INFO root fetch - main [MainThread]: End processing [raven-hydro]: success
+[2023-06-05 17:32:56] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-2.87.1.tar.gz]
+[2023-06-05 17:32:56] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-2.9.0.tar.gz]
+[2023-06-05 17:32:56] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-06-05 17:32:57] INFO root fetch - processPackages [gordo]: Remove: archive file [/home/abi/fetcher/tmp/gordo-5.0.3.tar.gz]
+[2023-06-05 17:32:57] INFO root fetch - processPackages [gordo]: Remove: archive file [/home/abi/fetcher/tmp/gordo-5.1.0.tar.gz]
+[2023-06-05 17:32:57] INFO root fetch - main [MainThread]: End processing [gordo]: success
+[2023-06-05 17:32:57] INFO root fetch - main [MainThread]: Store serial: [18377947]
