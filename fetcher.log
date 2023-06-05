@@ -20915,3 +20915,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 19:44:43] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-6.2.1.tar.gz]
 [2023-06-05 19:44:43] INFO root fetch - main [MainThread]: End processing [tksheet]: success
 [2023-06-05 19:44:43] INFO root fetch - main [MainThread]: Store serial: [18379322]
+[2023-06-05 19:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18379322]
+[2023-06-05 19:49:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starvote
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hivae2
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rustplus
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-sdk-preview
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bookio-fetchfox
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-contract-sale-generation
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ango
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: archs4py
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multi-model-server
+[2023-06-05 19:49:52] INFO root fetch - processPackages [rustplus]: New version: [5.6.4] Old Version: [5.6.3]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.3.2]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [hivae2]: New version: [0.9] Old Version: [0.8]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [starvote]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [archs4py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ango]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.8b20230531]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-05 19:49:52] INFO root fetch - processPackages [hivae2]: Downloading https://files.pythonhosted.org/packages/e3/3f/92c515ee45f9f1202d56f052c72d1b58b5099ffb0895cea69eb5986ae83d/hivae2-0.8.tar.gz
+[2023-06-05 19:49:52] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/a9/1d/105a449be408d8103ea58dbd47bba46eca48557142238e7f9edf7b70e99b/multi_model_server-1.1.8b20230531-py2.py3-none-any.whl
+[2023-06-05 19:49:52] INFO root fetch - processPackages [starvote]: Downloading https://files.pythonhosted.org/packages/07/5f/234a0b316869e06275daeae777141fdff5aecb7cc01e397f23605a7494be/starvote-2.0.3.tar.gz
+[2023-06-05 19:49:52] INFO root fetch - processPackages [rustplus]: Downloading https://files.pythonhosted.org/packages/aa/6d/fcbd88cb3518750e1eb94b2b99bd15094d2d861eee98ae027aadddf6985c/rustplus-5.6.3.tar.gz
+[2023-06-05 19:49:52] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Downloading https://files.pythonhosted.org/packages/91/c2/b1c2ab081e246db4f6f3c53097cdf0eaa197fb2037f9a7848fb4ced9ec68/odoo_addon_contract_sale_generation-15.0.1.0.3.2-py3-none-any.whl
+[2023-06-05 19:49:52] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/70/b5/49d43c3adf68d704eeb3074c467f50780dac5ed6bbaa3596beae4b75c145/archs4py-0.1.8.tar.gz
+[2023-06-05 19:49:52] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/86/bb/94e5a6dafceec61f0d42971f4416aa7d8e6af9ab0aea7df824883edcc92f/bookio_fetchfox-0.1.2.tar.gz
+[2023-06-05 19:49:52] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/ae/e4/8bbcf0f4794df4557e260641ff2dc2b29d8976b22df6206ae08841f054be/ango-1.0.8.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [hivae2]: Downloading https://files.pythonhosted.org/packages/39/27/d14373cf35a2ff7c11c485604a524e68278eb2b90a5bb2b9233b8bd9f1f1/hivae2-0.9.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [hivae2]: executing diffoscope
+[2023-06-05 19:49:53] INFO root fetch - processPackages [hivae2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivae2-0.8.tar.gz tmp/hivae2-0.9.tar.gz --markdown 20230605/h/hivae2/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-05 19:49:53] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Downloading https://files.pythonhosted.org/packages/10/fa/1439cca724166e424ea7e60fdb2c1f7c55023cd1e62aa47c8024d4ca61f8/odoo_addon_contract_sale_generation-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-05 19:49:53] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/96/70/74813fd2fe23dda133d4fdb80ec01a92525e70c6d5ca65cdfdcf612b6a63/bookio_fetchfox-0.2.0.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [starvote]: Downloading https://files.pythonhosted.org/packages/bb/32/fe961b9cd5d4f6e96ef150abe631971aaf84cbb321872c0edcda6ae837f3/starvote-2.0.4.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [rustplus]: Downloading https://files.pythonhosted.org/packages/03/a5/a135931b0eaf9e65736c1cf9d2bacb3f13c978b4b777c3334efd4a4de4ef/rustplus-5.6.4.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/d9/7a/a963984ef730f4967e8208fce1fbc6f8747c7f8068f1556a7bf25e67fa11/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl
+[2023-06-05 19:49:53] INFO root fetch - processPackages [archs4py]: Downloading https://files.pythonhosted.org/packages/3f/cc/fc2a51c21c1f64aa8d3cc34c667e86fac140125b65e3f8c1d97c107159b6/archs4py-0.1.9.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/42/02/7a1d4309aca1e923f4d0282d1174646adb1f9241d0795eae906d9efdf356/ango-1.0.9.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: executing diffoscope
+[2023-06-05 19:49:53] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract_sale_generation-15.0.1.0.3.2-py3-none-any.whl.zip tmp/odoo_addon_contract_sale_generation-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-contract-sale-generation/15.0.1.0.3.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-05 19:49:53] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-05 19:49:53] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.1.2.tar.gz tmp/bookio_fetchfox-0.2.0.tar.gz --markdown 20230605/b/bookio-fetchfox/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 19:49:53] INFO root fetch - processPackages [archs4py]: executing diffoscope
+[2023-06-05 19:49:53] INFO root fetch - processPackages [archs4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archs4py-0.1.8.tar.gz tmp/archs4py-0.1.9.tar.gz --markdown 20230605/a/archs4py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 19:49:53] INFO root fetch - processPackages [rustplus]: executing diffoscope
+[2023-06-05 19:49:53] INFO root fetch - processPackages [rustplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustplus-5.6.3.tar.gz tmp/rustplus-5.6.4.tar.gz --markdown 20230605/r/rustplus/5.6.3-5.6.4/diff.md --exclude *.pyd
+[2023-06-05 19:49:53] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-06-05 19:49:53] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-1.0.8.tar.gz tmp/ango-1.0.9.tar.gz --markdown 20230605/a/ango/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 19:49:53] INFO root fetch - processPackages [starvote]: executing diffoscope
+[2023-06-05 19:49:53] INFO root fetch - processPackages [starvote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starvote-2.0.3.tar.gz tmp/starvote-2.0.4.tar.gz --markdown 20230605/s/starvote/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-05 19:49:53] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-05 19:49:53] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230605/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-05 19:49:53] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-05 19:49:53] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-05 19:49:53] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230605/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-05 19:49:54] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-05 19:49:54] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230531-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230605/m/multi-model-server/1.1.8b20230531-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-05 19:49:54] INFO root fetch - processPackages [hivae2]: Remove: archive file [/home/abi/fetcher/tmp/hivae2-0.8.tar.gz]
+[2023-06-05 19:49:54] INFO root fetch - processPackages [hivae2]: Remove: archive file [/home/abi/fetcher/tmp/hivae2-0.9.tar.gz]
+[2023-06-05 19:49:54] INFO root fetch - main [MainThread]: End processing [hivae2]: success
+[2023-06-05 19:49:54] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.0.8.tar.gz]
+[2023-06-05 19:49:54] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.0.9.tar.gz]
+[2023-06-05 19:49:54] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-06-05 19:49:55] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_sale_generation-15.0.1.0.3.2-py3-none-any.whl.zip]
+[2023-06-05 19:49:55] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_sale_generation-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-05 19:49:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract-sale-generation]: success
+[2023-06-05 19:49:55] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.1.8.tar.gz]
+[2023-06-05 19:49:55] INFO root fetch - processPackages [archs4py]: Remove: archive file [/home/abi/fetcher/tmp/archs4py-0.1.9.tar.gz]
+[2023-06-05 19:49:55] INFO root fetch - main [MainThread]: End processing [archs4py]: success
+[2023-06-05 19:49:55] INFO root fetch - processPackages [rustplus]: Remove: archive file [/home/abi/fetcher/tmp/rustplus-5.6.3.tar.gz]
+[2023-06-05 19:49:55] INFO root fetch - processPackages [rustplus]: Remove: archive file [/home/abi/fetcher/tmp/rustplus-5.6.4.tar.gz]
+[2023-06-05 19:49:55] INFO root fetch - main [MainThread]: End processing [rustplus]: success
+[2023-06-05 19:49:55] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.1.2.tar.gz]
+[2023-06-05 19:49:55] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.2.0.tar.gz]
+[2023-06-05 19:49:55] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-05 19:49:56] INFO root fetch - processPackages [starvote]: Remove: archive file [/home/abi/fetcher/tmp/starvote-2.0.3.tar.gz]
+[2023-06-05 19:49:56] INFO root fetch - processPackages [starvote]: Remove: archive file [/home/abi/fetcher/tmp/starvote-2.0.4.tar.gz]
+[2023-06-05 19:49:56] INFO root fetch - main [MainThread]: End processing [starvote]: success
+[2023-06-05 19:50:12] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-05 19:50:12] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-05 19:50:12] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-05 19:50:23] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-05 19:50:23] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-05 19:50:23] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-05 19:52:54] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-05 19:52:54] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-05 19:52:54] INFO root fetch - main [MainThread]: Store serial: [18379352]
