@@ -11433,3 +11433,185 @@
 [2023-06-05 13:52:25] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
 [2023-06-05 13:52:25] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-06-05 13:52:25] INFO root fetch - main [MainThread]: Store serial: [18375417]
+[2023-06-05 13:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375417]
+[2023-06-05 13:57:35] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: andebox
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-currency-taxes
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BigBrainGHLPy
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cashare
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypackagelicenseprototype
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: joern-lib
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JoUtil
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meilisearch
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: greenbone-feed-sync
+[2023-06-05 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepfilterdataloader
+[2023-06-05 13:57:35] INFO root fetch - processPackages [andebox]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 13:57:35] INFO root fetch - processPackages [cashare]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 13:57:35] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-05 13:57:35] INFO root fetch - processPackages [joern-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 13:57:35] WARNING root fetch - processPackages [odoo-addon-account-invoice-currency-taxes]: Skipping, unable to determine old version
+[2023-06-05 13:57:35] INFO root fetch - processPackages [meilisearch]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-05 13:57:35] INFO root fetch - processPackages [odoo-addon-account-invoice-currency-taxes]: Start processing: deepfilterlib
+[2023-06-05 13:57:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-currency-taxes] error
+[2023-06-05 13:57:35] INFO root fetch - processPackages [BigBrainGHLPy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 13:57:35] INFO root fetch - processPackages [greenbone-feed-sync]: New version: [23.6.0] Old Version: [23.4.0]
+[2023-06-05 13:57:35] INFO root fetch - processPackages [JoUtil]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-05 13:57:35] INFO root fetch - processPackages [deepfilterdataloader]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 13:57:35] INFO root fetch - processPackages [deepfilterlib]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 13:57:35] INFO root fetch - processPackages [cashare]: Downloading https://files.pythonhosted.org/packages/80/27/8813a9fda016d601e3dfbc2861ed80e370bc3dfbd2edc7eda4a09e6e2551/cashare-0.0.3.tar.gz
+[2023-06-05 13:57:35] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/27/a2/dfa413321b01906933aed38706343f80293829c23c969a065a3baab1471e/mypackagelicenseprototype-2.0.3-py3-none-any.whl
+[2023-06-05 13:57:35] INFO root fetch - processPackages [andebox]: Downloading https://files.pythonhosted.org/packages/73/0c/a30ac91dc2347d59b5de4a2301b6ddb35d130cbdbd2075cc6b55687159ec/andebox-0.8.0.tar.gz
+[2023-06-05 13:57:35] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/87/e7/8b1480ae33f1773b92c0b97041d7ba8ea6b00e2522decab107f86c60392d/joern_lib-0.9.1.tar.gz
+[2023-06-05 13:57:35] INFO root fetch - processPackages [JoUtil]: Downloading https://files.pythonhosted.org/packages/98/8a/eedde9422fddeff0ec3e60bf9dccab8cb86cf48d87d61a96af0e9e72cc1d/JoUtil-1.3.1-py3-none-any.whl
+[2023-06-05 13:57:35] INFO root fetch - processPackages [BigBrainGHLPy]: Downloading https://files.pythonhosted.org/packages/64/d4/8895d750f115b5ce57d3ed69cbb739ae155fb55225f69b6942169f3b9ea8/BigBrainGHLPy-0.0.7.tar.gz
+[2023-06-05 13:57:35] INFO root fetch - processPackages [meilisearch]: Downloading https://files.pythonhosted.org/packages/b9/85/28be9699d845a730a6fe8c9a53988a90246852c52bbc616c6fafb8f691d9/meilisearch-0.8.3.tar.gz
+[2023-06-05 13:57:35] INFO root fetch - processPackages [deepfilterdataloader]: Downloading https://files.pythonhosted.org/packages/8a/b9/5582740a7a050e2fed54f19841337d5e437227d79e1d2e8a6a5fc261e588/DeepFilterDataLoader-0.4.0-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-06-05 13:57:35] INFO root fetch - processPackages [andebox]: Downloading https://files.pythonhosted.org/packages/a2/13/65a290136562e18a323be2b14d1a98bad06f48b5838b9362a32ded10ff17/andebox-0.9.0.tar.gz
+[2023-06-05 13:57:35] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/f7/29/c0e9300a691c11ec5a7c40feb7c726caedd36573d9dd9c11cac6b5521cce/joern_lib-0.9.2.tar.gz
+[2023-06-05 13:57:35] INFO root fetch - processPackages [greenbone-feed-sync]: Downloading https://files.pythonhosted.org/packages/1f/79/3a31226a39f2f5fc9be9cef6d7a181dbc850fe3ffb5f7638a71149261ad9/greenbone_feed_sync-23.4.0.tar.gz
+[2023-06-05 13:57:36] INFO root fetch - processPackages [deepfilterlib]: Downloading https://files.pythonhosted.org/packages/2a/63/137cbf424464ebe7a1b042bf5a883717d2c0cda045ac5d0f21d5fa01da98/DeepFilterLib-0.4.0-cp39-none-win_amd64.whl
+[2023-06-05 13:57:36] INFO root fetch - processPackages [cashare]: Downloading https://files.pythonhosted.org/packages/77/09/eb107fc14d856e8cbb379a3fe0a7da4af1ffd2177f21497b26380f264611/cashare-0.0.4.tar.gz
+[2023-06-05 13:57:36] INFO root fetch - processPackages [BigBrainGHLPy]: Downloading https://files.pythonhosted.org/packages/c7/de/da00e183505cd7187c5e372c9a1259fdaf9f35ee1bb46af108277828024d/BigBrainGHLPy-0.0.8.tar.gz
+[2023-06-05 13:57:36] INFO root fetch - processPackages [joern-lib]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [joern-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joern_lib-0.9.1.tar.gz tmp/joern_lib-0.9.2.tar.gz --markdown 20230605/j/joern-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 13:57:36] INFO root fetch - processPackages [andebox]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [andebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andebox-0.8.0.tar.gz tmp/andebox-0.9.0.tar.gz --markdown 20230605/a/andebox/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 13:57:36] INFO root fetch - processPackages [cashare]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [cashare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashare-0.0.3.tar.gz tmp/cashare-0.0.4.tar.gz --markdown 20230605/c/cashare/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 13:57:36] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/f9/88/8673535b98df034fcff01d40fae1b3f4e99f69744813b66af87f7bd9df3e/mypackagelicenseprototype-2.0.4-py3-none-any.whl
+[2023-06-05 13:57:36] INFO root fetch - processPackages [BigBrainGHLPy]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [BigBrainGHLPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BigBrainGHLPy-0.0.7.tar.gz tmp/BigBrainGHLPy-0.0.8.tar.gz --markdown 20230605/B/BigBrainGHLPy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 13:57:36] INFO root fetch - processPackages [meilisearch]: Downloading https://files.pythonhosted.org/packages/d3/c7/70afe0fb413413473e498aead75fa0b9ad0af1d23935ef355868402d199d/meilisearch-0.9.0.tar.gz
+[2023-06-05 13:57:36] INFO root fetch - processPackages [JoUtil]: Downloading https://files.pythonhosted.org/packages/ea/4d/aa19ec88e42cc5880e44a28fdec33cc6bbaf9dd095fd6a55104695c3e41a/JoUtil-1.3.2-py3-none-any.whl
+[2023-06-05 13:57:36] INFO root fetch - processPackages [deepfilterdataloader]: Downloading https://files.pythonhosted.org/packages/2b/11/8099e3632248fe04bf1aa8c9fd2d450c03c0cd48660b658f830b76d750ed/DeepFilterDataLoader-0.5.0-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-05 13:57:36] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.3-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.0.4-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-05 13:57:36] INFO root fetch - processPackages [greenbone-feed-sync]: Downloading https://files.pythonhosted.org/packages/5d/1e/9f6d9581130b2e91673f410482dab648c40dd5ecee221ac2336613d60d56/greenbone_feed_sync-23.6.0.tar.gz
+[2023-06-05 13:57:36] INFO root fetch - processPackages [deepfilterlib]: Downloading https://files.pythonhosted.org/packages/9e/77/cf79a792e7a79eb53ea425d8aa7e9a3cf3b6e7ecf0ac3ea8c2e508cb3c93/DeepFilterLib-0.5.0-cp39-none-win_amd64.whl
+[2023-06-05 13:57:36] INFO root fetch - processPackages [meilisearch]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [meilisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch-0.8.3.tar.gz tmp/meilisearch-0.9.0.tar.gz --markdown 20230605/m/meilisearch/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 13:57:36] INFO root fetch - processPackages [greenbone-feed-sync]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [greenbone-feed-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greenbone_feed_sync-23.4.0.tar.gz tmp/greenbone_feed_sync-23.6.0.tar.gz --markdown 20230605/g/greenbone-feed-sync/23.4.0-23.6.0/diff.md --exclude *.pyd
+[2023-06-05 13:57:36] INFO root fetch - processPackages [JoUtil]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [JoUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JoUtil-1.3.1-py3-none-any.whl.zip tmp/JoUtil-1.3.2-py3-none-any.whl.zip --markdown 20230605/J/JoUtil/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-05 13:57:36] INFO root fetch - processPackages [deepfilterlib]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [deepfilterlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepFilterLib-0.4.0-cp39-none-win_amd64.whl.zip tmp/DeepFilterLib-0.5.0-cp39-none-win_amd64.whl.zip --markdown 20230605/d/deepfilterlib/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 13:57:36] INFO root fetch - processPackages [deepfilterdataloader]: executing diffoscope
+[2023-06-05 13:57:36] INFO root fetch - processPackages [deepfilterdataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepFilterDataLoader-0.4.0-cp39-cp39-manylinux_2_24_x86_64.whl.zip tmp/DeepFilterDataLoader-0.5.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230605/d/deepfilterdataloader/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 13:57:37] INFO root fetch - processPackages [cashare]: Remove: archive file [/home/abi/fetcher/tmp/cashare-0.0.3.tar.gz]
+[2023-06-05 13:57:37] INFO root fetch - processPackages [cashare]: Remove: archive file [/home/abi/fetcher/tmp/cashare-0.0.4.tar.gz]
+[2023-06-05 13:57:37] INFO root fetch - processPackages [cashare]: Start processing: deepfilternet
+[2023-06-05 13:57:37] INFO root fetch - main [MainThread]: End processing [cashare]: success
+[2023-06-05 13:57:37] INFO root fetch - processPackages [deepfilternet]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 13:57:37] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.3-py3-none-any.whl.zip]
+[2023-06-05 13:57:37] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.4-py3-none-any.whl.zip]
+[2023-06-05 13:57:37] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: lnschema_core
+[2023-06-05 13:57:37] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 13:57:37] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-05 13:57:37] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-05 13:57:37] INFO root fetch - processPackages [BigBrainGHLPy]: Remove: archive file [/home/abi/fetcher/tmp/BigBrainGHLPy-0.0.7.tar.gz]
+[2023-06-05 13:57:37] INFO root fetch - processPackages [BigBrainGHLPy]: Remove: archive file [/home/abi/fetcher/tmp/BigBrainGHLPy-0.0.8.tar.gz]
+[2023-06-05 13:57:37] INFO root fetch - processPackages [BigBrainGHLPy]: Start processing: kenzy-image
+[2023-06-05 13:57:37] INFO root fetch - main [MainThread]: End processing [BigBrainGHLPy]: success
+[2023-06-05 13:57:37] INFO root fetch - processPackages [kenzy-image]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 13:57:37] INFO root fetch - processPackages [deepfilternet]: Downloading https://files.pythonhosted.org/packages/d8/b3/7eab65f3a7c8b0fdc7a2e6dd187aa44a04603ed84de263f5755a7b8eac6d/deepfilternet-0.4.0.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [andebox]: Remove: archive file [/home/abi/fetcher/tmp/andebox-0.8.0.tar.gz]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [andebox]: Remove: archive file [/home/abi/fetcher/tmp/andebox-0.9.0.tar.gz]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [andebox]: Start processing: oarepo-model-builder
+[2023-06-05 13:57:38] INFO root fetch - main [MainThread]: End processing [andebox]: success
+[2023-06-05 13:57:38] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [kenzy-image]: Downloading https://files.pythonhosted.org/packages/f9/a2/f5800114015ecee778f915e1ea7d56bfca317305cda9eb4dd0667df72f86/kenzy_image-0.0.7.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [joern-lib]: Remove: archive file [/home/abi/fetcher/tmp/joern_lib-0.9.1.tar.gz]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [joern-lib]: Remove: archive file [/home/abi/fetcher/tmp/joern_lib-0.9.2.tar.gz]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [joern-lib]: Start processing: smper
+[2023-06-05 13:57:38] INFO root fetch - main [MainThread]: End processing [joern-lib]: success
+[2023-06-05 13:57:38] WARNING root fetch - processPackages [kenzy-image]: Skipping package: exceeds size limit 23969486>=10485760
+[2023-06-05 13:57:38] INFO root fetch - processPackages [smper]: New version: [3.3] Old Version: [3.22]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [kenzy-image]: Start processing: finbourne-access-sdk
+[2023-06-05 13:57:38] INFO root fetch - main [MainThread]: End processing [kenzy-image] error
+[2023-06-05 13:57:38] INFO root fetch - processPackages [deepfilternet]: Downloading https://files.pythonhosted.org/packages/86/22/1a44ec76c465f92574dcd7047c485d14728668431665ea6c188a8efab768/deepfilternet-0.5.0.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [deepfilterlib]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterLib-0.4.0-cp39-none-win_amd64.whl.zip]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [deepfilterlib]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterLib-0.5.0-cp39-none-win_amd64.whl.zip]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-05 13:57:38] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230605/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 13:57:38] INFO root fetch - processPackages [deepfilterlib]: Start processing: qsynthesis
+[2023-06-05 13:57:38] INFO root fetch - main [MainThread]: End processing [deepfilterlib]: success
+[2023-06-05 13:57:38] INFO root fetch - processPackages [qsynthesis]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [deepfilternet]: executing diffoscope
+[2023-06-05 13:57:38] INFO root fetch - processPackages [deepfilternet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfilternet-0.4.0.tar.gz tmp/deepfilternet-0.5.0.tar.gz --markdown 20230605/d/deepfilternet/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 13:57:38] INFO root fetch - processPackages [meilisearch]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch-0.8.3.tar.gz]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [meilisearch]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch-0.9.0.tar.gz]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [meilisearch]: Start processing: harness-featureflags
+[2023-06-05 13:57:38] INFO root fetch - main [MainThread]: End processing [meilisearch]: success
+[2023-06-05 13:57:38] INFO root fetch - processPackages [harness-featureflags]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-05 13:57:38] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/f4/32/651b54f10fd592580aebc23a794cdfa2c496ed7e05cb23a4c697cae211c4/smper-3.22.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-06-05 13:57:38] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230605/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-06-05 13:57:38] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [qsynthesis]: Downloading https://files.pythonhosted.org/packages/ae/b9/108a41ca7f1cc0df305a4646fe6607a5ec474c908bb3316cc0afa876d3c5/qsynthesis-0.1.2.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [harness-featureflags]: Downloading https://files.pythonhosted.org/packages/96/62/26d7f2198a384880725f0ee6d93ad0bcede8e02459e879d50921d3f10f37/harness-featureflags-1.1.8.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/da/91/c6ad923562fd64851c9f7a055580352e6a9a921826a7f8150c1445753336/smper-3.3.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [qsynthesis]: Downloading https://files.pythonhosted.org/packages/b3/39/2f607f63f2e68dc136f04436d256385d6ab53b1bac442ea960cd303b4308/qsynthesis-0.2.0.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [smper]: executing diffoscope
+[2023-06-05 13:57:38] INFO root fetch - processPackages [smper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smper-3.22.tar.gz tmp/smper-3.3.tar.gz --markdown 20230605/s/smper/3.22-3.3/diff.md --exclude *.pyd
+[2023-06-05 13:57:38] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-05 13:57:38] INFO root fetch - processPackages [qsynthesis]: executing diffoscope
+[2023-06-05 13:57:38] INFO root fetch - processPackages [qsynthesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsynthesis-0.1.2.tar.gz tmp/qsynthesis-0.2.0.tar.gz --markdown 20230605/q/qsynthesis/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-05 13:57:38] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-05 13:57:38] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230605/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-05 13:57:38] INFO root fetch - processPackages [harness-featureflags]: Downloading https://files.pythonhosted.org/packages/3c/dc/bf2bf01053df6a3b68c7cbb877b75f317aa20333fb2f3511efe55a1b7a39/harness-featureflags-1.1.9.tar.gz
+[2023-06-05 13:57:39] INFO root fetch - processPackages [harness-featureflags]: executing diffoscope
+[2023-06-05 13:57:39] INFO root fetch - processPackages [harness-featureflags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harness-featureflags-1.1.8.tar.gz tmp/harness-featureflags-1.1.9.tar.gz --markdown 20230605/h/harness-featureflags/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-05 13:57:39] INFO root fetch - processPackages [JoUtil]: Remove: archive file [/home/abi/fetcher/tmp/JoUtil-1.3.1-py3-none-any.whl.zip]
+[2023-06-05 13:57:39] INFO root fetch - processPackages [JoUtil]: Remove: archive file [/home/abi/fetcher/tmp/JoUtil-1.3.2-py3-none-any.whl.zip]
+[2023-06-05 13:57:39] INFO root fetch - processPackages [JoUtil]: Start processing: sastadev
+[2023-06-05 13:57:39] INFO root fetch - main [MainThread]: End processing [JoUtil]: success
+[2023-06-05 13:57:39] INFO root fetch - processPackages [sastadev]: New version: [0.0.4a2] Old Version: [0.0.4a1]
+[2023-06-05 13:57:39] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/5b/a1/9e31428a9b1a0150c4977994ff60a89b73183590f4305cc34567ac6e7c71/sastadev-0.0.4a1.tar.gz
+[2023-06-05 13:57:39] INFO root fetch - processPackages [greenbone-feed-sync]: Remove: archive file [/home/abi/fetcher/tmp/greenbone_feed_sync-23.4.0.tar.gz]
+[2023-06-05 13:57:39] INFO root fetch - processPackages [greenbone-feed-sync]: Remove: archive file [/home/abi/fetcher/tmp/greenbone_feed_sync-23.6.0.tar.gz]
+[2023-06-05 13:57:39] INFO root fetch - processPackages [greenbone-feed-sync]: Start processing: gravity-auto-exit
+[2023-06-05 13:57:39] INFO root fetch - main [MainThread]: End processing [greenbone-feed-sync]: success
+[2023-06-05 13:57:39] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/93/ff/c2e9af98fc46321b94c6733e78dda27d397b133b5eb7ac205354abd7a104/sastadev-0.0.4a2.tar.gz
+[2023-06-05 13:57:39] INFO root fetch - processPackages [gravity-auto-exit]: New version: [1.8.43] Old Version: [1.8.42]
+[2023-06-05 13:57:39] INFO root fetch - processPackages [sastadev]: executing diffoscope
+[2023-06-05 13:57:39] INFO root fetch - processPackages [sastadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sastadev-0.0.4a1.tar.gz tmp/sastadev-0.0.4a2.tar.gz --markdown 20230605/s/sastadev/0.0.4a1-0.0.4a2/diff.md --exclude *.pyd
+[2023-06-05 13:57:39] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/0d/44/d268816156b9092dabb268ae58685929987832f424ccbe751ca6b0ff05af/gravity_auto_exit-1.8.42-py3-none-any.whl
+[2023-06-05 13:57:40] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-05 13:57:40] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-05 13:57:40] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-05 13:57:40] INFO root fetch - processPackages [smper]: Remove: archive file [/home/abi/fetcher/tmp/smper-3.22.tar.gz]
+[2023-06-05 13:57:40] INFO root fetch - processPackages [smper]: Remove: archive file [/home/abi/fetcher/tmp/smper-3.3.tar.gz]
+[2023-06-05 13:57:40] INFO root fetch - main [MainThread]: End processing [smper]: success
+[2023-06-05 13:57:40] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/51/e6/ed644a647de4c4abab4bb1eca7d1d83f423295f8a398b6366a82531ac446/gravity_auto_exit-1.8.43-py3-none-any.whl
+[2023-06-05 13:57:40] INFO root fetch - processPackages [gravity-auto-exit]: executing diffoscope
+[2023-06-05 13:57:40] INFO root fetch - processPackages [gravity-auto-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravity_auto_exit-1.8.42-py3-none-any.whl.zip tmp/gravity_auto_exit-1.8.43-py3-none-any.whl.zip --markdown 20230605/g/gravity-auto-exit/1.8.42-1.8.43/diff.md --exclude *.pyd
+[2023-06-05 13:57:40] INFO root fetch - processPackages [qsynthesis]: Remove: archive file [/home/abi/fetcher/tmp/qsynthesis-0.1.2.tar.gz]
+[2023-06-05 13:57:40] INFO root fetch - processPackages [qsynthesis]: Remove: archive file [/home/abi/fetcher/tmp/qsynthesis-0.2.0.tar.gz]
+[2023-06-05 13:57:40] INFO root fetch - main [MainThread]: End processing [qsynthesis]: success
+[2023-06-05 13:57:41] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/sastadev-0.0.4a1.tar.gz]
+[2023-06-05 13:57:41] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/sastadev-0.0.4a2.tar.gz]
+[2023-06-05 13:57:41] INFO root fetch - main [MainThread]: End processing [sastadev]: success
+[2023-06-05 13:57:41] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-06-05 13:57:41] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-06-05 13:57:41] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-06-05 13:57:41] INFO root fetch - processPackages [gravity-auto-exit]: Remove: archive file [/home/abi/fetcher/tmp/gravity_auto_exit-1.8.42-py3-none-any.whl.zip]
+[2023-06-05 13:57:41] INFO root fetch - processPackages [gravity-auto-exit]: Remove: archive file [/home/abi/fetcher/tmp/gravity_auto_exit-1.8.43-py3-none-any.whl.zip]
+[2023-06-05 13:57:41] INFO root fetch - main [MainThread]: End processing [gravity-auto-exit]: success
+[2023-06-05 13:57:41] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-05 13:57:41] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-05 13:57:41] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-05 13:57:42] INFO root fetch - processPackages [deepfilternet]: Remove: archive file [/home/abi/fetcher/tmp/deepfilternet-0.4.0.tar.gz]
+[2023-06-05 13:57:42] INFO root fetch - processPackages [deepfilternet]: Remove: archive file [/home/abi/fetcher/tmp/deepfilternet-0.5.0.tar.gz]
+[2023-06-05 13:57:42] INFO root fetch - main [MainThread]: End processing [deepfilternet]: success
+[2023-06-05 13:57:44] INFO root fetch - processPackages [harness-featureflags]: Remove: archive file [/home/abi/fetcher/tmp/harness-featureflags-1.1.8.tar.gz]
+[2023-06-05 13:57:44] INFO root fetch - processPackages [harness-featureflags]: Remove: archive file [/home/abi/fetcher/tmp/harness-featureflags-1.1.9.tar.gz]
+[2023-06-05 13:57:44] INFO root fetch - main [MainThread]: End processing [harness-featureflags]: success
+[2023-06-05 13:58:17] INFO root fetch - processPackages [deepfilterdataloader]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterDataLoader-0.4.0-cp39-cp39-manylinux_2_24_x86_64.whl.zip]
+[2023-06-05 13:58:17] INFO root fetch - processPackages [deepfilterdataloader]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterDataLoader-0.5.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-06-05 13:58:17] INFO root fetch - main [MainThread]: End processing [deepfilterdataloader]: success
+[2023-06-05 13:58:17] INFO root fetch - main [MainThread]: Store serial: [18375483]
