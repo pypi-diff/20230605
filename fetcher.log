@@ -6131,3 +6131,99 @@
 [2023-06-05 08:55:41] INFO root fetch - main [MainThread]: End processing [geopandas]: success
 [2023-06-05 08:55:42] INFO root fetch - main [MainThread]: End processing [wpcsys]: success
 [2023-06-05 08:55:42] INFO root fetch - main [MainThread]: Store serial: [18372429]
+[2023-06-05 09:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372429]
+[2023-06-05 09:00:52] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-freckle-client
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-tool
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Bigsansar
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwebclient
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: searchlogit
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sphinx-runpython
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloud-governance
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zero-3rdparty
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: model-lib
+[2023-06-05 09:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docker-compose-parser
+[2023-06-05 09:00:52] INFO root fetch - processPackages [python-freckle-client]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 09:00:52] INFO root fetch - processPackages [zero-3rdparty]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 09:00:52] INFO root fetch - processPackages [docker-compose-parser]: New version: [0.0.20] Old Version: [0.0.18]
+[2023-06-05 09:00:52] INFO root fetch - processPackages [model-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 09:00:52] INFO root fetch - processPackages [common-tool]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 09:00:52] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-05 09:00:52] WARNING root fetch - processPackages [sphinx-runpython]: Skipping, unable to determine old version
+[2023-06-05 09:00:52] INFO root fetch - processPackages [sphinx-runpython]: Start processing: compose-chart-export
+[2023-06-05 09:00:52] INFO root fetch - main [MainThread]: End processing [sphinx-runpython] error
+[2023-06-05 09:00:52] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-05 09:00:52] INFO root fetch - processPackages [Bigsansar]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-06-05 09:00:52] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-05 09:00:52] INFO root fetch - processPackages [compose-chart-export]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-06-05 09:00:52] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [python-freckle-client]: Downloading https://files.pythonhosted.org/packages/04/87/bd51cf2335f9d64c35f3eb747c854df4c5f4c266e34463e87519ed6db628/python-freckle-client-0.4.0.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/3a/37/f439fc46ad12d47c469a89b962f6930daa6f1af9319dce3ed5f398a5b0f2/model_lib-0.0.8-py3-none-any.whl
+[2023-06-05 09:00:52] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/f9/ed/76967a22a724f0f6fe2228a7b4a432789a950804c9fff2d1891c02824c0c/docker_compose_parser-0.0.18-py3-none-any.whl
+[2023-06-05 09:00:52] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/02/77/9b25da26d84e860f91f7869dd90591c0aec5e456c230be79db7208e01a37/zero_3rdparty-0.0.8-py3-none-any.whl
+[2023-06-05 09:00:52] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/38/88/4bb605d8a24642fe329e041c0d2db29caf44d5c6d3a3fab64c4612954fcf/Bigsansar-1.6.8.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [common-tool]: Downloading https://files.pythonhosted.org/packages/47/b0/e368f8899c23d5faa55f53e5b46ad33367e8d583a3e957f84aeff33b050c/common_tool-0.0.3.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/9c/df/af0525fba8ca9b8d7da9af064645ae24e515b494979d90490a7f450f0dcb/compose_chart_export-0.0.19-py3-none-any.whl
+[2023-06-05 09:00:52] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-05 09:00:52] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.6.7.tar.gz tmp/Bigsansar-1.6.8.tar.gz --markdown 20230605/B/Bigsansar/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-06-05 09:00:52] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/67/f2/1e0e93b46879d1de50b8144f31359a38e3bd02d65e1fa789e559ca8320b7/docker_compose_parser-0.0.20-py3-none-any.whl
+[2023-06-05 09:00:52] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-05 09:00:52] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230605/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-05 09:00:52] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-05 09:00:52] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230605/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-05 09:00:52] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/bd/82/e88dc0d76a12ef945378879fd1c9e51076a792f26641501b92b5f98691bb/compose_chart_export-0.0.20-py3-none-any.whl
+[2023-06-05 09:00:52] INFO root fetch - processPackages [docker-compose-parser]: executing diffoscope
+[2023-06-05 09:00:52] INFO root fetch - processPackages [docker-compose-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_compose_parser-0.0.18-py3-none-any.whl.zip tmp/docker_compose_parser-0.0.20-py3-none-any.whl.zip --markdown 20230605/d/docker-compose-parser/0.0.18-0.0.20/diff.md --exclude *.pyd
+[2023-06-05 09:00:52] INFO root fetch - processPackages [python-freckle-client]: Downloading https://files.pythonhosted.org/packages/59/11/7455ac93cb35135f5d97b5a5e095a997fa425ad51fc3ad88dfa865329822/python-freckle-client-0.5.0.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [compose-chart-export]: executing diffoscope
+[2023-06-05 09:00:52] INFO root fetch - processPackages [compose-chart-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_chart_export-0.0.19-py3-none-any.whl.zip tmp/compose_chart_export-0.0.20-py3-none-any.whl.zip --markdown 20230605/c/compose-chart-export/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-06-05 09:00:52] INFO root fetch - processPackages [common-tool]: Downloading https://files.pythonhosted.org/packages/94/55/69797ebf06c2ace2845c99f7723b3b609ef93bd7421185d41aeea455a8af/common_tool-0.0.4.tar.gz
+[2023-06-05 09:00:52] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/0e/81/219c8c28610fddb4410a4cb595f3323d27988d35dd0ab098737ad0d8b598/model_lib-0.0.9-py3-none-any.whl
+[2023-06-05 09:00:52] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/ac/57/d5880eac743d0a1370807895ce1e784289fd0b2bd6cbcba1b3fb57043af3/zero_3rdparty-0.0.9-py3-none-any.whl
+[2023-06-05 09:00:53] INFO root fetch - processPackages [python-freckle-client]: executing diffoscope
+[2023-06-05 09:00:53] INFO root fetch - processPackages [python-freckle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-freckle-client-0.4.0.tar.gz tmp/python-freckle-client-0.5.0.tar.gz --markdown 20230605/p/python-freckle-client/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 09:00:53] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-05 09:00:53] INFO root fetch - processPackages [common-tool]: executing diffoscope
+[2023-06-05 09:00:53] INFO root fetch - processPackages [common-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_tool-0.0.3.tar.gz tmp/common_tool-0.0.4.tar.gz --markdown 20230605/c/common-tool/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 09:00:53] INFO root fetch - processPackages [model-lib]: executing diffoscope
+[2023-06-05 09:00:53] INFO root fetch - processPackages [model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_lib-0.0.8-py3-none-any.whl.zip tmp/model_lib-0.0.9-py3-none-any.whl.zip --markdown 20230605/m/model-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 09:00:53] INFO root fetch - processPackages [zero-3rdparty]: executing diffoscope
+[2023-06-05 09:00:53] INFO root fetch - processPackages [zero-3rdparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip --markdown 20230605/z/zero-3rdparty/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 09:00:53] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-05 09:00:53] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230605/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-05 09:00:54] INFO root fetch - processPackages [nwebclient]: Start processing: configzen
+[2023-06-05 09:00:54] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-05 09:00:54] INFO root fetch - processPackages [docker-compose-parser]: Start processing: pants-py-deploy
+[2023-06-05 09:00:54] INFO root fetch - main [MainThread]: End processing [docker-compose-parser]: success
+[2023-06-05 09:00:54] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.20] Old Version: [0.0.18rc1]
+[2023-06-05 09:00:54] INFO root fetch - processPackages [configzen]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-05 09:00:54] INFO root fetch - processPackages [compose-chart-export]: Start processing: hip-data-ml-utils
+[2023-06-05 09:00:54] INFO root fetch - main [MainThread]: End processing [compose-chart-export]: success
+[2023-06-05 09:00:54] INFO root fetch - processPackages [hip-data-ml-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 09:00:54] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/0f/09/2eea088933304890d0dc21a00287cd94ee6653182f814c0a5ef65aa8f9b2/pants_py_deploy-0.0.18rc1-py3-none-any.whl
+[2023-06-05 09:00:54] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/2e/b2/7c05dddadb6e63cf8291d3eca97787b4eaf0d18788a26c8d05b84d6c3b8c/configzen-0.2.2.tar.gz
+[2023-06-05 09:00:54] INFO root fetch - main [MainThread]: End processing [python-freckle-client]: success
+[2023-06-05 09:00:54] INFO root fetch - processPackages [hip-data-ml-utils]: Downloading https://files.pythonhosted.org/packages/f7/66/3ae6cb7fc53d628cfc00cf3cc356226d0c0603985ec58ccfce025dc91e42/hip_data_ml_utils-1.0.0.tar.gz
+[2023-06-05 09:00:54] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/ea/e9/294cef219f6f347db38d95a8dc94275d6a9efe054a326d543a2b8f78a5f9/configzen-0.2.3.tar.gz
+[2023-06-05 09:00:54] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-05 09:00:54] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-05 09:00:54] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.2.2.tar.gz tmp/configzen-0.2.3.tar.gz --markdown 20230605/c/configzen/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-05 09:00:55] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-05 09:00:55] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/ff/f4/2ed0390c1121f2c632c4b21b5fad19aac1257d9ec2ca1cc32330a7b00cc6/pants_py_deploy-0.0.20-py3-none-any.whl
+[2023-06-05 09:00:55] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-06-05 09:00:55] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.18rc1-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.20-py3-none-any.whl.zip --markdown 20230605/p/pants-py-deploy/0.0.18rc1-0.0.20/diff.md --exclude *.pyd
+[2023-06-05 09:00:55] INFO root fetch - main [MainThread]: End processing [zero-3rdparty]: success
+[2023-06-05 09:00:55] INFO root fetch - main [MainThread]: End processing [model-lib]: success
+[2023-06-05 09:00:55] INFO root fetch - main [MainThread]: End processing [common-tool]: success
+[2023-06-05 09:00:55] INFO root fetch - processPackages [hip-data-ml-utils]: Downloading https://files.pythonhosted.org/packages/17/3c/495a4322f687755bd834cddebb8a14ef4b1234a47b2cdecc9d2edc8cdae1/hip_data_ml_utils-1.0.1.tar.gz
+[2023-06-05 09:00:55] INFO root fetch - processPackages [hip-data-ml-utils]: executing diffoscope
+[2023-06-05 09:00:55] INFO root fetch - processPackages [hip-data-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hip_data_ml_utils-1.0.0.tar.gz tmp/hip_data_ml_utils-1.0.1.tar.gz --markdown 20230605/h/hip-data-ml-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 09:00:55] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-05 09:00:56] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-06-05 09:00:56] INFO root fetch - main [MainThread]: End processing [hip-data-ml-utils]: success
+[2023-06-05 09:00:56] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-05 09:00:56] INFO root fetch - main [MainThread]: Store serial: [18372467]
