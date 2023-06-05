@@ -2902,3 +2902,19 @@
 [2023-06-05 02:51:44] INFO root fetch - main [MainThread]: End processing [scdef]: success
 [2023-06-05 02:51:52] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-05 02:51:52] INFO root fetch - main [MainThread]: Store serial: [18370573]
+[2023-06-05 02:56:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18370573]
+[2023-06-05 02:57:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-05 02:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-slack-chatbot
+[2023-06-05 02:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GPT-annotation
+[2023-06-05 02:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2023-06-05 02:57:01] WARNING root fetch - processPackages [GPT-annotation]: Skipping, unable to determine old version
+[2023-06-05 02:57:01] INFO root fetch - main [MainThread]: End processing [GPT-annotation] error
+[2023-06-05 02:57:01] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-05 02:57:01] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-05 02:57:01] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-05 02:57:01] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230605/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-05 02:57:02] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-05 02:57:02] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230605/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-05 02:57:02] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-05 02:57:03] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-05 02:57:03] INFO root fetch - main [MainThread]: Store serial: [18370588]
