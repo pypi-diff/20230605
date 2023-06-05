@@ -5287,3 +5287,30 @@
 [2023-06-05 07:38:48] INFO root fetch - processPackages [andebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andebox-0.8.0.tar.gz tmp/andebox-0.9.0.tar.gz --markdown 20230605/a/andebox/0.8.0-0.9.0/diff.md --exclude *.pyd
 [2023-06-05 07:38:49] INFO root fetch - main [MainThread]: End processing [andebox]: success
 [2023-06-05 07:38:49] INFO root fetch - main [MainThread]: Store serial: [18371933]
+[2023-06-05 07:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371933]
+[2023-06-05 07:43:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 07:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kgdata
+[2023-06-05 07:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-genshin-cos
+[2023-06-05 07:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rising-plugin
+[2023-06-05 07:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: andebox
+[2023-06-05 07:43:58] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-05 07:43:58] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 07:43:58] INFO root fetch - processPackages [andebox]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 07:43:58] INFO root fetch - processPackages [kgdata]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-06-05 07:43:58] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-05 07:43:58] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230605/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 07:43:58] INFO root fetch - processPackages [andebox]: executing diffoscope
+[2023-06-05 07:43:58] INFO root fetch - processPackages [andebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andebox-0.8.0.tar.gz tmp/andebox-0.9.0.tar.gz --markdown 20230605/a/andebox/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 07:43:58] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/59/e1/e1c233b469d166ecb1f73582ce50c7735821362b9dd62e1b1cf1271cdfd2/nonebot_plugin_genshin_cos-0.1.7.tar.gz
+[2023-06-05 07:43:58] INFO root fetch - processPackages [kgdata]: Downloading https://files.pythonhosted.org/packages/49/64/e5e7efd2a94f4d3779082fe52dda2d5098bb6ba6bfdc6df0fb4ecd4f63d0/kgdata-3.7.1.tar.gz
+[2023-06-05 07:43:59] INFO root fetch - processPackages [kgdata]: executing diffoscope
+[2023-06-05 07:43:59] INFO root fetch - processPackages [kgdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgdata-3.7.0.tar.gz tmp/kgdata-3.7.1.tar.gz --markdown 20230605/k/kgdata/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-06-05 07:43:59] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/2a/ee/4032be43c9a4c2a74dd6f61f1d9aa11680bfc43651c1c442b852e3c1bc46/nonebot_plugin_genshin_cos-0.1.8.tar.gz
+[2023-06-05 07:43:59] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: executing diffoscope
+[2023-06-05 07:43:59] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_genshin_cos-0.1.7.tar.gz tmp/nonebot_plugin_genshin_cos-0.1.8.tar.gz --markdown 20230605/n/nonebot-plugin-genshin-cos/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-05 07:43:59] INFO root fetch - main [MainThread]: End processing [andebox]: success
+[2023-06-05 07:44:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-genshin-cos]: success
+[2023-06-05 07:44:00] INFO root fetch - main [MainThread]: End processing [kgdata]: success
+[2023-06-05 07:46:58] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-05 07:46:58] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-05 07:46:58] INFO root fetch - main [MainThread]: Store serial: [18371964]
