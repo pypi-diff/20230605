@@ -5314,3 +5314,67 @@
 [2023-06-05 07:46:58] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-05 07:46:58] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-05 07:46:58] INFO root fetch - main [MainThread]: Store serial: [18371964]
+[2023-06-05 07:52:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371964]
+[2023-06-05 07:52:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gensp
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlplatformutils
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DocumentInsightsGenerator
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-resourcemanager20200331-py2
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chariot-sdk
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-resourcemanager20200331
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-shinkansen
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pylychee
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-game-collection
+[2023-06-05 07:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: databaseRestoreIntegrity
+[2023-06-05 07:52:07] INFO root fetch - processPackages [mlplatformutils]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-05 07:52:07] INFO root fetch - processPackages [gensp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 07:52:07] WARNING root fetch - processPackages [DocumentInsightsGenerator]: Skipping, unable to determine old version
+[2023-06-05 07:52:07] INFO root fetch - processPackages [DocumentInsightsGenerator]: Start processing: bokhakpack
+[2023-06-05 07:52:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-05 07:52:07] INFO root fetch - main [MainThread]: End processing [DocumentInsightsGenerator] error
+[2023-06-05 07:52:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-06-05 07:52:07] INFO root fetch - processPackages [databaseRestoreIntegrity]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 07:52:07] INFO root fetch - processPackages [chariot-sdk]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-05 07:52:07] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-05 07:52:07] INFO root fetch - processPackages [python-shinkansen]: New version: [0.7.0] Old Version: [0.6.5]
+[2023-06-05 07:52:07] INFO root fetch - processPackages [pylychee]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 07:52:07] WARNING root fetch - processPackages [bokhakpack]: Skipping, unable to determine old version
+[2023-06-05 07:52:07] INFO root fetch - main [MainThread]: End processing [bokhakpack] error
+[2023-06-05 07:52:07] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/30/a4/88376e0850cc2dac8e08d09ec467718df540da5e58b2cf5eccbfc1cbef39/nonebot_plugin_game_collection-2.1.6.tar.gz
+[2023-06-05 07:52:07] INFO root fetch - processPackages [pylychee]: Downloading https://files.pythonhosted.org/packages/f0/40/b7fde659ba1b29e442fb1d0e0a3b4ae3f36583be1c6b06336eb513db938f/pylychee-0.0.3.tar.gz
+[2023-06-05 07:52:07] INFO root fetch - processPackages [chariot-sdk]: Downloading https://files.pythonhosted.org/packages/4e/e3/2b28fa6cbe252d0f66ad0d7f48356e489bfa96b86663753784aaf64670bd/chariot-sdk-1.3.0.tar.gz
+[2023-06-05 07:52:07] INFO root fetch - processPackages [python-shinkansen]: Downloading https://files.pythonhosted.org/packages/79/99/25a6b9dbda2b07ac65f03cb4c95691d136cfa810a679ba6e74507ce1f1ea/python_shinkansen-0.6.5.tar.gz
+[2023-06-05 07:52:07] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/29/ee/dd9e02bff97b468cb3ae7b475915b8cbc1f7ca0b17d34b89ec817f783dd6/mlplatformutils-0.8.3.tar.gz
+[2023-06-05 07:52:07] INFO root fetch - processPackages [databaseRestoreIntegrity]: Downloading https://files.pythonhosted.org/packages/0b/05/77e6383067162940f46eda02cbb599d00c1f3a90f0e59ddc4601e50021f3/databaseRestoreIntegrity-1.0.2.tar.gz
+[2023-06-05 07:52:07] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 07:52:07] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.8.tar.gz tmp/gensp-1.0.9.tar.gz --markdown 20230605/g/gensp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 07:52:07] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-05 07:52:07] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.1.5.tar.gz tmp/nonebot_plugin_game_collection-2.1.6.tar.gz --markdown 20230605/n/nonebot-plugin-game-collection/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-05 07:52:07] INFO root fetch - processPackages [pylychee]: executing diffoscope
+[2023-06-05 07:52:07] INFO root fetch - processPackages [pylychee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylychee-0.0.2.tar.gz tmp/pylychee-0.0.3.tar.gz --markdown 20230605/p/pylychee/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 07:52:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: Downloading https://files.pythonhosted.org/packages/27/f9/1439de5ecb521976b15727d228ff295c7637e8d8dd45a7740375e3f22b04/alibabacloud_resourcemanager20200331-2.1.5.tar.gz
+[2023-06-05 07:52:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: Downloading https://files.pythonhosted.org/packages/8b/25/50000fae445a9b36a61770c42ae65370d96010e53583950b9097e29616df/alibabacloud_resourcemanager20200331_py2-1.1.4.tar.gz
+[2023-06-05 07:52:07] INFO root fetch - processPackages [databaseRestoreIntegrity]: executing diffoscope
+[2023-06-05 07:52:07] INFO root fetch - processPackages [databaseRestoreIntegrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databaseRestoreIntegrity-1.0.1.tar.gz tmp/databaseRestoreIntegrity-1.0.2.tar.gz --markdown 20230605/d/databaseRestoreIntegrity/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 07:52:07] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-05 07:52:07] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.8.2.tar.gz tmp/mlplatformutils-0.8.3.tar.gz --markdown 20230605/m/mlplatformutils/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-05 07:52:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: executing diffoscope
+[2023-06-05 07:52:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_resourcemanager20200331-2.1.4.tar.gz tmp/alibabacloud_resourcemanager20200331-2.1.5.tar.gz --markdown 20230605/a/alibabacloud-resourcemanager20200331/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-06-05 07:52:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: executing diffoscope
+[2023-06-05 07:52:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_resourcemanager20200331_py2-1.1.3.tar.gz tmp/alibabacloud_resourcemanager20200331_py2-1.1.4.tar.gz --markdown 20230605/a/alibabacloud-resourcemanager20200331-py2/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-05 07:52:07] INFO root fetch - processPackages [chariot-sdk]: Downloading https://files.pythonhosted.org/packages/b2/33/6bdd57d99ae9de54be358111d6639af6829537796f25202d8803e5327303/chariot-sdk-1.3.1.tar.gz
+[2023-06-05 07:52:08] INFO root fetch - processPackages [python-shinkansen]: Downloading https://files.pythonhosted.org/packages/95/96/ca82464c43b1981141b045b05363ad028bde2475815bf88e1fc4c8480159/python_shinkansen-0.7.0.tar.gz
+[2023-06-05 07:52:08] INFO root fetch - processPackages [chariot-sdk]: executing diffoscope
+[2023-06-05 07:52:08] INFO root fetch - processPackages [chariot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chariot-sdk-1.3.0.tar.gz tmp/chariot-sdk-1.3.1.tar.gz --markdown 20230605/c/chariot-sdk/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-05 07:52:08] INFO root fetch - processPackages [python-shinkansen]: executing diffoscope
+[2023-06-05 07:52:08] INFO root fetch - processPackages [python-shinkansen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_shinkansen-0.6.5.tar.gz tmp/python_shinkansen-0.7.0.tar.gz --markdown 20230605/p/python-shinkansen/0.6.5-0.7.0/diff.md --exclude *.pyd
+[2023-06-05 07:52:09] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 07:52:09] INFO root fetch - main [MainThread]: End processing [databaseRestoreIntegrity]: success
+[2023-06-05 07:52:09] INFO root fetch - main [MainThread]: End processing [pylychee]: success
+[2023-06-05 07:52:09] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-05 07:52:09] INFO root fetch - main [MainThread]: End processing [python-shinkansen]: success
+[2023-06-05 07:52:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-resourcemanager20200331]: success
+[2023-06-05 07:52:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-05 07:52:10] INFO root fetch - main [MainThread]: End processing [chariot-sdk]: success
+[2023-06-05 07:52:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-resourcemanager20200331-py2]: success
+[2023-06-05 07:52:11] INFO root fetch - main [MainThread]: Store serial: [18372002]
