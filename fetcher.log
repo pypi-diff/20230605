@@ -13590,3 +13590,269 @@ AssertionError: tmp/ms_salesforce_api-0.0.38.tar.gz does not exist
 [2023-06-05 15:15:36] INFO root fetch - processPackages [m3-ui]: Remove: archive file [/home/abi/fetcher/tmp/m3-ui-3.0.1.6.tar.gz]
 [2023-06-05 15:15:36] INFO root fetch - main [MainThread]: End processing [m3-ui]: success
 [2023-06-05 15:15:36] INFO root fetch - main [MainThread]: Store serial: [18376351]
+[2023-06-05 15:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376351]
+[2023-06-05 15:20:45] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumiverse-buildkite
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ch.zbindenonline.weatherstation
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diffable-sql
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-django
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyflp
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redco
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mock-data-generator
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stream-read-xbrl
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: album-sender
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prefetch-parser
+[2023-06-05 15:20:45] INFO root fetch - processPackages [diffable-sql]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 15:20:45] INFO root fetch - processPackages [pyflp]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-05 15:20:45] WARNING root fetch - processPackages [prefetch-parser]: Skipping, unable to determine old version
+[2023-06-05 15:20:45] INFO root fetch - processPackages [prefetch-parser]: Start processing: Products.MeetingCPASLalouviere
+[2023-06-05 15:20:45] INFO root fetch - processPackages [ch.zbindenonline.weatherstation]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-06-05 15:20:45] INFO root fetch - main [MainThread]: End processing [prefetch-parser] error
+[2023-06-05 15:20:45] INFO root fetch - processPackages [mock-data-generator]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-05 15:20:45] INFO root fetch - processPackages [redco]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-05 15:20:45] INFO root fetch - processPackages [album-sender]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 15:20:45] INFO root fetch - processPackages [stream-read-xbrl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 15:20:45] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: New version: [4.2.0a6] Old Version: [4.2.0a5]
+[2023-06-05 15:20:45] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 15:20:45] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Downloading https://files.pythonhosted.org/packages/e5/b4/574e7bbfe635cd30cf6632343fda4449df3cb31d9e746a3f2c09521bfdb5/Products.MeetingCPASLalouviere-4.2.0a5.tar.gz
+[2023-06-05 15:20:45] WARNING root fetch - processPackages [pulumiverse-buildkite]: Skipping, unable to determine old version
+[2023-06-05 15:20:45] INFO root fetch - processPackages [pulumiverse-buildkite]: Start processing: nbdev-apl
+[2023-06-05 15:20:45] INFO root fetch - main [MainThread]: End processing [pulumiverse-buildkite] error
+[2023-06-05 15:20:45] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.816] Old Version: [0.0.815]
+[2023-06-05 15:20:45] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/85/48/8987ad8c80d4c38597eae853041024a9b0e9b64b822472826d06e10ca9b4/mock_data_generator-1.2.0.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [pyflp]: Downloading https://files.pythonhosted.org/packages/99/4c/6e680e653bedc43b1a4c9280425ace73b43af23d894944ca6dde1e641c2b/pyflp-2.2.0.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [diffable-sql]: Downloading https://files.pythonhosted.org/packages/86/9d/5241ed3dfc42287bce6524832d539b4241428c046ce63a65871e85853e19/diffable_sql-0.1.0.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [ch.zbindenonline.weatherstation]: Downloading https://files.pythonhosted.org/packages/54/2e/4fc8e052c9a78526c7ab4956f70cf41edecbd64605e8d393c4b905844737/ch.zbindenonline.weatherstation-1.6.1.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [stream-read-xbrl]: Downloading https://files.pythonhosted.org/packages/cb/01/79f21f957ba2c972f760a478736725869548d44085bea99c8f94e5a7e85f/stream_read_xbrl-0.0.8.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/72/90/a5e804bd6c1ecf26050b552365080edb0ff4e57f9b474941d1b3e8c956f2/album_sender-0.0.8.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [redco]: Downloading https://files.pythonhosted.org/packages/34/d3/de9bf7feed543003f78f97b875e7e4eeb95ee2ddb67d3f2ffa93a88eda38/redco-0.4.3.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/29/9c/410804ee3e01403311403ce8213b79da380d7786d67f7dec363b95572959/nbdev-apl-0.0.815.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Downloading https://files.pythonhosted.org/packages/46/9b/f061528de2197254d6e127cf39cca6382626f94eb88b1561ab551ada2f94/Products.MeetingCPASLalouviere-4.2.0a6.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/be/cf/242571e76bd37a44500e5ab0da92c7e6fe9231df3060a3adf85a9df5d098/mock_data_generator-1.2.1.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [diffable-sql]: Downloading https://files.pythonhosted.org/packages/90/5c/30e86fd5dc24ac9e397570a6a469ab6316a9b9580faa870ebd417a69f7be/diffable_sql-0.1.1.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [ch.zbindenonline.weatherstation]: Downloading https://files.pythonhosted.org/packages/5d/ae/a84cef6d254a0f81b85a07d282538b25d4a5e0b5ebece89b081ce275ce01/ch.zbindenonline.weatherstation-1.7.0.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [redco]: Downloading https://files.pythonhosted.org/packages/5a/d9/d919601ad1abb4a60d2b637701d45eb99d9a2b686e034b9af6f30d3b0d9c/redco-0.4.4.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/a6/b0/b73dab7d1275705a49c4160beb9cf5cd8fb5aab7e889c7b606e81f425bac/album_sender-0.0.9.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [stream-read-xbrl]: Downloading https://files.pythonhosted.org/packages/4b/59/5369f824554b070f94e4c4afc9e824c5d1eb0f8636a43018acbe6f118628/stream_read_xbrl-0.0.9.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/49/3e/32a116354834f2f7232a9f4eceedc19541c3e89e58564306bf0abdfbe5e6/nbdev-apl-0.0.816.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [pyflp]: Downloading https://files.pythonhosted.org/packages/fd/51/77cf0f4c0207b457158e1babcd8a49fe036943778ad0af83acaedb4d40a7/pyflp-2.2.1.tar.gz
+[2023-06-05 15:20:46] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-05 15:20:46] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.2.0.tar.gz tmp/mock_data_generator-1.2.1.tar.gz --markdown 20230605/m/mock-data-generator/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-05 15:20:46] INFO root fetch - processPackages [ch.zbindenonline.weatherstation]: executing diffoscope
+[2023-06-05 15:20:46] INFO root fetch - processPackages [ch.zbindenonline.weatherstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ch.zbindenonline.weatherstation-1.6.1.tar.gz tmp/ch.zbindenonline.weatherstation-1.7.0.tar.gz --markdown 20230605/c/ch.zbindenonline.weatherstation/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-06-05 15:20:46] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: executing diffoscope
+[2023-06-05 15:20:46] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingCPASLalouviere-4.2.0a5.tar.gz tmp/Products.MeetingCPASLalouviere-4.2.0a6.tar.gz --markdown 20230605/P/Products.MeetingCPASLalouviere/4.2.0a5-4.2.0a6/diff.md --exclude *.pyd
+[2023-06-05 15:20:46] INFO root fetch - processPackages [redco]: executing diffoscope
+[2023-06-05 15:20:46] INFO root fetch - processPackages [redco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redco-0.4.3.tar.gz tmp/redco-0.4.4.tar.gz --markdown 20230605/r/redco/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-05 15:20:46] INFO root fetch - processPackages [album-sender]: executing diffoscope
+[2023-06-05 15:20:46] INFO root fetch - processPackages [album-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/album_sender-0.0.8.tar.gz tmp/album_sender-0.0.9.tar.gz --markdown 20230605/a/album-sender/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:20:46] INFO root fetch - processPackages [diffable-sql]: executing diffoscope
+[2023-06-05 15:20:46] INFO root fetch - processPackages [diffable-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffable_sql-0.1.0.tar.gz tmp/diffable_sql-0.1.1.tar.gz --markdown 20230605/d/diffable-sql/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 15:20:46] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-05 15:20:46] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.815.tar.gz tmp/nbdev-apl-0.0.816.tar.gz --markdown 20230605/n/nbdev-apl/0.0.815-0.0.816/diff.md --exclude *.pyd
+[2023-06-05 15:20:46] INFO root fetch - processPackages [pyflp]: executing diffoscope
+[2023-06-05 15:20:46] INFO root fetch - processPackages [pyflp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflp-2.2.0.tar.gz tmp/pyflp-2.2.1.tar.gz --markdown 20230605/p/pyflp/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-05 15:20:46] INFO root fetch - processPackages [stream-read-xbrl]: executing diffoscope
+[2023-06-05 15:20:46] INFO root fetch - processPackages [stream-read-xbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_read_xbrl-0.0.8.tar.gz tmp/stream_read_xbrl-0.0.9.tar.gz --markdown 20230605/s/stream-read-xbrl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:20:46] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-05 15:20:47] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-05 15:20:47] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230605/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 15:20:48] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.0.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.1.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [mock-data-generator]: Start processing: scsd
+[2023-06-05 15:20:48] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-05 15:20:48] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [diffable-sql]: Remove: archive file [/home/abi/fetcher/tmp/diffable_sql-0.1.0.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [diffable-sql]: Remove: archive file [/home/abi/fetcher/tmp/diffable_sql-0.1.1.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [diffable-sql]: Start processing: oarepo-model-builder
+[2023-06-05 15:20:48] INFO root fetch - main [MainThread]: End processing [diffable-sql]: success
+[2023-06-05 15:20:48] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [stream-read-xbrl]: Remove: archive file [/home/abi/fetcher/tmp/stream_read_xbrl-0.0.8.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [stream-read-xbrl]: Remove: archive file [/home/abi/fetcher/tmp/stream_read_xbrl-0.0.9.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [stream-read-xbrl]: Start processing: pyRDDLGym
+[2023-06-05 15:20:48] INFO root fetch - main [MainThread]: End processing [stream-read-xbrl]: success
+[2023-06-05 15:20:48] INFO root fetch - processPackages [pyRDDLGym]: New version: [1.0.55] Old Version: [1.0.5]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [ch.zbindenonline.weatherstation]: Remove: archive file [/home/abi/fetcher/tmp/ch.zbindenonline.weatherstation-1.6.1.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [ch.zbindenonline.weatherstation]: Remove: archive file [/home/abi/fetcher/tmp/ch.zbindenonline.weatherstation-1.7.0.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [ch.zbindenonline.weatherstation]: Start processing: airtable-view-fetcher
+[2023-06-05 15:20:48] INFO root fetch - main [MainThread]: End processing [ch.zbindenonline.weatherstation]: success
+[2023-06-05 15:20:48] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [airtable-view-fetcher]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [airtable-view-fetcher]: Downloading https://files.pythonhosted.org/packages/30/6b/7871e27a11bfb0e24ef11d0403ee9f511488a4a22340c4ad89be7e995b97/airtable_view_fetcher-0.3.2.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.815.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.816.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [nbdev-apl]: Start processing: muffin
+[2023-06-05 15:20:48] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-05 15:20:48] INFO root fetch - processPackages [album-sender]: Remove: archive file [/home/abi/fetcher/tmp/album_sender-0.0.8.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [album-sender]: Remove: archive file [/home/abi/fetcher/tmp/album_sender-0.0.9.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [album-sender]: Start processing: overhave
+[2023-06-05 15:20:48] INFO root fetch - main [MainThread]: End processing [album-sender]: success
+[2023-06-05 15:20:48] INFO root fetch - processPackages [muffin]: New version: [0.98.5] Old Version: [0.98.3]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [overhave]: New version: [3.9.0] Old Version: [3.8.4]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [pyRDDLGym]: Downloading https://files.pythonhosted.org/packages/3f/74/adef79d28628969450e7cbf3e516f9d1b6bed4fe05f981390f1e548288f7/pyRDDLGym-1.0.5.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/fc/5a/0562fd0b9c3503b8f6979d97ae1717261238c592bcc7f143c260433ad63a/muffin-0.98.3.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/35/d2/ab3a72dd99318a4ecf97364c7c67b8903528d6443e59e69d0e5cb8aa6d76/overhave-3.8.4.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-06-05 15:20:48] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230605/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:20:48] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [airtable-view-fetcher]: Downloading https://files.pythonhosted.org/packages/6c/a3/e4fcc5c8e3620ea56188de9d2d47379c7570acf1b4dafd8f80b6dd3ed52d/airtable_view_fetcher-0.4.0.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/53/af/c768a33320940cbb4d2e9af53d090268fc9eb0b87bed8e10c081c668f698/overhave-3.9.0.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/79/e7/d2d74d95450deadf7577724892c844cbc4c274b101d412a3e3099d6087e6/muffin-0.98.5.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-06-05 15:20:48] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230605/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 15:20:48] INFO root fetch - processPackages [airtable-view-fetcher]: executing diffoscope
+[2023-06-05 15:20:48] INFO root fetch - processPackages [airtable-view-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtable_view_fetcher-0.3.2.tar.gz tmp/airtable_view_fetcher-0.4.0.tar.gz --markdown 20230605/a/airtable-view-fetcher/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-05 15:20:48] INFO root fetch - processPackages [redco]: Remove: archive file [/home/abi/fetcher/tmp/redco-0.4.3.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [redco]: Remove: archive file [/home/abi/fetcher/tmp/redco-0.4.4.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [redco]: Start processing: gps-building-blocks
+[2023-06-05 15:20:48] INFO root fetch - main [MainThread]: End processing [redco]: success
+[2023-06-05 15:20:48] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-06-05 15:20:48] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-3.8.4.tar.gz tmp/overhave-3.9.0.tar.gz --markdown 20230605/o/overhave/3.8.4-3.9.0/diff.md --exclude *.pyd
+[2023-06-05 15:20:48] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [nbdev-django]: Start processing: psi4-step
+[2023-06-05 15:20:48] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-05 15:20:48] INFO root fetch - processPackages [muffin]: executing diffoscope
+[2023-06-05 15:20:48] INFO root fetch - processPackages [muffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-0.98.3.tar.gz tmp/muffin-0.98.5.tar.gz --markdown 20230605/m/muffin/0.98.3-0.98.5/diff.md --exclude *.pyd
+[2023-06-05 15:20:48] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [pyRDDLGym]: Downloading https://files.pythonhosted.org/packages/e0/86/c5c71537a171b38e482bd6b73c7c9246ff313856a7b0e3c1b36d5b8afa74/pyRDDLGym-1.0.55.tar.gz
+[2023-06-05 15:20:48] INFO root fetch - processPackages [psi4-step]: New version: [2023.6.4] Old Version: [2023.2.21]
+[2023-06-05 15:20:48] INFO root fetch - processPackages [pyRDDLGym]: executing diffoscope
+[2023-06-05 15:20:48] INFO root fetch - processPackages [pyRDDLGym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRDDLGym-1.0.5.tar.gz tmp/pyRDDLGym-1.0.55.tar.gz --markdown 20230605/p/pyRDDLGym/1.0.5-1.0.55/diff.md --exclude *.pyd
+[2023-06-05 15:20:49] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/71/de/29b8d5afef1de629736885761de3eeeed53a58c7f5dc93ea834fa2edae65/gps_building_blocks-1.98.0-py3-none-any.whl
+[2023-06-05 15:20:49] INFO root fetch - processPackages [psi4-step]: Downloading https://files.pythonhosted.org/packages/e1/74/d80d5fdd2aaf16d09dd3a4954aa518ebb40126e8a3e6e14bfc93016167aa/psi4_step-2023.2.21.tar.gz
+[2023-06-05 15:20:49] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingCPASLalouviere-4.2.0a5.tar.gz]
+[2023-06-05 15:20:49] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingCPASLalouviere-4.2.0a6.tar.gz]
+[2023-06-05 15:20:49] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Start processing: armonik
+[2023-06-05 15:20:49] INFO root fetch - main [MainThread]: End processing [Products.MeetingCPASLalouviere]: success
+[2023-06-05 15:20:49] INFO root fetch - processPackages [armonik]: New version: [3.8.2.dev382] Old Version: [3.8.2.dev380]
+[2023-06-05 15:20:49] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/79/b4/9d18eee49dfd6521e304862a4c835a7fe5cf477f45d83a4f98f885c76c29/gps_building_blocks-1.99.0-py3-none-any.whl
+[2023-06-05 15:20:49] INFO root fetch - processPackages [psi4-step]: Downloading https://files.pythonhosted.org/packages/d1/3f/9d10e68da1e18de16fc829873565c6c5fa24131d4edd0615077be5562cfa/psi4_step-2023.6.4.tar.gz
+[2023-06-05 15:20:49] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/bb/3c/d0d7ec2a3096b1d854c40a3002ba458eb141a467952d2d0a973860520d28/armonik-3.8.2.dev380.tar.gz
+[2023-06-05 15:20:49] INFO root fetch - processPackages [psi4-step]: executing diffoscope
+[2023-06-05 15:20:49] INFO root fetch - processPackages [psi4-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psi4_step-2023.2.21.tar.gz tmp/psi4_step-2023.6.4.tar.gz --markdown 20230605/p/psi4-step/2023.2.21-2023.6.4/diff.md --exclude *.pyd
+[2023-06-05 15:20:49] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2023-06-05 15:20:49] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20230605/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-05 15:20:49] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/af/cc/0019219f8fe7d14df4226e58377109cd44658d12e1df61ea4c68722d455d/armonik-3.8.2.dev382.tar.gz
+[2023-06-05 15:20:49] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-05 15:20:49] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.2.dev380.tar.gz tmp/armonik-3.8.2.dev382.tar.gz --markdown 20230605/a/armonik/3.8.2.dev380-3.8.2.dev382/diff.md --exclude *.pyd
+[2023-06-05 15:20:50] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.7.tar.gz]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.8.tar.gz]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [scsd]: Start processing: lavue
+[2023-06-05 15:20:50] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-06-05 15:20:50] INFO root fetch - processPackages [lavue]: New version: [2.83.2] Old Version: [2.83.1]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [airtable-view-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/airtable_view_fetcher-0.3.2.tar.gz]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [airtable-view-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/airtable_view_fetcher-0.4.0.tar.gz]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [airtable-view-fetcher]: Start processing: mypackagelicenseprototype
+[2023-06-05 15:20:50] INFO root fetch - main [MainThread]: End processing [airtable-view-fetcher]: success
+[2023-06-05 15:20:50] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 15:20:50] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.98.3.tar.gz]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.98.5.tar.gz]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [muffin]: Start processing: pepperize.cdk-route53-health-check
+[2023-06-05 15:20:50] INFO root fetch - main [MainThread]: End processing [muffin]: success
+[2023-06-05 15:20:50] INFO root fetch - processPackages [lavue]: Downloading https://files.pythonhosted.org/packages/88/e2/cfb45e6570733f368c0d70a1fd770012f4ce88c3ac3848a58b831da6fddd/lavue-2.83.1.tar.gz
+[2023-06-05 15:20:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 15:20:50] WARNING root fetch - processPackages [lavue]: Skipping package: exceeds size limit 32495108>=10485760
+[2023-06-05 15:20:50] INFO root fetch - processPackages [lavue]: Start processing: akms-hash
+[2023-06-05 15:20:50] INFO root fetch - main [MainThread]: End processing [lavue] error
+[2023-06-05 15:20:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-06-05 15:20:50] INFO root fetch - processPackages [akms-hash]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-05 15:20:50] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 15:20:50] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:20:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-06-05 15:20:50] INFO root fetch - processPackages [akms-hash]: Downloading https://files.pythonhosted.org/packages/8b/6e/0f9c56ab983203a8826124d6218459671e2c1ae6bc938f99f66ecc9f8d09/akms-hash-0.3.1.tar.gz
+[2023-06-05 15:20:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-06-05 15:20:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230605/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 15:20:51] INFO root fetch - processPackages [akms-hash]: Downloading https://files.pythonhosted.org/packages/f5/64/cff9c33ae6f18fbddba38fcd55ca76df5df63fa70bb2a19fe21546c02c6c/akms-hash-0.4.0.tar.gz
+[2023-06-05 15:20:51] INFO root fetch - processPackages [akms-hash]: executing diffoscope
+[2023-06-05 15:20:51] INFO root fetch - processPackages [akms-hash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akms-hash-0.3.1.tar.gz tmp/akms-hash-0.4.0.tar.gz --markdown 20230605/a/akms-hash/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-05 15:20:51] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-06-05 15:20:51] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-06-05 15:20:51] INFO root fetch - processPackages [oarepo-model-builder]: Start processing: cosmian-anonymization
+[2023-06-05 15:20:51] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-06-05 15:20:51] WARNING root fetch - processPackages [cosmian-anonymization]: Skipping, unable to determine old version
+[2023-06-05 15:20:51] INFO root fetch - processPackages [cosmian-anonymization]: Start processing: airbyte-cdk
+[2023-06-05 15:20:51] INFO root fetch - main [MainThread]: End processing [cosmian-anonymization] error
+[2023-06-05 15:20:51] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-05 15:20:51] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-06-05 15:20:51] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.8.4.tar.gz]
+[2023-06-05 15:20:51] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.9.0.tar.gz]
+[2023-06-05 15:20:51] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-06-05 15:20:51] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-05 15:20:51] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2023-06-05 15:20:51] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 15:20:51] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 15:20:51] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 15:20:51] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-06-05 15:20:51] INFO root fetch - processPackages [pyRDDLGym]: Remove: archive file [/home/abi/fetcher/tmp/pyRDDLGym-1.0.5.tar.gz]
+[2023-06-05 15:20:51] INFO root fetch - processPackages [pyRDDLGym]: Remove: archive file [/home/abi/fetcher/tmp/pyRDDLGym-1.0.55.tar.gz]
+[2023-06-05 15:20:51] INFO root fetch - main [MainThread]: End processing [pyRDDLGym]: success
+[2023-06-05 15:20:51] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-06-05 15:20:51] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230605/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-05 15:20:52] INFO root fetch - processPackages [akms-hash]: Remove: archive file [/home/abi/fetcher/tmp/akms-hash-0.3.1.tar.gz]
+[2023-06-05 15:20:52] INFO root fetch - processPackages [akms-hash]: Remove: archive file [/home/abi/fetcher/tmp/akms-hash-0.4.0.tar.gz]
+[2023-06-05 15:20:52] INFO root fetch - main [MainThread]: End processing [akms-hash]: success
+[2023-06-05 15:20:52] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.2.dev380.tar.gz]
+[2023-06-05 15:20:52] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.2.dev382.tar.gz]
+[2023-06-05 15:20:52] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-06-05 15:20:52] INFO root fetch - processPackages [pyflp]: Remove: archive file [/home/abi/fetcher/tmp/pyflp-2.2.0.tar.gz]
+[2023-06-05 15:20:52] INFO root fetch - processPackages [pyflp]: Remove: archive file [/home/abi/fetcher/tmp/pyflp-2.2.1.tar.gz]
+[2023-06-05 15:20:52] INFO root fetch - main [MainThread]: End processing [pyflp]: success
+[2023-06-05 15:20:53] INFO root fetch - processPackages [psi4-step]: Remove: archive file [/home/abi/fetcher/tmp/psi4_step-2023.2.21.tar.gz]
+[2023-06-05 15:20:53] INFO root fetch - processPackages [psi4-step]: Remove: archive file [/home/abi/fetcher/tmp/psi4_step-2023.6.4.tar.gz]
+[2023-06-05 15:20:53] INFO root fetch - main [MainThread]: End processing [psi4-step]: success
+[2023-06-05 15:20:53] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-06-05 15:20:53] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-06-05 15:20:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-06-05 15:20:53] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2023-06-05 15:20:53] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2023-06-05 15:20:53] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-06-05 15:20:53] INFO root fetch - main [MainThread]: Store serial: [18376437]
