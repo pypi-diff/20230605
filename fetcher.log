@@ -5620,3 +5620,59 @@
 [2023-06-05 08:18:13] INFO root fetch - main [MainThread]: End processing [qctrl-commons]: success
 [2023-06-05 08:18:13] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-cloudfront-s3website-module]: success
 [2023-06-05 08:18:13] INFO root fetch - main [MainThread]: Store serial: [18372117]
+[2023-06-05 08:23:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372117]
+[2023-06-05 08:23:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-05 08:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fire-opal
+[2023-06-05 08:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-06-05 08:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegramweb
+[2023-06-05 08:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qctrl-visualizer
+[2023-06-05 08:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlplatformutils
+[2023-06-05 08:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: starmerxauth-erp
+[2023-06-05 08:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luminesce-sdk-preview
+[2023-06-05 08:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qctrl-mloop
+[2023-06-05 08:23:22] INFO root fetch - processPackages [fire-opal]: New version: [5.2.2] Old Version: [5.2.1]
+[2023-06-05 08:23:22] INFO root fetch - processPackages [telegramweb]: New version: [4.8] Old Version: [4.7]
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-visualizer]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-06-05 08:23:22] INFO root fetch - processPackages [mlplatformutils]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-mloop]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-05 08:23:22] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230605] Old Version: [1.6.1.dev20230604]
+[2023-06-05 08:23:22] INFO root fetch - processPackages [starmerxauth-erp]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-05 08:23:22] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-05 08:23:22] INFO root fetch - processPackages [fire-opal]: Downloading https://files.pythonhosted.org/packages/e8/5c/c34b05405c2eba7f47f5ad9cfa89c950eb325428fc0ba156f19839a8def6/fire_opal-5.2.1.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-visualizer]: Downloading https://files.pythonhosted.org/packages/e5/b3/ffad5cbde076087bf779e3211a09f423caec911333c4b92e1149c957e67d/qctrl_visualizer-5.0.0.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-mloop]: Downloading https://files.pythonhosted.org/packages/ce/9f/a9211ca744d50bf589a418edbc801b6a93d1ccac458760f9a14a26f35050/qctrl_mloop-3.0.1.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/83/bd/9567ebb67bdceab1582087982f7abf641d45e3d5b219c57c31de8e5e1de4/mlplatformutils-0.8.4.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/88/c9/8b011de6fef6a53109bfa380ba6e8005cbfccdc119c03eb6be1b80624804/telegramweb-4.8.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/51/b0/656c8f8dec5589eff8305e39bc171ffb196c67b00ab61e32fe0aa20046e5/pretext-1.6.1.dev20230605.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [starmerxauth-erp]: Downloading https://files.pythonhosted.org/packages/7b/c3/4b56eeb0eb2cf4a33e2bea6d6ad9d957245d61916f01de17d22c8d45dacc/starmerxauth_erp-0.2.5.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-05 08:23:22] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.8.3.tar.gz tmp/mlplatformutils-0.8.4.tar.gz --markdown 20230605/m/mlplatformutils/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-05 08:23:22] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-06-05 08:23:22] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-4.7.tar.gz tmp/telegramweb-4.8.tar.gz --markdown 20230605/t/telegramweb/4.7-4.8/diff.md --exclude *.pyd
+[2023-06-05 08:23:22] INFO root fetch - processPackages [fire-opal]: Downloading https://files.pythonhosted.org/packages/a5/b1/92212dc51f914c7c0038af7c676678638665d3443cd0d391c02b94c0ecab/fire_opal-5.2.2.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [starmerxauth-erp]: Downloading https://files.pythonhosted.org/packages/76/79/38b62d7c10bb5c574f0ebd4aa22611a209c028030898da29ed2a0030c9e8/starmerxauth_erp-0.2.6.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [fire-opal]: executing diffoscope
+[2023-06-05 08:23:22] INFO root fetch - processPackages [fire-opal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fire_opal-5.2.1.tar.gz tmp/fire_opal-5.2.2.tar.gz --markdown 20230605/f/fire-opal/5.2.1-5.2.2/diff.md --exclude *.pyd
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-visualizer]: Downloading https://files.pythonhosted.org/packages/1f/48/10aa7322c3d81588da4e5e9a706e9bb3ee3a2c9a35f2cd90c6d7f293c2fe/qctrl_visualizer-5.0.1.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-05 08:23:22] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230604.tar.gz tmp/pretext-1.6.1.dev20230605.tar.gz --markdown 20230605/p/pretext/1.6.1.dev20230604-1.6.1.dev20230605/diff.md --exclude *.pyd
+[2023-06-05 08:23:22] INFO root fetch - processPackages [starmerxauth-erp]: executing diffoscope
+[2023-06-05 08:23:22] INFO root fetch - processPackages [starmerxauth-erp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerxauth_erp-0.2.5.tar.gz tmp/starmerxauth_erp-0.2.6.tar.gz --markdown 20230605/s/starmerxauth-erp/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-mloop]: Downloading https://files.pythonhosted.org/packages/3f/b8/2ecb4860ecd18b156a275a97d8db352d10f1fe63144e817e837b925b7587/qctrl_mloop-3.0.2.tar.gz
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-visualizer]: executing diffoscope
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_visualizer-5.0.0.tar.gz tmp/qctrl_visualizer-5.0.1.tar.gz --markdown 20230605/q/qctrl-visualizer/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-mloop]: executing diffoscope
+[2023-06-05 08:23:22] INFO root fetch - processPackages [qctrl-mloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_mloop-3.0.1.tar.gz tmp/qctrl_mloop-3.0.2.tar.gz --markdown 20230605/q/qctrl-mloop/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-05 08:23:22] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-05 08:23:23] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-05 08:23:23] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230605/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-05 08:23:23] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-05 08:23:24] INFO root fetch - main [MainThread]: End processing [qctrl-mloop]: success
+[2023-06-05 08:23:24] INFO root fetch - main [MainThread]: End processing [starmerxauth-erp]: success
+[2023-06-05 08:23:24] INFO root fetch - main [MainThread]: End processing [fire-opal]: success
+[2023-06-05 08:23:24] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-06-05 08:23:25] INFO root fetch - main [MainThread]: End processing [qctrl-visualizer]: success
+[2023-06-05 08:23:25] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-05 08:23:30] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-05 08:23:30] INFO root fetch - main [MainThread]: Store serial: [18372140]
