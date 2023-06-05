@@ -10317,3 +10317,68 @@
 [2023-06-05 12:54:19] INFO root fetch - main [MainThread]: End processing [openmodule]: success
 [2023-06-05 12:54:21] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-06-05 12:54:21] INFO root fetch - main [MainThread]: Store serial: [18374777]
+[2023-06-05 12:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374777]
+[2023-06-05 12:59:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: passkit-python-grpc-sdk
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: passkit-python-grpc-sdk
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kboxx
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mock-data-generator
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-streamfield
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrapy-s3logstorage
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyRealEstate
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyfluxconserving
+[2023-06-05 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vtiger-cloudsdk-restapi
+[2023-06-05 12:59:30] INFO root fetch - processPackages [passkit-python-grpc-sdk]: New version: [1.1.72.2] Old Version: [1.1.72.1]
+[2023-06-05 12:59:30] INFO root fetch - processPackages [scrapy-s3logstorage]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 12:59:30] INFO root fetch - processPackages [passkit-python-grpc-sdk]: New version: [1.1.72.2] Old Version: [1.1.72.1]
+[2023-06-05 12:59:30] INFO root fetch - processPackages [kboxx]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-05 12:59:30] INFO root fetch - processPackages [mock-data-generator]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-05 12:59:30] INFO root fetch - processPackages [pyRealEstate]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 12:59:30] INFO root fetch - processPackages [pyfluxconserving]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-05 12:59:30] INFO root fetch - processPackages [django-streamfield]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-06-05 12:59:30] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230605.8.1.375473] Old Version: [20230605.10.55.879605]
+[2023-06-05 12:59:30] ERROR root fetch - processPackages [vtiger-cloudsdk-restapi]: Unable to get metadata: No such project 'vtiger-cloudsdk-restapi'
+[2023-06-05 12:59:30] INFO root fetch - main [MainThread]: End processing [vtiger-cloudsdk-restapi] error
+[2023-06-05 12:59:30] INFO root fetch - processPackages [passkit-python-grpc-sdk]: Downloading https://files.pythonhosted.org/packages/6b/bb/979ab119d598b416e2db2a284c5edeeb50b63c47cf36f4847621af0d0aa8/passkit_python_grpc_sdk-1.1.72.1.tar.gz
+[2023-06-05 12:59:30] INFO root fetch - processPackages [passkit-python-grpc-sdk]: Downloading https://files.pythonhosted.org/packages/6b/bb/979ab119d598b416e2db2a284c5edeeb50b63c47cf36f4847621af0d0aa8/passkit_python_grpc_sdk-1.1.72.1.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [scrapy-s3logstorage]: Downloading https://files.pythonhosted.org/packages/dc/9a/a8466bab43c3242917a05f7f363839a44fb96a93c5c722ace471bd95e261/scrapy_s3logstorage-0.1.0.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/4a/9c/dd10d0e7b01bceff052998b439267c8db2fdde9a86db70a4aa76c9f4f7a7/mock_data_generator-1.1.0.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/e6/51/c32e1c0c9ba76a73b1f722593004d1000ec8d6e5becac16444f575f49f45/certora-cli-alpha-master-20230605.10.55.879605.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [pyRealEstate]: Downloading https://files.pythonhosted.org/packages/88/a9/fad1471a349ce8e41e1738afef0ed7fca5dc740de85692438578416fd0ac/pyRealEstate-0.0.5.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [django-streamfield]: Downloading https://files.pythonhosted.org/packages/ac/9e/7daf9819a1d604334ae1cb3ce13772fbbd3f249d20710f7b8fee3efabfa0/django-streamfield-2.0.9.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [pyfluxconserving]: Downloading https://files.pythonhosted.org/packages/bf/1c/f57d7415b77a26bc09d33fc064b715722027e6542cea31ab1819d0d275bf/pyfluxconserving-0.0.7.tar.gz
+[2023-06-05 12:59:31] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39177822>=10485760
+[2023-06-05 12:59:31] INFO root fetch - processPackages [kboxx]: Downloading https://files.pythonhosted.org/packages/2b/76/2117d72dfcc25605efcc088d50876b7fc7f4e846690b7d1e980bd5608fd3/kboxx-1.0.2.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-05 12:59:31] INFO root fetch - processPackages [pyRealEstate]: executing diffoscope
+[2023-06-05 12:59:31] INFO root fetch - processPackages [pyRealEstate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRealEstate-0.0.4.tar.gz tmp/pyRealEstate-0.0.5.tar.gz --markdown 20230605/p/pyRealEstate/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 12:59:31] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-05 12:59:31] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.0.3.tar.gz tmp/mock_data_generator-1.1.0.tar.gz --markdown 20230605/m/mock-data-generator/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-05 12:59:31] INFO root fetch - processPackages [passkit-python-grpc-sdk]: Downloading https://files.pythonhosted.org/packages/ed/f6/d1010799208ccc7b5107c4641547dca3e884e5f170382f47a2afeef01cde/passkit-python-grpc-sdk-1.1.72.2.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [passkit-python-grpc-sdk]: Downloading https://files.pythonhosted.org/packages/ed/f6/d1010799208ccc7b5107c4641547dca3e884e5f170382f47a2afeef01cde/passkit-python-grpc-sdk-1.1.72.2.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [scrapy-s3logstorage]: Downloading https://files.pythonhosted.org/packages/21/36/af70d56e7d5e79e6904b5def4d09af7e4393a93f2db9a25e5e0476843d2f/scrapy_s3logstorage-0.1.1.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [django-streamfield]: Downloading https://files.pythonhosted.org/packages/46/34/8708b27f50cf23cf513210b4bd1153e508f0e195f899d2f3a08c199b1a99/django-streamfield-2.1.0.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [passkit-python-grpc-sdk]: executing diffoscope
+[2023-06-05 12:59:31] INFO root fetch - processPackages [passkit-python-grpc-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passkit_python_grpc_sdk-1.1.72.1.tar.gz tmp/passkit-python-grpc-sdk-1.1.72.2.tar.gz --markdown 20230605/p/passkit-python-grpc-sdk/1.1.72.1-1.1.72.2/diff.md --exclude *.pyd
+[2023-06-05 12:59:31] INFO root fetch - processPackages [scrapy-s3logstorage]: executing diffoscope
+[2023-06-05 12:59:31] INFO root fetch - processPackages [scrapy-s3logstorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_s3logstorage-0.1.0.tar.gz tmp/scrapy_s3logstorage-0.1.1.tar.gz --markdown 20230605/s/scrapy-s3logstorage/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 12:59:31] INFO root fetch - processPackages [passkit-python-grpc-sdk]: executing diffoscope
+[2023-06-05 12:59:31] INFO root fetch - processPackages [kboxx]: Downloading https://files.pythonhosted.org/packages/31/17/1afd4f7d3ab95004e85cacb5d8c9071ab7cef53716176e7e527570de31fa/kboxx-1.0.3.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [passkit-python-grpc-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passkit_python_grpc_sdk-1.1.72.1.tar.gz tmp/passkit-python-grpc-sdk-1.1.72.2.tar.gz --markdown 20230605/p/passkit-python-grpc-sdk/1.1.72.1-1.1.72.2/diff.md --exclude *.pyd
+[2023-06-05 12:59:31] INFO root fetch - processPackages [django-streamfield]: executing diffoscope
+[2023-06-05 12:59:31] INFO root fetch - processPackages [pyfluxconserving]: Downloading https://files.pythonhosted.org/packages/d0/78/081c89d6f98a8077a14c93db6f5c4a64dd4c9e93ca8184916324f7e64bd7/pyfluxconserving-0.0.9.tar.gz
+[2023-06-05 12:59:31] INFO root fetch - processPackages [django-streamfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-streamfield-2.0.9.tar.gz tmp/django-streamfield-2.1.0.tar.gz --markdown 20230605/d/django-streamfield/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-06-05 12:59:31] INFO root fetch - processPackages [kboxx]: executing diffoscope
+[2023-06-05 12:59:31] INFO root fetch - processPackages [kboxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kboxx-1.0.2.tar.gz tmp/kboxx-1.0.3.tar.gz --markdown 20230605/k/kboxx/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-05 12:59:31] INFO root fetch - processPackages [pyfluxconserving]: executing diffoscope
+[2023-06-05 12:59:31] INFO root fetch - processPackages [pyfluxconserving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfluxconserving-0.0.7.tar.gz tmp/pyfluxconserving-0.0.9.tar.gz --markdown 20230605/p/pyfluxconserving/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 12:59:32] INFO root fetch - main [MainThread]: End processing [pyRealEstate]: success
+[2023-06-05 12:59:32] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-05 12:59:32] INFO root fetch - main [MainThread]: End processing [scrapy-s3logstorage]: success
+[2023-06-05 12:59:32] INFO root fetch - main [MainThread]: End processing [kboxx]: success
+[2023-06-05 12:59:33] INFO root fetch - main [MainThread]: End processing [django-streamfield]: success
+[2023-06-05 12:59:33] INFO root fetch - main [MainThread]: End processing [passkit-python-grpc-sdk]: success
+[2023-06-05 12:59:33] INFO root fetch - main [MainThread]: End processing [pyfluxconserving]: success
+[2023-06-05 12:59:33] INFO root fetch - main [MainThread]: End processing [passkit-python-grpc-sdk]: success
+[2023-06-05 12:59:33] INFO root fetch - main [MainThread]: Store serial: [18374812]
