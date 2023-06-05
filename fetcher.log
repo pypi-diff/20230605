@@ -13973,3 +13973,187 @@ EOFError: EOF read where object expected
 [2023-06-05 15:26:18] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.5.0rc1.tar.gz]
 [2023-06-05 15:26:18] INFO root fetch - main [MainThread]: End processing [renku]: success
 [2023-06-05 15:26:18] INFO root fetch - main [MainThread]: Store serial: [18376484]
+[2023-06-05 15:31:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376484]
+[2023-06-05 15:31:30] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phc-ingestion
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testit-adapter-robotframework
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testit-adapter-pytest
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testit-adapter-behave
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testit-python-commons
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testit-adapter-nose
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cert-manager
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: statshouse
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytip
+[2023-06-05 15:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pympress
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-python-commons]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-adapter-robotframework]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-adapter-pytest]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.32] Old Version: [0.3.31]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-adapter-nose]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [cert-manager]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [pytip]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [statshouse]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-adapter-behave]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [pympress]: New version: [1.8.3a0] Old Version: [1.8.2]
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/70/3e/c7b8e8ee87b41633ec58668976ea9060c2db0fa9779d9f83ee5e366d0f3a/testit-python-commons-2.1.8.tar.gz
+[2023-06-05 15:31:30] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/38/32/7273802c72960e637a60bb87c5bacbe248b46a38d0841bddad86831586c9/phc-ingestion-0.3.31.tar.gz
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/75/3e/aaf8b7d2d666c03260b8e750c40f6afb829aea5be1ab21cc6e06ea902978/testit-adapter-nose-2.1.8.tar.gz
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/fd/e7/403e9826ce99ec895d09b1d8f19c017f7c787c7df4a336517f91bb668252/testit-adapter-robotframework-2.1.8.tar.gz
+[2023-06-05 15:31:30] INFO root fetch - processPackages [pympress]: Downloading https://files.pythonhosted.org/packages/08/3f/9fd254a40155c8f51b52b045f5df16a794d21d4c3dfeb8c5d379671e72f1/pympress-1.8.2.tar.gz
+[2023-06-05 15:31:30] INFO root fetch - processPackages [cert-manager]: Downloading https://files.pythonhosted.org/packages/ca/8f/258180687b0b2b6c245642f689799eeefbe3f4704c1b51e9ddb936f78a8f/cert_manager-2.3.0.tar.gz
+[2023-06-05 15:31:30] INFO root fetch - processPackages [pytip]: Downloading https://files.pythonhosted.org/packages/a2/68/fdf458bd131c2d0f0d6b4f98ce4cdcc7afadbe31f30d64540b6341be4bca/pytip-0.1.4-py2.py3-none-any.whl
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/26/83/d6e753f5a7bcd3fa4d9db78484d0b4bbe7c3b6da7b4aa5d2a03f723a1ab6/testit-adapter-behave-2.1.8.tar.gz
+[2023-06-05 15:31:30] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/cf/5f/ecb43e327b3230bdcdef0f85f14b557bf1b29ce5b1238c284ead11ebf97f/testit-adapter-pytest-2.1.8.tar.gz
+[2023-06-05 15:31:30] INFO root fetch - processPackages [statshouse]: Downloading https://files.pythonhosted.org/packages/83/c8/4987d655545c87c642c2e71b175ac985044314ac668c04872363031896ce/statshouse-0.2.1.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/80/62/cc45dc11451ccf44d78c049e63c5d0c63e654d6ec935a93d7a03e672c3de/phc-ingestion-0.3.32.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/cd/5c/777ad7b41ee4e1bdd774a7ca0283d345b03e02b6568fcfd30483842924db/testit-python-commons-2.1.9.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/f6/b2/8d4a8e2f3856be41ae5aeee244b96adea7086c88acc26d777d84b52edbba/testit-adapter-robotframework-2.1.9.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [pytip]: Downloading https://files.pythonhosted.org/packages/ef/cf/1c1c12139d4ccbae42f3f09dd10d59fd8e1909e65f81ca6e6f50efd36a20/pytip-0.1.5-py2.py3-none-any.whl
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/c0/6d/c8ec77570274fc0aa1dc16a9e9d9cfa9863f49c70625552b844a64c8bd1c/testit-adapter-pytest-2.1.9.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [cert-manager]: Downloading https://files.pythonhosted.org/packages/b6/1d/65f89077bb45bf50c9be15b0d3ab0a2b8f3a64b1ecae38617842ec20db52/cert_manager-2.3.1.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [statshouse]: Downloading https://files.pythonhosted.org/packages/1d/1f/1af87a8c278a4730dac2cbbaeea98cadfecb83c809a154547bb67cdba2af/statshouse-0.2.2.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [pympress]: Downloading https://files.pythonhosted.org/packages/03/47/5a71165631758c32b2fd9a071165f7eae92e9daffc33ffa8ae3b41f026f0/pympress-1.8.3a0.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-python-commons]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-python-commons-2.1.8.tar.gz tmp/testit-python-commons-2.1.9.tar.gz --markdown 20230605/t/testit-python-commons/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-robotframework]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-robotframework-2.1.8.tar.gz tmp/testit-adapter-robotframework-2.1.9.tar.gz --markdown 20230605/t/testit-adapter-robotframework/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/1a/cf/6b8df8721c624059dc849e3d3c637c6dbdb9b895e8991db7af21fa683738/testit-adapter-behave-2.1.9.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/c6/07/f3f2439c6215cafe3b3e9213a5b9ec0430ee4575963b89d2a5e92beb16d0/testit-adapter-nose-2.1.9.tar.gz
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-pytest]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-pytest-2.1.8.tar.gz tmp/testit-adapter-pytest-2.1.9.tar.gz --markdown 20230605/t/testit-adapter-pytest/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:31:31] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.31.tar.gz tmp/phc-ingestion-0.3.32.tar.gz --markdown 20230605/p/phc-ingestion/0.3.31-0.3.32/diff.md --exclude *.pyd
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-behave]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-behave-2.1.8.tar.gz tmp/testit-adapter-behave-2.1.9.tar.gz --markdown 20230605/t/testit-adapter-behave/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:31:31] INFO root fetch - processPackages [statshouse]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [statshouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statshouse-0.2.1.tar.gz tmp/statshouse-0.2.2.tar.gz --markdown 20230605/s/statshouse/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-05 15:31:31] INFO root fetch - processPackages [cert-manager]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [pytip]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [cert-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cert_manager-2.3.0.tar.gz tmp/cert_manager-2.3.1.tar.gz --markdown 20230605/c/cert-manager/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-05 15:31:31] INFO root fetch - processPackages [pytip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytip-0.1.4-py2.py3-none-any.whl.zip tmp/pytip-0.1.5-py2.py3-none-any.whl.zip --markdown 20230605/p/pytip/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-nose]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [testit-adapter-nose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-nose-2.1.8.tar.gz tmp/testit-adapter-nose-2.1.9.tar.gz --markdown 20230605/t/testit-adapter-nose/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:31:31] INFO root fetch - processPackages [pympress]: executing diffoscope
+[2023-06-05 15:31:31] INFO root fetch - processPackages [pympress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympress-1.8.2.tar.gz tmp/pympress-1.8.3a0.tar.gz --markdown 20230605/p/pympress/1.8.2-1.8.3a0/diff.md --exclude *.pyd
+[2023-06-05 15:31:33] INFO root fetch - processPackages [statshouse]: Remove: archive file [/home/abi/fetcher/tmp/statshouse-0.2.1.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [statshouse]: Remove: archive file [/home/abi/fetcher/tmp/statshouse-0.2.2.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [statshouse]: Start processing: mypackagelicenseprototype
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [statshouse]: success
+[2023-06-05 15:31:33] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 15:31:33] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 15:31:33] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.31.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.32.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [phc-ingestion]: Start processing: bomf
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-06-05 15:31:33] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 15:31:33] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-robotframework-2.1.8.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-robotframework-2.1.9.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-robotframework]: Start processing: textbsr
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [testit-adapter-robotframework]: success
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [pytip]: Remove: archive file [/home/abi/fetcher/tmp/pytip-0.1.4-py2.py3-none-any.whl.zip]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [pytip]: Remove: archive file [/home/abi/fetcher/tmp/pytip-0.1.5-py2.py3-none-any.whl.zip]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [pytip]: Start processing: bomf
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [pytip]: success
+[2023-06-05 15:31:33] INFO root fetch - processPackages [textbsr]: New version: [0.1.12] Old Version: [0.0.24]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-nose]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-nose-2.1.8.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-nose]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-nose-2.1.9.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-nose]: Start processing: veetility
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [testit-adapter-nose]: success
+[2023-06-05 15:31:33] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-pytest]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-pytest-2.1.8.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-pytest]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-pytest-2.1.9.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-pytest]: Start processing: boundaryscheme
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [testit-adapter-pytest]: success
+[2023-06-05 15:31:33] WARNING root fetch - processPackages [boundaryscheme]: Skipping, unable to determine old version
+[2023-06-05 15:31:33] INFO root fetch - processPackages [boundaryscheme]: Start processing: vqls-prototype
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [boundaryscheme] error
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/87/c4/f24c06f63b425f8baa0ebe5c37e8a6ef9b2f2ea84820b27f65d97a08438a/bomf-0.5.2.tar.gz
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/87/c4/f24c06f63b425f8baa0ebe5c37e8a6ef9b2f2ea84820b27f65d97a08438a/bomf-0.5.2.tar.gz
+[2023-06-05 15:31:33] WARNING root fetch - processPackages [vqls-prototype]: Skipping, unable to determine old version
+[2023-06-05 15:31:33] INFO root fetch - processPackages [vqls-prototype]: Start processing: cached-url
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [vqls-prototype] error
+[2023-06-05 15:31:33] INFO root fetch - processPackages [cached-url]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/a9/b3/d8c6cb575ecb33cec9fab6261733dc3d10ab550ea026d03a0d7bb676c0b9/textbsr-0.0.24.tar.gz
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-behave]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-behave-2.1.8.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-behave]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-behave-2.1.9.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-adapter-behave]: Start processing: gemseo-pdfo
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [testit-adapter-behave]: success
+[2023-06-05 15:31:33] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/dc/cf/4772d523e1caa972a6184c0058fe3637ebc539109c8d11d8e5cdfee00baf/veetility-0.1.8.tar.gz
+[2023-06-05 15:31:33] WARNING root fetch - processPackages [gemseo-pdfo]: Skipping, unable to determine old version
+[2023-06-05 15:31:33] INFO root fetch - processPackages [gemseo-pdfo]: Start processing: jaxhelper
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [gemseo-pdfo] error
+[2023-06-05 15:31:33] INFO root fetch - processPackages [jaxhelper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/testit-python-commons-2.1.8.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/testit-python-commons-2.1.9.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [testit-python-commons]: Start processing: rocrate
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [testit-python-commons]: success
+[2023-06-05 15:31:33] INFO root fetch - processPackages [cached-url]: Downloading https://files.pythonhosted.org/packages/a6/f4/5919b477b554f8925ec16632921855810e23c975790245307a13dc5d79ed/cached_url-0.0.8.tar.gz
+[2023-06-05 15:31:33] INFO root fetch - processPackages [rocrate]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/cert_manager-2.3.0.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/cert_manager-2.3.1.tar.gz]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [cert-manager]: Start processing: scdeepinsight
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [cert-manager]: success
+[2023-06-05 15:31:33] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/83/c3/0810ba664432e956270810e935ed5bf7252c3a417bd333dbfbdac7eed3d1/textbsr-0.1.12.tar.gz
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/47/0d/6466a037ca051985bc01d09c3a4eca36ce60d7898629a9da8e4578b1ed7f/bomf-0.5.3.tar.gz
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/47/0d/6466a037ca051985bc01d09c3a4eca36ce60d7898629a9da8e4578b1ed7f/bomf-0.5.3.tar.gz
+[2023-06-05 15:31:33] WARNING root fetch - processPackages [scdeepinsight]: Skipping, unable to determine old version
+[2023-06-05 15:31:33] INFO root fetch - processPackages [scdeepinsight]: Start processing: wacz-signing
+[2023-06-05 15:31:33] INFO root fetch - main [MainThread]: End processing [scdeepinsight] error
+[2023-06-05 15:31:33] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-06-05 15:31:33] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.24.tar.gz tmp/textbsr-0.1.12.tar.gz --markdown 20230605/t/textbsr/0.0.24-0.1.12/diff.md --exclude *.pyd
+[2023-06-05 15:31:33] INFO root fetch - processPackages [wacz-signing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.2.tar.gz tmp/bomf-0.5.3.tar.gz --markdown 20230605/b/bomf/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-05 15:31:33] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.2.tar.gz tmp/bomf-0.5.3.tar.gz --markdown 20230605/b/bomf/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-05 15:31:33] INFO root fetch - processPackages [jaxhelper]: Downloading https://files.pythonhosted.org/packages/2a/ca/fb58fb65e6c2f77ecd307da02eedb364dcbba18ffe800e6330c0cbb1dc0b/jaxhelper-0.0.1.tar.gz
+[2023-06-05 15:31:33] INFO root fetch - processPackages [rocrate]: Downloading https://files.pythonhosted.org/packages/4f/32/d29ea5ffe0b6ff6baac600180bc29074949a2a645e9802fe37e2e1b5e7d1/rocrate-0.7.0.tar.gz
+[2023-06-05 15:31:34] INFO root fetch - processPackages [wacz-signing]: Downloading https://files.pythonhosted.org/packages/68/0c/c4157b8607a76818f2d54d7a9520a99c912494a5c9f9c2e46c20dea9f2e1/wacz_signing-0.2.8.tar.gz
+[2023-06-05 15:31:34] INFO root fetch - processPackages [jaxhelper]: Downloading https://files.pythonhosted.org/packages/2c/cc/ba9edb42535eb4e2049c9e479585f48f74cb24b960399be4809509a83702/jaxhelper-0.0.2.tar.gz
+[2023-06-05 15:31:34] INFO root fetch - processPackages [cached-url]: Downloading https://files.pythonhosted.org/packages/ac/27/2d72325349abfd6eb53cded5af403ef9596661b8c498e7dc04212372d585/cached_url-0.0.9.tar.gz
+[2023-06-05 15:31:34] INFO root fetch - processPackages [jaxhelper]: executing diffoscope
+[2023-06-05 15:31:34] INFO root fetch - processPackages [jaxhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxhelper-0.0.1.tar.gz tmp/jaxhelper-0.0.2.tar.gz --markdown 20230605/j/jaxhelper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 15:31:34] INFO root fetch - processPackages [cached-url]: executing diffoscope
+[2023-06-05 15:31:34] INFO root fetch - processPackages [cached-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cached_url-0.0.8.tar.gz tmp/cached_url-0.0.9.tar.gz --markdown 20230605/c/cached-url/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:31:34] INFO root fetch - processPackages [pympress]: Remove: archive file [/home/abi/fetcher/tmp/pympress-1.8.2.tar.gz]
+[2023-06-05 15:31:34] INFO root fetch - processPackages [pympress]: Remove: archive file [/home/abi/fetcher/tmp/pympress-1.8.3a0.tar.gz]
+[2023-06-05 15:31:34] INFO root fetch - main [MainThread]: End processing [pympress]: success
+[2023-06-05 15:31:34] INFO root fetch - processPackages [rocrate]: Downloading https://files.pythonhosted.org/packages/8a/e0/8b3f02da4a50efd524cd193fffa67aa893330951ba6ce6522f95f2d6ab50/rocrate-0.8.0.tar.gz
+[2023-06-05 15:31:34] INFO root fetch - processPackages [wacz-signing]: Downloading https://files.pythonhosted.org/packages/74/e9/a512331838bc387a5962d7fa2cf1713d59281a5993d89212ace66504bcf8/wacz_signing-0.2.9.tar.gz
+[2023-06-05 15:31:34] INFO root fetch - processPackages [rocrate]: executing diffoscope
+[2023-06-05 15:31:34] INFO root fetch - processPackages [rocrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocrate-0.7.0.tar.gz tmp/rocrate-0.8.0.tar.gz --markdown 20230605/r/rocrate/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-05 15:31:34] INFO root fetch - processPackages [wacz-signing]: executing diffoscope
+[2023-06-05 15:31:34] INFO root fetch - processPackages [wacz-signing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wacz_signing-0.2.8.tar.gz tmp/wacz_signing-0.2.9.tar.gz --markdown 20230605/w/wacz-signing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 15:31:34] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e4/27/6bf604a25bb2458a80de6e113a5e7478938a23d9c7100bad80dac3b5e3c8/veetility-0.1.9.tar.gz
+[2023-06-05 15:31:34] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-06-05 15:31:34] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230605/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 15:31:34] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 15:31:34] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 15:31:34] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 15:31:35] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.0.24.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.12.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-06-05 15:31:35] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.2.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.3.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-06-05 15:31:35] INFO root fetch - processPackages [cached-url]: Remove: archive file [/home/abi/fetcher/tmp/cached_url-0.0.8.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - processPackages [cached-url]: Remove: archive file [/home/abi/fetcher/tmp/cached_url-0.0.9.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - main [MainThread]: End processing [cached-url]: success
+[2023-06-05 15:31:35] INFO root fetch - processPackages [jaxhelper]: Remove: archive file [/home/abi/fetcher/tmp/jaxhelper-0.0.1.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - processPackages [jaxhelper]: Remove: archive file [/home/abi/fetcher/tmp/jaxhelper-0.0.2.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - main [MainThread]: End processing [jaxhelper]: success
+[2023-06-05 15:31:35] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-06-05 15:31:35] INFO root fetch - processPackages [wacz-signing]: Remove: archive file [/home/abi/fetcher/tmp/wacz_signing-0.2.8.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - processPackages [wacz-signing]: Remove: archive file [/home/abi/fetcher/tmp/wacz_signing-0.2.9.tar.gz]
+[2023-06-05 15:31:35] INFO root fetch - main [MainThread]: End processing [wacz-signing]: success
+[2023-06-05 15:31:36] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.8.tar.gz]
+[2023-06-05 15:31:36] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.9.tar.gz]
+[2023-06-05 15:31:36] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-06-05 15:31:36] INFO root fetch - processPackages [rocrate]: Remove: archive file [/home/abi/fetcher/tmp/rocrate-0.7.0.tar.gz]
+[2023-06-05 15:31:36] INFO root fetch - processPackages [rocrate]: Remove: archive file [/home/abi/fetcher/tmp/rocrate-0.8.0.tar.gz]
+[2023-06-05 15:31:36] INFO root fetch - main [MainThread]: End processing [rocrate]: success
+[2023-06-05 15:31:36] INFO root fetch - main [MainThread]: Store serial: [18376559]
