@@ -9601,3 +9601,146 @@
 [2023-06-05 12:14:21] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-05 12:14:57] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-05 12:14:57] INFO root fetch - main [MainThread]: Store serial: [18374429]
+[2023-06-05 12:20:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374429]
+[2023-06-05 12:20:06] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LinSATNet
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bareunpy
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydna
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remlalib
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypackagelicenseprototype
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-d3-network-component
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amukhsimov-jupyter-templates-bigdata
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dfipy
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-utility-widgets
+[2023-06-05 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pg-bulk-ingest
+[2023-06-05 12:20:06] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-06-05 12:20:06] INFO root fetch - processPackages [LinSATNet]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 12:20:06] INFO root fetch - processPackages [dfipy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 12:20:06] INFO root fetch - processPackages [bareunpy]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-05 12:20:06] INFO root fetch - processPackages [remlalib]: New version: [1.0.2] Old Version: [0.0.7]
+[2023-06-05 12:20:06] INFO root fetch - processPackages [streamlit-d3-network-component]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 12:20:06] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 12:20:06] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 12:20:06] INFO root fetch - processPackages [jupyter-utility-widgets]: New version: [0.0.0a3] Old Version: [0.0.0a2]
+[2023-06-05 12:20:06] INFO root fetch - processPackages [pydna]: New version: [6.0.0a1] Old Version: [5.2.0a9]
+[2023-06-05 12:20:07] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/7f/7f/5ba7936f1ebf84941cb3fa2cb07f66ba413ddf776a87074e3272753f7a55/mypackagelicenseprototype-1.7.7-py3-none-any.whl
+[2023-06-05 12:20:07] INFO root fetch - processPackages [dfipy]: Downloading https://files.pythonhosted.org/packages/e2/14/36240696cb74e9a7ef5624df4025f58302917471a3a9d6ac00aad0757857/dfipy-0.1.1.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [LinSATNet]: Downloading https://files.pythonhosted.org/packages/8d/f1/ce570e265a3f81e7fdd3f0e66dd39b4f4ce78dd022f1b99c6f48d0faaf74/LinSATNet-0.0.3.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [streamlit-d3-network-component]: Downloading https://files.pythonhosted.org/packages/21/55/19c78ec1289b16875131328390aa61086328be8f07b4b20afb1336ffb2f8/streamlit-d3-network-component-0.0.5.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [pydna]: Downloading https://files.pythonhosted.org/packages/f9/6d/6205a15abadaeb8470176bef109863bf7a6898bb40c2bb3261eb7ccd3f1c/pydna-5.2.0a9.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [bareunpy]: Downloading https://files.pythonhosted.org/packages/ac/83/d324cdacdff9a6fa3215a82b872c2b1c3cd1210d07a90f0883468f838c55/bareunpy-1.6.0.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/3e/fa/20f4c41cae8fc8bf7badb45be2831f85765806500fb6f5d1ea4941e99f4e/amukhsimov-jupyter-templates-bigdata-0.0.8.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/99/2f/29b8685607ba66d4630082b47466f96e8eee0217ff49da86c03a8a00db6d/jupyter-utility-widgets-0.0.0a2.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [remlalib]: Downloading https://files.pythonhosted.org/packages/e7/42/cacd044ad5a92c7b2a11323fae6888b1c2ed12ba3f8efb562ba268f46426/remlalib-1.0.2.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/de/2a/e064f5dd2756889bd9c0ee2cd69d59678f0512b2ff91bacb04928f521d2f/mypackagelicenseprototype-1.7.8-py3-none-any.whl
+[2023-06-05 12:20:07] INFO root fetch - processPackages [dfipy]: Downloading https://files.pythonhosted.org/packages/69/08/5ea9efea5af33fb4705bd5c12e152e903a396a5a60bc99295c4111a44903/dfipy-0.1.2.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/b2/3b/ab105c1a8aa53eac33b77747a89732d2f90c3c1448e7f7176226962ef299/jupyter-utility-widgets-0.0.0a3.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [bareunpy]: Downloading https://files.pythonhosted.org/packages/ac/16/cdade524e48ec06811910d0f9c702206c2765064dcea60d5250249c38d50/bareunpy-1.6.1.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/ae/0f/25144b4e5bde02901ff4222df947917bc9b4dca4b9db07232fd008c95abe/amukhsimov-jupyter-templates-bigdata-0.0.9.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [remlalib]: executing diffoscope
+[2023-06-05 12:20:07] INFO root fetch - processPackages [remlalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remlalib-0.0.7.tar.gz tmp/remlalib-1.0.2.tar.gz --markdown 20230605/r/remlalib/0.0.7-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 12:20:07] INFO root fetch - processPackages [LinSATNet]: Downloading https://files.pythonhosted.org/packages/48/f1/596a046b3bb06a914f0c92b0ec00722da6caad7e4b3b211a37ac39d197f2/LinSATNet-0.0.4.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [streamlit-d3-network-component]: Downloading https://files.pythonhosted.org/packages/6a/47/9cafedf926d827ccff9a57b6bc55474c143b34b42cf8e6717a2b36938a7c/streamlit-d3-network-component-0.0.6.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [dfipy]: executing diffoscope
+[2023-06-05 12:20:07] INFO root fetch - processPackages [dfipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfipy-0.1.1.tar.gz tmp/dfipy-0.1.2.tar.gz --markdown 20230605/d/dfipy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 12:20:07] INFO root fetch - processPackages [jupyter-utility-widgets]: executing diffoscope
+[2023-06-05 12:20:07] INFO root fetch - processPackages [jupyter-utility-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-utility-widgets-0.0.0a2.tar.gz tmp/jupyter-utility-widgets-0.0.0a3.tar.gz --markdown 20230605/j/jupyter-utility-widgets/0.0.0a2-0.0.0a3/diff.md --exclude *.pyd
+[2023-06-05 12:20:07] INFO root fetch - processPackages [bareunpy]: executing diffoscope
+[2023-06-05 12:20:07] INFO root fetch - processPackages [bareunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bareunpy-1.6.0.tar.gz tmp/bareunpy-1.6.1.tar.gz --markdown 20230605/b/bareunpy/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-05 12:20:07] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 12:20:07] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: executing diffoscope
+[2023-06-05 12:20:07] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.7.7-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.7.8-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-06-05 12:20:07] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amukhsimov-jupyter-templates-bigdata-0.0.8.tar.gz tmp/amukhsimov-jupyter-templates-bigdata-0.0.9.tar.gz --markdown 20230605/a/amukhsimov-jupyter-templates-bigdata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 12:20:07] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [LinSATNet]: executing diffoscope
+[2023-06-05 12:20:07] INFO root fetch - processPackages [LinSATNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LinSATNet-0.0.3.tar.gz tmp/LinSATNet-0.0.4.tar.gz --markdown 20230605/L/LinSATNet/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 12:20:07] INFO root fetch - processPackages [pydna]: Downloading https://files.pythonhosted.org/packages/35/2e/eec7fbfd5453ed4dffff6921035c7f74813f05bf15bb27fc857a1f55f1c0/pydna-6.0.0a1.tar.gz
+[2023-06-05 12:20:07] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-06-05 12:20:07] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230605/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 12:20:07] INFO root fetch - processPackages [pydna]: executing diffoscope
+[2023-06-05 12:20:07] INFO root fetch - processPackages [pydna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydna-5.2.0a9.tar.gz tmp/pydna-6.0.0a1.tar.gz --markdown 20230605/p/pydna/5.2.0a9-6.0.0a1/diff.md --exclude *.pyd
+[2023-06-05 12:20:08] INFO root fetch - processPackages [streamlit-d3-network-component]: executing diffoscope
+[2023-06-05 12:20:08] INFO root fetch - processPackages [streamlit-d3-network-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-d3-network-component-0.0.5.tar.gz tmp/streamlit-d3-network-component-0.0.6.tar.gz --markdown 20230605/s/streamlit-d3-network-component/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 12:20:09] INFO root fetch - processPackages [jupyter-utility-widgets]: Start processing: biodivine-aeon
+[2023-06-05 12:20:09] INFO root fetch - main [MainThread]: End processing [jupyter-utility-widgets]: success
+[2023-06-05 12:20:09] INFO root fetch - processPackages [biodivine-aeon]: New version: [0.2.0a5] Old Version: [0.2.0a4]
+[2023-06-05 12:20:09] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Start processing: mypackagelicenseprototype
+[2023-06-05 12:20:09] INFO root fetch - main [MainThread]: End processing [amukhsimov-jupyter-templates-bigdata]: success
+[2023-06-05 12:20:09] INFO root fetch - processPackages [remlalib]: Start processing: eth-socket
+[2023-06-05 12:20:09] INFO root fetch - main [MainThread]: End processing [remlalib]: success
+[2023-06-05 12:20:09] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-06-05 12:20:09] INFO root fetch - processPackages [eth-socket]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 12:20:09] INFO root fetch - processPackages [dfipy]: Start processing: trading-strategy
+[2023-06-05 12:20:09] INFO root fetch - main [MainThread]: End processing [dfipy]: success
+[2023-06-05 12:20:09] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: streamlit-d3-network-component
+[2023-06-05 12:20:09] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 12:20:09] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-05 12:20:09] INFO root fetch - processPackages [streamlit-d3-network-component]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 12:20:09] INFO root fetch - processPackages [pg-bulk-ingest]: Start processing: LinSATNet
+[2023-06-05 12:20:09] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-06-05 12:20:09] INFO root fetch - processPackages [LinSATNet]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 12:20:09] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 12:20:09] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.7.7-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.7.8-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-06-05 12:20:09] INFO root fetch - processPackages [biodivine-aeon]: Downloading https://files.pythonhosted.org/packages/0a/36/9db505ceffc4eeb31dea45af356f4e125bd1791dfd475621ac6046fc3c1a/biodivine_aeon-0.2.0a4-cp37-abi3-win_amd64.whl
+[2023-06-05 12:20:09] INFO root fetch - processPackages [streamlit-d3-network-component]: executing diffoscope
+[2023-06-05 12:20:09] INFO root fetch - processPackages [streamlit-d3-network-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-d3-network-component-0.0.5.tar.gz tmp/streamlit-d3-network-component-0.0.6.tar.gz --markdown 20230605/s/streamlit-d3-network-component/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 12:20:09] INFO root fetch - processPackages [bareunpy]: Start processing: lesscode-charts
+[2023-06-05 12:20:09] INFO root fetch - main [MainThread]: End processing [bareunpy]: success
+[2023-06-05 12:20:09] INFO root fetch - processPackages [eth-socket]: Downloading https://files.pythonhosted.org/packages/99/0b/c10a73fc738f0c64223ce3b16bb65ccfdb07a3b2c7e54b58614a399f765d/eth-socket-0.1.1.tar.gz
+[2023-06-05 12:20:09] INFO root fetch - processPackages [LinSATNet]: executing diffoscope
+[2023-06-05 12:20:09] INFO root fetch - processPackages [LinSATNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LinSATNet-0.0.3.tar.gz tmp/LinSATNet-0.0.4.tar.gz --markdown 20230605/L/LinSATNet/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 12:20:09] INFO root fetch - processPackages [lesscode-charts]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 12:20:09] INFO root fetch - processPackages [LinSATNet]: Start processing: mypackagelicenseprototype
+[2023-06-05 12:20:09] INFO root fetch - main [MainThread]: End processing [LinSATNet]: success
+[2023-06-05 12:20:09] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-06-05 12:20:09] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/ef/db/cd3ff8efe6cae935b76889796fae0e73dbff0e09b269d049406dd64339c6/trading_strategy-0.9.0.tar.gz
+[2023-06-05 12:20:09] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 12:20:09] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.7.7-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.7.8-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-06-05 12:20:09] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/22/90/d6b8fc0a722bed6abd8d27f4bc53bababe65cb499f9e1b1e4a5b3fdbce87/lesscode_charts-0.0.5.tar.gz
+[2023-06-05 12:20:09] INFO root fetch - processPackages [eth-socket]: Downloading https://files.pythonhosted.org/packages/b3/4c/821862a240cffb34c0bffc684f527a733c253552732835699866782cdd35/eth-socket-0.1.2.tar.gz
+[2023-06-05 12:20:09] INFO root fetch - processPackages [biodivine-aeon]: Downloading https://files.pythonhosted.org/packages/de/90/edc2338a02b38dbfc37f74cc0e98a64b8f8de067f786bf3a2df394601103/biodivine_aeon-0.2.0a5-cp37-abi3-win_amd64.whl
+[2023-06-05 12:20:09] INFO root fetch - processPackages [eth-socket]: executing diffoscope
+[2023-06-05 12:20:09] INFO root fetch - processPackages [eth-socket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-socket-0.1.1.tar.gz tmp/eth-socket-0.1.2.tar.gz --markdown 20230605/e/eth-socket/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 12:20:09] INFO root fetch - processPackages [lesscode-charts]: executing diffoscope
+[2023-06-05 12:20:09] INFO root fetch - processPackages [lesscode-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_charts-0.0.4.tar.gz tmp/lesscode_charts-0.0.5.tar.gz --markdown 20230605/l/lesscode-charts/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 12:20:09] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/5c/56/6a3bae759cb2d96b94978afb98541c2d384070652678881d1ec20043940b/trading_strategy-0.9.1.tar.gz
+[2023-06-05 12:20:10] INFO root fetch - processPackages [pydna]: Start processing: graphql-service-framework
+[2023-06-05 12:20:10] INFO root fetch - main [MainThread]: End processing [pydna]: success
+[2023-06-05 12:20:10] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-05 12:20:10] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/31/55/14511aa3b0e3ac54be656ceba27f972dbd0eedffc528a00a6ae4e9022015/graphql_service_framework-1.1.8.tar.gz
+[2023-06-05 12:20:10] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-06-05 12:20:10] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230605/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-05 12:20:10] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/7e/b8/dd09eda7d33ac33cafb5aafd7b9e54bcefc5b2235a82625cdcff9ccd6196/graphql_service_framework-1.1.9.tar.gz
+[2023-06-05 12:20:10] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-06-05 12:20:10] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230605/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-05 12:20:10] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: autoeap
+[2023-06-05 12:20:10] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 12:20:10] INFO root fetch - processPackages [autoeap]: New version: [0.3.1.4] Old Version: [0.3.1.3]
+[2023-06-05 12:20:10] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: honkairail
+[2023-06-05 12:20:10] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 12:20:10] WARNING root fetch - processPackages [honkairail]: Skipping, unable to determine old version
+[2023-06-05 12:20:10] INFO root fetch - processPackages [honkairail]: Start processing: whitespace-correction
+[2023-06-05 12:20:10] INFO root fetch - main [MainThread]: End processing [honkairail] error
+[2023-06-05 12:20:10] INFO root fetch - processPackages [autoeap]: Downloading https://files.pythonhosted.org/packages/bb/3f/d2bd85bb7cec4f0a2fa3014e7c371336f8e049a720c96db9bef46cb9df6b/autoeap-0.3.1.3.tar.gz
+[2023-06-05 12:20:10] INFO root fetch - main [MainThread]: End processing [eth-socket]: success
+[2023-06-05 12:20:10] INFO root fetch - processPackages [whitespace-correction]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 12:20:11] INFO root fetch - main [MainThread]: End processing [LinSATNet]: success
+[2023-06-05 12:20:11] INFO root fetch - processPackages [biodivine-aeon]: executing diffoscope
+[2023-06-05 12:20:11] INFO root fetch - processPackages [biodivine-aeon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biodivine_aeon-0.2.0a4-cp37-abi3-win_amd64.whl.zip tmp/biodivine_aeon-0.2.0a5-cp37-abi3-win_amd64.whl.zip --markdown 20230605/b/biodivine-aeon/0.2.0a4-0.2.0a5/diff.md --exclude *.pyd
+[2023-06-05 12:20:11] INFO root fetch - main [MainThread]: End processing [lesscode-charts]: success
+[2023-06-05 12:20:11] INFO root fetch - processPackages [whitespace-correction]: Downloading https://files.pythonhosted.org/packages/7d/a6/60681b6e1678805770346b0b078bcaf4465cc4fba139c4c58df2f1e3b8f8/whitespace_correction-0.1.4-py2.py3-none-any.whl
+[2023-06-05 12:20:11] INFO root fetch - processPackages [autoeap]: Downloading https://files.pythonhosted.org/packages/2c/6b/3d8ca1d0978d3dd102ca4f3c46c0819fbe5d2c4d213469a6b7c0d20a420b/autoeap-0.3.1.4.tar.gz
+[2023-06-05 12:20:11] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-06-05 12:20:11] INFO root fetch - processPackages [whitespace-correction]: Downloading https://files.pythonhosted.org/packages/7b/1c/a3ca9e8aa3597dd7c4dd6319f1353ca67cea202451e348806e313102d1d1/whitespace_correction-0.1.5-py2.py3-none-any.whl
+[2023-06-05 12:20:11] INFO root fetch - processPackages [whitespace-correction]: executing diffoscope
+[2023-06-05 12:20:11] INFO root fetch - processPackages [whitespace-correction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitespace_correction-0.1.4-py2.py3-none-any.whl.zip tmp/whitespace_correction-0.1.5-py2.py3-none-any.whl.zip --markdown 20230605/w/whitespace-correction/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 12:20:11] INFO root fetch - main [MainThread]: End processing [biodivine-aeon]: success
+[2023-06-05 12:20:12] INFO root fetch - processPackages [autoeap]: executing diffoscope
+[2023-06-05 12:20:12] INFO root fetch - processPackages [autoeap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoeap-0.3.1.3.tar.gz tmp/autoeap-0.3.1.4.tar.gz --markdown 20230605/a/autoeap/0.3.1.3-0.3.1.4/diff.md --exclude *.pyd
+[2023-06-05 12:20:12] INFO root fetch - main [MainThread]: End processing [whitespace-correction]: success
+[2023-06-05 12:20:12] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-06-05 12:20:13] INFO root fetch - main [MainThread]: End processing [streamlit-d3-network-component]: success
+[2023-06-05 12:20:13] INFO root fetch - main [MainThread]: End processing [streamlit-d3-network-component]: success
+[2023-06-05 12:20:14] INFO root fetch - main [MainThread]: End processing [autoeap]: success
+[2023-06-05 12:20:14] INFO root fetch - main [MainThread]: Store serial: [18374494]
