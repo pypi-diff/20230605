@@ -20508,3 +20508,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 19:22:28] INFO root fetch - processPackages [streamlit-drawable-canvas]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-drawable-canvas-0.9.3.tar.gz]
 [2023-06-05 19:22:28] INFO root fetch - main [MainThread]: End processing [streamlit-drawable-canvas]: success
 [2023-06-05 19:22:28] INFO root fetch - main [MainThread]: Store serial: [18379104]
+[2023-06-05 19:27:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18379104]
+[2023-06-05 19:27:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtdb
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydash2hls
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comet-llm
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hello50
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agenta
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkmk-dev-tools
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cvxreg
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crazy-thursday
+[2023-06-05 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-project-center
+[2023-06-05 19:27:54] INFO root fetch - processPackages [comet-llm]: New version: [0.0.3b0] Old Version: [0.0.3]
+[2023-06-05 19:27:54] INFO root fetch - processPackages [hello50]: New version: [1.1.90] Old Version: [1.1.9]
+[2023-06-05 19:27:54] INFO root fetch - processPackages [xtdb]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 19:27:54] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-05 19:27:54] INFO root fetch - processPackages [pydash2hls]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-05 19:27:54] INFO root fetch - processPackages [agenta]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 19:27:54] INFO root fetch - processPackages [django-project-center]: New version: [0.8] Old Version: [0.7]
+[2023-06-05 19:27:54] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.5.1] Old Version: [2023.6.5.0]
+[2023-06-05 19:27:54] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/6f/19/70e6aba1e1feef987194fd2b53da101b0a8c4837524bcad9e5a1bbfdb49d/checkmk_dev_tools-0.1.6.tar.gz
+[2023-06-05 19:27:54] INFO root fetch - processPackages [comet-llm]: Downloading https://files.pythonhosted.org/packages/97/f1/22314bc49a35f30a87efd214bbe0ccd2bfa31fd6649252c0bf3c9fbe8898/comet_llm-0.0.3.tar.gz
+[2023-06-05 19:27:54] INFO root fetch - processPackages [hello50]: Downloading https://files.pythonhosted.org/packages/ad/b9/459f89a5e951b67d005b1a16019d12ed204afedea8a7d0b02f34b3683614/hello50-1.1.9.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/34/e9/399164e9af59839865a86cf9246d9a490c180a7fa388fec6372c43c134bf/crazy-thursday-2023.6.5.0.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [django-project-center]: Downloading https://files.pythonhosted.org/packages/9e/c7/d3caea7156c467ebc0810407185fd3ca71a00f5dadd85fad446cd812d629/django-project-center-0.7.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [cvxreg]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 19:27:55] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/35/56/df95be3d8be00ad9a1d69c3a8ff9c1cfd4c8e722746b0ea994d92a33f566/agenta-0.1.4.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-05 19:27:55] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/0a/92/4065db1446b7db5aff4374d6e4c21a451a877044ec39fd19e5a15fa481d0/xtdb-0.4.0.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/be/9b/bf44396b24a9bb1c8a3c57ba1277af0ae048a2cd3145cbae63397d8dfd64/checkmk_dev_tools-0.1.7.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [pydash2hls]: Downloading https://files.pythonhosted.org/packages/98/f1/6809fc3c0bfe4ab5b4aff78eca511db9517b28f069c5f801f9aa7fe253fc/pydash2hls-2.1.2.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [cvxreg]: Downloading https://files.pythonhosted.org/packages/e6/a6/b1c63d1d7c3ed63b70ce007cfe1c9079fb5d43f974e97187994884682116/cvxreg-0.0.5.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [django-project-center]: Downloading https://files.pythonhosted.org/packages/3d/8b/7dbb78c63ce21035c477b52131e86971dd85287569c6b9ea6c1e4a887b35/django-project-center-0.8.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/23/f5/3d6f5ec20842cd7ccc3809ea4a32d77b39bc187f367d854830fb771a0fa6/crazy-thursday-2023.6.5.1.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [comet-llm]: Downloading https://files.pythonhosted.org/packages/fe/6f/87080ffb8aa0a8ad21f03e4e74df1a2a661e848c9cd305dc35f01297ce17/comet_llm-0.0.3b0.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [hello50]: Downloading https://files.pythonhosted.org/packages/a2/a5/8beb13612e9673a9dc8be0b5aa3a3e4bd85b807fa0341fbff109cd5e8412/hello50-1.1.90.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/a7/69/3773fda0539a762bad4029ba325cc183237143708e088f38d29f66354671/agenta-0.1.5.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [django-project-center]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [django-project-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-center-0.7.tar.gz tmp/django-project-center-0.8.tar.gz --markdown 20230605/d/django-project-center/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-05 19:27:55] INFO root fetch - processPackages [comet-llm]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [comet-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_llm-0.0.3.tar.gz tmp/comet_llm-0.0.3b0.tar.gz --markdown 20230605/c/comet-llm/0.0.3-0.0.3b0/diff.md --exclude *.pyd
+[2023-06-05 19:27:55] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.5.0.tar.gz tmp/crazy-thursday-2023.6.5.1.tar.gz --markdown 20230605/c/crazy-thursday/2023.6.5.0-2023.6.5.1/diff.md --exclude *.pyd
+[2023-06-05 19:27:55] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.6.tar.gz tmp/checkmk_dev_tools-0.1.7.tar.gz --markdown 20230605/c/checkmk-dev-tools/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 19:27:55] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.4.tar.gz tmp/agenta-0.1.5.tar.gz --markdown 20230605/a/agenta/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 19:27:55] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/de/5f/a3e4e011061bc89b3cec8ed8056e35fd400c9356d2f531834d9315477908/xtdb-0.5.0.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [pydash2hls]: Downloading https://files.pythonhosted.org/packages/e3/f6/04ed0ddd9248d05d70453bb5f0dec0f12667d23153d563d14acd14ffddf9/pydash2hls-2.1.3.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [cvxreg]: Downloading https://files.pythonhosted.org/packages/b1/f7/4116ff5a9d1ddc2db7c5b734beda3c8ba2b05ed9296a83ba8c1b6ea061f0/cvxreg-0.0.6.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [hello50]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [hello50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello50-1.1.9.tar.gz tmp/hello50-1.1.90.tar.gz --markdown 20230605/h/hello50/1.1.9-1.1.90/diff.md --exclude *.pyd
+[2023-06-05 19:27:55] INFO root fetch - processPackages [xtdb]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [xtdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtdb-0.4.0.tar.gz tmp/xtdb-0.5.0.tar.gz --markdown 20230605/x/xtdb/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 19:27:55] INFO root fetch - processPackages [pydash2hls]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [pydash2hls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydash2hls-2.1.2.tar.gz tmp/pydash2hls-2.1.3.tar.gz --markdown 20230605/p/pydash2hls/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-05 19:27:55] INFO root fetch - processPackages [cvxreg]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [cvxreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxreg-0.0.5.tar.gz tmp/cvxreg-0.0.6.tar.gz --markdown 20230605/c/cvxreg/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 19:27:55] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-05 19:27:55] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-05 19:27:55] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230605/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-05 19:27:56] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.6.tar.gz]
+[2023-06-05 19:27:56] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.7.tar.gz]
+[2023-06-05 19:27:56] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2023-06-05 19:27:57] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.4.0.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.5.0.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - main [MainThread]: End processing [xtdb]: success
+[2023-06-05 19:27:57] INFO root fetch - processPackages [comet-llm]: Remove: archive file [/home/abi/fetcher/tmp/comet_llm-0.0.3.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - processPackages [comet-llm]: Remove: archive file [/home/abi/fetcher/tmp/comet_llm-0.0.3b0.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - main [MainThread]: End processing [comet-llm]: success
+[2023-06-05 19:27:57] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.4.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.5.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-06-05 19:27:57] INFO root fetch - processPackages [django-project-center]: Remove: archive file [/home/abi/fetcher/tmp/django-project-center-0.7.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - processPackages [django-project-center]: Remove: archive file [/home/abi/fetcher/tmp/django-project-center-0.8.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - main [MainThread]: End processing [django-project-center]: success
+[2023-06-05 19:27:57] INFO root fetch - processPackages [pydash2hls]: Remove: archive file [/home/abi/fetcher/tmp/pydash2hls-2.1.2.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - processPackages [pydash2hls]: Remove: archive file [/home/abi/fetcher/tmp/pydash2hls-2.1.3.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - main [MainThread]: End processing [pydash2hls]: success
+[2023-06-05 19:27:57] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.5.0.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.5.1.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-05 19:27:57] INFO root fetch - processPackages [cvxreg]: Remove: archive file [/home/abi/fetcher/tmp/cvxreg-0.0.5.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - processPackages [cvxreg]: Remove: archive file [/home/abi/fetcher/tmp/cvxreg-0.0.6.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - main [MainThread]: End processing [cvxreg]: success
+[2023-06-05 19:27:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-05 19:27:57] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-05 19:27:58] INFO root fetch - processPackages [hello50]: Remove: archive file [/home/abi/fetcher/tmp/hello50-1.1.9.tar.gz]
+[2023-06-05 19:27:58] INFO root fetch - processPackages [hello50]: Remove: archive file [/home/abi/fetcher/tmp/hello50-1.1.90.tar.gz]
+[2023-06-05 19:27:58] INFO root fetch - main [MainThread]: End processing [hello50]: success
+[2023-06-05 19:27:58] INFO root fetch - main [MainThread]: Store serial: [18379134]
