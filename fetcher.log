@@ -11331,3 +11331,105 @@
 [2023-06-05 13:47:08] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
 [2023-06-05 13:47:08] INFO root fetch - main [MainThread]: End processing [gftools]: success
 [2023-06-05 13:47:08] INFO root fetch - main [MainThread]: Store serial: [18375377]
+[2023-06-05 13:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375377]
+[2023-06-05 13:52:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-05 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2023-06-05 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-stlr
+[2023-06-05 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: batchx
+[2023-06-05 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domolibrary
+[2023-06-05 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-data-services-lwdp
+[2023-06-05 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upgini
+[2023-06-05 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypackagelicenseprototype
+[2023-06-05 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supy
+[2023-06-05 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vmngclient
+[2023-06-05 13:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: joern-lib
+[2023-06-05 13:52:17] INFO root fetch - processPackages [antchain-stlr]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5176722421] Old Version: [2.1.0.0.dev5174263610]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [batchx]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [vmngclient]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [joern-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [qwak-core]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [supy]: New version: [2023.6.5.dev0] Old Version: [2023.6.3.dev0]
+[2023-06-05 13:52:17] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/87/e7/8b1480ae33f1773b92c0b97041d7ba8ea6b00e2522decab107f86c60392d/joern_lib-0.9.1.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/5e/f8/4f9fa03aa49610d57c1816b63a2de18009bbce3c332e8d07e7d3b3deb762/th2_data_services_lwdp-2.1.0.0.dev5174263610.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/e3/21/4720da5d616febdd12e875fe5900ec30fdebe3c7523e2db429341155ef60/domolibrary-0.1.8.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/1a/b4/eafc6c05bd2118b4e79a8b7fe5d0f3b4f63562467082d84eb263df649056/batchx-9.8.0.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/dc/d9/e7016c5d432eb9634780aa201c5ccde9c44d9a2e3838a4ad3dcf796b9c6e/supy-2023.6.3.dev0-cp39-cp39-win_amd64.whl
+[2023-06-05 13:52:17] INFO root fetch - processPackages [antchain-stlr]: Downloading https://files.pythonhosted.org/packages/d0/33/b00481b008207497920c963cc791449e310a80340cdcbbb8b207a704d05f/antchain_stlr-2.3.1.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/b4/ef/e3b4d35cbb10128c2cf1da656ae1a12c198aceefc758d9e42e994a30b36a/mypackagelicenseprototype-2.0.2-py3-none-any.whl
+[2023-06-05 13:52:17] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/16/cf/796cdd5acea067c083c005dc1c73beadef4898b8cc0b719eee71099c66aa/vmngclient-0.9.3.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/d1/dd/9a11f66c664f84434b1c3a34babb38e87fdd59b23c83160b18af2ea99978/qwak_core-0.0.97.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/f7/29/c0e9300a691c11ec5a7c40feb7c726caedd36573d9dd9c11cac6b5521cce/joern_lib-0.9.2.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ba/75/5a59616fc27c68dfb4e04e111a598384360b36ecbd4ac5c10bfb80277305/domolibrary-0.1.9.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/5b/81/5c50aa0623da735c9a61638def1c8ce16e9c73508049a9a537486f67b2cc/batchx-9.9.0.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/16/1e/f441faaeaa1d23829d9691c1cb6a920f98c05088e419e77d595ef955f5b1/supy-2023.6.5.dev0-cp39-cp39-win_amd64.whl
+[2023-06-05 13:52:17] INFO root fetch - processPackages [antchain-stlr]: Downloading https://files.pythonhosted.org/packages/a8/a2/d969ff194c18b1178735adbd48b39959974bc311f96e6e8466315908c927/antchain_stlr-2.4.0.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [antchain-stlr]: executing diffoscope
+[2023-06-05 13:52:17] INFO root fetch - processPackages [antchain-stlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_stlr-2.3.1.tar.gz tmp/antchain_stlr-2.4.0.tar.gz --markdown 20230605/a/antchain-stlr/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-06-05 13:52:17] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/27/a2/dfa413321b01906933aed38706343f80293829c23c969a065a3baab1471e/mypackagelicenseprototype-2.0.3-py3-none-any.whl
+[2023-06-05 13:52:17] INFO root fetch - processPackages [joern-lib]: executing diffoscope
+[2023-06-05 13:52:17] INFO root fetch - processPackages [joern-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joern_lib-0.9.1.tar.gz tmp/joern_lib-0.9.2.tar.gz --markdown 20230605/j/joern-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 13:52:17] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-06-05 13:52:17] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230605/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 13:52:17] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 13:52:17] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.2-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.0.3-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-05 13:52:17] INFO root fetch - processPackages [batchx]: executing diffoscope
+[2023-06-05 13:52:17] INFO root fetch - processPackages [batchx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchx-9.8.0.tar.gz tmp/batchx-9.9.0.tar.gz --markdown 20230605/b/batchx/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-06-05 13:52:17] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-05 13:52:17] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.97.tar.gz tmp/qwak_core-0.0.98.tar.gz --markdown 20230605/q/qwak-core/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-06-05 13:52:17] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/60/1e/8fa022286e95c6d7b916fc4fa00fcef64cbcdf053911a9e7189fff6403b8/vmngclient-0.9.4.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/2b/51/d433616070c35128b5b2438cf42f94522b5916f9cf89c4016d3c7e0bdfbc/th2_data_services_lwdp-2.1.0.0.dev5176722421.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-06-05 13:52:17] INFO root fetch - processPackages [vmngclient]: executing diffoscope
+[2023-06-05 13:52:17] INFO root fetch - processPackages [vmngclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmngclient-0.9.3.tar.gz tmp/vmngclient-0.9.4.tar.gz --markdown 20230605/v/vmngclient/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-05 13:52:17] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-05 13:52:17] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5174263610.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5176722421.tar.gz --markdown 20230605/t/th2-data-services-lwdp/2.1.0.0.dev5174263610-2.1.0.0.dev5176722421/diff.md --exclude *.pyd
+[2023-06-05 13:52:17] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-05 13:52:17] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230605/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-05 13:52:18] INFO root fetch - processPackages [supy]: executing diffoscope
+[2023-06-05 13:52:18] INFO root fetch - processPackages [supy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supy-2023.6.3.dev0-cp39-cp39-win_amd64.whl.zip tmp/supy-2023.6.5.dev0-cp39-cp39-win_amd64.whl.zip --markdown 20230605/s/supy/2023.6.3.dev0-2023.6.5.dev0/diff.md --exclude *.pyd
+[2023-06-05 13:52:19] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.2-py3-none-any.whl.zip]
+[2023-06-05 13:52:19] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.3-py3-none-any.whl.zip]
+[2023-06-05 13:52:19] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: aiodiskqueue
+[2023-06-05 13:52:19] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 13:52:19] INFO root fetch - processPackages [aiodiskqueue]: New version: [0.1.0b8] Old Version: [0.1.0b7]
+[2023-06-05 13:52:19] INFO root fetch - processPackages [joern-lib]: Remove: archive file [/home/abi/fetcher/tmp/joern_lib-0.9.1.tar.gz]
+[2023-06-05 13:52:19] INFO root fetch - processPackages [joern-lib]: Remove: archive file [/home/abi/fetcher/tmp/joern_lib-0.9.2.tar.gz]
+[2023-06-05 13:52:19] INFO root fetch - main [MainThread]: End processing [joern-lib]: success
+[2023-06-05 13:52:19] INFO root fetch - processPackages [aiodiskqueue]: Downloading https://files.pythonhosted.org/packages/09/23/331a3dc3d56636be4e921414399abbca792ced4f780789cb1d4a86117a7c/aiodiskqueue-0.1.0b7.tar.gz
+[2023-06-05 13:52:19] INFO root fetch - processPackages [aiodiskqueue]: Downloading https://files.pythonhosted.org/packages/95/97/d04dff4966d1409a9a0dcefac926924501153d613db9046b52c15561b3c1/aiodiskqueue-0.1.0b8.tar.gz
+[2023-06-05 13:52:20] INFO root fetch - processPackages [aiodiskqueue]: executing diffoscope
+[2023-06-05 13:52:20] INFO root fetch - processPackages [aiodiskqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodiskqueue-0.1.0b7.tar.gz tmp/aiodiskqueue-0.1.0b8.tar.gz --markdown 20230605/a/aiodiskqueue/0.1.0b7-0.1.0b8/diff.md --exclude *.pyd
+[2023-06-05 13:52:20] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.8.tar.gz]
+[2023-06-05 13:52:20] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.9.tar.gz]
+[2023-06-05 13:52:20] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-06-05 13:52:20] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.8.0.tar.gz]
+[2023-06-05 13:52:20] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.9.0.tar.gz]
+[2023-06-05 13:52:20] INFO root fetch - main [MainThread]: End processing [batchx]: success
+[2023-06-05 13:52:20] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5174263610.tar.gz]
+[2023-06-05 13:52:20] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5176722421.tar.gz]
+[2023-06-05 13:52:20] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-05 13:52:20] INFO root fetch - processPackages [antchain-stlr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_stlr-2.3.1.tar.gz]
+[2023-06-05 13:52:20] INFO root fetch - processPackages [antchain-stlr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_stlr-2.4.0.tar.gz]
+[2023-06-05 13:52:20] INFO root fetch - main [MainThread]: End processing [antchain-stlr]: success
+[2023-06-05 13:52:21] INFO root fetch - processPackages [supy]: Remove: archive file [/home/abi/fetcher/tmp/supy-2023.6.3.dev0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-05 13:52:21] INFO root fetch - processPackages [supy]: Remove: archive file [/home/abi/fetcher/tmp/supy-2023.6.5.dev0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-05 13:52:21] INFO root fetch - main [MainThread]: End processing [supy]: success
+[2023-06-05 13:52:21] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-06-05 13:52:21] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-06-05 13:52:21] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-05 13:52:21] INFO root fetch - processPackages [aiodiskqueue]: Remove: archive file [/home/abi/fetcher/tmp/aiodiskqueue-0.1.0b7.tar.gz]
+[2023-06-05 13:52:21] INFO root fetch - processPackages [aiodiskqueue]: Remove: archive file [/home/abi/fetcher/tmp/aiodiskqueue-0.1.0b8.tar.gz]
+[2023-06-05 13:52:21] INFO root fetch - main [MainThread]: End processing [aiodiskqueue]: success
+[2023-06-05 13:52:21] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.3.tar.gz]
+[2023-06-05 13:52:21] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.4.tar.gz]
+[2023-06-05 13:52:21] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
+[2023-06-05 13:52:25] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.97.tar.gz]
+[2023-06-05 13:52:25] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-05 13:52:25] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-05 13:52:25] INFO root fetch - main [MainThread]: Store serial: [18375417]
