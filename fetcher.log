@@ -4499,3 +4499,24 @@
 [2023-06-05 05:43:08] INFO root fetch - main [MainThread]: End processing [inventree-wireviz-plugin]: success
 [2023-06-05 05:43:13] INFO root fetch - main [MainThread]: End processing [rf-groundingdino]: success
 [2023-06-05 05:43:13] INFO root fetch - main [MainThread]: Store serial: [18371502]
+[2023-06-05 05:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371502]
+[2023-06-05 05:48:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-05 05:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lop-codeingame-cli
+[2023-06-05 05:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySupercell
+[2023-06-05 05:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gensp
+[2023-06-05 05:48:33] INFO root fetch - processPackages [lop-codeingame-cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 05:48:33] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 05:48:33] INFO root fetch - processPackages [gensp]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 05:48:33] INFO root fetch - processPackages [gensp]: Downloading https://files.pythonhosted.org/packages/6d/be/beea3fe96a0b83bc2514a82b09b24925ea33bee49db40c63fdb42d98ae1f/gensp-1.0.1.tar.gz
+[2023-06-05 05:48:34] INFO root fetch - processPackages [lop-codeingame-cli]: Downloading https://files.pythonhosted.org/packages/69/c5/2437bb550c11365ad247e41545de9cb0d2ccd45c004d85fe5e15c1d8eae4/lop_codeingame_cli-0.1.6.tar.gz
+[2023-06-05 05:48:34] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-05 05:48:34] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230605/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 05:48:34] INFO root fetch - processPackages [lop-codeingame-cli]: executing diffoscope
+[2023-06-05 05:48:34] INFO root fetch - processPackages [lop-codeingame-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lop_codeingame_cli-0.1.5.tar.gz tmp/lop_codeingame_cli-0.1.6.tar.gz --markdown 20230605/l/lop-codeingame-cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 05:48:34] INFO root fetch - processPackages [gensp]: Downloading https://files.pythonhosted.org/packages/29/00/718903f79af3434be6c4d7ceb0969f12c88d50cb21ae470604bdf81026f1/gensp-1.0.2-py3.10.egg
+[2023-06-05 05:48:34] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 05:48:34] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-1.0.1.tar.gz tmp/gensp-1.0.2-py3.10.egg --markdown 20230605/g/gensp/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 05:48:35] INFO root fetch - main [MainThread]: End processing [lop-codeingame-cli]: success
+[2023-06-05 05:48:35] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 05:48:35] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-05 05:48:35] INFO root fetch - main [MainThread]: Store serial: [18371509]
