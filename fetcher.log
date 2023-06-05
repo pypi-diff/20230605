@@ -15983,3 +15983,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 16:35:00] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.6.0.20230604-py3-none-any.whl.zip]
 [2023-06-05 16:35:00] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly]: success
 [2023-06-05 16:35:00] INFO root fetch - main [MainThread]: Store serial: [18377229]
+[2023-06-05 16:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377229]
+[2023-06-05 16:40:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vsdeband
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nm-yolov5-nightly
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scdeepinsight
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vsdeinterlace
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xython
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-restframework-base64-image-field
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-modshib-certic
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linkedin-scraperb
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: liquisource
+[2023-06-05 16:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lavue
+[2023-06-05 16:40:10] INFO root fetch - processPackages [linkedin-scraperb]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 16:40:10] INFO root fetch - processPackages [vsdeband]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 16:40:10] INFO root fetch - processPackages [django-modshib-certic]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 16:40:10] WARNING root fetch - processPackages [xython]: Skipping, unable to determine old version
+[2023-06-05 16:40:10] INFO root fetch - processPackages [xython]: Start processing: tapioca-wrapper
+[2023-06-05 16:40:10] INFO root fetch - main [MainThread]: End processing [xython] error
+[2023-06-05 16:40:10] INFO root fetch - processPackages [vsdeinterlace]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-05 16:40:10] WARNING root fetch - processPackages [liquisource]: Skipping, unable to determine old version
+[2023-06-05 16:40:10] WARNING root fetch - processPackages [django-restframework-base64-image-field]: Skipping, unable to determine old version
+[2023-06-05 16:40:10] INFO root fetch - processPackages [scdeepinsight]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 16:40:10] INFO root fetch - processPackages [liquisource]: Start processing: muvinai
+[2023-06-05 16:40:10] INFO root fetch - processPackages [django-restframework-base64-image-field]: Start processing: rbapy
+[2023-06-05 16:40:10] INFO root fetch - main [MainThread]: End processing [liquisource] error
+[2023-06-05 16:40:10] INFO root fetch - main [MainThread]: End processing [django-restframework-base64-image-field] error
+[2023-06-05 16:40:10] INFO root fetch - processPackages [lavue]: New version: [2.83.3] Old Version: [2.83.2]
+[2023-06-05 16:40:10] INFO root fetch - processPackages [vsdeband]: Downloading https://files.pythonhosted.org/packages/d6/46/c64ac463220caefd9314cd5c770f56444f65d3ab61e1592de0642844fc29/vsdeband-1.0.0.tar.gz
+[2023-06-05 16:40:10] INFO root fetch - processPackages [nm-yolov5-nightly]: New version: [1.6.0.20230604] Old Version: [1.5.0.20230531]
+[2023-06-05 16:40:10] INFO root fetch - processPackages [tapioca-wrapper]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-05 16:40:10] INFO root fetch - processPackages [muvinai]: New version: [0.2.9] Old Version: [0.2.8.dev0]
+[2023-06-05 16:40:10] INFO root fetch - processPackages [rbapy]: New version: [2.0.1] Old Version: [2.0]
+[2023-06-05 16:40:10] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/db/6d/a933ef518d4846f7e3a8443d11c57d586a8a736d9d774b3c34bd40261ff0/scdeepinsight-0.1.3.tar.gz
+[2023-06-05 16:40:10] INFO root fetch - processPackages [vsdeinterlace]: Downloading https://files.pythonhosted.org/packages/7e/1d/abb4700f11c9c457fc5612ec2a6ac5436cf60bef94f42d86d0cf620dfc1e/vsdeinterlace-0.5.0.tar.gz
+[2023-06-05 16:40:10] INFO root fetch - processPackages [linkedin-scraperb]: Downloading https://files.pythonhosted.org/packages/9d/9e/32c23b0d9696d2ffd8c83e081144a4f4a5018cacbaded223ec0d1084f6bf/linkedin_scraperb-0.0.3.tar.gz
+[2023-06-05 16:40:10] INFO root fetch - processPackages [lavue]: Downloading https://files.pythonhosted.org/packages/0d/c1/5db6b25339b8f4514760e3515ab968c558fde2787e1f49123ef36f4fdf0f/lavue-2.83.2.tar.gz
+[2023-06-05 16:40:10] INFO root fetch - processPackages [django-modshib-certic]: Downloading https://files.pythonhosted.org/packages/ef/58/2c7933c02ce6824d690c553b7749afdb131b8d447d04f5c4ec63ec77174f/django_modshib_certic-0.1.5.tar.gz
+[2023-06-05 16:40:10] WARNING root fetch - processPackages [lavue]: Skipping package: exceeds size limit 32485180>=10485760
+[2023-06-05 16:40:10] INFO root fetch - main [MainThread]: End processing [lavue] error
+[2023-06-05 16:40:10] INFO root fetch - processPackages [vsdeband]: Downloading https://files.pythonhosted.org/packages/d1/ba/115799e3353603a56b1f508937c37d82d2ed33296cf0f5a8ebc6ce691648/vsdeband-1.0.1.tar.gz
+[2023-06-05 16:40:10] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/0d/8a/568a557d6c5f56acec4779e3feebb9ad8da40636a4f662a0dffd6449978f/nm_yolov5_nightly-1.5.0.20230531-py3-none-any.whl
+[2023-06-05 16:40:10] INFO root fetch - processPackages [vsdeband]: executing diffoscope
+[2023-06-05 16:40:10] INFO root fetch - processPackages [vsdeband]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsdeband-1.0.0.tar.gz tmp/vsdeband-1.0.1.tar.gz --markdown 20230605/v/vsdeband/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 16:40:10] INFO root fetch - processPackages [muvinai]: Downloading https://files.pythonhosted.org/packages/af/9e/2457f3c883b262802d607aa0b057621322e25445eb40cf5694f24c667be2/muvinai-0.2.8.dev0.tar.gz
+[2023-06-05 16:40:10] INFO root fetch - processPackages [rbapy]: Downloading https://files.pythonhosted.org/packages/2f/bc/3bc4525ae34a207bbc3223faefd6d4f6a51e793d492b781399a7852edbf5/rbapy-2.0.tar.gz
+[2023-06-05 16:40:11] INFO root fetch - processPackages [tapioca-wrapper]: Downloading https://files.pythonhosted.org/packages/95/5a/00e81c1c9e9f18ca1b837e2c1aca1f394d3c7eb2232289926121deaeb3f5/tapioca-wrapper-2.1.0.tar.gz
+[2023-06-05 16:40:11] INFO root fetch - processPackages [django-modshib-certic]: Downloading https://files.pythonhosted.org/packages/91/a9/6845d23a33b9e1e7dd9b3d1256d0b092879f3b567676c38d4741a6f7726d/django_modshib_certic-0.1.6.tar.gz
+[2023-06-05 16:40:11] INFO root fetch - processPackages [vsdeinterlace]: Downloading https://files.pythonhosted.org/packages/5e/66/3e0cb9126ae854c7f9cc4c5ea0820a397e5f65f838907c5e12a10ca87c6c/vsdeinterlace-0.5.1.tar.gz
+[2023-06-05 16:40:11] INFO root fetch - processPackages [django-modshib-certic]: executing diffoscope
+[2023-06-05 16:40:11] INFO root fetch - processPackages [django-modshib-certic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_modshib_certic-0.1.5.tar.gz tmp/django_modshib_certic-0.1.6.tar.gz --markdown 20230605/d/django-modshib-certic/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 16:40:11] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/f3/b9/7c297fa23e36c3b11b96355c7c4713541d6f93aaf4b90d6c9086b29830e6/scdeepinsight-0.1.4.tar.gz
+[2023-06-05 16:40:11] INFO root fetch - processPackages [vsdeinterlace]: executing diffoscope
+[2023-06-05 16:40:11] INFO root fetch - processPackages [vsdeinterlace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsdeinterlace-0.5.0.tar.gz tmp/vsdeinterlace-0.5.1.tar.gz --markdown 20230605/v/vsdeinterlace/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-05 16:40:11] INFO root fetch - processPackages [scdeepinsight]: executing diffoscope
+[2023-06-05 16:40:11] INFO root fetch - processPackages [scdeepinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdeepinsight-0.1.3.tar.gz tmp/scdeepinsight-0.1.4.tar.gz --markdown 20230605/s/scdeepinsight/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 16:40:11] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/d1/17/c309049af6563a745b6c178c9c4385977073b5a6b0f8e0b2f98eddd82691/nm_yolov5_nightly-1.6.0.20230604-py3-none-any.whl
+[2023-06-05 16:40:11] INFO root fetch - processPackages [linkedin-scraperb]: Downloading https://files.pythonhosted.org/packages/0b/19/8cdb3e3e0016f0ff96b5790a55b646e643922914d30fe1a37b64deff4341/linkedin_scraperb-0.0.4.tar.gz
+[2023-06-05 16:40:11] INFO root fetch - processPackages [tapioca-wrapper]: Downloading https://files.pythonhosted.org/packages/87/dc/942cbb1164842b14dd118d2f5bc75e66c5cdcd3f44f0b55e32b0040f40b2/tapioca-wrapper-2.2.0.tar.gz
+[2023-06-05 16:40:11] INFO root fetch - processPackages [linkedin-scraperb]: executing diffoscope
+[2023-06-05 16:40:11] INFO root fetch - processPackages [linkedin-scraperb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedin_scraperb-0.0.3.tar.gz tmp/linkedin_scraperb-0.0.4.tar.gz --markdown 20230605/l/linkedin-scraperb/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 16:40:11] INFO root fetch - processPackages [muvinai]: Downloading https://files.pythonhosted.org/packages/25/2b/14fa831cab12dadb200fbde21f3e8566d301f2b31da4b059a1a4ce132861/muvinai-0.2.9.tar.gz
+[2023-06-05 16:40:11] INFO root fetch - processPackages [nm-yolov5-nightly]: executing diffoscope
+[2023-06-05 16:40:11] INFO root fetch - processPackages [nm-yolov5-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_yolov5_nightly-1.5.0.20230531-py3-none-any.whl.zip tmp/nm_yolov5_nightly-1.6.0.20230604-py3-none-any.whl.zip --markdown 20230605/n/nm-yolov5-nightly/1.5.0.20230531-1.6.0.20230604/diff.md --exclude *.pyd
+[2023-06-05 16:40:11] INFO root fetch - processPackages [tapioca-wrapper]: executing diffoscope
+[2023-06-05 16:40:11] INFO root fetch - processPackages [tapioca-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapioca-wrapper-2.1.0.tar.gz tmp/tapioca-wrapper-2.2.0.tar.gz --markdown 20230605/t/tapioca-wrapper/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-05 16:40:11] INFO root fetch - processPackages [muvinai]: executing diffoscope
+[2023-06-05 16:40:11] INFO root fetch - processPackages [muvinai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muvinai-0.2.8.dev0.tar.gz tmp/muvinai-0.2.9.tar.gz --markdown 20230605/m/muvinai/0.2.8.dev0-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 16:40:12] INFO root fetch - processPackages [rbapy]: Downloading https://files.pythonhosted.org/packages/85/a5/12eadbc7a6df93e5249ef47277d1e314d38642ce31376f9720ae964692d4/rbapy-2.0.1.tar.gz
+[2023-06-05 16:40:12] INFO root fetch - processPackages [vsdeband]: Remove: archive file [/home/abi/fetcher/tmp/vsdeband-1.0.0.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - processPackages [vsdeband]: Remove: archive file [/home/abi/fetcher/tmp/vsdeband-1.0.1.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - main [MainThread]: End processing [vsdeband]: success
+[2023-06-05 16:40:12] INFO root fetch - processPackages [django-modshib-certic]: Remove: archive file [/home/abi/fetcher/tmp/django_modshib_certic-0.1.5.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - processPackages [django-modshib-certic]: Remove: archive file [/home/abi/fetcher/tmp/django_modshib_certic-0.1.6.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - main [MainThread]: End processing [django-modshib-certic]: success
+[2023-06-05 16:40:12] INFO root fetch - processPackages [vsdeinterlace]: Remove: archive file [/home/abi/fetcher/tmp/vsdeinterlace-0.5.0.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - processPackages [vsdeinterlace]: Remove: archive file [/home/abi/fetcher/tmp/vsdeinterlace-0.5.1.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - main [MainThread]: End processing [vsdeinterlace]: success
+[2023-06-05 16:40:12] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.3.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.4.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - main [MainThread]: End processing [scdeepinsight]: success
+[2023-06-05 16:40:12] INFO root fetch - processPackages [linkedin-scraperb]: Remove: archive file [/home/abi/fetcher/tmp/linkedin_scraperb-0.0.3.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - processPackages [linkedin-scraperb]: Remove: archive file [/home/abi/fetcher/tmp/linkedin_scraperb-0.0.4.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - main [MainThread]: End processing [linkedin-scraperb]: success
+[2023-06-05 16:40:12] INFO root fetch - processPackages [tapioca-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tapioca-wrapper-2.1.0.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - processPackages [tapioca-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tapioca-wrapper-2.2.0.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - main [MainThread]: End processing [tapioca-wrapper]: success
+[2023-06-05 16:40:12] INFO root fetch - processPackages [muvinai]: Remove: archive file [/home/abi/fetcher/tmp/muvinai-0.2.8.dev0.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - processPackages [muvinai]: Remove: archive file [/home/abi/fetcher/tmp/muvinai-0.2.9.tar.gz]
+[2023-06-05 16:40:12] INFO root fetch - main [MainThread]: End processing [muvinai]: success
+[2023-06-05 16:40:13] INFO root fetch - processPackages [rbapy]: executing diffoscope
+[2023-06-05 16:40:13] INFO root fetch - processPackages [rbapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbapy-2.0.tar.gz tmp/rbapy-2.0.1.tar.gz --markdown 20230605/r/rbapy/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-05 16:40:13] INFO root fetch - processPackages [nm-yolov5-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_yolov5_nightly-1.5.0.20230531-py3-none-any.whl.zip]
+[2023-06-05 16:40:13] INFO root fetch - processPackages [nm-yolov5-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_yolov5_nightly-1.6.0.20230604-py3-none-any.whl.zip]
+[2023-06-05 16:40:13] INFO root fetch - main [MainThread]: End processing [nm-yolov5-nightly]: success
+[2023-06-05 16:40:20] INFO root fetch - processPackages [rbapy]: Remove: archive file [/home/abi/fetcher/tmp/rbapy-2.0.tar.gz]
+[2023-06-05 16:40:20] INFO root fetch - processPackages [rbapy]: Remove: archive file [/home/abi/fetcher/tmp/rbapy-2.0.1.tar.gz]
+[2023-06-05 16:40:20] INFO root fetch - main [MainThread]: End processing [rbapy]: success
+[2023-06-05 16:40:20] INFO root fetch - main [MainThread]: Store serial: [18377279]
