@@ -6916,3 +6916,96 @@
 [2023-06-05 09:38:15] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
 [2023-06-05 09:38:47] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
 [2023-06-05 09:38:47] INFO root fetch - main [MainThread]: Store serial: [18372927]
+[2023-06-05 09:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372927]
+[2023-06-05 09:44:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyvec
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ubi-population-tool
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pktperf
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hh-ui-check
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sbtab
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-aresti
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easyvec
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: x21e8
+[2023-06-05 09:44:13] INFO root fetch - processPackages [easyvec]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [hh-ui-check]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230605073823] Old Version: [2.1.1.dev20230602172314]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [pktperf]: New version: [0.5.3] Old Version: [0.4.1]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ubi-population-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [easyvec]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [x21e8]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [sbtab]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [python-aresti]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-06-05 09:44:13] INFO root fetch - processPackages [hh-ui-check]: Downloading https://files.pythonhosted.org/packages/f2/aa/bcb8448ad53e19e22ce34fbf7173de781cc146bb6702dbaf6c94f344e346/hh_ui_check-0.1.6.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [pktperf]: Downloading https://files.pythonhosted.org/packages/c6/ba/9f1f1db4895e602571cbd44bf9ce551397add4604613cfe98f16e892e3dc/pktperf-0.4.1.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ec/60/bcbc62877d11b774c322e1f7788f8aa725c579b3e579d335d4a24aa8c292/localstack-core-2.1.1.dev20230602172314.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ubi-population-tool]: Downloading https://files.pythonhosted.org/packages/91/d0/210447413dbc8a53cb298ac1430e36baa05d99d980f2d63d7fa1c979fcaa/ubi-population-tool-0.8.0.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [x21e8]: Downloading https://files.pythonhosted.org/packages/d6/c2/5653e8eb7e8c8630281a6fa0e62fb72e09fb9630dfe5fa3e687fad530563/x21e8-0.7.1.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [sbtab]: Downloading https://files.pythonhosted.org/packages/d8/2b/847acb5ebf685ab4ad06ff78ca90047afe754813bcb9286dc9780051828c/sbtab-1.0.6.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [python-aresti]: Downloading https://files.pythonhosted.org/packages/de/ef/1a67837a0a99659878d214f74aeab943376a28fe74902684d3013243fd75/python-aresti-0.4.1.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [easyvec]: executing diffoscope
+[2023-06-05 09:44:13] INFO root fetch - processPackages [easyvec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyvec-0.0.8.tar.gz tmp/easyvec-0.0.9.tar.gz --markdown 20230605/e/easyvec/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 09:44:13] INFO root fetch - processPackages [easyvec]: executing diffoscope
+[2023-06-05 09:44:13] INFO root fetch - processPackages [easyvec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyvec-0.0.8.tar.gz tmp/easyvec-0.0.9.tar.gz --markdown 20230605/e/easyvec/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 09:44:13] INFO root fetch - processPackages [hh-ui-check]: executing diffoscope
+[2023-06-05 09:44:13] INFO root fetch - processPackages [hh-ui-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hh_ui_check-0.1.5.tar.gz tmp/hh_ui_check-0.1.6.tar.gz --markdown 20230605/h/hh-ui-check/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 09:44:13] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-06-05 09:44:13] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230605/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-05 09:44:13] INFO root fetch - processPackages [pktperf]: Downloading https://files.pythonhosted.org/packages/c1/a2/3061933ae66cd127450460b57730e8cc37b0df74c73437e728b7c4d58360/pktperf-0.5.3.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [x21e8]: Downloading https://files.pythonhosted.org/packages/7b/ab/eb8abb5e84309d1b19ee0403fc8d4b376a26050a0fb045293b951a3c093a/x21e8-0.8.0.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/34/fd/8b634ed6f3adf890ebf46e972eb34fe768993b6058ec6085a79909ded272/localstack-core-2.1.1.dev20230605073823.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [sbtab]: Downloading https://files.pythonhosted.org/packages/63/28/4a0dd6bc4a170ed02faedd06ef0bbe39a458051cffb98c70d40048a019e3/sbtab-1.0.7.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [python-aresti]: Downloading https://files.pythonhosted.org/packages/5e/87/64439a5a4bfa173c51e92577b868e5c4ee8fd18bcd27097e928bc401c013/python-aresti-0.4.3.tar.gz
+[2023-06-05 09:44:13] INFO root fetch - processPackages [pktperf]: executing diffoscope
+[2023-06-05 09:44:13] INFO root fetch - processPackages [pktperf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pktperf-0.4.1.tar.gz tmp/pktperf-0.5.3.tar.gz --markdown 20230605/p/pktperf/0.4.1-0.5.3/diff.md --exclude *.pyd
+[2023-06-05 09:44:13] INFO root fetch - processPackages [ubi-population-tool]: Downloading https://files.pythonhosted.org/packages/25/a1/19e30b957f08c4a84a747fbb8f8d3484c6450f7f45341f80ea209d8c5f9f/ubi-population-tool-0.9.0.tar.gz
+[2023-06-05 09:44:14] INFO root fetch - processPackages [x21e8]: executing diffoscope
+[2023-06-05 09:44:14] INFO root fetch - processPackages [x21e8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x21e8-0.7.1.tar.gz tmp/x21e8-0.8.0.tar.gz --markdown 20230605/x/x21e8/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-05 09:44:14] INFO root fetch - processPackages [sbtab]: executing diffoscope
+[2023-06-05 09:44:14] INFO root fetch - processPackages [sbtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbtab-1.0.6.tar.gz tmp/sbtab-1.0.7.tar.gz --markdown 20230605/s/sbtab/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-05 09:44:14] INFO root fetch - processPackages [python-aresti]: executing diffoscope
+[2023-06-05 09:44:14] INFO root fetch - processPackages [python-aresti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-aresti-0.4.1.tar.gz tmp/python-aresti-0.4.3.tar.gz --markdown 20230605/p/python-aresti/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-06-05 09:44:14] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-05 09:44:14] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230602172314.tar.gz tmp/localstack-core-2.1.1.dev20230605073823.tar.gz --markdown 20230605/l/localstack-core/2.1.1.dev20230602172314-2.1.1.dev20230605073823/diff.md --exclude *.pyd
+[2023-06-05 09:44:14] INFO root fetch - processPackages [ubi-population-tool]: executing diffoscope
+[2023-06-05 09:44:14] INFO root fetch - processPackages [ubi-population-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubi-population-tool-0.8.0.tar.gz tmp/ubi-population-tool-0.9.0.tar.gz --markdown 20230605/u/ubi-population-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 09:44:15] INFO root fetch - processPackages [hh-ui-check]: Start processing: fau-tools
+[2023-06-05 09:44:15] INFO root fetch - main [MainThread]: End processing [hh-ui-check]: success
+[2023-06-05 09:44:15] INFO root fetch - processPackages [fau-tools]: New version: [1.4.4] Old Version: [1.4.3.1]
+[2023-06-05 09:44:15] INFO root fetch - processPackages [fau-tools]: executing diffoscope
+[2023-06-05 09:44:15] INFO root fetch - processPackages [fau-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fau_tools-1.4.3.1.tar.gz tmp/fau_tools-1.4.4.tar.gz --markdown 20230605/f/fau-tools/1.4.3.1-1.4.4/diff.md --exclude *.pyd
+[2023-06-05 09:44:15] INFO root fetch - processPackages [pktperf]: Start processing: nonebot-plugin-twitter
+[2023-06-05 09:44:15] INFO root fetch - main [MainThread]: End processing [pktperf]: success
+[2023-06-05 09:44:15] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 09:44:15] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/a6/e6/524ffa7be45193692d39f993cdd2b051a175201b10c4caaba0b85d2b24e9/nonebot-plugin-twitter-0.0.1.tar.gz
+[2023-06-05 09:44:15] INFO root fetch - processPackages [sbtab]: Start processing: dbsamizdapper
+[2023-06-05 09:44:15] INFO root fetch - main [MainThread]: End processing [sbtab]: success
+[2023-06-05 09:44:15] INFO root fetch - processPackages [dbsamizdapper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 09:44:15] INFO root fetch - processPackages [python-aresti]: Start processing: Sampacks
+[2023-06-05 09:44:15] INFO root fetch - main [MainThread]: End processing [python-aresti]: success
+[2023-06-05 09:44:15] INFO root fetch - processPackages [TreeSAK]: Start processing: abuscom-libs
+[2023-06-05 09:44:15] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-06-05 09:44:15] INFO root fetch - processPackages [dbsamizdapper]: executing diffoscope
+[2023-06-05 09:44:15] INFO root fetch - processPackages [dbsamizdapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbsamizdapper-0.0.1.tar.gz tmp/dbsamizdapper-0.0.2.tar.gz --markdown 20230605/d/dbsamizdapper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 09:44:16] WARNING root fetch - processPackages [Sampacks]: Skipping, unable to determine old version
+[2023-06-05 09:44:16] INFO root fetch - main [MainThread]: End processing [Sampacks] error
+[2023-06-05 09:44:16] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/e5/f7/f21f30f8ea255747951754c8d445546052e4a41a7027bd68c75f2a9418b5/nonebot-plugin-twitter-0.0.2.tar.gz
+[2023-06-05 09:44:16] INFO root fetch - processPackages [abuscom-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 09:44:16] INFO root fetch - main [MainThread]: End processing [ubi-population-tool]: success
+[2023-06-05 09:44:16] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-06-05 09:44:16] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.0.1.tar.gz tmp/nonebot-plugin-twitter-0.0.2.tar.gz --markdown 20230605/n/nonebot-plugin-twitter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 09:44:16] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/c8/10/a8cb91d24fe5db748522fac82fb3d13771262b0f19535ed979cc154b73ab/abuscom-libs-0.1.8.tar.gz
+[2023-06-05 09:44:16] INFO root fetch - main [MainThread]: End processing [x21e8]: success
+[2023-06-05 09:44:16] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/f8/f1/7a8ab24407ccbd6e0488666922210b9df0dcbccf162d4ebf6b4600f94a93/abuscom-libs-0.1.9.tar.gz
+[2023-06-05 09:44:16] INFO root fetch - processPackages [abuscom-libs]: executing diffoscope
+[2023-06-05 09:44:16] INFO root fetch - processPackages [abuscom-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abuscom-libs-0.1.8.tar.gz tmp/abuscom-libs-0.1.9.tar.gz --markdown 20230605/a/abuscom-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 09:44:16] INFO root fetch - main [MainThread]: End processing [fau-tools]: success
+[2023-06-05 09:44:16] INFO root fetch - main [MainThread]: End processing [easyvec]: success
+[2023-06-05 09:44:17] INFO root fetch - main [MainThread]: End processing [easyvec]: success
+[2023-06-05 09:44:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-06-05 09:44:17] INFO root fetch - main [MainThread]: End processing [abuscom-libs]: success
+[2023-06-05 09:44:17] INFO root fetch - main [MainThread]: End processing [dbsamizdapper]: success
+[2023-06-05 09:44:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-05 09:44:21] INFO root fetch - main [MainThread]: Store serial: [18372973]
