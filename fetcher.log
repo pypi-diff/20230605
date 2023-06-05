@@ -16487,3 +16487,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 16:57:52] INFO root fetch - processPackages [emid]: Remove: archive file [/home/abi/fetcher/tmp/emid-0.0.4.tar.gz]
 [2023-06-05 16:57:52] INFO root fetch - main [MainThread]: End processing [emid]: success
 [2023-06-05 16:57:52] INFO root fetch - main [MainThread]: Store serial: [18377427]
+[2023-06-05 17:02:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377427]
+[2023-06-05 17:03:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iris-pex-embedded-python
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manubot-ai-editor
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FuncsForSPO
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypackagelicenseprototype
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scdeepinsight
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autora-experiment-runner-experimentation-manager-firebase
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ramodels
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tca-beam
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: telekinesis
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hmd-cli-neuronsphere
+[2023-06-05 17:03:02] INFO root fetch - processPackages [manubot-ai-editor]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-05 17:03:02] INFO root fetch - processPackages [scdeepinsight]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 17:03:02] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-06-05 17:03:02] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: New version: [1.0.1] Old Version: [1.0.0a4]
+[2023-06-05 17:03:02] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-06-05 17:03:02] WARNING root fetch - processPackages [tca-beam]: Skipping, unable to determine old version
+[2023-06-05 17:03:02] INFO root fetch - processPackages [tca-beam]: Start processing: hansken
+[2023-06-05 17:03:02] INFO root fetch - main [MainThread]: End processing [tca-beam] error
+[2023-06-05 17:03:02] INFO root fetch - processPackages [hmd-cli-neuronsphere]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-05 17:03:02] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.1.0] Old Version: [5.0.9]
+[2023-06-05 17:03:02] INFO root fetch - processPackages [hansken]: New version: [2023.6.5.1] Old Version: [2023.6.5]
+[2023-06-05 17:03:02] INFO root fetch - processPackages [telekinesis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-05 17:03:02] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/f3/b9/7c297fa23e36c3b11b96355c7c4713541d6f93aaf4b90d6c9086b29830e6/scdeepinsight-0.1.4.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 17:03:02] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/aa/86/dc450aedaaf8947a852c0e97eb72fab6a33f1598db334aec327eb3da9f14/telekinesis-0.1.8.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/c0/7a/4027f150f3965e37432d5d92fdfca12d7a7192f8c5107ea3caace3c675b5/FuncsForSPO-5.0.9.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [hansken]: Downloading https://files.pythonhosted.org/packages/4c/c4/759b76719cc7cd3113ada8c36c226b5d4d42ca52ebe854bb79c71f4cc037/hansken-2023.6.5.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/f6/9c/89ce5106a8ef79bcf2ca3ac0083d2e3ef7e12a58b957c054cb8962d6ca34/telekinesis-0.1.9.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/f3/d7/252ef947b158322e450426b16ba7729408da1d0d04754e3acd369040f10c/iris_pex_embedded_python-2.3.2.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [manubot-ai-editor]: Downloading https://files.pythonhosted.org/packages/00/e1/7de17f9cabb5c611c7187380852ab8b6fc75d77a37822a9a77f0e5853224/manubot-ai-editor-0.4.5.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Downloading https://files.pythonhosted.org/packages/28/03/ea171a1c74d779b6b59bf96de1aaef94cf2a0794943d7e8be3b57323918e/autora-experiment-runner-experimentation-manager-firebase-1.0.0a4.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [hmd-cli-neuronsphere]: Downloading https://files.pythonhosted.org/packages/a5/99/336b2ce3ca48b33eadcccb79180661579fabdb97a97c8a3a1a1793004353/hmd_cli_neuronsphere-0.1.98-py3-none-any.whl
+[2023-06-05 17:03:02] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/c1/66/7bb17d67ca06e3cbf62c7811ba02ede0a5e968e5ee06b0758ff14964884f/scdeepinsight-0.1.5.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/44/49/e9321a871861a3834926f1759abc7e6440491959dfefaab87a6b634738a5/mypackagelicenseprototype-2.1.0.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [telekinesis]: executing diffoscope
+[2023-06-05 17:03:02] INFO root fetch - processPackages [telekinesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telekinesis-0.1.8.tar.gz tmp/telekinesis-0.1.9.tar.gz --markdown 20230605/t/telekinesis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 17:03:02] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/00/ae/7bd91c9deb847c737a55c04ddd5744bdc4c5bef6852c1fa92a55ef539009/FuncsForSPO-5.1.0.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [hansken]: Downloading https://files.pythonhosted.org/packages/7e/b3/72992160b1f860fe82dcd689f90f45ad1558df121c6aaf2369b405ba6044/hansken-2023.6.5.1.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 17:03:02] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.1.0.tar.gz --markdown 20230605/m/mypackagelicenseprototype/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-06-05 17:03:02] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-05 17:03:02] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.0.9.tar.gz tmp/FuncsForSPO-5.1.0.tar.gz --markdown 20230605/F/FuncsForSPO/5.0.9-5.1.0/diff.md --exclude *.pyd
+[2023-06-05 17:03:02] INFO root fetch - processPackages [manubot-ai-editor]: Downloading https://files.pythonhosted.org/packages/5f/d0/4bf26e91b98e3d39c7a5658b60622199a74e210702f5116f50fe16c2665d/manubot-ai-editor-0.4.6.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/db/4d/50442662b1691215a9304e35d91ed65c05a67ca827d8c5c43ca82347e632/iris_pex_embedded_python-2.3.3.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Downloading https://files.pythonhosted.org/packages/a6/d6/ac3f024284c26ddd215afb52a54aba43e376e9f86f1142f7a68a0ee16bea/autora-experiment-runner-experimentation-manager-firebase-1.0.1.tar.gz
+[2023-06-05 17:03:02] INFO root fetch - processPackages [scdeepinsight]: executing diffoscope
+[2023-06-05 17:03:02] INFO root fetch - processPackages [scdeepinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdeepinsight-0.1.4.tar.gz tmp/scdeepinsight-0.1.5.tar.gz --markdown 20230605/s/scdeepinsight/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 17:03:03] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-05 17:03:03] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230605/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-05 17:03:03] INFO root fetch - processPackages [hmd-cli-neuronsphere]: Downloading https://files.pythonhosted.org/packages/1f/6f/82d7d40fb45d4a7b42501c59bc792a807b11dc86f1917221b95816b97afa/hmd_cli_neuronsphere-0.1.99-py3-none-any.whl
+[2023-06-05 17:03:03] INFO root fetch - processPackages [manubot-ai-editor]: executing diffoscope
+[2023-06-05 17:03:03] INFO root fetch - processPackages [manubot-ai-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manubot-ai-editor-0.4.5.tar.gz tmp/manubot-ai-editor-0.4.6.tar.gz --markdown 20230605/m/manubot-ai-editor/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-05 17:03:03] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: executing diffoscope
+[2023-06-05 17:03:03] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.0a4.tar.gz tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.1.tar.gz --markdown 20230605/a/autora-experiment-runner-experimentation-manager-firebase/1.0.0a4-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 17:03:03] INFO root fetch - processPackages [hansken]: executing diffoscope
+[2023-06-05 17:03:03] INFO root fetch - processPackages [hansken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hansken-2023.6.5.tar.gz tmp/hansken-2023.6.5.1.tar.gz --markdown 20230605/h/hansken/2023.6.5-2023.6.5.1/diff.md --exclude *.pyd
+[2023-06-05 17:03:03] INFO root fetch - processPackages [hmd-cli-neuronsphere]: executing diffoscope
+[2023-06-05 17:03:03] INFO root fetch - processPackages [hmd-cli-neuronsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_cli_neuronsphere-0.1.98-py3-none-any.whl.zip tmp/hmd_cli_neuronsphere-0.1.99-py3-none-any.whl.zip --markdown 20230605/h/hmd-cli-neuronsphere/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-05 17:03:03] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2023-06-05 17:03:03] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.3.2.tar.gz tmp/iris_pex_embedded_python-2.3.3.tar.gz --markdown 20230605/i/iris-pex-embedded-python/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-06-05 17:03:04] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.8.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.9.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - processPackages [telekinesis]: Start processing: cdktf-cdktf-provider-helm
+[2023-06-05 17:03:04] INFO root fetch - main [MainThread]: End processing [telekinesis]: success
+[2023-06-05 17:03:04] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-06-05 17:03:04] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 17:03:04] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.1.0.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 17:03:04] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Downloading https://files.pythonhosted.org/packages/8a/a3/b4c09c095ba0a8f1b6a7898f56971c0f05ab5f08cd4cc9c0404d95c851de/cdktf-cdktf-provider-helm-6.0.1.tar.gz
+[2023-06-05 17:03:04] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.4.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.5.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - main [MainThread]: End processing [scdeepinsight]: success
+[2023-06-05 17:03:04] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-5.0.9.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-5.1.0.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-05 17:03:04] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Downloading https://files.pythonhosted.org/packages/2d/c5/d80cb4870c0126f00ca05d0c0522fc63238afc43ef080476b1522935a4dd/cdktf-cdktf-provider-helm-6.0.2.tar.gz
+[2023-06-05 17:03:04] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-05 17:03:04] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: executing diffoscope
+[2023-06-05 17:03:04] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-helm-6.0.1.tar.gz tmp/cdktf-cdktf-provider-helm-6.0.2.tar.gz --markdown 20230605/c/cdktf-cdktf-provider-helm/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-06-05 17:03:04] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Remove: archive file [/home/abi/fetcher/tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.0a4.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Remove: archive file [/home/abi/fetcher/tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.1.tar.gz]
+[2023-06-05 17:03:04] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-experimentation-manager-firebase]: success
+[2023-06-05 17:03:05] INFO root fetch - processPackages [manubot-ai-editor]: Remove: archive file [/home/abi/fetcher/tmp/manubot-ai-editor-0.4.5.tar.gz]
+[2023-06-05 17:03:05] INFO root fetch - processPackages [manubot-ai-editor]: Remove: archive file [/home/abi/fetcher/tmp/manubot-ai-editor-0.4.6.tar.gz]
+[2023-06-05 17:03:05] INFO root fetch - main [MainThread]: End processing [manubot-ai-editor]: success
+[2023-06-05 17:03:05] INFO root fetch - processPackages [hmd-cli-neuronsphere]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_neuronsphere-0.1.98-py3-none-any.whl.zip]
+[2023-06-05 17:03:05] INFO root fetch - processPackages [hmd-cli-neuronsphere]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_neuronsphere-0.1.99-py3-none-any.whl.zip]
+[2023-06-05 17:03:05] INFO root fetch - main [MainThread]: End processing [hmd-cli-neuronsphere]: success
+[2023-06-05 17:03:05] INFO root fetch - processPackages [iris-pex-embedded-python]: Remove: archive file [/home/abi/fetcher/tmp/iris_pex_embedded_python-2.3.2.tar.gz]
+[2023-06-05 17:03:05] INFO root fetch - processPackages [iris-pex-embedded-python]: Remove: archive file [/home/abi/fetcher/tmp/iris_pex_embedded_python-2.3.3.tar.gz]
+[2023-06-05 17:03:05] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2023-06-05 17:03:05] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-helm-6.0.1.tar.gz]
+[2023-06-05 17:03:05] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-helm-6.0.2.tar.gz]
+[2023-06-05 17:03:05] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-helm]: success
+[2023-06-05 17:03:06] INFO root fetch - processPackages [hansken]: Remove: archive file [/home/abi/fetcher/tmp/hansken-2023.6.5.tar.gz]
+[2023-06-05 17:03:06] INFO root fetch - processPackages [hansken]: Remove: archive file [/home/abi/fetcher/tmp/hansken-2023.6.5.1.tar.gz]
+[2023-06-05 17:03:06] INFO root fetch - main [MainThread]: End processing [hansken]: success
+[2023-06-05 17:03:06] INFO root fetch - main [MainThread]: Store serial: [18377469]
