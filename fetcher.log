@@ -3699,3 +3699,60 @@
 [2023-06-05 03:53:38] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-06-05 03:55:53] INFO root fetch - main [MainThread]: End processing [vineyard]: success
 [2023-06-05 03:55:53] INFO root fetch - main [MainThread]: Store serial: [18371068]
+[2023-06-05 04:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371068]
+[2023-06-05 04:01:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberdrop-dl
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vineyard-bdist
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meow-sim
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vineyard-dask
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vineyard-io
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vineyard-ml
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PRauto
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-wget
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shady-island
+[2023-06-05 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pytomatas
+[2023-06-05 04:01:02] INFO root fetch - processPackages [vineyard-bdist]: New version: [0.15.0] Old Version: [0.14.8]
+[2023-06-05 04:01:02] INFO root fetch - processPackages [Pytomatas]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-05 04:01:02] INFO root fetch - processPackages [meow-sim]: New version: [0.3.8] Old Version: [0.3.5]
+[2023-06-05 04:01:02] INFO root fetch - processPackages [vineyard-ml]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-06-05 04:01:02] INFO root fetch - processPackages [PRauto]: New version: [0.21] Old Version: [0.124]
+[2023-06-05 04:01:02] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 04:01:02] INFO root fetch - processPackages [vineyard-io]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-06-05 04:01:02] INFO root fetch - processPackages [vineyard-dask]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-06-05 04:01:02] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.72] Old Version: [4.2.71]
+[2023-06-05 04:01:03] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-05 04:01:03] INFO root fetch - processPackages [Pytomatas]: executing diffoscope
+[2023-06-05 04:01:03] INFO root fetch - processPackages [Pytomatas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pytomatas-1.1.0.tar.gz tmp/Pytomatas-1.1.1.tar.gz --markdown 20230605/P/Pytomatas/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-05 04:01:03] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-05 04:01:03] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230605/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-05 04:01:03] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/84/81/768fc41c1b3e248994d1bb6203f007790f85b49c9bf548697e6ddbb3b9fb/PRauto-0.124.tar.gz
+[2023-06-05 04:01:03] INFO root fetch - processPackages [vineyard-bdist]: Downloading https://files.pythonhosted.org/packages/8f/62/932f4c982ae7733227edc560c07a5e1e8515c690e7603218a85f35bed317/vineyard_bdist-0.14.8-py3-none-manylinux2014_x86_64.whl
+[2023-06-05 04:01:03] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/05/2c/19d6b30e509b5e79ca0330e6c749932e3bb10db9f91d80ed255ec907d256/meow-sim-0.3.8.tar.gz
+[2023-06-05 04:01:03] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-05 04:01:03] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.3.5.tar.gz tmp/meow-sim-0.3.8.tar.gz --markdown 20230605/m/meow-sim/0.3.5-0.3.8/diff.md --exclude *.pyd
+[2023-06-05 04:01:03] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/c2/ff/43768c695740b4441647b369fdebb3d6bfb149faca19d6f5dc99cb6cde06/cyberdrop-dl-4.2.72.tar.gz
+[2023-06-05 04:01:03] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/53/8b/7f1e962449f0f393ca50c5622e4a145f4fdef981f681c1831c9c4d03f50c/PRauto-0.21.tar.gz
+[2023-06-05 04:01:03] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-05 04:01:03] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.71.tar.gz tmp/cyberdrop-dl-4.2.72.tar.gz --markdown 20230605/c/cyberdrop-dl/4.2.71-4.2.72/diff.md --exclude *.pyd
+[2023-06-05 04:01:03] INFO root fetch - processPackages [vineyard-io]: executing diffoscope
+[2023-06-05 04:01:03] INFO root fetch - processPackages [vineyard-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_io-0.8.6-py3-none-any.whl.zip tmp/vineyard_io-0.9.0-py3-none-any.whl.zip --markdown 20230605/v/vineyard-io/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 04:01:03] INFO root fetch - processPackages [vineyard-dask]: executing diffoscope
+[2023-06-05 04:01:03] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-06-05 04:01:03] INFO root fetch - processPackages [vineyard-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_dask-0.8.6-py3-none-any.whl.zip tmp/vineyard_dask-0.9.0-py3-none-any.whl.zip --markdown 20230605/v/vineyard-dask/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 04:01:03] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230605/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 04:01:03] INFO root fetch - processPackages [PRauto]: executing diffoscope
+[2023-06-05 04:01:03] INFO root fetch - processPackages [PRauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PRauto-0.124.tar.gz tmp/PRauto-0.21.tar.gz --markdown 20230605/P/PRauto/0.124-0.21/diff.md --exclude *.pyd
+[2023-06-05 04:01:03] INFO root fetch - processPackages [vineyard-ml]: executing diffoscope
+[2023-06-05 04:01:03] INFO root fetch - processPackages [vineyard-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_ml-0.8.6-py3-none-any.whl.zip tmp/vineyard_ml-0.9.0-py3-none-any.whl.zip --markdown 20230605/v/vineyard-ml/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 04:01:03] WARNING root fetch - processPackages [vineyard-bdist]: Skipping package: exceeds size limit 22973487>=10485760
+[2023-06-05 04:01:03] INFO root fetch - main [MainThread]: End processing [vineyard-bdist] error
+[2023-06-05 04:01:04] INFO root fetch - main [MainThread]: End processing [Pytomatas]: success
+[2023-06-05 04:01:04] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-05 04:01:04] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-05 04:01:05] INFO root fetch - main [MainThread]: End processing [vineyard-dask]: success
+[2023-06-05 04:01:05] INFO root fetch - main [MainThread]: End processing [vineyard-io]: success
+[2023-06-05 04:01:05] INFO root fetch - main [MainThread]: End processing [PRauto]: success
+[2023-06-05 04:01:05] INFO root fetch - main [MainThread]: End processing [vineyard-ml]: success
+[2023-06-05 04:01:05] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-06-05 04:01:06] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-05 04:01:06] INFO root fetch - main [MainThread]: Store serial: [18371112]
