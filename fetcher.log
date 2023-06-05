@@ -22393,3 +22393,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 20:34:05] INFO root fetch - processPackages [anchorconnector]: Remove: archive file [/home/abi/fetcher/tmp/anchorconnector-0.3.0.tar.gz]
 [2023-06-05 20:34:05] INFO root fetch - main [MainThread]: End processing [anchorconnector]: success
 [2023-06-05 20:34:05] INFO root fetch - main [MainThread]: Store serial: [18379924]
+[2023-06-05 20:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18379924]
+[2023-06-05 20:39:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 20:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meow-sim
+[2023-06-05 20:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qgate-perf
+[2023-06-05 20:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aim-ui
+[2023-06-05 20:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kolibri-dynamic-collections-plugin
+[2023-06-05 20:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aim
+[2023-06-05 20:39:32] INFO root fetch - processPackages [qgate-perf]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-05 20:39:32] INFO root fetch - processPackages [aim]: New version: [4.0.0a6] Old Version: [4.0.0a5]
+[2023-06-05 20:39:32] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a6] Old Version: [4.0.0a5]
+[2023-06-05 20:39:32] INFO root fetch - processPackages [meow-sim]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-05 20:39:32] INFO root fetch - processPackages [kolibri-dynamic-collections-plugin]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-05 20:39:32] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/fb/48/fa81b990c424026d4adfaa5b273c42817b03be30bf8c9970e27bf879d235/aim-4.0.0a5.tar.gz
+[2023-06-05 20:39:32] INFO root fetch - processPackages [kolibri-dynamic-collections-plugin]: Downloading https://files.pythonhosted.org/packages/28/83/36770fc7a663efc5fd653635cb7a6439b149b2a3db6db91816ad5614868a/kolibri_dynamic_collections_plugin-1.5.0-py2.py3-none-any.whl
+[2023-06-05 20:39:32] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/05/2c/19d6b30e509b5e79ca0330e6c749932e3bb10db9f91d80ed255ec907d256/meow-sim-0.3.8.tar.gz
+[2023-06-05 20:39:32] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/7b/e9/db8c151689a2936cb0898406c3d91350bfa10c023b2a2edb10d2afd3e8a6/meow-sim-0.3.9.tar.gz
+[2023-06-05 20:39:32] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/2a/ac/b2ee2b8569ac31d0d0e74424c7ef1d044c5a9888568e4dad725142c48b3b/qgate_perf-0.2.8-py3-none-any.whl
+[2023-06-05 20:39:32] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/7b/d3/4f35d4483deeeed2fe650faacebfa7b01d4f406815c6dee27d76b5738e3c/aim-ui-4.0.0a5.tar.gz
+[2023-06-05 20:39:32] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-05 20:39:32] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.3.8.tar.gz tmp/meow-sim-0.3.9.tar.gz --markdown 20230605/m/meow-sim/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-05 20:39:32] INFO root fetch - processPackages [kolibri-dynamic-collections-plugin]: Downloading https://files.pythonhosted.org/packages/2b/ce/e0be3e81a61fa4efffad02062c7d49a86e79365ab3ddd3874f2137ddbabb/kolibri_dynamic_collections_plugin-1.5.1-py2.py3-none-any.whl
+[2023-06-05 20:39:32] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 18647481>=10485760
+[2023-06-05 20:39:32] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-06-05 20:39:32] INFO root fetch - processPackages [kolibri-dynamic-collections-plugin]: executing diffoscope
+[2023-06-05 20:39:32] INFO root fetch - processPackages [kolibri-dynamic-collections-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_dynamic_collections_plugin-1.5.0-py2.py3-none-any.whl.zip tmp/kolibri_dynamic_collections_plugin-1.5.1-py2.py3-none-any.whl.zip --markdown 20230605/k/kolibri-dynamic-collections-plugin/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-05 20:39:33] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/7d/fd/9028150368e9d9d0a8518e79294d776795060cb1ad4dfbcd39079de26e0c/qgate_perf-0.2.9-py3-none-any.whl
+[2023-06-05 20:39:33] INFO root fetch - processPackages [qgate-perf]: executing diffoscope
+[2023-06-05 20:39:33] INFO root fetch - processPackages [qgate-perf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_perf-0.2.8-py3-none-any.whl.zip tmp/qgate_perf-0.2.9-py3-none-any.whl.zip --markdown 20230605/q/qgate-perf/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 20:39:33] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/ae/ba/10608df81002e405e1cd7b3c6961ea9829725903b3b4d513ba77861330e9/aim-4.0.0a6.tar.gz
+[2023-06-05 20:39:33] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-06-05 20:39:33] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a5.tar.gz tmp/aim-4.0.0a6.tar.gz --markdown 20230605/a/aim/4.0.0a5-4.0.0a6/diff.md --exclude *.pyd
+[2023-06-05 20:39:34] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.3.8.tar.gz]
+[2023-06-05 20:39:34] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.3.9.tar.gz]
+[2023-06-05 20:39:34] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-05 20:39:34] INFO root fetch - processPackages [qgate-perf]: Remove: archive file [/home/abi/fetcher/tmp/qgate_perf-0.2.8-py3-none-any.whl.zip]
+[2023-06-05 20:39:34] INFO root fetch - processPackages [qgate-perf]: Remove: archive file [/home/abi/fetcher/tmp/qgate_perf-0.2.9-py3-none-any.whl.zip]
+[2023-06-05 20:39:34] INFO root fetch - main [MainThread]: End processing [qgate-perf]: success
+[2023-06-05 20:39:34] INFO root fetch - processPackages [kolibri-dynamic-collections-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_dynamic_collections_plugin-1.5.0-py2.py3-none-any.whl.zip]
+[2023-06-05 20:39:34] INFO root fetch - processPackages [kolibri-dynamic-collections-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_dynamic_collections_plugin-1.5.1-py2.py3-none-any.whl.zip]
+[2023-06-05 20:39:34] INFO root fetch - main [MainThread]: End processing [kolibri-dynamic-collections-plugin]: success
+[2023-06-05 20:39:40] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a5.tar.gz]
+[2023-06-05 20:39:40] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a6.tar.gz]
+[2023-06-05 20:39:40] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-06-05 20:39:40] INFO root fetch - main [MainThread]: Store serial: [18379940]
