@@ -5402,3 +5402,48 @@
 [2023-06-05 07:57:21] INFO root fetch - main [MainThread]: End processing [kui]: success
 [2023-06-05 07:57:21] INFO root fetch - main [MainThread]: End processing [mitzu]: success
 [2023-06-05 07:57:21] INFO root fetch - main [MainThread]: Store serial: [18372017]
+[2023-06-05 08:02:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372017]
+[2023-06-05 08:02:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-05 08:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinytext
+[2023-06-05 08:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-stlr
+[2023-06-05 08:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foundation-cancer-image-biomarker
+[2023-06-05 08:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-serve
+[2023-06-05 08:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydoxtools
+[2023-06-05 08:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-serve
+[2023-06-05 08:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: defog
+[2023-06-05 08:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terka
+[2023-06-05 08:02:30] INFO root fetch - processPackages [tinytext]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-06-05 08:02:30] INFO root fetch - processPackages [pydoxtools]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-05 08:02:30] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-05 08:02:30] WARNING root fetch - processPackages [foundation-cancer-image-biomarker]: Skipping, unable to determine old version
+[2023-06-05 08:02:30] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker] error
+[2023-06-05 08:02:30] INFO root fetch - processPackages [antchain-stlr]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-05 08:02:30] INFO root fetch - processPackages [terka]: New version: [1.9.1] Old Version: [1.9.0.1]
+[2023-06-05 08:02:30] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-05 08:02:30] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 08:02:30] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-06-05 08:02:30] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.9.0.1.tar.gz tmp/terka-1.9.1.tar.gz --markdown 20230605/t/terka/1.9.0.1-1.9.1/diff.md --exclude *.pyd
+[2023-06-05 08:02:30] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-06-05 08:02:30] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230605/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 08:02:30] INFO root fetch - processPackages [tinytext]: Downloading https://files.pythonhosted.org/packages/42/04/863ca5f95cb4d1ba41eaef320e42344aa8ff149bf2dc09c422d7cadc9727/tinytext-3.5.0.tar.gz
+[2023-06-05 08:02:30] INFO root fetch - processPackages [antchain-stlr]: Downloading https://files.pythonhosted.org/packages/d0/33/b00481b008207497920c963cc791449e310a80340cdcbbb8b207a704d05f/antchain_stlr-2.3.1.tar.gz
+[2023-06-05 08:02:30] INFO root fetch - processPackages [pydoxtools]: Downloading https://files.pythonhosted.org/packages/c2/93/332afb5882afaae96e4d3b643a52afdf9ade1f1e875737d325b9b2b15418/pydoxtools-0.6.4.tar.gz
+[2023-06-05 08:02:30] INFO root fetch - processPackages [pydoxtools]: executing diffoscope
+[2023-06-05 08:02:30] INFO root fetch - processPackages [pydoxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoxtools-0.6.3.tar.gz tmp/pydoxtools-0.6.4.tar.gz --markdown 20230605/p/pydoxtools/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-05 08:02:30] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-05 08:02:30] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230605/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-05 08:02:30] INFO root fetch - processPackages [antchain-stlr]: executing diffoscope
+[2023-06-05 08:02:30] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-05 08:02:30] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230605/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-05 08:02:30] INFO root fetch - processPackages [antchain-stlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_stlr-2.3.0.tar.gz tmp/antchain_stlr-2.3.1.tar.gz --markdown 20230605/a/antchain-stlr/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-05 08:02:31] INFO root fetch - processPackages [tinytext]: Downloading https://files.pythonhosted.org/packages/eb/41/a7e3de6c690bc8b3064e77dd31cf82308d1068edba81fd27025fee04e51a/tinytext-3.6.0.tar.gz
+[2023-06-05 08:02:31] INFO root fetch - processPackages [tinytext]: executing diffoscope
+[2023-06-05 08:02:31] INFO root fetch - processPackages [tinytext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinytext-3.5.0.tar.gz tmp/tinytext-3.6.0.tar.gz --markdown 20230605/t/tinytext/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-06-05 08:02:31] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-06-05 08:02:32] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-05 08:02:32] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-05 08:02:32] INFO root fetch - main [MainThread]: End processing [tinytext]: success
+[2023-06-05 08:02:32] INFO root fetch - main [MainThread]: End processing [antchain-stlr]: success
+[2023-06-05 08:02:32] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-06-05 08:02:32] INFO root fetch - main [MainThread]: End processing [pydoxtools]: success
+[2023-06-05 08:02:32] INFO root fetch - main [MainThread]: Store serial: [18372039]
