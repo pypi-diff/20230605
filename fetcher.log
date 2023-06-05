@@ -16223,3 +16223,174 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 16:47:22] INFO root fetch - processPackages [datadog-api-client]: Remove: archive file [/home/abi/fetcher/tmp/datadog-api-client-2.9.0.tar.gz]
 [2023-06-05 16:47:22] INFO root fetch - main [MainThread]: End processing [datadog-api-client]: success
 [2023-06-05 16:47:22] INFO root fetch - main [MainThread]: Store serial: [18377342]
+[2023-06-05 16:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377342]
+[2023-06-05 16:52:32] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-es-ticketbai-api-batuz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daspython
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpkio-python-sdk
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strmprivacy-api-definitions
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-doe2
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pfx
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lecore
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: empire-platform-api-public-client
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bpkio-cli
+[2023-06-05 16:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nlp-pipeline
+[2023-06-05 16:52:32] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.1]
+[2023-06-05 16:52:32] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [2.9.0] Old Version: [2.87.0]
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-python-sdk]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-cli]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-05 16:52:32] INFO root fetch - processPackages [daspython]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-05 16:52:32] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-05 16:52:32] INFO root fetch - processPackages [lecore]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 16:52:32] WARNING root fetch - processPackages [empire-platform-api-public-client]: Skipping, unable to determine old version
+[2023-06-05 16:52:32] INFO root fetch - processPackages [empire-platform-api-public-client]: Start processing: sampacks
+[2023-06-05 16:52:32] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client] error
+[2023-06-05 16:52:32] INFO root fetch - processPackages [nlp-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 16:52:32] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-06-05 16:52:32] INFO root fetch - processPackages [sampacks]: New version: [0.7] Old Version: [0.6]
+[2023-06-05 16:52:32] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/e4/fc/1873699ae6141626250be518b841982a3f6058619c9e13906b6cc62058da/sampacks-0.6.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/ea/ec/dad33e626a6b7f938b8e72ac3bc4cb9f6fe049e3f3e275ed864926ca8b00/strmprivacy-api-definitions-2.87.0.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [daspython]: Downloading https://files.pythonhosted.org/packages/14/38/a38baa8c7e5bf2159a76d4cb44ae6efb22217eeb062b2209a79d1e2b70fa/daspython-3.0.0.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/b5/f1/68f6e9cfb68aba7985e2631bc487166b3439460311e4f952cdf74de8be86/lecore-0.1.1.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: Downloading https://files.pythonhosted.org/packages/5e/50/ef8b68d071ed662ce849647129528ffee425def4cc85b787485247107bef/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/b7/b8/2ff2219b621ab88d31234b005a829a078a0fe578b5ded0aeb71b9ea0d84f/bpkio_cli-1.2.0.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a1/0d/f18110bf781805e992d1694bccb5f9c8fba9b93b4dbb99cd63864546a630/django-pfx-1.2.dev6.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/db/a4/0a07611739a1e1a257aa149efdd36a80ba08048efdd79d669901e9b4b100/honeybee-doe2-0.5.0.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/6d/68/f423cb7b4c6c7b84145cef4b2d5e75f6ace46e0c9c03a55b21276f0233b4/nlp_pipeline-0.0.8.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/85/f4/4937c9b8ddefe947d99eba5e8c958919c15f401c92a08164f475c43e0f8d/bpkio_python_sdk-1.1.0.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [daspython]: Downloading https://files.pythonhosted.org/packages/db/ad/927aa7b9cb9c4b64df0372c6c9acc78a88da7bfef5b989f47f0980fb87d4/daspython-3.0.1.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/b3/4f/81697924dd8d2ea98fb50b6bb4aca165ee8be302fd9db389bb55ae60dfac/lecore-0.1.2.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/4a/ea/4e1d9556c298bf3e8669503493494ef7819a84e33423cf70ea0d783fdf5c/sampacks-0.7.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/89/ad/908915ed1c7af94dfe78a95110dc03d81532c4e526c5d82f30d952314754/strmprivacy-api-definitions-2.9.0.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [daspython]: executing diffoscope
+[2023-06-05 16:52:32] INFO root fetch - processPackages [daspython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daspython-3.0.0.tar.gz tmp/daspython-3.0.1.tar.gz --markdown 20230605/d/daspython/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-05 16:52:32] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/f1/0c/c2adbdcd3f884eca70ddde9f082d26517dfdb94d10bfe95f30c988ac850f/honeybee-doe2-0.6.0.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [sampacks]: executing diffoscope
+[2023-06-05 16:52:32] INFO root fetch - processPackages [sampacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampacks-0.6.tar.gz tmp/sampacks-0.7.tar.gz --markdown 20230605/s/sampacks/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-05 16:52:32] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-06-05 16:52:32] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-2.87.0.tar.gz tmp/strmprivacy-api-definitions-2.9.0.tar.gz --markdown 20230605/s/strmprivacy-api-definitions/2.87.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-05 16:52:32] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2023-06-05 16:52:32] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.5.0.tar.gz tmp/honeybee-doe2-0.6.0.tar.gz --markdown 20230605/h/honeybee-doe2/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/06/c0/567a07073ab9588f6e1bc0148151ac931585aaa562a1164f37b302dc510a/bpkio_cli-1.3.0.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-06-05 16:52:32] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.1.tar.gz tmp/lecore-0.1.2.tar.gz --markdown 20230605/l/lecore/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/e5/52/91c9417e117c5ddaaed62d7d203fc12e118f0c924f98e126fe51a82a34f6/bpkio_python_sdk-1.2.0.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-cli]: executing diffoscope
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_cli-1.2.0.tar.gz tmp/bpkio_cli-1.3.0.tar.gz --markdown 20230605/b/bpkio-cli/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-05 16:52:32] INFO root fetch - processPackages [nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/28/b8/2312ab3f5ddcbd5f394f72746eb42cb63db9ffbe24458ac13b4c189c4d94/nlp_pipeline-0.0.9.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-python-sdk]: executing diffoscope
+[2023-06-05 16:52:32] INFO root fetch - processPackages [bpkio-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_python_sdk-1.1.0.tar.gz tmp/bpkio_python_sdk-1.2.0.tar.gz --markdown 20230605/b/bpkio-python-sdk/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-05 16:52:33] INFO root fetch - processPackages [nlp-pipeline]: executing diffoscope
+[2023-06-05 16:52:33] INFO root fetch - processPackages [nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_pipeline-0.0.8.tar.gz tmp/nlp_pipeline-0.0.9.tar.gz --markdown 20230605/n/nlp-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:52:33] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-05 16:52:33] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230605/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-05 16:52:33] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: Downloading https://files.pythonhosted.org/packages/c7/0f/38b9beb1a8ce49b9032bc58a1087ddd29a7542bb1eb1c1bd11d3513a6933/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.2-py3-none-any.whl
+[2023-06-05 16:52:33] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: executing diffoscope
+[2023-06-05 16:52:33] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-l10n-es-ticketbai-api-batuz/16.0.1.0.1.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-05 16:52:34] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.1.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.2.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [lecore]: Start processing: hmd-cli-repo
+[2023-06-05 16:52:34] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-06-05 16:52:34] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.6.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.7.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [sampacks]: Start processing: abuscom-libs
+[2023-06-05 16:52:34] INFO root fetch - main [MainThread]: End processing [sampacks]: success
+[2023-06-05 16:52:34] INFO root fetch - processPackages [hmd-cli-repo]: New version: [0.2.95] Old Version: [0.2.94]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [abuscom-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/c8/10/a8cb91d24fe5db748522fac82fb3d13771262b0f19535ed979cc154b73ab/abuscom-libs-0.1.8.tar.gz
+[2023-06-05 16:52:34] INFO root fetch - processPackages [nlp-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/nlp_pipeline-0.0.8.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [nlp-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/nlp_pipeline-0.0.9.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [nlp-pipeline]: Start processing: lmo
+[2023-06-05 16:52:34] INFO root fetch - main [MainThread]: End processing [nlp-pipeline]: success
+[2023-06-05 16:52:34] INFO root fetch - processPackages [hmd-cli-repo]: Downloading https://files.pythonhosted.org/packages/f7/a6/b699d24482cd3f09957997d06950ee23605330c16be9094e7e331c61cd2f/hmd_cli_repo-0.2.94-py3-none-any.whl
+[2023-06-05 16:52:34] INFO root fetch - processPackages [lmo]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/f8/f1/7a8ab24407ccbd6e0488666922210b9df0dcbccf162d4ebf6b4600f94a93/abuscom-libs-0.1.9.tar.gz
+[2023-06-05 16:52:34] INFO root fetch - processPackages [abuscom-libs]: executing diffoscope
+[2023-06-05 16:52:34] INFO root fetch - processPackages [abuscom-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abuscom-libs-0.1.8.tar.gz tmp/abuscom-libs-0.1.9.tar.gz --markdown 20230605/a/abuscom-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 16:52:34] INFO root fetch - processPackages [daspython]: Remove: archive file [/home/abi/fetcher/tmp/daspython-3.0.0.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [daspython]: Remove: archive file [/home/abi/fetcher/tmp/daspython-3.0.1.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [daspython]: Start processing: zeroconf
+[2023-06-05 16:52:34] INFO root fetch - main [MainThread]: End processing [daspython]: success
+[2023-06-05 16:52:34] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/9e/50/f25f0b34b5e3124bb60693fb700138ebced81f7602bf4f918d4d9a349b00/lmo-0.5.1.tar.gz
+[2023-06-05 16:52:34] INFO root fetch - processPackages [zeroconf]: New version: [0.64.1] Old Version: [0.64.0]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [hmd-cli-repo]: Downloading https://files.pythonhosted.org/packages/fc/a9/fdc57d5479e61078c6fe6fbf0c664f791045d1734d52e5aa01d21ce8cea3/hmd_cli_repo-0.2.95-py3-none-any.whl
+[2023-06-05 16:52:34] INFO root fetch - processPackages [honeybee-doe2]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-doe2-0.5.0.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [honeybee-doe2]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-doe2-0.6.0.tar.gz]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [honeybee-doe2]: Start processing: klp-commons
+[2023-06-05 16:52:34] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2023-06-05 16:52:34] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 16:52:34] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/dd/c2/81baa9e52d3afde834b5176911f2ae3cdce27c82030062ac5c3ed222f6c4/lmo-0.5.2.tar.gz
+[2023-06-05 16:52:35] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/2e/e5/1d3c1103325bb513a7ef266e827b2c529ddcc87fb5a518ca62e06ef7cdaa/zeroconf-0.64.0.tar.gz
+[2023-06-05 16:52:35] INFO root fetch - processPackages [lmo]: executing diffoscope
+[2023-06-05 16:52:35] INFO root fetch - processPackages [lmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmo-0.5.1.tar.gz tmp/lmo-0.5.2.tar.gz --markdown 20230605/l/lmo/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-05 16:52:35] INFO root fetch - processPackages [hmd-cli-repo]: executing diffoscope
+[2023-06-05 16:52:35] INFO root fetch - processPackages [hmd-cli-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_cli_repo-0.2.94-py3-none-any.whl.zip tmp/hmd_cli_repo-0.2.95-py3-none-any.whl.zip --markdown 20230605/h/hmd-cli-repo/0.2.94-0.2.95/diff.md --exclude *.pyd
+[2023-06-05 16:52:35] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/e3/94/b9d41734be8fbd3cebf962ef11a4248d4440e5a30e129d67ac7ed28b4f70/klp-commons-0.0.8.tar.gz
+[2023-06-05 16:52:35] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/7a/8e/79223c855c4abf13a5aa7b7ecbf53bf3e504d77abae202488e52b12fcceb/zeroconf-0.64.1.tar.gz
+[2023-06-05 16:52:35] INFO root fetch - processPackages [bpkio-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_python_sdk-1.1.0.tar.gz]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [bpkio-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_python_sdk-1.2.0.tar.gz]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [bpkio-python-sdk]: Start processing: FuncsForSPO
+[2023-06-05 16:52:35] INFO root fetch - main [MainThread]: End processing [bpkio-python-sdk]: success
+[2023-06-05 16:52:35] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-06-05 16:52:35] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.64.0.tar.gz tmp/zeroconf-0.64.1.tar.gz --markdown 20230605/z/zeroconf/0.64.0-0.64.1/diff.md --exclude *.pyd
+[2023-06-05 16:52:35] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/d5/42/f40cb77eca163d0e9e4a000c88b607b2b0265af6751fe54d095d38d32bee/FuncsForSPO-5.0.8.tar.gz
+[2023-06-05 16:52:35] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: Start processing: nester-struct
+[2023-06-05 16:52:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-api-batuz]: success
+[2023-06-05 16:52:35] INFO root fetch - processPackages [nester-struct]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/c0/7a/4027f150f3965e37432d5d92fdfca12d7a7192f8c5107ea3caace3c675b5/FuncsForSPO-5.0.9.tar.gz
+[2023-06-05 16:52:35] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-05 16:52:35] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.0.8.tar.gz tmp/FuncsForSPO-5.0.9.tar.gz --markdown 20230605/F/FuncsForSPO/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:52:35] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/53/33/d9ffdd5b9e8330b9db6c43b84e3bde30134298a6bf8696655c5c0ee970e2/klp-commons-0.0.9.tar.gz
+[2023-06-05 16:52:35] INFO root fetch - processPackages [nester-struct]: Downloading https://files.pythonhosted.org/packages/06/74/c1fd82b61c2fb5fdf2beaada8b8cd7d142a866ad7eb4bd852b46ae5ffa35/nester-struct-0.5.1.tar.gz
+[2023-06-05 16:52:35] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.2.0.tar.gz]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.3.0.tar.gz]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [bpkio-cli]: Start processing: django-idp-user
+[2023-06-05 16:52:35] INFO root fetch - main [MainThread]: End processing [bpkio-cli]: success
+[2023-06-05 16:52:35] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-06-05 16:52:35] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230605/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 16:52:35] INFO root fetch - processPackages [django-idp-user]: New version: [2.1.0] Old Version: [2.0.4]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev6.tar.gz]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev8.tar.gz]
+[2023-06-05 16:52:35] INFO root fetch - processPackages [django-pfx]: Start processing: django-admin-image-render
+[2023-06-05 16:52:35] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-05 16:52:35] INFO root fetch - processPackages [django-idp-user]: Downloading https://files.pythonhosted.org/packages/03/90/73364d5fcad742b10f68b31473016f6aef490ab13a764ceae76111b2de38/django_idp_user-2.0.4.tar.gz
+[2023-06-05 16:52:35] WARNING root fetch - processPackages [django-admin-image-render]: Skipping, unable to determine old version
+[2023-06-05 16:52:35] INFO root fetch - main [MainThread]: End processing [django-admin-image-render] error
+[2023-06-05 16:52:36] INFO root fetch - processPackages [abuscom-libs]: Remove: archive file [/home/abi/fetcher/tmp/abuscom-libs-0.1.8.tar.gz]
+[2023-06-05 16:52:36] INFO root fetch - processPackages [abuscom-libs]: Remove: archive file [/home/abi/fetcher/tmp/abuscom-libs-0.1.9.tar.gz]
+[2023-06-05 16:52:36] INFO root fetch - main [MainThread]: End processing [abuscom-libs]: success
+[2023-06-05 16:52:36] INFO root fetch - processPackages [django-idp-user]: Downloading https://files.pythonhosted.org/packages/17/d8/7a9bf7c6f65b14540101ade6ace5cf198676121b84a823f69f09bd7cb360/django_idp_user-2.1.0.tar.gz
+[2023-06-05 16:52:36] INFO root fetch - processPackages [django-idp-user]: executing diffoscope
+[2023-06-05 16:52:36] INFO root fetch - processPackages [django-idp-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_idp_user-2.0.4.tar.gz tmp/django_idp_user-2.1.0.tar.gz --markdown 20230605/d/django-idp-user/2.0.4-2.1.0/diff.md --exclude *.pyd
+[2023-06-05 16:52:36] INFO root fetch - processPackages [nester-struct]: Downloading https://files.pythonhosted.org/packages/22/58/aa2140cc27b968e05356f580487ba1e348a85d574005a07b8a7152d1940b/nester-struct-0.5.2.tar.gz
+[2023-06-05 16:52:36] INFO root fetch - processPackages [nester-struct]: executing diffoscope
+[2023-06-05 16:52:36] INFO root fetch - processPackages [nester-struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nester-struct-0.5.1.tar.gz tmp/nester-struct-0.5.2.tar.gz --markdown 20230605/n/nester-struct/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-05 16:52:36] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-2.87.0.tar.gz]
+[2023-06-05 16:52:36] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-2.9.0.tar.gz]
+[2023-06-05 16:52:36] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-06-05 16:52:36] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.5.1.tar.gz]
+[2023-06-05 16:52:36] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.5.2.tar.gz]
+[2023-06-05 16:52:36] INFO root fetch - main [MainThread]: End processing [lmo]: success
+[2023-06-05 16:52:36] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.8.tar.gz]
+[2023-06-05 16:52:36] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.9.tar.gz]
+[2023-06-05 16:52:36] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-06-05 16:52:37] INFO root fetch - processPackages [django-idp-user]: Remove: archive file [/home/abi/fetcher/tmp/django_idp_user-2.0.4.tar.gz]
+[2023-06-05 16:52:37] INFO root fetch - processPackages [django-idp-user]: Remove: archive file [/home/abi/fetcher/tmp/django_idp_user-2.1.0.tar.gz]
+[2023-06-05 16:52:37] INFO root fetch - main [MainThread]: End processing [django-idp-user]: success
+[2023-06-05 16:52:37] INFO root fetch - processPackages [hmd-cli-repo]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_repo-0.2.94-py3-none-any.whl.zip]
+[2023-06-05 16:52:37] INFO root fetch - processPackages [hmd-cli-repo]: Remove: archive file [/home/abi/fetcher/tmp/hmd_cli_repo-0.2.95-py3-none-any.whl.zip]
+[2023-06-05 16:52:37] INFO root fetch - main [MainThread]: End processing [hmd-cli-repo]: success
+[2023-06-05 16:52:37] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-5.0.8.tar.gz]
+[2023-06-05 16:52:37] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-5.0.9.tar.gz]
+[2023-06-05 16:52:37] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-05 16:52:38] INFO root fetch - processPackages [nester-struct]: Remove: archive file [/home/abi/fetcher/tmp/nester-struct-0.5.1.tar.gz]
+[2023-06-05 16:52:38] INFO root fetch - processPackages [nester-struct]: Remove: archive file [/home/abi/fetcher/tmp/nester-struct-0.5.2.tar.gz]
+[2023-06-05 16:52:38] INFO root fetch - main [MainThread]: End processing [nester-struct]: success
+[2023-06-05 16:52:38] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.64.0.tar.gz]
+[2023-06-05 16:52:38] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.64.1.tar.gz]
+[2023-06-05 16:52:38] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-06-05 16:52:38] INFO root fetch - main [MainThread]: Store serial: [18377399]
