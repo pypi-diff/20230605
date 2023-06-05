@@ -18430,3 +18430,166 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 18:01:31] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-06-05 18:01:31] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-05 18:01:31] INFO root fetch - main [MainThread]: Store serial: [18378314]
+[2023-06-05 18:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18378314]
+[2023-06-05 18:06:40] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PythonLogging
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-upsolver
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taipy-core
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diot
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FuncsForSPO
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recognize
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taipy-gui
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hygiene-dm
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PythonLogging
+[2023-06-05 18:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tap-messagebird
+[2023-06-05 18:06:40] INFO root fetch - processPackages [diot]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-05 18:06:40] INFO root fetch - processPackages [taipy-core]: New version: [2.3.0.dev1] Old Version: [2.3.0.dev0]
+[2023-06-05 18:06:40] INFO root fetch - processPackages [recognize]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 18:06:40] INFO root fetch - processPackages [PythonLogging]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 18:06:40] INFO root fetch - processPackages [PythonLogging]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 18:06:40] INFO root fetch - processPackages [dbt-upsolver]: New version: [1.5.24] Old Version: [1.5.23]
+[2023-06-05 18:06:40] WARNING root fetch - processPackages [hygiene-dm]: Skipping, unable to determine old version
+[2023-06-05 18:06:40] INFO root fetch - processPackages [taipy-gui]: New version: [2.3.0.dev2] Old Version: [2.3.0.dev1]
+[2023-06-05 18:06:40] INFO root fetch - processPackages [hygiene-dm]: Start processing: skit-calls
+[2023-06-05 18:06:40] INFO root fetch - main [MainThread]: End processing [hygiene-dm] error
+[2023-06-05 18:06:40] INFO root fetch - processPackages [tap-messagebird]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 18:06:40] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-06-05 18:06:40] INFO root fetch - processPackages [skit-calls]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-05 18:06:40] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/77/a1/e5262dc90948b1cdb3e686aff75876c30e189cd601b0610374ea0d07b489/recognize-0.1.4.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/00/ae/7bd91c9deb847c737a55c04ddd5744bdc4c5bef6852c1fa92a55ef539009/FuncsForSPO-5.1.0.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [PythonLogging]: Downloading https://files.pythonhosted.org/packages/a1/ee/93bad01fa0a3afdb02198221dda57bdd1dd4499de31e2c137f7968a3af54/PythonLogging-1.0.0.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [PythonLogging]: Downloading https://files.pythonhosted.org/packages/a1/ee/93bad01fa0a3afdb02198221dda57bdd1dd4499de31e2c137f7968a3af54/PythonLogging-1.0.0.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [diot]: Downloading https://files.pythonhosted.org/packages/87/7f/40656b06ec804e205de5c7b1c4f917d64bef6a173e9e02496a67e6ce1118/diot-0.1.7.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [tap-messagebird]: Downloading https://files.pythonhosted.org/packages/ec/d7/1d25f19d07a88a35f0c9ca87d3f94c165f730dab38bf118026b2e23f4e2a/tap_messagebird-0.0.8.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/da/2d/0b0d4e9af78cd9915a0e311486cf86da1bdb43e73f01894ae66961f36744/taipy-core-2.3.0.dev0.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [skit-calls]: Downloading https://files.pythonhosted.org/packages/2f/78/82a290c9dd7966b4e9863f4aad5ca0fffc23f4c9d7b4e2540ab055802779/skit-calls-0.2.8.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/17/57/606d56d3708f3ee8bcb712a591ce2d1ca9c39f6df2bd90a6ee02634e3bf4/dbt-upsolver-1.5.23.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/2b/e0/ebb7be340a6600d1cc1095506c9bdc59d919177d730193c096ea29dc7da2/taipy-gui-2.3.0.dev1.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/26/b5/e6e700be763e10710eb447b97cf2ac23e17f1b4df8a7769fbcb14dc85aff/recognize-0.1.5.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/5d/6b/5c6e9556158d935bbbe2cb7d333e8c8dcc623e5483f058fd96e0bc050d27/FuncsForSPO-5.1.1.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [PythonLogging]: Downloading https://files.pythonhosted.org/packages/e1/6a/6b33ea77394c759c43a0a2a3a5375a69eb83cdb53d4f42b8d9d92a565ec9/PythonLogging-1.0.1.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [PythonLogging]: Downloading https://files.pythonhosted.org/packages/e1/6a/6b33ea77394c759c43a0a2a3a5375a69eb83cdb53d4f42b8d9d92a565ec9/PythonLogging-1.0.1.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-05 18:06:41] INFO root fetch - processPackages [diot]: Downloading https://files.pythonhosted.org/packages/76/49/1ffeb0e2ccc0e56f79193d70f924ebb4880f78a4ae72cfa97ca85b084319/diot-0.1.8.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.1.0.tar.gz tmp/FuncsForSPO-5.1.1.tar.gz --markdown 20230605/F/FuncsForSPO/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-06-05 18:06:41] INFO root fetch - processPackages [recognize]: executing diffoscope
+[2023-06-05 18:06:41] INFO root fetch - processPackages [recognize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognize-0.1.4.tar.gz tmp/recognize-0.1.5.tar.gz --markdown 20230605/r/recognize/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 18:06:41] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/ce/79/475e8a6bf4e5d7b4c141ae7d132d4d834269af01eeaf0f82678d8bdea96a/dbt-upsolver-1.5.24.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/3f/20/984b2e88a77931ff93d3628c5784767ce0c06264f4ce963817d65402f403/taipy-core-2.3.0.dev1.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [tap-messagebird]: Downloading https://files.pythonhosted.org/packages/d7/b4/6a131d4ee35967317b1f8f6189830071d975ad0c7732bdeb94bfaa47b42d/tap_messagebird-0.0.9.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [skit-calls]: Downloading https://files.pythonhosted.org/packages/a0/a2/1df75e5ff48129f8c2a73316a23be7278f3caafecb02b7cd0d1a3f4ae936/skit-calls-0.2.9.tar.gz
+[2023-06-05 18:06:41] INFO root fetch - processPackages [PythonLogging]: executing diffoscope
+[2023-06-05 18:06:41] INFO root fetch - processPackages [PythonLogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonLogging-1.0.0.tar.gz tmp/PythonLogging-1.0.1.tar.gz --markdown 20230605/P/PythonLogging/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 18:06:41] INFO root fetch - processPackages [diot]: executing diffoscope
+[2023-06-05 18:06:41] INFO root fetch - processPackages [diot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diot-0.1.7.tar.gz tmp/diot-0.1.8.tar.gz --markdown 20230605/d/diot/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-05 18:06:41] INFO root fetch - processPackages [PythonLogging]: executing diffoscope
+[2023-06-05 18:06:41] INFO root fetch - processPackages [PythonLogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonLogging-1.0.0.tar.gz tmp/PythonLogging-1.0.1.tar.gz --markdown 20230605/P/PythonLogging/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 18:06:41] INFO root fetch - processPackages [dbt-upsolver]: executing diffoscope
+[2023-06-05 18:06:41] INFO root fetch - processPackages [dbt-upsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-upsolver-1.5.23.tar.gz tmp/dbt-upsolver-1.5.24.tar.gz --markdown 20230605/d/dbt-upsolver/1.5.23-1.5.24/diff.md --exclude *.pyd
+[2023-06-05 18:06:41] INFO root fetch - processPackages [tap-messagebird]: executing diffoscope
+[2023-06-05 18:06:41] INFO root fetch - processPackages [tap-messagebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_messagebird-0.0.8.tar.gz tmp/tap_messagebird-0.0.9.tar.gz --markdown 20230605/t/tap-messagebird/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 18:06:41] INFO root fetch - processPackages [taipy-core]: executing diffoscope
+[2023-06-05 18:06:41] INFO root fetch - processPackages [taipy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-core-2.3.0.dev0.tar.gz tmp/taipy-core-2.3.0.dev1.tar.gz --markdown 20230605/t/taipy-core/2.3.0.dev0-2.3.0.dev1/diff.md --exclude *.pyd
+[2023-06-05 18:06:41] INFO root fetch - processPackages [skit-calls]: executing diffoscope
+[2023-06-05 18:06:41] INFO root fetch - processPackages [skit-calls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skit-calls-0.2.8.tar.gz tmp/skit-calls-0.2.9.tar.gz --markdown 20230605/s/skit-calls/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 18:06:41] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/3b/a4/9ae597e364d49d56056b7ae46b6f02a3cb1feb581b35773eff2f31ca8be1/taipy-gui-2.3.0.dev2.tar.gz
+[2023-06-05 18:06:42] INFO root fetch - processPackages [taipy-gui]: executing diffoscope
+[2023-06-05 18:06:42] INFO root fetch - processPackages [taipy-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-gui-2.3.0.dev1.tar.gz tmp/taipy-gui-2.3.0.dev2.tar.gz --markdown 20230605/t/taipy-gui/2.3.0.dev1-2.3.0.dev2/diff.md --exclude *.pyd
+[2023-06-05 18:06:42] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.4.tar.gz]
+[2023-06-05 18:06:42] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.5.tar.gz]
+[2023-06-05 18:06:42] INFO root fetch - processPackages [recognize]: Start processing: hdn-research-environment
+[2023-06-05 18:06:42] INFO root fetch - main [MainThread]: End processing [recognize]: success
+[2023-06-05 18:06:42] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.1.0] Old Version: [2.0.7]
+[2023-06-05 18:06:42] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/7e/12/30dcbb7ef7c16c13e8be24a00cc5e1e6e8a1b2703ce1646025daf900bf9c/hdn-research-environment-2.0.7.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [tap-messagebird]: Remove: archive file [/home/abi/fetcher/tmp/tap_messagebird-0.0.8.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [tap-messagebird]: Remove: archive file [/home/abi/fetcher/tmp/tap_messagebird-0.0.9.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [tap-messagebird]: Start processing: semter
+[2023-06-05 18:06:43] INFO root fetch - main [MainThread]: End processing [tap-messagebird]: success
+[2023-06-05 18:06:43] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/bd/9b/b72e1a6fd501360b5963d7469e824b1017ddaeeb7a9ae6faf57e73108a90/hdn-research-environment-2.1.0.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [PythonLogging]: Remove: archive file [/home/abi/fetcher/tmp/PythonLogging-1.0.0.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [PythonLogging]: Remove: archive file [/home/abi/fetcher/tmp/PythonLogging-1.0.1.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [PythonLogging]: Start processing: django-streamfield
+[2023-06-05 18:06:43] INFO root fetch - main [MainThread]: End processing [PythonLogging]: success
+[2023-06-05 18:06:43] INFO root fetch - processPackages [PythonLogging]: Start processing: steamship-langchain
+[2023-06-05 18:06:43] INFO root fetch - main [MainThread]: End processing [PythonLogging]: success
+[2023-06-05 18:06:43] WARNING root fetch - processPackages [semter]: Skipping, unable to determine old version
+[2023-06-05 18:06:43] INFO root fetch - processPackages [semter]: Start processing: heisenbergpy
+[2023-06-05 18:06:43] INFO root fetch - main [MainThread]: End processing [semter] error
+[2023-06-05 18:06:43] INFO root fetch - processPackages [django-streamfield]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [steamship-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 18:06:43] WARNING root fetch - processPackages [heisenbergpy]: Skipping, unable to determine old version
+[2023-06-05 18:06:43] INFO root fetch - processPackages [heisenbergpy]: Start processing: holidays
+[2023-06-05 18:06:43] INFO root fetch - main [MainThread]: End processing [heisenbergpy] error
+[2023-06-05 18:06:43] INFO root fetch - processPackages [holidays]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [django-streamfield]: Downloading https://files.pythonhosted.org/packages/d8/33/2c85263f5e613e29f4d0c27699fdcba22d4ea7b484de2ceb3218c155d37a/django-streamfield-2.1.1.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [diot]: Remove: archive file [/home/abi/fetcher/tmp/diot-0.1.7.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [diot]: Remove: archive file [/home/abi/fetcher/tmp/diot-0.1.8.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [diot]: Start processing: cloudview
+[2023-06-05 18:06:43] INFO root fetch - main [MainThread]: End processing [diot]: success
+[2023-06-05 18:06:43] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-06-05 18:06:43] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.0.7.tar.gz tmp/hdn-research-environment-2.1.0.tar.gz --markdown 20230605/h/hdn-research-environment/2.0.7-2.1.0/diff.md --exclude *.pyd
+[2023-06-05 18:06:43] INFO root fetch - processPackages [cloudview]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/28/9b/7d30260ef422e30d955c8e4ebaea1b7da8fe8e82ed497d0e37cfe71a5062/steamship-langchain-0.0.8.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [skit-calls]: Remove: archive file [/home/abi/fetcher/tmp/skit-calls-0.2.8.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [skit-calls]: Remove: archive file [/home/abi/fetcher/tmp/skit-calls-0.2.9.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [skit-calls]: Start processing: quantplay
+[2023-06-05 18:06:43] INFO root fetch - main [MainThread]: End processing [skit-calls]: success
+[2023-06-05 18:06:43] INFO root fetch - processPackages [quantplay]: New version: [1.2.96] Old Version: [1.2.95]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/cc/da/7d0642a8b94ea413fc7005f4538c01475a45b420d705f57481752552ac55/holidays-0.9.8.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [cloudview]: Downloading https://files.pythonhosted.org/packages/6f/0b/49f08fbaf3686aaa208cee0e9a13f32fa8de268a4d22a0054fd57dac33fe/cloudview-0.3.8.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [django-streamfield]: Downloading https://files.pythonhosted.org/packages/13/e0/54799508ea0a9a061aa9919d7c772b46b4cce2010dafb745729c5b52fb24/django-streamfield-2.1.2.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [dbt-upsolver]: Remove: archive file [/home/abi/fetcher/tmp/dbt-upsolver-1.5.23.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [dbt-upsolver]: Remove: archive file [/home/abi/fetcher/tmp/dbt-upsolver-1.5.24.tar.gz]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [dbt-upsolver]: Start processing: labjack-pic
+[2023-06-05 18:06:43] INFO root fetch - main [MainThread]: End processing [dbt-upsolver]: success
+[2023-06-05 18:06:43] INFO root fetch - processPackages [django-streamfield]: executing diffoscope
+[2023-06-05 18:06:43] INFO root fetch - processPackages [django-streamfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-streamfield-2.1.1.tar.gz tmp/django-streamfield-2.1.2.tar.gz --markdown 20230605/d/django-streamfield/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-05 18:06:43] INFO root fetch - processPackages [labjack-pic]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 18:06:43] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/4c/4e/aa9d1f881210be036a1d852f07b8d99654b1bb6899e0a9fee110211c9d03/quantplay-1.2.95.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/d3/e8/99fd7d90895f3d224f2fe3210c59f541a6187cc6e3aab13e92fa5e2da113/steamship-langchain-0.0.9.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/40/b0/3dfe3d3ed79087848a22de46d379462e371517571ee64668791f3d49ea29/holidays-0.9.9.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [cloudview]: Downloading https://files.pythonhosted.org/packages/cc/5b/43d1a70f90eb47e90185104015d0eb74a83c6ecd083b1583296862f5b2b3/cloudview-0.3.9.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [labjack-pic]: Downloading https://files.pythonhosted.org/packages/79/e2/e208e39811298562dd278e1ec5af03bac85e70dc61a74fe0cb5c89a5af8d/labjack_pic-0.0.4.tar.gz
+[2023-06-05 18:06:43] INFO root fetch - processPackages [steamship-langchain]: executing diffoscope
+[2023-06-05 18:06:43] INFO root fetch - processPackages [steamship-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-langchain-0.0.8.tar.gz tmp/steamship-langchain-0.0.9.tar.gz --markdown 20230605/s/steamship-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 18:06:43] INFO root fetch - processPackages [holidays]: executing diffoscope
+[2023-06-05 18:06:43] INFO root fetch - processPackages [holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holidays-0.9.8.tar.gz tmp/holidays-0.9.9.tar.gz --markdown 20230605/h/holidays/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-05 18:06:43] INFO root fetch - processPackages [cloudview]: executing diffoscope
+[2023-06-05 18:06:43] INFO root fetch - processPackages [cloudview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudview-0.3.8.tar.gz tmp/cloudview-0.3.9.tar.gz --markdown 20230605/c/cloudview/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-05 18:06:43] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/05/da/e9e2cc2cb197fa1718a20d5127d55c3b1d308f61be30c0e2f1bc226bf1a1/quantplay-1.2.96.tar.gz
+[2023-06-05 18:06:44] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-5.1.0.tar.gz]
+[2023-06-05 18:06:44] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-5.1.1.tar.gz]
+[2023-06-05 18:06:44] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-05 18:06:44] INFO root fetch - processPackages [labjack-pic]: Downloading https://files.pythonhosted.org/packages/67/1b/26e439f545e3a1fbff7e35c917000767a1d6bfadc4b639ad91391922e834/labjack_pic-0.0.5.tar.gz
+[2023-06-05 18:06:44] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-06-05 18:06:44] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.95.tar.gz tmp/quantplay-1.2.96.tar.gz --markdown 20230605/q/quantplay/1.2.95-1.2.96/diff.md --exclude *.pyd
+[2023-06-05 18:06:44] INFO root fetch - processPackages [labjack-pic]: executing diffoscope
+[2023-06-05 18:06:44] INFO root fetch - processPackages [labjack-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labjack_pic-0.0.4.tar.gz tmp/labjack_pic-0.0.5.tar.gz --markdown 20230605/l/labjack-pic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 18:06:44] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-2.3.0.dev0.tar.gz]
+[2023-06-05 18:06:44] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-2.3.0.dev1.tar.gz]
+[2023-06-05 18:06:44] INFO root fetch - main [MainThread]: End processing [taipy-core]: success
+[2023-06-05 18:06:44] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.0.7.tar.gz]
+[2023-06-05 18:06:44] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.0.tar.gz]
+[2023-06-05 18:06:44] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-06-05 18:06:45] INFO root fetch - processPackages [cloudview]: Remove: archive file [/home/abi/fetcher/tmp/cloudview-0.3.8.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - processPackages [cloudview]: Remove: archive file [/home/abi/fetcher/tmp/cloudview-0.3.9.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - main [MainThread]: End processing [cloudview]: success
+[2023-06-05 18:06:45] INFO root fetch - processPackages [steamship-langchain]: Remove: archive file [/home/abi/fetcher/tmp/steamship-langchain-0.0.8.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - processPackages [steamship-langchain]: Remove: archive file [/home/abi/fetcher/tmp/steamship-langchain-0.0.9.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
+[2023-06-05 18:06:45] INFO root fetch - processPackages [labjack-pic]: Remove: archive file [/home/abi/fetcher/tmp/labjack_pic-0.0.4.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - processPackages [labjack-pic]: Remove: archive file [/home/abi/fetcher/tmp/labjack_pic-0.0.5.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - main [MainThread]: End processing [labjack-pic]: success
+[2023-06-05 18:06:45] INFO root fetch - processPackages [holidays]: Remove: archive file [/home/abi/fetcher/tmp/holidays-0.9.8.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - processPackages [holidays]: Remove: archive file [/home/abi/fetcher/tmp/holidays-0.9.9.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - main [MainThread]: End processing [holidays]: success
+[2023-06-05 18:06:45] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.2.95.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.2.96.tar.gz]
+[2023-06-05 18:06:45] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-06-05 18:06:46] INFO root fetch - processPackages [django-streamfield]: Remove: archive file [/home/abi/fetcher/tmp/django-streamfield-2.1.1.tar.gz]
+[2023-06-05 18:06:46] INFO root fetch - processPackages [django-streamfield]: Remove: archive file [/home/abi/fetcher/tmp/django-streamfield-2.1.2.tar.gz]
+[2023-06-05 18:06:46] INFO root fetch - main [MainThread]: End processing [django-streamfield]: success
+[2023-06-05 18:06:54] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-2.3.0.dev1.tar.gz]
+[2023-06-05 18:06:54] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-2.3.0.dev2.tar.gz]
+[2023-06-05 18:06:54] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
+[2023-06-05 18:06:54] INFO root fetch - main [MainThread]: Store serial: [18378378]
