@@ -12985,3 +12985,162 @@ AssertionError: tmp/ms_salesforce_api-0.0.38.tar.gz does not exist
 [2023-06-05 14:56:35] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-06-05 14:56:35] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-06-05 14:56:35] INFO root fetch - main [MainThread]: Store serial: [18376013]
+[2023-06-05 15:01:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18376013]
+[2023-06-05 15:01:43] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-graphql-sdk
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypackagelicenseprototype
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: debater-python-api
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panml
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proteinflow
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edxbackup
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: test-graphql-sdk
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lamindb_setup
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airtable-view-fetcher
+[2023-06-05 15:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: helyos-agent-sdk
+[2023-06-05 15:01:43] INFO root fetch - processPackages [edxbackup]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [debater-python-api]: New version: [5.0.0] Old Version: [4.3.2]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [proteinflow]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [airtable-view-fetcher]: New version: [0.3.2] Old Version: [0.2.0]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [lamindb_setup]: New version: [0.46a4] Old Version: [0.46a3]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [panml]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [helyos-agent-sdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-05 15:01:43] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 15:01:43] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/8e/53/5c9ae0a33f34ad78177eebbdaba1cb16916c7832c7c4306de3f8bc2e719f/test_graphql_sdk-0.0.7.tar.gz
+[2023-06-05 15:01:43] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/8e/53/5c9ae0a33f34ad78177eebbdaba1cb16916c7832c7c4306de3f8bc2e719f/test_graphql_sdk-0.0.7.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [airtable-view-fetcher]: Downloading https://files.pythonhosted.org/packages/15/b5/4ceea824e2663af0d89a869e0c8dc66a188c4060af3c42e6c38687a83c66/airtable_view_fetcher-0.2.0.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [edxbackup]: Downloading https://files.pythonhosted.org/packages/64/a8/23b1bcc3f76f09687f24ea5fa4d06b7622a7be50b9860123fc76afa7d578/edxbackup-3.1.0.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [helyos-agent-sdk]: Downloading https://files.pythonhosted.org/packages/36/50/a1975996fc4cef69cb8670c67e461c5b88624df1250f8d69df16666edb3a/helyos_agent_sdk-0.4.0.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [debater-python-api]: Downloading https://files.pythonhosted.org/packages/aa/63/256efa503e36304b445c0cdd57b409cba6c69e3ce4e9c93ed4ad5c26f223/debater_python_api-4.3.2.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 15:01:44] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/3e/5c/ac05cf07de566be7d1b37b5ff2fad4c5edfe98dd415f688146d203bd32dc/panml-0.0.24.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/a5/d3/10c21714ae7b0d50b455a1c3c82742a71869aff620f767031d7db3a5fd6c/proteinflow-1.3.5.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/5b/cb/9b0b71717cf6f79a8f860edf65113a196b339af545784bd4bbc36e8f5f7b/lamindb_setup-0.46a3.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 15:01:44] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/2b/47/6417a7e32e5e86e3400ea1298e1a44395fbffa3a18982f399ebfd88a471e/test_graphql_sdk-0.0.8.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/2b/47/6417a7e32e5e86e3400ea1298e1a44395fbffa3a18982f399ebfd88a471e/test_graphql_sdk-0.0.8.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.0.7.tar.gz tmp/test_graphql_sdk-0.0.8.tar.gz --markdown 20230605/t/test-graphql-sdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 15:01:44] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.0.7.tar.gz tmp/test_graphql_sdk-0.0.8.tar.gz --markdown 20230605/t/test-graphql-sdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 15:01:44] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/39/ea/4dfea4d9e53c76e418fc5b36d2ba5c77bb11cc3d233a6ea2eb714266acf3/panml-0.0.25.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-0.0.24.tar.gz tmp/panml-0.0.25.tar.gz --markdown 20230605/p/panml/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-06-05 15:01:44] INFO root fetch - processPackages [airtable-view-fetcher]: Downloading https://files.pythonhosted.org/packages/30/6b/7871e27a11bfb0e24ef11d0403ee9f511488a4a22340c4ad89be7e995b97/airtable_view_fetcher-0.3.2.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [helyos-agent-sdk]: Downloading https://files.pythonhosted.org/packages/8a/1b/0f23cebcdab4fa3c061b4fc6f380d4f0762b4a1b03a137cb028406c6b3fd/helyos_agent_sdk-0.5.0.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [edxbackup]: Downloading https://files.pythonhosted.org/packages/61/d4/6d8c6b9b4c91bb5c468105c3227c58134dc1860364d61bdda02d5ae2a57e/edxbackup-3.1.1.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/d5/da/e88c4904324b2a68ccd612daa7ba73777f8146429f40d4dcf603b0a071e2/lamindb_setup-0.46a4.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [debater-python-api]: Downloading https://files.pythonhosted.org/packages/a8/10/e205424590a357295efa12e26072e949ca2afd7d92b53b69a261ffcf3c27/debater_python_api-5.0.0.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [airtable-view-fetcher]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [airtable-view-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtable_view_fetcher-0.2.0.tar.gz tmp/airtable_view_fetcher-0.3.2.tar.gz --markdown 20230605/a/airtable-view-fetcher/0.2.0-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 15:01:44] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/b4/fd/53bebe14150f88e3d47cd170e8ab06328168bb1df0fad6811b91acf81497/proteinflow-1.3.6.tar.gz
+[2023-06-05 15:01:44] INFO root fetch - processPackages [helyos-agent-sdk]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [helyos-agent-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helyos_agent_sdk-0.4.0.tar.gz tmp/helyos_agent_sdk-0.5.0.tar.gz --markdown 20230605/h/helyos-agent-sdk/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-05 15:01:44] INFO root fetch - processPackages [edxbackup]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [edxbackup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edxbackup-3.1.0.tar.gz tmp/edxbackup-3.1.1.tar.gz --markdown 20230605/e/edxbackup/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-05 15:01:44] INFO root fetch - processPackages [debater-python-api]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [debater-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debater_python_api-4.3.2.tar.gz tmp/debater_python_api-5.0.0.tar.gz --markdown 20230605/d/debater-python-api/4.3.2-5.0.0/diff.md --exclude *.pyd
+[2023-06-05 15:01:44] INFO root fetch - processPackages [proteinflow]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [proteinflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinflow-1.3.5.tar.gz tmp/proteinflow-1.3.6.tar.gz --markdown 20230605/p/proteinflow/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-05 15:01:44] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-06-05 15:01:44] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.46a3.tar.gz tmp/lamindb_setup-0.46a4.tar.gz --markdown 20230605/l/lamindb_setup/0.46a3-0.46a4/diff.md --exclude *.pyd
+[2023-06-05 15:01:45] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 15:01:45] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 15:01:45] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: certora-cli-alpha-master
+[2023-06-05 15:01:45] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 15:01:45] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230605.8.1.375473] Old Version: [20230605.12.9.725805]
+[2023-06-05 15:01:45] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/48/ae/15f10f1b3c78909eece90aadfe5157068b96641a7299c1d88d6d388c9e29/certora-cli-alpha-master-20230605.12.9.725805.tar.gz
+[2023-06-05 15:01:45] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39177636>=10485760
+[2023-06-05 15:01:45] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: django-image-compress
+[2023-06-05 15:01:45] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-05 15:01:45] INFO root fetch - processPackages [django-image-compress]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 15:01:45] INFO root fetch - processPackages [django-image-compress]: Downloading https://files.pythonhosted.org/packages/dc/e5/e4ade25f3f6a6dc8db5e0ebedcd7d272b3326ade628cee7d8398fd99ecd6/django_image_compress-1.0.0.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.7.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.8.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [test-graphql-sdk]: Start processing: petljadoc
+[2023-06-05 15:01:46] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-05 15:01:46] INFO root fetch - processPackages [test-graphql-sdk]: Start processing: nonebot-plugin-game-collection
+[2023-06-05 15:01:46] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-05 15:01:46] INFO root fetch - processPackages [petljadoc]: New version: [1.3.3] Old Version: [1.3.1]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [django-image-compress]: Downloading https://files.pythonhosted.org/packages/2f/f2/93b76bf91f8ca25835dabbfb743e687468d69950716fd138203f28ce228c/django_image_compress-1.0.1.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [airtable-view-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/airtable_view_fetcher-0.2.0.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [airtable-view-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/airtable_view_fetcher-0.3.2.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [airtable-view-fetcher]: Start processing: Name-conversion
+[2023-06-05 15:01:46] INFO root fetch - main [MainThread]: End processing [airtable-view-fetcher]: success
+[2023-06-05 15:01:46] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/03/14/0ec39d5d57e925430705b9ab292c93c9d825a2d8eae5bd580bda1e824ec3/nonebot_plugin_game_collection-2.1.5.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [django-image-compress]: executing diffoscope
+[2023-06-05 15:01:46] INFO root fetch - processPackages [django-image-compress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_image_compress-1.0.0.tar.gz tmp/django_image_compress-1.0.1.tar.gz --markdown 20230605/d/django-image-compress/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 15:01:46] WARNING root fetch - processPackages [Name-conversion]: Skipping, unable to determine old version
+[2023-06-05 15:01:46] INFO root fetch - processPackages [Name-conversion]: Start processing: commonX
+[2023-06-05 15:01:46] INFO root fetch - main [MainThread]: End processing [Name-conversion] error
+[2023-06-05 15:01:46] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/30/a4/88376e0850cc2dac8e08d09ec467718df540da5e58b2cf5eccbfc1cbef39/nonebot_plugin_game_collection-2.1.6.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [petljadoc]: Downloading https://files.pythonhosted.org/packages/a8/9f/50a3cb1cb2de1268a36670658dbbe24d7d49892108edeff2c39cfe7ab04c/petljadoc-1.3.1.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-05 15:01:46] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.1.5.tar.gz tmp/nonebot_plugin_game_collection-2.1.6.tar.gz --markdown 20230605/n/nonebot-plugin-game-collection/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-05 15:01:46] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-0.0.24.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-0.0.25.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [panml]: Start processing: lnschema_bionty
+[2023-06-05 15:01:46] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-06-05 15:01:46] INFO root fetch - processPackages [commonX]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [edxbackup]: Remove: archive file [/home/abi/fetcher/tmp/edxbackup-3.1.0.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [edxbackup]: Remove: archive file [/home/abi/fetcher/tmp/edxbackup-3.1.1.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [edxbackup]: Start processing: napari-svg
+[2023-06-05 15:01:46] INFO root fetch - main [MainThread]: End processing [edxbackup]: success
+[2023-06-05 15:01:46] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [napari-svg]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/5a/02/6eb4c8b1bedeb5a5faa7c0738f73074e7fcef7ea8d200704e084cb817aaa/commonX-0.4.5.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [helyos-agent-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helyos_agent_sdk-0.4.0.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [helyos-agent-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helyos_agent_sdk-0.5.0.tar.gz]
+[2023-06-05 15:01:46] INFO root fetch - processPackages [helyos-agent-sdk]: Start processing: offiaccount
+[2023-06-05 15:01:46] INFO root fetch - main [MainThread]: End processing [helyos-agent-sdk]: success
+[2023-06-05 15:01:46] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [napari-svg]: Downloading https://files.pythonhosted.org/packages/03/fd/0edd85a577a3b043f713b1ebe2acc961df1d94f6873a9a9150aa93a24162/napari-svg-0.1.7.tar.gz
+[2023-06-05 15:01:46] WARNING root fetch - processPackages [offiaccount]: Skipping, unable to determine old version
+[2023-06-05 15:01:46] INFO root fetch - processPackages [offiaccount]: Start processing: mlx2md
+[2023-06-05 15:01:46] INFO root fetch - main [MainThread]: End processing [offiaccount] error
+[2023-06-05 15:01:46] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-05 15:01:46] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230605/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 15:01:46] WARNING root fetch - processPackages [mlx2md]: Skipping, unable to determine old version
+[2023-06-05 15:01:46] INFO root fetch - main [MainThread]: End processing [mlx2md] error
+[2023-06-05 15:01:46] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/3b/b0/cc0807669e6b9aa4848b1b4d290a22f9f5fbb74ccd2891ca84074dc8d38d/commonX-0.4.6.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [napari-svg]: Downloading https://files.pythonhosted.org/packages/d7/fd/786b6663580330fbf16786e5fb16cd50947821a21ee6f28ad41029b985cb/napari-svg-0.1.8.tar.gz
+[2023-06-05 15:01:46] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-06-05 15:01:46] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.5.tar.gz tmp/commonX-0.4.6.tar.gz --markdown 20230605/c/commonX/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-05 15:01:47] INFO root fetch - processPackages [napari-svg]: executing diffoscope
+[2023-06-05 15:01:47] INFO root fetch - processPackages [napari-svg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-svg-0.1.7.tar.gz tmp/napari-svg-0.1.8.tar.gz --markdown 20230605/n/napari-svg/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-05 15:01:47] INFO root fetch - processPackages [proteinflow]: Remove: archive file [/home/abi/fetcher/tmp/proteinflow-1.3.5.tar.gz]
+[2023-06-05 15:01:47] INFO root fetch - processPackages [proteinflow]: Remove: archive file [/home/abi/fetcher/tmp/proteinflow-1.3.6.tar.gz]
+[2023-06-05 15:01:47] INFO root fetch - main [MainThread]: End processing [proteinflow]: success
+[2023-06-05 15:01:47] INFO root fetch - processPackages [django-image-compress]: Remove: archive file [/home/abi/fetcher/tmp/django_image_compress-1.0.0.tar.gz]
+[2023-06-05 15:01:47] INFO root fetch - processPackages [django-image-compress]: Remove: archive file [/home/abi/fetcher/tmp/django_image_compress-1.0.1.tar.gz]
+[2023-06-05 15:01:47] INFO root fetch - main [MainThread]: End processing [django-image-compress]: success
+[2023-06-05 15:01:47] INFO root fetch - processPackages [petljadoc]: Downloading https://files.pythonhosted.org/packages/c8/b4/08b5b8981ff6110579e1d35d2fddc802319f520efdefadb328fdbd75109e/petljadoc-1.3.3.tar.gz
+[2023-06-05 15:01:47] INFO root fetch - processPackages [petljadoc]: executing diffoscope
+[2023-06-05 15:01:47] INFO root fetch - processPackages [petljadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petljadoc-1.3.1.tar.gz tmp/petljadoc-1.3.3.tar.gz --markdown 20230605/p/petljadoc/1.3.1-1.3.3/diff.md --exclude *.pyd
+[2023-06-05 15:01:47] INFO root fetch - processPackages [debater-python-api]: Remove: archive file [/home/abi/fetcher/tmp/debater_python_api-4.3.2.tar.gz]
+[2023-06-05 15:01:47] INFO root fetch - processPackages [debater-python-api]: Remove: archive file [/home/abi/fetcher/tmp/debater_python_api-5.0.0.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - main [MainThread]: End processing [debater-python-api]: success
+[2023-06-05 15:01:48] INFO root fetch - processPackages [napari-svg]: Remove: archive file [/home/abi/fetcher/tmp/napari-svg-0.1.7.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - processPackages [napari-svg]: Remove: archive file [/home/abi/fetcher/tmp/napari-svg-0.1.8.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - main [MainThread]: End processing [napari-svg]: success
+[2023-06-05 15:01:48] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-05 15:01:48] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.4.5.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.4.6.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-06-05 15:01:48] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.5.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.6.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-05 15:01:48] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.46a3.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.46a4.tar.gz]
+[2023-06-05 15:01:48] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-06-05 15:02:02] INFO root fetch - processPackages [petljadoc]: Remove: archive file [/home/abi/fetcher/tmp/petljadoc-1.3.1.tar.gz]
+[2023-06-05 15:02:02] INFO root fetch - processPackages [petljadoc]: Remove: archive file [/home/abi/fetcher/tmp/petljadoc-1.3.3.tar.gz]
+[2023-06-05 15:02:02] INFO root fetch - main [MainThread]: End processing [petljadoc]: success
+[2023-06-05 15:02:02] INFO root fetch - main [MainThread]: Store serial: [18376086]
