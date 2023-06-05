@@ -12864,3 +12864,124 @@ AssertionError: tmp/ms_salesforce_api-0.0.38.tar.gz does not exist
 [2023-06-05 14:51:19] INFO root fetch - processPackages [hhpy]: Remove: archive file [/home/abi/fetcher/tmp/hhpy-0.3.1.tar.gz]
 [2023-06-05 14:51:19] INFO root fetch - main [MainThread]: End processing [hhpy]: success
 [2023-06-05 14:51:19] INFO root fetch - main [MainThread]: Store serial: [18375957]
+[2023-06-05 14:56:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375957]
+[2023-06-05 14:56:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-graphql-sdk
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foldedtensor
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liquibase-datasource
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textbsr
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: manticore
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiodbm
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cn2an
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idoctorai
+[2023-06-05 14:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: test-graphql-sdk
+[2023-06-05 14:56:28] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [foldedtensor]: New version: [0.2.2] Old Version: [0.2.1.post0]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [idoctorai]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [aiodbm]: New version: [0.2.0b1] Old Version: [0.2.0a1]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [liquibase-datasource]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [textbsr]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [cn2an]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230605] Old Version: [0.3.8.dev230604]
+[2023-06-05 14:56:28] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/79/45/30485063636efad6091b0b1b3c3539beddc5f6a2eb3493917252ca013b3c/textbsr-0.1.5.tar.gz
+[2023-06-05 14:56:28] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-05 14:56:28] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/1d/c9/963708766907c29abc57536cbd69c340a8540fb6a8edf33fc0acd46ef7e5/test_graphql_sdk-0.0.5.tar.gz
+[2023-06-05 14:56:28] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/1d/c9/963708766907c29abc57536cbd69c340a8540fb6a8edf33fc0acd46ef7e5/test_graphql_sdk-0.0.5.tar.gz
+[2023-06-05 14:56:28] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/73/4d/ff43be89bbbdf28598f12b78b0a7520e6976976213477b160b15857630e5/idoctorai-0.1.6.tar.gz
+[2023-06-05 14:56:28] INFO root fetch - processPackages [aiodbm]: Downloading https://files.pythonhosted.org/packages/c3/12/a2969926ec3830dd2fd2d9fa4844db3d370d3b554c3c1ff619e3d9061bb1/aiodbm-0.2.0a1.tar.gz
+[2023-06-05 14:56:28] INFO root fetch - processPackages [cn2an]: Downloading https://files.pythonhosted.org/packages/1e/80/94651e1bb107befee3fa4c659836b92ca27bb547ee19b2f34a93b874744f/cn2an-0.5.8.tar.gz
+[2023-06-05 14:56:28] INFO root fetch - processPackages [foldedtensor]: Downloading https://files.pythonhosted.org/packages/f1/b9/73f6e1b9d44fd0ecf01e00aa3d35747eeeb4ef8868132047642d385f1273/foldedtensor-0.2.1.post0.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/d1/e7/2b8dde1c9c27f71f84f35fca76fc9b595c16b3fc87a8bdae1377a7567a8a/manticore-0.3.8.dev230604.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [liquibase-datasource]: Downloading https://files.pythonhosted.org/packages/83/9e/ecbcec0f7cbf479d20948dea1e1d2c6ed832d1c2207dbabffc047d708b2a/liquibase-datasource-0.1.0.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/d7/67/6649657230dcc13b8c7a824766986b90267c05210610087034aacc9475f3/textbsr-0.1.7.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/bf/f7/a7b01355ae691f494f9062bb50dcd82e030b1909f85e4c71b8266a901b00/test_graphql_sdk-0.0.6.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/3e/c5/388c947c2b7bdf9238aac07739367142c321439281bbfa37405351e7038c/idoctorai-0.1.7.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/bf/f7/a7b01355ae691f494f9062bb50dcd82e030b1909f85e4c71b8266a901b00/test_graphql_sdk-0.0.6.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/de/54/c45bc06ed3356d896d3ed9318f952e7ef424969c8535e7f09fc99b10befa/manticore-0.3.8.dev230605.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.1.5.tar.gz tmp/textbsr-0.1.7.tar.gz --markdown 20230605/t/textbsr/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 14:56:29] INFO root fetch - processPackages [foldedtensor]: Downloading https://files.pythonhosted.org/packages/ba/c6/79989def4067b38d9eee9a81e04be3bd923eb4aa7da59764879bff2b652e/foldedtensor-0.2.2.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [liquibase-datasource]: Downloading https://files.pythonhosted.org/packages/ca/fd/4dad18d75d0bf3f575bac568b50dc44d0c28b9ebf788f3cc902a0d7e9b2d/liquibase-datasource-0.1.1.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [aiodbm]: Downloading https://files.pythonhosted.org/packages/4c/62/b939f925d1e064ed1da412475f402aa95869a25e7fc0d83dfce17bd9892b/aiodbm-0.2.0b1.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.0.5.tar.gz tmp/test_graphql_sdk-0.0.6.tar.gz --markdown 20230605/t/test-graphql-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 14:56:29] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.1.6.tar.gz tmp/idoctorai-0.1.7.tar.gz --markdown 20230605/i/idoctorai/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-05 14:56:29] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.0.5.tar.gz tmp/test_graphql_sdk-0.0.6.tar.gz --markdown 20230605/t/test-graphql-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 14:56:29] INFO root fetch - processPackages [cn2an]: Downloading https://files.pythonhosted.org/packages/ab/58/4aa3b83a5d801afb7bd4fed2545125a63b2bfff8f4f106ac41f1b8d14552/cn2an-0.5.9.tar.gz
+[2023-06-05 14:56:29] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230605/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 14:56:29] INFO root fetch - processPackages [foldedtensor]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [foldedtensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foldedtensor-0.2.1.post0.tar.gz tmp/foldedtensor-0.2.2.tar.gz --markdown 20230605/f/foldedtensor/0.2.1.post0-0.2.2/diff.md --exclude *.pyd
+[2023-06-05 14:56:29] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230604.tar.gz tmp/manticore-0.3.8.dev230605.tar.gz --markdown 20230605/m/manticore/0.3.8.dev230604-0.3.8.dev230605/diff.md --exclude *.pyd
+[2023-06-05 14:56:29] INFO root fetch - processPackages [aiodbm]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [aiodbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodbm-0.2.0a1.tar.gz tmp/aiodbm-0.2.0b1.tar.gz --markdown 20230605/a/aiodbm/0.2.0a1-0.2.0b1/diff.md --exclude *.pyd
+[2023-06-05 14:56:29] INFO root fetch - processPackages [cn2an]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [cn2an]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cn2an-0.5.8.tar.gz tmp/cn2an-0.5.9.tar.gz --markdown 20230605/c/cn2an/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-05 14:56:29] INFO root fetch - processPackages [liquibase-datasource]: executing diffoscope
+[2023-06-05 14:56:29] INFO root fetch - processPackages [liquibase-datasource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquibase-datasource-0.1.0.tar.gz tmp/liquibase-datasource-0.1.1.tar.gz --markdown 20230605/l/liquibase-datasource/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 14:56:30] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.5.tar.gz]
+[2023-06-05 14:56:30] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.6.tar.gz]
+[2023-06-05 14:56:30] INFO root fetch - processPackages [test-graphql-sdk]: Start processing: stc-tools
+[2023-06-05 14:56:30] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-05 14:56:30] INFO root fetch - processPackages [stc-tools]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-05 14:56:30] INFO root fetch - processPackages [stc-tools]: Downloading https://files.pythonhosted.org/packages/3c/3b/8d11584e408e75078ddc6da9fc22c123eee1d321bcce9ffede6f41b410a1/stc-tools-1.2.1.tar.gz
+[2023-06-05 14:56:31] INFO root fetch - processPackages [liquibase-datasource]: Remove: archive file [/home/abi/fetcher/tmp/liquibase-datasource-0.1.0.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - processPackages [liquibase-datasource]: Remove: archive file [/home/abi/fetcher/tmp/liquibase-datasource-0.1.1.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - processPackages [liquibase-datasource]: Start processing: fsspec-dnanexus
+[2023-06-05 14:56:31] INFO root fetch - main [MainThread]: End processing [liquibase-datasource]: success
+[2023-06-05 14:56:31] INFO root fetch - processPackages [fsspec-dnanexus]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 14:56:31] INFO root fetch - processPackages [test-graphql-sdk]: Start processing: monaco-racing-report-kir-boh
+[2023-06-05 14:56:31] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-05 14:56:31] WARNING root fetch - processPackages [monaco-racing-report-kir-boh]: Skipping, unable to determine old version
+[2023-06-05 14:56:31] INFO root fetch - processPackages [monaco-racing-report-kir-boh]: Start processing: mock-data-generator
+[2023-06-05 14:56:31] INFO root fetch - main [MainThread]: End processing [monaco-racing-report-kir-boh] error
+[2023-06-05 14:56:31] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.1.6.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.1.7.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-05 14:56:31] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.5.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.7.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-06-05 14:56:31] INFO root fetch - processPackages [mock-data-generator]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-05 14:56:31] INFO root fetch - processPackages [foldedtensor]: Remove: archive file [/home/abi/fetcher/tmp/foldedtensor-0.2.1.post0.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - processPackages [foldedtensor]: Remove: archive file [/home/abi/fetcher/tmp/foldedtensor-0.2.2.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - main [MainThread]: End processing [foldedtensor]: success
+[2023-06-05 14:56:31] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/52/c2/510869e0d35d69afac207410232d4a802c66314c2d3dd698c5d6de7307e8/mock_data_generator-1.1.1.tar.gz
+[2023-06-05 14:56:31] INFO root fetch - processPackages [stc-tools]: Downloading https://files.pythonhosted.org/packages/bc/ad/819b6571281f7e491a87685c0dbb3f52b02268a405736f85a42572b7f6c8/stc-tools-1.2.2.tar.gz
+[2023-06-05 14:56:31] INFO root fetch - processPackages [fsspec-dnanexus]: Downloading https://files.pythonhosted.org/packages/ca/3a/e6fc9b6454a8c2e0265a64116c74ca89f79770549f7724b94ddfe9f5636e/fsspec_dnanexus-0.0.2-py3-none-any.whl
+[2023-06-05 14:56:31] INFO root fetch - processPackages [cn2an]: Remove: archive file [/home/abi/fetcher/tmp/cn2an-0.5.8.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - processPackages [cn2an]: Remove: archive file [/home/abi/fetcher/tmp/cn2an-0.5.9.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - main [MainThread]: End processing [cn2an]: success
+[2023-06-05 14:56:31] INFO root fetch - processPackages [aiodbm]: Remove: archive file [/home/abi/fetcher/tmp/aiodbm-0.2.0a1.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - processPackages [aiodbm]: Remove: archive file [/home/abi/fetcher/tmp/aiodbm-0.2.0b1.tar.gz]
+[2023-06-05 14:56:31] INFO root fetch - main [MainThread]: End processing [aiodbm]: success
+[2023-06-05 14:56:31] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/65/04/1794ebfb17a755386e4329af80111665983416b1470d595ec1e489a84a7c/mock_data_generator-1.1.2.tar.gz
+[2023-06-05 14:56:31] INFO root fetch - processPackages [stc-tools]: executing diffoscope
+[2023-06-05 14:56:31] INFO root fetch - processPackages [stc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-tools-1.2.1.tar.gz tmp/stc-tools-1.2.2.tar.gz --markdown 20230605/s/stc-tools/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-05 14:56:31] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-05 14:56:31] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.1.1.tar.gz tmp/mock_data_generator-1.1.2.tar.gz --markdown 20230605/m/mock-data-generator/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-05 14:56:31] INFO root fetch - processPackages [fsspec-dnanexus]: Downloading https://files.pythonhosted.org/packages/8b/9f/d0950b575ba568421877f490a98d6f4112fd5e9044ff179a5e4c127a574a/fsspec_dnanexus-0.0.3-py3-none-any.whl
+[2023-06-05 14:56:31] INFO root fetch - processPackages [fsspec-dnanexus]: executing diffoscope
+[2023-06-05 14:56:31] INFO root fetch - processPackages [fsspec-dnanexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsspec_dnanexus-0.0.2-py3-none-any.whl.zip tmp/fsspec_dnanexus-0.0.3-py3-none-any.whl.zip --markdown 20230605/f/fsspec-dnanexus/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 14:56:32] INFO root fetch - processPackages [stc-tools]: Remove: archive file [/home/abi/fetcher/tmp/stc-tools-1.2.1.tar.gz]
+[2023-06-05 14:56:32] INFO root fetch - processPackages [stc-tools]: Remove: archive file [/home/abi/fetcher/tmp/stc-tools-1.2.2.tar.gz]
+[2023-06-05 14:56:32] INFO root fetch - main [MainThread]: End processing [stc-tools]: success
+[2023-06-05 14:56:32] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.1.1.tar.gz]
+[2023-06-05 14:56:32] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.1.2.tar.gz]
+[2023-06-05 14:56:32] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-05 14:56:32] INFO root fetch - processPackages [fsspec-dnanexus]: Remove: archive file [/home/abi/fetcher/tmp/fsspec_dnanexus-0.0.2-py3-none-any.whl.zip]
+[2023-06-05 14:56:32] INFO root fetch - processPackages [fsspec-dnanexus]: Remove: archive file [/home/abi/fetcher/tmp/fsspec_dnanexus-0.0.3-py3-none-any.whl.zip]
+[2023-06-05 14:56:32] INFO root fetch - main [MainThread]: End processing [fsspec-dnanexus]: success
+[2023-06-05 14:56:34] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230604.tar.gz]
+[2023-06-05 14:56:34] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230605.tar.gz]
+[2023-06-05 14:56:34] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-05 14:56:35] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-05 14:56:35] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-05 14:56:35] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-05 14:56:35] INFO root fetch - main [MainThread]: Store serial: [18376013]
