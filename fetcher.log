@@ -4704,3 +4704,27 @@
 [2023-06-05 06:15:25] INFO root fetch - main [MainThread]: End processing [applyx]: success
 [2023-06-05 06:15:25] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
 [2023-06-05 06:15:25] INFO root fetch - main [MainThread]: Store serial: [18371608]
+[2023-06-05 06:20:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371608]
+[2023-06-05 06:20:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 06:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adt-cache
+[2023-06-05 06:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dartrig
+[2023-06-05 06:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akadoc
+[2023-06-05 06:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naver-db
+[2023-06-05 06:20:34] INFO root fetch - processPackages [adt-cache]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 06:20:34] INFO root fetch - processPackages [dartrig]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-05 06:20:34] WARNING root fetch - processPackages [akadoc]: Skipping, unable to determine old version
+[2023-06-05 06:20:34] INFO root fetch - main [MainThread]: End processing [akadoc] error
+[2023-06-05 06:20:34] INFO root fetch - processPackages [naver-db]: New version: [0.0.5.post6] Old Version: [0.0.5.post5]
+[2023-06-05 06:20:35] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-05 06:20:35] INFO root fetch - processPackages [naver-db]: Downloading https://files.pythonhosted.org/packages/0a/3c/ae2e9d3da1891920cdf5d3764251a89dea78ad466f8e0d5afdc4ba084ea0/naver-db-0.0.5.post5.tar.gz
+[2023-06-05 06:20:35] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-05 06:20:35] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.7.tar.gz tmp/dartrig-0.1.8.tar.gz --markdown 20230605/d/dartrig/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-05 06:20:35] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-06-05 06:20:35] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.8.tar.gz tmp/adt_cache-0.0.9.tar.gz --markdown 20230605/a/adt-cache/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 06:20:35] INFO root fetch - processPackages [naver-db]: Downloading https://files.pythonhosted.org/packages/74/a4/6560114d9874f3747d0446d7e28c30edef7769338ee6cf57cadd894178c4/naver-db-0.0.5.post6.tar.gz
+[2023-06-05 06:20:35] INFO root fetch - processPackages [naver-db]: executing diffoscope
+[2023-06-05 06:20:35] INFO root fetch - processPackages [naver-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naver-db-0.0.5.post5.tar.gz tmp/naver-db-0.0.5.post6.tar.gz --markdown 20230605/n/naver-db/0.0.5.post5-0.0.5.post6/diff.md --exclude *.pyd
+[2023-06-05 06:20:36] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-05 06:20:36] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-06-05 06:20:36] INFO root fetch - main [MainThread]: End processing [naver-db]: success
+[2023-06-05 06:20:36] INFO root fetch - main [MainThread]: Store serial: [18371635]
