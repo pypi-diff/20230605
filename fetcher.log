@@ -4227,3 +4227,34 @@
 [2023-06-05 05:01:35] INFO root fetch - main [MainThread]: End processing [bnipython]: success
 [2023-06-05 05:01:36] INFO root fetch - main [MainThread]: End processing [imageio]: success
 [2023-06-05 05:01:36] INFO root fetch - main [MainThread]: Store serial: [18371364]
+[2023-06-05 05:06:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371364]
+[2023-06-05 05:06:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-05 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gensp
+[2023-06-05 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Files.com
+[2023-06-05 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-easy-scrap
+[2023-06-05 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain
+[2023-06-05 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zipline-tej
+[2023-06-05 05:06:45] INFO root fetch - processPackages [gensp]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-05 05:06:45] INFO root fetch - processPackages [py-easy-scrap]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-05 05:06:45] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-05 05:06:45] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-05 05:06:45] INFO root fetch - processPackages [Files.com]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-05 05:06:45] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-05 05:06:45] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.6.tar.gz tmp/zipline-tej-0.0.7.tar.gz --markdown 20230605/z/zipline-tej/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-05 05:06:45] INFO root fetch - processPackages [gensp]: Downloading https://files.pythonhosted.org/packages/75/b3/54be5a626a4cf26b0903235e867ec65a61304e1b78ad8154fff06cad14d9/gensp-0.0.1-py3.10.egg
+[2023-06-05 05:06:45] INFO root fetch - processPackages [py-easy-scrap]: Downloading https://files.pythonhosted.org/packages/79/fe/3b4fc4b9db011d5411b807c2aff4f5c3212a8a048fea448ecb1f0325db06/py-easy-scrap-0.1.3.tar.gz
+[2023-06-05 05:06:45] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2023-06-05 05:06:45] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.0.98.tar.gz tmp/Files.com-1.0.99.tar.gz --markdown 20230605/F/Files.com/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-05 05:06:45] INFO root fetch - processPackages [py-easy-scrap]: executing diffoscope
+[2023-06-05 05:06:45] INFO root fetch - processPackages [py-easy-scrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-easy-scrap-0.1.2.tar.gz tmp/py-easy-scrap-0.1.3.tar.gz --markdown 20230605/p/py-easy-scrap/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-05 05:06:45] INFO root fetch - processPackages [gensp]: Downloading https://files.pythonhosted.org/packages/56/91/250e244c765d781d4ddff46088688a757937a9740cfe6e3402b9697bff1d/gensp-1.0.0-py3.10.egg
+[2023-06-05 05:06:45] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-05 05:06:45] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230605/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-05 05:06:45] INFO root fetch - processPackages [gensp]: executing diffoscope
+[2023-06-05 05:06:45] INFO root fetch - processPackages [gensp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensp-0.0.1-py3.10.egg tmp/gensp-1.0.0-py3.10.egg --markdown 20230605/g/gensp/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 05:06:46] INFO root fetch - main [MainThread]: End processing [py-easy-scrap]: success
+[2023-06-05 05:06:46] INFO root fetch - main [MainThread]: End processing [gensp]: success
+[2023-06-05 05:06:47] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2023-06-05 05:06:47] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-05 05:06:48] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-05 05:06:48] INFO root fetch - main [MainThread]: Store serial: [18371379]
