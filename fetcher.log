@@ -9382,3 +9382,110 @@
 [2023-06-05 12:03:21] INFO root fetch - main [MainThread]: End processing [paramga]: success
 [2023-06-05 12:03:21] INFO root fetch - main [MainThread]: End processing [pydracula]: success
 [2023-06-05 12:03:21] INFO root fetch - main [MainThread]: Store serial: [18374328]
+[2023-06-05 12:08:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374328]
+[2023-06-05 12:08:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etm-dgraham
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypackagelicenseprototype
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaiju-tools
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: waveformtools
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vnpy-xex
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-dali-nightly-cuda110
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emoji-progress-bar
+[2023-06-05 12:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypackagelicenseprototype
+[2023-06-05 12:08:31] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-06-05 12:08:31] INFO root fetch - processPackages [kaiju-tools]: New version: [2.0.57] Old Version: [2.0.56]
+[2023-06-05 12:08:31] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.6.5.1] Old Version: [2023.5.31.1]
+[2023-06-05 12:08:31] WARNING root fetch - processPackages [emoji-progress-bar]: Skipping, unable to determine old version
+[2023-06-05 12:08:31] INFO root fetch - processPackages [emoji-progress-bar]: Start processing: streamlit-d3-network-component
+[2023-06-05 12:08:31] INFO root fetch - main [MainThread]: End processing [emoji-progress-bar] error
+[2023-06-05 12:08:31] INFO root fetch - processPackages [waveformtools]: New version: [2023.6.5] Old Version: [2023.6.3]
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-06-05 12:08:31] INFO root fetch - processPackages [etm-dgraham]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-06-05 12:08:31] INFO root fetch - processPackages [streamlit-d3-network-component]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.27.0.dev20230605] Old Version: [1.27.0.dev20230531]
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.27.0.dev20230605] Old Version: [1.27.0.dev20230531]
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/2b/c1/096b3a1bac4aff0a174158e0e84d02013c0e4f9bfb60b5e5a0a5cb37d4c6/mypackagelicenseprototype-1.7.4-py3-none-any.whl
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/2b/c1/096b3a1bac4aff0a174158e0e84d02013c0e4f9bfb60b5e5a0a5cb37d4c6/mypackagelicenseprototype-1.7.4-py3-none-any.whl
+[2023-06-05 12:08:31] INFO root fetch - processPackages [streamlit-d3-network-component]: Downloading https://files.pythonhosted.org/packages/7f/e0/69362e9c3fa819caa26ff1d878688fdb0d321debc27efb26fc4abbea85a4/streamlit_d3_network_component-0.0.2-py3-none-any.whl
+[2023-06-05 12:08:31] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/5a/02/b4592fb6adc80da2ff6ea74d168a10062704089c683ce99ba0f888703494/vnpy_xex-2023.5.31.1.tar.gz
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/f1/41/01bbfe8ff44a6943d42e1d7c3c6467b00d0e04c79f8b6476e658956e94c4/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230531.tar.gz
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/9a/b5/5f15e30bda59a175202d426a917113cbb8d6aa30172ecf76b9c1ed868eec/nvidia-dali-nightly-cuda110-1.27.0.dev20230531.tar.gz
+[2023-06-05 12:08:31] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/d5/ff/edbc84a7b7149e9a3ec7877d1a8f8971cea7ea75b24df200d579563c23a1/kaiju_tools-2.0.57-py3-none-any.whl
+[2023-06-05 12:08:31] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/e0/62/6fc5e68d4d132e7e5d23b9bfe4d437a1b4f3d6dd2a281cca0bc8efb383b2/etm-dgraham-5.0.4.tar.gz
+[2023-06-05 12:08:31] INFO root fetch - processPackages [waveformtools]: Downloading https://files.pythonhosted.org/packages/04/b7/1a4c8d38eea177ac41ed91bff53712c106b96bf3af516517bc52e4b48111/waveformtools-2023.6.5.tar.gz
+[2023-06-05 12:08:31] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230605/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/5f/4c/9b8d1d6c8989c81e2423aa94841b50c308370eb8566c4557482144d2abc0/mypackagelicenseprototype-1.7.5-py3-none-any.whl
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/5f/4c/9b8d1d6c8989c81e2423aa94841b50c308370eb8566c4557482144d2abc0/mypackagelicenseprototype-1.7.5-py3-none-any.whl
+[2023-06-05 12:08:31] INFO root fetch - processPackages [streamlit-d3-network-component]: Downloading https://files.pythonhosted.org/packages/48/50/1940727b81a5fcc78f023c1b3e698dc8d47041f6e1629bd8f60d5c1a08c0/streamlit_d3_network_component-0.0.3-py3-none-any.whl
+[2023-06-05 12:08:31] INFO root fetch - processPackages [kaiju-tools]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [kaiju-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tools-2.0.56-py3-none-any.whl.zip tmp/kaiju_tools-2.0.57-py3-none-any.whl.zip --markdown 20230605/k/kaiju-tools/2.0.56-2.0.57/diff.md --exclude *.pyd
+[2023-06-05 12:08:31] INFO root fetch - processPackages [waveformtools]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [waveformtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveformtools-2023.6.3.tar.gz tmp/waveformtools-2023.6.5.tar.gz --markdown 20230605/w/waveformtools/2023.6.3-2023.6.5/diff.md --exclude *.pyd
+[2023-06-05 12:08:31] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.0.3.tar.gz tmp/etm-dgraham-5.0.4.tar.gz --markdown 20230605/e/etm-dgraham/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-06-05 12:08:31] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/0e/8d/426833b05629a764bda23284e02890964407f5ee366c441ed0f8a3eacec7/vnpy_xex-2023.6.5.1.tar.gz
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/2b/e2/305916ba25a152706a404bb6f968df774c392a96f36d8345c66bba1cd0a9/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230605.tar.gz
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/21/fe/4ba2bf029f283680aa9a897a0b9f0eb8d6138a810a450e68d9c03955a6a2/nvidia-dali-nightly-cuda110-1.27.0.dev20230605.tar.gz
+[2023-06-05 12:08:31] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.5.31.1.tar.gz tmp/vnpy_xex-2023.6.5.1.tar.gz --markdown 20230605/v/vnpy-xex/2023.5.31.1-2023.6.5.1/diff.md --exclude *.pyd
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.7.4-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.7.5-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.7.4-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.7.5-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-06-05 12:08:31] INFO root fetch - processPackages [streamlit-d3-network-component]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [streamlit-d3-network-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_d3_network_component-0.0.2-py3-none-any.whl.zip tmp/streamlit_d3_network_component-0.0.3-py3-none-any.whl.zip --markdown 20230605/s/streamlit-d3-network-component/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230531.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230605.tar.gz --markdown 20230605/n/nvidia-dali-tf-plugin-nightly-cuda110/1.27.0.dev20230531-1.27.0.dev20230605/diff.md --exclude *.pyd
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-06-05 12:08:31] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230531.tar.gz tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230605.tar.gz --markdown 20230605/n/nvidia-dali-nightly-cuda110/1.27.0.dev20230531-1.27.0.dev20230605/diff.md --exclude *.pyd
+[2023-06-05 12:08:33] INFO root fetch - processPackages [omnata-plugin-runtime]: Start processing: violet-simulator
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-05 12:08:33] INFO root fetch - processPackages [violet-simulator]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-05 12:08:33] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: ivt
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 12:08:33] WARNING root fetch - processPackages [ivt]: Skipping, unable to determine old version
+[2023-06-05 12:08:33] INFO root fetch - processPackages [ivt]: Start processing: sequana-nanomerge
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [ivt] error
+[2023-06-05 12:08:33] INFO root fetch - processPackages [violet-simulator]: Downloading https://files.pythonhosted.org/packages/b9/ed/68e33966b7f2672a82a22e39d3c6cf40c3ba6199485e303128c86cda9f86/violet_simulator-0.2.3.tar.gz
+[2023-06-05 12:08:33] INFO root fetch - processPackages [sequana-nanomerge]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-05 12:08:33] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: schoolware-api
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 12:08:33] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-05 12:08:33] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Start processing: enebootools
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-06-05 12:08:33] INFO root fetch - processPackages [enebootools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 12:08:33] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Start processing: wavpack-numcodecs
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-06-05 12:08:33] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/96/a6/f5dbde2a17640259ee0c244a670ffca24661530f548753a68de5b812a140/enebootools-2.0.8.tar.gz
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-06-05 12:08:33] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-06-05 12:08:33] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230605/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [waveformtools]: success
+[2023-06-05 12:08:33] INFO root fetch - processPackages [sequana-nanomerge]: Downloading https://files.pythonhosted.org/packages/4a/a2/6eb33878f9e869efe0c11c98f4a78e0847d15237fe26955854edf3d338e0/sequana_nanomerge-1.2.0.tar.gz
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [streamlit-d3-network-component]: success
+[2023-06-05 12:08:33] INFO root fetch - processPackages [wavpack-numcodecs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-06-05 12:08:33] INFO root fetch - processPackages [violet-simulator]: Downloading https://files.pythonhosted.org/packages/ed/8b/ea8184916fd1d4c84ec0055d18cc5a80ccc3964030a7a24eb12b2f8d4412/violet_simulator-0.2.4.tar.gz
+[2023-06-05 12:08:33] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/0b/50/a98ff2d478f2b96df200e7e6a5c0ff28fe92712c685482f5ce0bd910c066/enebootools-2.0.9.tar.gz
+[2023-06-05 12:08:33] INFO root fetch - processPackages [violet-simulator]: executing diffoscope
+[2023-06-05 12:08:33] INFO root fetch - processPackages [violet-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/violet_simulator-0.2.3.tar.gz tmp/violet_simulator-0.2.4.tar.gz --markdown 20230605/v/violet-simulator/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-05 12:08:33] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-06-05 12:08:33] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.8.tar.gz tmp/enebootools-2.0.9.tar.gz --markdown 20230605/e/enebootools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 12:08:33] INFO root fetch - main [MainThread]: End processing [kaiju-tools]: success
+[2023-06-05 12:08:33] INFO root fetch - processPackages [wavpack-numcodecs]: Downloading https://files.pythonhosted.org/packages/4a/48/5f44a9602a0abc8993b22b2355bfdaf933a3a25598bb3a484be156b49a2a/wavpack_numcodecs-0.1.3.tar.gz
+[2023-06-05 12:08:33] INFO root fetch - processPackages [sequana-nanomerge]: Downloading https://files.pythonhosted.org/packages/92/55/5ab83ab8495a493203c1eda08f33d81eb18c9aa3f736831a7f4c5bb436b8/sequana_nanomerge-1.3.0.tar.gz
+[2023-06-05 12:08:33] INFO root fetch - processPackages [sequana-nanomerge]: executing diffoscope
+[2023-06-05 12:08:33] INFO root fetch - processPackages [sequana-nanomerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_nanomerge-1.2.0.tar.gz tmp/sequana_nanomerge-1.3.0.tar.gz --markdown 20230605/s/sequana-nanomerge/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-05 12:08:34] INFO root fetch - processPackages [wavpack-numcodecs]: Downloading https://files.pythonhosted.org/packages/dc/a3/63d4a1d32e6707a53877b6fb807210f271960ce4ea762557f5b2963307ba/wavpack_numcodecs-0.1.4.tar.gz
+[2023-06-05 12:08:34] INFO root fetch - processPackages [wavpack-numcodecs]: executing diffoscope
+[2023-06-05 12:08:34] INFO root fetch - processPackages [wavpack-numcodecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavpack_numcodecs-0.1.3.tar.gz tmp/wavpack_numcodecs-0.1.4.tar.gz --markdown 20230605/w/wavpack-numcodecs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-05 12:08:34] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-06-05 12:08:34] INFO root fetch - main [MainThread]: End processing [violet-simulator]: success
+[2023-06-05 12:08:35] INFO root fetch - main [MainThread]: End processing [sequana-nanomerge]: success
+[2023-06-05 12:08:36] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-06-05 12:08:45] INFO root fetch - main [MainThread]: End processing [wavpack-numcodecs]: success
+[2023-06-05 12:08:45] INFO root fetch - main [MainThread]: Store serial: [18374381]
