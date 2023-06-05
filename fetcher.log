@@ -2947,3 +2947,56 @@
 [2023-06-05 03:02:15] INFO root fetch - main [MainThread]: End processing [cyberx]: success
 [2023-06-05 03:02:31] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-05 03:02:31] INFO root fetch - main [MainThread]: Store serial: [18370614]
+[2023-06-05 03:07:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18370614]
+[2023-06-05 03:07:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-wget
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cycparser
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gptscannotation
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plotguy
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aemcmc-nightly
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: difai
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-06-05 03:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-imgwidget
+[2023-06-05 03:07:41] WARNING root fetch - processPackages [gptscannotation]: Skipping, unable to determine old version
+[2023-06-05 03:07:41] INFO root fetch - main [MainThread]: End processing [gptscannotation] error
+[2023-06-05 03:07:41] INFO root fetch - processPackages [django-imgwidget]: New version: [0.0.2.4] Old Version: [0.0.2.3]
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cycparser]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-05 03:07:41] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230604] Old Version: [0.0.8.dev20230603]
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-05 03:07:41] INFO root fetch - processPackages [plotguy]: New version: [1.1.2] Old Version: [1.1]
+[2023-06-05 03:07:41] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230605/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-05 03:07:41] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-05 03:07:41] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230603.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230604.tar.gz --markdown 20230605/a/aemcmc-nightly/0.0.8.dev20230603-0.0.8.dev20230604/diff.md --exclude *.pyd
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230605/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230605/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230605/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-05 03:07:41] INFO root fetch - processPackages [django-imgwidget]: Downloading https://files.pythonhosted.org/packages/aa/82/d41d2602cc7d6ddd9f01ac102d903dafdab9fb26e9ead4e7fbf083ec9728/django-imgwidget-0.0.2.4.tar.gz
+[2023-06-05 03:07:41] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/ce/b7/c0d017654005ca3e9c9aae42c0ac75c8adbc2f9b70b8ea9161f5dbd6863e/plotguy-1.1.2.tar.gz
+[2023-06-05 03:07:41] INFO root fetch - processPackages [django-imgwidget]: executing diffoscope
+[2023-06-05 03:07:41] INFO root fetch - processPackages [django-imgwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-imgwidget-0.0.2.3.tar.gz tmp/django-imgwidget-0.0.2.4.tar.gz --markdown 20230605/d/django-imgwidget/0.0.2.3-0.0.2.4/diff.md --exclude *.pyd
+[2023-06-05 03:07:41] INFO root fetch - processPackages [difai]: executing diffoscope
+[2023-06-05 03:07:41] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20230605/d/difai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cycparser]: executing diffoscope
+[2023-06-05 03:07:41] INFO root fetch - processPackages [cycparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycparser-1.2.8.tar.gz tmp/cycparser-1.2.9.tar.gz --markdown 20230605/c/cycparser/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-05 03:07:41] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-06-05 03:07:41] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.1.tar.gz tmp/plotguy-1.1.2.tar.gz --markdown 20230605/p/plotguy/1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-05 03:07:43] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-05 03:07:43] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-05 03:07:43] INFO root fetch - main [MainThread]: End processing [django-imgwidget]: success
+[2023-06-05 03:07:43] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2023-06-05 03:07:43] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-06-05 03:07:43] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-05 03:07:43] INFO root fetch - main [MainThread]: End processing [cycparser]: success
+[2023-06-05 03:07:44] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-05 03:07:45] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-05 03:07:45] INFO root fetch - main [MainThread]: Store serial: [18370644]
