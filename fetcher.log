@@ -11207,3 +11207,85 @@
 [2023-06-05 13:43:22] INFO root fetch - processPackages [streamlit-d3-network-component]: Remove: archive file [/home/abi/fetcher/tmp/tmp/streamlit-d3-network-component-0.0.8.tar.gz]
 [2023-06-05 13:43:22] INFO root fetch - main [MainThread]: End processing [streamlit-d3-network-component]: success
 [2023-06-05 13:43:22] INFO root fetch - main [MainThread]: Store serial: [18375341]
+[2023-06-05 13:45:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375341]
+[2023-06-05 13:45:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-05 13:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatgpt-klient
+[2023-06-05 13:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batchx
+[2023-06-05 13:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs-models
+[2023-06-05 13:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: commodplot
+[2023-06-05 13:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: JoUtil
+[2023-06-05 13:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-last-price-info
+[2023-06-05 13:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mitzu
+[2023-06-05 13:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypackagelicenseprototype
+[2023-06-05 13:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pangeo-forge-cordex
+[2023-06-05 13:45:16] INFO root fetch - processPackages [JoUtil]: New version: [1.3.1] Old Version: [1.2.1]
+[2023-06-05 13:45:16] INFO root fetch - processPackages [batchx]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-06-05 13:45:16] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-05 13:45:16] INFO root fetch - processPackages [chatgpt-klient]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 13:45:16] INFO root fetch - processPackages [commodplot]: New version: [1.6.2] Old Version: [1.6.0]
+[2023-06-05 13:45:16] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-05 13:45:16] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-05 13:45:16] INFO root fetch - processPackages [pangeo-forge-cordex]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-05 13:45:16] INFO root fetch - processPackages [mitzu]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-05 13:45:16] INFO root fetch - processPackages [JoUtil]: Downloading https://files.pythonhosted.org/packages/b4/f8/0e9ebbd35d423e15b5d9ef9cff2c791a78a45e2f2b3fb03c11f817bc493b/JoUtil-1.2.1-py3-none-any.whl
+[2023-06-05 13:45:16] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Downloading https://files.pythonhosted.org/packages/f3/05/e86cb4889480b41deeac13449e938f2e4d6f1c9dc850c4d43a00607faeab/odoo_addon_purchase_last_price_info-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-05 13:45:16] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/1a/b4/eafc6c05bd2118b4e79a8b7fe5d0f3b4f63562467082d84eb263df649056/batchx-9.8.0.tar.gz
+[2023-06-05 13:45:16] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/f6/03/8bfcb93ca02c0afc3f607cf420f26b33abb30eeab3f06ed9d2617abfea7e/chatgpt-klient-0.0.2.tar.gz
+[2023-06-05 13:45:16] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-05 13:45:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/c5/95/34d0706b533eab7dbcd70df56c0b749c067263d7f3b2021b39c81444edde/mypackagelicenseprototype-2.0.1-py3-none-any.whl
+[2023-06-05 13:45:16] INFO root fetch - processPackages [commodplot]: Downloading https://files.pythonhosted.org/packages/ef/9f/6e8f7e28a45dd4ef32df7dc6ff0ffdaa34bf31fbf8737859661b3f0f93d6/commodplot-1.6.0.tar.gz
+[2023-06-05 13:45:16] INFO root fetch - processPackages [pangeo-forge-cordex]: Downloading https://files.pythonhosted.org/packages/68/ce/fff128e7a5b663f763eae7204e90eee83b615f6bed95d4385bae99147c81/pangeo-forge-cordex-0.3.1.tar.gz
+[2023-06-05 13:45:16] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/e1/b9/c8de43d495b3c20d1aa86e81f2b17a9875ea80555a3e0e60b7eb91550122/mitzu-0.6.6.tar.gz
+[2023-06-05 13:45:16] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 13:45:16] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.0-py3-none-any.whl.zip tmp/mypackagelicenseprototype-2.0.1-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-05 13:45:16] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-06-05 13:45:16] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.5.tar.gz tmp/mitzu-0.6.6.tar.gz --markdown 20230605/m/mitzu/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-05 13:45:16] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/a6/60/85677f9a0005fe36213dad98ebb59c26ec084f5eb3a9aa652da58e7f2fb7/chatgpt-klient-0.0.3.tar.gz
+[2023-06-05 13:45:16] INFO root fetch - processPackages [commodplot]: Downloading https://files.pythonhosted.org/packages/6e/16/a3affc63df06b277bb6d96496b69408d0a0d7f1f3c3b9edf92145892a6c6/commodplot-1.6.2.tar.gz
+[2023-06-05 13:45:17] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/5b/81/5c50aa0623da735c9a61638def1c8ce16e9c73508049a9a537486f67b2cc/batchx-9.9.0.tar.gz
+[2023-06-05 13:45:17] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-05 13:45:17] INFO root fetch - processPackages [pangeo-forge-cordex]: Downloading https://files.pythonhosted.org/packages/7d/c1/11bee2f0ad1ae62e30f81f05aad13fd7b08bccbb382371eb9cda772ae85c/pangeo-forge-cordex-0.3.2.tar.gz
+[2023-06-05 13:45:17] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Downloading https://files.pythonhosted.org/packages/ad/80/3c60bcd2ddde88559077f809353f59b3c99ac6b764c67321eb4f32a25220/odoo_addon_purchase_last_price_info-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-05 13:45:17] INFO root fetch - processPackages [chatgpt-klient]: executing diffoscope
+[2023-06-05 13:45:17] INFO root fetch - processPackages [chatgpt-klient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-klient-0.0.2.tar.gz tmp/chatgpt-klient-0.0.3.tar.gz --markdown 20230605/c/chatgpt-klient/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 13:45:17] INFO root fetch - processPackages [commodplot]: executing diffoscope
+[2023-06-05 13:45:17] INFO root fetch - processPackages [commodplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commodplot-1.6.0.tar.gz tmp/commodplot-1.6.2.tar.gz --markdown 20230605/c/commodplot/1.6.0-1.6.2/diff.md --exclude *.pyd
+[2023-06-05 13:45:17] INFO root fetch - processPackages [batchx]: executing diffoscope
+[2023-06-05 13:45:17] INFO root fetch - processPackages [batchx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchx-9.8.0.tar.gz tmp/batchx-9.9.0.tar.gz --markdown 20230605/b/batchx/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-06-05 13:45:17] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-05 13:45:17] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230605/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-05 13:45:17] INFO root fetch - processPackages [pangeo-forge-cordex]: executing diffoscope
+[2023-06-05 13:45:17] INFO root fetch - processPackages [pangeo-forge-cordex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pangeo-forge-cordex-0.3.1.tar.gz tmp/pangeo-forge-cordex-0.3.2.tar.gz --markdown 20230605/p/pangeo-forge-cordex/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 13:45:17] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: executing diffoscope
+[2023-06-05 13:45:17] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-purchase-last-price-info/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-05 13:45:18] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-klient-0.0.2.tar.gz]
+[2023-06-05 13:45:18] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-klient-0.0.3.tar.gz]
+[2023-06-05 13:45:18] INFO root fetch - main [MainThread]: End processing [chatgpt-klient]: success
+[2023-06-05 13:45:18] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.0-py3-none-any.whl.zip]
+[2023-06-05 13:45:18] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.1-py3-none-any.whl.zip]
+[2023-06-05 13:45:18] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 13:45:18] INFO root fetch - processPackages [commodplot]: Remove: archive file [/home/abi/fetcher/tmp/commodplot-1.6.0.tar.gz]
+[2023-06-05 13:45:18] INFO root fetch - processPackages [commodplot]: Remove: archive file [/home/abi/fetcher/tmp/commodplot-1.6.2.tar.gz]
+[2023-06-05 13:45:18] INFO root fetch - main [MainThread]: End processing [commodplot]: success
+[2023-06-05 13:45:18] INFO root fetch - processPackages [pangeo-forge-cordex]: Remove: archive file [/home/abi/fetcher/tmp/pangeo-forge-cordex-0.3.1.tar.gz]
+[2023-06-05 13:45:18] INFO root fetch - processPackages [pangeo-forge-cordex]: Remove: archive file [/home/abi/fetcher/tmp/pangeo-forge-cordex-0.3.2.tar.gz]
+[2023-06-05 13:45:18] INFO root fetch - main [MainThread]: End processing [pangeo-forge-cordex]: success
+[2023-06-05 13:45:18] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-05 13:45:18] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-05 13:45:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-last-price-info]: success
+[2023-06-05 13:45:18] INFO root fetch - processPackages [mitzu]: Remove: archive file [/home/abi/fetcher/tmp/mitzu-0.6.5.tar.gz]
+[2023-06-05 13:45:18] INFO root fetch - processPackages [mitzu]: Remove: archive file [/home/abi/fetcher/tmp/mitzu-0.6.6.tar.gz]
+[2023-06-05 13:45:18] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-06-05 13:45:19] INFO root fetch - processPackages [JoUtil]: Downloading https://files.pythonhosted.org/packages/98/8a/eedde9422fddeff0ec3e60bf9dccab8cb86cf48d87d61a96af0e9e72cc1d/JoUtil-1.3.1-py3-none-any.whl
+[2023-06-05 13:45:19] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-05 13:45:19] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-05 13:45:19] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-05 13:45:19] INFO root fetch - processPackages [JoUtil]: executing diffoscope
+[2023-06-05 13:45:19] INFO root fetch - processPackages [JoUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JoUtil-1.2.1-py3-none-any.whl.zip tmp/JoUtil-1.3.1-py3-none-any.whl.zip --markdown 20230605/J/JoUtil/1.2.1-1.3.1/diff.md --exclude *.pyd
+[2023-06-05 13:45:19] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.8.0.tar.gz]
+[2023-06-05 13:45:19] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.9.0.tar.gz]
+[2023-06-05 13:45:19] INFO root fetch - main [MainThread]: End processing [batchx]: success
+[2023-06-05 13:45:21] INFO root fetch - processPackages [JoUtil]: Remove: archive file [/home/abi/fetcher/tmp/JoUtil-1.2.1-py3-none-any.whl.zip]
+[2023-06-05 13:45:21] INFO root fetch - processPackages [JoUtil]: Remove: archive file [/home/abi/fetcher/tmp/JoUtil-1.3.1-py3-none-any.whl.zip]
+[2023-06-05 13:45:21] INFO root fetch - main [MainThread]: End processing [JoUtil]: success
+[2023-06-05 13:45:21] INFO root fetch - main [MainThread]: Store serial: [18375364]
