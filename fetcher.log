@@ -12567,3 +12567,177 @@ AssertionError: tmp/ms_salesforce_api-0.0.38.tar.gz does not exist
 [2023-06-05 14:40:35] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-05 14:40:35] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
 [2023-06-05 14:40:35] INFO root fetch - main [MainThread]: Store serial: [18375849]
+[2023-06-05 14:45:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375849]
+[2023-06-05 14:45:44] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huntflow-webhook-models
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vasp-suite
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cli-package
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: histomicsui
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-governance
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: timeitpoj
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jefferson
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorcircuit-nightly
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-detective-airflow
+[2023-06-05 14:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: diffable-sql
+[2023-06-05 14:45:44] INFO root fetch - processPackages [jefferson]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-05 14:45:44] WARNING root fetch - processPackages [cli-package]: Skipping, unable to determine old version
+[2023-06-05 14:45:44] INFO root fetch - processPackages [cli-package]: Start processing: archimedes-config
+[2023-06-05 14:45:44] INFO root fetch - main [MainThread]: End processing [cli-package] error
+[2023-06-05 14:45:44] INFO root fetch - processPackages [huntflow-webhook-models]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-05 14:45:44] INFO root fetch - processPackages [vasp-suite]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-05 14:45:44] WARNING root fetch - processPackages [diffable-sql]: Skipping, unable to determine old version
+[2023-06-05 14:45:44] INFO root fetch - processPackages [diffable-sql]: Start processing: monotonic-nn
+[2023-06-05 14:45:44] INFO root fetch - main [MainThread]: End processing [diffable-sql] error
+[2023-06-05 14:45:44] INFO root fetch - processPackages [timeitpoj]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 14:45:44] INFO root fetch - processPackages [archimedes-config]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-05 14:45:44] INFO root fetch - processPackages [data-detective-airflow]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-05 14:45:44] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-05 14:45:44] INFO root fetch - processPackages [histomicsui]: New version: [1.4.3.dev8] Old Version: [1.4.3.dev5]
+[2023-06-05 14:45:44] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230604] Old Version: [0.9.1.dev20230603]
+[2023-06-05 14:45:44] INFO root fetch - processPackages [monotonic-nn]: New version: [0.3.0rc0] Old Version: [0.3.0]
+[2023-06-05 14:45:44] INFO root fetch - processPackages [timeitpoj]: Downloading https://files.pythonhosted.org/packages/e6/ce/53e90425ddab5b75446f0e751d6068f3074f6cc531de465e10d4a798c44d/timeitpoj-0.1.1.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [vasp-suite]: Downloading https://files.pythonhosted.org/packages/56/4f/bc497247a13b557f0c997e917363eef09d1b771803ab1e763e21d7f9503d/vasp_suite-1.2.0.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/d8/18/8fef85dc19dc5c3f4a74f8a7d510545a74f50fa69a84d2c8c495b86a7d4d/tensorcircuit-nightly-0.9.1.dev20230603.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [jefferson]: Downloading https://files.pythonhosted.org/packages/6e/6c/dc9d31e3ca278a111a285c4047ea5485a8cf67de55459ad3f1621b187180/jefferson-0.4.4.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [huntflow-webhook-models]: Downloading https://files.pythonhosted.org/packages/e9/ea/2b6c80066e2494cd073c4301125356654a79ce19c1dab6238b4b5b93f6a4/huntflow_webhook_models-0.0.1.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [archimedes-config]: Downloading https://files.pythonhosted.org/packages/b9/2c/c83f3b5b5d145b4493073398dac77fe9b3cf5e34f05cd37798d1a06cd15b/archimedes_config-0.3.3.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/8d/fd/a33ddd81c7f8a224ec65482052fd33ab5656282acd7be72f6cda42bc3f7b/monotonic-nn-0.3.0.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [data-detective-airflow]: Downloading https://files.pythonhosted.org/packages/ba/3e/40c6d05952c48458049439741e6c498c55e30bc3b1be017e5e8a40eb37ed/data_detective_airflow-2.1.1.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/7b/ea/1735482a359845530d06a6140f152894429ed35e7dd2b0bdd8245c5753ee/histomicsui-1.4.3.dev5.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/c9/75/bc5e2ea77a52487275972be61edadcfb50b4dabbfdc5d3c9d444badad953/tensorcircuit-nightly-0.9.1.dev20230604.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [timeitpoj]: Downloading https://files.pythonhosted.org/packages/4b/48/7641f683a82bb0782ee6767a4c5c3fdb35476812fa83225a7794af57aeaa/timeitpoj-0.1.2.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-05 14:45:44] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230605/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-05 14:45:44] INFO root fetch - processPackages [vasp-suite]: Downloading https://files.pythonhosted.org/packages/f3/b9/a05281e71a5ef15ceeca30c7d38e8490d516df53ce98403c66475778bb07/vasp_suite-1.2.1.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/16/0a/594e526d8b3c079af6891fe09e3b31e27b48754ffc5a9bc620264ef74f8f/monotonic-nn-0.3.0rc0.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-05 14:45:44] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230603.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230604.tar.gz --markdown 20230605/t/tensorcircuit-nightly/0.9.1.dev20230603-0.9.1.dev20230604/diff.md --exclude *.pyd
+[2023-06-05 14:45:44] INFO root fetch - processPackages [timeitpoj]: executing diffoscope
+[2023-06-05 14:45:44] INFO root fetch - processPackages [timeitpoj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeitpoj-0.1.1.tar.gz tmp/timeitpoj-0.1.2.tar.gz --markdown 20230605/t/timeitpoj/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 14:45:44] INFO root fetch - processPackages [huntflow-webhook-models]: Downloading https://files.pythonhosted.org/packages/64/48/e4e9bd5e64f9215a26f76fd15332c61233bbee0dde0794625b8d6f4bc257/huntflow_webhook_models-0.0.3.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [vasp-suite]: executing diffoscope
+[2023-06-05 14:45:44] INFO root fetch - processPackages [vasp-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vasp_suite-1.2.0.tar.gz tmp/vasp_suite-1.2.1.tar.gz --markdown 20230605/v/vasp-suite/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-05 14:45:44] INFO root fetch - processPackages [archimedes-config]: Downloading https://files.pythonhosted.org/packages/a0/3c/40e466463ebe041d270a93d6848fdc8f3ccb85fdf6d412f352b6387939de/archimedes_config-0.3.4.tar.gz
+[2023-06-05 14:45:44] INFO root fetch - processPackages [monotonic-nn]: executing diffoscope
+[2023-06-05 14:45:44] INFO root fetch - processPackages [monotonic-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic-nn-0.3.0.tar.gz tmp/monotonic-nn-0.3.0rc0.tar.gz --markdown 20230605/m/monotonic-nn/0.3.0-0.3.0rc0/diff.md --exclude *.pyd
+[2023-06-05 14:45:45] INFO root fetch - processPackages [data-detective-airflow]: Downloading https://files.pythonhosted.org/packages/b6/93/a847daa559f9404602c4196c900eeabfc79c8f9791ba1a6271c400db91ab/data_detective_airflow-2.2.0.tar.gz
+[2023-06-05 14:45:45] INFO root fetch - processPackages [jefferson]: Downloading https://files.pythonhosted.org/packages/ec/32/fd9132d16cbfff65fab899d354c7287d28798793c17ab4c7d2b9e2a0ffb1/jefferson-0.4.5.tar.gz
+[2023-06-05 14:45:45] INFO root fetch - processPackages [huntflow-webhook-models]: executing diffoscope
+[2023-06-05 14:45:45] INFO root fetch - processPackages [archimedes-config]: executing diffoscope
+[2023-06-05 14:45:45] INFO root fetch - processPackages [huntflow-webhook-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_webhook_models-0.0.1.tar.gz tmp/huntflow_webhook_models-0.0.3.tar.gz --markdown 20230605/h/huntflow-webhook-models/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 14:45:45] INFO root fetch - processPackages [archimedes-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archimedes_config-0.3.3.tar.gz tmp/archimedes_config-0.3.4.tar.gz --markdown 20230605/a/archimedes-config/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-05 14:45:45] INFO root fetch - processPackages [data-detective-airflow]: executing diffoscope
+[2023-06-05 14:45:45] INFO root fetch - processPackages [data-detective-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_detective_airflow-2.1.1.tar.gz tmp/data_detective_airflow-2.2.0.tar.gz --markdown 20230605/d/data-detective-airflow/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-05 14:45:45] INFO root fetch - processPackages [jefferson]: executing diffoscope
+[2023-06-05 14:45:45] INFO root fetch - processPackages [jefferson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jefferson-0.4.4.tar.gz tmp/jefferson-0.4.5.tar.gz --markdown 20230605/j/jefferson/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-05 14:45:45] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/97/86/179c7023a0139efb3babc5cd95c4deebf440ce4e9e914b4ad68323dfb9b5/histomicsui-1.4.3.dev8.tar.gz
+[2023-06-05 14:45:45] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-06-05 14:45:45] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.3.dev5.tar.gz tmp/histomicsui-1.4.3.dev8.tar.gz --markdown 20230605/h/histomicsui/1.4.3.dev5-1.4.3.dev8/diff.md --exclude *.pyd
+[2023-06-05 14:45:46] INFO root fetch - processPackages [timeitpoj]: Remove: archive file [/home/abi/fetcher/tmp/timeitpoj-0.1.1.tar.gz]
+[2023-06-05 14:45:46] INFO root fetch - processPackages [timeitpoj]: Remove: archive file [/home/abi/fetcher/tmp/timeitpoj-0.1.2.tar.gz]
+[2023-06-05 14:45:46] INFO root fetch - processPackages [timeitpoj]: Start processing: pandas-stubs
+[2023-06-05 14:45:46] INFO root fetch - main [MainThread]: End processing [timeitpoj]: success
+[2023-06-05 14:45:46] INFO root fetch - processPackages [pandas-stubs]: New version: [2.0.2.230605] Old Version: [2.0.1.230501]
+[2023-06-05 14:45:46] INFO root fetch - processPackages [pandas-stubs]: Downloading https://files.pythonhosted.org/packages/4a/0c/64222f3af8de57623ce3750248ab08fff2b68c72f6ab7c914f3221f1f3ae/pandas_stubs-2.0.1.230501.tar.gz
+[2023-06-05 14:45:46] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.3.0.tar.gz]
+[2023-06-05 14:45:46] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.3.0rc0.tar.gz]
+[2023-06-05 14:45:46] INFO root fetch - processPackages [monotonic-nn]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-06-05 14:45:46] INFO root fetch - main [MainThread]: End processing [monotonic-nn]: success
+[2023-06-05 14:45:47] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.27.0.dev20230605] Old Version: [1.27.0.dev20230531]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [archimedes-config]: Remove: archive file [/home/abi/fetcher/tmp/archimedes_config-0.3.3.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [archimedes-config]: Remove: archive file [/home/abi/fetcher/tmp/archimedes_config-0.3.4.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [archimedes-config]: Start processing: FiniteDiffX
+[2023-06-05 14:45:47] INFO root fetch - processPackages [huntflow-webhook-models]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_webhook_models-0.0.1.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - main [MainThread]: End processing [archimedes-config]: success
+[2023-06-05 14:45:47] INFO root fetch - processPackages [huntflow-webhook-models]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_webhook_models-0.0.3.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [huntflow-webhook-models]: Start processing: recognize
+[2023-06-05 14:45:47] INFO root fetch - main [MainThread]: End processing [huntflow-webhook-models]: success
+[2023-06-05 14:45:47] INFO root fetch - processPackages [vasp-suite]: Remove: archive file [/home/abi/fetcher/tmp/vasp_suite-1.2.0.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [vasp-suite]: Remove: archive file [/home/abi/fetcher/tmp/vasp_suite-1.2.1.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [vasp-suite]: Start processing: ms-salesforce-api
+[2023-06-05 14:45:47] INFO root fetch - main [MainThread]: End processing [vasp-suite]: success
+[2023-06-05 14:45:47] INFO root fetch - processPackages [recognize]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [FiniteDiffX]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [ms-salesforce-api]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [pandas-stubs]: Downloading https://files.pythonhosted.org/packages/46/55/223223da2938e60e0bf3f1fde843e0e0680471992d27dd9d8d0f11fed72e/pandas_stubs-2.0.2.230605.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/40/65/2c4f0d411f5bcbe535d00cd6de029201a1f60c849a4beb6cf3616387b7d0/recognize-0.1.2.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [pandas-stubs]: executing diffoscope
+[2023-06-05 14:45:47] INFO root fetch - processPackages [pandas-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_stubs-2.0.1.230501.tar.gz tmp/pandas_stubs-2.0.2.230605.tar.gz --markdown 20230605/p/pandas-stubs/2.0.1.230501-2.0.2.230605/diff.md --exclude *.pyd
+[2023-06-05 14:45:47] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/93/12/06a8599c0bdbddb04a349cea211b1bbadcd4abfaad73c76eaed5738045e9/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230531.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [FiniteDiffX]: Downloading https://files.pythonhosted.org/packages/24/fc/1b7779eeb342ae62b5dcc4a898ffc5d124173d83921a17cc65dde7a8f863/FiniteDiffX-0.0.2.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [jefferson]: Remove: archive file [/home/abi/fetcher/tmp/jefferson-0.4.4.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [jefferson]: Remove: archive file [/home/abi/fetcher/tmp/jefferson-0.4.5.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [jefferson]: Start processing: nvidia-dali-nightly-cuda120
+[2023-06-05 14:45:47] INFO root fetch - main [MainThread]: End processing [jefferson]: success
+[2023-06-05 14:45:47] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/28/26/02533b53883e7e8212f7d2ce099f01d92a9f9e8e901ee95391f7c215c4b8/recognize-0.1.3.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.27.0.dev20230605] Old Version: [1.27.0.dev20230531]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [recognize]: executing diffoscope
+[2023-06-05 14:45:47] INFO root fetch - processPackages [recognize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognize-0.1.2.tar.gz tmp/recognize-0.1.3.tar.gz --markdown 20230605/r/recognize/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-05 14:45:47] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/6a/0e/8d2fd73005529d24b70ba85b5a0a85f2378497e67c26e2bdccc0bfbbf8ba/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230605.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/3c/96/b8e6bb33c7cee6708d394219e386d7d73dfcb1e9f96b25ab0afcfd79e843/ms_salesforce_api-0.0.40.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [FiniteDiffX]: Downloading https://files.pythonhosted.org/packages/30/0a/fd13e47d32d3d3cd7b597da099ca6feff7014b548c64efc7356fb50fe606/FiniteDiffX-0.0.3.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/73/85/a01dd4a29ca7853a958580d9416f72f3e1c4d22c7f442287a122694f2680/nvidia-dali-nightly-cuda120-1.27.0.dev20230531.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-06-05 14:45:47] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230531.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230605.tar.gz --markdown 20230605/n/nvidia-dali-tf-plugin-nightly-cuda120/1.27.0.dev20230531-1.27.0.dev20230605/diff.md --exclude *.pyd
+[2023-06-05 14:45:47] INFO root fetch - processPackages [data-detective-airflow]: Remove: archive file [/home/abi/fetcher/tmp/data_detective_airflow-2.1.1.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [data-detective-airflow]: Remove: archive file [/home/abi/fetcher/tmp/data_detective_airflow-2.2.0.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [data-detective-airflow]: Start processing: streamlit-folium
+[2023-06-05 14:45:47] INFO root fetch - main [MainThread]: End processing [data-detective-airflow]: success
+[2023-06-05 14:45:47] INFO root fetch - processPackages [FiniteDiffX]: executing diffoscope
+[2023-06-05 14:45:47] INFO root fetch - processPackages [FiniteDiffX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiniteDiffX-0.0.2.tar.gz tmp/FiniteDiffX-0.0.3.tar.gz --markdown 20230605/F/FiniteDiffX/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 14:45:47] INFO root fetch - processPackages [streamlit-folium]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/f1/bf/5e71d1543ad1234a1582922984a675c027cf52a76502290ffb60d59849be/ms_salesforce_api-0.0.41.tar.gz
+[2023-06-05 14:45:47] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-05 14:45:47] INFO root fetch - processPackages [cloud-governance]: Start processing: pf-dev-tools
+[2023-06-05 14:45:47] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-05 14:45:47] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/aa/3d/2d07f2597882360635917c0184cc75617735ce61cf0715c4978ba8be03de/nvidia-dali-nightly-cuda120-1.27.0.dev20230605.tar.gz
+[2023-06-05 14:45:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-06-05 14:45:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.27.0.dev20230531.tar.gz tmp/nvidia-dali-nightly-cuda120-1.27.0.dev20230605.tar.gz --markdown 20230605/n/nvidia-dali-nightly-cuda120/1.27.0.dev20230531-1.27.0.dev20230605/diff.md --exclude *.pyd
+[2023-06-05 14:45:48] WARNING root fetch - processPackages [pf-dev-tools]: Skipping, unable to determine old version
+[2023-06-05 14:45:48] INFO root fetch - processPackages [pf-dev-tools]: Start processing: mecapacktools
+[2023-06-05 14:45:48] INFO root fetch - main [MainThread]: End processing [pf-dev-tools] error
+[2023-06-05 14:45:48] INFO root fetch - processPackages [streamlit-folium]: Downloading https://files.pythonhosted.org/packages/78/22/afbf8c878ff98189024c37479ba0d12f40b115aab736bcc062af4cbee4bb/streamlit_folium-0.8.1.tar.gz
+[2023-06-05 14:45:48] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-06-05 14:45:48] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-0.0.40.tar.gz tmp/ms_salesforce_api-0.0.41.tar.gz --markdown 20230605/m/ms-salesforce-api/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-06-05 14:45:48] INFO root fetch - processPackages [mecapacktools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-05 14:45:48] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.4.3.dev5.tar.gz]
+[2023-06-05 14:45:48] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.4.3.dev8.tar.gz]
+[2023-06-05 14:45:48] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-06-05 14:45:48] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/ee/10/28622b2b512b36c6e0f69f04ef7a4c0d8b6bfcd502762ae468307500c0ea/mecapacktools-1.0.2.tar.gz
+[2023-06-05 14:45:48] INFO root fetch - processPackages [streamlit-folium]: Downloading https://files.pythonhosted.org/packages/5f/4f/2ca15bd83f55460ffd4c109e205f0cdbf170c01a727e41b8b4b24fc2119d/streamlit_folium-0.9.0.tar.gz
+[2023-06-05 14:45:48] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/b8/2a/bff431cf9055df7b80f146a0d7ae1c915752c3a8d7cd9dca3c10a96bf0b4/mecapacktools-1.0.3.tar.gz
+[2023-06-05 14:45:48] INFO root fetch - processPackages [mecapacktools]: executing diffoscope
+[2023-06-05 14:45:48] INFO root fetch - processPackages [mecapacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecapacktools-1.0.2.tar.gz tmp/mecapacktools-1.0.3.tar.gz --markdown 20230605/m/mecapacktools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-05 14:45:48] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.2.tar.gz]
+[2023-06-05 14:45:48] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.3.tar.gz]
+[2023-06-05 14:45:48] INFO root fetch - main [MainThread]: End processing [recognize]: success
+[2023-06-05 14:45:49] INFO root fetch - processPackages [streamlit-folium]: executing diffoscope
+[2023-06-05 14:45:49] INFO root fetch - processPackages [streamlit-folium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_folium-0.8.1.tar.gz tmp/streamlit_folium-0.9.0.tar.gz --markdown 20230605/s/streamlit-folium/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 14:45:49] INFO root fetch - processPackages [FiniteDiffX]: Remove: archive file [/home/abi/fetcher/tmp/FiniteDiffX-0.0.2.tar.gz]
+[2023-06-05 14:45:49] INFO root fetch - processPackages [FiniteDiffX]: Remove: archive file [/home/abi/fetcher/tmp/FiniteDiffX-0.0.3.tar.gz]
+[2023-06-05 14:45:49] INFO root fetch - main [MainThread]: End processing [FiniteDiffX]: success
+[2023-06-05 14:45:49] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230531.tar.gz]
+[2023-06-05 14:45:49] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230605.tar.gz]
+[2023-06-05 14:45:49] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-06-05 14:45:49] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.27.0.dev20230531.tar.gz]
+[2023-06-05 14:45:49] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.27.0.dev20230605.tar.gz]
+[2023-06-05 14:45:49] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-06-05 14:45:49] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.40.tar.gz]
+[2023-06-05 14:45:49] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.41.tar.gz]
+[2023-06-05 14:45:49] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-06-05 14:45:50] INFO root fetch - processPackages [pandas-stubs]: Remove: archive file [/home/abi/fetcher/tmp/pandas_stubs-2.0.1.230501.tar.gz]
+[2023-06-05 14:45:50] INFO root fetch - processPackages [pandas-stubs]: Remove: archive file [/home/abi/fetcher/tmp/pandas_stubs-2.0.2.230605.tar.gz]
+[2023-06-05 14:45:50] INFO root fetch - main [MainThread]: End processing [pandas-stubs]: success
+[2023-06-05 14:45:50] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.0.2.tar.gz]
+[2023-06-05 14:45:50] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.0.3.tar.gz]
+[2023-06-05 14:45:50] INFO root fetch - main [MainThread]: End processing [mecapacktools]: success
+[2023-06-05 14:45:50] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230603.tar.gz]
+[2023-06-05 14:45:50] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230604.tar.gz]
+[2023-06-05 14:45:50] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-05 14:45:59] INFO root fetch - processPackages [streamlit-folium]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_folium-0.8.1.tar.gz]
+[2023-06-05 14:45:59] INFO root fetch - processPackages [streamlit-folium]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_folium-0.9.0.tar.gz]
+[2023-06-05 14:45:59] INFO root fetch - main [MainThread]: End processing [streamlit-folium]: success
+[2023-06-05 14:45:59] INFO root fetch - main [MainThread]: Store serial: [18375914]
