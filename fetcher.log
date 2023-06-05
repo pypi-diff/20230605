@@ -4588,3 +4588,27 @@
 [2023-06-05 05:58:59] INFO root fetch - main [MainThread]: End processing [DeSide]: success
 [2023-06-05 05:59:00] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-05 05:59:00] INFO root fetch - main [MainThread]: Store serial: [18371545]
+[2023-06-05 06:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371545]
+[2023-06-05 06:04:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nyckel
+[2023-06-05 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: augratin
+[2023-06-05 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygeoweaver
+[2023-06-05 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optuna-dashboard
+[2023-06-05 06:04:10] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 06:04:10] INFO root fetch - processPackages [augratin]: New version: [23.6.4] Old Version: [23.5.26]
+[2023-06-05 06:04:10] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 06:04:10] INFO root fetch - processPackages [optuna-dashboard]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-05 06:04:10] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-05 06:04:10] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.8.tar.gz tmp/pygeoweaver-0.6.9.tar.gz --markdown 20230605/p/pygeoweaver/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 06:04:10] INFO root fetch - processPackages [augratin]: Downloading https://files.pythonhosted.org/packages/0c/45/47e35264aebfd349325864d19feb84792aea35bae096a9c3a62a02546d94/augratin-23.6.4.tar.gz
+[2023-06-05 06:04:10] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-06-05 06:04:10] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230605/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 06:04:10] INFO root fetch - processPackages [optuna-dashboard]: executing diffoscope
+[2023-06-05 06:04:10] INFO root fetch - processPackages [optuna-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optuna-dashboard-0.9.1.tar.gz tmp/optuna-dashboard-0.9.2.tar.gz --markdown 20230605/o/optuna-dashboard/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-05 06:04:10] INFO root fetch - processPackages [augratin]: executing diffoscope
+[2023-06-05 06:04:10] INFO root fetch - processPackages [augratin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augratin-23.5.26.tar.gz tmp/augratin-23.6.4.tar.gz --markdown 20230605/a/augratin/23.5.26-23.6.4/diff.md --exclude *.pyd
+[2023-06-05 06:04:11] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-05 06:04:11] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-06-05 06:04:11] INFO root fetch - main [MainThread]: End processing [augratin]: success
+[2023-06-05 06:05:01] INFO root fetch - main [MainThread]: End processing [optuna-dashboard]: success
+[2023-06-05 06:05:01] INFO root fetch - main [MainThread]: Store serial: [18371557]
