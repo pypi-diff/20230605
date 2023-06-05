@@ -4981,3 +4981,24 @@
 [2023-06-05 06:53:13] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
 [2023-06-05 06:53:13] INFO root fetch - main [MainThread]: End processing [remindmail]: success
 [2023-06-05 06:53:13] INFO root fetch - main [MainThread]: Store serial: [18371760]
+[2023-06-05 06:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371760]
+[2023-06-05 06:58:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-05 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parafilt
+[2023-06-05 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mosek-license-server
+[2023-06-05 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remindmail
+[2023-06-05 06:58:22] INFO root fetch - processPackages [parafilt]: New version: [0.1.2b0] Old Version: [0.1.1b0]
+[2023-06-05 06:58:22] INFO root fetch - processPackages [remindmail]: New version: [2023.6.4.1] Old Version: [2023.5.8.1]
+[2023-06-05 06:58:22] INFO root fetch - processPackages [mosek-license-server]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-05 06:58:22] INFO root fetch - processPackages [parafilt]: Downloading https://files.pythonhosted.org/packages/c7/bb/b9fa2fbf66b680f14cd05db4f6d2ca58b04d4068382d7e5ffcc897b3cffa/parafilt-0.1.1b0.tar.gz
+[2023-06-05 06:58:22] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-06-05 06:58:22] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.5.8.1.tar.gz tmp/remindmail-2023.6.4.1.tar.gz --markdown 20230605/r/remindmail/2023.5.8.1-2023.6.4.1/diff.md --exclude *.pyd
+[2023-06-05 06:58:22] INFO root fetch - processPackages [parafilt]: Downloading https://files.pythonhosted.org/packages/97/80/bbbf8512629fa6e2abfef79ae1599d81064d98ad9770ca44b10a5f89824b/parafilt-0.1.2b0.tar.gz
+[2023-06-05 06:58:22] INFO root fetch - processPackages [mosek-license-server]: Downloading https://files.pythonhosted.org/packages/ec/54/aee7158b30ed878cb2b9c2e853853e287ada950a9f3428ca31ff781a1131/mosek_license_server-0.6.0.tar.gz
+[2023-06-05 06:58:22] INFO root fetch - processPackages [mosek-license-server]: executing diffoscope
+[2023-06-05 06:58:22] INFO root fetch - processPackages [mosek-license-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosek_license_server-0.5.1.tar.gz tmp/mosek_license_server-0.6.0.tar.gz --markdown 20230605/m/mosek-license-server/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-05 06:58:22] INFO root fetch - processPackages [parafilt]: executing diffoscope
+[2023-06-05 06:58:22] INFO root fetch - processPackages [parafilt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parafilt-0.1.1b0.tar.gz tmp/parafilt-0.1.2b0.tar.gz --markdown 20230605/p/parafilt/0.1.1b0-0.1.2b0/diff.md --exclude *.pyd
+[2023-06-05 06:58:23] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-06-05 06:58:23] INFO root fetch - main [MainThread]: End processing [mosek-license-server]: success
+[2023-06-05 06:58:23] INFO root fetch - main [MainThread]: End processing [parafilt]: success
+[2023-06-05 06:58:23] INFO root fetch - main [MainThread]: Store serial: [18371777]
