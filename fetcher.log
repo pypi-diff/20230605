@@ -5378,3 +5378,27 @@
 [2023-06-05 07:52:10] INFO root fetch - main [MainThread]: End processing [chariot-sdk]: success
 [2023-06-05 07:52:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-resourcemanager20200331-py2]: success
 [2023-06-05 07:52:11] INFO root fetch - main [MainThread]: Store serial: [18372002]
+[2023-06-05 07:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372002]
+[2023-06-05 07:57:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-05 07:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mitzu
+[2023-06-05 07:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lnbits-extension
+[2023-06-05 07:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kui
+[2023-06-05 07:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qctrl
+[2023-06-05 07:57:19] INFO root fetch - processPackages [mitzu]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-05 07:57:19] WARNING root fetch - processPackages [lnbits-extension]: Skipping, unable to determine old version
+[2023-06-05 07:57:19] INFO root fetch - processPackages [qctrl]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-06-05 07:57:19] INFO root fetch - processPackages [kui]: New version: [1.4.0] Old Version: [1.3.7]
+[2023-06-05 07:57:19] INFO root fetch - main [MainThread]: End processing [lnbits-extension] error
+[2023-06-05 07:57:19] INFO root fetch - processPackages [kui]: Downloading https://files.pythonhosted.org/packages/c2/e1/7bdccf04685a9c4a4c3989f68c97d1d5be08815f781d03b8c389a2d3e7e2/kui-1.3.7.tar.gz
+[2023-06-05 07:57:20] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/30/2a/57ec076c092e3de0d150ae43145fe6ab448fad72f0a116910033e8acc49b/mitzu-0.6.5.tar.gz
+[2023-06-05 07:57:20] INFO root fetch - processPackages [qctrl]: executing diffoscope
+[2023-06-05 07:57:20] INFO root fetch - processPackages [qctrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl-9.4.0.tar.gz tmp/qctrl-9.5.0.tar.gz --markdown 20230605/q/qctrl/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-06-05 07:57:20] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-06-05 07:57:20] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.4.tar.gz tmp/mitzu-0.6.5.tar.gz --markdown 20230605/m/mitzu/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-05 07:57:20] INFO root fetch - processPackages [kui]: Downloading https://files.pythonhosted.org/packages/16/be/e37679cfd82fadd2be6c6266ac095f9c3359d4d5c043f72a8f9c83b3ced7/kui-1.4.0.tar.gz
+[2023-06-05 07:57:20] INFO root fetch - processPackages [kui]: executing diffoscope
+[2023-06-05 07:57:20] INFO root fetch - processPackages [kui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kui-1.3.7.tar.gz tmp/kui-1.4.0.tar.gz --markdown 20230605/k/kui/1.3.7-1.4.0/diff.md --exclude *.pyd
+[2023-06-05 07:57:21] INFO root fetch - main [MainThread]: End processing [qctrl]: success
+[2023-06-05 07:57:21] INFO root fetch - main [MainThread]: End processing [kui]: success
+[2023-06-05 07:57:21] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-06-05 07:57:21] INFO root fetch - main [MainThread]: Store serial: [18372017]
