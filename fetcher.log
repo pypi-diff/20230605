@@ -10611,3 +10611,61 @@
 [2023-06-05 13:15:42] INFO root fetch - main [MainThread]: End processing [pyDFTutils]: success
 [2023-06-05 13:15:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
 [2023-06-05 13:15:42] INFO root fetch - main [MainThread]: Store serial: [18374947]
+[2023-06-05 13:20:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374947]
+[2023-06-05 13:21:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mock-data-generator
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phc-ingestion
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openmodule-commands
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmodule-test
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmodule
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-protoni
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huntflow-webhook-models
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shapes-recognition
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-kpi-dashboard
+[2023-06-05 13:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: linkedin-scraperb
+[2023-06-05 13:21:00] WARNING root fetch - processPackages [huntflow-webhook-models]: Skipping, unable to determine old version
+[2023-06-05 13:21:00] INFO root fetch - main [MainThread]: End processing [huntflow-webhook-models] error
+[2023-06-05 13:21:00] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-05 13:21:00] INFO root fetch - processPackages [mock-data-generator]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-05 13:21:00] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.31] Old Version: [0.3.30]
+[2023-06-05 13:21:00] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-05 13:21:00] WARNING root fetch - processPackages [linkedin-scraperb]: Skipping, unable to determine old version
+[2023-06-05 13:21:00] INFO root fetch - processPackages [django-protoni]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-05 13:21:00] INFO root fetch - main [MainThread]: End processing [linkedin-scraperb] error
+[2023-06-05 13:21:00] INFO root fetch - processPackages [shapes-recognition]: New version: [2.0.0] Old Version: [1.0.6]
+[2023-06-05 13:21:00] INFO root fetch - processPackages [odoo14-addon-kpi-dashboard]: New version: [14.0.1.2.1.dev2] Old Version: [14.0.1.1.1]
+[2023-06-05 13:21:00] INFO root fetch - processPackages [openmodule-commands]: New version: [11.1.0rc1] Old Version: [11.1.0rc0]
+[2023-06-05 13:21:01] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-06-05 13:21:01] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230605/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-05 13:21:01] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-06-05 13:21:01] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230605/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-05 13:21:01] INFO root fetch - processPackages [odoo14-addon-kpi-dashboard]: Downloading https://files.pythonhosted.org/packages/e6/63/0542161bc425a134b991f2b0d1c939fc2dc9045a2b4b5be571d7323f6223/odoo14_addon_kpi_dashboard-14.0.1.1.1-py3-none-any.whl
+[2023-06-05 13:21:01] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/4a/54/de62b2460f6a9e5f0e8a61d4f4aa025232db5d7c09afac97a7c36bf33c7a/phc-ingestion-0.3.30.tar.gz
+[2023-06-05 13:21:01] INFO root fetch - processPackages [django-protoni]: Downloading https://files.pythonhosted.org/packages/c5/85/7d49e68e8096e8225cae3e50824c232c6d3ab89ba5358e0ea44da47278dd/django-protoni-0.3.9.tar.gz
+[2023-06-05 13:21:01] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/52/c2/510869e0d35d69afac207410232d4a802c66314c2d3dd698c5d6de7307e8/mock_data_generator-1.1.1.tar.gz
+[2023-06-05 13:21:01] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/4c/ab/0e0c065dac613789a960de99af6eaf88d0104523adbdc373f06b93e02352/openmodule_commands-11.1.0rc1.tar.gz
+[2023-06-05 13:21:01] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/62/f2/d74193a9e71b82fbf7dbd3cf9297f1e9dbf2c0a9aebd755977854141114b/shapes_recognition-1.0.6.tar.gz
+[2023-06-05 13:21:01] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-05 13:21:01] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.1.0.tar.gz tmp/mock_data_generator-1.1.1.tar.gz --markdown 20230605/m/mock-data-generator/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-05 13:21:01] INFO root fetch - processPackages [django-protoni]: executing diffoscope
+[2023-06-05 13:21:01] INFO root fetch - processPackages [django-protoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-protoni-0.3.8.tar.gz tmp/django-protoni-0.3.9.tar.gz --markdown 20230605/d/django-protoni/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-05 13:21:01] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-06-05 13:21:01] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-11.1.0rc0.tar.gz tmp/openmodule_commands-11.1.0rc1.tar.gz --markdown 20230605/o/openmodule-commands/11.1.0rc0-11.1.0rc1/diff.md --exclude *.pyd
+[2023-06-05 13:21:01] INFO root fetch - processPackages [odoo14-addon-kpi-dashboard]: Downloading https://files.pythonhosted.org/packages/ba/ce/abc840aada715574c7077408fd223263fb27f7ac203d83e694d21ba5557d/odoo14_addon_kpi_dashboard-14.0.1.2.1.dev2-py3-none-any.whl
+[2023-06-05 13:21:01] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/38/32/7273802c72960e637a60bb87c5bacbe248b46a38d0841bddad86831586c9/phc-ingestion-0.3.31.tar.gz
+[2023-06-05 13:21:01] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/9a/76/ca2947d160162dbc4f34aef4d82cee26a9d257a9fd0e719430e85956453d/shapes_recognition-2.0.0.tar.gz
+[2023-06-05 13:21:01] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-05 13:21:01] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-1.0.6.tar.gz tmp/shapes_recognition-2.0.0.tar.gz --markdown 20230605/s/shapes-recognition/1.0.6-2.0.0/diff.md --exclude *.pyd
+[2023-06-05 13:21:01] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-06-05 13:21:01] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.30.tar.gz tmp/phc-ingestion-0.3.31.tar.gz --markdown 20230605/p/phc-ingestion/0.3.30-0.3.31/diff.md --exclude *.pyd
+[2023-06-05 13:21:01] INFO root fetch - processPackages [odoo14-addon-kpi-dashboard]: executing diffoscope
+[2023-06-05 13:21:01] INFO root fetch - processPackages [odoo14-addon-kpi-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_kpi_dashboard-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_kpi_dashboard-14.0.1.2.1.dev2-py3-none-any.whl.zip --markdown 20230605/o/odoo14-addon-kpi-dashboard/14.0.1.1.1-14.0.1.2.1.dev2/diff.md --exclude *.pyd
+[2023-06-05 13:21:02] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-06-05 13:21:02] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-05 13:21:02] INFO root fetch - main [MainThread]: End processing [django-protoni]: success
+[2023-06-05 13:21:02] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-06-05 13:21:02] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-06-05 13:21:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-kpi-dashboard]: success
+[2023-06-05 13:21:04] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-06-05 13:21:07] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-05 13:21:07] INFO root fetch - main [MainThread]: Store serial: [18374993]
