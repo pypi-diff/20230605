@@ -5108,3 +5108,68 @@
 [2023-06-05 07:11:45] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-05 07:11:45] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-05 07:11:45] INFO root fetch - main [MainThread]: Store serial: [18371836]
+[2023-06-05 07:16:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371836]
+[2023-06-05 07:16:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bpp-iplweb
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydisort
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Bigsansar
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epubsum
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spectrafit
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: browserexport
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: silicron
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Bigsansar
+[2023-06-05 07:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepprofile
+[2023-06-05 07:16:54] INFO root fetch - processPackages [pydisort]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 07:16:54] INFO root fetch - processPackages [bpp-iplweb]: New version: [202306.1103] Old Version: [202305.1102]
+[2023-06-05 07:16:54] INFO root fetch - processPackages [spectrafit]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-06-05 07:16:54] INFO root fetch - processPackages [silicron]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-05 07:16:54] INFO root fetch - processPackages [epubsum]: New version: [0.3] Old Version: [0.2]
+[2023-06-05 07:16:54] INFO root fetch - processPackages [deepprofile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 07:16:54] INFO root fetch - processPackages [browserexport]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-05 07:16:54] INFO root fetch - processPackages [Bigsansar]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-05 07:16:54] INFO root fetch - processPackages [Bigsansar]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-05 07:16:54] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-05 07:16:55] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/73/5f/a07fb2fcdc3586a8ea5345655a1681c6d134c55f6de154769bd68dd7f974/Bigsansar-1.6.3.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230605/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-05 07:16:55] INFO root fetch - processPackages [browserexport]: Downloading https://files.pythonhosted.org/packages/ac/d0/ec3c9d7d3ca3acc55bff99bfb3a4e8a4a44b828c9922c311d1fa05eea488/browserexport-0.2.8.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/73/5f/a07fb2fcdc3586a8ea5345655a1681c6d134c55f6de154769bd68dd7f974/Bigsansar-1.6.3.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [deepprofile]: Downloading https://files.pythonhosted.org/packages/bb/05/89b9edaefc7df89ab29a1ef4edf459e579d88130f1e014877c64240c3a1a/deepprofile-0.0.8.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [epubsum]: Downloading https://files.pythonhosted.org/packages/92/cd/fb23a6d019668d6cf47638897de0a3e0d955e623a10e6067aa96fc43bf62/epubsum-0.3.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [pydisort]: Downloading https://files.pythonhosted.org/packages/d9/e4/163b638213a38f6fca729bc07059ce97c8b60f50cfd19c1e1d31a9cd5853/pydisort-0.0.5.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [silicron]: Downloading https://files.pythonhosted.org/packages/91/f2/98cf3846e4b6a1362c93d3fcfcbf33e037c4d5ceba2c2f2884e4c7f228f8/silicron-0.0.4.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/cd/3d/ad02cc205cf0754831a425e1b04fcdecbcb364a3e446c224a264f5cfb65d/bpp_iplweb-202306.1103-py3-none-any.whl
+[2023-06-05 07:16:55] INFO root fetch - processPackages [epubsum]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [epubsum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epubsum-0.2.tar.gz tmp/epubsum-0.3.tar.gz --markdown 20230605/e/epubsum/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-05 07:16:55] INFO root fetch - processPackages [silicron]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [silicron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silicron-0.0.3.tar.gz tmp/silicron-0.0.4.tar.gz --markdown 20230605/s/silicron/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-05 07:16:55] INFO root fetch - processPackages [pydisort]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/70/d8/40c5f27530bfcf140b56b2a337149e3e96d5b51e93b5b326d25633b7a047/Bigsansar-1.6.4.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [pydisort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydisort-0.0.4.tar.gz tmp/pydisort-0.0.5.tar.gz --markdown 20230605/p/pydisort/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 07:16:55] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/70/d8/40c5f27530bfcf140b56b2a337149e3e96d5b51e93b5b326d25633b7a047/Bigsansar-1.6.4.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [spectrafit]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [spectrafit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrafit-1.0.0b1.tar.gz tmp/spectrafit-1.0.0b2.tar.gz --markdown 20230605/s/spectrafit/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-06-05 07:16:55] INFO root fetch - processPackages [bpp-iplweb]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [bpp-iplweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpp_iplweb-202305.1102-py3-none-any.whl.zip tmp/bpp_iplweb-202306.1103-py3-none-any.whl.zip --markdown 20230605/b/bpp-iplweb/202305.1102-202306.1103/diff.md --exclude *.pyd
+[2023-06-05 07:16:55] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.6.3.tar.gz tmp/Bigsansar-1.6.4.tar.gz --markdown 20230605/B/Bigsansar/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-05 07:16:55] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.6.3.tar.gz tmp/Bigsansar-1.6.4.tar.gz --markdown 20230605/B/Bigsansar/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-05 07:16:55] INFO root fetch - processPackages [deepprofile]: Downloading https://files.pythonhosted.org/packages/3e/34/5479b458cc8fe52626cb3b2e58b31f52acc6e8bfd3efba4c6287124bac58/deepprofile-0.0.9.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [deepprofile]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [deepprofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepprofile-0.0.8.tar.gz tmp/deepprofile-0.0.9.tar.gz --markdown 20230605/d/deepprofile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 07:16:55] INFO root fetch - processPackages [browserexport]: Downloading https://files.pythonhosted.org/packages/68/dc/347fccea3583328b8f984e6f3faf1755d6a569cfa9da81f17d959a40592a/browserexport-0.2.9.tar.gz
+[2023-06-05 07:16:55] INFO root fetch - processPackages [browserexport]: executing diffoscope
+[2023-06-05 07:16:55] INFO root fetch - processPackages [browserexport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserexport-0.2.8.tar.gz tmp/browserexport-0.2.9.tar.gz --markdown 20230605/b/browserexport/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-05 07:16:56] INFO root fetch - main [MainThread]: End processing [silicron]: success
+[2023-06-05 07:16:56] INFO root fetch - main [MainThread]: End processing [epubsum]: success
+[2023-06-05 07:16:57] INFO root fetch - main [MainThread]: End processing [deepprofile]: success
+[2023-06-05 07:16:57] INFO root fetch - main [MainThread]: End processing [spectrafit]: success
+[2023-06-05 07:16:57] INFO root fetch - main [MainThread]: End processing [browserexport]: success
+[2023-06-05 07:16:57] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-05 07:16:57] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-05 07:16:59] INFO root fetch - main [MainThread]: End processing [pydisort]: success
+[2023-06-05 07:17:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-05 07:18:02] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
+[2023-06-05 07:18:02] INFO root fetch - main [MainThread]: Store serial: [18371865]
