@@ -16971,3 +16971,243 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 68: invalid
 [2023-06-05 17:14:22] INFO root fetch - processPackages [odoo14-addon-pos-payment-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_payment_change-14.0.1.0.2.dev4-py3-none-any.whl.zip]
 [2023-06-05 17:14:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-payment-change]: success
 [2023-06-05 17:14:22] INFO root fetch - main [MainThread]: Store serial: [18377699]
+[2023-06-05 17:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18377699]
+[2023-06-05 17:19:51] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymultiMATIC
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bulma-sphinx-theme
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steam-sdk
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: noisemonitor
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pararamio
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fw-storage
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stewchef
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-snowflake
+[2023-06-05 17:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autolv
+[2023-06-05 17:19:51] INFO root fetch - processPackages [pymultiMATIC]: New version: [0.7.0b5] Old Version: [0.7.0b4]
+[2023-06-05 17:19:51] INFO root fetch - processPackages [bulma-sphinx-theme]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 17:19:51] WARNING root fetch - processPackages [noisemonitor]: Skipping, unable to determine old version
+[2023-06-05 17:19:51] INFO root fetch - processPackages [noisemonitor]: Start processing: bqt
+[2023-06-05 17:19:51] INFO root fetch - main [MainThread]: End processing [noisemonitor] error
+[2023-06-05 17:19:51] INFO root fetch - processPackages [autolv]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-05 17:19:51] INFO root fetch - processPackages [stewchef]: New version: [0.1.6a0] Old Version: [0.1.5a0]
+[2023-06-05 17:19:51] INFO root fetch - processPackages [pararamio]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 17:19:51] INFO root fetch - processPackages [fw-storage]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-05 17:19:51] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-05 17:19:51] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-06-05 17:19:51] INFO root fetch - processPackages [bqt]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-05 17:19:51] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-06-05 17:19:51] INFO root fetch - processPackages [pararamio]: Downloading https://files.pythonhosted.org/packages/e9/f8/acf87ef85411b2946b64beb75a3fa3c7cf3984257c3e51e91760cb7fb133/pararamio-1.0.8.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [pymultiMATIC]: Downloading https://files.pythonhosted.org/packages/94/5d/b5cb5e5b630d312f002ced3de0f8c4d227c76ee9450dc73c50822d4daaa8/pymultiMATIC-0.7.0b4.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [autolv]: Downloading https://files.pythonhosted.org/packages/6d/6d/6d827b8431a3bb9a47d99f790709421fa1a8b292a494c8bdfed5b15b72a7/autolv-1.0.3.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/0c/16/0ae0376bda0368c9d3ca42cbd40a83901441a654af824f06eb2314affc06/bulma_sphinx_theme-0.0.8.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [fw-storage]: Downloading https://files.pythonhosted.org/packages/06/83/fe448b9662082cb8087ea12df340579281224eaff90b78d1fb5236159a16/fw_storage-2.1.8-py3-none-any.whl
+[2023-06-05 17:19:52] INFO root fetch - processPackages [stewchef]: Downloading https://files.pythonhosted.org/packages/c7/f3/836a8722e575d229ae3f312dfa0a5b445bc3d8d225b41aed95001266e662/stewchef-0.1.5a0.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/29/01/a60791f13475a8e2514b92023533c267c6c51d092ac86bae39d982cc0fe7/cdktf-cdktf-provider-snowflake-6.0.4.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/60/2c/3c21c0815edf029e79c95d2f5fccd2a2f589a21e648b6c3ea6a2a61d7c1e/steam-sdk-2023.6.8.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [bqt]: Downloading https://files.pythonhosted.org/packages/f2/4e/414ae2c9c649490b49a6ac3dfd769ab6fc335278349473c285e782b4a3e3/bqt-0.2.0.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/22/cb/a908fffd3a374c82945e6989941dff531670e31cb15703c3551502f54e3b/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/e9/81/d50c13c840ad249b9a1c025bbfca4be6fc23423cae2351a5de3413a15ee5/bulma_sphinx_theme-0.0.9.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [autolv]: Downloading https://files.pythonhosted.org/packages/ce/f7/95c87979e916dad348c04eda7633431148a69a1d4a63a586f15ecc7cd008/autolv-1.0.4-py3-none-any.whl
+[2023-06-05 17:19:52] INFO root fetch - processPackages [pararamio]: Downloading https://files.pythonhosted.org/packages/5b/70/102908b952b358379e28a352f136f20fc1dea203df8f1a19d41c8426d64b/pararamio-1.0.9.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [pymultiMATIC]: Downloading https://files.pythonhosted.org/packages/11/cc/71e63b1a8b568c60002bb2cce49b0d5fe27058e16ad6ef00caa57a94d64d/pymultiMATIC-0.7.0b5.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [stewchef]: Downloading https://files.pythonhosted.org/packages/38/1e/c0ebc64aba46c914250f1634b21c9bc11b03d57d85c9a0679b9acd00ff2f/stewchef-0.1.6a0.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [autolv]: executing diffoscope
+[2023-06-05 17:19:52] INFO root fetch - processPackages [autolv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autolv-1.0.3.tar.gz tmp/autolv-1.0.4-py3-none-any.whl.zip --markdown 20230605/a/autolv/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-05 17:19:52] INFO root fetch - processPackages [fw-storage]: Downloading https://files.pythonhosted.org/packages/34/fb/161ecab9faee99bdfbdac5c8f16fa362f03f5718f5bed2ed3730195d2097/fw_storage-2.1.9-py3-none-any.whl
+[2023-06-05 17:19:52] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/ec/ca/f34f1bca178e45d76cc57e169532909d6f56dcca4d5e991c3be44a7e4aa4/cdktf-cdktf-provider-snowflake-6.0.5.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [bulma-sphinx-theme]: executing diffoscope
+[2023-06-05 17:19:52] INFO root fetch - processPackages [bulma-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulma_sphinx_theme-0.0.8.tar.gz tmp/bulma_sphinx_theme-0.0.9.tar.gz --markdown 20230605/b/bulma-sphinx-theme/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:52] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/cf/10/2b634f09e25cfaaa5b5c4ea8889e69240ff6c0ad61d248fcbfd14e6aa988/steam-sdk-2023.6.9.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [bqt]: Downloading https://files.pythonhosted.org/packages/a2/0b/72c6aeb5182f533fa72ba71cb82768263486bf3a45c94686129ac602acd9/bqt-1.0.0.tar.gz
+[2023-06-05 17:19:52] INFO root fetch - processPackages [pararamio]: executing diffoscope
+[2023-06-05 17:19:52] INFO root fetch - processPackages [pararamio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pararamio-1.0.8.tar.gz tmp/pararamio-1.0.9.tar.gz --markdown 20230605/p/pararamio/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:52] INFO root fetch - processPackages [bqt]: executing diffoscope
+[2023-06-05 17:19:52] INFO root fetch - processPackages [bqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bqt-0.2.0.tar.gz tmp/bqt-1.0.0.tar.gz --markdown 20230605/b/bqt/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 17:19:52] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-05 17:19:52] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.8.tar.gz tmp/steam-sdk-2023.6.9.tar.gz --markdown 20230605/s/steam-sdk/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:52] INFO root fetch - processPackages [stewchef]: executing diffoscope
+[2023-06-05 17:19:52] INFO root fetch - processPackages [stewchef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stewchef-0.1.5a0.tar.gz tmp/stewchef-0.1.6a0.tar.gz --markdown 20230605/s/stewchef/0.1.5a0-0.1.6a0/diff.md --exclude *.pyd
+[2023-06-05 17:19:52] INFO root fetch - processPackages [pymultiMATIC]: executing diffoscope
+[2023-06-05 17:19:52] INFO root fetch - processPackages [pymultiMATIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultiMATIC-0.7.0b4.tar.gz tmp/pymultiMATIC-0.7.0b5.tar.gz --markdown 20230605/p/pymultiMATIC/0.7.0b4-0.7.0b5/diff.md --exclude *.pyd
+[2023-06-05 17:19:52] INFO root fetch - processPackages [fw-storage]: executing diffoscope
+[2023-06-05 17:19:52] INFO root fetch - processPackages [fw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_storage-2.1.8-py3-none-any.whl.zip tmp/fw_storage-2.1.9-py3-none-any.whl.zip --markdown 20230605/f/fw-storage/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:52] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: executing diffoscope
+[2023-06-05 17:19:52] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-snowflake-6.0.4.tar.gz tmp/cdktf-cdktf-provider-snowflake-6.0.5.tar.gz --markdown 20230605/c/cdktf-cdktf-provider-snowflake/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-06-05 17:19:53] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/ef/b4/fb2777b6ee3bdbddf28d9c9f6b0538010b9fb7ac79f206a8f7e5abc8606d/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz
+[2023-06-05 17:19:53] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-06-05 17:19:53] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz --markdown 20230605/c/cdktf-cdktf-provider-spotinst/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:53] INFO root fetch - processPackages [autolv]: Remove: archive file [/home/abi/fetcher/tmp/autolv-1.0.3.tar.gz]
+[2023-06-05 17:19:53] INFO root fetch - processPackages [autolv]: Remove: archive file [/home/abi/fetcher/tmp/autolv-1.0.4-py3-none-any.whl.zip]
+[2023-06-05 17:19:53] INFO root fetch - processPackages [autolv]: Start processing: kclvm
+[2023-06-05 17:19:53] INFO root fetch - main [MainThread]: End processing [autolv]: success
+[2023-06-05 17:19:53] INFO root fetch - processPackages [kclvm]: New version: [0.5.0.3] Old Version: [0.5.0.2]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [kclvm]: Downloading https://files.pythonhosted.org/packages/2d/6a/095fda1afb51ec3e1d73caf0a7e5e62391d5d694634a9d7f20eee964902c/kclvm-0.5.0.2.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [stewchef]: Remove: archive file [/home/abi/fetcher/tmp/stewchef-0.1.5a0.tar.gz]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [stewchef]: Remove: archive file [/home/abi/fetcher/tmp/stewchef-0.1.6a0.tar.gz]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [stewchef]: Start processing: cybrid-api-id-python
+[2023-06-05 17:19:54] INFO root fetch - main [MainThread]: End processing [stewchef]: success
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [fw-storage]: Remove: archive file [/home/abi/fetcher/tmp/fw_storage-2.1.8-py3-none-any.whl.zip]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [fw-storage]: Remove: archive file [/home/abi/fetcher/tmp/fw_storage-2.1.9-py3-none-any.whl.zip]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [fw-storage]: Start processing: cybrid-api-bank-python
+[2023-06-05 17:19:54] INFO root fetch - main [MainThread]: End processing [fw-storage]: success
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [kclvm]: Downloading https://files.pythonhosted.org/packages/c7/af/3632b87454dd78f9eed232a2960474fab55769d2e54aaed4622d322c043c/kclvm-0.5.0.3.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [kclvm]: executing diffoscope
+[2023-06-05 17:19:54] INFO root fetch - processPackages [kclvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kclvm-0.5.0.2.tar.gz tmp/kclvm-0.5.0.3.tar.gz --markdown 20230605/k/kclvm/0.5.0.2-0.5.0.3/diff.md --exclude *.pyd
+[2023-06-05 17:19:54] INFO root fetch - processPackages [pymultiMATIC]: Remove: archive file [/home/abi/fetcher/tmp/pymultiMATIC-0.7.0b4.tar.gz]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [pymultiMATIC]: Remove: archive file [/home/abi/fetcher/tmp/pymultiMATIC-0.7.0b5.tar.gz]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [pymultiMATIC]: Start processing: quorum-eth-py
+[2023-06-05 17:19:54] INFO root fetch - main [MainThread]: End processing [pymultiMATIC]: success
+[2023-06-05 17:19:54] INFO root fetch - processPackages [quorum-eth-py]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [quorum-eth-py]: Downloading https://files.pythonhosted.org/packages/7f/7a/078148e66a2bff69ac292f05ac192024a759b5ba13e85beb42556a2a2f08/quorum_eth_py-0.4.0.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [bqt]: Remove: archive file [/home/abi/fetcher/tmp/bqt-0.2.0.tar.gz]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [bqt]: Remove: archive file [/home/abi/fetcher/tmp/bqt-1.0.0.tar.gz]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [bqt]: Start processing: cybrid-api-organization-python
+[2023-06-05 17:19:54] INFO root fetch - main [MainThread]: End processing [bqt]: success
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [pararamio]: Remove: archive file [/home/abi/fetcher/tmp/pararamio-1.0.8.tar.gz]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [pararamio]: Remove: archive file [/home/abi/fetcher/tmp/pararamio-1.0.9.tar.gz]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [pararamio]: Start processing: soos-sca
+[2023-06-05 17:19:54] INFO root fetch - main [MainThread]: End processing [pararamio]: success
+[2023-06-05 17:19:54] INFO root fetch - processPackages [soos-sca]: New version: [1.7.9rc1] Old Version: [1.7.9]
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230605/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:54] INFO root fetch - processPackages [quorum-eth-py]: Downloading https://files.pythonhosted.org/packages/54/fb/e68704a290409821ff276ffacb9b70ca0fbcb34f8efafc9fcdc75bf8c64c/quorum_eth_py-0.4.1.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [soos-sca]: Downloading https://files.pythonhosted.org/packages/ec/24/4a6e1e4d6270ab89f529ae24bea386f985c08da1625b5ec4058bdf34f111/soos-sca-1.7.9.tar.gz
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-05 17:19:54] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230605/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:54] INFO root fetch - processPackages [quorum-eth-py]: executing diffoscope
+[2023-06-05 17:19:54] INFO root fetch - processPackages [quorum-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_eth_py-0.4.0.tar.gz tmp/quorum_eth_py-0.4.1.tar.gz --markdown 20230605/q/quorum-eth-py/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-05 17:19:55] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-05 17:19:55] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.8.tar.gz]
+[2023-06-05 17:19:55] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
+[2023-06-05 17:19:55] INFO root fetch - processPackages [steam-sdk]: Start processing: scdeepinsight
+[2023-06-05 17:19:55] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-05 17:19:55] INFO root fetch - processPackages [scdeepinsight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 17:19:55] INFO root fetch - processPackages [soos-sca]: Downloading https://files.pythonhosted.org/packages/32/33/ac92f5834898f71541dc66f7531cd4d30795444a28fb6ebf3645a3bbd814/soos-sca-1.7.9rc1.tar.gz
+[2023-06-05 17:19:55] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-05 17:19:55] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230605/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:55] INFO root fetch - processPackages [soos-sca]: executing diffoscope
+[2023-06-05 17:19:55] INFO root fetch - processPackages [soos-sca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soos-sca-1.7.9.tar.gz tmp/soos-sca-1.7.9rc1.tar.gz --markdown 20230605/s/soos-sca/1.7.9-1.7.9rc1/diff.md --exclude *.pyd
+[2023-06-05 17:19:55] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/7a/94/639488ee8ea5f1ea3afca991fbd9824ae325f796f4d75155e328af4e97f9/scdeepinsight-0.1.8.tar.gz
+[2023-06-05 17:19:55] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/2f/2f/fae6bd1d0603ad1ad76300900e502d5909ff55a2e6ffc66be1d57e90b926/scdeepinsight-0.1.9.tar.gz
+[2023-06-05 17:19:55] INFO root fetch - processPackages [scdeepinsight]: executing diffoscope
+[2023-06-05 17:19:55] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz]
+[2023-06-05 17:19:55] INFO root fetch - processPackages [scdeepinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdeepinsight-0.1.8.tar.gz tmp/scdeepinsight-0.1.9.tar.gz --markdown 20230605/s/scdeepinsight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:55] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz]
+[2023-06-05 17:19:55] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Start processing: ramodels
+[2023-06-05 17:19:55] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-06-05 17:19:55] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-05 17:19:55] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-05 17:19:55] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-05 17:19:56] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-05 17:19:56] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230605/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-05 17:19:56] INFO root fetch - processPackages [quorum-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/quorum_eth_py-0.4.0.tar.gz]
+[2023-06-05 17:19:56] INFO root fetch - processPackages [quorum-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/quorum_eth_py-0.4.1.tar.gz]
+[2023-06-05 17:19:56] INFO root fetch - processPackages [quorum-eth-py]: Start processing: obs-cli
+[2023-06-05 17:19:56] INFO root fetch - main [MainThread]: End processing [quorum-eth-py]: success
+[2023-06-05 17:19:56] INFO root fetch - processPackages [obs-cli]: New version: [0.3] Old Version: [0.2]
+[2023-06-05 17:19:56] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/0d/a0/7233eb37cbf4d9e0ac0da9970a45de89efc204b7d3f09121765c64e20ec9/obs-cli-0.2.tar.gz
+[2023-06-05 17:19:56] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/14/e7/4c2f83e1f89ccb3ce7a238a3347e643d1ec2414608921161612aac723fc0/obs-cli-0.3.tar.gz
+[2023-06-05 17:19:56] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.8.tar.gz]
+[2023-06-05 17:19:56] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.9.tar.gz]
+[2023-06-05 17:19:56] INFO root fetch - processPackages [scdeepinsight]: Start processing: odoo-addon-purchase-merge
+[2023-06-05 17:19:56] INFO root fetch - main [MainThread]: End processing [scdeepinsight]: success
+[2023-06-05 17:19:56] INFO root fetch - processPackages [odoo-addon-purchase-merge]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-06-05 17:19:56] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-05 17:19:56] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.2.tar.gz tmp/obs-cli-0.3.tar.gz --markdown 20230605/o/obs-cli/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-05 17:19:57] INFO root fetch - processPackages [odoo-addon-purchase-merge]: Downloading https://files.pythonhosted.org/packages/d1/db/6f7772a94966dd84b402dfc6b5d7bbb0fc55de5c6a2321bf79d7abeccd44/odoo_addon_purchase_merge-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-05 17:19:57] INFO root fetch - processPackages [bulma-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/bulma_sphinx_theme-0.0.8.tar.gz]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [bulma-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/bulma_sphinx_theme-0.0.9.tar.gz]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [bulma-sphinx-theme]: Start processing: neuronsphere
+[2023-06-05 17:19:57] INFO root fetch - main [MainThread]: End processing [bulma-sphinx-theme]: success
+[2023-06-05 17:19:57] INFO root fetch - processPackages [neuronsphere]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [ramodels]: Start processing: scdeepinsight
+[2023-06-05 17:19:57] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-05 17:19:57] INFO root fetch - processPackages [scdeepinsight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [soos-sca]: Remove: archive file [/home/abi/fetcher/tmp/soos-sca-1.7.9.tar.gz]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [soos-sca]: Remove: archive file [/home/abi/fetcher/tmp/soos-sca-1.7.9rc1.tar.gz]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [soos-sca]: Start processing: git2pdf
+[2023-06-05 17:19:57] INFO root fetch - main [MainThread]: End processing [soos-sca]: success
+[2023-06-05 17:19:57] INFO root fetch - processPackages [odoo-addon-purchase-merge]: Downloading https://files.pythonhosted.org/packages/26/58/473100fccff06dfa51ea50db5411be984844a75a079d82b093314e6c1f93/odoo_addon_purchase_merge-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-05 17:19:57] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/7a/94/639488ee8ea5f1ea3afca991fbd9824ae325f796f4d75155e328af4e97f9/scdeepinsight-0.1.8.tar.gz
+[2023-06-05 17:19:57] INFO root fetch - processPackages [git2pdf]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [odoo-addon-purchase-merge]: executing diffoscope
+[2023-06-05 17:19:57] INFO root fetch - processPackages [odoo-addon-purchase-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_merge-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_merge-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230605/o/odoo-addon-purchase-merge/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-05 17:19:57] INFO root fetch - processPackages [git2pdf]: Downloading https://files.pythonhosted.org/packages/48/45/b939adcea27dab1f2305164971a8e4ad4e621a6b211176fb87a41fa2af3b/git2pdf-0.1.5.tar.gz
+[2023-06-05 17:19:57] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/2f/2f/fae6bd1d0603ad1ad76300900e502d5909ff55a2e6ffc66be1d57e90b926/scdeepinsight-0.1.9.tar.gz
+[2023-06-05 17:19:57] INFO root fetch - processPackages [neuronsphere]: Downloading https://files.pythonhosted.org/packages/f4/e4/5e99c5fbfc55c2e52c902ae751cd11221a96e2eee76d910bea77a201af2d/neuronsphere-1.0.8-py3-none-any.whl
+[2023-06-05 17:19:57] INFO root fetch - processPackages [scdeepinsight]: executing diffoscope
+[2023-06-05 17:19:57] INFO root fetch - processPackages [scdeepinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdeepinsight-0.1.8.tar.gz tmp/scdeepinsight-0.1.9.tar.gz --markdown 20230605/s/scdeepinsight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:57] INFO root fetch - processPackages [git2pdf]: Downloading https://files.pythonhosted.org/packages/cc/d1/842ef4ccfb5f672cfac23cf274995900e3f33e6defe440a5be21bdbfb6db/git2pdf-0.1.6.tar.gz
+[2023-06-05 17:19:57] INFO root fetch - processPackages [git2pdf]: executing diffoscope
+[2023-06-05 17:19:57] INFO root fetch - processPackages [git2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git2pdf-0.1.5.tar.gz tmp/git2pdf-0.1.6.tar.gz --markdown 20230605/g/git2pdf/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 17:19:57] INFO root fetch - processPackages [neuronsphere]: Downloading https://files.pythonhosted.org/packages/f3/f2/b3721807ebed87f69d659e1cd758a046b47aa67f2d686af0026fe0604dfb/neuronsphere-1.0.9-py3-none-any.whl
+[2023-06-05 17:19:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: hat-event
+[2023-06-05 17:19:57] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-05 17:19:57] INFO root fetch - processPackages [hat-event]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-05 17:19:57] INFO root fetch - processPackages [neuronsphere]: executing diffoscope
+[2023-06-05 17:19:57] INFO root fetch - processPackages [neuronsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuronsphere-1.0.8-py3-none-any.whl.zip tmp/neuronsphere-1.0.9-py3-none-any.whl.zip --markdown 20230605/n/neuronsphere/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-05 17:19:58] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/87/f2/6cc01b4290f49eb53ed8d291455372cb3951f9ee94c529b2ab9842d6e6b3/hat_event-0.8.6-cp39-cp39-win_amd64.whl
+[2023-06-05 17:19:58] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/b6/f3/c0b6915af53284f1345dccb8f5a70d48f30f410eba8bd5bc2c5f2060b17a/hat_event-0.8.7-cp39-cp39-musllinux_1_2_x86_64.whl
+[2023-06-05 17:19:58] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.2.tar.gz]
+[2023-06-05 17:19:58] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.3.tar.gz]
+[2023-06-05 17:19:58] INFO root fetch - processPackages [obs-cli]: Start processing: Abg
+[2023-06-05 17:19:58] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-05 17:19:58] INFO root fetch - processPackages [Abg]: New version: [1.2] Old Version: [1.1]
+[2023-06-05 17:19:58] INFO root fetch - processPackages [odoo-addon-purchase-merge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_merge-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-05 17:19:58] INFO root fetch - processPackages [odoo-addon-purchase-merge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_merge-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-05 17:19:58] INFO root fetch - processPackages [odoo-addon-purchase-merge]: Start processing: pysmart365
+[2023-06-05 17:19:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-merge]: success
+[2023-06-05 17:19:58] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.8.tar.gz]
+[2023-06-05 17:19:58] INFO root fetch - processPackages [scdeepinsight]: Remove: archive file [/home/abi/fetcher/tmp/scdeepinsight-0.1.9.tar.gz]
+[2023-06-05 17:19:58] INFO root fetch - main [MainThread]: End processing [scdeepinsight]: success
+[2023-06-05 17:19:58] INFO root fetch - processPackages [pysmart365]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 17:19:58] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/c5/87/9df8db0543abf4e1dff7d621b1f8f032b8876fa76698ab853c39bac03279/Abg-1.1.tar.gz
+[2023-06-05 17:19:58] INFO root fetch - processPackages [pysmart365]: Downloading https://files.pythonhosted.org/packages/c2/4c/9829015d1b16492df9392ed5a87f535c71e0075761009ab5d0eb1ee68f48/pysmart365-0.0.5.tar.gz
+[2023-06-05 17:19:58] INFO root fetch - processPackages [pysmart365]: Downloading https://files.pythonhosted.org/packages/75/b9/9b6d2a11e2b25a53377d51c37243b8d2802c506682829a0d07ce90f08777/pysmart365-0.0.6.tar.gz
+[2023-06-05 17:19:58] INFO root fetch - processPackages [pysmart365]: executing diffoscope
+[2023-06-05 17:19:58] INFO root fetch - processPackages [pysmart365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmart365-0.0.5.tar.gz tmp/pysmart365-0.0.6.tar.gz --markdown 20230605/p/pysmart365/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 17:19:58] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/07/48/20562d4ad11e61cd47b675a4263bac91102a6dcc5da6b4451f6200c41e4c/Abg-1.2.tar.gz
+[2023-06-05 17:19:59] INFO root fetch - processPackages [Abg]: executing diffoscope
+[2023-06-05 17:19:59] INFO root fetch - processPackages [Abg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abg-1.1.tar.gz tmp/Abg-1.2.tar.gz --markdown 20230605/A/Abg/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-05 17:19:59] INFO root fetch - processPackages [neuronsphere]: Remove: archive file [/home/abi/fetcher/tmp/neuronsphere-1.0.8-py3-none-any.whl.zip]
+[2023-06-05 17:19:59] INFO root fetch - processPackages [neuronsphere]: Remove: archive file [/home/abi/fetcher/tmp/neuronsphere-1.0.9-py3-none-any.whl.zip]
+[2023-06-05 17:19:59] INFO root fetch - main [MainThread]: End processing [neuronsphere]: success
+[2023-06-05 17:19:59] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-05 17:19:59] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-05 17:19:59] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-05 17:19:59] INFO root fetch - processPackages [hat-event]: executing diffoscope
+[2023-06-05 17:19:59] INFO root fetch - processPackages [hat-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_event-0.8.6-cp39-cp39-win_amd64.whl.zip tmp/hat_event-0.8.7-cp39-cp39-musllinux_1_2_x86_64.whl.zip --markdown 20230605/h/hat-event/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-05 17:20:00] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-1.1.tar.gz]
+[2023-06-05 17:20:00] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-1.2.tar.gz]
+[2023-06-05 17:20:00] INFO root fetch - main [MainThread]: End processing [Abg]: success
+[2023-06-05 17:20:00] INFO root fetch - processPackages [pysmart365]: Remove: archive file [/home/abi/fetcher/tmp/pysmart365-0.0.5.tar.gz]
+[2023-06-05 17:20:00] INFO root fetch - processPackages [pysmart365]: Remove: archive file [/home/abi/fetcher/tmp/pysmart365-0.0.6.tar.gz]
+[2023-06-05 17:20:00] INFO root fetch - main [MainThread]: End processing [pysmart365]: success
+[2023-06-05 17:20:00] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.8.6-cp39-cp39-win_amd64.whl.zip]
+[2023-06-05 17:20:00] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.8.7-cp39-cp39-musllinux_1_2_x86_64.whl.zip]
+[2023-06-05 17:20:00] INFO root fetch - main [MainThread]: End processing [hat-event]: success
+[2023-06-05 17:20:00] INFO root fetch - processPackages [git2pdf]: Remove: archive file [/home/abi/fetcher/tmp/git2pdf-0.1.5.tar.gz]
+[2023-06-05 17:20:00] INFO root fetch - processPackages [git2pdf]: Remove: archive file [/home/abi/fetcher/tmp/git2pdf-0.1.6.tar.gz]
+[2023-06-05 17:20:00] INFO root fetch - main [MainThread]: End processing [git2pdf]: success
+[2023-06-05 17:20:00] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-6.0.4.tar.gz]
+[2023-06-05 17:20:00] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-6.0.5.tar.gz]
+[2023-06-05 17:20:00] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
+[2023-06-05 17:20:01] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-05 17:20:01] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-05 17:20:01] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-05 17:21:47] INFO root fetch - processPackages [kclvm]: Remove: archive file [/home/abi/fetcher/tmp/kclvm-0.5.0.2.tar.gz]
+[2023-06-05 17:21:47] INFO root fetch - processPackages [kclvm]: Remove: archive file [/home/abi/fetcher/tmp/kclvm-0.5.0.3.tar.gz]
+[2023-06-05 17:21:47] INFO root fetch - main [MainThread]: End processing [kclvm]: success
+[2023-06-05 17:21:47] INFO root fetch - main [MainThread]: Store serial: [18377782]
