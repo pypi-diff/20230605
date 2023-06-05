@@ -3080,3 +3080,47 @@
 [2023-06-05 03:12:59] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-06-05 03:13:00] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-06-05 03:13:00] INFO root fetch - main [MainThread]: Store serial: [18370698]
+[2023-06-05 03:18:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18370698]
+[2023-06-05 03:18:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-05 03:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt
+[2023-06-05 03:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: segmenteverygrain
+[2023-06-05 03:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-invoice
+[2023-06-05 03:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlplatformutils
+[2023-06-05 03:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myads
+[2023-06-05 03:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-hugo-deploy
+[2023-06-05 03:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moped
+[2023-06-05 03:18:09] INFO root fetch - processPackages [mlplatformutils]: New version: [0.8.1] Old Version: [0.8]
+[2023-06-05 03:18:09] INFO root fetch - processPackages [segmenteverygrain]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-05 03:18:09] INFO root fetch - processPackages [myads]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-05 03:18:09] INFO root fetch - processPackages [xj-invoice]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-05 03:18:09] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-05 03:18:09] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-05 03:18:10] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2023-06-05 03:18:10] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-05 03:18:10] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230605/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-05 03:18:10] INFO root fetch - processPackages [myads]: Downloading https://files.pythonhosted.org/packages/a7/15/6c00387b618f3429cde816df0d19afda38581f79a78a92bb8c370bc48052/myads-1.0.1.tar.gz
+[2023-06-05 03:18:10] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/6b/67/9b7ce8c413d808f332c8f82edd536efbf95a87e42ff815b5b048a5f2bee1/mlplatformutils-0.8.1.tar.gz
+[2023-06-05 03:18:10] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-05 03:18:10] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230605/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-05 03:18:10] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/47/47/858e1851dd4ac00a6602a2c975883f8879420ddeea8f8a3cfee3f0cf5a2e/xj_invoice-1.0.0.tar.gz
+[2023-06-05 03:18:10] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-05 03:18:10] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.8.tar.gz tmp/mlplatformutils-0.8.1.tar.gz --markdown 20230605/m/mlplatformutils/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-06-05 03:18:10] INFO root fetch - processPackages [segmenteverygrain]: Downloading https://files.pythonhosted.org/packages/ab/81/d950acb853132cf0b240e890aeb0eaa4bb353fad124dd234072c9d90eb0d/segmenteverygrain-0.0.3.tar.gz
+[2023-06-05 03:18:10] INFO root fetch - processPackages [myads]: Downloading https://files.pythonhosted.org/packages/44/f4/e204d5483b4dd609c708e6cde5bbc32e038d8e3d754baa556c41d95030a4/myads-1.0.2.tar.gz
+[2023-06-05 03:18:10] INFO root fetch - processPackages [segmenteverygrain]: executing diffoscope
+[2023-06-05 03:18:10] INFO root fetch - processPackages [segmenteverygrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmenteverygrain-0.0.2.tar.gz tmp/segmenteverygrain-0.0.3.tar.gz --markdown 20230605/s/segmenteverygrain/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-05 03:18:10] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/26/9f/0d7b778255f87778dfba5ef926f51db9a4ab45c4e8f2b064e1b7931e8fb0/xj_invoice-1.0.2.tar.gz
+[2023-06-05 03:18:10] INFO root fetch - processPackages [myads]: executing diffoscope
+[2023-06-05 03:18:10] INFO root fetch - processPackages [myads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myads-1.0.1.tar.gz tmp/myads-1.0.2.tar.gz --markdown 20230605/m/myads/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 03:18:10] INFO root fetch - processPackages [xj-invoice]: executing diffoscope
+[2023-06-05 03:18:10] INFO root fetch - processPackages [xj-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_invoice-1.0.0.tar.gz tmp/xj_invoice-1.0.2.tar.gz --markdown 20230605/x/xj-invoice/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-05 03:18:10] INFO root fetch - processPackages [moped]: executing diffoscope
+[2023-06-05 03:18:10] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20230605/m/moped/1.9.9-1rc1/diff.md --exclude *.pyd
+[2023-06-05 03:18:11] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-05 03:18:11] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-05 03:18:11] INFO root fetch - main [MainThread]: End processing [segmenteverygrain]: success
+[2023-06-05 03:18:11] INFO root fetch - main [MainThread]: End processing [myads]: success
+[2023-06-05 03:18:11] INFO root fetch - main [MainThread]: End processing [xj-invoice]: success
+[2023-06-05 03:18:12] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2023-06-05 03:18:19] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-05 03:18:19] INFO root fetch - main [MainThread]: Store serial: [18370725]
