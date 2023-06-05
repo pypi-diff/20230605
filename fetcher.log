@@ -4037,3 +4037,55 @@
 [2023-06-05 04:40:29] INFO root fetch - main [MainThread]: End processing [rqsdk]: success
 [2023-06-05 04:40:29] INFO root fetch - main [MainThread]: End processing [vMedNLP]: success
 [2023-06-05 04:40:29] INFO root fetch - main [MainThread]: Store serial: [18371247]
+[2023-06-05 04:45:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371247]
+[2023-06-05 04:45:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vMedNLP
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lop-codeingame-cli
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-26
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openrlbenchmark-nightly
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naif-eop-high-prec
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-25
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-easy-scrap
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zipline-tej
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mpqml
+[2023-06-05 04:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rutpy
+[2023-06-05 04:45:38] INFO root fetch - processPackages [vMedNLP]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 04:45:38] WARNING root fetch - processPackages [lop-codeingame-cli]: Skipping, unable to determine old version
+[2023-06-05 04:45:38] INFO root fetch - processPackages [lop-codeingame-cli]: Start processing: worddfn
+[2023-06-05 04:45:38] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-05 04:45:38] INFO root fetch - main [MainThread]: End processing [lop-codeingame-cli] error
+[2023-06-05 04:45:38] WARNING root fetch - processPackages [py-easy-scrap]: Skipping, unable to determine old version
+[2023-06-05 04:45:38] WARNING root fetch - processPackages [rutpy]: Skipping, unable to determine old version
+[2023-06-05 04:45:38] INFO root fetch - main [MainThread]: End processing [py-easy-scrap] error
+[2023-06-05 04:45:38] INFO root fetch - main [MainThread]: End processing [rutpy] error
+[2023-06-05 04:45:38] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 04:45:38] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-05 04:45:38] INFO root fetch - processPackages [mpqml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-05 04:45:38] WARNING root fetch - processPackages [worddfn]: Skipping, unable to determine old version
+[2023-06-05 04:45:38] INFO root fetch - main [MainThread]: End processing [worddfn] error
+[2023-06-05 04:45:38] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-05 04:45:38] WARNING root fetch - processPackages [openrlbenchmark-nightly]: Skipping, unable to determine old version
+[2023-06-05 04:45:38] INFO root fetch - main [MainThread]: End processing [openrlbenchmark-nightly] error
+[2023-06-05 04:45:38] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-05 04:45:38] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230605/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-05 04:45:38] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-05 04:45:38] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230605/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-05 04:45:38] INFO root fetch - processPackages [mpqml]: Downloading https://files.pythonhosted.org/packages/53/5f/2ef175893fcdbd09ba0ed67f908bb40f9acf0671e3cc1374f760b293f854/mpqml-0.0.8.tar.gz
+[2023-06-05 04:45:38] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ed/05/8c681e3b55d7079e4475969d1ff427072a12d0f1cda380a06aa6af6398a6/naif_eop_high_prec-2023.6.5.tar.gz
+[2023-06-05 04:45:38] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/e0/05/d8e8c5e77985bdb4dd0f9aa80089a3da31641b7eaf996ead2de62e29c236/zipline-tej-0.0.6.tar.gz
+[2023-06-05 04:45:38] INFO root fetch - processPackages [vMedNLP]: executing diffoscope
+[2023-06-05 04:45:38] INFO root fetch - processPackages [vMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vMedNLP-1.0.0-py38-none-any.whl.zip tmp/vMedNLP-1.0.1-py38-none-any.whl.zip --markdown 20230605/v/vMedNLP/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 04:45:38] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-05 04:45:38] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.5.tar.gz tmp/zipline-tej-0.0.6.tar.gz --markdown 20230605/z/zipline-tej/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 04:45:38] INFO root fetch - processPackages [mpqml]: Downloading https://files.pythonhosted.org/packages/5e/77/10271b053c75d2b3a94d3456937853e553e1eb66a365c91c837b6eeedf1d/mpqml-0.0.9.tar.gz
+[2023-06-05 04:45:39] INFO root fetch - processPackages [mpqml]: executing diffoscope
+[2023-06-05 04:45:39] INFO root fetch - processPackages [mpqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpqml-0.0.8.tar.gz tmp/mpqml-0.0.9.tar.gz --markdown 20230605/m/mpqml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-05 04:45:39] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-05 04:45:39] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.4.tar.gz tmp/naif_eop_high_prec-2023.6.5.tar.gz --markdown 20230605/n/naif-eop-high-prec/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-05 04:45:39] INFO root fetch - main [MainThread]: End processing [vMedNLP]: success
+[2023-06-05 04:45:40] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-05 04:45:40] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-05 04:45:40] INFO root fetch - main [MainThread]: End processing [mpqml]: success
+[2023-06-05 04:45:40] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-05 04:45:43] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-05 04:45:43] INFO root fetch - main [MainThread]: Store serial: [18371290]
