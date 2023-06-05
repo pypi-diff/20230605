@@ -12453,3 +12453,117 @@ AssertionError: tmp/ms_salesforce_api-0.0.38.tar.gz does not exist
 [2023-06-05 14:35:20] INFO root fetch - processPackages [django-viewflow]: Remove: archive file [/home/abi/fetcher/tmp/django-viewflow-2.0.0b4.tar.gz]
 [2023-06-05 14:35:20] INFO root fetch - main [MainThread]: End processing [django-viewflow]: success
 [2023-06-05 14:35:20] INFO root fetch - main [MainThread]: Store serial: [18375808]
+[2023-06-05 14:40:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18375808]
+[2023-06-05 14:40:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fink-utils
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monotonic-nn
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvfuser-cu118
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wizata-dsapi
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu117
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: textbsr
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gravity-auto-exit
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: num-tini4
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hkfdb
+[2023-06-05 14:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ms-salesforce-api
+[2023-06-05 14:40:30] INFO root fetch - processPackages [monotonic-nn]: New version: [0.3.0rc0] Old Version: [0.2.0rc2]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [textbsr]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [fink-utils]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [ms-salesforce-api]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [hkfdb]: New version: [3.4.3] Old Version: [3.4.2]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [gravity-auto-exit]: New version: [1.8.45] Old Version: [1.8.44]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [num-tini4]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-06-05 14:40:30] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/02/7a/d27297d11e4adc56a334f9f8a2a5f33230c02ab8d6b39df36f2043c2fa86/textbsr-0.1.4.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/db/28/824aa712e68026b687307c46a065becde15b9e76eda79babc06ff779b076/monotonic-nn-0.2.0rc2.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/57/07/ca5a89b7a2142120c33b178499a1bbb8a61eb50a14c7fb6bc872f7becf22/wizata-dsapi-0.1.8.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/c2/92/541d020697843f9c432b5be44a26c09c4ca2657686c9c73328f68115b336/gravity_auto_exit-1.8.44-py3-none-any.whl
+[2023-06-05 14:40:30] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/54/4e/c6bae0dcfafe7a4eb378db2b30bcdfa9ac84e5b00b7fdf7204ec54b4a335/ms_salesforce_api-0.0.38.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [num-tini4]: Downloading https://files.pythonhosted.org/packages/c0/b8/dcae69147f8824999a0c2c8683adc17668a8eb3286f619a99d199ad9b0bc/num_tini4-0.1.1a1.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/64/60/9e1601e2b1b64ae2cb305a1580ed089b773b8313c865c6d918ce164c3a46/hkfdb-3.4.2.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 14:40:30] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 14:40:30] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/b1/4f/39434599634c5c8ebdbc1673e9f23d9af8dccfe107ccf922a907fd1af998/fink-utils-0.8.2.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/24/73/f966ec5aaff8a7a0c2b2eb418834cc4ae038fd991b89e9fa132a96ed3e6e/ms_salesforce_api-0.0.39.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/2c/b8/2b1682d93fc8dd99e09a9abd8a7f3047573ffb5103a7af978eae16b8c629/gravity_auto_exit-1.8.45-py3-none-any.whl
+[2023-06-05 14:40:30] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-05 14:40:30] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/48/70/ae4fb7bbca14a29b26763b6cc25ec6b0bb4488f1333789e1f9095588e7c6/hkfdb-3.4.3.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230605/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 14:40:30] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/79/45/30485063636efad6091b0b1b3c3539beddc5f6a2eb3493917252ca013b3c/textbsr-0.1.5.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/16/0a/594e526d8b3c079af6891fe09e3b31e27b48754ffc5a9bc620264ef74f8f/monotonic-nn-0.3.0rc0.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-06-05 14:40:30] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-0.0.38.tar.gz tmp/ms_salesforce_api-0.0.39.tar.gz --markdown 20230605/m/ms-salesforce-api/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-06-05 14:40:30] INFO root fetch - processPackages [num-tini4]: Downloading https://files.pythonhosted.org/packages/a0/d3/e3557d3a1e52d992142b32d26fded4b3e83edd827aee9b16549888b9f8a9/num_tini4-0.1.1a2.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [gravity-auto-exit]: executing diffoscope
+[2023-06-05 14:40:30] INFO root fetch - processPackages [gravity-auto-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravity_auto_exit-1.8.44-py3-none-any.whl.zip tmp/gravity_auto_exit-1.8.45-py3-none-any.whl.zip --markdown 20230605/g/gravity-auto-exit/1.8.44-1.8.45/diff.md --exclude *.pyd
+[2023-06-05 14:40:30] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-06-05 14:40:30] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.4.2.tar.gz tmp/hkfdb-3.4.3.tar.gz --markdown 20230605/h/hkfdb/3.4.2-3.4.3/diff.md --exclude *.pyd
+[2023-06-05 14:40:30] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-06-05 14:40:30] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.1.4.tar.gz tmp/textbsr-0.1.5.tar.gz --markdown 20230605/t/textbsr/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 14:40:30] INFO root fetch - processPackages [monotonic-nn]: executing diffoscope
+[2023-06-05 14:40:30] INFO root fetch - processPackages [monotonic-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic-nn-0.2.0rc2.tar.gz tmp/monotonic-nn-0.3.0rc0.tar.gz --markdown 20230605/m/monotonic-nn/0.2.0rc2-0.3.0rc0/diff.md --exclude *.pyd
+[2023-06-05 14:40:30] INFO root fetch - processPackages [num-tini4]: executing diffoscope
+[2023-06-05 14:40:30] INFO root fetch - processPackages [num-tini4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/num_tini4-0.1.1a1.tar.gz tmp/num_tini4-0.1.1a2.tar.gz --markdown 20230605/n/num-tini4/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-06-05 14:40:30] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/19/3d/6d51571734a20389d75327fd1fdf9382d5434496cdf8305167424eb6ea5f/fink-utils-0.9.0.tar.gz
+[2023-06-05 14:40:30] INFO root fetch - processPackages [fink-utils]: executing diffoscope
+[2023-06-05 14:40:30] INFO root fetch - processPackages [fink-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fink-utils-0.8.2.tar.gz tmp/fink-utils-0.9.0.tar.gz --markdown 20230605/f/fink-utils/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-05 14:40:31] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 14:40:31] INFO root fetch - processPackages [gravity-auto-exit]: Remove: archive file [/home/abi/fetcher/tmp/gravity_auto_exit-1.8.44-py3-none-any.whl.zip]
+[2023-06-05 14:40:31] INFO root fetch - processPackages [gravity-auto-exit]: Remove: archive file [/home/abi/fetcher/tmp/gravity_auto_exit-1.8.45-py3-none-any.whl.zip]
+[2023-06-05 14:40:31] INFO root fetch - processPackages [gravity-auto-exit]: Start processing: ocf-datapipes
+[2023-06-05 14:40:31] INFO root fetch - main [MainThread]: End processing [gravity-auto-exit]: success
+[2023-06-05 14:40:32] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-05 14:40:32] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.4.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [textbsr]: Remove: archive file [/home/abi/fetcher/tmp/textbsr-0.1.5.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [textbsr]: Start processing: rustquant
+[2023-06-05 14:40:32] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-06-05 14:40:32] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-06-05 14:40:32] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.4.2.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.4.3.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [hkfdb]: Start processing: mypackagelicenseprototype
+[2023-06-05 14:40:32] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-06-05 14:40:32] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/9a/45/824207d7e3ed426be9f924be4d9d6b57d4fdbea17cf7680449999dfcb054/mypackagelicenseprototype-2.0.8.tar.gz
+[2023-06-05 14:40:32] WARNING root fetch - processPackages [rustquant]: Skipping, unable to determine old version
+[2023-06-05 14:40:32] INFO root fetch - main [MainThread]: End processing [rustquant] error
+[2023-06-05 14:40:32] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-06-05 14:40:32] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d4/d0/e21c220316ce7f5786794f199c968dbeda1738d11009492ecfad13e4c912/mypackagelicenseprototype-2.0.9-py3-none-any.whl
+[2023-06-05 14:40:32] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.38.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.39.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-06-05 14:40:32] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-06-05 14:40:32] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230605/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-05 14:40:32] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 14:40:32] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-2.0.8.tar.gz tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-05 14:40:32] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.8.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.9.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-05 14:40:32] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.2.0rc2.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.3.0rc0.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - main [MainThread]: End processing [monotonic-nn]: success
+[2023-06-05 14:40:32] INFO root fetch - processPackages [fink-utils]: Remove: archive file [/home/abi/fetcher/tmp/fink-utils-0.8.2.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [fink-utils]: Remove: archive file [/home/abi/fetcher/tmp/fink-utils-0.9.0.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - main [MainThread]: End processing [fink-utils]: success
+[2023-06-05 14:40:32] INFO root fetch - processPackages [num-tini4]: Remove: archive file [/home/abi/fetcher/tmp/num_tini4-0.1.1a1.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - processPackages [num-tini4]: Remove: archive file [/home/abi/fetcher/tmp/num_tini4-0.1.1a2.tar.gz]
+[2023-06-05 14:40:32] INFO root fetch - main [MainThread]: End processing [num-tini4]: success
+[2023-06-05 14:40:32] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-06-05 14:40:32] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230605/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-05 14:40:33] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.8.tar.gz]
+[2023-06-05 14:40:33] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-2.0.9-py3-none-any.whl.zip]
+[2023-06-05 14:40:33] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 14:40:33] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-06-05 14:40:33] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230605/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-05 14:40:34] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.8.tar.gz]
+[2023-06-05 14:40:34] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.9.tar.gz]
+[2023-06-05 14:40:34] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-06-05 14:40:34] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 14:40:34] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 14:40:34] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-06-05 14:40:35] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 14:40:35] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-05 14:40:35] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-06-05 14:40:35] INFO root fetch - main [MainThread]: Store serial: [18375849]
