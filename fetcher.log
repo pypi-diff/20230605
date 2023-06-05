@@ -10382,3 +10382,84 @@
 [2023-06-05 12:59:33] INFO root fetch - main [MainThread]: End processing [pyfluxconserving]: success
 [2023-06-05 12:59:33] INFO root fetch - main [MainThread]: End processing [passkit-python-grpc-sdk]: success
 [2023-06-05 12:59:33] INFO root fetch - main [MainThread]: Store serial: [18374812]
+[2023-06-05 13:04:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18374812]
+[2023-06-05 13:04:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-check-printing-report-sslm102
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: porf
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: succulent
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: su6
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-imgexploration
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypackagelicenseprototype
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-advert-framework
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: telekinesis
+[2023-06-05 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titan-iris
+[2023-06-05 13:04:42] INFO root fetch - processPackages [succulent]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [porf]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-06-05 13:04:42] WARNING root fetch - processPackages [odoo-addon-account-check-printing-report-sslm102]: Skipping, unable to determine old version
+[2023-06-05 13:04:42] INFO root fetch - processPackages [odoo-addon-account-check-printing-report-sslm102]: Start processing: schoolware-api
+[2023-06-05 13:04:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-check-printing-report-sslm102] error
+[2023-06-05 13:04:42] INFO root fetch - processPackages [qwak-core]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [su6]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [telekinesis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-05 13:04:42] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230605/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-06-05 13:04:42] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-05 13:04:42] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-1.8.3-py3-none-any.whl.zip tmp/mypackagelicenseprototype-1.8.4-py3-none-any.whl.zip --markdown 20230605/m/mypackagelicenseprototype/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-06-05 13:04:42] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-06-05 13:04:42] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230605/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-05 13:04:42] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: Downloading https://files.pythonhosted.org/packages/db/e8/47f626069256ef9599236874ce03629be450708f416f8ab4c111c602ffcb/nonebot-plugin-imgexploration-0.3.1.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/d1/dd/9a11f66c664f84434b1c3a34babb38e87fdd59b23c83160b18af2ea99978/qwak_core-0.0.97.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [succulent]: Downloading https://files.pythonhosted.org/packages/fd/4e/e621a485c9add525f830d3487d366d7c5efc6a0cd52ecc15e62a8b53cfaa/succulent-0.2.1.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/34/bf/4a3b6bd2ed57c6689028d241bb5324b3ff076a0b83e8d21a1b0882610639/discord-advert-framework-2.8.1.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [porf]: Downloading https://files.pythonhosted.org/packages/70/e1/5ee8b0ba317d030bb8bfb4be1259592f580e034d202c4bff2c11be243638/porf-0.0.5.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/4c/1b/50be6cc5ea424a42254ceffd01eab739ffbcbff2bfd039a59498f3d19658/su6-0.9.0.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/aa/86/dc450aedaaf8947a852c0e97eb72fab6a33f1598db334aec327eb3da9f14/telekinesis-0.1.8.tar.gz
+[2023-06-05 13:04:42] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 18343929>=10485760
+[2023-06-05 13:04:42] INFO root fetch - processPackages [discord-advert-framework]: Start processing: libcnmc
+[2023-06-05 13:04:42] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-06-05 13:04:42] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-05 13:04:42] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-05 13:04:42] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.96.tar.gz tmp/qwak_core-0.0.97.tar.gz --markdown 20230605/q/qwak-core/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-06-05 13:04:42] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: Downloading https://files.pythonhosted.org/packages/d1/92/ee7c2ace44866fee0ad220bfb2d9befea1c29c746090117a2e19a010f54f/nonebot-plugin-imgexploration-0.3.2.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [porf]: Downloading https://files.pythonhosted.org/packages/d7/cc/c70f40ce5b019a4931a887fa493934d49888fd7e9564bff744fc55242c97/porf-0.0.6.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [succulent]: Downloading https://files.pythonhosted.org/packages/9d/35/bd395e02e93c1254b02d4a3948803073e1a27cebc8a23555a4a469220746/succulent-0.2.2.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/3f/63/771904a8dabe5fbce80afbd6791aa2044a22ffe943d383b957f38ec703c2/su6-1.0.0.tar.gz
+[2023-06-05 13:04:42] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: executing diffoscope
+[2023-06-05 13:04:42] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-imgexploration-0.3.1.tar.gz tmp/nonebot-plugin-imgexploration-0.3.2.tar.gz --markdown 20230605/n/nonebot-plugin-imgexploration/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-05 13:04:43] INFO root fetch - processPackages [succulent]: executing diffoscope
+[2023-06-05 13:04:43] INFO root fetch - processPackages [succulent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/succulent-0.2.1.tar.gz tmp/succulent-0.2.2.tar.gz --markdown 20230605/s/succulent/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-05 13:04:43] INFO root fetch - processPackages [porf]: executing diffoscope
+[2023-06-05 13:04:43] INFO root fetch - processPackages [porf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/porf-0.0.5.tar.gz tmp/porf-0.0.6.tar.gz --markdown 20230605/p/porf/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-05 13:04:43] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-06-05 13:04:43] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-0.9.0.tar.gz tmp/su6-1.0.0.tar.gz --markdown 20230605/s/su6/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-05 13:04:43] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/f6/9c/89ce5106a8ef79bcf2ca3ac0083d2e3ef7e12a58b957c054cb8962d6ca34/telekinesis-0.1.9.tar.gz
+[2023-06-05 13:04:43] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-05 13:04:43] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-05 13:04:43] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230605/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-05 13:04:43] INFO root fetch - processPackages [telekinesis]: executing diffoscope
+[2023-06-05 13:04:43] INFO root fetch - processPackages [telekinesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telekinesis-0.1.8.tar.gz tmp/telekinesis-0.1.9.tar.gz --markdown 20230605/t/telekinesis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-05 13:04:43] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: ivt
+[2023-06-05 13:04:43] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-05 13:04:43] INFO root fetch - processPackages [ivt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-05 13:04:44] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-06-05 13:04:44] INFO root fetch - processPackages [ivt]: Downloading https://files.pythonhosted.org/packages/d4/29/b903413587f2e06ae8763adc9a29a4259c872518005293cfe60d9274e522/ivt-0.1.0.tar.gz
+[2023-06-05 13:04:44] INFO root fetch - processPackages [ivt]: Downloading https://files.pythonhosted.org/packages/ff/1e/8f7ddde31c89d9c48e3d7c5132ce22d37d328ca146388e7ee7612484ec7f/ivt-0.1.1.tar.gz
+[2023-06-05 13:04:44] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-05 13:04:44] INFO root fetch - main [MainThread]: End processing [porf]: success
+[2023-06-05 13:04:44] INFO root fetch - main [MainThread]: End processing [succulent]: success
+[2023-06-05 13:04:44] INFO root fetch - processPackages [ivt]: executing diffoscope
+[2023-06-05 13:04:44] INFO root fetch - processPackages [ivt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivt-0.1.0.tar.gz tmp/ivt-0.1.1.tar.gz --markdown 20230605/i/ivt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-05 13:04:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-imgexploration]: success
+[2023-06-05 13:04:45] INFO root fetch - main [MainThread]: End processing [telekinesis]: success
+[2023-06-05 13:04:45] INFO root fetch - main [MainThread]: End processing [ivt]: success
+[2023-06-05 13:04:45] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-05 13:04:48] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-05 13:05:13] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-06-05 13:05:13] INFO root fetch - main [MainThread]: Store serial: [18374849]
