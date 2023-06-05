@@ -3951,3 +3951,89 @@
 [2023-06-05 04:35:15] INFO root fetch - main [MainThread]: End processing [mpqcv]: success
 [2023-06-05 04:35:16] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-05 04:35:16] INFO root fetch - main [MainThread]: Store serial: [18371217]
+[2023-06-05 04:40:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18371217]
+[2023-06-05 04:40:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygeoweaver
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpqhsi
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-24
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quicly
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecape
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt4-api
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-account-account-constraint-code
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: switch-guides
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Pytomatas
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-account-move-name-sequence
+[2023-06-05 04:40:25] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [gpt4-api]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [switch-guides]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [mpqhsi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ecape]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [quicly]: New version: [1.0.78] Old Version: [1.0.77]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [odoo14-addon-account-account-constraint-code]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [Pytomatas]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-05 04:40:25] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.8.tar.gz tmp/pygeoweaver-0.6.9.tar.gz --markdown 20230605/p/pygeoweaver/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-05 04:40:25] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: New version: [14.0.1.4.2.dev2] Old Version: [14.0.1.4.2.dev1]
+[2023-06-05 04:40:25] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-05 04:40:25] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230605/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-05 04:40:25] INFO root fetch - processPackages [switch-guides]: Downloading https://files.pythonhosted.org/packages/b2/07/de9fd6a8d511cedea9260d2f58490736f0e10ff8448cd4d71e139c9479ac/switch_guides-0.2.6.tar.gz
+[2023-06-05 04:40:25] INFO root fetch - processPackages [Pytomatas]: Downloading https://files.pythonhosted.org/packages/44/dd/9e6ec13991e106ab75fc1ede95cc31df5a5467fe31efcf84ca8b72080832/Pytomatas-1.1.4.tar.gz
+[2023-06-05 04:40:25] INFO root fetch - processPackages [odoo14-addon-account-account-constraint-code]: Downloading https://files.pythonhosted.org/packages/02/d2/b6256d11c0cea5632da86ccfc018d96b6c62ab081efb841050dbf32910a4/odoo14_addon_account_account_constraint_code-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-05 04:40:25] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/cf/35/a4ad70e260f0917bbc40f9e5942a701f352ced0c662fd274f27b97860694/ecape-0.0.1.tar.gz
+[2023-06-05 04:40:25] INFO root fetch - processPackages [quicly]: Downloading https://files.pythonhosted.org/packages/c5/6b/bb8229fb85b7a502cd5ea67d9b719573117387bb473c04d178bb1b341760/quicly-1.0.77.tar.gz
+[2023-06-05 04:40:26] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/0c/a5/341ed2140ea6f7c40a1ca8e2481831bb97d3ca4d97c24631cd3edcb7e6e0/gpt4-api-0.1.6.tar.gz
+[2023-06-05 04:40:26] INFO root fetch - processPackages [mpqhsi]: Downloading https://files.pythonhosted.org/packages/6c/37/05b3efd43f6e55206da6a6fb46c0a7ff7f6712c75ca726d8626ddfcfe58f/mpqhsi-0.0.8.tar.gz
+[2023-06-05 04:40:26] INFO root fetch - processPackages [Pytomatas]: executing diffoscope
+[2023-06-05 04:40:26] INFO root fetch - processPackages [Pytomatas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pytomatas-1.1.3.tar.gz tmp/Pytomatas-1.1.4.tar.gz --markdown 20230605/P/Pytomatas/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-05 04:40:26] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-06-05 04:40:26] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.1.5.tar.gz tmp/gpt4-api-0.1.6.tar.gz --markdown 20230605/g/gpt4-api/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-05 04:40:26] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/13/1a/42c1951651f89473f58c0bfbcf69c8122631dc79fe51dc456d360d94ebcf/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev2-py3-none-any.whl
+[2023-06-05 04:40:26] INFO root fetch - processPackages [odoo14-addon-account-account-constraint-code]: Downloading https://files.pythonhosted.org/packages/fc/da/513a294ebe5157ede4d96a51e2270210bca920bb8390c8dda4bbc0fd4094/odoo14_addon_account_account_constraint_code-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-05 04:40:26] INFO root fetch - processPackages [quicly]: Downloading https://files.pythonhosted.org/packages/05/e5/4c5ce91f5e86aba5d955cc3b975d3dfe34b27ce96593027558c197dc1a0a/quicly-1.0.78.tar.gz
+[2023-06-05 04:40:26] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/cd/22/4fcfec54d5b969b342738fe519e169c6eb9423d7d8f9f1ef16ae9ad1ee23/ecape-0.0.2.tar.gz
+[2023-06-05 04:40:26] INFO root fetch - processPackages [mpqhsi]: executing diffoscope
+[2023-06-05 04:40:26] INFO root fetch - processPackages [mpqhsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpqhsi-0.0.7.tar.gz tmp/mpqhsi-0.0.8.tar.gz --markdown 20230605/m/mpqhsi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-05 04:40:26] INFO root fetch - processPackages [switch-guides]: Downloading https://files.pythonhosted.org/packages/37/b0/cd33d7830b541d5e34b0ca294f049df052d6baa916ba13d5810b65a101f0/switch_guides-0.2.7.tar.gz
+[2023-06-05 04:40:26] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: executing diffoscope
+[2023-06-05 04:40:26] INFO root fetch - processPackages [odoo14-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_move_name_sequence-14.0.1.4.2.dev2-py3-none-any.whl.zip --markdown 20230605/o/odoo14-addon-account-move-name-sequence/14.0.1.4.2.dev1-14.0.1.4.2.dev2/diff.md --exclude *.pyd
+[2023-06-05 04:40:26] INFO root fetch - processPackages [odoo14-addon-account-account-constraint-code]: executing diffoscope
+[2023-06-05 04:40:26] INFO root fetch - processPackages [odoo14-addon-account-account-constraint-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_account_constraint_code-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_account_account_constraint_code-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230605/o/odoo14-addon-account-account-constraint-code/14.0.1.0.1.dev3-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-06-05 04:40:26] INFO root fetch - processPackages [quicly]: executing diffoscope
+[2023-06-05 04:40:26] INFO root fetch - processPackages [quicly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quicly-1.0.77.tar.gz tmp/quicly-1.0.78.tar.gz --markdown 20230605/q/quicly/1.0.77-1.0.78/diff.md --exclude *.pyd
+[2023-06-05 04:40:26] INFO root fetch - processPackages [switch-guides]: executing diffoscope
+[2023-06-05 04:40:26] INFO root fetch - processPackages [switch-guides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_guides-0.2.6.tar.gz tmp/switch_guides-0.2.7.tar.gz --markdown 20230605/s/switch-guides/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-05 04:40:26] INFO root fetch - processPackages [ecape]: executing diffoscope
+[2023-06-05 04:40:26] INFO root fetch - processPackages [ecape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecape-0.0.1.tar.gz tmp/ecape-0.0.2.tar.gz --markdown 20230605/e/ecape/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-05 04:40:27] INFO root fetch - processPackages [gpt4-api]: Start processing: lp-ap-tools
+[2023-06-05 04:40:27] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-06-05 04:40:27] INFO root fetch - processPackages [lp-ap-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-05 04:40:27] INFO root fetch - processPackages [mpqhsi]: Start processing: rqsdk
+[2023-06-05 04:40:27] INFO root fetch - main [MainThread]: End processing [mpqhsi]: success
+[2023-06-05 04:40:27] INFO root fetch - processPackages [Pytomatas]: Start processing: vMedNLP
+[2023-06-05 04:40:27] INFO root fetch - main [MainThread]: End processing [Pytomatas]: success
+[2023-06-05 04:40:27] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-05 04:40:27] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/ec/8a/ec121c6e86f074ce2898a50ad122e71daea9a27593c92159626d887a9ee2/lp_ap_tools-0.1.4-py3-none-any.whl
+[2023-06-05 04:40:27] INFO root fetch - processPackages [rqsdk]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-06-05 04:40:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-name-sequence]: success
+[2023-06-05 04:40:27] INFO root fetch - processPackages [vMedNLP]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-05 04:40:27] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/ab/92/0b83ec0ea45a826cf5864303d33d74d694ac557cdb29a5b128dba800e0ec/rqsdk-1.4.9.tar.gz
+[2023-06-05 04:40:27] INFO root fetch - main [MainThread]: End processing [quicly]: success
+[2023-06-05 04:40:27] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/5a/ea/31248b1406c84f57568dc5b94d3959f481af7b91209457e74393038b6bb3/lp_ap_tools-0.1.5-py3-none-any.whl
+[2023-06-05 04:40:28] INFO root fetch - main [MainThread]: End processing [switch-guides]: success
+[2023-06-05 04:40:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-account-constraint-code]: success
+[2023-06-05 04:40:28] INFO root fetch - processPackages [vMedNLP]: Downloading https://files.pythonhosted.org/packages/21/9d/5e41da74c602cad9e595c8b6015c3f089defce950ca5629c70b36a02f380/vMedNLP-1.0.0-py38-none-any.whl
+[2023-06-05 04:40:28] INFO root fetch - main [MainThread]: End processing [ecape]: success
+[2023-06-05 04:40:28] INFO root fetch - processPackages [lp-ap-tools]: executing diffoscope
+[2023-06-05 04:40:28] INFO root fetch - processPackages [lp-ap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lp_ap_tools-0.1.4-py3-none-any.whl.zip tmp/lp_ap_tools-0.1.5-py3-none-any.whl.zip --markdown 20230605/l/lp-ap-tools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-05 04:40:28] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/7a/9d/7a28503580e096e684bc45a1fbcce4691d6f9997d14403dacf58a910e039/rqsdk-1.5.0.tar.gz
+[2023-06-05 04:40:28] INFO root fetch - processPackages [rqsdk]: executing diffoscope
+[2023-06-05 04:40:28] INFO root fetch - processPackages [rqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqsdk-1.4.9.tar.gz tmp/rqsdk-1.5.0.tar.gz --markdown 20230605/r/rqsdk/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-06-05 04:40:28] INFO root fetch - processPackages [vMedNLP]: Downloading https://files.pythonhosted.org/packages/c3/70/6094543507069fe6c7aa053e6cf82c6eff5b160570ee7feef3da7e2706b3/vMedNLP-1.0.1-py38-none-any.whl
+[2023-06-05 04:40:28] INFO root fetch - processPackages [vMedNLP]: executing diffoscope
+[2023-06-05 04:40:28] INFO root fetch - processPackages [vMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vMedNLP-1.0.0-py38-none-any.whl.zip tmp/vMedNLP-1.0.1-py38-none-any.whl.zip --markdown 20230605/v/vMedNLP/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-05 04:40:29] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-05 04:40:29] INFO root fetch - main [MainThread]: End processing [lp-ap-tools]: success
+[2023-06-05 04:40:29] INFO root fetch - main [MainThread]: End processing [rqsdk]: success
+[2023-06-05 04:40:29] INFO root fetch - main [MainThread]: End processing [vMedNLP]: success
+[2023-06-05 04:40:29] INFO root fetch - main [MainThread]: Store serial: [18371247]
