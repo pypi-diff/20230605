@@ -5861,3 +5861,78 @@
 [2023-06-05 08:34:00] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
 [2023-06-05 08:34:05] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
 [2023-06-05 08:34:05] INFO root fetch - main [MainThread]: Store serial: [18372249]
+[2023-06-05 08:39:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18372249]
+[2023-06-05 08:39:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-05 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.static-website
+[2023-06-05 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-06-05 08:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jennifer-python
+[2023-06-05 08:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygame-ce
+[2023-06-05 08:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudproof-py
+[2023-06-05 08:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-code-outline
+[2023-06-05 08:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: influxdb-wrapper
+[2023-06-05 08:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: telegramweb
+[2023-06-05 08:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cekit
+[2023-06-05 08:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hh-ui-check
+[2023-06-05 08:39:15] INFO root fetch - processPackages [telegramweb]: New version: [4.8] Old Version: [4.7]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [hh-ui-check]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [jennifer-python]: New version: [5.6.1.9] Old Version: [5.6.1.8]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [pygame-ce]: New version: [2.3.0.dev4] Old Version: [2.3.0.dev2]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cloudproof-py]: New version: [4.0.0] Old Version: [3.1.0]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [influxdb-wrapper]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [python-code-outline]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-06-05 08:39:15] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-4.7.tar.gz tmp/telegramweb-4.8.tar.gz --markdown 20230605/t/telegramweb/4.7-4.8/diff.md --exclude *.pyd
+[2023-06-05 08:39:15] INFO root fetch - processPackages [hh-ui-check]: executing diffoscope
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cekit]: New version: [4.8.0] Old Version: [4.7.0]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [hh-ui-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hh_ui_check-0.1.1.tar.gz tmp/hh_ui_check-0.1.2.tar.gz --markdown 20230605/h/hh-ui-check/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-05 08:39:15] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-06-05 08:39:15] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230605/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-05 08:39:15] INFO root fetch - processPackages [pygame-ce]: Downloading https://files.pythonhosted.org/packages/33/b6/01cabea104345873d3de3f18b8b5114ad68d98c1bf6ce5b62ce4effa168b/pygame-ce-2.3.0.dev2.tar.gz
+[2023-06-05 08:39:15] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-06-05 08:39:15] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/84/e3/9c582270919735d5262b2290d99baeb712cc7d9389196c14973ee923780b/jennifer_python-5.6.1.8-py3-none-any.whl
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cloudproof-py]: Downloading https://files.pythonhosted.org/packages/18/e5/1fe61b4c846c14b6af5290448cb83c023fc7723dd4f88fd48e57ea210ffe/cloudproof_py-3.1.0-py3-none-any.whl
+[2023-06-05 08:39:15] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/47/7b/135047c856e2b37b12cc22c7b2c6ea0d008488ac013a727bf045199391a3/python_code_outline-0.1.2.tar.gz
+[2023-06-05 08:39:15] WARNING root fetch - processPackages [pygame-ce]: Skipping package: exceeds size limit 13768323>=10485760
+[2023-06-05 08:39:15] INFO root fetch - processPackages [pygame-ce]: Start processing: zhangjx
+[2023-06-05 08:39:15] INFO root fetch - main [MainThread]: End processing [pygame-ce] error
+[2023-06-05 08:39:15] INFO root fetch - processPackages [influxdb-wrapper]: Downloading https://files.pythonhosted.org/packages/35/04/7701f036b65c0b68509376ada448dee815184e0d0e3feef54b76a6585ce5/influxdb_wrapper-0.0.4.tar.gz
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cekit]: Downloading https://files.pythonhosted.org/packages/ba/7f/dd7920d941bdbc61e934c7350c1f635b102b44af47d2d0714d9709d5f5e0/cekit-4.7.0.tar.gz
+[2023-06-05 08:39:15] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/ef/72/fb6405cb01a983cd744df3e4f98953bdd1a2d654fc8352fd4825fb46602f/python_code_outline-0.1.3.tar.gz
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cloudproof-py]: Downloading https://files.pythonhosted.org/packages/b6/85/5c4ee37d450dd2ada7b320f1591e138d2f12b2fa338476bfbde6b1dffd6d/cloudproof_py-4.0.0-py3-none-any.whl
+[2023-06-05 08:39:15] WARNING root fetch - processPackages [zhangjx]: Skipping, unable to determine old version
+[2023-06-05 08:39:15] INFO root fetch - processPackages [zhangjx]: Start processing: cdk-events-notify
+[2023-06-05 08:39:15] INFO root fetch - main [MainThread]: End processing [zhangjx] error
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-05 08:39:15] INFO root fetch - processPackages [python-code-outline]: executing diffoscope
+[2023-06-05 08:39:15] INFO root fetch - processPackages [python-code-outline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_code_outline-0.1.2.tar.gz tmp/python_code_outline-0.1.3.tar.gz --markdown 20230605/p/python-code-outline/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cloudproof-py]: executing diffoscope
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cloudproof-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudproof_py-3.1.0-py3-none-any.whl.zip tmp/cloudproof_py-4.0.0-py3-none-any.whl.zip --markdown 20230605/c/cloudproof-py/3.1.0-4.0.0/diff.md --exclude *.pyd
+[2023-06-05 08:39:15] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cekit]: Downloading https://files.pythonhosted.org/packages/12/5f/8e50b5a84ed5b65035974bd6380f23a547f755774d3124acd4e33ad8282e/cekit-4.8.0.tar.gz
+[2023-06-05 08:39:15] INFO root fetch - processPackages [influxdb-wrapper]: Downloading https://files.pythonhosted.org/packages/be/fe/8f0a61f1447d046aade736289c4dd1b1e98937d021317a1940a2ff72ed7a/influxdb_wrapper-0.0.5.tar.gz
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cekit]: executing diffoscope
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cekit-4.7.0.tar.gz tmp/cekit-4.8.0.tar.gz --markdown 20230605/c/cekit/4.7.0-4.8.0/diff.md --exclude *.pyd
+[2023-06-05 08:39:15] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-06-05 08:39:15] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230605/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-06-05 08:39:15] INFO root fetch - processPackages [influxdb-wrapper]: executing diffoscope
+[2023-06-05 08:39:15] INFO root fetch - processPackages [influxdb-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb_wrapper-0.0.4.tar.gz tmp/influxdb_wrapper-0.0.5.tar.gz --markdown 20230605/i/influxdb-wrapper/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-05 08:39:15] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-06-05 08:39:16] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-06-05 08:39:16] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230605/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-05 08:39:16] INFO root fetch - main [MainThread]: End processing [hh-ui-check]: success
+[2023-06-05 08:39:16] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-06-05 08:39:16] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-06-05 08:39:16] INFO root fetch - main [MainThread]: End processing [python-code-outline]: success
+[2023-06-05 08:39:17] INFO root fetch - main [MainThread]: End processing [cloudproof-py]: success
+[2023-06-05 08:39:17] INFO root fetch - main [MainThread]: End processing [influxdb-wrapper]: success
+[2023-06-05 08:39:17] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-06-05 08:39:17] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/07/a3/c5a6f754fe4a116f0f354d41ce768809ca3ec12d6a074d85545c82764e47/jennifer_python-5.6.1.9-py3-none-any.whl
+[2023-06-05 08:39:17] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-06-05 08:39:18] INFO root fetch - processPackages [jennifer-python]: executing diffoscope
+[2023-06-05 08:39:18] INFO root fetch - processPackages [jennifer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230605:/home/abi/fetcher/20230605:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip --markdown 20230605/j/jennifer-python/5.6.1.8-5.6.1.9/diff.md --exclude *.pyd
+[2023-06-05 08:39:18] INFO root fetch - main [MainThread]: End processing [cekit]: success
+[2023-06-05 08:39:56] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
+[2023-06-05 08:39:56] INFO root fetch - main [MainThread]: Store serial: [18372321]
